@@ -1,4 +1,4 @@
-Elements for Describing a Location
+== Elements for Describing a Location
 
 In this section we discuss best practices for capturing and recording information so that it can be ¤<<georeference,georeferenced>>¤ and shared in the most productive and efficient way, following standard guidelines and methodologies. This will lead to improved consistency in recording, sharing, and use of data.
 

@@ -1,4 +1,4 @@
-**Introduction**
+== Introduction
 
 Throughout this document we make use of terminology for which the specific meaning has great importance for overall understanding, especially for terms that might differ from, or vary in common usage. We mark these key words in ¤bold¤, with a link to the glossary, to call attention to the specific meaning and avoid potential confusion. All terms so marked are defined in the <<Glossary>>.
 

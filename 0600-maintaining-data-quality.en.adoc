@@ -1,4 +1,4 @@
-**Maintaining Data Quality**
+== Maintaining Data Quality
 
 Data that have been incorporated into the database and ¤<<georeference,georeferenced>>¤ need to be maintained and checked for ¤<<data quality,quality>>¤. The ¤<<data quality,quality>>¤ checking process involves a number of steps, including receiving feedback from users, providing feedback to collectors, and running various validation tests. For more information on ¤<<data quality>>¤ and what it means for primary species collection data, see Chapman (2005b). Two major principles associated with ¤<<data quality>>¤ and data cleaning are:
 

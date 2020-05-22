@@ -1,4 +1,4 @@
-**Glossary**
+== Glossary
 
 The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020) and the _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2020). These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November, 2019), the ESRI Dictionary (as of November, 2019) (ESRI _n.dat._), and various articles within Kemp (2008).
 

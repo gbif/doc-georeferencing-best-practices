@@ -1,4 +1,4 @@
-**Collaborative Georeferencing**
+== Collaborative Georeferencing
 
 The characteristics that make a ¤<<georeference,georeferencing>>¤ project collaborative are the aggregation of occurrence records from multiple participating groups (_e.g._, datasets, collections, institutions), the extraction of distinct ¤<<locality,localities>>¤ as the actual target of ¤<<georeference,georeferencing>>¤, the standardization of the geography of the aggregated records to aid record grouping and assignment by geography.
 

@@ -1,4 +1,4 @@
-**The Georeferencing Process**
+== The Georeferencing Process
 
 ¤<<location,Locations>>¤ that are not fully ¤<<georeference,georeferenced>>¤ in the field may eventually have to be ¤<<georeference,georeferenced>>¤ __post-facto__ in order to be useful. One hopes in these situations that the collector of the original information followed best practices such as those described in the <<__*Elements for Describing a Location*__>>. As will be seen in <<__*3.4 Calculating Uncertainties*__>>, below, many of the greatest sources of ¤<<uncertainty>>¤ arise from missing, ambiguous, or non-specific information, which could have been avoided, but that can no longer be overcome without knowledge from someone who was there at the time the ¤<<event>>¤ occurred.
 
