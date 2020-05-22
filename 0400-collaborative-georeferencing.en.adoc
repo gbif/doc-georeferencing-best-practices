@@ -24,7 +24,7 @@ Collaborative ¤<<georeference,georeferencing>>¤, if done properly, can have de
 * Requires project-level management.
 * Requires a formalized validation process.
 
-One of the greatest impediments to effective collaborative ¤<<georeference,georeferencing>>¤, is the absence of tools to easily ¤<<repatriate>>¤ the ¤<<georeference,georeferenced>>¤ information back to the data sources (Barkwell and Murrell 2012, Grant __et al. __2018). A number of projects are working on this, especially GEOLocate (see, <<__*4.3 GEOLocate*__>>) in conjunction with the Symbiota platform (Gries _et al._ 2014). It is hoped that this document will provide consistency of methodology and documentation and lead to more collaborative ¤<<georeference,georeferencing>>¤.
+One of the greatest impediments to effective collaborative ¤<<georeference,georeferencing>>¤, is the absence of tools to easily ¤<<repatriate>>¤ the ¤<<georeference,georeferenced>>¤ information back to the data sources (Barkwell and Murrell 2012, Grant __et al. __2018). A number of projects are working on this, especially GEOLocate (see, <<GEOLocate>>) in conjunction with the Symbiota platform (Gries _et al._ 2014). It is hoped that this document will provide consistency of methodology and documentation and lead to more collaborative ¤<<georeference,georeferencing>>¤.
 
 Some organizations, such as https://digivol.ala.org.au/[_DigiVol_] (Australian Museum _n.dat._) and https://www.zooniverse.org/organizations/md68135/notes-from-nature[_Notes from Nature_] (Zooniverse _n.dat._) use crowdsourcing to ¤<<georeference>>¤, whereas projects like https://coge.geo-locate.org/[_CoGeo_] (part of GEOLocate, GEOLocate 2018), are more constrained in their participants.
 
