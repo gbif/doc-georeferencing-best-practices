@@ -1817,7 +1817,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤ground zero¤ — 🐉 the ¤<<location>>¤ on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<Figure 10>>.
 
-¤GUID¤ — see __<<**Globally Unique Identifier (GUID)>>**_._
+¤GUID¤ — see __¤<<Globally Unique Identifier (GUID)>>¤_._
 
 ¤heading¤ — compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with ¤<<offset>>¤ to give a distance and direction from a ¤<<feature>>¤.
 
