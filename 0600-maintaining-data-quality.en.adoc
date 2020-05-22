@@ -9,7 +9,7 @@ Data that have been incorporated into the database and ¤<<georeference,georefer
 [#Feedback-to-Collectors]
 === Feedback to Collectors
 
-Improving the ¤<<data quality,quality>>¤ of the data may require giving feedback to others. For example, if you find that a particular collector is not recording his collection information correctly (_e.g._, not recording the ¤<<datum>>¤ with the ¤<<coordinates,coordinate>>¤ information), then you need to provide feedback so that future records have a lower level of ¤<<uncertainty>>¤ and thus a higher <<data quality, *quality>>*. See the earlier chapter on <<__*Elements for Describing a Location*__>>. Key issues that may require feedback to collectors include:
+Improving the ¤<<data quality,quality>>¤ of the data may require giving feedback to others. For example, if you find that a particular collector is not recording his collection information correctly (_e.g._, not recording the ¤<<datum>>¤ with the ¤<<coordinates,coordinate>>¤ information), then you need to provide feedback so that future records have a lower level of ¤<<uncertainty>>¤ and thus a higher <<data quality, *quality>>*. See the earlier chapter on <<Elements for Describing a Location>>. Key issues that may require feedback to collectors include:
 
 * Making sure the ¤<<datum>>¤ or ¤<<coordinate reference system>>¤ is recorded with all ¤<<GPS>>¤ readings.
 * Encouraging consistent use of a standard ¤<<coordinate format>>¤ (_e.g._, encourage collectors to use ¤<<decimal degrees>>¤ wherever possible).

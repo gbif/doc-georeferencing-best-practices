@@ -207,7 +207,7 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 
 ¤uncertainty¤ — a measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (Cullen & Frey 1999). ¤<<georeferencing method,georeferencing methods>>¤ codify how to incorporate uncertainties from a variety of sources (including ¤<<accuracy>>¤ and ¤<<precision>>¤) in the interpretation of a ¤<<location>>¤. Compare ¤<<accuracy>>¤, ¤<<error>>¤, ¤<<bias>>¤, ¤<<precision>>¤, and ¤<<false precision>>¤.
 
-¤UTM¤ (Universal Transverse Mercator) — a standardized ¤<<coordinate system>>¤ based on a metric rectangular ¤<<grid>>¤ system and a division of the earth into sixty 6-degree longitudinal zones. The scope of ¤UTM¤ covers from 84° N to 80° S. (See <<__*2.4.2 Universal Transverse Mercator (UTM> Coordinates*__>>).
+¤UTM¤ (Universal Transverse Mercator) — a standardized ¤<<coordinate system>>¤ based on a metric rectangular ¤<<grid>>¤ system and a division of the earth into sixty 6-degree longitudinal zones. The scope of ¤UTM¤ covers from 84° N to 80° S. (See <<Universal Transverse Mercator (UTM) Coordinates>>).
 
 ¤vertical datum¤ — (also ¤<<height datum>>¤) is a reference surface for vertical positions, such as ¤<<elevation>>¤. *Vertical datums* fall into several categories, including: tidal, based on sea level; gravimetric, based on a ¤<<geoid>>¤; geodetic, based on ¤<<ellipsoid>>¤ models of the Earth; or local, based on a local reference surface.
 
