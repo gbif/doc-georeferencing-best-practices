@@ -664,7 +664,7 @@ Before beginning a ¤<<georeference,georeferencing>>¤ project, whether for an i
 
 The question, "When in the broader workflow will ¤<<georeference,georeferencing>>¤ happen?" is of particular significance. Is it best to ¤<<georeference>>¤ each record as you enter the data into the database? Or is it better to ¤<<georeference>>¤ in a batch after the data have been entered? There are arguments for each method, and again the circumstances of your institution should dictate the best method. If the data are stored taxonomically and not geographically (as is the case in the majority of instances) it is often best to ¤<<georeference>>¤ in a batch mode by sorting the ¤<<locality>>¤ data electronically, and in this way deal with many records on one map sheet or area at a time and not be jumping back and forth between map sheets. In other cases, there may be less wear and tear on collections, you may wish to database collections as they are received and before distributing duplicates, or sending on loan, or there may be other good practical reasons to ¤<<georeference>>¤ as you go. One advantage of ¤<<georeference,georeferencing>>¤ as you go is that you may be able to do all the collections of one collector at a time, and virtually follow his/her path, thus reducing errors from not knowing which of several ¤<<locality,localities>>¤ may be correct.
 
-This document does not cover methods of general data entry. There are many ways that this may be conducted: direct entry from the field notes, labels, or ledgers with the material brought to a data entry computer; direct entry where tablets or laptops are brought to the material; indirect entry after using scanning or photographic (still or video) equipment to capture the original information so that data entry can be done _post facto_ from images, including handwriting and OCR tools, or crowdsourcing (_e.g._, https://digivol.ala.org.au/[_DigiV_]ol (Australian Museum __n.dat., __see <<__*4.1 DigiVol*__>>), https://www.zooniverse.org/organizations/md68135/notes-from-nature[_Notes from Nature_] (Zooniverse __n.dat., __see <<__*4.2 Notes from Nature*__>>) to capture the data. Some of these methods are just becoming practical, but you should make an active decision on the method that best suits the needs of your project. Remember, that at the same time as digitizing is being done, and each specimen is being handled, it is a good time to consider other actions. These may not be only ¤<<georeference,georeferencing>>¤ (which we do not recommend for the sake of efficiency), but might also include such things as assigning <<Persistent Identifier (PID),*persistent identifiers>>* (**PID**s) <<__*1.9 Persistent Identifiers (PIDS)*__>> and barcoding specimens, and linking these to the database to save resources further down the line.
+This document does not cover methods of general data entry. There are many ways that this may be conducted: direct entry from the field notes, labels, or ledgers with the material brought to a data entry computer; direct entry where tablets or laptops are brought to the material; indirect entry after using scanning or photographic (still or video) equipment to capture the original information so that data entry can be done _post facto_ from images, including handwriting and OCR tools, or crowdsourcing (_e.g._, https://digivol.ala.org.au/[_DigiV_]ol (Australian Museum __n.dat., _see_ <<*4.1 DigiVol*__>>), https://www.zooniverse.org/organizations/md68135/notes-from-nature[_Notes from Nature_] (Zooniverse __n.dat., _see_ <<*4.2 Notes from Nature*__>>) to capture the data. Some of these methods are just becoming practical, but you should make an active decision on the method that best suits the needs of your project. Remember, that at the same time as digitizing is being done, and each specimen is being handled, it is a good time to consider other actions. These may not be only ¤<<georeference,georeferencing>>¤ (which we do not recommend for the sake of efficiency), but might also include such things as assigning <<Persistent Identifier (PID),*persistent identifiers>>* (**PID**s) <<__*1.9 Persistent Identifiers (PIDS)*__>> and barcoding specimens, and linking these to the database to save resources further down the line.
 
 It is also important that the long-term maintenance of the data is considered early in the process. Things like; "How are we going to deal with corrections to the data?, How do we handle feedback on ¤<<data quality>>¤ from data aggregators, data users, etc.?, Do we have a process in place for documenting changes to the data?, and Have we budgeted sufficient resources for ongoing maintenance and ¤<<data quality>>¤ checking?
 
@@ -1663,7 +1663,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤bounding box¤ — an area defined by the ¤<<coordinates>>¤ of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
 
-¤clause¤ — __see __<<**locality clause>>. **
+¤clause¤ — _see_ <<**locality clause>>. **
 
 ¤coordinate format¤ — the format in which ¤<<coordinates>>¤ are encoded, such as "¤<<decimal degrees>>¤", "¤<<DMS,degrees minutes seconds>>¤", "degrees decimal minutes", or ¤<<UTM>>¤.
 
@@ -1695,7 +1695,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤declination¤ — see __¤<<magnetic declination>>¤.
 
-**DEM— **__see __¤<<digital elevation model>>¤.
+¤DEM¤ — see_ ¤<<digital elevation model>>¤.
 
 ¤depth¤ — a measurement of the vertical distance below a ¤<<vertical datum>>¤. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare ¤<<distance above surface>>¤. **Depth** is always a non-negative number.
 
@@ -1767,7 +1767,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤georeferencing protocol¤ — the documented specific steps to apply to a ¤<<locality>>¤, based on the ¤<<locality type>>¤, to produce a particular type of spatial representation.
 
-¤GIS¤ — __see <<__**geographic information system (GIS)>>**.
+¤GIS¤ — _see_ <<**geographic information system (GIS)>>**.
 
 *Globally Unique Identifier (GUID) —* a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also ¤<<Persistent Identifier (PID)>>¤.
 
@@ -1807,7 +1807,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤meridian¤ — a line on the surface of the earth where all of the ¤<<location,locations>>¤ have the same ¤<<longitude>>¤. Compare ¤<<antimeridian>>¤ and¤<< prime meridian>>¤.
 
-¤named place¤ — __see __<<*feature>>*. Note that "named place" was used in some earlier ¤<<georeference,georeferencing>>¤ documents.
+¤named place¤ — _see_ <<*feature>>*. Note that "named place" was used in some earlier ¤<<georeference,georeferencing>>¤ documents.
 
 ¤northing¤ — within a ¤<<coordinate reference system>>¤ (_e.g._, as provided by a ¤<<GPS>>¤ or a map ¤<<grid>>¤ reference system), the line representing northward distance from a reference ¤<<latitude>>¤.
 
