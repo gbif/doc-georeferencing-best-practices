@@ -296,7 +296,7 @@ Most terrestrial ¤<<location,locations>>¤ are recorded with reference to the t
 
 image:img/Pictures/100002010000021800000124610F5CF49CEB08C3.png[image,width=511,height=278]
 
-*Figure 7.* Recording the ¤<<location>>¤ of an underwater ¤<<event>>¤. '*E*' denotes ¤<<entry point>>¤, the surface ¤<<location>>¤ at which the ¤<<geographic coordinates>>¤ are recorded. '*x*' is the water ¤<<depth>>¤, '*y*' is the horizontal ¤<<offset>>¤ (distance and direction) from '*E*' to the center of the ¤<<location>>¤. <<extent,*Extent>> *'*e*' is the three-dimensional ¤<<location>>¤ covered by the ¤<<event>>¤. The ¤<<corrected center>>¤ '*cc*' is the point within the 3D shape that minimizes the length of the <<**geographic radial** >>'*gr*'. Minimum ¤<<depth>>¤ '*d1*' and maximum ¤<<depth>>¤ '*d2*' are the upper and lower limits of the ¤<<location>>¤.
+*Figure 7.* Recording the ¤<<location>>¤ of an underwater ¤<<event>>¤. '*E*' denotes ¤<<entry point>>¤, the surface ¤<<location>>¤ at which the ¤<<geographic coordinates>>¤ are recorded. '*x*' is the water ¤<<depth>>¤, '*y*' is the horizontal ¤<<offset>>¤ (distance and direction) from '*E*' to the center of the ¤<<location>>¤. <<extent,*Extent>> *'*e*' is the three-dimensional ¤<<location>>¤ covered by the ¤<<event>>¤. The ¤<<corrected center>>¤ '*cc*' is the point within the 3D shape that minimizes the length of the ¤<<geographic radial>>¤ '*gr*'. Minimum ¤<<depth>>¤ '*d1*' and maximum ¤<<depth>>¤ '*d2*' are the upper and lower limits of the ¤<<location>>¤.
 
 🐠There are many different types of trawls and tows, including bottom and mid-water trawls. The 3D nature should be captured as above. The geographic reference points would be line segments tracing the route of the trawl, and would be more akin to ¤<<path,paths>>¤ and captured as a ¤<<shape>>¤ as described above under <<__*2.3.2 Paths*__>>.
 
@@ -1831,7 +1831,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤locality type¤ — a category applied to a ¤<<locality clause>>¤ that determines the specific ¤<<georeferencing method>>¤ that should be applied.
 
-¤location¤ — a physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language ¤<<locality>>¤ description. In ¤<<georeference,georeferencing>>¤, a **location** can have distinct representations based on distinct <<**rules of interpretatio**n>>, each of which is embodied in a ¤<<georeferencing method>>¤.
+¤location¤ — a physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language ¤<<locality>>¤ description. In ¤<<georeference,georeferencing>>¤, a **location** can have distinct representations based on distinct ¤<<rules of interpretation>>¤, each of which is embodied in a ¤<<georeferencing method>>¤.
 
 ¤longitude¤ — the angular distance of a point east or west of a ¤<<prime meridian>>¤ at a given ¤<<latitude>>¤.
 
