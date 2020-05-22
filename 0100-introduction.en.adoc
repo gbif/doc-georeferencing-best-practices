@@ -61,9 +61,9 @@ This document is one of three that cover recommended requirements and methods to
 
 These documents DO NOT provide guidance on georectifying images or ¤<<geocode,geocoding>>¤ street addresses.
 
-The accompanying _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020) provides a practical how-to guide for putting the theory of the ¤<<shape>>¤,* <<bounding box>>*, and ¤<<point-radius>>¤ ¤<<georeferencing method,georeferencing methods>>¤ into practice. The _*Georeferencing Quick Reference Guide*_ relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<__*3.4.8 Using the Georeferencing Quick Reference Guide*__>>
+The accompanying _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020) provides a practical how-to guide for putting the theory of the ¤<<shape>>¤,* <<bounding box>>*, and ¤<<point-radius>>¤ ¤<<georeferencing method,georeferencing methods>>¤ into practice. The _*Georeferencing Quick Reference Guide*_ relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>
 
-The _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2020) is a browser-based javascript application that aids in ¤<<georeference,georeferencing>>¤ descriptive ¤<<locality,localities>>¤ and provides methods to help obtain ¤<<geographic coordinates>>¤ and ¤<<uncertainty,uncertainties>>¤ for ¤<<location,locations>>¤ (see <<__*3.4.9 Using the Georeferencing Calculator*__>>
+The _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2020) is a browser-based javascript application that aids in ¤<<georeference,georeferencing>>¤ descriptive ¤<<locality,localities>>¤ and provides methods to help obtain ¤<<geographic coordinates>>¤ and ¤<<uncertainty,uncertainties>>¤ for ¤<<location,locations>>¤ (see <<Using the Georeferencing Calculator>>
 
 [#Constraints]
 === Constraints
@@ -89,7 +89,7 @@ Constraints to using this document may arise because of:
 The following are principles of best practice that should be applied to ¤<<georeference,georeferencing>>¤:
 
 * ¤<<accuracy,Accuracy>>¤ – a measure of how well the data represent the truth, for example, how well is the true ¤<<location>>¤ of the target of an observation, collecting, or sampling ¤<<event>>¤ represented in a ¤<<georeference>>¤. This includes considerations taken both at the moment when the location was recorded and when it was ¤<<georeference,georeferenced>>¤. Note that careless lack of ¤<<precision>>¤ will have an adverse effect on ¤<<accuracy>>¤ (see <<__*1.6 Accuracy, Error, Bias, Precision, False Precision, and Uncertainty>>*__).
-* *Effectiveness* – the likelihood that a work program achieves its desired objectives. For example, the percentage of records for which the ¤<<coordinates>>¤ and ¤<<uncertainty>>¤ can be ¤<<accuracy,accurately>>¤ identified and calculated (see <<__*6.8 Index of Spatial Uncertainty*__>>).
+* *Effectiveness* – the likelihood that a work program achieves its desired objectives. For example, the percentage of records for which the ¤<<coordinates>>¤ and ¤<<uncertainty>>¤ can be ¤<<accuracy,accurately>>¤ identified and calculated (see <<Index of Spatial Uncertainty>>).
 * *Efficiency* – the relative effort needed to produce an acceptable output, including the effort to assemble and use external input data (_e.g._, ¤<<gazetteer,gazetteers>>¤, collectors’ itineraries, etc.).
 * *Reliability* – the relative confidence in the repeatability or consistency with which information was produced and recorded. The reliability of sources and methods that can affect the ¤<<accuracy>>¤ of the results.
 * *Accessibility* – the relative ease with which users can find and use information in all of the senses supported by FAIR principles (Wilkinson _et al._ 2016) of data being Findable, Accessible, Interoperable, and Reusable.

@@ -189,7 +189,7 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 
 ¤rules of interpretation¤ — a documented set of steps to take in order to produce a standardized representation of source information.
 
-¤SBAS¤ (Satellite Based Augmentation System) — is a civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<__*2.6.4 Satellite Based Augmentation System*__>>).
+¤SBAS¤ (Satellite Based Augmentation System) — is a civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<Satellite Based Augmentation System>>).
 
 ¤shape¤ — synonym of ¤<<footprint>>¤. A representation of the ¤<<geographic component>>¤ of a ¤location¤ as a ¤<<geometry>>¤. The result of a ¤<<shape georeferencing method>>¤ includes a shape as the ¤<<geographic component>>¤ of the ¤<<georeference>>¤, which contains the set of all possible ¤<<geographic coordinates>>¤ where a ¤<<location>>¤ might be interpreted to be. This representation encompasses all of the geographical ¤<<uncertainties>>¤ within the ¤<<geometry>>¤ given. The *shape* ¤<<georeferencing method,method>>¤ uses ranges to represent the non-geographic descriptors of the ¤<<location>>¤ (¤<<elevation>>¤, ¤<<water depth>>¤, <¤<<distance above surface>>¤).
 
