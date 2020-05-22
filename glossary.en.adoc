@@ -71,7 +71,7 @@ declination:: _see_ **<<magnetic declination>>**.
 
 [[ellipsoid]]ellipsoid:: a three-dimensional, closed geometric **<<shape>>**, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
 
-[[entry-point]]entry point:: 🐠 the entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<Figure 7>>.
+[[entry-point]]entry point:: {marine} the entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<Figure 7>>.
 
 [[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference **<<spatial reference system,spatial reference systems>>**. The EPSG Geodetic Parameter Dataset (IOPG 2019) is a collection of definitions of **<<coordinate reference system,coordinate reference systems>>** (including **<<datum,datums>>**) and **<<coordinates,coordinate>>** transformations which may be global, regional, national or local in application.
 
@@ -137,7 +137,7 @@ GIS:: _see_ **<<geographic-information-system>>**.
 
 [[grid]]grid:: a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as **<<UTM>>** grid.
 
-[[ground-zero]]ground zero:: 🐉 the **<<location>>** on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<Figure 10>>.
+[[ground-zero]]ground zero:: {caves} the **<<location>>** on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See xref:img-vertical-position-in-a-cave[xrefstyle="short"].
 
 [[GUID]]GUID:: _see_ **<<Globally Unique Identifier (GUID)>>**.
 
