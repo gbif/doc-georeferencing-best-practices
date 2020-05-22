@@ -240,7 +240,7 @@ If the ¤<<locality>>¤ is recorded as the center of the ¤<<transect>>¤ and ha
 
 Not all linear-based ¤<<location,locations>>¤ are ¤<<transect,transects>>¤ or straight lines. We use the term ¤<<path>>¤ to highlight this broader concept. Illustrative examples are: _ad-hoc_ observations while walking along a trail, an inventory or count of species while travelling along a river, tracking an individual animal’s movements. 🐠Marine ¤<<transect,transects>>¤, tracks, tows, and trawls, are further examples. ¤<<path,Paths>>¤ should be described using <<shape,*shapes>> *(see discussion under <<__*3.3.4 Shape method*__>>) as connected line segments (a polygonal chain), with the ¤<<coordinates>>¤ of the starting point followed by the ¤<<coordinates>>¤ of each segment beginning and finishing with the end point. One simple way to store and share these is through https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry[_Well-Known Text_] (WKT, ISO 2016) (De Pooter, _et al._ 2017, OBIS _n.dat._, W.Appeltans, _pers. comm._ 15 Apr. 2019).
 
-To determine the ¤<<uncertainty>>¤ of a described ¤<<path>>¤ using the ¤<<point-radius>> <<georeferencing method>>¤, one needs to determine the ¤<<corrected center>>¤ - _i.e.,_ the point on the ¤<<path>>¤ that describes the ¤<<smallest enclosing circle>>¤ that includes the totality of the ¤<<path>>¤ ("c" on <<Figure 3>>). This is very seldom the same place as the center of a line joining the two ends of the ¤<<path>>¤ ("y" on <<Figure 3>>), nor the center of the extremes of ¤<<latitude>>¤ and ¤<<longitude>>¤ (the <<**geographic center>>) **of the ¤<<path>>¤ ("x" on <<Figure 3>>)*.*
+To determine the ¤<<uncertainty>>¤ of a described ¤<<path>>¤ using the ¤<<point-radius>> <<georeferencing method>>¤, one needs to determine the ¤<<corrected center>>¤ - _i.e.,_ the point on the ¤<<path>>¤ that describes the ¤<<smallest enclosing circle>>¤ that includes the totality of the ¤<<path>>¤ ("c" on <<Figure 3>>). This is very seldom the same place as the center of a line joining the two ends of the ¤<<path>>¤ ("y" on <<Figure 3>>), nor the center of the extremes of ¤<<latitude>>¤ and ¤<<longitude>>¤ (the ¤<<geographic center>>¤) of the ¤<<path>>¤ ("x" on <<Figure 3>>)*.*
 
 image:img/Pictures/10000201000000FB000000EA3EFF1956D95523CB.png[image,width=251,height=233]
 
@@ -1669,7 +1669,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤coordinate precision¤ — the fraction of a degree corresponding to the number of significant digits in the source ¤<<coordinates>>¤. For example, if the ¤<<coordinates>>¤ are reported to the nearest minute, the ¤<<precision>>¤ is 1/3600^th^ (0.00027778) of a degree; if a ¤<<decimal degree>>¤ is reported to two decimal places, the ¤<<precision>>¤ is 0.01 of a degree.
 
-¤coordinate reference system¤ — (also <<**spatial reference system>>) **a ¤<<coordinate system>>¤ defined in relation to a standard reference or ¤<<datum>>¤.* *
+¤coordinate reference system¤ — (also ¤<<spatial reference system>>¤) a ¤<<coordinate system>>¤ defined in relation to a standard reference or ¤<<datum>>¤.* *
 
 ¤coordinate system¤ — a geometric system that defines the nature and relationship of the ¤<<coordinates>>¤ it uses to uniquely define positions. Examples include the ¤<<geographic coordinate system>>¤ and the ¤<<UTM>>¤ ¤<<coordinate system>>¤.
 
