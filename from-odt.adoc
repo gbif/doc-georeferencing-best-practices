@@ -137,7 +137,7 @@ In addition, an effective best practices document should:
 
 [[anchor-13]]1.6 Accuracy, Error, Bias, Precision, False Precision, and Uncertainty
 
-There is often confusion around what is meant by ¤<<accuracy>>¤, ¤<<error>>¤, ¤<<bias>>¤, <<**precision>>, <<false precision>>, **and** <<uncertainty>>**. In addition to the following paragraphs, refer to the definitions in the <<__*Glossary>>*__ and Chapman (2005a). All of these concepts are relevant to measurements.
+There is often confusion around what is meant by ¤<<accuracy>>¤, ¤<<error>>¤, ¤<<bias>>¤, <<**precision>>, <<false precision>>, **and ¤<<uncertainty>>¤. In addition to the following paragraphs, refer to the definitions in the <<__*Glossary>>*__ and Chapman (2005a). All of these concepts are relevant to measurements.
 
 ¤<<accuracy,Accuracy>>¤, <<**error>>,** and ¤<<bias>>¤ all relate directly to estimates of true values. The closer a statement (_e.g._, a measurement) is to the true value, the more ¤<<accuracy,accurate>>¤ it is. ¤<<error,Error>>¤ is a measure of <<**accuracy>> - **the difference between an estimated value and the true value. The more ¤<<accuracy,accurate>>¤ an estimate, the smaller the ¤<<error>>¤. ¤<<bias,Bias>>¤ is a measurement of the average systematic ¤<<error>>¤ in a set of measurements. ¤<<bias,Bias>>¤ often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more ¤<<accuracy,accurate>>¤.
 
@@ -322,7 +322,7 @@ TIP: <<decimal degrees,_*Decimal degrees>> are preferred when capturing <<coordi
 
 *<<latitude,Latitude>>* bands are not officially part of ¤<<UTM>>¤, but are used in the Military Grid Reference System (MGRS). They are used in many applications, including in Google Earth™. Each zone is subdivided into 20 ¤<<latitude,latitudinal>>¤ bands, with letters used from South to North starting with "C" at 80°S to "X" (stretched by an extra 4 degrees) at 72°N (to 84°N) and omitting "O". All letters below "N" are in the southern hemisphere, "N" and above are in the northern hemisphere. When using ¤<<latitude,latitudinal>>¤ bands, "north" and "south" need to be spelled out to avoid confusion with the ¤<<latitude,latitudinal>>¤ bands of "N" and "S" respectively. Using the ¤<<latitude,latitudinal>>¤ band method, the <<c**oordinates>>** for Big Ben would be: 30T 699582m east 5709431m north.
 
-National and local ¤<<grid>>¤ systems derived from ¤<<UTM>>¤, but which may be based on different ¤<<ellipsoid,ellipsoids>>¤ and ¤<<datum,datums>>¤, are basically used in the same way as** <<UTM>>**s. For example, the Map Grid of Australia (MGA2020) uses ¤<<UTM>>¤ with the GRS80 ¤<<ellipsoid>>¤ and Geocentric Datum of Australia (GDA2020) (Geoscience Australia 2019b). An example of a ¤<<location>>¤ in MGA2020 is "MGA Zone 56, x: 301545 y: 7011991"
+National and local ¤<<grid>>¤ systems derived from ¤<<UTM>>¤, but which may be based on different ¤<<ellipsoid,ellipsoids>>¤ and ¤<<datum,datums>>¤, are basically used in the same way as ¤<<UTM>>¤s. For example, the Map Grid of Australia (MGA2020) uses ¤<<UTM>>¤ with the GRS80 ¤<<ellipsoid>>¤ and Geocentric Datum of Australia (GDA2020) (Geoscience Australia 2019b). An example of a ¤<<location>>¤ in MGA2020 is "MGA Zone 56, x: 301545 y: 7011991"
 
 When recording a ¤<<location>>¤, or databasing using ¤<<UTM>>¤ or equivalent ¤<<coordinates>>¤, a zone should ALWAYS be included; otherwise the data are of little or no value when used outside that zone, and certainly of little use when combined with data from other zones. Zones are often not reported where a region (_e.g._, Tasmania) falls completely within one ¤<<UTM>>¤ zone. This is OK while the database remains regional, but is not suitable for exchange outside of the zone. When exporting data from databases like these, the region’s zone should be added prior to export or transfer. Better still, modify the database so that the zone remains with the ¤<<coordinates>>¤.
 
@@ -460,7 +460,7 @@ In 2022, the USA will release a new geometric reference frame and geopotential �
 
 [[anchor-58]]2.7.6 Smartphones
 
-Some smartphones, whether they incorporate ¤<<GPS>>¤ capabilities or not, use apps that provide ¤<<elevation>>¤ values based on a ¤<<digital elevation model,DEM>>¤. With smartphone ¤<<GPS>>¤ apps, be aware that some devices and apps incorrectly record the method used. The ¤<<uncertainty>>¤ in ¤<<elevation>>¤ due to an unknown ¤<<elevation>>¤ source can be up to 100 m. For example, the difference with <<**datum>> <<WGS84>> **between the ¤<<ellipsoid>>¤ and ¤<<geoid>>¤ or ¤<<mean sea level>>¤ methods of reporting ¤<<elevation>>¤ is shown in <<Figure 8>>. Note also that these ¤<<uncertainty,uncertainties>>¤ are in addition to the ¤<<uncertainty,uncertainties>>¤ associated with the measurements themselves. The only true way of determining what your ¤<<GPS>>¤ receiver or smartphone is recording is to test it against a known ¤<<elevation>>¤. Some preliminary studies by the authors show <<**elevation>> <<accuracy>> **from** <<smartphones>>** varies greatly in different areas of the world. In areas in the USA, Europe, Australia, Japan, etc. (where most published results are from) ¤<<error,errors>>¤ are generally within 10 meters or so, but in more remote areas (such as on a remote island in Fiji), ¤<<error,errors>>¤ in the order of +/- 60 meters are not uncommon. Using two different mobile applications at sea level at one location resulted in reported ¤<<elevation,elevations>>¤ from -24 m to +58.9 m. These studies are preliminary and more research is needed in different areas of the world.
+Some smartphones, whether they incorporate ¤<<GPS>>¤ capabilities or not, use apps that provide ¤<<elevation>>¤ values based on a ¤<<digital elevation model,DEM>>¤. With smartphone ¤<<GPS>>¤ apps, be aware that some devices and apps incorrectly record the method used. The ¤<<uncertainty>>¤ in ¤<<elevation>>¤ due to an unknown ¤<<elevation>>¤ source can be up to 100 m. For example, the difference with <<**datum>> <<WGS84>> **between the ¤<<ellipsoid>>¤ and ¤<<geoid>>¤ or ¤<<mean sea level>>¤ methods of reporting ¤<<elevation>>¤ is shown in <<Figure 8>>. Note also that these ¤<<uncertainty,uncertainties>>¤ are in addition to the ¤<<uncertainty,uncertainties>>¤ associated with the measurements themselves. The only true way of determining what your ¤<<GPS>>¤ receiver or smartphone is recording is to test it against a known ¤<<elevation>>¤. Some preliminary studies by the authors show <<**elevation>> <<accuracy>> **from ¤<<smartphones>>¤ varies greatly in different areas of the world. In areas in the USA, Europe, Australia, Japan, etc. (where most published results are from) ¤<<error,errors>>¤ are generally within 10 meters or so, but in more remote areas (such as on a remote island in Fiji), ¤<<error,errors>>¤ in the order of +/- 60 meters are not uncommon. Using two different mobile applications at sea level at one location resulted in reported ¤<<elevation,elevations>>¤ from -24 m to +58.9 m. These studies are preliminary and more research is needed in different areas of the world.
 
 image:img/Pictures/100002010000063400000442B9515BBA54622605.png[image,width=503,height=345]
 
@@ -536,7 +536,7 @@ A study of 47 brands of dive computers at ¤<<depth,depths>>¤ of 10 m, 20 m, 
 
 ¤<<distance above surface,Distance above surface>>¤ should be recorded in meters in a vertical direction from a reference point, with a minimum and a maximum distance to cover a range. Examples include the height above the ground of a soaring eagle, the distance up a tree from the ground (height), and the distance from the top of a vertical core sample to a diatom sample found in that core.
 
-The reference point for the measurement of a ¤<<distance above surface>>¤ can vary depending on the context. For surface terrestrial locations, the reference point should be the ¤<<elevation>>¤ at ground level. For water bodies (🐠ocean, sea, lake, river, etc.), the reference point for aerial locations should be the ¤<<elevation>>¤ of the air-water interface, while the reference point for 🐠sub-surface benthic locations should be the bottom of the water body at that ¤<<location>>¤. <<location,**Locations> **within the water body should use water** <<depth>>** and should not use any other distance above a surface.
+The reference point for the measurement of a ¤<<distance above surface>>¤ can vary depending on the context. For surface terrestrial locations, the reference point should be the ¤<<elevation>>¤ at ground level. For water bodies (🐠ocean, sea, lake, river, etc.), the reference point for aerial locations should be the ¤<<elevation>>¤ of the air-water interface, while the reference point for 🐠sub-surface benthic locations should be the bottom of the water body at that ¤<<location>>¤. <<location,**Locations> **within the water body should use water ¤<<depth>>¤ and should not use any other distance above a surface.
 
 We recommend that ¤<<distance above surface>>¤ always be measured in the same sense, that is, as distances _above_ the reference surface. Distances above a reference point should be expressed as positive numbers, while those below should be negative. This is analogous to ¤<<elevation>>¤, which is positive when expressing a distance above ¤<<mean sea level>>¤ and negative below that reference point. The maximum ¤<<distance above surface>>¤ will always be a number greater than or equal to the minimum distance above that surface for a given ¤<<location>>¤ (see <<Figure 9>>).
 
@@ -603,7 +603,7 @@ In many of these examples, the count of the number of individuals within an area
 
 [[anchor-80]]2.16 Data for Small Labels
 
-An issue that often arises with insect collections is the challenge of recording ¤<<locality>>¤ information on small labels. This should not be as big an issue as previously, because new technologies allow for linking information on the label to a database (through barcodes, or QR codes, etc.) with the recording of only basic information on the label. See Wheeler _et al._ (2001) on guidelines for preparing labels for terrestrial arthropods, but bear in mind the principles laid out in this document when preparing data for insect labels, especially the recording of <<**datum>>, <<coordinate reference system>> **or** <<EPSG>>** codes, etc., which are not covered by Wheeler _et al._
+An issue that often arises with insect collections is the challenge of recording ¤<<locality>>¤ information on small labels. This should not be as big an issue as previously, because new technologies allow for linking information on the label to a database (through barcodes, or QR codes, etc.) with the recording of only basic information on the label. See Wheeler _et al._ (2001) on guidelines for preparing labels for terrestrial arthropods, but bear in mind the principles laid out in this document when preparing data for insect labels, especially the recording of <<**datum>>, <<coordinate reference system>> **or ¤<<EPSG>>¤ codes, etc., which are not covered by Wheeler _et al._
 
 [[anchor-81]]2.17 Documentation
 
@@ -1328,7 +1328,7 @@ Some 🐠marine ¤<<locality,localites>>¤ can also provide difficulties - for e
 
 ¤<<spatial fit,Spatial fit>>¤ is a ¤<<georeference,georeferencing>>¤ concept designed to measure how well a given geometric representation matches the original spatial representation. This is useful when spatial transformations change the way a ¤<<locality>>¤ is represented, either to mask its detail, or to match an agreed upon schema for data sharing (such as fitting ¤<<location,locations>>¤ to a ¤<<grid>>¤ cell).
 
-A** <<spatial fit>>** with a value of "1" is an exact match or 100% overlap. If the ¤<<geometry>>¤ given does not completely encompass the original spatial representation, then the ¤<<spatial fit>>¤ is zero (_i.e._, some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed shape does completely encompass the original spatial representation, then the value of the ¤<<spatial fit>>¤ is the ratio of the area of the transformed ¤<<geometry>>¤ to the area of the original spatial representation. Special case: If the original spatial representation is a point and the ¤<<geometry>>¤ presented is not a point, then the ¤<<spatial fit>>¤ is undefined. The range of values of ¤<<spatial fit>>¤ is 0, 1, greater than 1, or undefined (see <<Figure 14>> and <<Table 6,Tables 6>>, <<Table 7,7>>, <<Table 8,8>>, and <<Table 9,9>>).
+A ¤<<spatial fit>>¤ with a value of "1" is an exact match or 100% overlap. If the ¤<<geometry>>¤ given does not completely encompass the original spatial representation, then the ¤<<spatial fit>>¤ is zero (_i.e._, some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed shape does completely encompass the original spatial representation, then the value of the ¤<<spatial fit>>¤ is the ratio of the area of the transformed ¤<<geometry>>¤ to the area of the original spatial representation. Special case: If the original spatial representation is a point and the ¤<<geometry>>¤ presented is not a point, then the ¤<<spatial fit>>¤ is undefined. The range of values of ¤<<spatial fit>>¤ is 0, 1, greater than 1, or undefined (see <<Figure 14>> and <<Table 6,Tables 6>>, <<Table 7,7>>, <<Table 8,8>>, and <<Table 9,9>>).
 
 An example of the applicability of the ¤<<spatial fit>>¤ is where a point representing a terrestrial collection lies close to the coast, and the calculated ¤<<uncertainty>>¤ ¤<<radial,radius>>¤ encompasses some 🐠marine area. In this case the ¤<<spatial fit>>¤ would be greater than 1 as it represents an area greater than the real ¤<<uncertainty>>¤ (<<Figure 15>>). ¤<<spatial fit,Spatial fit>>¤ is also a valuable measure for describing the degree of ¤<<generalization>>¤ of a sensitive species, for example see <<__*5.2 Generalizing Georeferences for Sensitive Taxa and Locations*__>> and Chapman (2020).
 
@@ -1469,7 +1469,7 @@ The ¤<<Darwin Core>>¤ (denoted with the abbreviated namespace _*dwc*_) <<geore
 * http://rs.tdwg.org/dwc/terms/#georeferencedBy[_*dwc:georeferencedBy*_]__ __*—*__ __who is responsible for the ¤<<georeference>>¤ as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it
 * http://rs.tdwg.org/dwc/terms/#georeferencedDate[_*dwc:georeferencedDate*_]__ __*—*__ __the date on which the data in the ¤<<georeference>>¤ fields reached their current state
 
-* http://rs.tdwg.org/dwc/terms/#georeferenceProtocol[_*dwc:georeferenceProtocol*_]__ __*—*__ __a citation of a published set of rules used to determine a** <<georeference>>**. For example, "_*Georeferencing Quick Reference Guide*_ Version 2019-11-08". Any deviations from the cited protocol should be noted in _*dwc:georeferenceRemarks*_
+* http://rs.tdwg.org/dwc/terms/#georeferenceProtocol[_*dwc:georeferenceProtocol*_]__ __*—*__ __a citation of a published set of rules used to determine a ¤<<georeference>>¤. For example, "_*Georeferencing Quick Reference Guide*_ Version 2019-11-08". Any deviations from the cited protocol should be noted in _*dwc:georeferenceRemarks*_
 
 * http://rs.tdwg.org/dwc/terms/#georeferenceSources[_*dwc:georeferenceSources*_]__ __— a__ __list of maps, ¤<<gazetteer,gazetteers>>¤, or other resources used to ¤<<georeference>>¤ the <<**locality>>.** Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad; Terrametrics 2008, Google Earth™".
 
@@ -1705,7 +1705,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤coordinate precision¤ — the fraction of a degree corresponding to the number of significant digits in the source ¤<<coordinates>>¤. For example, if the ¤<<coordinates>>¤ are reported to the nearest minute, the ¤<<precision>>¤ is 1/3600^th^ (0.00027778) of a degree; if a ¤<<decimal degree>>¤ is reported to two decimal places, the ¤<<precision>>¤ is 0.01 of a degree.
 
-¤coordinate reference system¤ — (also <<**spatial reference system>>) **a** <<coordinate system>>** defined in relation to a standard reference or ¤<<datum>>¤.* *
+¤coordinate reference system¤ — (also <<**spatial reference system>>) **a ¤<<coordinate system>>¤ defined in relation to a standard reference or ¤<<datum>>¤.* *
 
 ¤coordinate system¤ — a geometric system that defines the nature and relationship of the ¤<<coordinates>>¤ it uses to uniquely define positions. Examples include the ¤<<geographic coordinate system>>¤ and the ¤<<UTM>>¤ ¤<<coordinate system>>¤.
 
@@ -1771,7 +1771,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤geocode¤ — the process (verb) or product (noun) of determining the ¤<<coordinates>>¤ for a street address. It is also sometimes used as a synonym for ¤<<georeference>>¤.
 
-¤geodetic coordinate reference system¤ — a** <<coordinate reference system>>** based on a ¤<<geodetic datum>>¤, used to describe positions on the surface of the earth.
+¤geodetic coordinate reference system¤ — a ¤<<coordinate reference system>>¤ based on a ¤<<geodetic datum>>¤, used to describe positions on the surface of the earth.
 
 ¤geodetic datum¤ — a mathematical model that uses a reference ¤<<ellipsoid>>¤ to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of ¤<<coordinate system,coordinate systems>>¤ on that surface.
 
@@ -1781,9 +1781,9 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤geographic component¤ — the part of a description of a ¤<<location>>¤ that consists of ¤<<geographic coordinates>>¤ and associated ¤<<uncertainty>>¤. Non-geographic components of a ¤<<location>>¤ description include ¤<<elevation>>¤, ¤<<depth>>¤, and ¤<<distance above surface>>¤.
 
-¤geographic coordinate system¤ — a** <<coordinate system>>** that uses ¤<<geographic coordinates>>¤.
+¤geographic coordinate system¤ — a ¤<<coordinate system>>¤ that uses ¤<<geographic coordinates>>¤.
 
-¤geographic coordinate reference system¤ — a** <<geodetic coordinate reference system>>** that uses ¤<<geographic coordinates>>¤.
+¤geographic coordinate reference system¤ — a ¤<<geodetic coordinate reference system>>¤ that uses ¤<<geographic coordinates>>¤.
 
 ¤geographic coordinates¤ — a measurement of a ¤<<location>>¤ on the earth's surface expressed as ¤<<latitude>>¤ and ¤<<longitude>>¤.
 
@@ -1881,7 +1881,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤stratigraphic section¤ — a local outcrop or series of adjacent outcrops that display a vertical sequence of strata in the order they were deposited.
 
-¤transect¤ — a** <<path>>** along which observations, measurements, or samples are made. Transects are often recorded as a starting ¤<<location>>¤ and a terminating ¤<<location>>¤.
+¤transect¤ — a ¤<<path>>¤ along which observations, measurements, or samples are made. Transects are often recorded as a starting ¤<<location>>¤ and a terminating ¤<<location>>¤.
 
 ¤trig point¤ — a surveyed reference point, often on high points of ¤<<elevation>>¤ (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact ¤<<location>>¤ is determined by survey triangulation and hence the alternative names "trigonometrical point", "triangulation point" or "benchmark".
 
