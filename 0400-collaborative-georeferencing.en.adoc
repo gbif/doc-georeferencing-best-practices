@@ -1,0 +1,46 @@
+[[anchor-158]]**Collaborative Georeferencing**
+
+The characteristics that make a ¤<<georeference,georeferencing>>¤ project collaborative are the aggregation of occurrence records from multiple participating groups (_e.g._, datasets, collections, institutions), the extraction of distinct ¤<<locality,localities>>¤ as the actual target of ¤<<georeference,georeferencing>>¤, the standardization of the geography of the aggregated records to aid record grouping and assignment by geography.
+
+Collaborative ¤<<georeference,georeferencing>>¤, if done properly, can have definitive advantages over ¤<<georeference,georeferencing>>¤ alone. MaNIS (Wieczorek 2001) and https://www.anbg.gov.au/chah/avh/avh.html[_Australia's Virtual Herbarium_] (ANBG 2018) found that collaborative ¤<<georeference,georeferencing>>¤ resulted in great efficiency gains, but that including validation checks afterwards by reviewing the records using collector and date, or looking at the records taxonomically to check for outliers, and other such ¤<<data quality>>¤ flags, is important. Advantages and disadvantages of collaborative ¤<<georeference,georeferencing>>¤, adapted from Wieczorek & Beaman (2002) and Stein & Wieczorek (2004) include:
+
+*Advantages*
+
+* Reduces overall cost of supplies (_e.g_., maps) – no duplication.
+* Expands the pool of resources – geographic expertise and reference materials.
+* Takes advantage of regional expertise, knowledge, language skills and resources.
+* Increases ¤<<georeference,georeferencing>>¤ rates – economy of scale.
+* Promotes standardization of methods.
+* Increases skills in a community.
+* Increases exposure and awareness inside and outside of a community － strengthens community relationships.
+
+*Disadvantages:*
+
+* Vulnerable to procrastination, delays, uneven levels of training, expertise and commitment.
+* Can distance the ¤<<georeference,georeferencing>>¤ process from useful primary resources (_e.g._, specimen labels and field notes).
+* Introduces time sensitivity to the ¤<<georeference,georeferencing>>¤ process (¤<<locality>>¤ information for the underlying occurrence records might be subject to changes during the ¤<<georeference,georeferencing>>¤ process that would render a different result).
+* Data ¤<<repatriate,repatriation>>¤ into the originating collection can be a difficult and time-consuming process.
+* Requires project-level management.
+* Requires a formalized validation process.
+
+One of the greatest impediments to effective collaborative ¤<<georeference,georeferencing>>¤, is the absence of tools to easily ¤<<repatriate>>¤ the ¤<<georeference,georeferenced>>¤ information back to the data sources (Barkwell and Murrell 2012, Grant __et al. __2018). A number of projects are working on this, especially GEOLocate (see, <<__*4.3 GEOLocate*__>>) in conjunction with the Symbiota platform (Gries _et al_. 2014). It is hoped that this document will provide consistency of methodology and documentation and lead to more collaborative ¤<<georeference,georeferencing>>¤.
+
+Some organizations, such as https://digivol.ala.org.au/[_DigiVol_] (Australian Museum _n.dat._) and https://www.zooniverse.org/organizations/md68135/notes-from-nature[_Notes from Nature_] (Zooniverse _n.dat._) use crowdsourcing to ¤<<georeference>>¤, whereas projects like https://coge.geo-locate.org/[_CoGeo_] (part of GEOLocate, GEOLocate 2018), are more constrained in their participants.
+
+[[anchor-159]]4.1 DigiVol
+
+The http://www.ala.org.au/[_Atlas of Living Australia_], in collaboration with the http://australianmuseum.net.au/[_Australian Museum_], developed http://volunteer.ala.org.au/[_DigiVol_] (Australian Museum _n.dat._) to harness the power of online volunteers (also known as crowdsourcing) to digitise biodiversity data that is locked up in biodiversity collections, field notebooks and survey sheets. Although originally developed in Australia, DigiVol has many projects and expeditions from all over the globe. Not all DigiVol projects (called expeditions) include a ¤<<georeference,georeferencing>>¤ component, but some of them do, and there is no reason that there won’t be more in the future. The Australian Museum has developed a guide for a mapping tool to use with DigiVol (Edey _n.dat._). The mapping tool, however, has a number of features that we would not recommend. Default positions are given for the "center" of a number of Australian States without an appropriate associated ¤<<uncertainty>>¤ value. The ¤<<uncertainty>>¤ of the ¤<<georeference>>¤ is added by a pulldown menu that gives three options, viz; 1km, 5km and 10km. Our recommendation would be to make ¤<<uncertainty>>¤ continuous - possibly by selection on the map, or calculated using the body of information in this document, the protocols of the _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020), and the algorithms of the _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2020).
+
+[[anchor-160]]4.2 Notes from Nature
+
+The https://www.notesfromnature.org/[_Notes from Nature_] project (Zooniverse _n.dat._) gives people the opportunity to make scientifically important contributions toward the goal of conserving and making available knowledge about natural and cultural heritage. "_Every transcription that is completed brings us closer to filling gaps in our knowledge of global biodiversity and natural heritage_". It is very similar to the DigiVOL project (Australian Museum__ n.dat__.) mentioned above. Currently, there are no ¤<<georeference,georeferencing>>¤ projects (expeditions) in Notes from Nature, but there are plans to develop this in the future.
+
+[[anchor-161]]4.3 GEOLocate
+
+The GEOLocate suite of tools includes a web-based collaborative client - https://coge.geo-locate.org/[_CoGeo_] (Rios 2019), the goal of which is to provide a mechanism whereby groups of users can form communities to collaboratively ¤<<georeference>>¤ and verify a shared dataset (GEOLocate 2018). This allows for the upload of a CSV file and having parts of the dataset allocated to a user. GEOLocate can also be accessed through third party applications via its API.
+
+Using the tools in GEOLocate, a ¤<<georeference>>¤ may be determined along with an ¤<<uncertainty>>¤ (Biedron and Famoso 2016). An ¤<<uncertainty>>¤ polygon (see also ¤<<shape>>¤ and <<__*3.3.4 Shape Method*__>>) can also be drawn in addition to the ¤<<point-radius>>¤ circle. Note that GEOLocate may return more than one candidate ¤<<location>>¤ for a given ¤<<locality>>¤ string and users are advised to always verify and adjust, as needed, to obtain the final accepted result (including ¤<<uncertainty>> <<radial,radii>>¤ and polygons). The data can be exported through KML for plotting onto Google Earth™. The system allows for review of records and we recommend that this be done for all records where possible.
+
+[[anchor-162]]4.4 Other Collaborative Georeferencing Projects
+
+Other projects, including the terrestrial vertebrate precursor projects to VertNet (Stein and Wieczorek 2004, Guralnick and Constable 2010), have, in the past, divided up and distributed the records for ¤<<locality,localities>>¤ from a given geographic region to an institution with expertise in and/or resources about that region to ¤<<georeference>>¤ (see <<link:#_4m7ma8cnsp7x[_*3.1.2 Project Workflow Example - MaNIS/HerpNET/ORNIS*_]>>). The major advantages of this approach are that the quantity and ¤<<data quality,quality>>¤ of the raw materials used for ¤<<georeference,georeferencing>>¤ are probably higher, and the efficiency and ¤<<data quality,quality>>¤ of the results are also likely higher than if attempted without taking advantage of these resources. However, as mentioned earlier, ¤<<repatriate,repatriation>>¤ of the ¤<<georeference,georeferenced>>¤ records is an issue that needs solving for this to work most efficiently.

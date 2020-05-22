@@ -1,0 +1,56 @@
+[[anchor-163]]**Sharing Data**
+
+[[anchor-164]]<<georeference*,Georeferencing>>* is only the first step toward making biological (specimen and observation) data available to the world. However, it is an important first step, as it is one of the two most key methods for identifying what and where a specimen is, viz. its scientific name and its location (Chapman 2005a). Two main standards have been developed for sharing biological data, ¤<<Darwin Core>>¤ (Wieczorek _et al_. 2012b) and Access to Biological Collections Data (ABCD, https://www.tdwg.org/standards/abcd/[_https://www.tdwg.org/standards/abcd/_]), both ratified by Biodiversity Information Standards (TDWG, http://www.tdwg.org[_http://www.tdwg.org_]). We do not treat the ABCD standard separately in this document, as term mappings between ¤<<Darwin Core>>¤ and ABCD are well defined for location data (see https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv[_https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv_]. One of the principles of ¤<<Darwin Core>>¤ is to try to provide content for every field possible.
+
+[[anchor-165]]5.1 Mapping to Darwin Core
+
+The ¤<<Darwin Core>>¤ (denoted with the abbreviated namespace _*dwc*_) <<georeference,georeferencing>> concepts that are directly used in this document are:
+
+* http://rs.tdwg.org/dwc/terms/#decimalLatitude[_*dwc:decimalLatitude*_]__, __http://rs.tdwg.org/dwc/terms/#decimalLongitude[_*dwc:decimalLongitude*_]__ __*—*__ __the ¤<<geographic coordinates>>¤ of the center of the ¤<<point-radius>>¤ version of the ¤<<georeference>>¤
+* http://rs.tdwg.org/dwc/terms/#geodeticDatum[_*dwc:geodeticDatum*_] — the ¤<<EPSG>>¤ code (preferably) or name of the ¤<<coordinate reference system>>¤, ¤<<geodetic datum>>¤, or ¤<<ellipsoid>>¤ of the ¤<<point-radius>>¤ version of the ¤<<georeference>>¤
+
+* http://rs.tdwg.org/dwc/terms/#coordinateUncertaintyInMeters[_*dwc:coordinateUncertaintyInMeters*_]__ __— the ¤<<radial>>¤ of the ¤<<point-radius>>¤ version of the ¤<<uncertainty>>¤ of the ¤<<georeference>>¤, in meters
+
+* http://rs.tdwg.org/dwc/terms/#coordinatePrecision[_*dwc:coordinatePrecision*_] — the decimal representation of the ¤<<precision>>¤ of the output ¤<<coordinates>>¤ of the ¤<<georeference>>¤
+* http://rs.tdwg.org/dwc/terms/#footprintWKT[_*dwc:footprintWKT*_] — the representation of the resulting ¤<<shape>>¤ or ¤<<bounding box>>¤ ¤<<georeference>>¤, in Well-Known Text (WKT, ISO 2016)
+* http://rs.tdwg.org/dwc/terms/#footprintSRS[_*dwc:footprintSRS*_] — the ¤<<coordinate reference system>>¤ of the resulting ¤<<shape>>¤ or ¤<<bounding box>>¤ ¤<<georeference>>¤, in Well-Known Text (WKT, ISO 2016)
+* http://rs.tdwg.org/dwc/terms/#locality[_*dwc:locality*_] — intended to contain a version (perhaps modified from the original) of the parts of the textual description of the ¤<<location>>¤ that do not have another ¤<<Darwin Core>>¤ term appropriate to hold them; in legacy data, may contain any textual information about the ¤<<location>>¤
+* http://rs.tdwg.org/dwc/terms/#verbatimLocality[_*dwc:verbatimLocality*_] — meant to contain all of the unmodified original ¤<<location>>¤ information
+* http://rs.tdwg.org/dwc/terms/#verbatimCoordinates[_*dwc:verbatimCoordinates*_] — the original ¤<<coordinates>>¤ in the original format, especially if they are not ¤<<latitude>>¤ and ¤<<longitude>>¤, such as ¤<<UTM>> <<coordinates>>¤
+* http://rs.tdwg.org/dwc/terms/#verbatimLatitude[_*dwc:verbatimLatitude*_]http://rs.tdwg.org/dwc/terms/#verbatimLatitude[, ]http://rs.tdwg.org/dwc/terms/#verbatimLongitude[_*dwc:verbatimLongitude*_] - the original ¤<<latitude>>¤ and ¤<<longitude>>¤ in the original format
+* http://rs.tdwg.org/dwc/terms/#verbatimCoordinateSystem[_*dwc:verbatimCoordinateSystem*_] — the ¤<<coordinate format>>¤ of the ¤<<coordinates>>¤ that are either in _*dwc:verbatimCoordinates*_ or in _*dwc:verbatimLatitude*_ and _*dwc:verbatimLongitude*_
+* http://rs.tdwg.org/dwc/terms/#verbatimSRS[_*dwc:verbatimSRS*_] — the ¤<<coordinate reference system>>¤ of either the _*dwc:verbatimCoordinates*_ or the combination of _*dwc:verbatimLatitude*_ and _*dwc:verbatimLongitude*_
+* http://rs.tdwg.org/dwc/terms/#minimumElevationInMeters[_*dwc:minimumElevationInMeters*_]http://rs.tdwg.org/dwc/terms/#minimumElevationInMeters[, ]http://rs.tdwg.org/dwc/terms/#maximumElevationInMeters[_*dwc:maximumElevationInMeters*_] — the lower and upper limits of the ¤<<elevation>>¤ of the ¤<<location>>¤, in meters
+* http://rs.tdwg.org/dwc/terms/#verbatimElevation[_*dwc:verbatimElevation*_] — the original ¤<<elevation>>¤ in the original format with the original units
+* http://rs.tdwg.org/dwc/terms/#minimumDepthInMeters[_*dwc:minimumDepthInMeters*_]http://rs.tdwg.org/dwc/terms/#minimumDepthInMeters[, ]http://rs.tdwg.org/dwc/terms/#maximumDepthInMeters[_*dwc:maximumDepthInMeters*_] — the minimum and maximum limits of the ¤<<depth>>¤ of the ¤<<location>>¤, in meters
+* http://rs.tdwg.org/dwc/terms/#verbatimDepth[_*dwc:verbatimDepth*_] — the original ¤<<depth>>¤ in the original format with the original units
+* http://rs.tdwg.org/dwc/terms/#minimumDistanceAboveSurfaceInMeters[_*dwc:minimumDistanceAboveSurfaceInMeters*_], http://rs.tdwg.org/dwc/terms/#maximumDistanceAboveSurfaceInMeters[_*dwc:maximumDistanceAboveSurfaceInMeters*_] — the lower and upper limits of the position with respect to a local surface, either at an ¤<<elevation>>¤, or at a ¤<<depth>>¤ from an ¤<<elevation>>¤.
+* http://rs.tdwg.org/dwc/terms/#locationAccordingTo[_*dwc:locationAccordingTo*_] — the source authority for the ¤<<location>>¤ information, not the ¤<<georeference>>¤ information, for which see _*dwc:georeferenceSources*_
+* http://rs.tdwg.org/dwc/terms/#locationRemarks[_*dwc:locationRemarks*_] — comments about the ¤<<location>>¤ information, not about the ¤<<georeference>>¤ for the ¤<<location>>¤, for which see _*dwc:georeferenceRemarks*_
+* http://rs.tdwg.org/dwc/terms/#pointRadiusSpatialFit[_*dwc:pointRadiusSpatialFit*_] - the ¤<<spatial fit>>¤ of the ¤<<point-radius>>¤ ¤<<georeference>>¤ (see <<link:#_3x8tuzt[_*3.6 Determining Spatial Fit*_]>>)
+* http://rs.tdwg.org/dwc/terms/#footprintSpatialFit[_*dwc:footprintSpatialFit*_] — the ¤<<spatial fit>>¤ of the ¤<<shape>>¤ or ¤<<bounding box>> <<georeference>>¤ (see <<link:#_3x8tuzt[_*3.6 Determining Spatial Fit*_]>>)
+* http://rs.tdwg.org/dwc/terms/#georeferencedBy[_*dwc:georeferencedBy*_]__ __*—*__ __who is responsible for the ¤<<georeference>>¤ as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it
+* http://rs.tdwg.org/dwc/terms/#georeferencedDate[_*dwc:georeferencedDate*_]__ __*—*__ __the date on which the data in the ¤<<georeference>>¤ fields reached their current state
+
+* http://rs.tdwg.org/dwc/terms/#georeferenceProtocol[_*dwc:georeferenceProtocol*_]__ __*—*__ __a citation of a published set of rules used to determine a ¤<<georeference>>¤. For example, "_*Georeferencing Quick Reference Guide*_ Version 2019-11-08". Any deviations from the cited protocol should be noted in _*dwc:georeferenceRemarks*_
+
+* http://rs.tdwg.org/dwc/terms/#georeferenceSources[_*dwc:georeferenceSources*_]__ __— a__ __list of maps, ¤<<gazetteer,gazetteers>>¤, or other resources used to ¤<<georeference>>¤ the ¤<<locality>>¤. Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad; Terrametrics 2008, Google Earth™".
+
+* http://rs.tdwg.org/dwc/terms/#georeferenceVerificationStatus[_*dwc:georeferenceVerificationStatus*_]__ __— an indicator of the extent to which the ¤<<georeference>>¤ has been verified to represent the best possible spatial description for the occurrence record. By default a newly created ¤<<georeference>>¤ should have the status "requires verification". Beyond that, there are really only two other functionally distinct possibilities, either "verified" (by the person mentioned in _*dwc:georeferencedBy*_), and "verified by collector" or equivalent, to designate that the ¤<<georeference>>¤ was reviewed for that specific record by the person who recorded it to begin with, and that it can not be further improved. This is the ideal status to aspire to.
+
+* http://rs.tdwg.org/dwc/terms/#georeferenceRemarks[_*dwc:georeferenceRemarks*_]__ __*—*__ __any notes or comments about the spatial description, deviations from the cited protocol, assumptions, or problems with ¤<<georeference,georeferencing>>¤. For example, "locality too vague to georeference".
+
+[[anchor-166]]5.2 Generalizing Georeferences for Sensitive Taxa and Locations
+
+As recommended elsewhere in this document, ¤<<georeference,georeferences>>¤ should be recorded and stored at the best possible resolution and ¤<<precision>>¤. If, however, the ¤<<location>>¤ of a taxon is regarded as sensitive for some reason following the guidelines as set out in Chapman (2020), and Chapman & Grafton (2008), and it is agreed that the detailed ¤<<location>>¤ information should not be shared, we recommend, that the data only be ¤<<generalize,generalized>>¤ at the time of sharing or publishing of the data.
+
+We recommend that if data are to be ¤<<generalize,generalized>>¤ that it be done by reducing the number of decimal places (for example when using ¤<<decimal degrees>>¤) at which the data are published (Chapman & Grafton 2008, Chapman 2020). Good practice dictates that whatever you do to ¤<<generalize>>¤ the data, it be documented so that users of the data know what reliance can be placed on them. As far as the ¤<<generalize,generalization>>¤ of ¤<<georeference,georeferencing>>¤ data is concerned it is important to record that the data have been ¤<<generalization,generalized>>¤ using a ‘_decimal geographic grid_’, and record both:
+
+* ¤<<precision,Precision>>¤ of the data provided (_e.g._, 0.1 degree; 0.001 degree, etc.)
+* ¤<<precision,Precision>>¤ of the data stored or held (_e.g._, 0.0001 degree, 0.1 minute, 1 second, etc.)
+
+We recommend that when recording the degree of ¤<<generalization>>¤ of data, that ¤<<spatial fit,Spatial Fit>>¤ (<<__*3.6 Determining Spatial Fit*__>>) be used. For example, the degree to which a record has been ¤<<generalization,generalized>>¤ to obfuscate the ¤<<georeference>>¤ will be a number greater than 1 (see <<Figure 14>> and Chapman 2020).
+
+NOTE: Data should never be <<generalization,generalized>> at the time of collection, when <<georeference,georeferencing>>, or when storing in the database.
+
+Some institutions randomize the data before publishing. This is a practice we do _*NOT*_ recommend, and in fact would discourage it in all circumstances (Chapman 2020).
