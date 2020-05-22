@@ -48,7 +48,7 @@ The second purpose of **<<data quality,quality>>** checking is to allow **<<geor
 [#Data-Validation]
 ==== Data Validation
 
-Data validation (checking for **<<error,errors>>**) can be a time-consuming process, however, it is one of the most important processes you can carry out with your data. It is not practical to check every record individually, so the use of batch processing techniques and outlier detection procedures, etc., is essential. Fortunately, a number of these have been developed and are available in software products or online (see http://georeferencing.org[_http://georeferencing.org_] and Chapman (2005b)). The information in those resources are not repeated here. We recommend that you incorporate some of those methodologies into your own working practices.
+Data validation (checking for **<<error,errors>>**) can be a time-consuming process, however, it is one of the most important processes you can carry out with your data. It is not practical to check every record individually, so the use of batch processing techniques and outlier detection procedures, etc., is essential. Fortunately, a number of these have been developed and are available in software products or online (see http://georeferencing.org[_georeferencing.org_] and Chapman (2005b)). The information in those resources are not repeated here. We recommend that you incorporate some of those methodologies into your own working practices.
 
 There are many methods of checking for **<<error,errors>>** in **<<georeference, georeferenced>>** data. These can involve:
 
@@ -60,19 +60,19 @@ There are many methods of checking for **<<error,errors>>** in **<<georeference,
 * Using taxon lists - for example, using a list of marine taxa to determine if a record should be marine or not, and similarly with terrestrial and freshwater aquatic taxa.
 * Using modelling software in conjunction with statistical analysis to identify outliers in environmental (_e.g._, climate) space.
 
-Some of these techniques are incorporated into a number of programmes including _BioGeo _(Robertson _et al._ 2016), _CoordinateCleaner_ (Zizka _et al._ 2019) and the stand-alone **<<geographic information system,GIS>>** software _DIVA-GIS_ (Hijmans _et al._ 2012). See also http://georeferencing.org[_http://georeferencing.org_].
+Some of these techniques are incorporated into a number of programmes including _BioGeo _(Robertson _et al._ 2016), _CoordinateCleaner_ (Zizka _et al._ 2019) and the stand-alone **<<geographic information system,GIS>>** software _DIVA-GIS_ (Hijmans _et al._ 2012). See also http://georeferencing.org[_georeferencing.org_].
 
-The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the **<<data quality,quality>>** of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on **<<Darwin Core>>** terms will be coded and available for use in 2020 (Chapman _et al._ 2020). Currently (as of February 2020), there are 12 Validation tests related to **<<coordinates>>** and **<<datum,datums>>** and another seven related to geography. In addition there are seven Amendment tests that can be used to improve the **<<data quality,quality>>** of the data (https://github.com/tdwg/bdq/labels/Test[_https://github.com/tdwg/bdq/labels/Test_]).
+The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the **<<data quality,quality>>** of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on **<<Darwin Core>>** terms will be coded and available for use in 2020 (Chapman _et al._ 2020). Currently (as of February 2020), there are 12 Validation tests related to **<<coordinates>>** and **<<datum,datums>>** and another seven related to geography. In addition there are seven https://github.com/tdwg/bdq/labels/Test[Amendment tests] that can be used to improve the **<<data quality,quality>>** of the data.
 
 [#Making-Corrections]
 ==== Making Corrections
 
-When making corrections to your database, we strongly recommend that you always add and never replace or delete. For this to happen you will usually require additional fields in the database. For example, you may have ‘original’ or ‘verbatim’ **<<georeference>>** fields in addition to the main **<<georeference>>** fields. Additionally, the database may require a number of ‘Remarks/Notes/Comments’ fields. Fields that can be valuable are those that describe validation checking that has been carried out – even (and often especially) if that checking has led to confirmation of the **<<georeference>>**. These fields may include information on what checks were carried out, by whom, when and with what results. Be sure to update the equivalent of _*dwc:georeferenceVerificationStatus*_ and associated fields (_*dwc:georeferencedBy*_, _*dwc:georeferencedDate)*_ whenever changes are made to the **<<georeference>>**_*.*_
+When making corrections to your database, we strongly recommend that you always add and never replace or delete. For this to happen you will usually require additional fields in the database. For example, you may have ‘original’ or ‘verbatim’ **<<georeference>>** fields in addition to the main **<<georeference>>** fields. Additionally, the database may require a number of ‘Remarks/Notes/Comments’ fields. Fields that can be valuable are those that describe validation checking that has been carried out – even (and often especially) if that checking has led to confirmation of the **<<georeference>>**. These fields may include information on what checks were carried out, by whom, when and with what results. Be sure to update the equivalent of `_dwc:georeferenceVerificationStatus_` and associated fields (`_dwc:georeferencedBy_`, `_dwc:georeferencedDate_`) whenever changes are made to the **<<georeference>>**.
 
 [#Responsibilities-of-the-Manager]
 === Responsibilities of the Manager
 
-It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date **<<data quality>>** procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[_*Principles of Data Quality*_] (Chapman 2005a), which should be read as an adjunct to this document.
+It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date **<<data quality>>** procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[*_Principles of Data Quality_*] (Chapman 2005a), which should be read as an adjunct to this document.
 
 [#Responsibilities-of-the-Supervisor]
 === Responsibilities of the Supervisor
@@ -86,27 +86,27 @@ Training is a major responsibility of anyone beginning or conducting the **<<geo
 
 Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from Paul (2018):
 
-* [[anchor-188]]Introduction to **<<georeference,georeferencing>>**.
-* [[anchor-189]]Developing a **<<georeference,georeferencing>>** project.
-* [[anchor-190]]**<<georeference,Georeferencing>>** best practices.
-* [[anchor-191]]__*Georeferencing Quick Reference Guide* __(Zermoglio _et al._ 2020).
-* [[anchor-192]]__*Georeferencing Calculator*__ (Wieczorek & Wieczorek 2020)_._
-* [[anchor-193]]Geographic concepts.
-* [[anchor-194]]**<<locality type,Locality types>>**.
-* [[anchor-195]]Good and bad **<<locality,localities>>**.
-* [[anchor-196]]Using **<<gazetteer,gazetteers>>**
-* [[anchor-197]]Using physical maps.
-* [[anchor-198]]Using Google Earth™ and Google Maps™.
-* [[anchor-199]]Recording **<<uncertainty>>** using the **<<point-radius>>** **<<georeferencing method,method>>**.
-* [[anchor-200]]Using the **<<shape>>** **<<georeferencing method,method>>** of **<<georeference,georeferencing>>** **<<uncertainty>>**.
-* [[anchor-201]]Using online tools.
-* [[anchor-202]]Finding Internet resources.
-* [[anchor-203]]From collaboration to automation.
-* [[anchor-204]]Reporting through **<<Darwin Core>>**.
-* [[anchor-205]]Validating **<<georeference,georeferences>>**.
-* [[anchor-206]]**<<repatriate,Repatriating>>** data.
-* [[anchor-207]]Building end-to-end **<<georeference,georeferencing>>** workflows.
-* [[anchor-208]]Sharing **<<georeference,georeferenced>>** data.
+* Introduction to **<<georeference,georeferencing>>**.
+* Developing a **<<georeference,georeferencing>>** project.
+* **<<georeference,Georeferencing>>** best practices.
+* *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020).
+* *_Georeferencing Calculator_* (Wieczorek & Wieczorek 2020).
+* Geographic concepts.
+* **<<locality type,Locality types>>**.
+* Good and bad **<<locality,localities>>**.
+* Using **<<gazetteer,gazetteers>>**
+* Using physical maps.
+* Using Google Earth™ and Google Maps™.
+* Recording **<<uncertainty>>** using the **<<point-radius>>** **<<georeferencing method,method>>**.
+* Using the **<<shape>>** **<<georeferencing method,method>>** of **<<georeference,georeferencing>>** **<<uncertainty>>**.
+* Using online tools.
+* Finding Internet resources.
+* From collaboration to automation.
+* Reporting through **<<Darwin Core>>**.
+* Validating **<<georeference,georeferences>>**.
+* **<<repatriate,Repatriating>>** data.
+* Building end-to-end **<<georeference,georeferencing>>** workflows.
+* Sharing **<<georeference,georeferenced>>** data.
 
 [#Performance-Criteria]
 === Performance Criteria
@@ -124,7 +124,7 @@ The development of performance criteria is a good way of ensuring a high level o
 
 An Index of Spatial Uncertainty may be developed and documented for the dataset as a whole to allow for overall reporting of the **<<data quality,quality>>** of the dataset. This index would supplement a similar index of other data in the database, such as an index of Taxonomic Uncertainty and would generally be for internal use, but may be shared as part of an institution's metadata. Currently, no such universal index exists for primary species occurrence data, but institutions may consider developing their own and testing its usefulness. Such indexes should, wherever possible, be generated automatically and produced as part of a data request from the database and packaged with the metadata as part of the request. Such an index could form the basis for helping users determine the **<<data quality,quality>>** of the database for their particular use. The authors of this document would be interested in any feedback from institutions that develop such an index. The index should form an integral part of the metadata for the dataset and may include the following for the **<<georeference,georeferencing>>** part of the database:
 
-*1. Completeness Index *
+1. Completeness Index
 
 * Percentage of records with minimum recommended **<<georeference>>** fields that have valid values.
 * Percentage of records with an **<<extent>>** field that has a value.
@@ -132,25 +132,27 @@ An Index of Spatial Uncertainty may be developed and documented for the dataset 
 * Percentage of records with a **<<coordinate precision>>** field that has a value.
 * Percentage of records with **<<datum>>** fields that have a known **<<datum>>** or **<<coordinate reference system>>** value.
 
-*2. Uncertainty Index*
+2. Uncertainty Index
 
 * Average and standard deviation of ‘**<<uncertainty>>**’ value for those records that have a value.
 * Percentage of records with a **<<maximum uncertainty distance>>** value in each class:
-
-* a.   <100 m.
++
+--
+a.   <100 m.
 b.  100-1,000 m.
 c.  1,000-2,000 m.
 d.  2,000-5,000 m.
 e.  5,000-10,000 m.
 f.  >10,000 m.
 g.  Not determined.
+--
 
-*3. Currency Index*
+3. Currency Index
 
 * Time since last data entry.
 * Time since last validation check.
 
-*4. Validation Index*
+4. Validation Index
 
 * Percentage of records that have undergone validation test *x*.
 * Percentage of records that have undergone validation test *y*, etc.
@@ -195,4 +197,4 @@ We recommend that documentation be made an integral part of any **<<georeference
 [#Truth-in-Labelling]
 ==== Truth in Labelling
 
-‘Truth in Labelling’ is an important consideration with respect to documenting data **<<quality>>**. This is especially so where data are being made available to a wider audience, for example, through the GBIF. We recommend that documentation of the data and their **<<data quality,quality>>** be upfront and honest. **<<error,Error>>** is an inescapable characteristic of any dataset, and it should be recognized as a fundamental attribute of those data. All databases have **<<error,errors>>**, and it is in no-one’s interest to hide those <<error,*errors>> *(Chrisman 1991)*.* On the contrary, revealing data actually exposes them to editing, validation and correction through user feedback, while hiding information almost guarantees that it will remain dirty and of little long-term value.
+‘Truth in Labelling’ is an important consideration with respect to documenting data **<<quality>>**. This is especially so where data are being made available to a wider audience, for example, through the GBIF. We recommend that documentation of the data and their **<<data quality,quality>>** be upfront and honest. **<<error,Error>>** is an inescapable characteristic of any dataset, and it should be recognized as a fundamental attribute of those data. All databases have **<<error,errors>>**, and it is in no-one’s interest to hide those **<<error,errors>>** (Chrisman 1991). On the contrary, revealing data actually exposes them to editing, validation and correction through user feedback, while hiding information almost guarantees that it will remain dirty and of little long-term value.
