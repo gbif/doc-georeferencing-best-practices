@@ -324,7 +324,7 @@ Some **<<locality>>** descriptions give information about the nature of the **<<
 |Los Lagos
 
 |locality
-|12.3 km N of (by road) Nahuel Huapi, elev: 760m`
+|12.3 km N of (by road) Nahuel Huapi, elev: 760m
 |===
 
 

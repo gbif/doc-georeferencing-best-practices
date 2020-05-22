@@ -7,7 +7,7 @@
 :numbered:
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-:title-logo-image: img/web/photo.jpg
+:title-logo-image: img/western-honey-bee.jpg
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by/4.0/
@@ -18,6 +18,9 @@
 :marine: 🐠
 :ecological: 🌳
 :caves: 🐉
+
+//The value of the idprefix attribute (_ by default) is prepended.
+//:idseparator: -
 
 ifdef::backend-html5[]
 languageLinks:combined[]
@@ -40,6 +43,8 @@ include::0400-collaborative-georeferencing.en.adoc[]
 include::0500-sharing-data.en.adoc[]
 
 include::0600-maintaining-data-quality.en.adoc[]
+
+:sectnums!:
 
 include::glossary.en.adoc[]
 

@@ -1,0 +1,11 @@
+https://doi.org/10.15468/doc-gg7h-s853[image:https://zenodo.org/badge/DOI/10.15468/doc-gg7h-s853.svg[doi:10.15468/doc-gg7h-s853]]
+https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY%2D-SA%204.0-lightgrey.svg[CC BY-SA 4.0]]
+https://builds.gbif.org/job/doc-georeferencing-best-practices/[image:https://builds.gbif.org/job/doc-georeferencing-best-practices/badge/icon[Build status]]
+
+= Georeferencing Best Practices
+
+_This is information *about* this document's source code.  It is not part of the document._
+
+The document is available as HTML and PDF at https://docs.gbif-uat.org/georeferencing-best-practices/1.0/[Georeferencing Best Practices].
+
+The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif.org/documentation-guidelines/[GBIF Documentation Guidelines].
