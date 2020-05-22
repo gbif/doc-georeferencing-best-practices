@@ -60,19 +60,16 @@ This document aims to provide current best practice for using the ¤<<point-radi
 * Users of ¤<<georeference,georeferences>>¤ should take into account the ¤<<uncertainty>>¤ (or lack of its documentation) when choosing data for analyses, as without that information, analyses may be skewed and results ¤<<bias,biased>>¤ or altogether wrong.
 * ¤<<coordinates,Coordinates>>¤ alone can not generally be checked for consistency; a ¤<<locality>>¤ description provides a confirmation that ¤<<coordinates>>¤ are correct.
 * ¤<<coordinates,Coordinates>>¤ alone do not unambiguously define a ¤<<location>>¤, because:
-** __________________________________________________________________________________________________________________________
-*<<coordinates>>* require a ¤<<coordinate reference system>>¤ to anchor the ¤<<coordinates>>¤ in relation to the earth
-__________________________________________________________________________________________________________________________
-** ______________________________________________________________________________________________________
-no ¤<<location>>¤ is a point; even the most specific ¤<<location,locations>>¤ have an ¤<<extent>>¤
-______________________________________________________________________________________________________
-** __________________________________________________________________________________
-any device that provides ¤<<coordinates>>¤ has an associated ¤<<uncertainty>>¤
-__________________________________________________________________________________
+** *<<coordinates>>* require a ¤<<coordinate reference system>>¤ to anchor the ¤<<coordinates>>¤ in relation to the earth
 
-_________________________________________________________________________________
+** no ¤<<location>>¤ is a point; even the most specific ¤<<location,locations>>¤ have an ¤<<extent>>¤
+
+** any device that provides ¤<<coordinates>>¤ has an associated ¤<<uncertainty>>¤
+
+
+
 *Conclusion*: ¤<<coordinates>>¤ alone do not constitute a ¤<<georeference>>¤.
-_________________________________________________________________________________
+
 
 * ¤<<geometry,Geometries>>¤ are great as ¤<<georeference,georeferences>>¤, if you can deal with them; if not, the ¤<<point-radius>>¤ is surprisingly powerful, because using a ¤<<geographic information system,Geographic Information System>>¤ (GIS), it can be intersected with other spatial layers to get ¤<<geometry,geometries>>¤ (¤<<shape,shapes>>¤).
 
@@ -618,74 +615,52 @@ Record the sources of all measurements. Minimally, include map name and scale, t
 Before beginning a ¤<<georeference,georeferencing>>¤ project, whether for an individual researcher or a large institution, it is helpful to anticipate the kinds of challenges one might expect to encounter. It may appear to be a daunting task, but there are many ways the process can be simplified and made more practical. Having a suitable workflow (see <<__*3.1.1 Georeferencing Project Workflow*__>>) decided in advance can increase both the efficiency and the consistency of the ¤<<data quality,quality>>¤ of the resulting ¤<<georeference,georeferences>>¤. The basic determiners for a project are what you have to start with and what outputs you want when you are finished. In an ideal world, the obvious practical questions such as the cost and how long it will take would not be important, but realistically, when balanced against the benefits of making the effort, these might be the major determining factors. Following is a representative list of questions that might affect planning of a ¤<<georeference,georeferencing>>¤ project:
 
 * About the original data:
-** __________________________________________________________________________________________________
-Where is the source data coming from (herbarium labels, ledgers, database, or a combination, etc.)
-__________________________________________________________________________________________________
-** ______________________________________
-Are the source data already digitized?
-______________________________________
-** __________________________________________________________________________________
-How many distinct ¤<<locality>>¤ descriptions are there to ¤<<georeference>>¤?
-__________________________________________________________________________________
-** _____________________________________________________________________________
-Are there terrestrial or marine *locations* to ¤<<georeference>>¤? Or both?
-_____________________________________________________________________________
-** ____________________________________________________
-Is the geographic scope local? Country-wide? Global?
-____________________________________________________
+** Where is the source data coming from (herbarium labels, ledgers, database, or a combination, etc.)
+
+** Are the source data already digitized?
+
+** How many distinct ¤<<locality>>¤ descriptions are there to ¤<<georeference>>¤?
+
+** Are there terrestrial or marine *locations* to ¤<<georeference>>¤? Or both?
+
+** Is the geographic scope local? Country-wide? Global?
+
 * About the process:
-** _______________________________________
-What is the time frame for the project?
-_______________________________________
-** _____________________________________________________________________________
-When in the broader workflow will ¤<<georeference,georeferencing>>¤ happen?
-_____________________________________________________________________________
-** ______________________________________________________________________
-How much of the established best practices do I really need to follow?
-______________________________________________________________________
-** _______________________________________
-What if we want to use our own methods?
-_______________________________________
-** ______________________________________________________
-What procedural documentation will we need to prepare?
-______________________________________________________
-** _________________
-Who will do what?
-_________________
-** _________________________
-What expertise is needed?
-_________________________
-** __________________________________________________
-What skills do those who will be involved possess?
-__________________________________________________
-** ____________________________
-Where can training be found?
-____________________________
-** ________________________________________________________________________________________
-What ¤<<location>>¤ resources (maps, ¤<<gazetteer,gazetteers>>¤, tools) are available?
-________________________________________________________________________________________
+** What is the time frame for the project?
+
+** When in the broader workflow will ¤<<georeference,georeferencing>>¤ happen?
+
+** How much of the established best practices do I really need to follow?
+
+** What if we want to use our own methods?
+
+** What procedural documentation will we need to prepare?
+
+** Who will do what?
+
+** What expertise is needed?
+
+** What skills do those who will be involved possess?
+
+** Where can training be found?
+
+** What ¤<<location>>¤ resources (maps, ¤<<gazetteer,gazetteers>>¤, tools) are available?
+
 * About the final product:
-** ___________________________________________________________________________
-What data quality target is there for the ¤<<georeference,georeferences>>¤?
-___________________________________________________________________________
-** ____________________________________
-How will data validation take place?
-____________________________________
-** ________________________________
-How will the data be maintained?
-________________________________
-** _______________________________________________________________________
-How will the ¤<<georeference,georeferenced>>¤ data be used and by whom?
-_______________________________________________________________________
-** _____________________________________________________________________________________
-Will the georeferences be generalized on export (for sensitive species, for example)?
-_____________________________________________________________________________________
-** _________________________________________________________________________________________
-How can the ¤<<georeference,georeferences>>¤ be integrated back into the original data?
-_________________________________________________________________________________________
-** _________________________________________________________________________
-How can we incorporate suitable ¤<<data quality>>¤ feedback mechanisms?
-_________________________________________________________________________
+** What data quality target is there for the ¤<<georeference,georeferences>>¤?
+
+** How will data validation take place?
+
+** How will the data be maintained?
+
+** How will the ¤<<georeference,georeferenced>>¤ data be used and by whom?
+
+** Will the georeferences be generalized on export (for sensitive species, for example)?
+
+** How can the ¤<<georeference,georeferences>>¤ be integrated back into the original data?
+
+** How can we incorporate suitable ¤<<data quality>>¤ feedback mechanisms?
+
 
 The question, "When in the broader workflow will ¤<<georeference,georeferencing>>¤ happen?" is of particular significance. Is it best to ¤<<georeference>>¤ each record as you enter the data into the database? Or is it better to ¤<<georeference>>¤ in a batch after the data have been entered? There are arguments for each method, and again the circumstances of your institution should dictate the best method. If the data are stored taxonomically and not geographically (as is the case in the majority of instances) it is often best to ¤<<georeference>>¤ in a batch mode by sorting the ¤<<locality>>¤ data electronically, and in this way deal with many records on one map sheet or area at a time and not be jumping back and forth between map sheets. In other cases, there may be less wear and tear on collections, you may wish to database collections as they are received and before distributing duplicates, or sending on loan, or there may be other good practical reasons to ¤<<georeference>>¤ as you go. One advantage of ¤<<georeference,georeferencing>>¤ as you go is that you may be able to do all the collections of one collector at a time, and virtually follow his/her path, thus reducing errors from not knowing which of several ¤<<locality,localities>>¤ may be correct.
 
@@ -713,24 +688,18 @@ Based on an assessment of a variety of large-scale ¤<<georeference,georeferenci
 
 * Assemble the data to be ¤<<georeference,georeferenced>>¤.
 * Prepare the data for ¤<<georeference,georeferencing>>¤:
-** _________________________________________________________________________________________________________________________________________________________________
-Make sure that original records are uniquely identified (ideally with <<Persistent Identifier (PID),**PID>>**s, see <<__*1.9 Persistent Identifiers (PIDs)*__>>).
-_________________________________________________________________________________________________________________________________________________________________
-** _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Extract distinct ¤<<locality,localities>>¤, generate unique identifiers (ideally <<Globally Unique Identifier (GUID),*GUIDs>>*, see <<__*1.9 Persistent Identifiers (PIDs)*__>>) for each, and reference the corresponding ¤<<locality>>¤ identifier in each original record.
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-** ____________________________________________________________________________________________________________________________________________________________
-Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct ¤<<locality>>¤ records.
-____________________________________________________________________________________________________________________________________________________________
-** ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Label ¤<<locality,localities>>¤ as marine, terrestrial, freshwater aquatic, or paleontologic. The same ¤<<locality>>¤ description may refer to more than one category (_e.g._, ¤<<location,locations>>¤ on coasts) unless further constraining information is used (see <<__*3.2.4 Applying Spatial Constraints*__>>). If dealing with ¤<<locality,localities>>¤ alone, you should account for all of the environmental possibilities.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-** _______________________________________________________________________________________________________________________________________________________________________________________
-Create and uniquely identify distinct standardized ¤<<locality,localities>>¤ and reference the standardized ¤<<locality>> <<GUID>>¤ in the non-standardized ¤<<locality>>¤ records.
-_______________________________________________________________________________________________________________________________________________________________________________________
-** _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Match standardized ¤<<locality,localities>>¤ against existing <<locality,**localities>> t**hat have already been ¤<<georeference,georeferenced>>¤ using satisfactory ¤<<georeferencing method,georeferencing methods>>¤ and extract the existing ¤<<georeference,georeferences>>¤ (see <<__*3.1.3 Using Previously Georeferenced Records*__>>).
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+** Make sure that original records are uniquely identified (ideally with <<Persistent Identifier (PID),**PID>>**s, see <<__*1.9 Persistent Identifiers (PIDs)*__>>).
+
+** Extract distinct ¤<<locality,localities>>¤, generate unique identifiers (ideally <<Globally Unique Identifier (GUID),*GUIDs>>*, see <<__*1.9 Persistent Identifiers (PIDs)*__>>) for each, and reference the corresponding ¤<<locality>>¤ identifier in each original record.
+
+** Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct ¤<<locality>>¤ records.
+
+** Label ¤<<locality,localities>>¤ as marine, terrestrial, freshwater aquatic, or paleontologic. The same ¤<<locality>>¤ description may refer to more than one category (_e.g._, ¤<<location,locations>>¤ on coasts) unless further constraining information is used (see <<__*3.2.4 Applying Spatial Constraints*__>>). If dealing with ¤<<locality,localities>>¤ alone, you should account for all of the environmental possibilities.
+
+** Create and uniquely identify distinct standardized ¤<<locality,localities>>¤ and reference the standardized ¤<<locality>> <<GUID>>¤ in the non-standardized ¤<<locality>>¤ records.
+
+** Match standardized ¤<<locality,localities>>¤ against existing <<locality,**localities>> t**hat have already been ¤<<georeference,georeferenced>>¤ using satisfactory ¤<<georeferencing method,georeferencing methods>>¤ and extract the existing ¤<<georeference,georeferences>>¤ (see <<__*3.1.3 Using Previously Georeferenced Records*__>>).
+
 * Assess the characteristics of the data to be ¤<<georeference,georeferenced>>¤ (__e.g., __how many already have ¤<<coordinates>>¤ without ¤<<georeference,georeferences>>¤? How many consist only of administrative geography? What is the geographic distribution of the ¤<<locality,localities>>¤?) with a view to determining the resources that will be needed to complete the project.
 * Estimate the resources needed to complete the project using the information determined in the project preparation phase.
 * Acquire the resources to complete the project.
@@ -764,15 +733,12 @@ One of the major contributions of the Mammal Networked Information System (MaNIS
 * Establish a convention and tools to manage <<georeference, **georeferencing>> **work packages for participants.
 * Aggregate occurrences and extract distinct ¤<<locality,localities>>¤ into a project ¤<<gazetteer>>¤.
 * Engage participants to claim and complete (¤<<georeference>>¤) work packages.
-** ___________________________________
-Participant downloads work package.
-___________________________________
-** ________________________________________________________________________________________________________________________
-Participant ¤<<georeference,georeferences>>¤ work package, consulting documentation and colleagues to resolve questions.
-________________________________________________________________________________________________________________________
-** __________________________________________________
-Send finished work package to project coordinator.
-__________________________________________________
+** Participant downloads work package.
+
+** Participant ¤<<georeference,georeferences>>¤ work package, consulting documentation and colleagues to resolve questions.
+
+** Send finished work package to project coordinator.
+
 * Project coordinator validates ¤<<georeference,georeferences>>¤ to meet ¤<<data quality>>¤ standards.
 * Project coordinator populates communal ¤<<gazetteer>>¤ with validated ¤<<georeference,georeferences>>¤.
 * When ¤<<georeference,georeferencing>>¤ is completed for the entire project, project coordinator validates that ¤<<locality,localities>>¤ for original occurrence records have not changed since they were added to the ¤<<gazetteer>>¤ and repatriates occurrence records with ¤<<georeference,georeferences>>¤ to participating data custodians.
@@ -931,9 +897,9 @@ _*Example*_:
 
 It is sometimes possible to infer the nature of the ¤<<offset>>¤ ¤<<path>>¤ from additional supporting evidence in the ¤<<locality>>¤ description. For example, the ¤<<locality>>¤
 
-______________________________________________
+____
 _*‘58 km NW of Haines Junction, Kluane Lake’*_
-______________________________________________
+____
 
 [[anchor-110]]suggests a measurement by road since the final ¤<<coordinates>>¤ by that ¤<<path>>¤ are nearer to the lake than going 58 km NW in a straight line. At other times, you may have to consult detailed supplementary sources, such as field notes, collectors’ itineraries (see <<__*3.2.4.3 Using Collector Itineraries*__>>), diaries, or sequential collections made on the same day, to determine this information.
 
@@ -1251,9 +1217,9 @@ Using the example
 
 and if we ignore distance ¤<<precision,imprecision>>¤, ¤<<uncertainty>>¤ due to the ¤<<direction>>¤ ¤<<precision,imprecision>>¤ (<<Figure 11>>) is encompassed by an arc centered 10 km (*d*) from the center of Lambert Centre (at *x,y*) at a heading of 45 degrees (*θ*), extending 22.5 degrees in either direction from that point. At this scale the distance (*e*) from the center of the arc to the furthest extent of the arc (at *x',y'*) at a heading of 22.5 degrees (*θ'*) from the center of Lambert Centre can be approximated by the Pythagorean Theorem,
 
-______________________________________________
+____
 **e=sqrt( (x'-x)**^*2*^** + (y'-y)**^*2 *^*) *
-______________________________________________
+____
 
 and the ¤<<uncertainty>>¤ in the above example would be 3.90 km.
 
@@ -1506,12 +1472,10 @@ Improving the ¤<<data quality,quality>>¤ of the data may require giving feedba
 * Making sure the ¤<<datum>>¤ or ¤<<coordinate reference system>>¤ is recorded with all ¤<<GPS>>¤ readings.
 * Encouraging consistent use of a standard ¤<<coordinate format>>¤ (_e.g._, encourage collectors to use ¤<<decimal degrees>>¤ wherever possible).
 * Recording ¤<<locality,localities>>¤ in a consistent and clear manner.
-** ________________________________________________________________________________________
-Using the nearest small, persistent ¤<<feature>>¤ and orthogonal ¤<<offset,offsets>>¤.
-________________________________________________________________________________________
-** _______________________________________________________________________________________________________________________________________________________________________
-Recording ‘by road’ or ‘by air’, being explicit about distance ¤<<precision>>¤, and using specific bearings in degrees for ¤<<offset,offsets>>¤ at a ¤<<heading>>¤.
-_______________________________________________________________________________________________________________________________________________________________________
+** Using the nearest small, persistent ¤<<feature>>¤ and orthogonal ¤<<offset,offsets>>¤.
+
+** Recording ‘by road’ or ‘by air’, being explicit about distance ¤<<precision>>¤, and using specific bearings in degrees for ¤<<offset,offsets>>¤ at a ¤<<heading>>¤.
+
 * [[anchor-169]]Ensure that they document all their processes and methodologies for recording ¤<<locality>>¤ and ¤<<locality>>¤-associated information such as ¤<<elevation>>¤.
 * [[anchor-170]]Encourage training in, and the adoption of, best practices such as laid out in this document.
 
