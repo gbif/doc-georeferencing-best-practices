@@ -33,16 +33,11 @@ This document aims to provide current best practice for using the ¤<<point-radi
 * ¤<<coordinates,Coordinates>>¤ alone can not generally be checked for consistency; a ¤<<locality>>¤ description provides a confirmation that ¤<<coordinates>>¤ are correct.
 * ¤<<coordinates,Coordinates>>¤ alone do not unambiguously define a ¤<<location>>¤, because:
 ** ¤<<coordinates>>¤ require a ¤<<coordinate reference system>>¤ to anchor the ¤<<coordinates>>¤ in relation to the earth
-
 ** no ¤<<location>>¤ is a point; even the most specific ¤<<location,locations>>¤ have an ¤<<extent>>¤
-
 ** any device that provides ¤<<coordinates>>¤ has an associated ¤<<uncertainty>>¤
 
-
-
++
 *Conclusion*: ¤<<coordinates>>¤ alone do not constitute a ¤<<georeference>>¤.
-
-
 * ¤<<geometry,Geometries>>¤ are great as ¤<<georeference,georeferences>>¤, if you can deal with them; if not, the ¤<<point-radius>>¤ is surprisingly powerful, because using a ¤<<geographic information system,Geographic Information System>>¤ (GIS), it can be intersected with other spatial layers to get ¤<<geometry,geometries>>¤ (¤<<shape,shapes>>¤).
 
 [#Target-Audience]
