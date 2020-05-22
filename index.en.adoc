@@ -12,9 +12,9 @@ A.D. Chapman AD & J.R Wieczorek
 // Set <<these-links>> to use the name rather than "Section 1.2"
 :xrefstyle: basic
 :stem:
-:marine:
-:ecological:
-:caves:
+:marine: 🐠
+:ecological: 🌳
+:caves: 🐉
 
 ifdef::backend-html5[]
 languageLinks:combined[]

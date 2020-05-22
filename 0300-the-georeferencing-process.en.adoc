@@ -199,7 +199,7 @@ Location-related fields to consider for **<<georeference,georeferencing>>** incl
 * Watershed.
 * Map quad.
 * **<<UTM>> <<easting>>**, **<<northing>>**, and zone.
-* For 🐠marine **<<location,locations>>** －nearest island, exclusive economic zone, etc.
+* For {marine}marine **<<location,locations>>** －nearest island, exclusive economic zone, etc.
 * **<<elevation,Elevation>>** **<<accuracy>>**, **<<vertical datum>>**, and the method by which **<<elevation>>** was determined.
 * **<<depth,Depth>>** **<<accuracy>>**, **<<vertical datum>>**, and the method by which **<<depth>>** was determined.
 * **<<latitude,Latitude>>** degrees, **<<latitude>>** minutes, **<<latitude>>** seconds, **<<latitude>>** hemisphere, **<<longitude>>** degrees, **<<longitude>>** minutes, **<<longitude>>** seconds, **<<longitude>>** hemisphere.
@@ -212,7 +212,7 @@ Location-related fields to consider for **<<georeference,georeferencing>>** incl
 
 One of the key ways of making sure that data are clean and **<<accuracy,accurate>>** is to ensure, to the extent possible, that data are put in the correct field and that only data of an appropriate type can be put into each field by design. This is done by applying constraints on the data fields – for example, only allowing values between +90 and −90 in the field for **<<decimal latitude>>**. Many of the **<<error,errors>>** found when checking databases could have been easily avoided if the database had been set up correctly in the first place. The use of pick lists are essential where the field should contain only values from a restricted list of terms.
 
-More complex constraints may also be possible. With 🌳ecological or survey data for example, one could set **<<boundary>>** limits between the starting **<<locality>>** and ending **<<locality>>** of a **<<transect>>**. For example, if your methodology always uses 1 km or shorter **<<transect,transects>>**, then the database could include a **<<boundary>>** limit that flagged whenever an attempt was made to place these two points more than 1 km apart.
+More complex constraints may also be possible. With {ecological}ecological or survey data for example, one could set **<<boundary>>** limits between the starting **<<locality>>** and ending **<<locality>>** of a **<<transect>>**. For example, if your methodology always uses 1 km or shorter **<<transect,transects>>**, then the database could include a **<<boundary>>** limit that flagged whenever an attempt was made to place these two points more than 1 km apart.
 
 For more information on constraints, see various sections under <<Uncertainty due to the Extent of the Feature>>.
 
@@ -338,7 +338,7 @@ It is common to encounter **<<locality>>** descriptions for which the **<<bounda
 
 One case in which a taxon constraint might be applied is where a **<<locality>>** description would be **<<georeference,georeferenced>>** in a distinct manner if it was known to be terrestrial, aquatic, or marine. Here even the lifestage of a taxon could be taken into account.
 
-🐠OBIS (the Ocean Biogeographic Information System) uses the _*World Register of Marine Species*_ (WoRMS 2019) to determine if a species can be classified as either marine or terrestrial. Note, however, that there are many species listed in the WoRMS database that occur on coastal shores or in estuaries (__i.e., __species that could be regarded as both marine and terrestrial at some stage during their life cycle), so caution needs to be taken when using this method in **<<georeference,georeferencing>>**.
+{marine}OBIS (the Ocean Biogeographic Information System) uses the _*World Register of Marine Species*_ (WoRMS 2019) to determine if a species can be classified as either marine or terrestrial. Note, however, that there are many species listed in the WoRMS database that occur on coastal shores or in estuaries (__i.e., __species that could be regarded as both marine and terrestrial at some stage during their life cycle), so caution needs to be taken when using this method in **<<georeference,georeferencing>>**.
 
 At the generic level there are similar biome-matching services available through The _*Interim Register of Marine and Nonmarine Genera*_ _*(IRMNG)*_ (Rees 2019), and the associated _*LifeWatch*_ taxon matching services (http://www.lifewatch.be/data-services/[_http://www.lifewatch.be/data-services/_]).
 
@@ -363,7 +363,7 @@ Collector’s itineraries and expedition tracks can be a useful adjunct in disco
 [#Using-Ship-Logs]
 ===== Using Ship Logs
 
-🐠Digitized ships logs contain a wealth of data (Dempsey 2014) and are valuable data resources. A freely downloadable database of surface marine observational records from ships, buoys, and other platform types is available as the _*International Comprehensive Ocean-Atmosphere Data Set*_ (https://icoads.noaa.gov/products.html[_https://icoads.noaa.gov/products.html_]) (NOAA 2018). Be aware that the **<<accuracy>>** of records obtained from this dataset vary, depending on the original source, and are not always documented.
+{marine}Digitized ships logs contain a wealth of data (Dempsey 2014) and are valuable data resources. A freely downloadable database of surface marine observational records from ships, buoys, and other platform types is available as the _*International Comprehensive Ocean-Atmosphere Data Set*_ (https://icoads.noaa.gov/products.html[_https://icoads.noaa.gov/products.html_]) (NOAA 2018). Be aware that the **<<accuracy>>** of records obtained from this dataset vary, depending on the original source, and are not always documented.
 
 [#Using-Geological-Context]
 ===== Using Geological Context
@@ -728,7 +728,7 @@ image:img/Pictures/10000201000005A4000003A82FCDE0146CD9FBB2.png[image,width=540,
 
 Some localities are difficult to **<<georeference>>**. For some the recommendation is to not even try. These are generally **<<locality,localities>>** without sufficient information, with conflicting or ambiguous information, or where the information is explicitly in question. Some **<<locality,localities>>** reference a **<<feature>>** that can't be found with easily available resources. For these it may be just a matter of applying enough effort, but if the project is on a budget that can not support lengthy investigations into difficult **<<locality,localites>>**, they may need to be left for another time. Difficult **<<locality,localites>>** are not uncommon. Don't despair. Some interesting ones have been documented by the MaNIS project at http://georeferencing.org/manis/ClassicLocalities.html[_http://georeferencing.org/manis/ClassicLocalities.html_].
 
-Some 🐠marine **<<locality,localites>>** can also provide difficulties - for example "Off Mar del Plata". The trouble is, one doesn’t know how far "off" Mar del Plata the **<<event>>** took place. In terrestrial **<<locality,localites>>** one can generally make a decision that it is between the **<<feature>>** and the next **<<feature>>**, but in the marine environment, that may not be as easy. Does it mean "within sight of", 5km, 12km, the EEZ boundary, the continental shelf…? One does not reliably know the end point so it makes it difficult (if not impossible) to **<<georeference>>** **<<accuracy,accurately>>**. One good resource for finding marine **<<locality,localites>>**, **<<boundary,boundaries>>**, etc. is the website http://www.marineregions.org[_marineregions.org_] (VLIZ 2019).
+Some {marine}marine **<<locality,localites>>** can also provide difficulties - for example "Off Mar del Plata". The trouble is, one doesn’t know how far "off" Mar del Plata the **<<event>>** took place. In terrestrial **<<locality,localites>>** one can generally make a decision that it is between the **<<feature>>** and the next **<<feature>>**, but in the marine environment, that may not be as easy. Does it mean "within sight of", 5km, 12km, the EEZ boundary, the continental shelf…? One does not reliably know the end point so it makes it difficult (if not impossible) to **<<georeference>>** **<<accuracy,accurately>>**. One good resource for finding marine **<<locality,localites>>**, **<<boundary,boundaries>>**, etc. is the website http://www.marineregions.org[_marineregions.org_] (VLIZ 2019).
 
 [#Determining-Spatial-Fit]
 === Determining Spatial Fit
@@ -737,7 +737,7 @@ Some 🐠marine **<<locality,localites>>** can also provide difficulties - for e
 
 A **<<spatial fit>>** with a value of "1" is an exact match or 100% overlap. If the **<<geometry>>** given does not completely encompass the original spatial representation, then the **<<spatial fit>>** is zero (_i.e._, some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed shape does completely encompass the original spatial representation, then the value of the **<<spatial fit>>** is the ratio of the area of the transformed **<<geometry>>** to the area of the original spatial representation. Special case: If the original spatial representation is a point and the **<<geometry>>** presented is not a point, then the **<<spatial fit>>** is undefined. The range of values of **<<spatial fit>>** is 0, 1, greater than 1, or undefined (see <<Figure 14>> and <<Table 6,Tables 6>>, <<Table 7,7>>, <<Table 8,8>>, and <<Table 9,9>>).
 
-An example of the applicability of the **<<spatial fit>>** is where a point representing a terrestrial collection lies close to the coast, and the calculated **<<uncertainty>>** **<<radial,radius>>** encompasses some 🐠marine area. In this case the **<<spatial fit>>** would be greater than 1 as it represents an area greater than the real **<<uncertainty>>** (<<Figure 15>>). **<<spatial fit,Spatial fit>>** is also a valuable measure for describing the degree of **<<generalization>>** of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and Chapman (2020).
+An example of the applicability of the **<<spatial fit>>** is where a point representing a terrestrial collection lies close to the coast, and the calculated **<<uncertainty>>** **<<radial,radius>>** encompasses some {marine}marine area. In this case the **<<spatial fit>>** would be greater than 1 as it represents an area greater than the real **<<uncertainty>>** (<<Figure 15>>). **<<spatial fit,Spatial fit>>** is also a valuable measure for describing the degree of **<<generalization>>** of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and Chapman (2020).
 
 image:img/Pictures/100002010000025D0000022C5721981AA8FB961C.png[image,width=429,height=395]
 
