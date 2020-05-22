@@ -2,7 +2,7 @@
 
 <<georeference*,Georeferencing>>* is only the first step toward making biological (specimen and observation) data available to the world. However, it is an important first step, as it is one of the two most key methods for identifying what and where a specimen is, viz. its scientific name and its location (Chapman 2005a). Two main standards have been developed for sharing biological data, ¤<<Darwin Core>>¤ (Wieczorek _et al_. 2012b) and Access to Biological Collections Data (ABCD, https://www.tdwg.org/standards/abcd/[_https://www.tdwg.org/standards/abcd/_]), both ratified by Biodiversity Information Standards (TDWG, http://www.tdwg.org[_http://www.tdwg.org_]). We do not treat the ABCD standard separately in this document, as term mappings between ¤<<Darwin Core>>¤ and ABCD are well defined for location data (see https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv[_https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv_]. One of the principles of ¤<<Darwin Core>>¤ is to try to provide content for every field possible.
 
-5.1 Mapping to Darwin Core
+=== Mapping to Darwin Core
 
 The ¤<<Darwin Core>>¤ (denoted with the abbreviated namespace _*dwc*_) <<georeference,georeferencing>> concepts that are directly used in this document are:
 
@@ -40,7 +40,7 @@ The ¤<<Darwin Core>>¤ (denoted with the abbreviated namespace _*dwc*_) <<geore
 
 * http://rs.tdwg.org/dwc/terms/#georeferenceRemarks[_*dwc:georeferenceRemarks*_]__ __*—*__ __any notes or comments about the spatial description, deviations from the cited protocol, assumptions, or problems with ¤<<georeference,georeferencing>>¤. For example, "locality too vague to georeference".
 
-5.2 Generalizing Georeferences for Sensitive Taxa and Locations
+=== Generalizing Georeferences for Sensitive Taxa and Locations
 
 As recommended elsewhere in this document, ¤<<georeference,georeferences>>¤ should be recorded and stored at the best possible resolution and ¤<<precision>>¤. If, however, the ¤<<location>>¤ of a taxon is regarded as sensitive for some reason following the guidelines as set out in Chapman (2020), and Chapman & Grafton (2008), and it is agreed that the detailed ¤<<location>>¤ information should not be shared, we recommend, that the data only be ¤<<generalize,generalized>>¤ at the time of sharing or publishing of the data.
 

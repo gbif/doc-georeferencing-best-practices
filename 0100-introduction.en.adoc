@@ -19,7 +19,7 @@ This version is a complete revision with many new and updated references. The ma
 * Added information on ¤<<bathymetry>>¤ and underwater ¤<<depth,depths>>¤.
 * Integrated this document with the companion documents _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020) and _*Georeferencing Calculator Manual*_ (Bloom _et al_. 2020).
 
-1.1 Objectives
+=== Objectives
 
 This document aims to provide current best practice for using the ¤<<point-radius>>¤, ¤<<bounding box>>¤, and ¤<<shape>> <<georeferencing method,georeferencing methods>>¤, whether for new records in the field or for retrospective ¤<<georeference,georeferencing>>¤ of historic and un-georeferenced ¤<<location,locations>>¤. We hope that the reader will come away from this document with, if nothing else, a good appreciation of the following essential principles:
 
@@ -43,7 +43,7 @@ This document aims to provide current best practice for using the ¤<<point-radi
 
 * ¤<<geometry,Geometries>>¤ are great as ¤<<georeference,georeferences>>¤, if you can deal with them; if not, the ¤<<point-radius>>¤ is surprisingly powerful, because using a ¤<<geographic information system,Geographic Information System>>¤ (GIS), it can be intersected with other spatial layers to get ¤<<geometry,geometries>>¤ (¤<<shape,shapes>>¤).
 
-1.2 Target Audience
+=== Target Audience
 
 This work is designed for those who need, or want to know ¤why¤ the best practices are what they are, in detail. This document is also for individuals or organizations faced with planning a ¤<<georeference,georeferencing>>¤ project by providing a series of questions that suggests particular subsets of the best practices to follow.
 
@@ -51,7 +51,7 @@ For those who just need to know how to put these practices into action while ¤<
 
 Above all, this document will help data end users to understand the implications of trying to use records that have not undergone ¤<<georeference,georeferencing>>¤ best practices and the value of those that have.
 
-1.3 Scope
+=== Scope
 
 This document is one of three that cover recommended requirements and methods to ¤<<georeference>>¤ ¤<<location,locations>>¤. It is meant to cover the theoretical aspects (how to, and why) of spatially enabling information about the ¤<<location>>¤ of biodiversity-related phenomena, including special consideration for ecological and marine data. It also covers approaches to large-scale and collaborative ¤<<georeference,georeferencing>>¤ projects.
 
@@ -61,7 +61,7 @@ The accompanying _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 20
 
 The _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2020) is a browser-based javascript application that aids in ¤<<georeference,georeferencing>>¤ descriptive ¤<<locality,localities>>¤ and provides methods to help obtain ¤<<geographic coordinates>>¤ and ¤<<uncertainty,uncertainties>>¤ for ¤<<location,locations>>¤ (see <<__*3.4.9 Using the Georeferencing Calculator*__>>
 
-1.4 Constraints
+=== Constraints
 
 Constraints to using this document may arise because of:
 
@@ -78,7 +78,7 @@ Constraints to using this document may arise because of:
 * Lack of institutional/supervisor support.
 * Lack of training.
 
-1.5 Principles of Best Practice
+=== Principles of Best Practice
 
 The following are principles of best practice that should be applied to ¤<<georeference,georeferencing>>¤:
 
@@ -102,7 +102,7 @@ In addition, an effective best practices document should:
 * Satisfy the scrutiny of management and external/internal auditors.
 * Adhere to relevant standards and biodiversity informatics practices.
 
-1.6 Accuracy, Error, Bias, Precision, False Precision, and Uncertainty
+=== Accuracy, Error, Bias, Precision, False Precision, and Uncertainty
 
 There is often confusion around what is meant by ¤<<accuracy>>¤, ¤<<error>>¤, ¤<<bias>>¤, ¤<<precision>>¤, ¤<<false precision>>¤, and ¤<<uncertainty>>¤. In addition to the following paragraphs, refer to the definitions in the <<Glossary>> and Chapman (2005a). All of these concepts are relevant to measurements.
 
@@ -124,14 +124,14 @@ image:img/Pictures/100002010000021D0000021EE61FD289D66D3C60.png[image,width=381,
 
 *Figure 2*. What the number of digits in ¤<<coordinates>>¤ would imply if ¤<<precision>>¤ was misconstrued to imply ¤<<geographic extent>>¤. From xkcd (https://xkcd.com/2170/[_https://xkcd.com/2170/_]).
 
-1.7 Software and Online Tools
+=== Software and Online Tools
 
 Software and tools come and go and are regularly updated, so rather than include a list in this document, we refer readers to the http://georeferencing.org/[_*georeferencing.org*_] website.
 
-1.8 Conformance to Standards
+=== Conformance to Standards
 
 Throughout this document, we have, where possible, recommended practices that conform to appropriate geographic information standards and standards for the transfer of biological and geographic information. These include standards developed by the Open Geospatial Consortium (OGC 2019), the Technical Committee for digital geographic information and geomatics (ISO/TC 2011), and Biodiversity Information Standards (TDWG). Also, this document supports the FAIR principles of data management in recommending that well georeferenced data are Findable, Accessible, Interoperable, and Reusable.
 
-1.9 Persistent Identifiers (PIDs)
+=== Persistent Identifiers (PIDs)
 
 The use of <<Persistent Identifier (PID),*Persistent Identifiers>>* (PIDs) including <<Globally Unique Identifier (GUID),*Globally Unique Identifiers>>* (GUIDs), Digital Object Identifiers (DOIs) etc. for uniquely identifying individual objects and other classes of data (such as collections, observations, images, and ¤<<location,locations>>¤) are under discussion. It is important that any identifiers used are globally unique (apply to exactly one instance of an identifiable object), persistent, and resolvable (Page 2009, Richards 2010, Richards__ et al.__ 2011). As yet, very few institutions use ¤<<Persistent Identifier (PID),PIDs>>¤ for specimens, and even fewer for ¤<<location,locations>>¤, however a recent paper by Nelson _et al_. (2018) makes a number of recommendations on minting, managing and sharing ¤<<Globally Unique Identifier (GUID),GUIDs>>¤ for herbarium specimens. We recommend that once a stable system for assigning and using ¤<<Persistent Identifier (PID),PIDs>>¤ is implemented, it be used wherever practical, including for ¤<<location,locations>>¤.
