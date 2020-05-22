@@ -52,7 +52,7 @@ We recommend that if data are to be **<<generalize,generalized>>** that it be do
 * **<<precision,Precision>>** of the data provided (_e.g._, 0.1 degree; 0.001 degree, etc.)
 * **<<precision,Precision>>** of the data stored or held (_e.g._, 0.0001 degree, 0.1 minute, 1 second, etc.)
 
-We recommend that when recording the degree of **<<generalization>>** of data, that **<<spatial fit,Spatial Fit>>** (<<Determining Spatial Fit>>) be used. For example, the degree to which a record has been **<<generalization,generalized>>** to obfuscate the **<<georeference>>** will be a number greater than 1 (see <<Figure 14>> and Chapman 2020).
+We recommend that when recording the degree of **<<generalization>>** of data, that **<<spatial fit,Spatial Fit>>** (<<Determining Spatial Fit>>) be used. For example, the degree to which a record has been **<<generalization,generalized>>** to obfuscate the **<<georeference>>** will be a number greater than 1 (see xref:img-spatial-fit[xrefstyle="short"] and Chapman 2020).
 
 NOTE: Data should never be <<generalization,generalized>> at the time of collection, when <<georeference,georeferencing>>, or when storing in the database.
 

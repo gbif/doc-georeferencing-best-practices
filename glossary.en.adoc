@@ -36,7 +36,7 @@ clause:: _see_ **<<locality clause>>**.
 
 [[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: the **<<Darwin Core>>** term corresponding to the **<<maximum uncertainty distance>>** when given in meters.
 
-[[corrected-center]]corrected center:: the point within a **<<location>>**, or on its **<<boundary>>**, that minimizes the **<<geographic radial>>** of the **<<location>>**. This point is obtained by making the **<<smallest enclosing circle>>** that contains the entire **<<feature>>**, and then taking the center of that circle. If that center does not fall inside the **<<boundary,boundaries>>** of the **<<feature>>**, make the **<<smallest enclosing circle>>** that has its center on the **<<boundary>>** of the feature. Note that in the second case, the new circle, and hence the **<<radial>>**, will always be larger than the uncorrected one (see <<Figure 4>>).
+[[corrected-center]]corrected center:: the point within a **<<location>>**, or on its **<<boundary>>**, that minimizes the **<<geographic radial>>** of the **<<location>>**. This point is obtained by making the **<<smallest enclosing circle>>** that contains the entire **<<feature>>**, and then taking the center of that circle. If that center does not fall inside the **<<boundary,boundaries>>** of the **<<feature>>**, make the **<<smallest enclosing circle>>** that has its center on the **<<boundary>>** of the feature. Note that in the second case, the new circle, and hence the **<<radial>>**, will always be larger than the uncorrected one (see xref:img-polygon-center[xrefstyle="short"]).
 
 [[Darwin-Core]]Darwin Core:: is a standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[_https://www.tdwg.org/standards/dwc/_]).
 
@@ -71,7 +71,7 @@ declination:: _see_ **<<magnetic declination>>**.
 
 [[ellipsoid]]ellipsoid:: a three-dimensional, closed geometric **<<shape>>**, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
 
-[[entry-point]]entry point:: {marine} the entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<Figure 7>>.
+[[entry-point]]entry point:: {marine} the entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See xref:img-underwater-event[xrefstyle="short"].
 
 [[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference **<<spatial reference system,spatial reference systems>>**. The EPSG Geodetic Parameter Dataset (IOPG 2019) is a collection of definitions of **<<coordinate reference system,coordinate reference systems>>** (including **<<datum,datums>>**) and **<<coordinates,coordinate>>** transformations which may be global, regional, national or local in application.
 
@@ -111,7 +111,7 @@ declination:: _see_ **<<magnetic declination>>**.
 
 [[geographic-extent]]geographic extent:: the entire space within the **<<geographic boundary>>** of a **<<location>>**. The *geographic extent* can be an area or a distance.
 
-[[geographic-information-system]][[GIS]]geographic information system (GIS):: is a set of computer-based tools designed to capture, store, manipulate, analyze, map, manage, and present all types of geographical data and information in the form of maps.
+[[geographic-information-system,geographic information system]]geographic information system (GIS):: is a set of computer-based tools designed to capture, store, manipulate, analyze, map, manage, and present all types of geographical data and information in the form of maps.
 
 [[geographic-radial]]geographic radial:: the distance from the **<<corrected center>>** of a **<<location>>** to the furthest point on the **<<geographic boundary>>** of that **<<location>>**. The geographical radial is what contributes to calculations of the **<<maximum uncertainty distance>>** using the **<<point-radius>>** **<<georeferencing method>>**. The term *geographic radial,* as defined here, replaces its equivalent "extent" used in the early versions of these _Best Practices_ and related documents, including the _*Georeferencing Quick Reference Guide*_ (Wieczorek _et al._ 2012a) and versions of the _*Georeferencing Calculator*_ (Wieczorek & Wieczorek 2018) and its _*Manual for the Georeferencing Calculator*_ (Wieczorek & Bloom 2015) before 2019, while the new definition of **<<extent>>** as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the _*Georeferencing Quick Reference Guide*_ (Zermoglio _et al._ 2020) and the _*Georeferencing Calculator Manual *_(Bloom _et al._ 2020).
 
@@ -197,7 +197,7 @@ GIS:: _see_ **<<geographic-information-system>>**.
 
 [[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (**<<radial>>**) that contains all of a given set of points (or a given **<<shape>>**) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_https://en.wikipedia.org/wiki/Smallest-circle_problem_]https://en.wikipedia.org/wiki/Smallest-circle_problem[)]. This is seldom the same as the **<<geographic center>>**, nor the midpoint between two most distant **<<geographic coordinates>>** of a **<<location>>**.
 
-[[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See <<Figure 14>>).
+[[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See xref:img-spatial-fit[xrefstyle="short"]).
 
 [[spatial-reference-system]]spatial reference system:: _see_ **<<coordinate reference system>>**.
 
