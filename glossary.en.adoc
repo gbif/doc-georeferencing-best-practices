@@ -20,7 +20,7 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 
 [[bounding-box]]bounding box:: an area defined by the **<<coordinates>>** of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
 
-[[clause]]clause:: _see_ **<<locality clause>>**.
+clause:: _see_ **<<locality clause>>**.
 
 [[coordinate-format]]coordinate format:: the format in which **<<coordinates>>** are encoded, such as "**<<decimal degrees>>**", "**<<DMS,degrees minutes seconds>>**", "degrees decimal minutes", or **<<UTM>>**.
 
@@ -50,15 +50,16 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 
 [[decimal-longitude]]decimal longitude:: **<<longitude>>** expressed in **<<decimal degrees>>**. The limits of *decimal longitude* are -180 to 180, inclusive.
 
-[[declination]]declination:: see __**<<magnetic declination>>**.
+declination:: _see_ **<<magnetic declination>>**.
 
-DEM:: _see_ **<<digital elevation model>>**.
+[[DEM]]DEM:: _see_ **<<digital elevation model>>**.
 
 [[depth]]depth:: a measurement of the vertical distance below a **<<vertical datum>>**. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare **<<distance above surface>>**. **Depth** is always a non-negative number.
 
-[[digital-elevation-model]][[DEM]]digital elevation model (DEM):: a digital representation of the elevation of **<<location,locations>>** on the surface of the earth, usually represented in the form of a rectangular **<<grid>>** (raster) that stores the **<<elevation>>** relative to **<<mean sea level>>** or some other known **<<vertical datum>>**. The term _Digital Terrain Model_ (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
+[[digital-elevation-model,digital elevation model]]digital elevation model (DEM):: a digital representation of the elevation of **<<location,locations>>** on the surface of the earth, usually represented in the form of a rectangular **<<grid>>** (raster) that stores the **<<elevation>>** relative to **<<mean sea level>>** or some other known **<<vertical datum>>**. The term _Digital Terrain Model_ (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
 
-[[direction]]direction:: see **<<heading>>**.
+// TODO, link directly to heading?
+[[direction]]direction:: _see_ **<<heading>>**.
 
 [[distance-above-surface]]distance above surface:: in addition to **<<elevation>>** and **<<depth>>**, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial **<<location,locations>>**, the reference point should be the **<<elevation>>** at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial **<<location,locations>>** should be the **<<elevation>>** of the air-water interface, while the reference point for sub-surface benthic **<<location,locations>>** should be the interface between the water and the substrate. **<<location,Locations>>** within a water body should use **<<depth>>** rather than a negative **<<distance above surface>>**. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare **<<altitude>>**.
 
@@ -138,11 +139,11 @@ GIS:: _see_ **<<geographic-information-system>>**.
 
 [[ground-zero]]ground zero:: 🐉 the **<<location>>** on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<Figure 10>>.
 
-[[GUID]]GUID:: see __**<<Globally Unique Identifier (GUID)>>**_._
+[[GUID]]GUID:: _see_ **<<Globally Unique Identifier (GUID)>>**.
 
 [[heading]]heading:: compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with **<<offset>>** to give a distance and direction from a **<<feature>>**.
 
-[[height-datum]]height datum:: see **<<vertical datum>>**.
+[[height-datum]]height datum:: _see_ **<<vertical datum>>**.
 
 [[latitude]]latitude:: the angular distance of a point north or south of the equator.
 
@@ -174,7 +175,7 @@ GIS:: _see_ **<<geographic-information-system>>**.
 
 [[PID]]PID:: a Persistent Identifier is a long-lasting reference to a document, file, web page, or other object. The term "persistent identifier" is usually used in the context of digital objects that are accessible over the Internet. There are many options for PIDs, such as **<<Globally Unique Identifier (GUID),Globally Unique Identifiers (GUIDs)>>**, Digital Object Identifiers (DOIs), and Universal Unique Identifiers (UUIDs).
 
-[[point-radius]]point-radius — a representation of the **<<geographic component>>** of a **<<location>>** as a **<<geographic coordinate>>** and a **<<maximum uncertainty distance>>**. The **<<point-radius>>** **<<georeferencing method>>** produces **<<georeference,georeferences>>** that include **<<geographic coordinates>>**, a **<<coordinate reference system>>**, and a **<<maximum uncertainty distance>>** that encompasses all of the possible **<<geographic coordinates>>** where a **<<locality>>** might be interpreted to be. This representation encompasses all of the geographical **<<uncertainty,uncertainties>>** within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (**<<elevation>>**, **<<depth>>**, **<<distance above surface>>**).
+[[point-radius]]point-radius:: a representation of the **<<geographic component>>** of a **<<location>>** as a **<<geographic coordinate>>** and a **<<maximum uncertainty distance>>**. The **<<point-radius>>** **<<georeferencing method>>** produces **<<georeference,georeferences>>** that include **<<geographic coordinates>>**, a **<<coordinate reference system>>**, and a **<<maximum uncertainty distance>>** that encompasses all of the possible **<<geographic coordinates>>** where a **<<locality>>** might be interpreted to be. This representation encompasses all of the geographical **<<uncertainty,uncertainties>>** within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (**<<elevation>>**, **<<depth>>**, **<<distance above surface>>**).
 
 [[precision]]precision:: 1) the closeness of a repeated set of observations of the same quantity to one another - a measure of control over random **<<error>>**. 2) With values, it describes the finest unit of measurement used to express that value (_e.g._, if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a **<<decimal degrees,decimal degree>>** is reported to two decimal places, the precision is 0.01 of a degree). Antonym: imprecise. Compare **<<accuracy>>**, **<<error>>**, **<<bias>>**, **<<false precision>>**, and **<<uncertainty>>**.
 
@@ -198,7 +199,7 @@ GIS:: _see_ **<<geographic-information-system>>**.
 
 [[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See <<Figure 14>>).
 
-[[spatial-reference-system]]spatial reference system:: __see__ **<<coordinate reference system>>**.
+[[spatial-reference-system]]spatial reference system:: _see_ **<<coordinate reference system>>**.
 
 [[stratigraphic-section]]stratigraphic section:: a local outcrop or series of adjacent outcrops that display a vertical sequence of strata in the order they were deposited.
 
