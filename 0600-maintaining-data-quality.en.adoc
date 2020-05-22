@@ -164,7 +164,7 @@ The tests arising from the TDWG Data Quality Interest Group include 4 Measure te
 * Number of Validation tests that were not compliant.
 * Number of Amendments proposed.
 
-[#Documentation]
+[#Data-Quality-Documentation]
 === Documentation
 
 Documentation is one of the key aspects of any ¤<<georeference,georeferencing>>¤ process. Documentation involves everything from record-level documentation such as:
