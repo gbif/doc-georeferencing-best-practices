@@ -1,7 +1,9 @@
 = Georeferencing Best Practices
-A.D. Chapman AD & J.R Wieczorek
+:authorcount: 2
+:author_1: A.D. Chapman
+:author_2: J.R Wieczorek
 :toc: left
-:toclevels: 3
+:toclevels: 4
 :numbered:
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
@@ -9,6 +11,7 @@ A.D. Chapman AD & J.R Wieczorek
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by/4.0/
+:sectnumlevels: 4
 // Set <<these-links>> to use the name rather than "Section 1.2"
 :xrefstyle: basic
 :stem:

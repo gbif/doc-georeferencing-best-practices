@@ -34,7 +34,7 @@ clause:: _see_ **<<locality clause>>**.
 
 [[coordinate-uncertainty]]coordinate uncertainty:: a measure of the minimum distance on the surface from a **<<coordinates,coordinate>>** within which a **<<locality>>** might be interpreted to be.
 
-[[coordinates]]coordinates:: a set of values that define a position within a **<<coordinate system>>**. **<<coordinate,Coordinates>>** are used to represent **<<location,locations>>** in space relative to other **<<location,locations>>**.
+[[coordinates]]coordinates:: a set of values that define a position within a **<<coordinate system>>**. **<<coordinates,Coordinates>>** are used to represent **<<location,locations>>** in space relative to other **<<location,locations>>**.
 
 [[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: the **<<Darwin Core>>** term corresponding to the **<<maximum uncertainty distance>>** when given in meters.
 
@@ -129,7 +129,7 @@ declination:: _see_ **<<magnetic declination>>**.
 
 GIS:: _see_ **<<geographic-information-system>>**.
 
-[[GUID, Globally Unique Identifier]]Globally Unique Identifier (GUID):: Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also **<<PID,Persistent Identifier, PID>>**.
+[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID):: Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also **<<PID,Persistent Identifier, PID>>**.
 
 [[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses **<<GPS>>**, GLONASS, Galileo, BeiDou and other regional systems.
 
@@ -175,7 +175,7 @@ GUID:: _see_ **<<GUID,Globally Unique Identifier>>**.
 
 [[path]]path:: a route or track between one place and another. In some cases the path may cross itself.
 
-[[PID]]PID:: a Persistent Identifier is a long-lasting reference to a document, file, web page, or other object. The term "persistent identifier" is usually used in the context of digital objects that are accessible over the Internet. There are many options for PIDs, such as **<<Globally Unique Identifier (GUID),Globally Unique Identifiers (GUIDs)>>**, Digital Object Identifiers (DOIs), and Universal Unique Identifiers (UUIDs).
+[[PID]]PID:: a Persistent Identifier is a long-lasting reference to a document, file, web page, or other object. The term "persistent identifier" is usually used in the context of digital objects that are accessible over the Internet. There are many options for PIDs, such as **<<GUID,Globally Unique Identifiers (GUIDs)>>**, Digital Object Identifiers (DOIs), and Universal Unique Identifiers (UUIDs).
 
 [[point-radius]]point-radius:: a representation of the **<<geographic component>>** of a **<<location>>** as a **<<geographic-coordinates,geographic coordinate>>** and a **<<maximum uncertainty distance>>**. The **<<point-radius>>** **<<georeferencing method>>** produces **<<georeference,georeferences>>** that include **<<geographic coordinates>>**, a **<<coordinate reference system>>**, and a **<<maximum uncertainty distance>>** that encompasses all of the possible **<<geographic coordinates>>** where a **<<locality>>** might be interpreted to be. This representation encompasses all of the geographical **<<uncertainty,uncertainties>>** within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (**<<elevation>>**, **<<depth>>**, **<<distance above surface>>**).
 
@@ -195,7 +195,7 @@ GUID:: _see_ **<<GUID,Globally Unique Identifier>>**.
 
 [[sbas]]SBAS:: Satellite Based Augmentation System is a civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<Satellite Based Augmentation System>>).
 
-[[shape]]shape:: synonym of **<<footprint>>**. A representation of the **<<geographic component>>** of a **location** as a **<<geometry>>**. The result of a **<<shape georeferencing method>>** includes a shape as the **<<geographic component>>** of the **<<georeference>>**, which contains the set of all possible **<<geographic coordinates>>** where a **<<location>>** might be interpreted to be. This representation encompasses all of the geographical **<<uncertainty,uncertainties>>** within the **<<geometry>>** given. The *shape* **<<georeferencing method,method>>** uses ranges to represent the non-geographic descriptors of the **<<location>>** (**<<elevation>>**, **<<depth>>**, **<<distance above surface>>**).
+[[shape]]shape:: synonym of **<<footprint>>**. A representation of the **<<geographic component>>** of a **location** as a **<<geometry>>**. The result of a **<<georeferencing method,shape georeferencing method>>** includes a shape as the **<<geographic component>>** of the **<<georeference>>**, which contains the set of all possible **<<geographic coordinates>>** where a **<<location>>** might be interpreted to be. This representation encompasses all of the geographical **<<uncertainty,uncertainties>>** within the **<<geometry>>** given. The *shape* **<<georeferencing method,method>>** uses ranges to represent the non-geographic descriptors of the **<<location>>** (**<<elevation>>**, **<<depth>>**, **<<distance above surface>>**).
 
 [[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (**<<radial>>**) that contains all of a given set of points (or a given **<<shape>>**) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle_problem_]). This is seldom the same as the **<<geographic center>>**, nor the midpoint between two most distant **<<geographic coordinates>>** of a **<<location>>**.
 
