@@ -320,7 +320,7 @@ TIP: <<decimal degrees,_*Decimal degrees>> are preferred when capturing <<coordi
 
 *<<UTM>>* ¤<<coordinates>>¤ consist of a zone number, a hemisphere indicator (N or S), and ¤<<easting>>¤ and ¤<<northing>>¤ coordinate pairs separated by a space with 6 and 7 digits respectively, and all in the order given here. For example, for Big Ben in London (¤<<latitude>>¤ 51.500721, ¤<<longitude>>¤ -0.124430), the ¤<<UTM>>¤ reference would be: 30N 699582 5709431.
 
-*<<latitude,Latitude>>* bands are not officially part of ¤<<UTM>>¤, but are used in the Military Grid Reference System (MGRS). They are used in many applications, including in Google Earth™. Each zone is subdivided into 20 ¤<<latitude,latitudinal>>¤ bands, with letters used from South to North starting with "C" at 80°S to "X" (stretched by an extra 4 degrees) at 72°N (to 84°N) and omitting "O". All letters below "N" are in the southern hemisphere, "N" and above are in the northern hemisphere. When using ¤<<latitude,latitudinal>>¤ bands, "north" and "south" need to be spelled out to avoid confusion with the ¤<<latitude,latitudinal>>¤ bands of "N" and "S" respectively. Using the ¤<<latitude,latitudinal>>¤ band method, the <<c**oordinates>>** for Big Ben would be: 30T 699582m east 5709431m north.
+*<<latitude,Latitude>>* bands are not officially part of ¤<<UTM>>¤, but are used in the Military Grid Reference System (MGRS). They are used in many applications, including in Google Earth™. Each zone is subdivided into 20 ¤<<latitude,latitudinal>>¤ bands, with letters used from South to North starting with "C" at 80°S to "X" (stretched by an extra 4 degrees) at 72°N (to 84°N) and omitting "O". All letters below "N" are in the southern hemisphere, "N" and above are in the northern hemisphere. When using ¤<<latitude,latitudinal>>¤ bands, "north" and "south" need to be spelled out to avoid confusion with the ¤<<latitude,latitudinal>>¤ bands of "N" and "S" respectively. Using the ¤<<latitude,latitudinal>>¤ band method, the ¤<<coordinates>>¤ for Big Ben would be: 30T 699582m east 5709431m north.
 
 National and local ¤<<grid>>¤ systems derived from ¤<<UTM>>¤, but which may be based on different ¤<<ellipsoid,ellipsoids>>¤ and ¤<<datum,datums>>¤, are basically used in the same way as ¤<<UTM>>¤s. For example, the Map Grid of Australia (MGA2020) uses ¤<<UTM>>¤ with the GRS80 ¤<<ellipsoid>>¤ and Geocentric Datum of Australia (GDA2020) (Geoscience Australia 2019b). An example of a ¤<<location>>¤ in MGA2020 is "MGA Zone 56, x: 301545 y: 7011991"
 
@@ -1053,7 +1053,7 @@ If the ¤<<locality>>¤ described is an irregular shape (_e.g._, a winding road 
 
 [[anchor-128]]When documenting the ¤<<georeference,georeferencing>>¤ process, it is recommended that the ¤<<feature>>¤, its *extent*, *radial*, and the source of the information (including its date) all be recorded. For details on georeferencing, see <<__*2.1 Geographic Feature Only*__>> in __*Georeferencing *__Q_*uick Reference Guide*_ (Zermoglio _et al._ 2020).
 
-¤<<geographic coordinates,Geographic coordinates>>¤ can be expressed in a number of different <<coordinate format,*coordinate formats>>.* ¤<<decimal degrees,Decimal degrees>>¤ provide the most convenient ¤<<coordinates>>¤ to use for ¤<<georeference,georeferencing>>¤ for no more profound reason than a ¤<<locality>>¤ can be described with only four attributes - <<d**ecimal latitude>>**,* <<decimal longitude>>*, ¤<<datum>>¤, and ¤<<uncertainty>>¤ (Wieczorek 2001).
+¤<<geographic coordinates,Geographic coordinates>>¤ can be expressed in a number of different <<coordinate format,*coordinate formats>>.* ¤<<decimal degrees,Decimal degrees>>¤ provide the most convenient ¤<<coordinates>>¤ to use for ¤<<georeference,georeferencing>>¤ for no more profound reason than a ¤<<locality>>¤ can be described with only four attributes - ¤<<decimal latitude>>¤,* <<decimal longitude>>*, ¤<<datum>>¤, and ¤<<uncertainty>>¤ (Wieczorek 2001).
 
 [[anchor-129]]3.4.2 Uncertainty in Coordinate Source
 
@@ -1841,7 +1841,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 *mean sea level (MSL) —* a ¤<<vertical datum>>¤ from which heights such as ¤<<elevation>>¤ are usually measured. *Mean sea levels* were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular ¤<<location>>¤ averaged over a 19-year period covering a complete tidal cycle. More recently, *mean sea level* is best described by a ¤<<geoid>>¤.
 
-¤meridian¤ — a line on the surface of the earth where all of the ¤<<location,locations>>¤ have the same ¤<<longitude>>¤. Compare ¤<<antimeridian>>¤ and<< *prime meridian>>*.
+¤meridian¤ — a line on the surface of the earth where all of the ¤<<location,locations>>¤ have the same ¤<<longitude>>¤. Compare ¤<<antimeridian>>¤ and¤<< prime meridian>>¤.
 
 ¤named place¤ — __see __<<*feature>>*. Note that "named place" was used in some earlier ¤<<georeference,georeferencing>>¤ documents.
 
