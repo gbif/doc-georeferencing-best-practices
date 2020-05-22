@@ -31,7 +31,7 @@ An important but often overlooked aspect to any ¤<<georeference,georeferencing>
 
 One of the major sources of ¤<<error>>¤ in ¤<<georeference,georeferencing>>¤ is at the stage of data entry. ¤<<error,Errors>>¤ can be reduced by the establishment of good data entry procedures – use of pick lists, field constraints, etc. Many of these issues should also be addressed as part of the database design (see <<__*3.1.1.4 Project Follow-up Phase*__>>). Good database design can reduce many of the ¤<<error,errors>>¤ associated with data entry. However, once these are in place and working, then regular checks need to be carried out on the data entry operators and on the process of data entry.
 
-One method developed for the MaPSTeDI project (Murphy _et al_. 2004) is to first check the ¤<<accuracy>>¤ of the ¤<<georeference,georeferencing>>¤. This process involves checking a certain number of each georeferencer's records. Based on various trials, it is recommended that the first 200 records that a new georeferencer completes be checked for ¤<<accuracy>>¤. Not only is this initial checking beneficial to the ¤<<accuracy>>¤ of the data, but also it is essential to allow the georeferencer to improve and learn through feedback from making mistakes. Following is a recommended data quality checking protocol:
+One method developed for the MaPSTeDI project (Murphy _et al._ 2004) is to first check the ¤<<accuracy>>¤ of the ¤<<georeference,georeferencing>>¤. This process involves checking a certain number of each georeferencer's records. Based on various trials, it is recommended that the first 200 records that a new georeferencer completes be checked for ¤<<accuracy>>¤. Not only is this initial checking beneficial to the ¤<<accuracy>>¤ of the data, but also it is essential to allow the georeferencer to improve and learn through feedback from making mistakes. Following is a recommended data quality checking protocol:
 
 * Initial 200 records should be checked. If problems remain, check groups of 100 until satisfied with the georeferencer's abilities.
 * Regular checks of 10 randomly selected records for every 100
@@ -56,7 +56,7 @@ There are many methods of checking for ¤<<error,errors>>¤ in ¤<<georeference,
 
 Some of these techniques are incorporated into a number of programmes including _BioGeo _(Robertson _et al._ 2016), _CoordinateCleaner_ (Zizka _et al._ 2019) and the stand-alone ¤<<geographic information system,GIS>>¤ software _DIVA-GIS_ (Hijmans _et al._ 2012). See also http://georeferencing.org[_http://georeferencing.org_].
 
-The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the ¤<<data quality,quality>>¤ of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on ¤<<Darwin Core>>¤ terms will be coded and available for use in 2020 (Chapman _et al. 2020_). Currently (as of February 2020), there are 12 Validation tests related to ¤<<coordinates>>¤ and ¤<<datum,datums>>¤ and another seven related to geography. In addition there are seven Amendment tests that can be used to improve the ¤<<data quality,quality>>¤ of the data (https://github.com/tdwg/bdq/labels/Test[_https://github.com/tdwg/bdq/labels/Test_]).
+The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the ¤<<data quality,quality>>¤ of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on ¤<<Darwin Core>>¤ terms will be coded and available for use in 2020 (Chapman _et al._ 2020). Currently (as of February 2020), there are 12 Validation tests related to ¤<<coordinates>>¤ and ¤<<datum,datums>>¤ and another seven related to geography. In addition there are seven Amendment tests that can be used to improve the ¤<<data quality,quality>>¤ of the data (https://github.com/tdwg/bdq/labels/Test[_https://github.com/tdwg/bdq/labels/Test_]).
 
 ==== Making Corrections
 
@@ -145,7 +145,7 @@ g.  Not determined.
 * Percentage of records identified as suspect using validation tests.
 * Percentage of suspect records found to be actual ¤<<error,errors>>¤.
 
-The tests arising from the TDWG Data Quality Interest Group include 4 Measure tests at the record level (Chapman__ et al. __2020):
+The tests arising from the TDWG Data Quality Interest Group include 4 Measure tests at the record level (Chapman _et al._ 2020):
 
 * Number of Validation tests where prerequisites were not met.
 * Number of Validation tests that were compliant.
