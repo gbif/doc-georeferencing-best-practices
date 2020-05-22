@@ -1,0 +1,21 @@
+April 2020
+
+Published by:
+
+Global Biodiversity Information Facility, Copenhagen
+
+http://www.gbif.org[_http://www.gbif.org_]
+
+_Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by/4.0[_Creative Commons Attribution 4.0 Unported License_]
+
+The information in this book represents the professional opinion of the authors, and does not necessarily represent the views of the publisher. While the authors and the publisher have attempted to make this book as accurate and as thorough as possible, the information contained herein is provided on an "As Is" basis, and without any warranties with respect to its accuracy or completeness.  The authors and the publisher shall have no liability to any person or entity for any loss or damage caused by using the information provided in this book.
+
+Where there are differences in interpretation between this document and translated versions in languages other than English, the English version remains the original and definitive version.
+
+Recommended Citation:
+
+Chapman AD and Wieczorek J. 2020. _Georeferencing Best Practices_. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[_https://doi.org/10.15468/doc-gg7h-s853_]
+
+Based on the earlier document:
+
+Chapman AD and Wieczorek J (eds). 2006. _Guide to Best Practices for Georeferencing_. Copenhagen: Global Biodiversity Information Facility. ISBN: 87-92020-00-3. Published in English, French and Japanese. https://doi.org/10.15468/doc-2zpf-zf42[_https://doi.org/10.15468/doc-2zpf-zf42_]
