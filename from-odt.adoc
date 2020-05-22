@@ -141,7 +141,7 @@ There is often confusion around what is meant by ¤<<accuracy>>¤, ¤<<error>>¤
 
 ¤<<accuracy,Accuracy>>¤, <<**error>>,** and ¤<<bias>>¤ all relate directly to estimates of true values. The closer a statement (_e.g._, a measurement) is to the true value, the more ¤<<accuracy,accurate>>¤ it is. ¤<<error,Error>>¤ is a measure of <<**accuracy>> - **the difference between an estimated value and the true value. The more ¤<<accuracy,accurate>>¤ an estimate, the smaller the ¤<<error>>¤. ¤<<bias,Bias>>¤ is a measurement of the average systematic ¤<<error>>¤ in a set of measurements. ¤<<bias,Bias>>¤ often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more ¤<<accuracy,accurate>>¤.
 
-*NOTE*:__ __**"**__*Because the true value is not known, but only estimated, the <<accuracy>> of the measured quantity is also unknown. Therefore, <<accuracy>> of coordinate information can only be estimated.*__**" (Geodetic Survey Division 1996, FGDC 1998).**
+NOTE: "**__*Because the true value is not known, but only estimated, the <<accuracy>> of the measured quantity is also unknown. Therefore, <<accuracy>> of coordinate information can only be estimated.*__**" (Geodetic Survey Division 1996, FGDC 1998).
 
 image:img/Pictures/1000020100000273000002744EE828B46B73C65E.png[image,width=345,height=345]
 
@@ -197,7 +197,7 @@ In any ¤<<locality>>¤ that contains a ¤<<feature>>¤ that can be confused wit
 
 If recording locations on a ¤<<path>>¤ (road, river, etc.), it is important to also record whether the distances were measured along the actual ¤<<path>>¤ (_e.g._, ‘by road’) or as a direct line from the origin (_e.g._, ‘by air’).
 
-*TIP:* _*The most specific <<locality,localities>> are those described by a) a distance and heading along a <<path>> from a nearby and well-defined intersection, or b) two cardinal offset distances from a single persistent nearby <<feature>> of small <<extent>>.*_
+TIP: The most specific <<locality,localities>> are those described by a) a distance and heading along a <<path>> from a nearby and well-defined intersection, or b) two cardinal offset distances from a single persistent nearby <<feature>> of small <<extent>>.
 
 By describing a ¤<<location>>¤ in terms of a distance along a ¤<<path>>¤, or by two orthogonal distances from a ¤<<feature>>¤, one removes ¤<<uncertainty>>¤ due to ¤<<precision,imprecise>>¤ ¤<<heading,headings>>¤, which, when the distances are great, can be the biggest contributing factor to overall ¤<<uncertainty>>¤. Choosing a reference ¤<<feature>>¤ with small ¤<<extent>>¤ reduces the ¤<<uncertainty>>¤ due to the size of the reference ¤<<feature>>¤, and by choosing a nearby reference ¤<<feature>>¤, one reduces the potential for ¤<<error>>¤ in measuring the ¤<<offset>>¤ distances, especially along ¤<<path,paths>>¤. The Museum of Vertebrate Zoology at the University of California, Berkeley has published a guide to recording good ¤<<locality,localities>>¤ in the field that follows these principles. Following is an example ¤<<locality>>¤ from that document (copied with permission).
 
@@ -312,7 +312,7 @@ A ¤<<datum>>¤ is an essential part of a ¤<<coordinate reference system>>¤ an
 
 When capturing ¤<<geographic coordinates>>¤, always include as many decimals of ¤<<precision>>¤ as given by the ¤<<coordinates,coordinate>>¤ source. ¤<<coordinates,Coordinates>>¤ in ¤<<decimal degrees>>¤ given to five decimal places are more ¤<<precision,precise>>¤ than a measurement in ¤<<DMS,degrees, minutes, and seconds>>¤ to the nearest second, and more ¤<<precision,precise>>¤ than a measurement in degrees and decimal minutes given to three decimal places (see <<Table 3>>). Some new <<**GPS>>/<<GNSS>>** receivers now display data in decimal seconds to two decimal places, which corresponds to less than a meter everywhere on earth. This doesn't mean that the ¤<<GPS>>¤ reading is ¤<<accuracy,accurate>>¤ at that scale, only that the ¤<<coordinates>>¤ as given do not contribute additional ¤<<uncertainty>>¤.
 
-**TIP: **<<decimal degrees,_*Decimal degrees>> are preferred when capturing <<coordinates>> from a <<GPS>>, however, where reference to maps is important, and where the <<GPS>> receiver allows, set the recorder to report in degrees, minutes, and decimal seconds.*_
+TIP: <<decimal degrees,_*Decimal degrees>> are preferred when capturing <<coordinates>> from a <<GPS>>, however, where reference to maps is important, and where the <<GPS>> receiver allows, set the recorder to report in degrees, minutes, and decimal seconds.
 
 [[anchor-34]]2.4.2 Universal Transverse Mercator (UTM) Coordinates
 
@@ -328,7 +328,7 @@ When recording a ¤<<location>>¤, or databasing using ¤<<UTM>>¤ or equivalent
 
 Note that ¤<<Darwin Core>>¤ (Wieczorek _et al_. 2012b) supports ¤<<UTM>>¤ ¤<<coordinates>>¤ only in the _verbatimCoordinates_ field. There are several tools to convert <<**UTM>> <<coordinates>>** to ¤<<geographic coordinates>>¤, including http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html[_Geographic/UTM Coordinate Converter_] (Taylor 2003) - see http://georeferencing.org/tools.html[_http://georeferencing.org/tools.htm_]http://georeferencing.org/tools.html[_l_]. For details on ¤<<georeference,georeferencing>>¤, see <<__*2.3.2 Coordinates - Universal Transverse Mercator (UTM)*__>> in Zermoglio _et al. _(2020).
 
-**TIP: **__*If using <<UTM>> <<coordinates>>, always record the <<UTM>> zone and the <<datum>> or <<coordinate reference system>>.*__
+TIP: If using <<UTM>> <<coordinates>>, always record the <<UTM>> zone and the <<datum>> or <<coordinate reference system>>.
 
 [[anchor-35]]2.5 Coordinate Reference System
 
@@ -338,7 +338,7 @@ An unofficial (not governed by a standards body) set of ¤<<EPSG>>¤ (IOGP 2019)
 
 Sources of ¤<<EPSG>>¤ codes include epsg.io (Maptiler 2019), Apache (2019), EPSG Dataset version 9.1 (IOGP 2019), and Geomatic Solutions (2018). When using a ¤<<GPS>>¤, it is important to set and record the ¤<<EPSG>>¤ code of the ¤<<coordinate reference system>>¤ or ¤<<datum>>¤. See discussion below under <<__*3.4 Calculating Uncertainties*__>>__.__
 
-**TIP:**__ **If you are not basing your <<locality>> description on a map, set your <<GPS>> to report <<coordinates>> using the <<WGS84>> <<datum>> or a recent local <<datum>> that approximates <<WGS84>> (that may, for example, be legislated for your country) or the appropriate <<coordinate reference system,Coordinate Reference System>> (<<EPSG>> Code). Record the <<datum>> used in all your documentation.**__
+TIP: If you are not basing your <<locality>> description on a map, set your <<GPS>> to report <<coordinates>> using the <<WGS84>> <<datum>> or a recent local <<datum>> that approximates <<WGS84>> (that may, for example, be legislated for your country) or the appropriate <<coordinate reference system,Coordinate Reference System>> (<<EPSG>> Code). Record the <<datum>> used in all your documentation.
 
 [[anchor-36]]2.6 Using a GPS
 
@@ -346,9 +346,9 @@ Sources of ¤<<EPSG>>¤ codes include epsg.io (Maptiler 2019), Apache (2019), EP
 
 To obtain the best possible ¤<<accuracy>>¤, the <**GPS>>/<<GNSS>> **receiver must be located in an area that is free from overhead obstructions and reflective surfaces and have a good field of view to a broad portion of the sky (for example, they do not work very well under a heavy forest canopy, although new satellite signal technology is improving the ¤<<accuracy>>¤ in these locations (Moore 2017)). The <**GPS>>/<<GNSS>>** receiver must be able to record signals from at least four ¤<<GNSS>>¤ satellites in a suitable geometric arrangement. The best arrangement is to have "_one satellite directly overhead and the other three equally spaced_ _around the horizon_" (McElroy _et al. 2007_). The <**GPS>>/<<GNSS>>** receiver must also be set to an appropriate ¤<<datum>>¤ or ¤<<coordinate reference system>>¤ (CRS) for the area, and the ¤<<datum>>¤ or ¤<<coordinate reference system,CRS>>¤ that was used must be recorded (Chapman _et al._ 2005a).
 
-**TIP: **__*Set your <<GPS>> to report <<location,locations>> in <<decimal degrees>> rather than make a conversion from another <<coordinate system>> as it is usually more <<precision,precise>> (see <<Table 3>> in <<3.4.3. Uncertainty Related to Coordinate Precision>>), better and easier to store, and saves later transformations, which may introduce <<error>>.*__
+TIP: Set your <<GPS>> to report <<location,locations>> in <<decimal degrees>> rather than make a conversion from another <<coordinate system>> as it is usually more <<precision,precise>> (see <<Table 3>> in <<3.4.3. Uncertainty Related to Coordinate Precision>>), better and easier to store, and saves later transformations, which may introduce <<error>>.
 
-**TIP: **__*An alternative where reference to maps is important, and where the <<GPS>> receiver allows it, is to set the recorder to report in degrees, minutes, and decimal seconds.*__
+TIP: An alternative where reference to maps is important, and where the <<GPS>> receiver allows it, is to set the recorder to report in degrees, minutes, and decimal seconds.
 
 [[anchor-37]]2.6.1 Choosing a GPS or GNSS Receiver
 
@@ -428,7 +428,7 @@ We are not aware of the characteristics of the ¤<<accuracy>>¤ of ¤<<GPS>>¤-e
 
 Supplement the ¤<<locality>>¤ description with ¤<<elevation>>¤ information if this can be easily obtained. ¤<<elevation,Elevation>>¤ can be determined from a variety of sources while in the field, including altimeters, maps (both digital and paper), and <<**GPS>>/<<GNSS>> **receivers, each with associated ¤<<uncertainty,uncertainties>>¤. ¤<<elevation,Elevation>>¤ can be estimated _post-facto_ using ¤<<digital elevation model,Digital Elevation Models>>¤ at the ¤<<coordinates>>¤ of the ¤<<location>>¤. In any case, record the method used to determine the ¤<<elevation>>¤.
 
-*NOTE:* _*"<<elevation,Elevation>> markings can narrow down the area in which you place a point. More often than not, however, they seem to create inconsistency. While <<elevation>> should not be ignored, it is important to realize that <<elevation>> was often measured <<accuracy,inaccurately>> and/or <<precision,imprecisely>>, especially early in the 20th century. One of the best uses of <<elevation>> in a <<locality>> description is to pinpoint a <<location>> along a road or river in a topographically complex area, especially when the rest of the <<locality>> description is vague." *_(Murphy _et al._ 2004).
+NOTE: "<<elevation,Elevation>> markings can narrow down the area in which you place a point. More often than not, however, they seem to create inconsistency. While <<elevation>> should not be ignored, it is important to realize that <<elevation>> was often measured <<accuracy,inaccurately>> and/or <<precision,imprecisely>>, especially early in the 20th century. One of the best uses of <<elevation>> in a <<locality>> description is to pinpoint a <<location>> along a road or river in a topographically complex area, especially when the rest of the <<locality>> description is vague." *_(Murphy _et al._ 2004).
 
 When adding ¤<<elevation>>¤ _post facto_ be aware that the ¤<<elevation>>¤ can vary considerably over a small area (especially in steep terrain) and that the ¤<<uncertainty>>¤ of the ¤<<georeference>>¤ must be taken into account when determining the ¤<<elevation>>¤. Do not use the ¤<<coordinates>>¤ on their own.
 
@@ -792,7 +792,7 @@ In the case where multiple possible ¤<<georeference,georeferences>>¤ are found
 
 If the ¤<<georeference>>¤ is not fully documented following best practices (including being reproducible), we recommend that existing ¤<<georeference,georeferences>>¤ not be used (or used only with extreme caution). Even if the ¤<<georeference>>¤ is documented, it should be checked visually on a map to be sure that it makes sense, just as for any new ¤<<georeference>>¤.
 
-*CARE:* _*The re-use of existing <<georeference,georeferences>> can propagate <<error,errors>>. if a mistake was made the first time. Existing <<georeference,georeferences>> should be verified just as for any newly generated <<georeference>>.*_
+CARE: The re-use of existing <<georeference,georeferences>> can propagate <<error,errors>>. if a mistake was made the first time. Existing <<georeference,georeferences>> should be verified just as for any newly generated <<georeference>>.
 
 [[anchor-91]]3.1.4 Resources Needed
 
@@ -812,9 +812,9 @@ The most important preparation for efficient ¤<<georeference,georeferencing>>¤
 
 What are the fields you need in your database to best store ¤<<georeference,georeferencing>>¤ information? This may seem obvious but it is surprising how often a database is created and finalized before it is determined exactly what the database is supposed to hold. Be sure not to lump together dissimilar data into one field. Always atomize the data into separate fields with very specific definitions and rules for their content. It is also of some benefit to name the fields unambiguously, as users tend to go by the field names rather than looking at the field definitions. Thus, 'latitude_in_degrees' is a better name than *'<<latitude>>*' for a field that is supposed to contain ¤<<latitude,latitudes>>¤ in ¤<<decimal degrees>>¤, while 'verbatim_latitude' is better name for a field that is supposed to contain the ¤<<latitude>>¤ in the format given in the source. The names and definitions of fields in ¤<<Darwin Core>>¤ (Wieczorek _et al_. 2012b) were created specifically with this principle of clarity in mind. Note, however, that the ¤<<georeference,georeferencing>>¤ results might benefit from additional fields that are not described in ¤<<Darwin Core>>¤ (_e.g._, '<<**feature>>_<<radial>>**', 'radialUnits') in order to make it possible to reproduce the ¤<<georeference>>¤ and thus test it's veracity. It is often tempting to include fields for the ¤<<georeference,georeferenced>>¤ ¤<<coordinates>>¤ and ignore any additional fields; however, you (or those who follow after you) are sure to regret this minimalist approach, because it severely limits the long-term usability of the data. Not only do ¤<<location,locations>>¤ occupy a physical <<**extent>>,** but also the associated information on methods used to determine the ¤<<georeference>>¤, the <<**extent>>, <<radial>>,** and ¤<<uncertainty>>¤ associated with the ¤<<georeference>>¤ are important pieces of information for the end user, as well as for managing and improving the ¤<<data quality,quality>>¤ of your information. The fields that are needed can be divided into two categories, the first consists of the fields associated with the textual description of the ¤<<location>>¤, and the second consists of the fields associated with the spatially enabled interpretation as a ¤<<georeference>>¤ and the ¤<<georeference,georeferencing>>¤ process.
 
-*NOTE*: _*When atomizing data on entry, always include a field or fields that record verbatim the original data so that atomization and other transformations can later be revealed and checked.*_
+NOTE: When atomizing data on entry, always include a field or fields that record verbatim the original data so that atomization and other transformations can later be revealed and checked.
 
-**NOTE: **__*Automatic format transformations to <<decimal degrees>> may introduce <<false precision>>. See <<1.6 Accuracy, Error, Bias, Precision, False Precision, and Uncertainty>>.*__
+NOTE: Automatic format transformations to <<decimal degrees>> may introduce <<false precision>>. See <<1.6 Accuracy, Error, Bias, Precision, False Precision, and Uncertainty>>.
 
 [[anchor-94]]A reference worth checking before developing your own database system is the _*Herbarium Information Standards and Protocols for Interchange of Data*_ (HISCOM 2000, Neish _et al._ 2007), which although set up for data interchange for herbaria, is applicable to most natural history collection data.
 
@@ -1007,7 +1007,7 @@ Unlike the ¤<<point-radius>>¤ <georeferencing method,*method>>*, this method h
 
 A <<**point-radius>> <<georeference>> **can be turned into a ¤<<bounding box>>¤ *<<georeference>>* by using the ¤<<geographic radial>>¤ from the ¤<<corrected center>>¤ of the ¤<<point-radius>>¤ to determine the ¤<<coordinates>>¤ of the east-west and north-south extremes of the ¤<<bounding box>>¤.
 
-*NOTE*: _*Though transformations can be made back and forth between <<point-radius>> and <<bounding box>> representations of a <<location>>, it is not recommended, because the transformed <<georeference>> will necessarily be bigger than the original, and therefore contain more area that does not pertain to the actual <<location>>. Better to <<georeference>> directly using the <<georeferencing method,method>> of choice.*_
+NOTE: Though transformations can be made back and forth between <<point-radius>> and <<bounding box>> representations of a <<location>>, it is not recommended, because the transformed <<georeference>> will necessarily be bigger than the original, and therefore contain more area that does not pertain to the actual <<location>>. Better to <<georeference>> directly using the <<georeferencing method,method>> of choice.
 
 Like the ¤<<point-radius>>¤ circle, the ¤<<bounding box>>¤ can also be intersected with other spatially enabled information to constrain the effective area within.
 
@@ -1099,9 +1099,9 @@ In addition to the inherent inaccuracies of printed maps, one must consider inac
 
 Digital versions of traditional paper maps that have been scanned or digitized by hand using a digitizing tablet to trace lines, have an extra layer of ¤<<uncertainty>>¤ (Dempsey 2017). Depending on how the map was digitized, the ¤<<error>>¤ may be small or large when compared to the scale of the original map. In parts of the world where digitized maps are not readily available, they can be scanned and rectified using satellite data (Raes _et al._ 2009). Scanned maps often (and should always) include information on the ¤<<accuracy>>¤ added by the digitizing process (see ASPRS 1990). Be careful when using digital maps, and record any information on the scanning ¤<<accuracy>>¤ if that information is available. Always err on the cautious side when recording the ¤<<uncertainty>>¤ of your ¤<<georeference>>¤ when using maps of this type (ASPRS 2014).
 
-*NOTE*: _*A digital map is never more <<accuracy,accurate>> than the original from which it was derived, nor is it more <<accuracy,accurate>> when you zoom in on it. The <<accuracy>> is strictly a function of the scale and digitizing <<error,errors>> of the original map, plus the additional <<error>> added by the digitization process. *_
+NOTE: A digital map is never more <<accuracy,accurate>> than the original from which it was derived, nor is it more <<accuracy,accurate>> when you zoom in on it. The <<accuracy>> is strictly a function of the scale and digitizing <<error,errors>> of the original map, plus the additional <<error>> added by the digitization process. 
 
-*CARE*: _*Care must be used when using a digital map that records the scale in the form of text (e.g., 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g., 1:20,000). *_
+CARE: Care must be used when using a digital map that records the scale in the form of text (e.g., 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g., 1:20,000). 
 
 Measurement ¤<<error>>¤ is not unique to physical maps, it also enters into measurements on digital media. In general, the resolution of the media affects one's ability to distinguish between two points, and this in turn can be affected by the extent to which the media is zoomed. Note that zooming does not improve the ¤<<accuracy>>¤ of the original source from which the media was derived. That ¤<<accuracy>>¤ remains an independent factor, as described in the earlier paragraphs in this section. Naturally, the greater the zoom, the easier it is to pinpoint a ¤<<location>>¤. This effect of zoom on digital media also has an effect on one's ability to measure along a ¤<<path>>¤ in that medium. The greater the zoom, the easier it is to follow the ¤<<path>>¤ faithfully and thus determine a distance along that ¤<<path>>¤ with the least ¤<<error>>¤. The greater the curviness of the ¤<<path>>¤, the greater the potential effect on ¤<<accuracy>>¤. Note also, that the scale of the map may reduce the curviness of a ¤<<path>>¤ (road, river, etc.) and that small scale maps tend to smooth out the ¤<<path,paths>>¤ of rivers, roads, coastlines, and other curved linear ¤<<feature,features>>¤ (Chapman _et al_. 2005).
 
@@ -1171,7 +1171,7 @@ ZOC C
 
 [[anchor-139]]Using previously ¤<<georeference,georeferenced>>¤ <<locality,*localities>> *- whether from your own database, or from an external source can introduce ¤<<uncertainty,uncertainties>>¤. If the source is previously ¤<<georeference,georeferenced>>¤ ¤<<locality,localities>>¤ from your own database, then it is important that you retain all the metadata associated with that previously <<georeference,**georeferenced>> <<locality>> **with all subsequent records. Similarly, if using an external source, try and record a DOI reference or similar if possible, so that any subsequent changes can be traced.
 
-[[anchor-140]]**NOTE**: _*When using previously <<georeference,georeferenced>> <<locality,localities>> as a source, if an <<error>> was made with the original <<georeference,georeferencing>>, then it will be perpetuated through all subsequent <<georeference,georeferences>>.*_
+[[anchor-140]]NOTE: When using previously <<georeference,georeferenced>> <<locality,localities>> as a source, if an <<error>> was made with the original <<georeference,georeferencing>>, then it will be perpetuated through all subsequent <<georeference,georeferences>>.
 
 [[anchor-141]]3.4.3 Uncertainty Related to Coordinate Precision
 
@@ -1201,11 +1201,11 @@ From <<Table 3>>, it can be seen that an observation recorded in degrees, minute
 |0.01 second |1 m |1 m |1 m |1 m
 |======================================================================================================
 
-*CARE*: _*False <<precision>> can arise when transformations from <<DMS,degrees minutes seconds>> to <<decimal degrees>> are stored in a database (see Glossary for expanded discussion). *_
+CARE: False <<precision>> can arise when transformations from <<DMS,degrees minutes seconds>> to <<decimal degrees>> are stored in a database (see Glossary for expanded discussion). 
 
-*CARE*: _*Never use <<precision>> in a database as a surrogate for the <<coordinates,coordinate>> <<uncertainty>>; instead, record the <<uncertainty>> explicitly, preferably as a distance.*_
+CARE: Never use <<precision>> in a database as a surrogate for the <<coordinates,coordinate>> <<uncertainty>>; instead, record the <<uncertainty>> explicitly, preferably as a distance.
 
-*NOTE*: __*Details of calculations used to determine <<uncertainty,uncertainties>> in <<coordinate precision,coordinate precisions>> can be found in *__http://manisnet.org/docs/GeorefGuide.html#imprecision_in_coordinates[_*Wieczorek (2001)*_]_* and Wieczorek et al. (2004).*_
+NOTE: Details of calculations used to determine <<uncertainty,uncertainties>> in <<coordinate precision,coordinate precisions>> can be found in *__http://manisnet.org/docs/GeorefGuide.html#imprecision_in_coordinates[_*Wieczorek (2001)*_]_* and Wieczorek et al. (2004).
 
 _*Example*_:
 
@@ -1229,7 +1229,7 @@ The ambiguity from a missing ¤<<datum>>¤ varies geographically and adds greatl
 
 The calculation of ¤<<uncertainty>>¤ from the ¤<<precision>>¤ in which a ¤<<direction>>¤ is recorded depends on the distance from the starting reference ¤<<feature>>¤. The ¤<<uncertainty>>¤ will increase with increasing distance from the source. For simple determinations of angular ¤<<precision>>¤ due to ¤<<direction>>¤ – see <<Table 4>>.
 
-*NOTE*: _*The <<uncertainty>> due to directional <<precision,imprecision>> increases with distance, so it can only be calculated from the combination of distance and direction (see below).*_
+NOTE: The <<uncertainty>> due to directional <<precision,imprecision>> increases with distance, so it can only be calculated from the combination of distance and direction (see below).
 
 *Table 4.* Calculating ¤<<uncertainty>>¤ using the ¤<<precision>>¤ of the recorded direction (derived from Wieczorek _et al._ 2004).
 
@@ -1290,7 +1290,7 @@ For distance measurements that are positive integer powers of 10, the ¤<<precis
 
 ¤<<precision,Precision>>¤ can also be masked or lost when measurements are converted, such as from feet to meters, or from miles to kilometers.
 
-*CARE*: _*Be careful that the value you are using for <<precision>> when calculating the <<uncertainty>> is a true <<precision>> and not a <<false precision>>. For example, converting a collector’s recording of 16 miles (with a <<precision>> of 1 mile) to 25.6 km (with a <<precision>> of 0.1 km) leads to an unwarranted level of <<precision>> that is more than 16 times higher than the original.*_
+CARE: Be careful that the value you are using for <<precision>> when calculating the <<uncertainty>> is a true <<precision>> and not a <<false precision>>. For example, converting a collector’s recording of 16 miles (with a <<precision>> of 1 mile) to 25.6 km (with a <<precision>> of 0.1 km) leads to an unwarranted level of <<precision>> that is more than 16 times higher than the original.
 
 <<Figure 12>> shows an example of two orthogonal distances measured from a ¤<<feature>>¤, each with the ¤<<uncertainty>>¤ due to distance ¤<<precision>>¤. If we ignore all sources of ¤<<uncertainty>>¤ except those arising from distance ¤<<precision>>¤, the ¤<<uncertainty>>¤ is a ¤<<bounding box>>¤ centered on the point 8 km E and 6 km N of the ¤<<corrected center>>¤ of the ¤<<feature>>¤. Each of the distance measurements demonstrates a <<p**recision**>> of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km <<u**ncertainty**>> in each cardinal direction from the center). Since we are characterizing the ¤<<precision>>¤ as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned ¤<<bounding box>>¤ to get the ¤<<uncertainty>>¤ due to the combined distance <<precision,p**recisions**>>. The radius of this circle is half the length of the distance <<**precision>> <<bounding box>>**, which is equal to one half the square root of two times the distance ¤<<precision>>¤. So, for the above example the ¤<<uncertainty>>¤ associated with only the distance ¤<<precision>>¤ is one half the square root of two, or 0.707 km.
 
@@ -1488,7 +1488,7 @@ We recommend that if data are to be ¤<<generalize,generalized>>¤ that it be do
 
 We recommend that when recording the degree of ¤<<generalization>>¤ of data, that ¤<<spatial fit,Spatial Fit>>¤ (<<__*3.6 Determining Spatial Fit*__>>) be used. For example, the degree to which a record has been ¤<<generalization,generalized>>¤ to obfuscate the ¤<<georeference>>¤ will be a number greater than 1 (see <<Figure 14>> and Chapman 2020).
 
-*NOTE*: _*Data should never be <<generalization,generalized>> at the time of collection, when <<georeference,georeferencing>>, or when storing in the database.*_
+NOTE: Data should never be <<generalization,generalized>> at the time of collection, when <<georeference,georeferencing>>, or when storing in the database.
 
 Some institutions randomize the data before publishing. This is a practice we do _*NOT*_ recommend, and in fact would discourage it in all circumstances (Chapman 2020).
 
@@ -1685,7 +1685,7 @@ The purpose of this glossary is to describe important concepts in accordance wit
 
 **accuracy — **the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare ¤<<error>>¤, ¤<<bias>>¤, ¤<<precision>>¤, ¤<<false precision>>¤ and ¤<<uncertainty>>¤.
 
-*NOTE*: "__*the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.*__**" (Geodetic Survey Division 1996, FGDC 1998).**
+NOTE: "__*the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.*__**" (Geodetic Survey Division 1996, FGDC 1998).
 
 **altitude — **a measurement of the vertical distance above a ¤<<vertical datum>>¤, usually ¤<<mean sea level>>¤ or ¤<<geoid>>¤. For points on the surface of the earth, altitude is synonymous with ¤<<elevation>>¤.
 
