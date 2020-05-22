@@ -1805,7 +1805,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 ¤GIS¤ — __see <<__**geographic information system (GIS)>>**.
 
-*Globally Unique Identifier (GUID) —* a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<**Persistent Identifier (PID)**_*>>*_.
+*Globally Unique Identifier (GUID) —* a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also ¤<<Persistent Identifier (PID)>>¤.
 
 *GNSS *(Global Navigation Satellite System) — the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses ¤<<GPS>>¤, GLONASS, Galileo, BeiDou and other regional systems.
 
@@ -1871,7 +1871,7 @@ NOTE: "__*the true value is not known, but only estimated, the accuracy of the m
 
 *SBAS *(Satellite Based Augmentation System) — is a civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<__*2.6.4 Satellite Based Augmentation System*__>>).
 
-¤shape¤ — synonym of <<**footprint**_*>>*_. A representation of the ¤<<geographic component>>¤ of a** <<location>> **as a ¤<<geometry>>¤. The result of a <<**shape** *georeferencing method>>* includes a shape as the ¤<<geographic component>>¤ of the ¤<<georeference>>¤, which contains the set of all possible ¤<<geographic coordinates>>¤ where a ¤<<location>>¤ might be interpreted to be. This representation encompasses all of the geographical ¤<<uncertainties>>¤ within the ¤<<geometry>>¤ given. The *shape* ¤<<georeferencing method,method>>¤ uses ranges to represent the non-geographic descriptors of the ¤<<location>>¤ (¤<<elevation>>¤, ¤<<water depth>>¤, <¤<<distance above surface>>¤).
+¤shape¤ — synonym of ¤<<footprint>>¤. A representation of the ¤<<geographic component>>¤ of a** <<location>> **as a ¤<<geometry>>¤. The result of a <<**shape** *georeferencing method>>* includes a shape as the ¤<<geographic component>>¤ of the ¤<<georeference>>¤, which contains the set of all possible ¤<<geographic coordinates>>¤ where a ¤<<location>>¤ might be interpreted to be. This representation encompasses all of the geographical ¤<<uncertainties>>¤ within the ¤<<geometry>>¤ given. The *shape* ¤<<georeferencing method,method>>¤ uses ranges to represent the non-geographic descriptors of the ¤<<location>>¤ (¤<<elevation>>¤, ¤<<water depth>>¤, <¤<<distance above surface>>¤).
 
 ¤smallest enclosing circle¤ — a circle with the smallest radius (¤<<radial>>¤) that contains all of a given set of points (or a given ¤<<shape>>¤) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_https://en.wikipedia.org/wiki/Smallest-circle_problem_]https://en.wikipedia.org/wiki/Smallest-circle_problem[)]. This is seldom the same as the ¤<<geographic center>>¤, nor the midpoint between two most distant ¤<<geographic coordinates>>¤ of a ¤<<location>>¤.
 
