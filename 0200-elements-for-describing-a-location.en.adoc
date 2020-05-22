@@ -341,11 +341,11 @@ If the ¤<<locality>>¤ references a river, such as in the example "16 mi downst
 
 This type of ¤<<locality>>¤ refers to rectilinear distances in two orthogonal ¤<<direction,directions>>¤ from a ¤<<feature>>¤, for example, "2 mi E and 1.5 mi N of Kandy" (see <<__*2.2.4 Offset - Distance along Orthogonal Directions*__>> in Georeferencing Q__*uick Reference Guide *__(Zermoglio _et al_. 2020) and <<Figure 12>>. This way of describing a locality can be very effective, as it tends to remove one of the potentially largest sources of *uncertainty*, the ever-expanding ¤<<uncertainty>>¤ of ¤<<direction>>¤ with distance. Using orthogonal ¤<<direction,directions>>¤ removes all ¤<<direction,directional>>¤ ¤<<uncertainty>>¤, as orthogonality implies directly in the orthogonal ¤<<direction,directions>>¤ "by air". It is for this reason that this ¤<<locality type>>¤ is highly recommended for ¤<<locality>>¤ descriptions.
 
-2.10 Water Depth
+=== Water Depth
 
 Water ¤<<depth>>¤ should be recorded as a range; _i.e_., as minimum and maximum positive distances in meters below the air-water interface of the water body (🐠ocean, sea, lake, river, etc.). Maximum ¤<<depth>>¤ will always be a positive number greater than or equal to the minimum ¤<<depth>>¤. If the ¤<<depth>>¤ measurement is specific rather than a range, use the same value for the minimum and maximum ¤<<depth,depths>>¤.
 
-2.10.1 Bathymetry
+==== Bathymetry
 
 🐠The ¤<<depth>>¤ of the benthic surface in large water bodies is called ¤<<bathymetry>>¤ or bathymetric ¤<<depth>>¤. It is usually recorded in one of two ways - as a gridded surface (Digital Terrain Model), or as contours. The accuracy of the ¤<<bathymetry>>¤ depends on how it was determined, and is generally much more ¤<<accuracy,accurate>>¤ near the coasts, or in harbours, than it is in the deeper ocean.
 
@@ -355,13 +355,13 @@ Since 2003, the most commonly used global coverage of ¤<<bathymetry>>¤ has bee
 
 Very few studies have been carried out on the ¤<<accuracy>>¤ of either the ¤<<bathymetry,bathymetric>>¤ ¤<<grid,grids>>¤ or contours - especially with GEBCO_2019 as the dataset has only recently been published. The authors have not been able to find any definitive information on ¤<<accuracy,accuracies>>¤ that we can report on a general basis, but the contour intervals give an indication of the ¤<<uncertainty>>¤ inherent in the ¤<<grid,grids>>¤. In coastal, near inshore areas, harbours, and inland reservoirs and lakes, more intensive and different ¤<<bathymetry,bathymetric>>¤ surveys have generally been carried out (see the Bathymetric Data Viewer (NOAA 2019)) and ¤accuracy¤ studies have been conducted in some of these areas. In shallow-water areas there is less interference due to water ¤<<depth>>¤ and higher sound wave frequencies can be used for multibeam ¤<<bathymetry,bathymetric>>¤ surveying. The ¤<<accuracy>>¤ is much better than in other deeper-water areas, and thus these studies cannot be extrapolated to the broader ocean. For contours, as with land maps, ¤<<uncertainty>>¤ in the ¤<<elevation>>¤ is half the contour interval.
 
-2.10.2 Dive Computers
+==== Dive Computers
 
 There are three methods for determining ¤<<depth>>¤ that are generally used by divers, _i.e._, dive computers, dive watches and depth gauges. All work on ambient pressure to determine the ¤<<depth>>¤. Dive computers need to be calibrated before dives and set depending on the water density - _i.e.,_ saltwater or freshwater, etc. and if calibrated correctly are reported by manufacturers, to be ¤<<accuracy,accurate>>¤ to within 0.3 m.
 
 A study of 47 brands of dive computers at ¤<<depth,depths>>¤ of 10 m, 20 m, 30 m, 40 m and 50 m in both seawater and freshwater showed that the majority of ¤<<depth>>¤ estimates were in the ± 1 meter range, and that if the salinity is known and the instrument is properly calibrated, ¤<<accuracy,accuracies>>¤ of around 1% could or should be expected (Azzopardi & Sayer 2012). The ¤<<accuracy>>¤ of diver-held depth gauges are of a similar order. Dive watches are generally thought less ¤<<accuracy,accurate>>¤, but with reports for some watches of ¤<<depth>>¤ ¤<<accuracy>>¤, at ¤<<depth,depths>>¤ of up to 100 m, as ± 1% of displayed value + 0.3 m (when used at constant temperature). ¤<<accuracy,Accuracy>>¤ can be influenced by changes in ambient temperature and water salinity.
 
-2.11 Distance above Surface
+=== Distance above Surface
 
 ¤<<distance above surface,Distance above surface>>¤ should be recorded in meters in a vertical direction from a reference point, with a minimum and a maximum distance to cover a range. Examples include the height above the ground of a soaring eagle, the distance up a tree from the ground (height), and the distance from the top of a vertical core sample to a diatom sample found in that core.
 
@@ -375,17 +375,17 @@ image:img/Pictures/100002010000043B000003ED631B8869A4E7344C.png[image,width=514,
 
 For the special case of recording ¤<<location,locations>>¤ within a 🐉cave system or in an underground mine, see <<__*2.12 Caves*__>>__*.*__
 
-2.12 Caves
+=== Caves
 
 🐉Collecting in caves, underground mines and tunnels presents a number of challenges not encountered elsewhere.
 
-2.12.1 Determining location
+==== Determining location
 
 In 🐉cave systems and underground mines, determining the geographic position on the surface (known as ¤<<ground zero>>¤) can be done with radiolocation or Electromagnetic Cave-to-Surface (ECMS) Mapping System (Sogade __et al. __2004), which uses electromagnetic wave technology. This requires a levelled radio loop in the ¤<<location>>¤ within the cave and a receiver above ground to determine the *location* underground. The surface ¤<<location>>¤ can then be determined using a ¤<<GPS>>¤/¤<<GNSS>>¤ receiver, as usual. With a levelled antenna, an experienced operator can determine a ¤<<ground zero>>¤ with an¤<<accuracy>>¤ of one meter for a 50 m depth (2%) (Gibson 1996, 2002), however, more recent radiolocation beacons have increased the horizontal ¤<<accuracy>>¤ to about 0.5% to 1% (Goldsheider & Drew 2014, Buecher 2016). Fortunately, many caves and mines have already been extensively mapped, so where maps are available, these may be used to determine ¤<<location,locations>>¤.
 
 A second method, using the cave mouth, is probably more commonly used, is easier to determine, but is less ¤<<accuracy,accurate>>¤ and has a much greater ¤<<uncertainty>>¤. The cave mouth, tunnel opening, mine shaft entrance, etc., are the most obvious ¤<<location,locations>>¤ to begin with. These ¤<<location,locations>>¤ can easily be obtained using a ¤<<GPS>>¤ unit, but be aware of the likely reduced ¤<<accuracy>>¤ of the ¤<<GPS>>¤ unit if the cave entrance is within a deep valley where good ¤<<GNSS>>¤ reception may be reduced. It is documenting the ¤<<location>>¤ of the ¤<<event>>¤ from that position that is much more difficult, especially where detailed cave maps don’t exist. At its crudest level, one may estimate the cave ¤<<extent>>¤ and determine the ¤<<corrected center>>¤ of that ¤<<extent>>¤. From there you can determine a ¤<<geographic radial>>¤ as noted elsewhere in this document (see <<__*2.3.3 Polygons*__>>. Just recording the ¤<<location>>¤ of the cave entrance, and using a large ¤<<radial,radius>>¤ for the ¤<<uncertainty>>¤ is not ideal but may be a last resort. If doing this however, make sure that your ¤<<locality>>¤ description includes as much additional information as possible - such as estimated distance from the cave entrance, ¤<<direction>>¤, and if possible, a ‘depth’. For ¤<<georeference,georeferencing>>¤ in Caves, see <<__*2.1.3.5 Feature - Cave*__>> in Zermoglio _et al._ (2020).
 
-2.12.2 Elevation
+==== Elevation
 
 Traditionally, cavers have recorded the depth in a 🐉cave as the depth below the surface, however, in this document and for the purposes of recording biological observations, we use ¤<<elevation>>¤ (above ¤<<mean sea level>>¤ or ¤<<geoid>>¤) for a position at the floor of the cave.
 
@@ -399,19 +399,19 @@ image:img/Pictures/100002010000022D00000143D2CA548E2DF82564.png[image,width=516,
 
 *Figure 10.* Specifying the vertical position of a ¤<<location>>¤ in a cave using an ¤<<elevation>>¤ (*e*) and a ¤<<distance above surface>>¤ (*X*). The ¤<<location>>¤ (*a*) is at a vertical distance (*X*) directly above the floor of the cave, which is at ¤<<elevation>>¤ *e*. The ¤<<elevation>>¤ of ¤e¤ is determined within the cave by surveying from a known ¤<<elevation>>¤ on the cave floor (*e1*), which is calculated using an estimated distance below the surface ¤<<elevation>>¤ at ¤<<ground zero>>¤ (*GZ*).
 
-2.12.3 Depth in Subterranean Water Bodies
+==== Depth in Subterranean Water Bodies
 
 The water ¤<<depth>>¤ within a subterranean water body (lake, river, sinkhole, etc.) is recorded as for other water bodies and is measured from the surface of the water body (see <<Figure 9>>B). The ¤<<elevation>>¤ of the surface of the water body is determined as for the floor of the cave in <<Figure 10>>.
 
-2.12.4 Distance Above or Below a Surface
+==== Distance Above or Below a Surface
 
 Determining the ¤<<distance above surface,distance above>>¤ (and below) a <<distance above surface,*surface>> *(as documented elsewhere) is treated the same within a 🐉cave system (see <<Figure 9, Figure 9B>>, <<Figure 10>>). As above, the ¤<<elevation>>¤ of the cave floor has been determined, so a troglobiont (_e.g._, an animal) on the roof of the cave is given as meters above the floor of the cave whose ¤<<elevation>>¤ has been determined as above ("X" in <<Figure 10>>).
 
-2.13 Dealing with Non-natural Occurrences
+=== Dealing with Non-natural Occurrences
 
 Records of non-natural occurrences such as cultivated plants and captive animals, and records resulting from 🐠beach drift or having been washed ashore (such as shells on a beach that do not contain live animals) should have their "non-natural" or "non-wild" provenance recorded. There may be many valuable uses for these records even if the ¤<<location,locations>>¤ do not correspond to natural occurrences of the organisms. We recommend that the ¤<<location>>¤ be recorded and ¤<<georeference,georeferenced>>¤, along with the nature of the provenance (cultivated, captive, washed ashore, etc.).
 
-2.14 Absences and Non-Detections
+=== Absences and Non-Detections
 
 An ‘absence’ is when a particular detection protocol, implemented at a particular location and time, does not result in a detection. True absence occurs in areas where the environmental conditions are unsuitable for a species’ survival. Recording of absences has always been contentious. This is partly because it is very much a result of subjective interpretation and it can not be vouchered. There are three important and overlapping factors - ¤<<location>>¤, time and methodology. An annual plant, for example, may not be present as an individual at the time of an observation, but may be present at a different time of the year. The ¤<<location>>¤ needs to be bounded, and is closely linked to the methodology. ¤<<uncertainty,Uncertainty>>¤ of the ¤<<location>>¤ applies as elsewhere in this document. However, it may have additional implications. Though an observation may record that species x was not detected at a particular¤<<location>>¤ at a particular time using a particular methodology, that¤<<location>>¤ has an ¤<<uncertainty>>¤. The ¤<<uncertainty>>¤ is saying that the area within which the observation (non-detection) was made is somewhere within the ¤<<radial,radius>>¤ or ¤<<shape>>¤ defined by that ¤<<uncertainty>>¤. It does NOT mean that the absence can be ascribed to the totality of the area described by that ¤<<uncertainty>>¤.
 
@@ -424,16 +424,16 @@ It is thus important to document:
 * The time, duration, and date.
 * The methodology used.
 
-2.15 Remotely Captured Data
+=== Remotely Captured Data
 
 🌳Counts of animals or plants may be made remotely - for example using an aircraft utilizing direct counts by individuals or using camera or video equipment that is then analysed back in the laboratory. Examples include aerial counts of kangaroos, counts of whales at sea, etc. It may also include the capture of information from 🐠trawls, whereby one or more ships catch marine organisms along one or more ¤<<path,paths>>¤ over a given period (for example, a day) and then the catch is analysed back on shore. Another example is the use of tracking instruments on birds or turtles, etc. that may give either periodic or intermittent reports of ¤<<location>>¤. Other examples are the use of satellites to remotely image penguins in the Antarctic and then use either individual researchers or machines to count the individual penguins from the satellite image and counts of caribou in the arctic using aerial photography.
 
 In many of these examples, the count of the number of individuals within an area is the aim, rather than the ¤<<location>>¤ of individual organisms. This may be recorded as a ¤<<grid>>¤, a polygon, a ¤<<path>>¤, or a line. Record the ¤<<location>>¤, its ¤<<extent>>¤, and the ¤<<geographic radial>>¤ for the ¤<<uncertainty>>¤ as described for these same ¤<<geometry,geometries>>¤ in the preceding subsections.
 
-2.16 Data for Small Labels
+=== Data for Small Labels
 
 An issue that often arises with insect collections is the challenge of recording ¤<<locality>>¤ information on small labels. This should not be as big an issue as previously, because new technologies allow for linking information on the label to a database (through barcodes, or QR codes, etc.) with the recording of only basic information on the label. See Wheeler _et al._ (2001) on guidelines for preparing labels for terrestrial arthropods, but bear in mind the principles laid out in this document when preparing data for insect labels, especially the recording of ¤<<datum>>¤, ¤<<coordinate reference system>>¤ or ¤<<EPSG>>¤ codes, etc., which are not covered by Wheeler _et al._
 
-2.17 Documentation
+=== Documentation
 
 Record the sources of all measurements. Minimally, include map name and scale, the ¤<<datum>>¤ or ¤<<coordinate reference system>>¤, the source for ¤<<elevation>>¤ data, the ¤<<accuracy>>¤ reported by the ¤<<GPS>>¤ receiver, the ¤<<UTM>>¤ Zone if using ¤<<UTM>> <<coordinates>>¤, the ¤<<extent>>¤ and ¤<<radial>>¤ of the ¤<<location>>¤, the method used to record the ¤<<depth>>¤, etc.
