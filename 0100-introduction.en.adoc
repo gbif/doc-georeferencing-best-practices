@@ -1,11 +1,10 @@
-[#Introduction]
 == Introduction
 
 Throughout this document we make use of terminology for which the specific meaning has great importance for overall understanding, especially for terms that might differ from, or vary in common usage. We mark these key words in **bold**, with a link to the glossary, to call attention to the specific meaning and avoid potential confusion. All terms so marked are defined in the <<Glossary>>.
 
 This publication provides guidelines to the best practice for **<<georeference,georeferencing>>**. Though it is targeted specifically at biological occurrence data, the concepts and methods presented here can be applied in other disciplines where spatial interpretation of **<<location>>** is of interest. This document builds on the original *_Guide to Best Practices for Georeferencing_* (Chapman & Wieczorek 2006), which was one of the outputs from the BioGeomancer project (Guralnick _et al._ 2006). Several earlier projects (MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO, etc.) had previously developed guidelines and tools for **<<georeference,georeferencing>>**, and these provided a good starting point for such a document. A detailed history of the organizations involved in the development of BioGeomancer and of the original *_Guide_* was given in that source. Throughout this document we reference tools and methodologies developed by those organizations and we acknowledge the valuable work by those organizations in their development. This document attempts to bring best practices up to date with terms, technologies, and **<<georeference,georeferencing>>** recommendations that have been developed and refined since the original document was published.
 
-This document is designed so that institutions with **<<georeference,georeferencing>>** commitments can extract those portions that apply to their own requirements and priorities, and adapt them if necessary where those practices vary from, or elaborate on, the ones given here. Derived works should be made publicly accessible and the derived **<<georeferencing protocol>>** should be cited in the metadata of any **<<georeference,georeferenced>>** records that were produced by it. Citing a published protocol when your own methods differ would violate the best practice principle of replicability, described in <<Principles of Best Practice>>. An example of a citable protocol is the *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._, 2020). This document should not be cited as a **<<georeferencing protocol>>**.
+This document is designed so that institutions with **<<georeference,georeferencing>>** commitments can extract those portions that apply to their own requirements and priorities, and adapt them if necessary where those practices vary from, or elaborate on, the ones given here. Derived works should be made publicly accessible and the derived **<<georeferencing protocol>>** should be cited in the metadata of any **<<georeference,georeferenced>>** records that were produced by it. Citing a published protocol when your own methods differ would violate the best practice principle of replicability, described in <<Principles of Best Practice>>. An example of a citable protocol is the {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._, 2020). This document should not be cited as a **<<georeferencing protocol>>**.
 
 This version is a complete revision with many new and updated references. The major changes and additions in this edition include:
 
@@ -18,9 +17,8 @@ This version is a complete revision with many new and updated references. The ma
 * Expanded the explanations to include ecological, marine and other data collected in **<<transect,transects>>**, along irregular **<<path,paths>>**, in polygons, or on **<<grid,grids>>**.
 * Added information on determining **<<georeference,georeferences>>** for subterranean locations such as caves, tunnels and mine sites.
 * Added information on **<<bathymetry>>** and underwater **<<depth,depths>>**.
-* Integrated this document with the companion documents *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020) and *_Georeferencing Calculator Manual_* (Bloom _et al._ 2020).
+* Integrated this document with the companion documents {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020) and *_Georeferencing Calculator Manual_* (Bloom _et al._ 2020).
 
-[#Objectives]
 === Objectives
 
 This document aims to provide current best practice for using the **<<point-radius>>**, **<<bounding box>>**, and **<<shape>> <<georeferencing method,georeferencing methods>>**, whether for new records in the field or for retrospective **<<georeference,georeferencing>>** of historic and un-georeferenced **<<location,locations>>**. We hope that the reader will come away from this document with, if nothing else, a good appreciation of the following essential principles:
@@ -40,27 +38,24 @@ This document aims to provide current best practice for using the **<<point-radi
 *Conclusion*: **<<coordinates>>** alone do not constitute a **<<georeference>>**.
 * **<<geometry,Geometries>>** are great as **<<georeference,georeferences>>**, if you can deal with them; if not, the **<<point-radius>>** is surprisingly powerful, because using a **<<geographic information system,Geographic Information System>>** (GIS), it can be intersected with other spatial layers to get **<<geometry,geometries>>** (**<<shape,shapes>>**).
 
-[#Target-Audience]
 === Target Audience
 
 This work is designed for those who need, or want to know **why** the best practices are what they are, in detail. This document is also for individuals or organizations faced with planning a **<<georeference,georeferencing>>** project by providing a series of questions that suggests particular subsets of the best practices to follow.
 
-For those who just need to know how to put these practices into action while **<<georeference,georeferencing>>**, the *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020) is the most suitable document to have at hand. The *_Georeferencing Quick Reference Guide_* refers to details in this document as needed and accompanies the *_Georeferencing Calculator_* (Wieczorek & Wieczorek 2020), which is a tool to calculate **<<coordinates>>** and **<<uncertainty>>** following the methods described in this document.
+For those who just need to know how to put these practices into action while **<<georeference,georeferencing>>**, the {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020) is the most suitable document to have at hand. The {gqg}[*_Georeferencing Quick Reference Guide_*] refers to details in this document as needed and accompanies the {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020), which is a tool to calculate **<<coordinates>>** and **<<uncertainty>>** following the methods described in this document.
 
 Above all, this document will help data end users to understand the implications of trying to use records that have not undergone **<<georeference,georeferencing>>** best practices and the value of those that have.
 
-[#Scope]
 === Scope
 
 This document is one of three that cover recommended requirements and methods to **<<georeference>>** **<<location,locations>>**. It is meant to cover the theoretical aspects (how to, and why) of spatially enabling information about the **<<location>>** of biodiversity-related phenomena, including special consideration for ecological and marine data. It also covers approaches to large-scale and collaborative **<<georeference,georeferencing>>** projects.
 
 These documents DO NOT provide guidance on georectifying images or **<<geocode,geocoding>>** street addresses.
 
-The accompanying *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020) provides a practical how-to guide for putting the theory of the **<<shape>>**, **<<bounding box>>**, and **<<point-radius>>** **<<georeferencing method,georeferencing methods>>** into practice. The *_Georeferencing Quick Reference Guide_* relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>
+The accompanying {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020) provides a practical how-to guide for putting the theory of the **<<shape>>**, **<<bounding box>>**, and **<<point-radius>>** **<<georeferencing method,georeferencing methods>>** into practice. The {gqg}[*_Georeferencing Quick Reference Guide_*] relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>
 
-The *_Georeferencing Calculator_* (Wieczorek & Wieczorek 2020) is a browser-based javascript application that aids in **<<georeference,georeferencing>>** descriptive **<<locality,localities>>** and provides methods to help obtain **<<geographic coordinates>>** and **<<uncertainty,uncertainties>>** for **<<location,locations>>** (see <<Using the Georeferencing Calculator>>).
+The {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020) is a browser-based javascript application that aids in **<<georeference,georeferencing>>** descriptive **<<locality,localities>>** and provides methods to help obtain **<<geographic coordinates>>** and **<<uncertainty,uncertainties>>** for **<<location,locations>>** (see <<Using the Georeferencing Calculator>>).
 
-[#Constraints]
 === Constraints
 
 Constraints to using this document may arise because of:
@@ -78,12 +73,11 @@ Constraints to using this document may arise because of:
 * Lack of institutional/supervisor support.
 * Lack of training.
 
-[#Principles-of-Best-Practice]
 === Principles of Best Practice
 
 The following are principles of best practice that should be applied to **<<georeference,georeferencing>>**:
 
-* **<<accuracy,Accuracy>>** – a measure of how well the data represent the truth, for example, how well is the true **<<location>>** of the target of an observation, collecting, or sampling **<<event>>** represented in a **<<georeference>>**. This includes considerations taken both at the moment when the location was recorded and when it was **<<georeference,georeferenced>>**. Note that careless lack of **<<precision>>** will have an adverse effect on **<<accuracy>>** (see <<Accuracy-Error-Bias-Precision-False-Precision-and-Uncertainty>>).
+* **<<accuracy,Accuracy>>** – a measure of how well the data represent the truth, for example, how well is the true **<<location>>** of the target of an observation, collecting, or sampling **<<event>>** represented in a **<<georeference>>**. This includes considerations taken both at the moment when the location was recorded and when it was **<<georeference,georeferenced>>**. Note that careless lack of **<<precision>>** will have an adverse effect on **<<accuracy>>** (see <<accuracy-error-bias-precision-false-precision-and-uncertainty>>).
 * *Effectiveness* – the likelihood that a work program achieves its desired objectives. For example, the percentage of records for which the **<<coordinates>>** and **<<uncertainty>>** can be **<<accuracy,accurately>>** identified and calculated (see <<Index of Spatial Uncertainty>>).
 * *Efficiency* – the relative effort needed to produce an acceptable output, including the effort to assemble and use external input data (_e.g._, **<<gazetteer,gazetteers>>**, collectors’ itineraries, etc.).
 * *Reliability* – the relative confidence in the repeatability or consistency with which information was produced and recorded. The reliability of sources and methods that can affect the **<<accuracy>>** of the results.
@@ -102,12 +96,11 @@ In addition, an effective best practices document should:
 * Satisfy the scrutiny of management and external/internal auditors.
 * Adhere to relevant standards and biodiversity informatics practices.
 
-[#Accuracy-Error-Bias-Precision-False-Precision-and-Uncertainty]
 === Accuracy, Error, Bias, Precision, False Precision, and Uncertainty
 
 There is often confusion around what is meant by **<<accuracy>>**, **<<error>>**, **<<bias>>**, **<<precision>>**, **<<false precision>>**, and **<<uncertainty>>**. In addition to the following paragraphs, refer to the definitions in the <<Glossary>> and Chapman (2005a). All of these concepts are relevant to measurements.
 
-**<<accuracy,Accuracy>>**, **<<error>>**, and **<<bias>>** all relate directly to estimates of true values. The closer a statement (_e.g._, a measurement) is to the true value, the more **<<accuracy,accurate>>** it is. **<<error,Error>>** is a measure of **<<accuracy>>** - the difference between an estimated value and the true value. The more **<<accuracy,accurate>>** an estimate, the smaller the **<<error>>**. **<<bias,Bias>>** is a measurement of the average systematic **<<error>>** in a set of measurements. **<<bias,Bias>>** often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more **<<accuracy,accurate>>**.
+**<<accuracy,Accuracy>>**, **<<error>>**, and **<<bias>>** all relate directly to estimates of true values. The closer a statement (_e.g._, a measurement) is to the true value, the more **<<accuracy,accurate>>** it is. **<<error,Error>>** is a measure of **<<accuracy>>** – the difference between an estimated value and the true value. The more **<<accuracy,accurate>>** an estimate, the smaller the **<<error>>**. **<<bias,Bias>>** is a measurement of the average systematic **<<error>>** in a set of measurements. **<<bias,Bias>>** often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more **<<accuracy,accurate>>**.
 
 [NOTE]
 --
@@ -126,20 +119,17 @@ Whereas **<<error>>** is an estimate of the difference between a measured value 
 Like **<<error>>**, **<<uncertainty>>** is a measure of how different an unknown true value might be from a value given. In **<<georeference,georeferencing>>**, we use **<<uncertainty>>** to refer to the maximum distance from a center **<<coordinates,coordinate>>** of a **<<georeference>>** to the furthest point where the true **<<location>>** might be - a combination of all the possible sources of **<<error>>** given as a distance.
 
 [#img-xkcd-coordinate-precision]
-.What the number of digits in **<<coordinates>>** would imply if **<<precision>>** was misconstrued to imply **<<geographic-extent>>**. From https://xkcd.com/2170/:xkcd.
+.What the number of digits in **<<coordinates>>** would imply if **<<precision>>** was misconstrued to imply **<<geographic-extent>>**. From https://xkcd.com/2170/[xkcd].
 image::img/xkcd-coordinate-precision.png[width=50%,align="center"]
 
-[#Software-and-Online-Tools]
 === Software and Online Tools
 
 Software and tools come and go and are regularly updated, so rather than include a list in this document, we refer readers to the http://georeferencing.org/[georeferencing.org] website.
 
-[#Conformance-to-Standards]
 === Conformance to Standards
 
 Throughout this document, we have, where possible, recommended practices that conform to appropriate geographic information standards and standards for the transfer of biological and geographic information. These include standards developed by the Open Geospatial Consortium (OGC 2019), the Technical Committee for digital geographic information and geomatics (ISO/TC 2011), and Biodiversity Information Standards (TDWG). Also, this document supports the FAIR principles of data management in recommending that well georeferenced data are Findable, Accessible, Interoperable, and Reusable.
 
-[#Persistent-Identifiers-PIDs]
 === Persistent Identifiers (PIDs)
 
-The use of **<<PID,Persistent Identifiers>>** (PIDs) including <<GUID,*Globally Unique Identifiers>>* (GUIDs), Digital Object Identifiers (DOIs) etc. for uniquely identifying individual objects and other classes of data (such as collections, observations, images, and **<<location,locations>>**) are under discussion. It is important that any identifiers used are globally unique (apply to exactly one instance of an identifiable object), persistent, and resolvable (Page 2009, Richards 2010, Richards _et al._ 2011). As yet, very few institutions use **<<PID,PIDs>>** for specimens, and even fewer for **<<location,locations>>**, however a recent paper by Nelson _et al._ (2018) makes a number of recommendations on minting, managing and sharing **<<GUID,GUIDs>>** for herbarium specimens. We recommend that once a stable system for assigning and using **<<PID,PIDs>>** is implemented, it be used wherever practical, including for **<<location,locations>>**.
+The use of **<<PID,Persistent Identifiers>>** (PIDs) including **<<GUID,Globally Unique Identifiers>>** (GUIDs), Digital Object Identifiers (DOIs) etc. for uniquely identifying individual objects and other classes of data (such as collections, observations, images, and **<<location,locations>>**) are under discussion. It is important that any identifiers used are globally unique (apply to exactly one instance of an identifiable object), persistent, and resolvable (Page 2009, Richards 2010, Richards _et al._ 2011). As yet, very few institutions use **<<PID,PIDs>>** for specimens, and even fewer for **<<location,locations>>**, however a recent paper by Nelson _et al._ (2018) makes a number of recommendations on minting, managing and sharing **<<GUID,GUIDs>>** for herbarium specimens. We recommend that once a stable system for assigning and using **<<PID,PIDs>>** is implemented, it be used wherever practical, including for **<<location,locations>>**.

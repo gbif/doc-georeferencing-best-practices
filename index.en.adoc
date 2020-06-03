@@ -19,8 +19,13 @@
 :ecological: 🌳
 :caves: 🐉
 
-//The value of the idprefix attribute (_ by default) is prepended.
-//:idseparator: -
+// The value of the idprefix attribute (_ by default) is prepended.
+:idprefix:
+:idseparator: -
+
+// Shorthand for links to the other two documents
+:gqg: link:../../doc-georeferencing-quick-reference-guide/en/
+:gcm: link:../../doc-georeferencing-calculator-manual/en/
 
 ifdef::backend-html5[]
 languageLinks:combined[]
