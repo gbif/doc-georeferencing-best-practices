@@ -14,7 +14,7 @@
 
 - Azzopardi E & Sayer MD 2012. Estimation of depth and temperature in 47 models of diving compression computer. _Int. J. Soc. Underwater Tech._ 31(1): 3-12. https://doi.org/10.3723/ut.31.003[_https://doi.org/10.3723/ut.31.003_] [Accessed 18 Dec 2019].
 
-- Barkwell ME & Murrell ZE 2012. The US Virtual Herbarium: working with individual herbaria to build a natural resource. _Zookeys_ 209: 55-73. https://doi.org/10.3897%2Fzookeys.209.3205[_https://doi:10.3897/zookeys.209.3205_] [Accessed 13 Dec 2019].
+- Barkwell ME & Murrell ZE 2012. The US Virtual Herbarium: working with individual herbaria to build a natural resource. _Zookeys_ 209: 55-73. https://doi.org/10.3897%2Fzookeys.209.3205[_https://doi.org/10.3897/zookeys.209.3205_] [Accessed 13 Dec 2019].
 
 - Biedron EM & Famoso NA 2016. _Using GEOLocate for Collaborative Georeferencing_. Museum of Natural and Cultural History, University of Oregon. 13 pp. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[_https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf_] [Accessed 13 Dec 2019].
 
@@ -68,7 +68,7 @@
 
 - ESA 2014. _SBAS Systems_. European Space Agency, _Navipedia_. https://gssc.esa.int/navipedia/index.php/SBAS_Systems[_https://gssc.esa.int/navipedia/index.php/SBAS_Systems_] [Accessed 13 Dec 2019].
 
-- Escobar D, Díaz SR, Jojoa LM, Rudas E, Saavedra J 2015. _Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas_. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. 95 pp. http://repository.humboldt.org.co/bitstream/handle/20.500.11761/9610/1224%20Protocolo.pdf?sequence=6&isAllowed=y[_http://repository.humboldt.org.co/bitstream/handle/20.500.11761/9610/1224%20Protocolo.pdf?sequence=6&isAllowed=y_] [Accessed 13 Dec 2019].
+- Escobar D, Díaz SR, Jojoa LM, Rudas E, Saavedra J 2015. _Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas_. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. 95 pp. http://hdl.net/20.500.11761/9610[_http://hdl.net/20.500.11761/9610_] [Accessed 13 Dec 2019].
 
 - ESRI _n.dat._ _GIS Dictionary_. https://support.esri.com/en/other-resources/gis-dictionary/browse/[_https://support.esri.com/en/other-resources/gis-dictionary/browse/_] [Accessed 13 Dec 2019].
 
