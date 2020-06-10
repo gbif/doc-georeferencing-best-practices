@@ -14,7 +14,7 @@ Before beginning a **<<georeference,georeferencing>>** project, whether for an i
 
 ** How many distinct **<<locality>>** descriptions are there to **<<georeference>>**?
 
-** Are there terrestrial or marine *locations* to **<<georeference>>**? Or both?
+** Are there terrestrial or marine **<<location,locations>>** to **<<georeference>>**? Or both?
 
 ** Is the geographic scope local? Country-wide? Global?
 
@@ -65,7 +65,7 @@ It is also important that the long-term maintenance of the data is considered ea
 
 ==== Georeferencing Project Workflow
 
-A workflow covering all the **<<georeference,georeferencing>>** activities can be a valuable instrument, not only for improving the efficiency of the whole **<<georeference,georeferencing>>** process, but also for incorporating checks and balances, and improving the **quality** of the resulting product. The type of workflow may be determined by the nature of the data, the way the original data are stored or documented, the nature of the desired end product, and even by the general preferences of those involved. In the following subsections we propose a generic workflow that covers all of the major aspects of **<<georeference,georeferencing>>** projects. Note that some of the steps presented might not apply to every project, and one must take into account priorities as discussed in <<Planning a Georeferencing Project>>. This first section, <<Georeferencing Project Workflow>> outlines a recommended **<<georeference,georeferencing>>** project workflow in three phases – before, during, and after **<<georeference,georeferencing>>**. Subsequent sections deal with the details of some of the steps presented in the outline.
+A workflow covering all the **<<georeference,georeferencing>>** activities can be a valuable instrument, not only for improving the efficiency of the whole **<<georeference,georeferencing>>** process, but also for incorporating checks and balances, and improving the **<<data quality,quality>>** of the resulting product. The type of workflow may be determined by the nature of the data, the way the original data are stored or documented, the nature of the desired end product, and even by the general preferences of those involved. In the following subsections we propose a generic workflow that covers all of the major aspects of **<<georeference,georeferencing>>** projects. Note that some of the steps presented might not apply to every project, and one must take into account priorities as discussed in <<Planning a Georeferencing Project>>. This first section, <<Georeferencing Project Workflow>> outlines a recommended **<<georeference,georeferencing>>** project workflow in three phases – before, during, and after **<<georeference,georeferencing>>**. Subsequent sections deal with the details of some of the steps presented in the outline.
 
 Based on an assessment of a variety of large-scale **<<georeference,georeferencing>>** projects that had efficiency as well as **<<data quality>>** in mind (for example, see <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>), we recommend the following generic outline for a **<<georeference,georeferencing>>** project workflow using either the **<<point-radius>> <<georeferencing method,method>>** or the **<<shape>> <<georeferencing method,method>>**, or a mix of the two. This workflow can be used for projects that involve a single individual or a large collaboration, though some steps may apply more in one case than in another.
 
@@ -284,8 +284,6 @@ bridge over the St. Croix River, 4 km N of Somerset
 
 should be **<<georeference,georeferenced>>** with a **<<locality type>>** "geographic feature only" with subtype {gqg}#feature-with-obvious-spatial-extent[Feature – with Obvious Spatial Extent] as in *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020) based on the _bridge_ as the **<<feature>>**. Of course, the second **<<locality clause,clause>>** helps us to determine which bridge (something we wouldn't be able to do without that second **<<locality clause,clause>>**), but beyond that the second **<<locality clause,clause>>** contributes nothing to the **<<boundary,boundaries>>** of the **<<feature>>**, nor to the **<<uncertainty>>** in the final **<<georeference>>**.
 
-// TODO Crossref
-
 If the more specific part of the **<<locality>>** cannot be unambiguously identified, then the next less specific part of the **<<locality>>** ("4 km N of Somerset" in the example above) should be **<<georeference,georeferenced>>**. In a case such as this, annotate in the **<<georeference>>** remarks with something like "unable to find the bridge, **<<georeference,georeferenced>>** '4 km N of Somerset'".
 
 Some **<<locality>>** descriptions give information about the nature of the **<<offset>>** (‘by road’, ‘by river’, ‘by air’, ‘up the valley’, etc.). Having this information simplifies the choice of **<<offset>>**-based **<<locality type>>** as <<Offset at a Heading>> or <<Offset along a Path>>.
@@ -313,8 +311,6 @@ Some **<<locality>>** descriptions give information about the nature of the **<<
 In this example, there are four fields contributing five separate clauses. The three administrative geography terms each have one <<locality clause,clause>> of the type "_Geographic feature only_" with subtype "_Feature – with obvious spatial extent_" (see {gqg}#feature-with-obvious-spatial-extent[Feature – with Obvious Spatial Extent] in *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020)), while the <<locality>> field contains a <<locality clause,clause>> ("12.3 km N of (by road) Nahuel Huapi") of the type "_Distance along path_" (see {gqg}#offset-distance-along-a-path[Offset – Distance along a Path] in *_Georeferencing Quick Reference Guide_*) and a <<locality clause,clause>> ("elev: 760m") of the type "_Geographic feature only_" with subtype "_Feature – Path_" (see {gqg}#feature-path[Feature – Path] in *_Georeferencing Quick Reference Guide_*). The most specific of all five <<locality clause,clauses>> is "12.3 km N of (by road) Nahuel Huapi".
 ====
 
-// TODO Crossref
-
 It is sometimes possible to infer the nature of the **<<offset>>** **<<path>>** from additional supporting evidence in the **<<locality>>** description. For example, the **<<locality>>**
 
 ....
@@ -327,13 +323,13 @@ If any of the **<<locality clause,clauses>>** in the **<<locality>>** descriptio
 
 ==== Setting the Boundaries of the Feature
 
-Regardless of the method to be used (*shape*, *bounding box*, or *point-radius*), the *georeferencing* *protocols* for nearly every *locality type* begin with the identification of the *features* of reference in the *locality* description and the determination of the *geographic boundaries* of their *extents*. This is usually the most critical and time-consuming part of the protocols. It is best to use a visual reference to determine *boundaries.* If a **feature** name search on a visual source does not reveal the **feature** of interest, it is a good idea to use *coordinates* from a **gazetteer** to find the *feature* on a map, and then use the map to find the *boundaries:*
+Regardless of the method to be used (**<<shape>>**, **<<bounding box>>**, or **<<point-radius>>**), the **<<georeference,georeferencing>>** **<<protocol,protocols>>** for nearly every **<<locality type>>** begin with the identification of the **<<feature,features>>** of reference in the **<<locality>>** description and the determination of the **<<geographic boundary,geographic boundaries>>** of their **<<extent,extents>>**. This is usually the most critical and time-consuming part of the protocols. It is best to use a visual reference to determine **<<boundary,boundaries>>**. If a **<<feature>>** name search on a visual source does not reveal the **<<feature>>** of interest, it is a good idea to use **<<coordinates>>** from a **<<gazetteer>>** to find the **<<feature>>** on a map, and then use the map to find the **<<boundary,boundaries>>**:
 
-* *Point-radius method*: store the *corrected center* of the constrained *boundaries* from the previous step as decimal **latitude** and decimal **longitude** and store the *geographic radial* as a distance in the units given in the most specific *locality clause*. If there are no distance units in that *clause*, use meters (see <<Point-radius Method>>).
+* *Point-radius method*: store the **<<corrected center>>** of the constrained **<<boundary,boundaries>>** from the previous step as decimal **<<latitude>>** and decimal **<<longitude>>** and store the **<<geographic radial>>** as a distance in the units given in the most specific **<<locality clause>>**. If there are no distance units in that **<<locality clause,clause>>**, use meters (see <<Point-radius Method>>).
 * *Bounding Box* method: store the furthest north, south, east, and west coordinates on the constrained boundaries of the feature (see <<Bounding Box Method>>).
-* *Shape method*: store the resulting constrained *boundaries* as a *shape* (see <<Shape Method>>).
+* *Shape method*: store the resulting constrained **<<boundary,boundaries>>** as a **<<shape>>** (see <<Shape Method>>).
 
-Use information from other clauses, such as administrative geography, information from other *location* fields such as *elevation*, and environmental information (_e.g._, terrestrial, freshwater aquatic, marine, taxon-specific) to constrain the *extent* as appropriate (see <<Applying Spatial Constraints>> and <<Applying Data Constraints>>).
+Use information from other clauses, such as administrative geography, information from other **<<location>>** fields such as **<<elevation>>**, and environmental information (_e.g._, terrestrial, freshwater aquatic, marine, taxon-specific) to constrain the **<<extent>>** as appropriate (see <<Applying Spatial Constraints>> and <<Applying Data Constraints>>).
 
 ==== Applying Spatial Constraints
 
@@ -410,7 +406,7 @@ Of all the methods discussed in this document, the **<<shape>>** **<<georeferenc
 
 ==== Probabilistic Method
 
-Other shape-based **<<georeferencing method,methods>>** have been proposed that use probabilistic approaches (Guo _et al._ 2008, Liu _et al._ 2009). Since these **<<georeferencing method,methods>>** are even more difficult than the **shape** **<<georeferencing method,method>>**, and there are currently no tools available to take advantage of these **<<georeferencing method,methods>>**, we do not discuss them further in this document.
+Other shape-based **<<georeferencing method,methods>>** have been proposed that use probabilistic approaches (Guo _et al._ 2008, Liu _et al._ 2009). Since these **<<georeferencing method,methods>>** are even more difficult than the **<<shape>>** **<<georeferencing method,method>>**, and there are currently no tools available to take advantage of these **<<georeferencing method,methods>>**, we do not discuss them further in this document.
 
 === Calculating Uncertainties
 
@@ -444,9 +440,7 @@ It is also worth noting that the **<<extent>>** of a **<<feature>>** may have ch
 
 If the **<<locality>>** described is an irregular shape (_e.g._, a winding road or river), there are two ways of calculating the "center" **<<coordinates>>** and determining the **<<radial>>**. The first is to measure along the vector (line) and determine the midpoint as the **<<location>>** of the **<<feature>>**. This is not always easy, so the second method is to determine the **<<geographic center>>** (_i.e._, the midpoint of the extremes of **<<latitude>>** and **<<longitude>>**) of the **<<feature>>**. This method describes a point where the **<<uncertainty>>** due to the **<<extent>>** of the **<<feature>>** is minimized (what we are calling the **<<corrected center>>**). The **<<radial>>** is then determined as the distance from the determined position to the furthest point at the extremes of the vector. If the **<<geographic center>>** of the **<<shape>>** is used and it does not lie within the **<<locality>>** described (_e.g._, the **<<geographic center>>** of a segment of a river does not actually lie on the river), then the point nearest the **<<geographic center>>** that lies within the shape (**<<corrected center>>**) is the preferred reference for the **<<feature>>** and represents the point from which the **<<geographic radial>>** should be calculated (see xref:img-polygon-center[xrefstyle="short"]).
 
-When documenting the **<<georeference,georeferencing>>** process, it is recommended that the **<<feature>>**, its *extent*, *radial*, and the source of the information (including its date) all be recorded. For details on georeferencing, see {gqg}#geographic-feature-only[Geographic Feature Only] in *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020).
-
-// TODO Crossref
+When documenting the **<<georeference,georeferencing>>** process, it is recommended that the **<<feature>>**, its **<<extent>>**, **<<radial>>**, and the source of the information (including its date) all be recorded. For details on georeferencing, see {gqg}#geographic-feature-only[Geographic Feature Only] in *_Georeferencing Quick Reference Guide_* (Zermoglio _et al._ 2020).
 
 **<<geographic coordinates,Geographic coordinates>>** can be expressed in a number of different **<<coordinate format,coordinate formats>>**. **<<decimal degrees,Decimal degrees>>** provide the most convenient **<<coordinates>>** to use for **<<georeference,georeferencing>>** for no more profound reason than a **<<locality>>** can be described with only four attributes – **<<decimal latitude>>**, **<<decimal longitude>>**, **<<datum>>**, and **<<uncertainty>>** (Wieczorek 2001).
 

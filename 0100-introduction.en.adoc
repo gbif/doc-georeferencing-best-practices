@@ -65,7 +65,7 @@ Constraints to using this document may arise because of:
 * Records that contain conflicting information.
 * Historic localities that are hard to find on current maps.
 * **<<locality,Locality>>** names that have changed through time.
-* Marine <<location,locations>> from old ships' logs.
+* Marine **<<location,locations>>** from old ships' logs.
 * Lack of information on **<<datum,datums>>** and/or **<<coordinate reference system,coordinate reference systems>>**.
 * Data Management Systems that don’t allow for recording or storage of the required **<<georeference,georeferencing>>** information.
 * Poor or no internet facilities.
