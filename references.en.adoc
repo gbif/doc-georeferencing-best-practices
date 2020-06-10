@@ -62,7 +62,7 @@
 
 - El-Ashmawy K 2016. Investigation of the Accuracy of Google Earth Elevation Data. _Artificial Satellites_ 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008[_https://doi.org/10.1515/arsa-2016-0008_] [Accessed Feb 05 2020].
 
-- Ellingson J 2017. _NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022_. link:https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf[_https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf_] [Accessed 13 Dec 2019].
+- Ellingson J 2017. _NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022_. link:++https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf++[_++https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf++_] [Accessed 13 Dec 2019].
 
 - Eos Positioning Systems 2018. _Elevation for Beginners: What to Know About GPS Receiver Elevation_. https://eos-gnss.com/elevation-for-beginners/[_https://eos-gnss.com/elevation-for-beginners/_] [Accessed 13 Dec 2019].
 
