@@ -18,7 +18,7 @@
 
 - Biedron EM & Famoso NA 2016. _Using GEOLocate for Collaborative Georeferencing_. Museum of Natural and Cultural History, University of Oregon. 13 pp. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[_https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf_] [Accessed 13 Dec 2019].
 
-- Bloom DA, Wieczorek JR, Zermoglio PF 2020. _Georeferencing_ C_alculator Manual_. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93[_https://doi.org/10.35035/gdwq-3v93_]
+- Bloom DA, Wieczorek JR, Zermoglio PF 2020. _Georeferencing Calculator Manual_. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93[_https://doi.org/10.35035/gdwq-3v93_]
 
 - Braun A 2019. It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. _Maketecheasier_ 28 Jun 2019. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/[_https://www.maketecheasier.com/gps-global-navigation-satellite-systems/_] [Accessed 13 Dec 2019].
 
