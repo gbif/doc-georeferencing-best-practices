@@ -62,4 +62,6 @@ include::glossary.en.adoc[]
 
 include::acknowledgements.en.adoc[]
 
-include::references.en.adoc[]
+== References
+
+bibliography::[]

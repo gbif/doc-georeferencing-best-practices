@@ -1,8 +1,9 @@
+//[bibliography]
 == References
 
-bibliography::[]
+// Three entries have been removed and added to references.bib
 
-// Three entries below have been removed and added to references.bib
+// This file is no longer included in the document.
 
 - ANBG 2018. _Australia’s Virtual Herbarium._ Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html[_https://www.anbg.gov.au/chah/avh/avh.html_] [Accessed 14 Oct 2019].
 
