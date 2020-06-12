@@ -20,6 +20,11 @@
 // The value of the idprefix attribute (_ by default) is prepended.
 :idprefix:
 :idseparator: -
+// Citation style
+:bibtex-file: references.bib
+:bibtex-style: gbif
+:bibtex-order: alphabetical
+:bibtex-locale: en-GB
 // Content
 :stem:
 :marine: 🐠

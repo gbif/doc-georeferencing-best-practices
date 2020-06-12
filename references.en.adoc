@@ -1,10 +1,10 @@
 == References
 
+bibliography::[]
+
+// Three entries below have been removed and added to references.bib
+
 - ANBG 2018. _Australia’s Virtual Herbarium._ Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html[_https://www.anbg.gov.au/chah/avh/avh.html_] [Accessed 14 Oct 2019].
-
-- Apache 2019. _Apache SISTM_ _Coordinate Reference System (CRS) codes_. https://sis.apache.org/tables/CoordinateReferenceSystems.html[_https://sis.apache.org/tables/CoordinateReferenceSystems.html_] [Accessed 13 Dec 2019].
-
-- ASPRS 1990. _ASPRS Accuracy Standards for Large-Scale Maps_. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf[_http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf_] [Accessed 13 Dec 2019].
 
 - ASPRS 2014. _ASPRS Positional Accuracy Standards for Digital Geospatial Data_. edn. 1, Version 1.0. Photogrammetric Engineering and Remote Sensing March 2015. 26pp. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf[_https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf_] [Accessed 13 Dec 2019].
 
@@ -119,8 +119,6 @@
 - GPS.gov 2017. _GPS Accuracy_. Maintained by National Coordination Office for Space-Based Positioning, Navigation, and Timing. Web page maintained by NOAA. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/[_https://www.gps.gov/systems/gps/performance/accuracy/_] [Accessed 14 Dec 2019].
 
 - GPS.gov 2018. _Selective Availability._ Maintained by National Coordination Office for Space-Based Positioning, Navigation, and Timing. Web page maintained by NOAA. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/[_https://www.gps.gov/systems/gps/modernization/sa/_] [Accessed 14 Dec 2019].
-
-- Grant S, Jones J, Webbink K, Zschernitz R 2018. Repatriation of Augmented Information to an Institutional Database. _Biodiversity Information Science and Standards 2: e26479._ https://doi.org/10.3897/biss.2.26479[_https://doi.org/10.3897/biss.2.26479_] [Accessed 14 Dec 2019].
 
 - Gries C, Gilbert EE, Franz NM 2014. Symbiota - a virtual platform for creating voucher-based biodiversity information communities. _Biodiversity Data Journal_ 2: e1114. https://doi.org/10.3897/BDJ.2.e1114[_https://doi.org/10.3897/BDJ.2.e1114_] [Accessed 14 Dec 2019].
 
