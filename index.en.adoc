@@ -2,27 +2,29 @@
 :authorcount: 2
 :author_1: A.D. Chapman
 :author_2: J.R Wieczorek
+:license: https://creativecommons.org/licenses/by/4.0/
+// Title
+:title-logo-image: img/western-honey-bee.jpg
+// Revision
+:revnumber: {git-metadata-sha-short}
+:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+// Contents, sections
 :toc: left
 :toclevels: 4
 :numbered:
-:revnumber: {git-metadata-sha-short}
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-:title-logo-image: img/western-honey-bee.jpg
-:icons: font
-:pagenums:
-:license: https://creativecommons.org/licenses/by/4.0/
 :sectnumlevels: 4
+:pagenums:
 // Set <<these-links>> to use the name rather than "Section 1.2"
 :xrefstyle: basic
+:icons: font
+// The value of the idprefix attribute (_ by default) is prepended.
+:idprefix:
+:idseparator: -
+// Content
 :stem:
 :marine: 🐠
 :ecological: 🌳
 :caves: 🐉
-
-// The value of the idprefix attribute (_ by default) is prepended.
-:idprefix:
-:idseparator: -
-
 // Shorthand for links to the other two documents
 :gqg: link:../../doc-georeferencing-quick-reference-guide/en/
 :gcm: link:../../doc-georeferencing-calculator-manual/en/
