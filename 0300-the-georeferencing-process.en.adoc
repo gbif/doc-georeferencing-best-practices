@@ -153,9 +153,8 @@ In the case where multiple possible **<<georeference,georeferences>>** are found
 
 If the **<<georeference>>** is not fully documented following best practices (including being reproducible), we recommend that existing **<<georeference,georeferences>>** not be used (or used only with extreme caution). Even if the **<<georeference>>** is documented, it should be checked visually on a map to be sure that it makes sense, just as for any new **<<georeference>>**.
 
-CARE: The re-use of existing <<georeference,georeferences>> can propagate <<error,errors>>. if a mistake was made the first time. Existing <<georeference,georeferences>> should be verified just as for any newly generated <<georeference>>.
-
-// TODO: CARE.
+// TODO: Was CARE.
+CAUTION: The re-use of existing <<georeference,georeferences>> can propagate <<error,errors>>. if a mistake was made the first time. Existing <<georeference,georeferences>> should be verified just as for any newly generated <<georeference>>.
 
 ==== Resources Needed
 
@@ -490,9 +489,8 @@ Digital versions of traditional paper maps that have been scanned or digitized b
 
 NOTE: A digital map is never more <<accuracy,accurate>> than the original from which it was derived, nor is it more <<accuracy,accurate>> when you zoom in on it. The <<accuracy>> is strictly a function of the scale and digitizing <<error,errors>> of the original map, plus the additional <<error>> added by the digitization process.
 
-CARE: Care must be used when using a digital map that records the scale in the form of text (e.g., 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g., 1:20,000).
-
-// TODO CARE
+// TODO: Was CARE.
+CAUTION: Care must be used when using a digital map that records the scale in the form of text (e.g., 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g., 1:20,000).
 
 Measurement **<<error>>** is not unique to physical maps, it also enters into measurements on digital media. In general, the resolution of the media affects one's ability to distinguish between two points, and this in turn can be affected by the extent to which the media is zoomed. Note that zooming does not improve the **<<accuracy>>** of the original source from which the media was derived. That **<<accuracy>>** remains an independent factor, as described in the earlier paragraphs in this section. Naturally, the greater the zoom, the easier it is to pinpoint a **<<location>>**. This effect of zoom on digital media also has an effect on one's ability to measure along a **<<path>>** in that medium. The greater the zoom, the easier it is to follow the **<<path>>** faithfully and thus determine a distance along that **<<path>>** with the least **<<error>>**. The greater the curviness of the **<<path>>**, the greater the potential effect on **<<accuracy>>**. Note also, that the scale of the map may reduce the curviness of a **<<path>>** (road, river, etc.) and that small scale maps tend to smooth out the **<<path,paths>>** of rivers, roads, coastlines, and other curved linear **<<feature,features>>** (Chapman _et al._ 2005).
 
@@ -598,11 +596,11 @@ h|Precision h|0 degrees Latitude h|30 degrees Latitude h|60 degrees Latitude h|8
 |0.01 second |1 m |1 m |1 m |1 m
 |===
 
-CARE: False <<precision>> can arise when transformations from <<DMS,degrees minutes seconds>> to <<decimal degrees>> are stored in a database (see Glossary for expanded discussion).
+// TODO: Was CARE.
+CAUTION: False <<precision>> can arise when transformations from <<DMS,degrees minutes seconds>> to <<decimal degrees>> are stored in a database (see Glossary for expanded discussion).
 
-CARE: Never use <<precision>> in a database as a surrogate for the <<coordinates,coordinate>> <<uncertainty>>; instead, record the <<uncertainty>> explicitly, preferably as a distance.
-
-// TODO CARE
+// TODO: Was CARE.
+CAUTION: Never use <<precision>> in a database as a surrogate for the <<coordinates,coordinate>> <<uncertainty>>; instead, record the <<uncertainty>> explicitly, preferably as a distance.
 
 // TODO link is 404
 
@@ -702,9 +700,8 @@ h|Example h|Uncertainty (adapted from Wieczorek _et al._ 2004) h|Uncertainty (Fr
 
 **<<precision,Precision>>** can also be masked or lost when measurements are converted, such as from feet to meters, or from miles to kilometers.
 
-CARE: Be careful that the value you are using for <<precision>> when calculating the <<uncertainty>> is a true <<precision>> and not a <<false precision>>. For example, converting a collector’s recording of 16 miles (with a <<precision>> of 1 mile) to 25.6 km (with a <<precision>> of 0.1 km) leads to an unwarranted level of <<precision>> that is more than 16 times higher than the original.
-
-// TODO CARE
+// TODO: Was CARE.
+CAUTION: Be careful that the value you are using for <<precision>> when calculating the <<uncertainty>> is a true <<precision>> and not a <<false precision>>. For example, converting a collector’s recording of 16 miles (with a <<precision>> of 1 mile) to 25.6 km (with a <<precision>> of 0.1 km) leads to an unwarranted level of <<precision>> that is more than 16 times higher than the original.
 
 xref:img-orthogonal-distances-from-feature[xrefstyle="short"] shows an example of two orthogonal distances measured from a **<<feature>>**, each with the **<<uncertainty>>** due to distance **<<precision>>**. If we ignore all sources of **<<uncertainty>>** except those arising from distance **<<precision>>**, the **<<uncertainty>>** is a **<<bounding box>>** centered on the point 8 km E and 6 km N of the **<<corrected center>>** of the **<<feature>>**. Each of the distance measurements demonstrates a **<<precision>>** of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km **<<uncertainty>>** in each cardinal direction from the center). Since we are characterizing the **<<precision>>** as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned **<<bounding box>>** to get the **<<uncertainty>>** due to the combined distance **<<precision,precisions>>**. The radius of this circle is half the length of the distance **<<precision>> <<bounding box>>**, which is equal to one half the square root of two times the distance **<<precision>>**. So, for the above example the **<<uncertainty>>** associated with only the distance **<<precision>>** is one half the square root of two, or 0.707 km.
 
