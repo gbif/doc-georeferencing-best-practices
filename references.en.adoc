@@ -3,82 +3,48 @@
 - ANBG (2018) Australia’s Virtual Herbarium. Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html
 - Apache (2019) Apache SISTM Coordinate Reference System (CRS) codes. https://sis.apache.org/tables/CoordinateReferenceSystems.html
 - ASPRS (1990) ASPRS Accuracy Standards for Large-Scale Maps. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf
-- ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing March 2015. 26pp. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf
+- ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf
 - Australian Hydrographic Office (2020) AHP20. Mariner’s Handbook for Australian Waters, 5th edition 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf
 - Australian Museum. DIGIVOL. https://volunteer.ala.org.au/
 - Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 models of diving compression computer. Underwater Technology 31(1): 3-12. https://doi.org/10.3723/ut.31.003
 - Barkwell ME & Murrell ZE (2012) The US Virtual Herbarium: working with individual herbaria to build a natural resource. Zookeys 209: 55-73. https://doi.org/10.3897%2Fzookeys.209.3205
-- Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf
+- Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Eugene, Oregon, USA: Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf
 - Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
-- Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Maketecheasier 28 Jun 2019. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/
-
-- Brown N, Bollard N, McCubbine J, Featherstone W 2019. _Next Generation Height Reference Frame. Part 2/3 User Requirements_. 24 pp. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf[_https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf_] [Accessed 13 Dec 2019].
-
-- Buecher B 2016. _Estimating Cave Radio Horizontal Location Accuracy_. National Speleological Society Convention, Ely, NV. http://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf[_http://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf_] [Accessed 22 Jan 2020].
-
-- Cadman M & González-Talaván A (eds.) 2014. _Publishing Camera Trap Data, a Best Practice Guide_. Contributors: Athreya V, Chavan V, Ghosh M, Hanssen F, Harihar A, Hirsch T, Lindgaard A, Mathur VB, Mehlum F, Pandav B, Talukdar G & Vang R. Copenhagen: Global Biodiversity Information Facility. 52 pp. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq[_https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq_] [Accessed 13 Dec 2019].
-
-- Chapman AD 2005a. _Principles of Data Quality_. Report for the Global Biodiversity Information Facility 2005. 61pp. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190[_https://doi.org/10.15468/doc.jrgg-a190_] [Accessed 13 Dec 2019].
-
-- Chapman AD 2005b. _Principles and Methods of Data Cleaning._ Report for the Global Biodiversity Information Facility 2005. 75pp. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528[_http://www.gbif.org/document/80528_] [Accessed 13 Dec 2019].
-
-- Chapman AD 2005c. _Uses of Primary Species-Occurrence Data_. Report for the Global Biodiversity Information Facility 2005. 111pp. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545[_http://www.gbif.org/document/80545_] [Accessed 13 Dec 2019].
-
-- Chapman AD 2020. _Current Best Practices for Generalizing Sensitive Species Occurrence Data_. Copenhagen: GBIF Secretariat. 37 pp. https://doi.org/10.15468/doc-5jp4-5g10[_https://doi.org/10.15468/doc-5jp4-5g10_]
-
-- Chapman AD & Grafton O 2008. _Guide to Best Practices for Generalising Sensitive Species-Occurrence Data_, version 1.0. Copenhagen: GBIF Secretariat, 27 pp. ISBN: 87-92020-06-2. https://doi.org/10.15468/doc-b02jgt10 [Accessed 13 Dec 2019].
-
-- Chapman AD, Muñoz MES, Koch I 2005. Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. _Biodiversity Informatics_ **2: **24-41. https://doi.org/10.17161/bi.v2i0.5[_https://doi.org/10.17161/bi.v2i0.5_] [Accessed 27 Feb 2019].
-
-- Chapman AD & Wieczorek J (eds) 2006. _Guide to Best Practices for Georeferencing_. Copenhagen: GBIF Secretariat. ISBN: 87-92020-00-3. Published in English and French. https://doi.org/10.15468/doc-2zpf-zf42[_https://doi.org/10.15468/doc-2zpf-zf42_] [Accessed 13 Dec 2019].
-
-- Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A, Schigel D 2020. Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. _Biodiversity Information Science and Standards_. 4: e50889. https://doi.org/10.3897/biss.4.50889[_https://doi.org/10.3897/biss.4.50889_] [Accessed 20 Mar 2020].
-
-- Chrisman NR 1991. _The Error Component in Spatial Data_. pp. 165-174 *in*: Maguire DJ, Goodchild MF & Rhind DW (eds) _Geographical Information Systems_ Vol. 1, Principals: Longman Scientific and Technical.
-
-- Cullen AC & Frey HC 1999. _Probabilistic Techniques in Exposure Assessment. A Handbook for Dealing with Variability and Uncertainty in Models and Inputs_. New York: Plenum Press. 335 pp.
-
-- Data.gov.au 2018. Bathymetric Contours - City of Geelong. Australian Government https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details[_https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details_] [Accessed 28 Dec 2019].
-
-- Dempsey C 2014. Mapping Ship Logs. _GIS Lounge_, 6 Jan 2014. https://www.gislounge.com/mapping-ship-logs/[_https://www.gislounge.com/mapping-ship-logs/_] [Accessed 13 Dec 2019].
-
-- Dempsey C 2017. Digitizing Errors in GIS. _GIS Lounge_, 1 Aug 2017. https://www.gislounge.com/digitizing-errors-in-gis/[_https://www.gislounge.com/digitizing-errors-in-gis/_] [Accessed 13 Dec 2019].
-
-- De Pooter D, Appeltans W, Bailly N, Bristol S, Deneudt K, Eliezer M, Fujioka E, Giorgetti A, Goldstein P, Lewis M, Lipizer M, Mackay K, Marin M, Moncoiffé G, Nikolopoulou S, Provoost P, Rauch S, Roubicek A, Torres C, Putte A van der, Vandepitte L, Vanhoorne B, Vinci M, Wambiji N, Watts D, Salas EK, Hernandez F 2017. Toward a new data standard for combined marine biological and environmental datasets - expanding OBIS beyond species occurrences. _Biodiversity Data Journal_ 5: e10989. https://doi.org/10.3897/BDJ.5.e10989[_https://doi.org/10.3897/BDJ.5.e10989_] [Accessed 13 Dec 2019].
-
-- Doty J 2017. _Comparing the GPS Accuracy of Three Cameras._ https://www.blog.jimdoty.com/?p=14661[_https://www.blog.jimdoty.com/?p=14661_] [Accessed 13 Dec 2019].
-
-- Edey M _n.dat. Mapping Tool Tutorial_. Australian Museum. https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf[_https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf_] [Accessed 13 Dec 2019].
-
-- El-Ashmawy K 2016. Investigation of the Accuracy of Google Earth Elevation Data. _Artificial Satellites_ 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008[_https://doi.org/10.1515/arsa-2016-0008_] [Accessed Feb 05 2020].
-
-- Ellingson J 2017. _NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022_. link:++https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf++[_++https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf++_] [Accessed 13 Dec 2019].
-
-- Eos Positioning Systems 2018. _Elevation for Beginners: What to Know About GPS Receiver Elevation_. https://eos-gnss.com/elevation-for-beginners/[_https://eos-gnss.com/elevation-for-beginners/_] [Accessed 13 Dec 2019].
-
-- ESA 2014. _SBAS Systems_. European Space Agency, _Navipedia_. https://gssc.esa.int/navipedia/index.php/SBAS_Systems[_https://gssc.esa.int/navipedia/index.php/SBAS_Systems_] [Accessed 13 Dec 2019].
-
-- Escobar D, Díaz SR, Jojoa LM, Rudas E, Saavedra J 2015. _Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas_. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. 95 pp. http://hdl.net/20.500.11761/9610[_http://hdl.net/20.500.11761/9610_] [Accessed 13 Dec 2019].
-
-- ESRI _n.dat._ _GIS Dictionary_. https://support.esri.com/en/other-resources/gis-dictionary/browse/[_https://support.esri.com/en/other-resources/gis-dictionary/browse/_] [Accessed 13 Dec 2019].
-
-- FAA 2017. _Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report_. Report #96 submitted by William J. Hughes Technical Center, WAAS T&E Team. 146 pp. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22[_http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22_] [Accessed 13 Dec 2019].
-
-- FAA 2019. _Satellite Navigation - WAAS - How it Works_. Federal Aviation Administraion https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/[_https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/_] [Accessed 13 Dec 2019].
-
-- Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D, Alsdorf D 2007. The Shuttle Radar Topography Mission. _Reviews of Geophysics_ 45(2): 1-33. https://doi.org/10.1029/2005RG000183[_https://doi.org/10.1029/2005RG000183_] [Accessed 13 Dec 2019].
-
-- FGDC 1998. _Geospatial Positioning Accuracy Standards. Part 3: National Standards for Spatial Data Accuracy_. FGDC-STD-007.3-1998. 25 pp. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[_https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3_] [Accessed 13 Dec 2019].
-
-- Frazier C, Neville T, Giermakowski JT, Racz, G 2004. _The INRAM Protocol for Georeferencing Biological Museum Specimen Records (Version 1.3)_. Zenodo. https://doi.org/10.5281/zenodo.3235003[_https://doi.org/10.5281/zenodo.3235003_] [Accessed 13 Dec 2019].
-
-- GBIF 2019. _GBIF Occurrence Download_. _GBIF.org._ Copenhagen: GBIF Secretariat. https://doi.org/10.15468/dl.5pmzev[_https://doi.org/10.15468/dl.5pmzev_] [Downloaded 15 Apr 2019].
-
-- GEBCO 2019a. _GEBCO One Minute Grid._ https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/[_https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/_] [Accessed 18 Dec 2019].
-
-- GEBCO 2019b. _General Bathymetric Chart of the Oceans. GEBCO-2019_. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html[_https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html_] [Accessed 17 Dec 2019].
-
-- Geodetic Survey Division 1996. _Accuracy Standards for Positioning_, Version 1.0: Ottawa, Canada: Natural Resources Canada, 28 pp. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[_ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf_] [Accessed 13 Dec 2019].
+- Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Make Tech Easier. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/
+- Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf
+- Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. http://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
+- Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq
+- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190
+- Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528
+- Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545
+- Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10
+- Chapman AD & Grafton O (2008) Guide to Best Practices for Generalising Sensitive Species-Occurrence Data, version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-b02jgt10
+- Chapman AD, Muñoz MES & Koch I (2005) Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. Biodiversity Informatics 2: 24-41. https://doi.org/10.17161/bi.v2i0.5
+- Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
+- Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889
+- Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems_ Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
+- Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
+- Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details
+- Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/
+- Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/
+- De Pooter D, Appeltans W, Bailly N, Bristol S, Deneudt K, Eliezer M, Fujioka E, Giorgetti A, Goldstein P, Lewis M, Lipizer M, Mackay K, Marin M, Moncoiffé G, Nikolopoulou S, Provoost P, Rauch S, Roubicek A, Torres C, Putte A van der, Vandepitte L, Vanhoorne B, Vinci M, Wambiji N, Watts D, Salas EK & Hernandez F (2017) Toward a new data standard for combined marine biological and environmental datasets - expanding OBIS beyond species occurrences. Biodiversity Data Journal 5: e10989. https://doi.org/10.3897/BDJ.5.e10989
+- Doty J (2017) Comparing the GPS Accuracy of Three Cameras. https://www.blog.jimdoty.com/?p=14661
+- Edey M (n.d.) Mapping Tool Tutorial. Australian Museum. https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf
+- El-Ashmawy K (2016) Investigation of the Accuracy of Google Earth Elevation Data. Artificial Satellites 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008
+- Ellingson J (2017) NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022. https://www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf++
+- Eos Positioning Systems (2018) Elevation for Beginners: What to Know About GPS Receiver Elevation. https://eos-gnss.com/elevation-for-beginners/
+- ESA (2014) SBAS Systems. European Space Agency, Navipedia. https://gssc.esa.int/navipedia/index.php/SBAS_Systems
+- Escobar D, Díaz SR, Jojoa LM, Rudas E & Saavedra J (2015) Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. http://hdl.net/20.500.11761/9610
+- ESRI (n.d.) GIS Dictionary. https://support.esri.com/en/other-resources/gis-dictionary/browse/
+- FAA (2017) Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report. Atlantic City, N.J., United States: William J. Hughes Technical Center. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22
+- FAA (2019) Satellite Navigation - WAAS - How it Works. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/
+- Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D & Alsdorf D (2007) The Shuttle Radar Topography Mission. Reviews of Geophysics 45(2): 1-33. https://doi.org/10.1029/2005RG000183
+- FGDC (1998) Geospatial Positioning Accuracy Standards, Part 3: National Standards for Spatial Data Accuracy. FGDC-STD-007.3-1998. Reston, Va., USA. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3
+- Frazier C, Neville T, Giermakowski JT & Racz G (2004) The INRAM Protocol for Georeferencing Biological Museum Specimen Records, Version 1.3. https://doi.org/10.5281/zenodo.3235003
+- GBIF (2019) GBIF Occurrence Download. GBIF.org. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/dl.5pmzev
+- GEBCO (2019a) GEBCO One Minute Grid. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/
+- GEBCO (2019b) General Bathymetric Chart of the Oceans. GEBCO-2019. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html
+- Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf
 
 - GEOLocate 2018. _Collaborative Georeferencing_. http://www.geo-locate.org/community/default.html[_http://www.geo-locate.org/community/default.html_] [Accessed 13 Dec 2019].
 
