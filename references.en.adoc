@@ -1,26 +1,16 @@
 == References
 
-- ANBG 2018. _Australia’s Virtual Herbarium._ Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html[_https://www.anbg.gov.au/chah/avh/avh.html_] [Accessed 14 Oct 2019].
-
-- Apache 2019. _Apache SISTM_ _Coordinate Reference System (CRS) codes_. https://sis.apache.org/tables/CoordinateReferenceSystems.html[_https://sis.apache.org/tables/CoordinateReferenceSystems.html_] [Accessed 13 Dec 2019].
-
-- ASPRS 1990. _ASPRS Accuracy Standards for Large-Scale Maps_. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf[_http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf_] [Accessed 13 Dec 2019].
-
-- ASPRS 2014. _ASPRS Positional Accuracy Standards for Digital Geospatial Data_. edn. 1, Version 1.0. Photogrammetric Engineering and Remote Sensing March 2015. 26pp. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf[_https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf_] [Accessed 13 Dec 2019].
-
-- Australian Hydrographic Office 2020. _AHP20. Mariner’s Handbook for Australian Waters_. 5th edn 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf[_http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf_] [Accessed 24 Jan. 2020].
-
-- Australian Museum _n.dat_. _DIGIVOL_. https://volunteer.ala.org.au/[_https://volunteer.ala.org.au/_] [Accessed 14 Oct 2019].
-
-- Azzopardi E & Sayer MD 2012. Estimation of depth and temperature in 47 models of diving compression computer. _Int. J. Soc. Underwater Tech._ 31(1): 3-12. https://doi.org/10.3723/ut.31.003[_https://doi.org/10.3723/ut.31.003_] [Accessed 18 Dec 2019].
-
-- Barkwell ME & Murrell ZE 2012. The US Virtual Herbarium: working with individual herbaria to build a natural resource. _Zookeys_ 209: 55-73. https://doi.org/10.3897%2Fzookeys.209.3205[_https://doi.org/10.3897/zookeys.209.3205_] [Accessed 13 Dec 2019].
-
-- Biedron EM & Famoso NA 2016. _Using GEOLocate for Collaborative Georeferencing_. Museum of Natural and Cultural History, University of Oregon. 13 pp. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[_https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf_] [Accessed 13 Dec 2019].
-
-- Bloom DA, Wieczorek JR, Zermoglio PF 2020. _Georeferencing Calculator Manual_. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93[_https://doi.org/10.35035/gdwq-3v93_]
-
-- Braun A 2019. It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. _Maketecheasier_ 28 Jun 2019. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/[_https://www.maketecheasier.com/gps-global-navigation-satellite-systems/_] [Accessed 13 Dec 2019].
+- ANBG (2018) Australia’s Virtual Herbarium. Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html
+- Apache (2019) Apache SISTM Coordinate Reference System (CRS) codes. https://sis.apache.org/tables/CoordinateReferenceSystems.html
+- ASPRS (1990) ASPRS Accuracy Standards for Large-Scale Maps. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf
+- ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing March 2015. 26pp. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf
+- Australian Hydrographic Office (2020) AHP20. Mariner’s Handbook for Australian Waters, 5th edition 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf
+- Australian Museum. DIGIVOL. https://volunteer.ala.org.au/
+- Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 models of diving compression computer. Underwater Technology 31(1): 3-12. https://doi.org/10.3723/ut.31.003
+- Barkwell ME & Murrell ZE (2012) The US Virtual Herbarium: working with individual herbaria to build a natural resource. Zookeys 209: 55-73. https://doi.org/10.3897%2Fzookeys.209.3205
+- Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf
+- Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
+- Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Maketecheasier 28 Jun 2019. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/
 
 - Brown N, Bollard N, McCubbine J, Featherstone W 2019. _Next Generation Height Reference Frame. Part 2/3 User Requirements_. 24 pp. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf[_https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf_] [Accessed 13 Dec 2019].
 
