@@ -87,7 +87,7 @@ declination:: _see_ <<magnetic declination>>.
 
 [[feature]]feature:: an object of observation, measurement, or reference that can be represented spatially. Often categorized into "*feature types*" (_e.g._, mountain, road, populated place, etc.) and given names for specific instances (_e.g._, "Mount Everest", "Ruta 40", "Istanbul"), which are also sometimes referred to as "named places", "place names" or "toponyms".
 
-[[footprint]]footprint:: _see_ <<shape>>. Note that "footprint" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names __footprintWKT __and _footprintSpatialFit_.
+[[footprint]]footprint:: _see_ <<shape>>. Note that "footprint" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:[footprintWKT] and term:[footprintSpatialFit].
 
 [[gazetteer]]gazetteer:: an index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>.
 
@@ -161,7 +161,7 @@ GUID:: _see_ <<GUID,Globally Unique Identifier>>.
 
 [[magnetic-declination]]magnetic declination:: magnetic declination is the angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[chan]ges over time.
 
-[[maximum-uncertainty-distance]]maximum uncertainty distance:: the radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a <<location>> lies. When given in meters, it corresponds to the <<Darwin Core>> term `_coordinateUncertaintyInMeters_`.
+[[maximum-uncertainty-distance]]maximum uncertainty distance:: the radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a <<location>> lies. When given in meters, it corresponds to the <<Darwin Core>> term term:[coordinateUncertaintyInMeters].
 
 [[mean-sea-level]]mean sea level:: (MSL) a <<vertical datum>> from which heights such as <<elevation>> are usually measured. *Mean sea levels* were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, *mean sea level* is best described by a <<geoid>>.
 
