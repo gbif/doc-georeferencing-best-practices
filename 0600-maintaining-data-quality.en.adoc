@@ -51,7 +51,7 @@ There are many methods of checking for <<error,errors>> in <<georeference, geore
 * Using a <<geographic information system,GIS>> to look for records that fall outside polygon boundaries such as bioregions, local government areas, terrestrial/aquatic/marine areas.
 * Using statistical methods such as box plots, reverse jackknifing, cumulative frequency curves and cluster analysis to identify outliers in <<latitude>> and <<longitude>> or <<elevation>>.
 * Using expert-derived range maps.
-* Using taxon lists - for example, using a list of marine taxa to determine if a record should be marine or not, and similarly with terrestrial and freshwater aquatic taxa.
+* Using taxon lists – for example, using a list of marine taxa to determine if a record should be marine or not, and similarly with terrestrial and freshwater aquatic taxa.
 * Using modelling software in conjunction with statistical analysis to identify outliers in environmental (_e.g._, climate) space.
 
 Some of these techniques are incorporated into a number of programmes including _BioGeo_ (Robertson _et al._ 2016), _CoordinateCleaner_ (Zizka _et al._ 2019) and the stand-alone <<geographic information system,GIS>> software _DIVA-GIS_ (Hijmans _et al._ 2012). See also http://georeferencing.org[_georeferencing.org_].

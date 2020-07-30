@@ -14,9 +14,9 @@ term:[dwc:coordinateUncertaintyInMeters]:: the <<radial>> of the <<point-radius>
 
 term:[dwc:coordinatePrecision]:: the decimal representation of the <<precision>> of the output <<coordinates>> of the <<georeference>>
 
-term:[dwc:footprintWKT]:: the representation of the resulting <<shape>> or <<bounding box>> <<georeference>>, in Well-Known Text (WKT, ISO 2016)
+term:[dwc:footprintWKT]:: the representation of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT, ISO 2016)
 
-term:[dwc:footprintSRS]:: the <<coordinate reference system>> of the resulting <<shape>> or <<bounding box>> <<georeference>>, in Well-Known Text (WKT, ISO 2016)
+term:[dwc:footprintSRS]:: the <<coordinate reference system>> of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT, ISO 2016)
 
 term:[dwc:locality]:: intended to contain a version (perhaps modified from the original) of the parts of the textual description of the <<location>> that do not have another <<Darwin Core>> term appropriate to hold them; in legacy data, may contain any textual information about the <<location>>
 
@@ -46,7 +46,7 @@ term:[dwc:locationRemarks]:: comments about the <<location>> information, not ab
 
 term:[dwc:pointRadiusSpatialFit]:: the <<spatial fit>> of the <<point-radius>> <<georeference>> (see <<Determining Spatial Fit>>)
 
-term:[dwc:footprintSpatialFit]:: the <<spatial fit>> of the <<shape>> or <<bounding box>> <<georeference>> (see <<Determining Spatial Fit>>)
+term:[dwc:footprintSpatialFit]:: the <<spatial fit>> of the <<shape>> or <<bounding-box>> <<georeference>> (see <<Determining Spatial Fit>>)
 
 term:[dwc:georeferencedBy]:: who is responsible for the <<georeference>> as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it
 
