@@ -113,8 +113,8 @@ Unlike most geographic <<grid>> systems, which have their origin in the bottom l
 Note that QDS is developed for use in Africa, and currently only works in the Southern Hemisphere. It has been suggested that it be extended for use in the Northern Hemisphere, but this is not yet under development.
 
 [#img-quarter-degree-squares]
-.Recording data using Quarter Degree Square (QDS) <<grid,grids>>. The shaded <<grid>> is referenced as QDS 3218CB. Image with permission from RePhotoSA http://rephotosa.adu.org.za/FAQs.php[RePhotoSA].
-image::img/quarter-degree-squares.png[width=248,align="center"]
+.Recording data using Quarter Degree Square (QDS) <<grid,grids>>. The shaded <<grid>> is referenced as QDS 3218CB. Image with permission from http://rephotosa.adu.org.za/FAQs.php[RePhotoSA].
+image::img/quarter-degree-squares.svg[width=264,align="center"]
 
 ==== Three Dimensional Shapes
 
