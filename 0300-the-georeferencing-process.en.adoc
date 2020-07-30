@@ -198,7 +198,7 @@ Location-related fields to consider for <<georeference,georeferencing>> include 
 * <<latitude,Latitude>> degrees, <<latitude>> minutes, <<latitude>> seconds, <<latitude>> hemisphere, <<longitude>> degrees, <<longitude>> minutes, <<longitude>> seconds, <<longitude>> hemisphere.
 * Environment, to distinguish terrestrial, aquatic, and marine locations.
 * <<event,Event>> date (best to follow and enforce a standard format, such as ISO 8601 (ISO/TC 154 2019).
-* Fields in the <<Darwin Core>> *_GeologicalContext_* class for paleontological occurrences.
+* Fields in the <<Darwin Core>> term:[GeologicalContext] class for paleontological occurrences.
 
 ==== Applying Data Constraints
 
@@ -332,7 +332,7 @@ Use information from other clauses, such as administrative geography, informatio
 
 ==== Applying Spatial Constraints
 
-There are many ways that a <<location>> can be constrained beyond what the geography and <<locality>> descriptions alone suggest. Doing so relies on applying additional <<location>> information, such as <<elevation>> or <<depth>>, lithostratigraphic information for fossils, or information outside the <<location>> information, such as environmental constraints for a particular species. There are important implications about workflow and effort that need to be considered when applying additional constraints. For example, if taxon constraints are going to be applied, the <<georeference,georeferencing>> can not be done strictly on <<location>> information, which means it has to be done on occurrence records, or on an index combining <<location>> and taxon. This would be much slower than <<georeference,georeferencing>> based on <<location>> alone. A good compromise would be to <<georeference>> in multiple stages, with the first stage based on <<location>> information, and a subsequent stage including the rest of the occurrence information, and perhaps a final stage of review by collectors to be able to set term:[dwc:georeferencingVerificationStatus] to "verified by collector" – the best status a <<georeference>> can possibly have.
+There are many ways that a <<location>> can be constrained beyond what the geography and <<locality>> descriptions alone suggest. Doing so relies on applying additional <<location>> information, such as <<elevation>> or <<depth>>, lithostratigraphic information for fossils, or information outside the <<location>> information, such as environmental constraints for a particular species. There are important implications about workflow and effort that need to be considered when applying additional constraints. For example, if taxon constraints are going to be applied, the <<georeference,georeferencing>> can not be done strictly on <<location>> information, which means it has to be done on occurrence records, or on an index combining <<location>> and taxon. This would be much slower than <<georeference,georeferencing>> based on <<location>> alone. A good compromise would be to <<georeference>> in multiple stages, with the first stage based on <<location>> information, and a subsequent stage including the rest of the occurrence information, and perhaps a final stage of review by collectors to be able to set term:[dwc:georeferenceVerificationStatus] to "verified by collector" – the best status a <<georeference>> can possibly have.
 
 ===== Taxon Constraints
 
