@@ -179,7 +179,14 @@ GUID:: _see_ <<GUID,Globally Unique Identifier>>.
 
 [[point-radius]]point-radius:: a representation of the <<geographic component>> of a <<location>> as a <<geographic-coordinates,geographic coordinate>> and a <<maximum uncertainty distance>>. The <<point-radius>> <<georeferencing method>> produces <<georeference,georeferences>> that include <<geographic coordinates>>, a <<coordinate reference system>>, and a <<maximum uncertainty distance>> that encompasses all of the possible <<geographic coordinates>> where a <<locality>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
 
-[[precision]]precision:: 1) the closeness of a repeated set of observations of the same quantity to one another - a measure of control over random <<error>>. 2) With values, it describes the finest unit of measurement used to express that value (_e.g._, if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree). Antonym: imprecise. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>.
+[[precision]]precision::
++
+--
+1. the closeness of a repeated set of observations of the same quantity to one another – a measure of control over random <<error>>.
+2. with values, it describes the finest unit of measurement used to express that value (_e.g._, if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree).
+--
++
+Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>.
 
 [[prime-meridian]]prime meridian:: the set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other <<longitude,longitudes>> are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes.
 
