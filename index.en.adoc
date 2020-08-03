@@ -1,10 +1,10 @@
-= Georeferencing Best Practices
+= Georeferencing Best Practices [Community review draft
 :authorcount: 2
 :author_1: A.D. Chapman
 :author_2: J.R Wieczorek
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
-:title-logo-image: img/western-honey-bee.jpg
+:title-logo-image: img/web/photo.jpg
 // Revision
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
