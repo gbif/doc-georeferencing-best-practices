@@ -5,3 +5,4 @@
 *.??.adoc
 !*.en.adoc
 *.mo
+*.icloud
