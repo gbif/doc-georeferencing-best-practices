@@ -10,9 +10,9 @@
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 // Contents, sections
 :toc: left
-:toclevels: 4
+:toclevels: 3
 :numbered:
-:sectnumlevels: 4
+:sectnumlevels: 3
 :pagenums:
 // Set <<these-links>> to use the name rather than "Section 1.2"
 :xrefstyle: basic
