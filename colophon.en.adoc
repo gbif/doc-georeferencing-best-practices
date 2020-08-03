@@ -1,6 +1,6 @@
 // add cover image to img directory and update filename below
 ifdef::backend-html5[]
-image::img/western-honey-bee.jpg[]
+image::img/photo.jpg[]
 endif::backend-html5[]
 
 == Colophon
