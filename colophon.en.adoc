@@ -31,11 +31,10 @@ Georeferencing Best Practices provides guidelines to the best practice for geore
 
 === Document control
 
-v0 published for community peer review, March 2020
+v0 published for community peer review, August 2020
 
 Originally based on an earlier publication, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
 
 === Cover image
 
-// Caption. Credit, source, licence.
-Western honey bee (_Apis mellifera_), Hardy County, Florida, United States. Photo 2018 thebugroomno2 via https://www.gbif.org/occurrence/1945467387[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0].
+Spotted whelk (_Cominella maculosa_), Waitangi Bay, Chatham Island. Photo 2019 Peter de Lange via https://www.gbif.org/occurrence/2005333834[iNaturalist research-grade observations], public domain under http://creativecommons.org/publicdomain/zero/1.0/[CC0].
