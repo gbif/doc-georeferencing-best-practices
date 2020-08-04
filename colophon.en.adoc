@@ -17,10 +17,6 @@ https://orcid.org/0000-0003-1700-6962[Arthur D. Chapman] & https://orcid.org/000
 
 The document _Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
 
-The information in this book represents the professional opinion of the authors, and does not necessarily represent the views of the publisher. While the authors and the publisher have attempted to make this book as accurate and as thorough as possible, the information contained herein is provided on an "As Is" basis, and without any warranties with respect to its accuracy or completeness. The authors and the publisher shall have no liability to any person or entity for any loss or damage caused by using the information provided in this book.
-
-Where there are differences in interpretation between this document and translated versions in languages other than English, the English version remains the original and definitive version.
-
 === Persistent URI
 
 https://doi.org/10.15468/doc-gg7h-s853
@@ -34,6 +30,12 @@ Georeferencing Best Practices provides guidelines to the best practice for geore
 v0 published for community peer review, August 2020
 
 Originally based on an earlier publication, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
+
+=== Disclaimer
+
+The information in this book represents the professional opinion of the authors, and does not necessarily represent the views of the publisher. While the authors and the publisher have attempted to make this book as accurate and as thorough as possible, the information contained herein is provided on an "As Is" basis, and without any warranties with respect to its accuracy or completeness. The authors and the publisher shall have no liability to any person or entity for any loss or damage caused by using the information provided in this book.
+
+Where there are differences in interpretation between this document and translated versions in languages other than English, the English version remains the original and definitive version.
 
 === Cover image
 
