@@ -105,7 +105,7 @@ Accuracy, error, and bias all relate directly to estimates of true values. The c
 [NOTE]
 --
 [quote,"Geodetic Survey Division 1996, FGDC 1998"]
-Because the true value is not known, but only estimated, the <<accuracy>> of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.
+Because the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.
 --
 
 [#img-accuracy-vs-precision]
