@@ -19,9 +19,9 @@
 :icons: font
 // Content
 :stem:
-:marine: 🐠
-:ecological: 🌳
-:caves: 🐉
+:marine: image:img/marine.svg[width=14px]
+:ecological: image:img/ecology.svg[width=14px]
+:caves: image:img/cave.svg[width=14px]
 // Shorthand for links to the other two documents
 :gqg: link:../../../georeferencing-quick-reference-guide/1.0/
 :gcm: link:../../../georeferencing-calculator-manual/1.0/
