@@ -76,27 +76,27 @@ Training is a major responsibility of anyone beginning or conducting the <<geore
 
 Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from Paul (2018):
 
-* Introduction to <<georeference,georeferencing>>.
-* Developing a <<georeference,georeferencing>> project.
-* <<georeference,Georeferencing>> best practices.
-* {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020).
-* {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020).
-* Geographic concepts.
-* <<locality type,Locality types>>.
-* Good and bad <<locality,localities>>.
+* Introduction to <<georeferencing>>
+* Developing a georeferencing project
+* Georeferencing> best practices
+* Georeferencing Quick Reference Guide ({gqg}[Zermoglio et al. 2020])
+* Georeferencing Calculator ({gcm}[Wieczorek & Wieczorek 2020])
+* Geographic concepts
+* <<locality type,Locality types>>
+* Good and bad <<locality,localities>>
 * Using <<gazetteer,gazetteers>>
-* Using physical maps.
-* Using Google Earth™ and Google Maps™.
-* Recording <<uncertainty>> using the <<point-radius>> <<georeferencing method,method>>.
-* Using the <<shape>> <<georeferencing method,method>> of <<georeference,georeferencing>> <<uncertainty>>.
-* Using online tools.
-* Finding Internet resources.
-* From collaboration to automation.
-* Reporting through <<Darwin Core>>.
-* Validating <<georeference,georeferences>>.
-* <<repatriate,Repatriating>> data.
-* Building end-to-end <<georeference,georeferencing>> workflows.
-* Sharing <<georeference,georeferenced>> data.
+* Using physical maps
+* Using Google Earth and Google Maps
+* Recording <<uncertainty>> using the <<point-radius>> <<georeferencing method,method>>
+* Using the <<shape>> <<georeferencing method,method>> of georeferencing <<uncertainty>>
+* Using online tools
+* Finding Internet resources
+* From collaboration to automation
+* Reporting through <<Darwin Core>>
+* Validating georeferences.
+* <<repatriate,Repatriating>> data
+* Building end-to-end georeferencing workflows
+* Sharing georeferenced data
 
 === Performance Criteria
 
