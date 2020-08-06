@@ -65,18 +65,12 @@
 - Guan L (2019) Government ups the ante on securing Australia with satellites. CIO. https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/
 - Guo Q, Liu Y & Wieczorek JR (2008) Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. International Journal of Geographical Information Science 22: 1067-1090. https://doi.org/10.1080/13658810701851420
 - Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381
-
-- Guralnick R, Constable H 2010. VertNet: Creating a Data Sharing Community. _Bioscience_ 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2[_https://doi.org/10.1525/bio.2010.60.4.2_] [Accessed 14 Dec 2019].
-
-- Hardy P & Field K 2012. Portrayal and Cartography. In: Kresse W, Danko D (eds) _Springer Handbook of Geographic Information_. Springer Handbooks. Berlin, Heidelberg: Springer. https://doi.org/10.1007/978-3-540-72680-7_11[_https://doi.org/10.1007/978-3-540-72680-7_11_] [Accessed 14 Dec 2019].
-
-- Helbich M, Amelunxen C, Neis P, Zipf A 2012. Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In _Proceedings of the Geoinformatics Forum_, Salzburg, Austria, 3–6 July 2012.
-
-- Herries D 2012. _GPS Accuracy Estimate (EPE) What is It?_ Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/[_https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/_] [Accessed 1 Feb 2020].
-
-- HISCOM (Herbarium Information Systems Committee) 2000. _HISPID — Herbarium Information Standards and Protocols for Interchange of Data_ [Version 4]. Council of Heads of Australian Herbaria. http://hiscom.rbg.vic.gov.au/wiki/HISPID_4[_http://hiscom.rbg.vic.gov.au/wiki/HISPID_4_] [Accessed 14 Dec 2019].
-
-- Hijmans RJ, Guarino L & Mathur P 2012. DIVA-GIS Version 7.5 A geographic information system for the analysis of biodiversity data. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
+- Guralnick R & Constable H (2010) VertNet: Creating a Data Sharing Community. Bioscience 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2
+- Hardy P & Field K (2012) Portrayal and Cartography. In Kresse W, Danko D, eds., Springer Handbook of Geographic Information. Berlin: Springer. https://doi.org/10.1007/978-3-540-72680-7_11
+- Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria.
+- Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/
+- HISCOM (Herbarium Information Systems Committee) (2000) HISPID — Herbarium Information Standards and Protocols for Interchange of Data. Version 4. Council of Heads of Australian Herbaria. http://hiscom.rbg.vic.gov.au/wiki/HISPID_4
+- Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
 
 - Iland D, Irish A, Madhow U, Sandler B 2018. Rethinking GPS: Engineering Next-Gen at Uber. _Uber Engineering_. https://eng.uber.com/rethinking-gps/[_https://eng.uber.com/rethinking-gps/_] [Accessed 14 Dec 2019].
 
@@ -199,29 +193,17 @@
 - [[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
 - Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88
 - [[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
-
-- VLIZ 2019. _Marineregions.org_. Flanders Marine Institute Platform for Marine Research. http://marineregions.org/[_http://www.marineregions.org_] [Accessed 16 Dec 2019].
-
-- Wang Y, Zou Y, Henrickson K, Wang Y, Tang J, Park B-J 2017. Google Earth elevation data extraction and accuracy assessment for transportation applications. _PLoS ONE_ 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756[_https://doi.org/10.1371/journal.pone.0175756_] [Accessed 5 Feb 2020].
-
-- Wheeler TA, Huber JT, Currie DC 2001. _Label Data Standards for Terrestrial Arthropods._ Ottawa: Biological Survey of Canada (Terrestrial Arthropods). _Document Series No. 8_ http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[_http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm_] [Accessed 16 Dec 2019].
-
-- Wieczorek C & Wieczorek J 2018. _Georeferencing Calculator_ Version 2018-06-20. University of California, Berkeley: Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620[_https://github.com/VertNet/georefcalculator/releases/tag/v20180620_] [Accessed 5 Dec 2019].
-
-- Wieczorek C & Wieczorek J 2020. _Georeferencing Calculator_. Version 2020-01-31. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[_http://georeferencing.org/georefcalculator/gc.html_] [Accessed 6 Feb 2020].
-
-- Wieczorek J 2001. _MaNIS/HerpNET/ORNIS Georeferencing Guidelines_. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[_http://georeferencing.org/georefcalculator/docs/GeorefGuide.html_] [Accessed 16 Dec 2019].
-
-- Wieczorek J 2019. _Global estimates of worst-case datum shifts from WGS84_. Rauthiflor LLC. Available https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py[_https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py_] [Accessed 16 Dec 2019].
-
-- Wieczorek J & Bloom DA. 2015. _Manual for the Georeferencing Calculator_. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[_http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html_] [Accessed 31 Mar 2020]. http://georeferencing.org/georefcalculator/docs/GeoreferencingCalculatorManualv2.html[_http://georeferencing.org/georefcalculator/docs/GeoreferencingCalculatorManualv2.html_] [Accessed 16 Dec 2006].
-
-- Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C, Yamamoto K 2012a. _Georeferencing Quick Reference Guide. Version 2012-10-08._ http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[_http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf_] [Accessed 20 Nov 2019].
-
-- Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T, Vieglais D 2012b. Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[_https://doi.org/10.1371/journal.pone.0029715_] [Accessed 16 Dec 2019].
-
-- Wieczorek J & Beaman R 2002. _Georeferencing: Collaboration and Automation_. MaNIS. http://georeferencing.org/manis/GeorefCollaboration021021.ppt[_http://georeferencing.org/manis/GeorefCollaboration021021.ppt_] [Accessed 16 Dec 2019].
-
+- VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research.
+- Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756
+- Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm
+- Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620
+- Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version 2020-01-31. Rauthiflor LLC. http://georeferencing.org/georefcalculator/gc.html
+- Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html
+- Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py
+- Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html
+- Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C & Yamamoto K (2012a) Georeferencing Quick Reference Guide. Version 2012-10-08. http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf
+- Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012b) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715
+- Wieczorek J & Beaman R (2002) Georeferencing: Collaboration and Automation. MaNIS. http://georeferencing.org/manis/GeorefCollaboration021021.ppt
 - Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. 18: 745-767. https://doi.org/10.1080/13658810412331280211
 - Wilkinson M, Dumontier M, Aalbersberg I, Appleton G, Axton M, Baak A, Blomberg N, Boiten J-W, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J & Mons B (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18
 - Wolf A-C, Snaith H, Amirebrahimi S, Devey CW, Dorschel B, Ferrini V, Huvenne VAI, Jakobsson M, Jencks J, Johnston G, Lamarche G, Mayer L, Millar D, Pedersen TH, Picard K, Reitz A, Schmitt T, Visbeck M, Weatherall P, Wigley R (2019) Seafloor Mapping - The Challenge of a Truly Global Bathymetry. Frontiers in Marine Science 6: 283. https://doi.org/10.3389/fmars.2019.00283
