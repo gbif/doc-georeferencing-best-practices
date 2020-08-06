@@ -14,7 +14,7 @@
 - Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf
 - Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. http://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
 - Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq
-- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190
+- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-jrgg-a190
 - Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528
 - Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545
 - Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10
@@ -76,7 +76,7 @@
 
 - HISCOM (Herbarium Information Systems Committee) 2000. _HISPID — Herbarium Information Standards and Protocols for Interchange of Data_ [Version 4]. Council of Heads of Australian Herbaria. http://hiscom.rbg.vic.gov.au/wiki/HISPID_4[_http://hiscom.rbg.vic.gov.au/wiki/HISPID_4_] [Accessed 14 Dec 2019].
 
-- Hijmans RJ, Guarino L, Mathur P 2012. _DIVA-GIS Version 7.5 A geographic information system for the analysis of biodiversity data_. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf[_http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf_] [Accessed 14 Dec 2019].
+- Hijmans RJ, Guarino L & Mathur P 2012. DIVA-GIS Version 7.5 A geographic information system for the analysis of biodiversity data. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
 
 - Iland D, Irish A, Madhow U, Sandler B 2018. Rethinking GPS: Engineering Next-Gen at Uber. _Uber Engineering_. https://eng.uber.com/rethinking-gps/[_https://eng.uber.com/rethinking-gps/_] [Accessed 14 Dec 2019].
 
@@ -90,14 +90,14 @@
 
 - Juran JM 1995. _Managerial Breakthrough_. New York: McGraw-Hill. ed.2, revised. ISBN: 978-007-034-0374. 451 pp.
 
-- Kaplan ED & Hegarty CJ (eds.) 2006. _Understanding GPS: principles and applications_. 2nd edn. Boston/London: Artech House. 703pp. ISBN 1-58053-894-0.
+- [[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
 
 - Kemp KK 2008. _Encyclopedia of Geographic Information Science_. Los Angeles: Sage Publications. 584pp. ISBN 978-1-4129-1313-3. https://doi.org/10.4135/9781412953962[_https://doi.org/10.4135/9781412953962_] [Accessed 14 Dec 2019].
 
 - Larsen R 2012. _Always is always somewhere…_ http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/[_http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/_] [Accessed 13 Dec 2019].
 
 - Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_] [Accessed 13 Dec 2019].
-
+- [[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
 - Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH, Olson TR 1998. _The NASA GSFC and NIMA Joint Geopotential Model_. NASA Goddard Space Flight Center, Greenbelt, Maryland, 20771 USA, July 1998. http://cddis.nasa.gov/926/egm96/egm96.html[_http://cddis.nasa.gov/926/egm96/egm96.html_] [Accessed 14 Dec 2019].
 
 - Liu Y, Guo Q, Wieczorek JR, Goodchild MF 2009. Positioning localities based on spatial assertions. _Internat. J. Geogr. and Inform. Sci._ 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114[_https://doi.org/10.1080/13658810802247114_]. [Accessed 14 Dec 2019].
@@ -120,7 +120,7 @@
 
 - Mouratidis A & Ampatzidis D 2019. European Digital Elevation Model Validation against Extensive Global Navigation Satellite Systems Data and Comparison with SRTM DEM and ASTER GDEM in Central Macedonia (Greece). _ISPRS Int. J. Geo-Inf._ 8(3), 108. https://doi.org/10.3390/ijgi8030108[_https://doi.org/10.3390/ijgi8030108_] [Accessed 15 Dec 2019].
 
-- Murphy PC, Guralnick RP, Glaubitz R, Neufeld D, Ryan JA 2004. Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). _PhyloInformatics_ 3:1-29. https://doi.org/10.5281/zenodo.59792[_https://doi.org/10.5281/zenodo.59792_] [Accessed 15 Dec 2019].
+- Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792
 
 - Museum of Vertebrate Zoology 2006. _MVZ Guide for Recording Localities in Field Notes_. University of California, Berkeley: Museum of Vertebrate Zoology. http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[_http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html_] [Accessed 15 Dec 2019].
 
@@ -178,47 +178,27 @@
 
 - Richards K, White R, Nicolson N, Pyle R 2011. _Beginners’ guide to persistent identifiers_, version 1.0. Global Biodiversity Information Facility, Copenhagen. https://doi.org/10.35035/mjgq-d052[_https://doi.org/10.35035/mjgq-d052_] [Accessed 15 Dec 2019].
 
-- Rios N (2019). _GEOLocate - Software for Georeferencing Natural History Data_. [Web application software]. http://www.geo-locate.org/[_http://www.geo-locate.org_] [Accessed 15 Jan 2020].
-
-- Robertson MP, Visser V, Hui C 2016. Biogeo: An R package for assessing and improving data quality of occurrence record datasets. _Ecography_ 39: 394-401. https://doi.org/10.1111/ecog.02118[_https://doi.org/10.1111/ecog.02118_] [Accessed 15 Dec 2019].
-
-- SANBI 2016. _Report of the National Sensitive Species List Workshop 18 and 19 August 2016_. South African National Biodiversity Institute. 46pp. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf[_http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf_] [Accessed 15 Dec 2019].
-
-- Schories D & Niedzwiedz G 2011. Precision, accuracy, and application of diver-towed underwater GPS receivers. _Environ. Monit. Assess._ 184: 2359-2372 (2012). https://doi.org/10.1007/s10661-011-2122-7[_https://doi.org/10.1007/s10661-011-2122-7_] [Accessed 28 Dec 2019].
-
-- Skone S, Yousuf R, Coster A 2004. Combating the Perfect Storm. Improving Marine Differential GPS Accuracy with a Wide Area Network. _GPS World_. October 2004. http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf[_http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf_] [Accessed 15 Dec 2019].
-
-- Skone S & Yousuf R 2007. Performance of satellite-based navigation for marine users during ionosphere disturbances. _Space Weather_ 5:SO1006 https://doi.org/10.1029/2006SW000246[_https://doi.org/10.1029/2006SW000246_] [Accessed 15 Dec 2019].
-
-- Snyder J 1987. _Map Projections – A Working Manual. U.S. Geological Survey Professional Paper 1395_. Washington, DC: United States Government Printing Office. https://doi.org/10.3133/pp1395[_https://doi.org/10.3133/pp1395_] [Accessed 15 Dec 2019].
-
-- Sogade J, Vichabian Y, Reppert PM, Coles D, Morgan FD 2004. Electronic Cave-to-Surface Mapping System. _IEEE Trans. Geoscience & Remote Sensing_ 42(4): 754-763. https://doi.org/10.1109/TGRS.2003.819882[_https://doi.org/10.1109/TGRS.2003.819882_] [Accessed 16 Dec 2019].
-
-- Stein B & Wieczorek J 2004. Mammals of the World: MaNIS as an example of data integration in a distributed network environment. _Journal of Biodiversity Informatics_ 1: 14–22. https://doi.org/10.17161/bi.v1i0.7[_https://doi.org/10.17161/bi.v1i0.7_] [Accessed 15 Dec 2019].
-
-- Tan A, Alomari A, Schamschula M 2016. Land-water distribution and the pear-shape of the Earth. _Int. J. Oceans & Oceanogr._, 10, 123-132 https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf[_https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf_] [Accessed 6 Dec 2019]
-
-- Taylor C 2003. _Geographic/UTM Coordinate Converter_. link:++http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html++[_http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html_] [Accessed 16 Dec 2019].
-
-- TDWG 2018. _Darwin Core quick reference guide_. Biodiversity Information Standards (TDWG). https://dwc.tdwg.org/terms/[_https://dwc.tdwg.org/terms/_] [Accessed 16 Dec 2019].
-
-- Tomaštik J Jnr, Tomaštik J, Saloň Š, Piroh R 2017. Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. _Forests_ 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031[_https://doi.org/10.1093/forestry/cpw031_] [Accessed 16 Dec 2019].
-
-- Topozone 1999. _Free USGS Topo Maps for the Entire United States_. https://www.topozone.com/[_https://www.topozone.com/_]. [Accessed 16 Dec 2019].
-
-- UNAVCO 2020. _Geoid Height Calculator_. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html[_https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html_] [Accessed 29 Jan 2020].
-
-- US Dept of Defence & GPS Navstar 2008. _Global Positioning System Standard Positioning Service Performance Standard_. 4th edn. 160pp. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf[_https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf_] [Accessed 16 Dec 2019].
-
-- USGS 1999. _Map Accuracy Standards_. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf[_https://pubs.usgs.gov/fs/1999/0171/report.pdf_] [Accessed 16 Dec 2019].
-
-- USGS 2017. _USGS Global Positioning Application and Practice_. https://water.usgs.gov/osw/gps/[_https://water.usgs.gov/osw/gps/_] Modified 6 Apr 2017. [Accessed 16 Dec 2019].
-
-- Van Sickle J 2015. _GPS for Land Surveyors_ edn. 4. 368pp. New York: CRC Press, Inc. 9781466583108.
-
-- Vincenty T 1975. Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. _Survey Review_. XXIII (176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88[_https://doi.org/10.1179/sre.1975.23.176.88_] [Accessed 31 Jan 2020].
-
-- Vincenty T 1976. Correspondence: solutions of geodesics. _Survey Review_. XXIII (180): 294.
+- Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/
+- Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118
+- SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf
+- Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7
+- Skone S, Yousuf R & Coster A (2004) Combating the Perfect Storm. Improving Marine Differential GPS Accuracy with a Wide Area Network. GPS World. http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf
+- Skone S & Yousuf R (2007) Performance of satellite-based navigation for marine users during ionosphere disturbances. Space Weather 5: SO1006 https://doi.org/10.1029/2006SW000246
+- Snyder J (1987) Map Projections – A Working Manual. U.S. Geological Survey Professional Paper 1395. Washington, DC: United States Government Printing Office. https://doi.org/10.3133/pp1395
+- Sogade J, Vichabian Y, Reppert PM, Coles D & Morgan FD (2004) Electronic Cave-to-Surface Mapping System. IEEE Transactions on Geoscience and Remote Sensing 42(4): 754-763. https://doi.org/10.1109/TGRS.2003.819882
+- Stein B & Wieczorek J (2004) Mammals of the World: MaNIS as an example of data integration in a distributed network environment. Journal of Biodiversity Informatics 1: 14–22. https://doi.org/10.17161/bi.v1i0.7
+- Tan A, Alomari A & Schamschula M (2016) Land-water distribution and the pear-shape of the Earth. International Journal of Oceans & Oceanography 10(2): 123-132. https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf
+- Taylor C (2003) Geographic/UTM Coordinate Converter. http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html
+- TDWG (2018) Darwin Core quick reference guide. Biodiversity Information Standards (TDWG). https://dwc.tdwg.org/terms
+- Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. Forests 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031
+- Topozone (1999) Free USGS Topo Maps for the Entire United States. https://www.topozone.com/
+- UNAVCO (2020) Geoid Height Calculator. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html
+- US Department of Defence & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf
+- USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf
+- USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/
+- [[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
+- Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88
+- [[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
 
 - VLIZ 2019. _Marineregions.org_. Flanders Marine Institute Platform for Marine Research. http://marineregions.org/[_http://www.marineregions.org_] [Accessed 16 Dec 2019].
 
