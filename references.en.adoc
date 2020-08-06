@@ -45,46 +45,26 @@
 - GEBCO (2019a) GEBCO One Minute Grid. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/
 - GEBCO (2019b) General Bathymetric Chart of the Oceans. GEBCO-2019. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html
 - Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf
-
-- GEOLocate 2018. _Collaborative Georeferencing_. http://www.geo-locate.org/community/default.html[_http://www.geo-locate.org/community/default.html_] [Accessed 13 Dec 2019].
-
-- Geomatic Solutions 2018. _Georepository_. Version 9.0.0.0062. https://georepository.com/[_https://georepository.com_] [Accessed 13 Dec 2019].
-
-- Geoscience Australia 2005. _NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia._ On DVD. Canberra: Geoscience Australia.
-
-- Geoscience Australia 2007. _Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products_. Version 5.0 http://www.ga.gov.au/mapspecs/topographic/v5/index.html[_http://www.ga.gov.au/mapspecs/topographic/v5/index.html_] [Accessed 13 Dec 2019]
-
-- Geoscience Australia 2018. _Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid_. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644[_https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644_] [Accessed 13 Dec 2018].
-
-- Geoscience Australia 2019a. _Positioning Australia_. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia[_https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia_] [Accessed 14 Dec 2019].
-
-- Geoscience Australia 2019b. _Map Grid of Australia 2020_. Published 2017, updated 2019. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020[_https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020_] [Accessed 14 Dec 2019].
-
-- Gibson D 1996. How accurate is radio-location? _Cave and Karst Science_ 23(2): 77-80. https://core.ac.uk/download/pdf/43096916.pdf[_https://core.ac.uk/download/pdf/43096916.pdf_] [Accessed 14 Dec 2019].
-
-- Gibson D 2002. _Radiolocation for Cave Surveying_. http://site2.caves.org.uk/radio/radioloc_for_cave.html[_http://site2.caves.org.uk/radio/radioloc_for_cave.html_] [Accessed 14 Dec 2019].
-
-- GISGeography (2019a). _GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere_. Published 2017, updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath/[_https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath/_] [Accessed 20 Feb 2020].
-
-- GISGeography (2019b). _The Geoid - Hypothetical Mean Sea Level GisGeography_. Published 2016, updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/[_https://gisgeography.com/geoid-mean-sea-level/_] [Accessed 20 Feb 2020].
-
-- Goldsheider N & Drew D (eds) 2014. Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group. ISBN 978-0-415-42873-6. 280pp.
-
-- Goulet CM 2001. _Magnetic Declinations. Frequently Asked Questions._ Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm[_http://www.rescuedynamics.ca/articles/MagDecFAQ.htm_] [Accessed 14 Dec 2019].
-
-- GPS.gov 2017. _GPS Accuracy_. Maintained by National Coordination Office for Space-Based Positioning, Navigation, and Timing. Web page maintained by NOAA. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/[_https://www.gps.gov/systems/gps/performance/accuracy/_] [Accessed 14 Dec 2019].
-
-- GPS.gov 2018. _Selective Availability._ Maintained by National Coordination Office for Space-Based Positioning, Navigation, and Timing. Web page maintained by NOAA. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/[_https://www.gps.gov/systems/gps/modernization/sa/_] [Accessed 14 Dec 2019].
-
-- Grant S, Jones J, Webbink K, Zschernitz R 2018. Repatriation of Augmented Information to an Institutional Database. _Biodiversity Information Science and Standards 2: e26479._ https://doi.org/10.3897/biss.2.26479[_https://doi.org/10.3897/biss.2.26479_] [Accessed 14 Dec 2019].
-
-- Gries C, Gilbert EE, Franz NM 2014. Symbiota - a virtual platform for creating voucher-based biodiversity information communities. _Biodiversity Data Journal_ 2: e1114. https://doi.org/10.3897/BDJ.2.e1114[_https://doi.org/10.3897/BDJ.2.e1114_] [Accessed 14 Dec 2019].
-
-- Guan L 2019. _Government ups the ante on securing Australia with satellites. CIO._ https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/[_https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/_] [Accessed 14 Dec 2019].
-
-- Guo Q, Liu Y, Wieczorek JR 2008. Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. _Internat. J. Geogr. and Inform. Sci._ 22: 1067-1090. https://doi.org/10.1080/13658810701851420[_https://doi.org/10.1080/13658810701851420_] [Accessed 14 Dec 2019].
-
-- Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group 2006. BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. _PLoS Biol_ 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381[_https://doi.org/10.1371/journal.pbio.0040381_] [Accessed 14 Dec 2019].
+- GEOLocate (2018) Collaborative Georeferencing. http://www.geo-locate.org/community/default.html
+- Geomatic Solutions (2018) Georepository. Version 9.0.0.0062. https://georepository.com/
+- Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia.
+- Geoscience Australia (2007) Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products. Version 5.0. http://www.ga.gov.au/mapspecs/topographic/v5/index.html
+- Geoscience Australia (2018) Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644
+- Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia
+- Geoscience Australia (2019b) Map Grid of Australia 2020. 2019 edition. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020
+- Gibson D (1996) How accurate is radio-location? Cave and Karst Science 23(2): 77-80. http://hdl.handle.net/10871/19788
+- Gibson D (2002) Radiolocation for Cave Surveying. http://site2.caves.org.uk/radio/radioloc_for_cave.html
+- GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath
+- GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/
+- [[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group.
+- Goulet CM (2001) Magnetic Declinations. Frequently Asked Questions. Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm
+- GPS.gov (2017) GPS Accuracy. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/
+- GPS.gov (2018) Selective Availability. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/
+- Grant S, Jones J, Webbink K & Zschernitz R (2018) Repatriation of Augmented Information to an Institutional Database. Biodiversity Information Science and Standards 2: e26479. https://doi.org/10.3897/biss.2.26479
+- Gries C, Gilbert EE & Franz NM (2014) Symbiota - a virtual platform for creating voucher-based biodiversity information communities. Biodiversity Data Journal 2: e1114. https://doi.org/10.3897/BDJ.2.e1114
+- Guan L (2019) Government ups the ante on securing Australia with satellites. CIO. https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/
+- Guo Q, Liu Y & Wieczorek JR (2008) Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. International Journal of Geographical Information Science 22: 1067-1090. https://doi.org/10.1080/13658810701851420
+- Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381
 
 - Guralnick R, Constable H 2010. VertNet: Creating a Data Sharing Community. _Bioscience_ 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2[_https://doi.org/10.1525/bio.2010.60.4.2_] [Accessed 14 Dec 2019].
 
@@ -270,14 +250,9 @@
 
 - World Ocean Review 2010. _Living with the Oceans_. A Report on the state of the world’s oceans. 3. Coasts https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts/[_https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts/_] [Accessed 16 Dec 2019].
 
-- WoRMS 2019. _WoRMS - World Register of Marine Species._ http://www.marinespecies.org/users.php[_http://www.marinespecies.org/users.php_] [Accessed 6 Dec 2019].
-
-- Yost M 2015. _Georeferencing: the Polygon Method_. iDigBio guest blog. https://www.idigbio.org/content/georeferencing-polygon-method[_https://www.idigbio.org/content/georeferencing-polygon-method_] [Accessed 16 Dec 2019].
-
-- Yost M n.dat. _Georeferencing: the Polygon Method._ Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf[_https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf_] [Accessed 16 Dec 2019].
-
-- Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC, Bloom DA 2020. _Georeferencing Quick Reference Guide_. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128[_https://doi.org/10.35035/e09p-h128_]
-
-- Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V, Antonelli A 2019. CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. _Methods in Ecology and Evolution_. https://doi.org/10.1111/2041-210X.13152[_https://doi.org/10.1111/2041-210X.13152_] [Accessed 16 Dec 2019].
-
-- Zooniverse _n.dat._ _Notes from Nature._ https://www.zooniverse.org/organizations/md68135/notes-from-nature[_https://www.zooniverse.org/organizations/md68135/notes-from-nature_] [Accessed 16 Dec 2019].
+- WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php
+- Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method
+- Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf
+- Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA 2020. Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128
+- Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152
+- Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature
