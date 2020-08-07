@@ -71,49 +71,30 @@
 - Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/
 - HISCOM (Herbarium Information Systems Committee) (2000) HISPID — Herbarium Information Standards and Protocols for Interchange of Data. Version 4. Council of Heads of Australian Herbaria. http://hiscom.rbg.vic.gov.au/wiki/HISPID_4
 - Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
-
-- Iland D, Irish A, Madhow U, Sandler B 2018. Rethinking GPS: Engineering Next-Gen at Uber. _Uber Engineering_. https://eng.uber.com/rethinking-gps/[_https://eng.uber.com/rethinking-gps/_] [Accessed 14 Dec 2019].
-
-- IOGP 2019. _About the EPSG Dataset_. http://www.epsg.org/[_http://www.epsg.org/_] [Accessed 14 Dec 2019].
-
-- ISO 2016. _ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization._ https://www.iso.org/standard/60343.html[_https://www.iso.org/standard/60343.html_] [Accessed 14 Dec 2019].
-
-- ISO 2019. _ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules._ https://www.iso.org/standard/70907.html[_https://www.iso.org/standard/70907.html_] [Accessed 14 Dec 2019].
-
-- Juran JM 1964. _Managerial Breakthrough_. New York: McGraw-Hill. 396 pp.
-
-- Juran JM 1995. _Managerial Breakthrough_. New York: McGraw-Hill. ed.2, revised. ISBN: 978-007-034-0374. 451 pp.
-
+- Iland D, Irish A, Madhow U & Sandler B (2018) Rethinking GPS: Engineering Next-Gen at Uber. Uber Engineering. https://eng.uber.com/rethinking-gps/
+- IOGP (2019) About the EPSG Dataset. http://www.epsg.org/
+- ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html
+- ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html
+- [[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
+- [[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
 - [[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
-
-- Kemp KK 2008. _Encyclopedia of Geographic Information Science_. Los Angeles: Sage Publications. 584pp. ISBN 978-1-4129-1313-3. https://doi.org/10.4135/9781412953962[_https://doi.org/10.4135/9781412953962_] [Accessed 14 Dec 2019].
-
-- Larsen R 2012. _Always is always somewhere…_ http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/[_http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/_] [Accessed 13 Dec 2019].
-
+- Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962
+- Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/
 - Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_] [Accessed 13 Dec 2019].
 - [[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
-- Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH, Olson TR 1998. _The NASA GSFC and NIMA Joint Geopotential Model_. NASA Goddard Space Flight Center, Greenbelt, Maryland, 20771 USA, July 1998. http://cddis.nasa.gov/926/egm96/egm96.html[_http://cddis.nasa.gov/926/egm96/egm96.html_] [Accessed 14 Dec 2019].
-
-- Liu Y, Guo Q, Wieczorek JR, Goodchild MF 2009. Positioning localities based on spatial assertions. _Internat. J. Geogr. and Inform. Sci._ 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114[_https://doi.org/10.1080/13658810802247114_]. [Accessed 14 Dec 2019].
-
-- Loweth RP 1997. _Manual of Offshore Surveying for Geoscientists and Engineers._ Springer Science and Business Media. 428pp. ISBN 0412805502, 9780412805509.
-
-- Maptiler 2019. _EPSG.io. Coordinate Systems Worldwide._ http://epsg.io/[_http://epsg.io/_] [Accessed 14 Dec 2019].
-
-- Matoušek J, Sharir M, Welzl E 1996. A subexponential bound for linear programming. _Algorithmica_, 16 (4–5): 498–516, https://doi.org/10.1007/BF01940877[_https://doi.org/10.1007/BF01940877_]. [Accessed 14 Dec 2019].
-
-- McCubbine J, Brown N, Featherstone W, Filmer M, Gowans N 2019. _Next Generation Height Reference Frame. 3/3 Technical Requirements_. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf[_https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf_] [Accessed 14 Dec 2019].
-
-- McElroy S, Robins I, Jones G, Kinlyside D 2007. _Exploring GPS, A GPS Users Guide_: 2nd edn. (e-published) NSW Department of Lands. link:++http://spatialservices.finance.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf++[_http://spatialservices.finance.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf_] [Accessed 14 Dec 2019].
-
-- Meyer D (compiler) 2011. _ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results_. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf[_https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf_] [Accessed 14 Dec 2019].
-
-- Moore SK 2017. Superaccurate GPS Chips Coming to Smartphones in 2018. _IEEE Spectrum._ 21 Sep. 2017. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018[_https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018_] [Accessed 14 Dec 2019].
-
+- Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html
+- Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114
+- Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and Engineers. Berlin: Springer Science and Business Media. https://doi.org/10.1007/978-94-011-5826-8
+- Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/
+- Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear programming. Algorithmica 16 (4–5): 498–516. https://doi.org/10.1007/BF01940877
+- McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next Generation Height Reference Frame. 3/3 Technical Requirements. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf
+- McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. http://spatialservices.finance.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
+- Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf
+- Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE Spectrum. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018
 - Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software (DMAP). http://www.dmap.co.uk/utmworld.htm
 - Mouratidis A & Ampatzidis D (2019) European Digital Elevation Model Validation against Extensive Global Navigation Satellite Systems Data and Comparison with SRTM DEM and ASTER GDEM in Central Macedonia (Greece). ISPRS International Journal of Geo-Information 8(3): 108. https://doi.org/10.3390/ijgi8030108
 - Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792
-- Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html
+- Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html
 - National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml
 - Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5
 - Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027
@@ -165,7 +146,7 @@
 - VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research.
 - Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756
 - Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm
-- Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620
+- Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620
 - Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version 2020-01-31. Rauthiflor LLC. http://georeferencing.org/georefcalculator/gc.html
 - Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html
 - Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py
