@@ -98,7 +98,7 @@
 - National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml
 - Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5
 - Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027
-- Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
+- [[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
 - NLWRA (2008) Natural Resources Information Management Toolkit. Version 2.0. In Promoting Best Practice in Spatial Data and Information Management. Canberra, Australia: National Land and Water Resources Australia. http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit
 - NOAA (n.d.a.) Wandering of the Geomagnetic poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml
 - NOAA (n.d.b) Magnetic Field Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
