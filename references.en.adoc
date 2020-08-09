@@ -38,6 +38,7 @@
 - ESRI (n.d.) GIS Dictionary. https://support.esri.com/en/other-resources/gis-dictionary/browse/
 - FAA (2017) Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report. Atlantic City, N.J., United States: William J. Hughes Technical Center. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22
 - FAA (2019) Satellite Navigation - WAAS - How it Works. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/
+- FAA (2020) SBAS Worldwide. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf
 - Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D & Alsdorf D (2007) The Shuttle Radar Topography Mission. Reviews of Geophysics 45(2): 1-33. https://doi.org/10.1029/2005RG000183
 - FGDC (1998) Geospatial Positioning Accuracy Standards, Part 3: National Standards for Spatial Data Accuracy. FGDC-STD-007.3-1998. Reston, Va., USA. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3
 - Frazier C, Neville T, Giermakowski JT & Racz G (2004) The INRAM Protocol for Georeferencing Biological Museum Specimen Records, Version 1.3. https://doi.org/10.5281/zenodo.3235003
