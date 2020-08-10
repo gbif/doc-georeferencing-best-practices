@@ -110,7 +110,7 @@ One of the major contributions of the https://doi.org/10.17161/bi.v1i0.7[Mammal 
 * When georeferencing is completed for the entire project, project coordinator validates that localities for original occurrence records have not changed since they were added to the gazetteer and repatriates occurrence records with georeferences to participating data custodians.
 * Everyone involved rejoices.
 * Participants add georeference data to their data management systems as time and resources allow.
-* Georeferenced occurrence records get shared via global biodiversity networks such as [https://doi.org/10.1525/bio.2010.60.4.2VertNet (Guralnick & Constable 2010)^] and https://www.gbif.org/[GBIF^].
+* Georeferenced occurrence records get shared via global biodiversity networks such as https://doi.org/10.1525/bio.2010.60.4.2[VertNet (Guralnick & Constable 2010)^] and https://www.gbif.org/[GBIF^].
 
 ==== Using Previously Georeferenced Records
 
