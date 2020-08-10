@@ -1,73 +1,53 @@
 == The Georeferencing Process
 
-<<location,Locations>> that are not fully <<georeference,georeferenced>> in the field may eventually have to be <<georeference,georeferenced>> _post-facto_ in order to be useful. One hopes in these situations that the collector of the original information followed best practices such as those described in the <<Elements for Describing a Location>>. As will be seen in <<Calculating Uncertainties>>, below, many of the greatest sources of <<uncertainty>> arise from missing, ambiguous, or non-specific information, which could have been avoided, but that can no longer be overcome without knowledge from someone who was there at the time the <<event>> occurred.
+<<location,Locations>> that are not fully <<georeference,georeferenced>> in the field may eventually have to be georeferenced after the fact in order to be useful. One hopes in these situations that the collector of the original information followed best practices such as those described in the <<Elements for Describing a Location>>. As will be seen in <<Calculating Uncertainties>>, below, many of the greatest sources of <<uncertainty>> arise from missing, ambiguous, or non-specific information, which could have been avoided, but that can no longer be overcome without knowledge from someone who was there at the time the <<event>> occurred.
 
 === Planning a Georeferencing Project
 
-Before beginning a <<georeference,georeferencing>> project, whether for an individual researcher or a large institution, it is helpful to anticipate the kinds of challenges one might expect to encounter. It may appear to be a daunting task, but there are many ways the process can be simplified and made more practical. Having a suitable workflow (see <<Georeferencing Project Workflow>>) decided in advance can increase both the efficiency and the consistency of the <<data quality,quality>> of the resulting <<georeference,georeferences>>. The basic determiners for a project are what you have to start with and what outputs you want when you are finished. In an ideal world, the obvious practical questions such as the cost and how long it will take would not be important, but realistically, when balanced against the benefits of making the effort, these might be the major determining factors. Following is a representative list of questions that might affect planning of a <<georeference,georeferencing>> project:
+Before beginning a <<georeference,georeferencing>> project, whether for an individual researcher or a large institution, it is helpful to anticipate the kinds of challenges one might expect to encounter. It may appear to be a daunting task, but there are many ways the process can be simplified and made more practical. Having a suitable workflow (see <<Georeferencing Project Workflow>>) decided in advance can increase both the efficiency and the consistency of the <<data quality,quality>> of the resulting georeferences. The basic determiners for a project are what you have to start with and what outputs you want when you are finished. In an ideal world, the obvious practical questions such as the cost and how long it will take would not be important, but realistically, when balanced against the benefits of making the effort, these might be the major determining factors. Following is a representative list of questions that might affect planning of a georeferencing project:
 
 * About the original data:
-
 ** Where is the source data coming from (herbarium labels, ledgers, database, or a combination, etc.)
-
 ** Are the source data already digitized?
-
-** How many distinct <<locality>> descriptions are there to <<georeference>>?
-
-** Are there terrestrial or marine <<location,locations>> to <<georeference>>? Or both?
-
+** How many distinct <<locality>> descriptions are there to georeference?
+** Are there terrestrial or marine <<location,locations>> to georeference? Or both?
 ** Is the geographic scope local? Country-wide? Global?
-
 * About the process:
-
 ** What is the time frame for the project?
-
-** When in the broader workflow will <<georeference,georeferencing>> happen?
-
+** When in the broader workflow will georeferencing happen?
 ** How much of the established best practices do I really need to follow?
-
 ** What if we want to use our own methods?
-
 ** What procedural documentation will we need to prepare?
-
 ** Who will do what?
-
 ** What expertise is needed?
-
 ** What skills do those who will be involved possess?
-
 ** Where can training be found?
-
-** What <<location>> resources (maps, <<gazetteer,gazetteers>>, tools) are available?
-
+** What location resources (maps, <<gazetteer,gazetteers>>, tools) are available?
 * About the final product:
-
-** What data quality target is there for the <<georeference,georeferences>>?
-
+** What data quality target is there for the georeferences?
 ** How will data validation take place?
-
 ** How will the data be maintained?
-
-** How will the <<georeference,georeferenced>> data be used and by whom?
-
+** How will the georeferenced data be used and by whom?
 ** Will the georeferences be generalized on export (for sensitive species, for example)?
-
-** How can the <<georeference,georeferences>> be integrated back into the original data?
-
+** How can the georeferences be integrated back into the original data?
 ** How can we incorporate suitable <<data quality>> feedback mechanisms?
 
+The question, "When in the broader workflow will georeferencing happen?" is of particular significance. Is it best to georeference each record as you enter the data into the database? Or is it better to <<georeference>> in a batch after the data have been entered? There are arguments for each method, and again the circumstances of your institution should dictate the best method. If the data are stored taxonomically and not geographically (as is the case in the majority of instances) it is often best to georeference in a batch mode by sorting the locality data electronically, and in this way deal with many records on one map sheet or area at a time and not be jumping back and forth between map sheets. In other cases, there may be less wear and tear on collections, you may wish to database collections as they are received and before distributing duplicates, or sending on loan, or there may be other good practical reasons to georeference as you go. One advantage of georeferencing as you go is that you may be able to do all the collections of one collector at a time, and virtually follow his/her path, thus reducing errors from not knowing which of several localities may be correct.
 
-The question, "When in the broader workflow will <<georeference,georeferencing>> happen?" is of particular significance. Is it best to <<georeference>> each record as you enter the data into the database? Or is it better to <<georeference>> in a batch after the data have been entered? There are arguments for each method, and again the circumstances of your institution should dictate the best method. If the data are stored taxonomically and not geographically (as is the case in the majority of instances) it is often best to <<georeference>> in a batch mode by sorting the <<locality>> data electronically, and in this way deal with many records on one map sheet or area at a time and not be jumping back and forth between map sheets. In other cases, there may be less wear and tear on collections, you may wish to database collections as they are received and before distributing duplicates, or sending on loan, or there may be other good practical reasons to <<georeference>> as you go. One advantage of <<georeference,georeferencing>> as you go is that you may be able to do all the collections of one collector at a time, and virtually follow his/her path, thus reducing errors from not knowing which of several <<locality,localities>> may be correct.
+This document does not cover methods of general data entry. There are many ways that this may be conducted: direct entry from the field notes, labels, or ledgers with the material brought to a data entry computer; direct entry where tablets or laptops are brought to the material; indirect entry after using scanning or photographic (still or video) equipment to capture the original information so that data entry can be done after imaging, using handwriting and OCR tools or crowdsourcing (e.g. <<DigiVol>>, <<Notes from Nature>>) to capture the data. Some of these methods are just becoming practical, but you should make an active decision on the method that best suits the needs of your project. Remember, that at the same time as digitizing is being done, and each specimen is being handled, it is a good time to consider other actions. These may not be only georeferencing (which we do not recommend for the sake of efficiency), but might also include such things as assigning <<PID,persistent identifiers (PIDs)>> (see <<Persistent Identifiers (PIDs)>>) and barcoding specimens and linking these to the database to save resources further down the line.
 
-This document does not cover methods of general data entry. There are many ways that this may be conducted: direct entry from the field notes, labels, or ledgers with the material brought to a data entry computer; direct entry where tablets or laptops are brought to the material; indirect entry after using scanning or photographic (still or video) equipment to capture the original information so that data entry can be done _post facto_ from images, including handwriting and OCR tools, or crowdsourcing (_e.g._, https://digivol.ala.org.au/[_DigiVol_] (Australian Museum _n.dat._, _see_ <<DigiVol>>)), https://www.zooniverse.org/organizations/md68135/notes-from-nature[_Notes from Nature_] (Zooniverse _n.dat._, _see_ <<Notes from Nature>>) to capture the data. Some of these methods are just becoming practical, but you should make an active decision on the method that best suits the needs of your project. Remember, that at the same time as digitizing is being done, and each specimen is being handled, it is a good time to consider other actions. These may not be only <<georeference,georeferencing>> (which we do not recommend for the sake of efficiency), but might also include such things as assigning <<PID,persistent identifiers>> (<<PID,PIDs>>, see <<Persistent Identifiers (PIDs)>>) and barcoding specimens, and linking these to the database to save resources further down the line.
+It is also important that the long-term maintenance of the data is considered early in the process. Project managers may wish to consider questions like
 
-It is also important that the long-term maintenance of the data is considered early in the process. Things like; "How are we going to deal with corrections to the data?, How do we handle feedback on <<data quality>> from data aggregators, data users, etc.?, Do we have a process in place for documenting changes to the data?, and Have we budgeted sufficient resources for ongoing maintenance and <<data quality>> checking?
+* How are we going to deal with corrections to the data?
+* How do we handle feedback on data quality from data aggregators, data users, etc.?
+* Do we have a process in place for documenting changes to the data?
+* Have we budgeted sufficient resources for ongoing maintenance and data quality checking?
 
 ==== Georeferencing Project Workflow
 
-A workflow covering all the <<georeference,georeferencing>> activities can be a valuable instrument, not only for improving the efficiency of the whole <<georeference,georeferencing>> process, but also for incorporating checks and balances, and improving the <<data quality,quality>> of the resulting product. The type of workflow may be determined by the nature of the data, the way the original data are stored or documented, the nature of the desired end product, and even by the general preferences of those involved. In the following subsections we propose a generic workflow that covers all of the major aspects of <<georeference,georeferencing>> projects. Note that some of the steps presented might not apply to every project, and one must take into account priorities as discussed in <<Planning a Georeferencing Project>>. This first section, <<Georeferencing Project Workflow>> outlines a recommended <<georeference,georeferencing>> project workflow in three phases – before, during, and after <<georeference,georeferencing>>. Subsequent sections deal with the details of some of the steps presented in the outline.
+A workflow covering all the <<georeference,georeferencing>> activities can be a valuable instrument, not only for improving the efficiency of the whole georeferencing process, but also for incorporating checks and balances, and improving the <<data quality,quality>> of the resulting product. The type of workflow may be determined by the nature of the data, the way the original data are stored or documented, the nature of the desired end product, and even by the general preferences of those involved. In the following subsections we propose a generic workflow that covers all of the major aspects of georeferencing projects. Note that some of the steps presented might not apply to every project, and one must take into account priorities as discussed in <<Planning a Georeferencing Project>>. This first section, <<Georeferencing Project Workflow>> outlines a recommended georeferencing project workflow in three phases – before, during, and after georeferencing. Subsequent sections deal with the details of some of the steps presented in the outline.
 
-Based on an assessment of a variety of large-scale <<georeference,georeferencing>> projects that had efficiency as well as <<data quality>> in mind (for example, see <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>), we recommend the following generic outline for a <<georeference,georeferencing>> project workflow using either the <<point-radius>> <<georeferencing method,method>> or the <<shape>> <<georeferencing method,method>>, or a mix of the two. This workflow can be used for projects that involve a single individual or a large collaboration, though some steps may apply more in one case than in another.
+Based on an assessment of a variety of large-scale georeferencing projects that had efficiency as well as data quality in mind (e.g. <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>), we recommend the following generic outline for a georeferencing project workflow using either the <<point-radius>> <<georeferencing method,method>> or the <<shape>> method, or a mix of the two. This workflow can be used for projects that involve a single individual or a large collaboration, though some steps may apply more in one case than in another.
 
 ===== Project Preparation Phase
 
@@ -82,64 +62,55 @@ Based on an assessment of a variety of large-scale <<georeference,georeferencing
 ===== Data Preparation Phase
 
 * Assemble the data to be <<georeference,georeferenced>>.
-* Prepare the data for <<georeference,georeferencing>>:
+* Prepare the data for georeferencing:
 ** Make sure that original records are uniquely identified (ideally with <<PID,PIDs>>, see <<Persistent Identifiers (PIDs)>>).
-
-** Extract distinct <<locality,localities>>, generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding <<locality>> identifier in each original record.
-
-** Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct <<locality>> records.
-
-** Label <<locality,localities>> as marine, terrestrial, freshwater aquatic, or paleontologic. The same <<locality>> description may refer to more than one category (_e.g._, <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with <<locality,localities>> alone, you should account for all of the environmental possibilities.
-
-** Create and uniquely identify distinct standardized <<locality,localities>> and reference the standardized <<locality>> <<GUID>> in the non-standardized <<locality>> records.
-
-** Match standardized <<locality,localities>> against existing <<locality,localities>> that have already been <<georeference,georeferenced>> using satisfactory <<georeferencing method,georeferencing methods>> and extract the existing <<georeference,georeferences>> (see <<Using Previously Georeferenced Records>>).
-
-* Assess the characteristics of the data to be <<georeference,georeferenced>> (_e.g._, how many already have <<coordinates>> without <<georeference,georeferences>>? How many consist only of administrative geography? What is the geographic distribution of the <<locality,localities>>?) with a view to determining the resources that will be needed to complete the project.
+** Extract distinct <<locality,localities>>, generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding locality identifier in each original record.
+** Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct locality records.
+** Label localities as marine, terrestrial, freshwater aquatic, or paleontologic. The same locality description may refer to more than one category (e.g. <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with localities alone, you should account for all of the environmental possibilities.
+** Create and uniquely identify distinct standardized localities and reference the standardized locality GUID in the non-standardized locality records.
+** Match standardized localities against existing localities that have already been georeferenced using satisfactory <<georeferencing method,georeferencing methods>> and extract the existing georeferences (see <<Using Previously Georeferenced Records>>).
+* Assess the characteristics of the data to be georeferenced (e.g. how many already have <<coordinates>> without georeferences? How many consist only of administrative geography? What is the geographic distribution of the localities?) with a view to determining the resources that will be needed to complete the project.
 * Estimate the resources needed to complete the project using the information determined in the project preparation phase.
 * Acquire the resources to complete the project.
-* Train participating contributors and <<georeference,georeferencing>> operators (see <<Data Entry>> and <<Training>>).
+* Train participating contributors and georeferencing operators (see <<Data Entry>> and <<Training>>).
 * Establish a convention and tools to manage participation (assignments).
 * Prepare data capture requirements and tools (see <<Data to Capture>>, <<User Interfaces>>, <<Using Standards and Guidelines>>, and <<Mapping to Darwin Core>>).
-* Assign priorities to sets of standardized <<locality,localities>>.
-* Assign standardized <<locality>> sets to participants.
+* Assign priorities to sets of standardized localities.
+* Assign standardized locality sets to participants.
 
 ===== Georeferencing Phase
 
 * Participants <<georeference>> assigned <<locality>> sets as outlined in <<Georeferencing Workflow – Localities>>.
-* Participants utilize tools such as the {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020) and the {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020).
+* Participants utilize tools such as the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the {gcm}[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^].
 
 ===== Project Follow-up Phase
 
-* Verify <<georeference,georeferences>> to meet <<data quality>> requirements (_e.g._, map <<georeference,georeferenced>> records to ensure they fall in the correct hemisphere, country, etc.) (see <<Data Checking and Cleaning>>).
-* Populate standardized <<locality>> records with data for the <<georeference,georeferences>>.
-* For original records that have not changed <<locality>> information since they were assembled, populate the original records from the standardized <<locality>> records with <<georeference,georeferences>>.
-* Repatriate the original records with standardized <<georeference,georeferenced>> <<locality>> data appended.
-* Support the incorporation of the standardized <<georeference,georeferenced>> <<locality>> data into the source data management systems (see <<Accepting Feedback from Users>>).
-* Support the sharing of the standardized <<georeference,georeferenced>> original data (including additional <<generalization,generalizations>> and withholdings) in open data venues such as GBIF (see <<Sharing Data>>).
-* Establish a long-term data maintenance policy that includes the management of feedback on <<data quality>> and the documentation of changes (see <<Accepting Feedback from Users>>).
+* Verify <<georeference,georeferences>> to meet <<data quality>> requirements (e.g., map <<georeference,georeferenced>> records to ensure they fall in the correct hemisphere, country, etc.) (see <<Data Checking and Cleaning>>).
+* Populate standardized <<locality>> records with data for the georeferences.
+* For original records that have not changed locality information since they were assembled, populate the original records from the standardized locality records with georeferences.
+* Repatriate the original records with standardized georeferenced locality data appended.
+* Support the incorporation of the standardized georeferenced locality data into the source data management systems (see <<Accepting Feedback from Users>>).
+* Support the sharing of the standardized georeferenced original data (including additional <<generalization,generalizations>> and withholdings) in open data venues such as GBIF (see <<Sharing Data>>).
+* Establish a long-term data maintenance policy that includes the management of feedback on data quality and the documentation of changes (see <<Accepting Feedback from Users>>).
 
 ==== Project Workflow Example – MaNIS/HerpNET/ORNIS
 
-One of the major contributions of the Mammal Networked Information System (MaNIS) project (Stein & Wieczorek 2004) was the design and implementation of a set of <<georeference,georeferencing>> guidelines (Wieczorek 2001) and online resources for a http://georeferencing.org/manis/GeorefSteps.html[collaborative georeferencing workflow]. The same basic workflow was implemented with great success for the sister projects http://herpnet.org/Gazetteer/GeorefSteps.html[HerpNET] and the http://www.ornisnet.org/georeferencing/workflownew[Ornithological Information System (ORNIS)]. Between the three projects, more than 1.2 million <<locality,localities>> were <<georeference,georeferenced>> for 4.5 million vertebrate occurrence records. The basic workflow was more or less as follows:
+One of the major contributions of the https://doi.org/10.17161/bi.v1i0.7[Mammal Networked Information System (MaNIS) project (Stein & Wieczorek 2004)^] was the design and implementation of a set of <<georeference,georeferencing>> guidelines (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^]) and online resources for a http://georeferencing.org/manis/GeorefSteps.html[collaborative georeferencing workflow^]. The same basic workflow was implemented with great success for the sister projects http://herpnet.org/Gazetteer/GeorefSteps.html[HerpNET^] and the http://www.ornisnet.org/georeferencing/workflownew[Ornithological Information System (ORNIS)^]. Between the three projects, more than 1.2 million <<locality,localities>> were georeferenced for 4.5 million vertebrate occurrence records. The basic workflow was more or less as follows:
 
 * Establish a <<georeferencing method>> and select tools to be used.
 * Train participants (combination of help desk, forum, documents, and in the case of HerpNET, courses).
-* Establish a convention and tools to manage <<georeference,georeferencing>> work packages for participants.
-* Aggregate occurrences and extract distinct <<locality,localities>> into a project <<gazetteer>>.
-* Engage participants to claim and complete (<<georeference>>) work packages.
+* Establish a convention and tools to manage georeferencing work packages for participants.
+* Aggregate occurrences and extract distinct localities into a project <<gazetteer>>.
+* Engage participants to claim and complete (georeference) work packages.
 ** Participant downloads work package.
-
-** Participant <<georeference,georeferences>> work package, consulting documentation and colleagues to resolve questions.
-
+** Participant georeferences work package, consulting documentation and colleagues to resolve questions.
 ** Send finished work package to project coordinator.
-
-* Project coordinator validates <<georeference,georeferences>> to meet <<data quality>> standards.
-* Project coordinator populates communal <<gazetteer>> with validated <<georeference,georeferences>>.
-* When <<georeference,georeferencing>> is completed for the entire project, project coordinator validates that <<locality,localities>> for original occurrence records have not changed since they were added to the <<gazetteer>> and repatriates occurrence records with <<georeference,georeferences>> to participating data custodians.
+* Project coordinator validates georeferences to meet <<data quality>> standards.
+* Project coordinator populates communal <<gazetteer>> with validated georeferences.
+* When georeferencing is completed for the entire project, project coordinator validates that localities for original occurrence records have not changed since they were added to the gazetteer and repatriates occurrence records with georeferences to participating data custodians.
 * Everyone involved rejoices.
-* Participants add <<georeference>> data to their data management systems as time and resources allow.
-* <<georeference,Georeferenced>> occurrence records get shared via global biodiversity networks such as VertNet (Guralnick & Constable 2010) and https://www.gbif.org/[GBIF].
+* Participants add georeference data to their data management systems as time and resources allow.
+* Georeferenced occurrence records get shared via global biodiversity networks such as [https://doi.org/10.1525/bio.2010.60.4.2VertNet (Guralnick & Constable 2010)^] and https://www.gbif.org/[GBIF^].
 
 ==== Using Previously Georeferenced Records
 
