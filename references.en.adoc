@@ -57,7 +57,7 @@
 - Gibson D (2002) Radiolocation for Cave Surveying. http://site2.caves.org.uk/radio/radioloc_for_cave.html
 - GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath
 - GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/
-- [[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group.
+- [[[goldsheider]]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group.
 - Goulet CM (2001) Magnetic Declinations. Frequently Asked Questions. Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm
 - GPS.gov (2017) GPS Accuracy. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/
 - GPS.gov (2018) Selective Availability. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/
@@ -76,13 +76,13 @@
 - IOGP (2019) About the EPSG Dataset. http://www.epsg.org/
 - ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html
 - ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html
-- [[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
-- [[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
-- [[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
+- [[[juran]]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
+- [[[juran-2ed]]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
+- [[[kaplan]]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
 - Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962
 - Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/
 - Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_] [Accessed 13 Dec 2019].
-- [[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
+- [[[leick]]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
 - Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html
 - Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114
 - Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and Engineers. Berlin: Springer Science and Business Media. https://doi.org/10.1007/978-94-011-5826-8
@@ -101,7 +101,7 @@
 - NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental Information. NOAA. Version 2.19.0. https://www.ngdc.noaa.gov/maps/bathymetry/
 - Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5
 - Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027
-- [[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
+- [[[niedzwiedz]]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
 - NLWRA (2008) Natural Resources Information Management Toolkit. Version 2.0. In Promoting Best Practice in Spatial Data and Information Management. Canberra, Australia: National Land and Water Resources Australia. http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit
 - NOAA (n.d.a.) Wandering of the Geomagnetic poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml
 - NOAA (n.d.b) Magnetic Field Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
@@ -144,9 +144,9 @@
 - US Department of Defence & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf
 - USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf
 - USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/
-- [[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
+- [[[van-sickle]]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
 - Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88
-- [[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
+- [[[vincenty-1976]]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
 - VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research.
 - Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756
 - Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm
