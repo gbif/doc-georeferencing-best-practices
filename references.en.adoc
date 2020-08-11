@@ -107,6 +107,7 @@
 - NOAA (2016) How accurate are nautical charts? News and Updates 8 April 2016 by NOAA Office of Coast Survey. https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/
 - NOAA (2018) International Comprehensive Ocean-Atmosphere Data Set (ICOADS). ICOADS Data and Documentation. http://icoads.noaa.gov/products.html
 - NOAA (2019) World Magnetic Model. https://www.ngdc.noaa.gov/geomag/WMM/
+- NOAA/NCEI (2019) GEBCO_2019 Bathymetric Contours (NOAA NCEI Visualization). https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8
 - NOAA/NCIE & CIRES (2019) US/UK World Magnetic Model. Epoch 2020.0. Main Field Declination (D). https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020_D_BoZ_MILL.pdf
 - NOT Engineers (2019) Underground radiolocation. NOT Engineers - engineers in speleology. http://www.not-engineers.fr/Underground-radiolocation.html
 - Novaczek E, Devillers R & Edinger E (2019) Generating higher resolution regional seafloor maps from crowd-sourced bathymetry. PLoS ONE 14(6): e0216792. https://doi.org/10.1371/journal.pone.0216792
