@@ -98,6 +98,7 @@
 - Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792
 - Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html
 - National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml
+- NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental Information. NOAA. Version 2.19.0. https://www.ngdc.noaa.gov/maps/bathymetry/
 - Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5
 - Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027
 - [[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
