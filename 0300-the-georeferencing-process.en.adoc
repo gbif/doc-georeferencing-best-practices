@@ -385,7 +385,7 @@ Other shape-based <<georeferencing method,methods>> have been proposed that use 
 
 Regardless of the <<georeferencing method,method>>, <<uncertainty,uncertainties>> in <<georeference,georeferenced>> data are essential to document, so that the data’s fitness for use and thus their overall <<data quality>> can be understood. There are sources of uncertainty in each <<locality>> interpretation as well as in the data sources used to georeference, and any physical measurement that might need to be made (such as on maps, digital or physical). Each of the sources of uncertainty have to be taken into account to capture the overall uncertainty in a resulting georeference.
 
-Whenever subjectivity is involved, it is preferable to overestimate each contribution to uncertainty. The following seven sources of uncertainty are the most commonly encountered. These are explained below and can be accounted for by using the http://manisnet.org/gci2.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^].
+Whenever subjectivity is involved, it is preferable to overestimate each contribution to uncertainty. The following seven sources of uncertainty are the most commonly encountered. These are explained below and can be accounted for by using the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^].
 
 * Uncertainty due to the <<extent>> of the <<feature>> in the <<locality>> description.
 * Uncertainty in <<coordinates,coordinate>> source.
@@ -601,12 +601,12 @@ The ambiguity from a missing datum varies geographically and adds greatly to the
 
 ==== Uncertainty Related to Heading
 
-The calculation of <<uncertainty>> from the <<precision>> in which a <<direction>> is recorded depends on the distance from the starting reference <<feature>>. The <<uncertainty>> will increase with increasing distance from the source. For simple determinations of angular <<precision>> due to <<direction>> – see xref:table-heading[xrefstyle="short"].
+The calculation of <<uncertainty>> from the <<precision>> in which a <<direction>> is recorded depends on the distance from the starting reference <<feature>>. The uncertainty will increase with increasing distance from the source. For simple determinations of angular precision due to direction – see xref:table-heading[xrefstyle="short"].
 
-NOTE: The <<uncertainty>> due to directional <<precision,imprecision>> increases with distance, so it can only be calculated from the combination of distance and direction (see below).
+NOTE: The uncertainty due to directional <<precision,imprecision>> increases with distance, so it can only be calculated from the combination of distance and direction (see below).
 
 [#table-heading]
-.Calculating <<uncertainty>> using the <<precision>> of the recorded direction (derived from Wieczorek _et al._ 2004).
+.Calculating uncertainty using the precision of the recorded direction (derived from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]).
 [%autowidth]
 |===
 h|Precision h|Interpretation h|Example h|Heading Uncertainty
@@ -615,7 +615,7 @@ h|Precision h|Interpretation h|Example h|Heading Uncertainty
 |NNE |Between N of NNE and E of NNE |10 km NNE of Lambert Centre |11.25°
 |===
 
-.Diagram showing directional <<precision>> for the interpretation of NE between ENE and NNE. <<uncertainty,Uncertainty>> (*x*, and *y*) grows with distance from the <<feature>>
+.Diagram showing directional precision for the interpretation of NE between ENE and NNE. Uncertainty (*x*, and *y*) grows with distance from the feature
 [#img-directional-precision]
 image::img/directional-precision.png[width=464,align="center"]
 
@@ -625,7 +625,7 @@ Using the example
 10 km NE of Lambert Centre
 ....
 
-and if we ignore distance <<precision,imprecision>>, <<uncertainty>> due to the <<direction>> <<precision,imprecision>> (xref:img-directional-precision[xrefstyle="short"]) is encompassed by an arc centered 10 km (*d*) from the center of Lambert Centre (at *x,y*) at a heading of 45 degrees (*θ*), extending 22.5 degrees in either direction from that point. At this scale the distance (*e*) from the center of the arc to the furthest extent of the arc (at *x′,y′*) at a heading of 22.5 degrees (*θ′*) from the center of Lambert Centre can be approximated by the Pythagorean Theorem,
+and if we ignore distance imprecision, uncertainty due to the direction imprecision (xref:img-directional-precision[xrefstyle="short"]) is encompassed by an arc centered 10 km (*d*) from the center of Lambert Centre (at *x,y*) at a heading of 45 degrees (*θ*), extending 22.5 degrees in either direction from that point. At this scale the distance (*e*) from the center of the arc to the furthest extent of the arc (at *x′,y′*) at a heading of 22.5 degrees (*θ′*) from the center of Lambert Centre can be approximated by the Pythagorean Theorem,
 
 [.text-center]
 --
@@ -635,23 +635,23 @@ e = sqrt( (x′-x)^2 + (y′-y)^2)
 ++++
 --
 
-and the <<uncertainty>> in the above example would be 3.90 km.
+and the uncertainty in the above example would be 3.90 km.
 
-This shows just one simple example. For details and formulae for calculating more complicated <<uncertainty,uncertainties>>, see http://manisnet.org/docs/GeorefGuide.html#combinations_of_uncertainties_distances[_Wieczorek (2001)_] and Wieczorek _et al._ (2004). Because of the complicated nature of these calculations, it is best to use the {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020) – see <<Using the Georeferencing Calculator>>.
+This shows just one simple example. For details and formulae for calculating more complicated uncertainties, see http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#combinations_of_uncertainties_distances[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Because of the complicated nature of these calculations, it is best to use the {gcm}[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] – see <<Using the Georeferencing Calculator>>.
 
 ==== Uncertainty Related to Offset Precision
 
-<<precision,Precision>> can be difficult to gauge from a <<locality>> description as it is seldom, if ever, explicitly recorded. Further, a database record may not reflect, or may reflect incorrectly, the <<precision>> inherent in the original measurements, especially if the <<locality>> description in the database has undergone normalization, reformatting, or secondary interpretation of the original <<locality>> description.
+<<precision,Precision>> can be difficult to gauge from a <<locality>> description as it is seldom, if ever, explicitly recorded. Further, a database record may not reflect, or may reflect incorrectly, the precision inherent in the original measurements, especially if the locality description in the database has undergone normalization, reformatting, or secondary interpretation of the original locality description.
 
-There are a number of ways of calculating <<uncertainty>> from distances. In this document, we have taken a conservative approach, which assumes that many records have undergone a certain amount of interpretation or transformation when being entered into the database. Thus, a record of "10¼ mi" may be entered into the database as 10.25 mi. The <<precision>> implied in the value 10.25 is thus a <<false precision>> and the real <<precision>> should not be assumed to be between 10.24 and 10.26 or between 10.2 and 10.3. The method of Wieczorek _et al._ (2004), adapted here, bases the estimate of uncertainty on the fractional part of the distance, calculated by dividing 1 by the fractional denominator. The <<uncertainty>> would just be half of the <<precision>>. For example, 10.5 mi N of Bakersfield could reasonably be expected to mean 10½ mi with a <<precision>> of half a mile between 10.25 and 10.75 mi, or 10.5 with an <<uncertainty>> of 0.25 mi.
+There are a number of ways of calculating uncertainty from distances. In this document, we have taken a conservative approach, which assumes that many records have undergone a certain amount of interpretation or transformation when being entered into the database. Thus, a record of "10¼ mi" may be entered into the database as 10.25 mi. The precision implied in the value 10.25 is thus a <<false precision>> and the real precision should not be assumed to be between 10.24 and 10.26 or between 10.2 and 10.3. The method of https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], adapted here, bases the estimate of uncertainty on the fractional part of the distance, calculated by dividing 1 by the fractional denominator. The uncertainty would just be half of the precision. For example, 10.5 mi N of Bakersfield could reasonably be expected to mean 10½ mi with a precision of half a mile between 10.25 and 10.75 mi, or 10.5 with an uncertainty of 0.25 mi.
 
-For distance measurements that are positive integer powers of 10, the <<precision>> should be ten to the next lower power This calculation differs from Wieczorek 2004, which recommended that the <<precision>> should be based on ten to the same power. Upon reconsideration, that seems excessive (see xref:table-uncertainty-from-offset-precision[xrefstyle="short"]). This same reasoning can be used for <<precision>> in verbatim <<elevation,elevations>> and <<depth,depths>>.
+For distance measurements that are positive integer powers of 10, the precision should be ten to the next lower power. This calculation differs from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004] which recommended that the precision should be based on ten to the same power. Upon reconsideration, that seems excessive (see xref:table-uncertainty-from-offset-precision[xrefstyle="short"]). This same reasoning can be used for precision in verbatim <<elevation,elevations>> and <<depth,depths>>.
 
 [#table-uncertainty-from-offset-precision]
-.Calculating <<uncertainty>> using the <<precision>> from a distance recording. Adapted from Wieczorek _et al._ (2004) and Frazier _et al._ (2004).
+.Calculating uncertainty using the <<precision>> from a distance recording. Adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^] and https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004)^].
 [%autowidth]
 |===
-h|Example h|Uncertainty (adapted from Wieczorek _et al._ 2004) h|Uncertainty (Frazier _et al._ 2004)
+h|Example h|Uncertainty (adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]) h|Uncertainty (https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004^])
 |10.1 km |0.05 km |0.1 km
 |10.25 mi |0.125 mi |0.01 mi
 |10.5 km |0.25 km |0.1 km
@@ -668,101 +668,101 @@ h|Example h|Uncertainty (adapted from Wieczorek _et al._ 2004) h|Uncertainty (Fr
 |2000 m |50 m |300 m
 |===
 
-<<precision,Precision>> can also be masked or lost when measurements are converted, such as from feet to meters, or from miles to kilometers.
+Precision can also be masked or lost when measurements are converted, such as from feet to meters, or from miles to kilometers.
 
 // TODO: Was CARE.
-CAUTION: Be careful that the value you are using for <<precision>> when calculating the <<uncertainty>> is a true <<precision>> and not a <<false precision>>. For example, converting a collector’s recording of 16 miles (with a <<precision>> of 1 mile) to 25.6 km (with a <<precision>> of 0.1 km) leads to an unwarranted level of <<precision>> that is more than 16 times higher than the original.
+CAUTION: Be careful that the value you are using for precision when calculating the uncertainty is a true precision and not a false precision. For example, converting a collector’s recording of 16 miles (with a precision of 1 mile) to 25.6 km (with a precision of 0.1 km) leads to an unwarranted level of precision that is more than 16 times higher than the original.
 
-xref:img-orthogonal-distances-from-feature[xrefstyle="short"] shows an example of two orthogonal distances measured from a <<feature>>, each with the <<uncertainty>> due to distance <<precision>>. If we ignore all sources of <<uncertainty>> except those arising from distance <<precision>>, the <<uncertainty>> is a <<bounding-box>> centered on the point 8 km E and 6 km N of the <<corrected center>> of the <<feature>>. Each of the distance measurements demonstrates a <<precision>> of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km <<uncertainty>> in each cardinal direction from the center). Since we are characterizing the <<precision>> as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned <<bounding-box>> to get the <<uncertainty>> due to the combined distance <<precision,precisions>>. The radius of this circle is half the length of the distance <<precision>> <<bounding-box>>, which is equal to one half the square root of two times the distance <<precision>>. So, for the above example the <<uncertainty>> associated with only the distance <<precision>> is one half the square root of two, or 0.707 km.
+xref:img-orthogonal-distances-from-feature[xrefstyle="short"] shows an example of two orthogonal distances measured from a <<feature>>, each with the uncertainty due to distance precision. If we ignore all sources of uncertainty except those arising from distance precision, the uncertainty is a bounding-box centered on the point 8 km E and 6 km N of the <<corrected center>> of the feature. Each of the distance measurements demonstrates a precision of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km uncertainty in each cardinal direction from the center). Since we are characterizing the precision as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned bounding-box to get the uncertainty due to the combined distance precisions. The radius of this circle is half the length of the distance precision bounding-box, which is equal to one half the square root of two times the distance precision. So, for the above example the uncertainty associated with only the distance precision is one half the square root of two, or 0.707 km.
 
 [#img-orthogonal-distances-from-feature]
-.Example of a <<locality>> ⓑ as <<offset,offsets>> (*x*, and *y*) in orthogonal directions (from the <<corrected-center>> ⓐ of a <<feature>> (_i.e._, stock watering point). The <<coordinates>> ⓑ (8 km E and 6 km N of ⓐ) are surrounded by a <<bounding-box>> 1 km square ⓒ showing the <<uncertainty>> due to distance <<precision>> of 1 km. The net <<uncertainty>> from distance <<precision>> is represented by a circle ⓓ that circumscribes the <<bounding-box>> and which has a <<radial>> of 0.707 km. By convention the <<heading,headings>> for localities with offsets in orthogonal directions are exactly in the specified directions and contribute no <<uncertainty>> due to <<direction>> <<precision>>.
+.Example of a locality ⓑ as offsets (*x*, and *y*) in orthogonal directions (from the corrected-center ⓐ of a feature (i.e. stock watering point). The coordinates ⓑ (8 km E and 6 km N of ⓐ) are surrounded by a bounding-box 1 km square ⓒ showing the uncertainty due to distance precision of 1 km. The net uncertainty from distance precision is represented by a circle ⓓ that circumscribes the bounding-box and which has a radial of 0.707 km. By convention the headings for localities with offsets in orthogonal directions are exactly in the specified directions and contribute no uncertainty due to direction precision.
 image::img/orthogonal-distances-from-feature.png[width=475,align="center"]
 
 ==== Combined Uncertainties
 
-When combining <<uncertainty,uncertainties>> from different sources, it is not as simple as taking the average or adding them together. <<uncertainty,Uncertainties>> inherent in the <<location>> of the <<feature>>, in its <<extent>>, in the direction of the <<offset>>, and the distance of the <<offset>>, are just four sources that need to be combined to get an overall <<uncertainty>>. A detailed discussion of the calculations involved can be found in http://manisnet.org/docs/GeorefGuide.html#combinations_of_uncertainties_directions[_Wieczorek (2001)_] and Wieczorek _et al._ (2004). For a practical way of calculating <<uncertainty,uncertainties>> in <<locality>> descriptions, we recommend the {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020). To understand how each source of <<uncertainty>> contributes to the net overall <<uncertainty>>, see {gcm}#understanding-uncertainty-contributions[Understanding Uncertainty Contributions] in the *_Georeferencing Calculator Manual_* (Bloom _et al,_ 2020).
+When combining <<uncertainty,uncertainties>> from different sources, it is not as simple as taking the average or adding them together. Uncertainties inherent in the <<location>> of the <<feature>>, in its <<extent>>, in the direction of the <<offset>>, and the distance of the offset, are just four sources that need to be combined to get an overall uncertainty. A detailed discussion of the calculations involved can be found in http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. For a practical way of calculating uncertainties in <<locality>> descriptions, we recommend the {gcm}[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. To understand how each source of uncertainty contributes to the net overall uncertainty, see {gcm}#understanding-uncertainty-contributions[Understanding Uncertainty Contributions^] in the {gcm}[Georeferencing Calculator Manual (Bloom et al. 2020)^].
 
 ==== Using the Georeferencing Quick Reference Guide
 
-The {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020) is a practical guide for <<georeference,georeferencing>> giving step-by-step instructions on how to <<georeference>> a wide variety of <<locality type,locality types>> (see <<Georeferencing Workflow – Localities>>) following the best practices in this document and with specific reference on what to enter into the {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020).
+The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] is a practical guide for <<georeference,georeferencing>> giving step-by-step instructions on how to georeference a wide variety of <<locality type,locality types>> (see <<Georeferencing Workflow – Localities>>) following the best practices in this document and with specific reference on what to enter into the {gcm}[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^].
 
 ==== Using the Georeferencing Calculator
 
-The {gcm}[*_Georeferencing Calculator_*] (Wieczorek & Wieczorek 2020) (xref:img-georeferencing-calculator[xrefstyle="short"]), is a tool to aid in <<georeference,georeferencing>> descriptive <<locality,localities>> such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) Project and has since been adopted by many other <<georeference,georeferencing>> initiatives. The current version and its *_Georeferencing Calculator Manual_* (Bloom _et al._ 2020) have been extensively upgraded to include new features and to bring it in line with this document.
+The {gcm}[Georeferencing Calculator] (Wieczorek & Wieczorek 2020) (xref:img-georeferencing-calculator[xrefstyle="short"]), is a tool to aid in <<georeference,georeferencing>> descriptive <<locality,localities>> such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) Project and has since been adopted by many other georeferencing initiatives. The current version and its https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^] have been extensively upgraded to include new features and to bring it in line with this document.
 
-The application makes calculations adapted from the methods originally described in the *_Georeferencing Guidelines_* (Wieczorek 2001) and later formalized in a peer-reviewed publication (Wieczorek 2004). We recommend its use generally by all natural history institutions to calculate <<uncertainty>> in <<location>> data without the need for a detailed understanding of the complicated underlying algorithms. The more institutions that use this one method, the more consistent will be the <<data quality,quality>> of data across and between institutions, making it easier for users to evaluate the <<data quality,quality>> of the data. We recommend reading both of the above-mentioned publications and the *_Georeferencing Calculator Manual_* (Bloom _et al._ 2020) for an understanding of the calculations involved and an understanding of how the *_Calculator_* works.
+The application makes calculations adapted from the methods originally described in the http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Georeferencing Guidelines (Wieczorek 2001)^] and later formalized in a peer-reviewed publication https://doi.org/10.1080/13658810412331280211[(Wieczorek 2004)^]. We recommend its use generally by all natural history institutions to calculate <<uncertainty>> in <<location>> data without the need for a detailed understanding of the complicated underlying algorithms. The more institutions that use this one method, the more consistent will be the <<data quality,quality>> of data across and between institutions, making it easier for users to evaluate the quality of the data. We recommend reading both of the above-mentioned publications and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^] for an understanding of the calculations involved and an understanding of how the Calculator works.
 
-The *_Calculator_* can work http://georeferencing.org/georefcalculator/gc.html[online] or locally in a browser (latest release available on https://github.com/VertNet/georefcalculator/releases:[GitHub]). The source code is freely and openly available on https://github.com/VertNet/georefcalculator[GitHub].
+The Calculator can work http://georeferencing.org/georefcalculator/gc.html[online] or locally in a browser (latest release available on https://github.com/VertNet/georefcalculator/releases:[GitHub]). The source code is freely and openly available on https://github.com/VertNet/georefcalculator[GitHub].
 
 [#img-georeferencing-calculator]
-.A snapshot of the *_Georeferencing Calculator_* (Wieczorek & Wieczorek 2020) showing <<maximum-uncertainty-distance,maximum uncertainty>> calculation for the <<locality>>: ‘_10 mi E (by air) Bakersfield_’.
+.A snapshot of the Georeferencing Calculator ({gcm}[Wieczorek & Wieczorek 2020^]) showing maximum uncertainty calculation for the locality: ‘_10 mi E (by air) Bakersfield_’.
 image::img/georeferencing-calculator.png[width=540,align="center"]
 
 === Difficult Localities
 
-Some localities are difficult to <<georeference>>. For some the recommendation is to not even try. These are generally <<locality,localities>> without sufficient information, with conflicting or ambiguous information, or where the information is explicitly in question. Some <<locality,localities>> reference a <<feature>> that can't be found with easily available resources. For these it may be just a matter of applying enough effort, but if the project is on a budget that can not support lengthy investigations into difficult <<locality,localites>>, they may need to be left for another time. Difficult <<locality,localites>> are not uncommon. Don't despair. Some interesting ones have been http://georeferencing.org/manis/ClassicLocalities.html[documented by the MaNIS project].
+Some <<locality,localities>> are difficult to <<georeference>>. For some the recommendation is to not even try. These are generally localities without sufficient information, with conflicting or ambiguous information, or where the information is explicitly in question. Some localities reference a <<feature>> that can't be found with easily available resources. For these it may be just a matter of applying enough effort, but if the project is on a budget that can not support lengthy investigations into difficult localites, they may need to be left for another time. Difficult localites are not uncommon. Don't despair. Some interesting ones have been http://georeferencing.org/manis/ClassicLocalities.html[documented by the MaNIS project].
 
-Some {marine}marine <<locality,localites>> can also provide difficulties – for example "Off Mar del Plata". The trouble is, one doesn’t know how far "off" Mar del Plata the <<event>> took place. In terrestrial <<locality,localites>> one can generally make a decision that it is between the <<feature>> and the next <<feature>>, but in the marine environment, that may not be as easy. Does it mean "within sight of", 5km, 12km, the EEZ boundary, the continental shelf…? One does not reliably know the end point so it makes it difficult (if not impossible) to <<georeference>> <<accuracy,accurately>>. One good resource for finding marine <<locality,localites>>, <<boundary,boundaries>>, etc. is the website http://www.marineregions.org[_marineregions.org_] (VLIZ 2019).
+Some {marine}marine localites can also provide difficulties – for example "Off Mar del Plata". The trouble is, one doesn’t know how far "off" Mar del Plata the <<event>> took place. In terrestrial localites one can generally make a decision that it is between the feature and the next feature, but in the marine environment, that may not be as easy. Does it mean "within sight of", 5km, 12km, the EEZ boundary, the continental shelf…? One does not reliably know the end point so it makes it difficult (if not impossible) to georeference accurately. One good resource for finding marine localites, <<boundary,boundaries>>, etc. is the website http://www.marineregions.org[marineregions.org (VLIZ 2019)^].
 
 === Determining Spatial Fit
 
-<<spatial fit,Spatial fit>> is a <<georeference,georeferencing>> concept designed to measure how well a given geometric representation matches the original spatial representation. This is useful when spatial transformations change the way a <<locality>> is represented, either to mask its detail, or to match an agreed upon schema for data sharing (such as fitting <<location,locations>> to a <<grid>> cell).
+<<spatial fit,Spatial fit>> is a <<georeference,georeferencing>> concept designed to measure how well a given geometric representation matches the original spatial representation. This is useful when spatial transformations change the way a <<locality>> is represented, either to mask its detail, or to match an agreed upon schema for data sharing (such as fitting locations to a <<grid>> cell).
 
-A <<spatial fit>> with a value of "1" is an exact match or 100% overlap. If the <<geometry>> given does not completely encompass the original spatial representation, then the <<spatial fit>> is zero (_i.e._, some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed shape does completely encompass the original spatial representation, then the value of the <<spatial fit>> is the ratio of the area of the transformed <<geometry>> to the area of the original spatial representation. Special case: If the original spatial representation is a point and the <<geometry>> presented is not a point, then the <<spatial fit>> is undefined. The range of values of <<spatial fit>> is 0, 1, greater than 1, or undefined (see xref:img-spatial-fit[xrefstyle="short"] and xref:table-spatial-fit-a[xrefstyle="short"], xref:table-spatial-fit-2r2squared[xrefstyle="short"], xref:table-spatial-fit-pir1squared[xrefstyle="short"] and xref:table-spatial-fit-c[xrefstyle="short"]).
+A spatial fit with a value of "1" is an exact match or 100 per cent overlap. If the <<geometry>> given does not completely encompass the original spatial representation, then the <<spatial fit>> is zero (i.e. some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed <<shape>> does completely encompass the original spatial representation, then the value of the spatial fit is the ratio of the area of the transformed <<geometry>> to the area of the original spatial representation. Special case: If the original spatial representation is a point and the geometry presented is not a point, then the spatial fit is undefined. The range of values of spatial fit is 0, 1, greater than 1, or undefined (see xref:img-spatial-fit[xrefstyle="short"] and xref:table-spatial-fit-a[xrefstyle="short"], xref:table-spatial-fit-2r2squared[xrefstyle="short"], xref:table-spatial-fit-pir1squared[xrefstyle="short"] and xref:table-spatial-fit-c[xrefstyle="short"]).
 
-An example of the applicability of the <<spatial fit>> is where a point representing a terrestrial collection lies close to the coast, and the calculated <<uncertainty>> <<radial,radius>> encompasses some {marine}marine area. In this case the <<spatial fit>> would be greater than 1 as it represents an area greater than the real <<uncertainty>> (xref:img-spatial-fit-point-radius[xrefstyle="short"]). <<spatial fit,Spatial fit>> is also a valuable measure for describing the degree of <<generalization>> of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and Chapman (2020).
+An example of the applicability of the spatial fit is where a point representing a terrestrial collection lies close to the coast, and the calculated <<uncertainty>> <<radial,radius>> encompasses some {marine}marine area. In this case the spatial fit would be greater than 1 as it represents an area greater than the real uncertainty (xref:img-spatial-fit-point-radius[xrefstyle="short"]). Spatial fit is also a valuable measure for describing the degree of <<generalization>> of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^].
 
 [#img-spatial-fit]
-.A diagram illustrating the <<spatial-fit>> of a <<location>> that can be described by a polygon, a <<bounding-box>>, a circle, or a point. c: <<corrected-center>>, r1: <<radial>> of the circle encompassing the polygon, *r2*: <<radial>> of the circle encompassing the <<bounding-box>>. (Modified from Chapman & Wieczorek 2006).
+.A diagram illustrating the spatial-fit of a location that can be described by a polygon, a bounding-box, a circle, or a point. c: corrected-center, r1: radial of the circle encompassing the polygon, *r2*: radial of the circle encompassing the bounding-box. (Modified from https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^]).
 image::img/spatial-fit.png[width=429,align="center"]
 
-xref:img-spatial-fit[xrefstyle="short"] illustrates a few examples of the definition of <<spatial fit>> and these are elaborated in the Tables below:
+xref:img-spatial-fit[xrefstyle="short"] illustrates a few examples of the definition of spatial fit and these are elaborated in the Tables below:
 
 [#table-spatial-fit-a]
-.Calculations of <<spatial-fit>> where the original spatial representation of a <<locality>> given by the polygon in xref:img-spatial-fit[xrefstyle="short"], with area *A*.
+.Calculations of spatial-fit where the original spatial representation of a locality given by the polygon in xref:img-spatial-fit[xrefstyle="short"], with area *A*.
 |====
 |The <<spatial fit>> of the white circle (r₂) |stem:[(pi r_2^2)/A]
-|The <<spatial fit>> of the <<bounding-box>> |stem:[(2 r_2^2)/A]
+|The <<spatial fit>> of the bounding-box |stem:[(2 r_2^2)/A]
 |The <<spatial fit>> of the yellow circle (r₁) |stem:[(pi r_1^2)/A]
 |The <<spatial fit>> of the polygon |*1*
 |The <<spatial fit>> of the point C |*0*
 |====
 
 [#table-spatial-fit-2r2squared]
-.Calculations of <<spatial-fit>> where the original spatial representation of a <<locality>> was given as the <<bounding-box>> in xref:img-spatial-fit[xrefstyle="short"], with area stem:[2r_2^2].
+.Calculations of spatial-fit where the original spatial representation of a locality was given as the bounding-box in xref:img-spatial-fit[xrefstyle="short"], with area stem:[2r_2^2].
 |====
 |The <<spatial fit>> of the white circle (r₂) |stem:[(pi r_2^2)/(2r_2^2)]
-|The <<spatial fit>> of the <<bounding-box>> |*1*
+|The <<spatial fit>> of the bounding-box |*1*
 |The <<spatial fit>> of the yellow circle (r₁) |*0*
 |The <<spatial fit>> of the polygon |*0*
 |The <<spatial fit>> of the point C |*0*
 |====
 
 [#table-spatial-fit-pir1squared]
-.Calculations of <<spatial-fit>> where the spatial representation of a <<locality>> was given as the circle (stem:[r_1]) in xref:img-spatial-fit[xrefstyle="short"], with area stem:[pi r_1^2].
+.Calculations of spatial-fit where the spatial representation of a locality was given as the circle (stem:[r_1]) in xref:img-spatial-fit[xrefstyle="short"], with area stem:[pi r_1^2].
 [cols=",",]
 |====
 |The <<spatial fit>> of the white circle (r₂) |stem:[r_2^2/r_1^2]
-|The <<spatial fit>> of the <<bounding-box>> |*0*
+|The <<spatial fit>> of the bounding-box |*0*
 |The <<spatial fit>>t of the yellow circle (r~1~) |*1*
 |The <<spatial fit>> of the polygon |*0*
 |The <<spatial fit>> of the point C |*0*
 |====
 
 [#table-spatial-fit-c]
-.Calculations of <<spatial-fit>> where the original spatial representation of a <<locality>> was given as the point C (xref:img-spatial-fit[xrefstyle="short"]).
+.Calculations of spatial-fit where the original spatial representation of a locality was given as the point C (xref:img-spatial-fit[xrefstyle="short"]).
 [cols=",",]
 |====
 |The <<spatial fit>> of the white circle (r~2~) |*Undefined*
-|The <<spatial fit>> of the <<bounding-box>> |*Undefined*
+|The <<spatial fit>> of the bounding-box |*Undefined*
 |The <<spatial fit>> of the yellow circle (r~1~) |*Undefined*
 |The <<spatial fit>> of the polygon |*Undefined*
 |The <<spatial fit>> of the point C |*1*
 |====
 
-xref:img-spatial-fit-point-radius[xrefstyle="short"] shows an example of applying the <<spatial-fit>> concept of a <<point-radius>> <<georeferencing-method,method>> of describing <<uncertainty>> where it is restricted to a <<shape>> <<georeferencing method,method>> representation. For example, the <<location>> of a plant along the coast of north-east Madagascar – marked with the yellow *X* (xref:img-spatial-fit-point-radius[xrefstyle="short"]) – has an <<uncertainty>> <<radial,radius>> of approx 1.35 km, but we know the record is of a terrestrial plant species so we can calculate the true area of <<uncertainty>> by excluding the marine biome using the <<shape>> <<georeferencing method,method>>, thus the <<spatial fit>> is the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) giving a <<spatial fit>> of the <<uncertainty>> <<radial,radius>> of *1.39*.
+xref:img-spatial-fit-point-radius[xrefstyle="short"] shows an example of applying the spatial-fit concept of a <<point-radius>> <<georeferencing-method,method>> of describing uncertainty where it is restricted to a shape method representation. For example, the location of a plant along the coast of north-east Madagascar – marked with the yellow *X* (xref:img-spatial-fit-point-radius[xrefstyle="short"]) – has an uncertainty radius of approx 1.35 km, but we know the record is of a terrestrial plant species so we can calculate the true area of uncertainty by excluding the marine biome using the shape method, thus the spatial fit is the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) giving a spatial fit of the uncertainty radius of *1.39*.
 
 [#img-spatial-fit-point-radius]
-.Example of using <<spatial-fit>> on the results of both a <<point-radius>> <<georeferencing-method,method>> and a refined <<shape>> <<georeferencing-method,method>> of describing <<uncertainty>>. Assuming the blue-shaded area is the "true" <<locality>> as we know the species is terrestrial, and the red circle is the <<point-radius>> <<georeferencing-method,method>> of representing the <<uncertainty>>, the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) gives a <<spatial-fit>> for the <<point-radius>> of 1.39.
+.Example of using spatial-fit on the results of both a point-radius method and a refined shape method of describing uncertainty. Assuming the blue-shaded area is the "true" locality as we know the species is terrestrial, and the red circle is the point-radius method of representing the uncertainty, the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) gives a spatial-fit> for the point-radius of 1.39.
 image::img/spatial-fit-point-radius.jpg[width=320,align="center"]
