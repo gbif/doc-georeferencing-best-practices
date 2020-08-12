@@ -23,7 +23,7 @@
 - Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
 - Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889
 - [[[chrisman]]]Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems_ Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
-- [[[cullen]]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
+- [[cullen]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
 - Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details
 - Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/
 - Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/
@@ -76,7 +76,7 @@
 - IOGP (2019) About the EPSG Dataset. http://www.epsg.org/
 - ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html
 - ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html
-- [[[juran]]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
+- [[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
 - [[[juran-2ed]]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
 - [[[kaplan]]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
 - Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962
