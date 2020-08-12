@@ -3,7 +3,7 @@
 Data that have been incorporated into the database and <<georeference,georeferenced>> need to be maintained and checked for <<data quality,quality>>. The quality checking process involves a number of steps, including receiving feedback from users, providing feedback to collectors, and running various validation tests. For more information on data quality and what it means for primary species collection data, see https://doi.org/10.15468/doc-jrgg-a190[Chapman 2005b^]. Two major principles associated with data quality and data cleaning are:
 
 * <<error,Error>> prevention is preferable to error correction.
-* The earlier in the information chain that you can detect an <<error>>, the cheaper it will be to correct it.
+* The earlier in the information chain that you can detect an error, the cheaper it will be to correct it.
 
 === Feedback to Collectors
 
@@ -13,30 +13,32 @@ Improving the <<data quality,quality>> of the data may require giving feedback t
 * Encouraging consistent use of a standard <<coordinate format>> (e.g. encourage collectors to use <<decimal degrees>> wherever possible)
 * Recording <<locality,localities>> in a consistent and clear manner:
 ** Using the nearest small, persistent <<feature>> and orthogonal <<offset,offsets>>
-** Recording ‘by road’ or ‘by air’, being explicit about distance <<precision>>, and using specific bearings in degrees for <<offset,offsets>> at a <<heading>>
-* [[anchor-169]]Ensure that they document all their processes and methodologies for recording <<locality>> and <<locality>>-associated information such as <<elevation>>
-* [[anchor-170]]Encourage training in, and the adoption of, best practices such as laid out in this document
+** Recording ‘by road’ or ‘by air’, being explicit about distance <<precision>>, and using specific bearings in degrees for offsets at a <<heading>>
+* Ensure that they document all their processes and methodologies for recording locality and locality-associated information such as <<elevation>>
+* Encourage training in, and the adoption of, best practices such as laid out in this document
 
 === Accepting Feedback from Users
 
-Feedback from users can be one of the most valuable resources for improving the <<data quality,quality>> of one’s collections and observations. For this to work, however, the institution needs to set up a good feedback mechanism. There needs to be a process whereby all feedback related to <<data quality,quality>> are checked and the results documented (see https://doi.org/10.15468/doc-jrgg-a190[Chapman 2005a^] & https://www.gbif.org/document/80528[Chapman 2005b^]). Feedback may be from other institutions holding duplicates of specimens, from users who are carrying out analyses on large amounts of data and find records that are either wrongly <<georeference,georeferenced>>, or wrongly identified, or from users who are carrying out data quality checking on related records. All feedback is important, and should not be ignored. Checks carried out should also always be documented so that the same ‘<<error>>’ is not checked over and over again, for example, with term:dwc[dwc:georeferenceVerificationStatus]. Having a unique way to reference specimens can be important, and makes feedback much more efficient (see <<Persistent Identifiers (PIDs)>>).
+Feedback from users can be one of the most valuable resources for improving the <<data quality,quality>> of one’s collections and observations. For this to work, however, the institution needs to set up a good feedback mechanism. There needs to be a process whereby all feedback related to quality are checked and the results documented (see https://doi.org/10.15468/doc-jrgg-a190[Chapman 2005a^] & https://www.gbif.org/document/80528[Chapman 2005b^]). Feedback may be from other institutions holding duplicates of specimens, from users who are carrying out analyses on large amounts of data and find records that are either wrongly <<georeference,georeferenced>>, or wrongly identified, or from users who are carrying out data quality checking on related records. All feedback is important, and should not be ignored. Checks carried out should also always be documented so that the same ‘<<error>>’ is not checked over and over again, for example, with term:dwc[dwc:georeferenceVerificationStatus]. Having a unique way to reference specimens can be important, and makes feedback much more efficient (see <<Persistent Identifiers (PIDs)>>).
 
 === Data Checking and Cleaning
 
-An important but often overlooked aspect to any <<georeference,georeferencing>> project is the checking of the <<georeference,georeferenced>> data that goes into the database. This aspect is often ignored because of lack of funds or personnel. However, because the point of any <<georeference,georeferencing>> project is to produce <<geographic coordinates>> linking a specimen or observation to a place on a map or to environmental data, it is important that the <<coordinates>> chosen are truly the best ones for the <<location>>. Not only does it improve the <<data quality,quality>> of data, but it also identifies trends and habits in <<georeference,georeferencing>> that may need to be corrected.
+An important but often overlooked aspect to any <<georeference,georeferencing>> project is the checking of the georeferenced data that goes into the database. This aspect is often ignored because of lack of funds or personnel. However, because the point of any georeferencing project is to produce <<geographic coordinates>> linking a specimen or observation to a place on a map or to environmental data, it is important that the <<coordinates>> chosen are truly the best ones for the <<location>>. Not only does it improve the <<data quality,quality>> of data, but it also identifies trends and habits in georeferencing that may need to be corrected.
 
 ==== Data Entry
 
-One of the major sources of <<error>> in <<georeference,georeferencing>> is at the stage of data entry. <<error,Errors>> can be reduced by the establishment of good data entry procedures – use of pick lists, field constraints, etc. Many of these issues should also be addressed as part of the database design (see <<Project Follow-up Phase>>). Good database design can reduce many of the <<error,errors>> associated with data entry. However, once these are in place and working, then regular checks need to be carried out on the data entry operators and on the process of data entry.
+One of the major sources of <<error>> in <<georeference,georeferencing>> is at the stage of data entry. Errors can be reduced by the establishment of good data entry procedures – use of pick lists, field constraints, etc. Many of these issues should also be addressed as part of the database design (see <<Project Follow-up Phase>>). Good database design can reduce many of the errors associated with data entry. However, once these are in place and working, then regular checks need to be carried out on the data entry operators and on the process of data entry.
 
-One method developed for the MaPSTeDI project (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^]) is to first check the <<accuracy>> of the <<georeference,georeferencing>>. This process involves checking a certain number of each georeferencer's records. Based on various trials, it is recommended that the first 200 records that a new georeferencer completes be checked for <<accuracy>>. Not only is this initial checking beneficial to the accuracy of the data, but also it is essential to allow the georeferencer to improve and learn through feedback from making mistakes. We recommend the following protocol for checking data quality:
+One method developed for the MaPSTeDI project (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^]) is to first check the <<accuracy>> of the georeferencing. This process involves checking a certain number of each georeferencer's records. Based on various trials, it is recommended that the first 200 records that a new georeferencer completes be checked for accuracy. Not only is this initial checking beneficial to the accuracy of the data, but also it is essential to allow the georeferencer to improve and learn through feedback from making mistakes. We recommend the following protocol for checking data quality:
 
 * Check the initial 200 records. If problems remain, check groups of 100 until satisfied with the georeferencer's abilities.
 * Regularly check 10 randomly selected records out of every 100.
 * If there are more than two incorrect records, the quality checker should check 20 more records and can ask the georeferencer to redo the entire 100.
 * After a while, the regular checks can be reduced to five records out of every 100.
 
-The second purpose of <<data quality,quality>> checking is to allow <<georeference,georeferencers>> to refer difficult or confusing records to the quality checker for help or advice. The quality checker will then resolve these ‘problem records’ as well as possible. Checking problem records can be like detective work. Historical records often have <<locality>> descriptions with <<feature,features>> that do not appear on modern maps or in <<gazetteer,gazetteers>>. To find these localities, it is often necessary to consult several different sources of information. These sources include, but are not limited to catalog books, field notes, other records with similar localities, other collections, scientific and other publications, websites, online databases, specialty gazetteers, and historical maps. Bits of information from several places can often be used to establish the correct <<coordinates>> for a historical locality. In addition, some problem records do not make sense because of contradictions or missing or garbled information. These problem records may be the result of mistakes in data entry made in either the paper catalog or the database. It may also be necessary to consult the curatorial staff or even the original collector. If georeferencing information is able to be found for difficult locations, then it is worthwhile documenting them for future use, or even publishing the results of your searches, as seldom are unusual localities orphans and you, or others, may come across the same locality again at a later date.
+The second purpose of <<data quality,quality>> checking is to allow georeferencers to refer difficult or confusing records to the quality checker for help or advice. The quality checker will then resolve these ‘problem records’ as well as possible. Checking problem records can be like detective work. Historical records often have <<locality>> descriptions with <<feature,features>> that do not appear on modern maps or in <<gazetteer,gazetteers>>. To find these localities, it is often necessary to consult several different sources of information. These sources include, but are not limited to catalog books, field notes, other records with similar localities, other collections, scientific and other publications, websites, online databases, specialty gazetteers, and historical maps. Bits of information from several places can often be used to establish the correct <<coordinates>> for a historical locality. 
+
+In addition, some problem records do not make sense because of contradictions or missing or garbled information. These problem records may be the result of mistakes in data entry made in either the paper catalog or the database. It may also be necessary to consult the curatorial staff or even the original collector. If georeferencing information is able to be found for difficult locations, then it is worthwhile documenting them for future use, or even publishing the results of your searches, as seldom are unusual localities orphans and you, or others, may come across the same locality again at a later date.
 
 ==== Data Validation
 
@@ -62,7 +64,7 @@ When making corrections to your database, we strongly recommend that you always 
 
 === Responsibilities of the Manager
 
-It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date <<data quality>> procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[*_Principles of Data Quality_*] (Chapman 2005a), which should be read as an adjunct to this document.
+It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date <<data quality>> procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality^ (Chapman 2005a)], which should be read as an adjunct to this document.
 
 === Responsibilities of the Supervisor
 
@@ -72,7 +74,7 @@ The <<georeference,georeferencing>> supervisor has the principle responsibility 
 
 Training is a major responsibility of anyone beginning or conducting the <<georeference,georeferencing>>. Good training can reduce the level of <<error>>, reduce costs, and improve <<data quality>>.
 
-Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from Paul (2018):
+Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf[Paul 2018^]:
 
 * Introduction to <<georeferencing>>
 * Developing a georeferencing project
@@ -86,7 +88,7 @@ Topics of a five day course may include (depending on the audience, and not in t
 * Using physical maps
 * Using Google Earth and Google Maps
 * Recording <<uncertainty>> using the <<point-radius>> <<georeferencing method,method>>
-* Using the <<shape>> <<georeferencing method,method>> of georeferencing <<uncertainty>>
+* Using the <<shape>> method of georeferencing uncertainty
 * Using online tools
 * Finding Internet resources
 * From collaboration to automation
@@ -98,9 +100,9 @@ Topics of a five day course may include (depending on the audience, and not in t
 
 === Performance Criteria
 
-The development of performance criteria is a good way of ensuring a high level of effectiveness, efficiency, consistency, <<accuracy>>, reliability, transparency, and <<data quality,quality>> in the database. Performance criteria can relate to an individual (data entry operator, supervisor, etc.) or to the process as a whole. It can relate to the number of records entered per unit time, but we would recommend that it should relate more to the <<data quality,quality>> of entry — some <<locality type,locality types>> and some geographic regions are simply more difficult than others. Where possible, performance criteria should be finite and numeric so that performance against the criteria can be documented. Some examples may include
+The development of performance criteria is a good way of ensuring a high level of effectiveness, efficiency, consistency, <<accuracy>>, reliability, transparency, and <<data quality,quality>> in the database. Performance criteria can relate to an individual (data entry operator, supervisor, etc.) or to the process as a whole. It can relate to the number of records entered per unit time, but we would recommend that it should relate more to the quality of entry — some <<locality type,locality types>> and some geographic regions are simply more difficult than others. Where possible, performance criteria should be finite and numeric so that performance against the criteria can be documented. Some examples may include:
 
-* 90% of records will undergo validation checks within 6 months of entry.
+* 90 per cent of records will undergo validation checks within 6 months of entry.
 * Any suspect records identified during the validation procedures will be checked and corrected within 30 working days.
 * Feedback from users on <<error,errors>> will be checked and the user notified of the results within two weeks.
 * All documentation of validation checks will be completed and up-to-date.
@@ -108,15 +110,15 @@ The development of performance criteria is a good way of ensuring a high level o
 
 === Index of Spatial Uncertainty
 
-An Index of Spatial Uncertainty may be developed and documented for the dataset as a whole to allow for overall reporting of the <<data quality,quality>> of the dataset. This index would supplement a similar index of other data in the database, such as an index of Taxonomic Uncertainty and would generally be for internal use, but may be shared as part of an institution's metadata. Currently, no such universal index exists for primary species occurrence data, but institutions may consider developing their own and testing its usefulness. Such indexes should, wherever possible, be generated automatically and produced as part of a data request from the database and packaged with the metadata as part of the request. Such an index could form the basis for helping users determine the <<data quality,quality>> of the database for their particular use. The authors of this document would be interested in any feedback from institutions that develop such an index. The index should form an integral part of the metadata for the dataset and may include the following for the <<georeference,georeferencing>> part of the database:
+An Index of Spatial Uncertainty may be developed and documented for the dataset as a whole to allow for overall reporting of the <<data quality,quality>> of the dataset. This index would supplement a similar index of other data in the database, such as an index of Taxonomic Uncertainty and would generally be for internal use, but may be shared as part of an institution's metadata. Currently, no such universal index exists for primary species occurrence data, but institutions may consider developing their own and testing its usefulness. Such indexes should, wherever possible, be generated automatically and produced as part of a data request from the database and packaged with the metadata as part of the request. Such an index could form the basis for helping users determine the quality of the database for their particular use. The authors of this document would be interested in any feedback from institutions that develop such an index. The index should form an integral part of the metadata for the dataset and may include the following for the <<georeference,georeferencing>> part of the database:
 
 1. Completeness Index
 
-* Percentage of records with minimum recommended <<georeference>> fields that have valid values.
-* Percentage of records with an <<extent>> field that has a value.
-* Percentage of records with an <<uncertainty>> field that has a value.
-* Percentage of records with a <<coordinate precision>> field that has a value.
-* Percentage of records with <<datum>> fields that have a known <<datum>> or <<coordinate reference system>> value.
+* Percentage of records with minimum recommended georeference fields that have valid values
+* Percentage of records with an <<extent>> field that has a value
+* Percentage of records with an <<uncertainty>> field that has a value
+* Percentage of records with a <<coordinate precision>> field that has a value
+* Percentage of records with <<datum>> fields that have a known datum or <<coordinate reference system>> value
 
 2. Uncertainty Index
 
@@ -124,61 +126,61 @@ An Index of Spatial Uncertainty may be developed and documented for the dataset 
 * Percentage of records with a <<maximum uncertainty distance>> value in each class:
 +
 --
-a.   <100 m.
-b.  100-1,000 m.
-c.  1,000-2,000 m.
-d.  2,000-5,000 m.
-e.  5,000-10,000 m.
-f.  >10,000 m.
-g.  Not determined.
+a.   <100 m
+b.  100-1,000 m
+c.  1,000-2,000 m
+d.  2,000-5,000 m
+e.  5,000-10,000 m
+f.  >10,000 m
+g.  Not determined
 --
 
 3. Currency Index
 
-* Time since last data entry.
-* Time since last validation check.
+* Time since last data entry
+* Time since last validation check
 
 4. Validation Index
 
-* Percentage of records that have undergone validation test *x*.
+* Percentage of records that have undergone validation test *x*
 * Percentage of records that have undergone validation test *y*, etc.
-* Percentage of records identified as suspect using validation tests.
-* Percentage of suspect records found to be actual <<error,errors>>.
+* Percentage of records identified as suspect using validation tests
+* Percentage of suspect records found to be actual <<error,errors>>
 
-The tests arising from the TDWG Data Quality Interest Group include 4 Measure tests at the record level (Chapman _et al._ 2020):
+The tests arising from the TDWG Data Quality Interest Group include 4 Measure tests at the record level (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]):
 
-* Number of Validation tests where prerequisites were not met.
-* Number of Validation tests that were compliant.
-* Number of Validation tests that were not compliant.
-* Number of Amendments proposed.
+* Number of Validation tests where prerequisites were not met
+* Number of Validation tests that were compliant
+* Number of Validation tests that were not compliant
+* Number of Amendments proposed
 
 === Documentation
 
 Documentation is one of the key aspects of any <<georeference,georeferencing>> process. Documentation involves everything from record-level documentation such as:
 
-* How the <<georeference>> was determined.
-* What method was used to determine the <<radial>> and <<uncertainty>>.
-* What modifications were made (for example, if an operator edits a point on the screen and moves it from point ‘a’ to point ‘b’ it is best practice to document "why" the point was moved and not just record that <<location>> was moved from point ‘a’ to point ‘b’ by the operator).
-* Any validation checks that were carried out, by whom and when.
-* Flags that may indicate <<uncertainty>>, etc.
+* How the georeference was determined
+* What method was used to determine the <<radial>> and <<uncertainty>>
+* What modifications were made (for example, if an operator edits a point on the screen and moves it from point ‘a’ to point ‘b’ it is best practice to document "why" the point was moved and not just record that <<location>> was moved from point ‘a’ to point ‘b’ by the operator)
+* Any validation checks that were carried out, by whom and when
+* Flags that may indicate uncertainty, etc.
 
 Documentation also includes the metadata related to the collection as a whole, which may include:
 
-* The overall level of <<data quality>>.
-* The general checks carried out on the whole dataset.
-* The units of measurement and other standards adopted.
-* The guidelines followed.
-* The <<Index of Spatial Uncertainty>> (see earlier discussion, this section).
+* The overall level of <<data quality>>
+* The general checks carried out on the whole dataset
+* The units of measurement and other standards adopted
+* The guidelines followed
+* The <<Index of Spatial Uncertainty>> (see earlier discussion, this section)
 
 A second set of documentation relates to:
 
-* The institution’s ‘Best Practice’ document which we recommend should be derived from this document and tailored to the specific needs of the institution.
-* Training manuals.
-* Standard database documentation.
-* Guidelines and standards.
+* The institution’s ‘Best Practice’ document which we recommend should be derived from this document and tailored to the specific needs of the institution
+* Training manuals
+* Standard database documentation
+* Guidelines and standards
 
-We recommend that documentation be made an integral part of any <<georeference,georeferencing>> process.
+We recommend that documentation be made an integral part of any georeferencing process.
 
 ==== Truth in Labelling
 
-‘Truth in Labelling’ is an important consideration with respect to documenting data <<quality>>. This is especially so where data are being made available to a wider audience, for example, through the GBIF. We recommend that documentation of the data and their <<data quality,quality>> be upfront and honest. <<error,Error>> is an inescapable characteristic of any dataset, and it should be recognized as a fundamental attribute of those data. All databases have <<error,errors>>, and it is in no-one’s interest to hide those <<error,errors>> (Chrisman 1991). On the contrary, revealing data actually exposes them to editing, validation and correction through user feedback, while hiding information almost guarantees that it will remain dirty and of little long-term value.
+‘Truth in Labelling’ is an important consideration with respect to documenting data <<quality>>. This is especially so where data are being made available to a wider audience, for example, through GBIF. We recommend that documentation of the data and their <<data quality,quality>> be upfront and honest. <<error,Error>> is an inescapable characteristic of any dataset, and it should be recognized as a fundamental attribute of those data. All databases have errors, and it is in no one’s interest to hide those errors (<<chrisman,Chrisman 1991>>). On the contrary, revealing data actually exposes them to editing, validation and correction through user feedback, while hiding information almost guarantees that it will remain dirty and of little long-term value.
