@@ -68,7 +68,7 @@
 - Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381
 - Guralnick R & Constable H (2010) VertNet: Creating a Data Sharing Community. Bioscience 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2
 - Hardy P & Field K (2012) Portrayal and Cartography. In Kresse W, Danko D, eds., Springer Handbook of Geographic Information. Berlin: Springer. https://doi.org/10.1007/978-3-540-72680-7_11
-- Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria.
+- [[[helbich]]]Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria.
 - Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/
 - HISCOM (Herbarium Information Systems Committee) (2000) HISPID — Herbarium Information Standards and Protocols for Interchange of Data. Version 4. Council of Heads of Australian Herbaria. http://hiscom.rbg.vic.gov.au/wiki/HISPID_4
 - Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
