@@ -22,8 +22,8 @@
 - Chapman AD, Muñoz MES & Koch I (2005) Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. Biodiversity Informatics 2: 24-41. https://doi.org/10.17161/bi.v2i0.5
 - Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
 - Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889
-- Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems_ Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
-- Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
+- [[[chrisman]]]Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems_ Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
+- [[[cullen]]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
 - Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details
 - Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/
 - Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/
@@ -48,7 +48,7 @@
 - Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf
 - GEOLocate (2018) Collaborative Georeferencing. http://www.geo-locate.org/community/default.html
 - Geomatic Solutions (2018) Georepository. Version 9.0.0.0062. https://georepository.com/
-- Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia.
+- [[[geosci-au-2005]]]Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia.
 - Geoscience Australia (2007) Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products. Version 5.0. http://www.ga.gov.au/mapspecs/topographic/v5/index.html
 - Geoscience Australia (2018) Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644
 - Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia
@@ -147,7 +147,7 @@
 - [[[van-sickle]]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
 - Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88
 - [[[vincenty-1976]]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
-- VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research.
+- VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research. https://marineregions.org/
 - Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756
 - Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm
 - Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620
