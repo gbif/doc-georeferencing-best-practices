@@ -1,7 +1,7 @@
 [glossary]
 == Glossary
 
-The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the {gcm}[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November, 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
+The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide] (Zermoglio et al. 2020) and the {gcm}[Georeferencing Calculator] (Wieczorek & Wieczorek 2020). These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
 
 [glossary]
 [[accuracy]]accuracy:: the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
