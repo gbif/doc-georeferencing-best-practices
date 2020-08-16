@@ -127,7 +127,7 @@
 - Richards K (2010) TDWG GUID applicability statement. Version 2010‐09. http://www.tdwg.org/standards/150
 - Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to persistent identifiers. Version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/mjgq-d052
 - Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/
-- Roeck E Jr (1961) Measuring compactness as a requirement of legislative apportionment. Midwest J. PoL Sci. 5: 70-71. https://www.jstor.org/stable/2109043?seq=1
+- Reock EC Jr (1961) Measuring compactness as a requirement of legislative apportionment. Midwest J. Pol. Sci. 5: 70-74. https://www.jstor.org/stable/2109043?seq=1
 - Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118
 - SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf
 - Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7
@@ -166,7 +166,7 @@
 - WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php
 - Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method
 - Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf
-- Young H (1988) Measuring the compactness of legislative districts. Legislative Studies Quarterly 13(1): 105-115. https://www.jstor.org/stable/439947?seq=1
+- Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://www.jstor.org/stable/439947?seq=1
 - Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128
 - Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152
 - Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature
