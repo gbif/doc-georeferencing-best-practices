@@ -17,7 +17,7 @@ This version is a complete revision with many new and updated references. The ma
 * Expanded the explanations to include ecological, marine and other data collected in <<transect,transects>>, along irregular <<path,paths>>, in polygons, or on <<grid,grids>>.
 * Added information on determining georeferences for subterranean locations such as caves, tunnels and mine sites.
 * Added information on <<bathymetry>> and underwater <<depth,depths>>.
-* Integrated this document with the companion documents {gqg}[Georeferencing Quick Reference Guide] (Zermoglio et al. 2020) and {gcm}[Georeferencing Calculator Manual] (Bloom et al. 2020).
+* Integrated this document with the companion documents {gqg}[Georeferencing Quick Reference Guide^] (Zermoglio et al. 2020) and {gcm}[Georeferencing Calculator Manual^] (Bloom et al. 2020).
 
 === Objectives
 
@@ -42,7 +42,7 @@ This document aims to provide current best practice for using the <<point-radius
 
 This work is designed for those who need, or want to know **why** the best practices are what they are, in detail. This document is also for individuals or organizations faced with planning a <<georeference,georeferencing>> project by providing a series of questions that suggests particular subsets of the best practices to follow.
 
-For those who just need to know how to put these practices into action while georeferencing, the {gqg}[Georeferencing Quick Reference Guide] is the most suitable document to have at hand. The Quick Reference Guide refers to details in this document as needed and accompanies the {gcm}[Georeferencing Calculator], which is a tool to calculate <<coordinates>> and <<uncertainty>> following the methods described in this document.
+For those who just need to know how to put these practices into action while georeferencing, the {gqg}[Georeferencing Quick Reference Guide^] is the most suitable document to have at hand. The Quick Reference Guide refers to details in this document as needed and accompanies the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^], which is a tool to calculate <<coordinates>> and <<uncertainty>> following the methods described in this document.
 
 Above all, this document will help data end users to understand the implications of trying to use records that have not undergone georeferencing best practices and the value of those that have.
 
@@ -54,7 +54,7 @@ These documents DO NOT provide guidance on georectifying images or <<geocode,geo
 
 The accompanying {gqg}[Georeferencing Quick Reference Guide] provides a practical how-to guide for putting the theory of the <<shape>>, <<bounding-box>>, and <<point-radius>> <<georeferencing method,georeferencing methods>> into practice. The Quick Guide relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>).
 
-The {gcm}[Georeferencing Calculator] is a browser-based javascript application that aids in <<georeference,georeferencing>> descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for <<location,locations>> (see <<Using the Georeferencing Calculator>>).
+The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based javascript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>).
 
 === Constraints
 
@@ -119,16 +119,16 @@ Whereas <<error>> is an estimate of the difference between a measured value and 
 Like error, <<uncertainty>> is a measure of how different an unknown true value might be from a value given. In <<georeference,georeferencing>>, we use uncertainty to refer to the maximum distance from a center <<coordinates,coordinate>> of a georeference to the furthest point where the true <<location>> might be–a combination of all the possible sources of error given as a distance.
 
 [#img-xkcd-coordinate-precision]
-.What the number of digits in coordinates would imply if precision was misconstrued to imply geographic-extent. From https://xkcd.com/2170/[xkcd].
+.What the number of digits in coordinates would imply if precision was misconstrued to imply geographic-extent. From https://xkcd.com/2170/[xkcd^].
 image::img/xkcd-coordinate-precision.png[width=50%,align="center"]
 
 === Software and Online Tools
 
-Software and tools come and go and are regularly updated, so rather than include a list in this document, we refer readers to http://georeferencing.org/[georeferencing.org].
+Software and tools come and go and are regularly updated, so rather than include a list in this document, we refer readers to http://georeferencing.org/[georeferencing.org^].
 
 === Conformance to Standards
 
-Throughout this document, we have, where possible, recommended practices that conform to appropriate geographic information standards and standards for the transfer of biological and geographic information. These include standards developed by the http://www.opengeospatial.org/specs/?page=recommendation[Open Geospatial Consortium^] (OGC 2019), the Technical Committee for digital geographic information and geomatics (ISO/TC 2011), and https://www.tdwg.org/[Biodiversity Information Standards (TDWG)^]. Also, this document supports the FAIR principles of data management in recommending that well-georeferenced data are Findable, Accessible, Interoperable, and Reusable.
+Throughout this document, we have, where possible, recommended practices that conform to appropriate geographic information standards and standards for the transfer of biological and geographic information. These include standards developed by the http://www.opengeospatial.org/specs/?page=recommendation[Open Geospatial Consortium^] (OGC 2019), the Technical Committee for digital geographic information and geomatics (https://www.iso.org/committee/54904.html[ISO/TC 211^]), and https://www.tdwg.org/[Biodiversity Information Standards (TDWG)^]. Also, this document supports the FAIR principles of data management in recommending that well-georeferenced data are Findable, Accessible, Interoperable, and Reusable.
 
 === Persistent Identifiers (PIDs)
 
