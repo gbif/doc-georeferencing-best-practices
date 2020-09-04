@@ -22,7 +22,7 @@ term:dwc[dwc:locality]:: intended to contain a version (perhaps modified from th
 
 term:dwc[dwc:verbatimLocality]:: meant to contain all of the unmodified original <<location>> information
 
-term:dwc[dwc:verbatimCoordinates^]:: the original <<coordinates>> in the original format, especially if they are not <<latitude>> and <<longitude>>, such as <<UTM>> coordinates
+term:dwc[dwc:verbatimCoordinates]:: the original <<coordinates>> in the original format, especially if they are not <<latitude>> and <<longitude>>, such as <<UTM>> coordinates
 
 term:dwc[dwc:verbatimLatitude], term:dwc[dwc:verbatimLongitude]:: the original <<latitude>> and <<longitude>> in the original format
 
