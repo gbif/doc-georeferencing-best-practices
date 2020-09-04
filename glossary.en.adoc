@@ -1,12 +1,12 @@
 [glossary]
 == Glossary
 
-The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide] (Zermoglio et al. 2020) and the {gcm}[Georeferencing Calculator] (Wieczorek & Wieczorek 2020). These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
+The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the {http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
 
 [glossary]
 [[accuracy]]accuracy:: the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 +
-NOTE: "the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (Geodetic Survey Division 1996, https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
+NOTE: "the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
 
 [[altitude]]altitude:: a measurement of the vertical distance above a <<vertical datum>>, usually <<mean sea level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>.
 
@@ -16,7 +16,7 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 1. the measure of <<depth>> of water in oceans, seas and lakes.
 2. the shapes of underwater terrains, including underwater topography and sea floor mapping.
 
-[[bias]]bias:: the difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, error, <<precision>>, <<false precision>> and <<uncertainty>>.
+[[bias]]bias:: the difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 
 [[boundary]]boundary:: the spatial divide between what is inside a <<location>> and what is outside of it.
 
@@ -40,9 +40,9 @@ clause:: _see_ <<locality clause>>.
 
 [[corrected-center]]corrected center:: the point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see xref:img-polygon-center[xrefstyle="short"]).
 
-[[Darwin-Core]]Darwin Core:: is a standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core]).
+[[Darwin-Core]]Darwin Core:: is a standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^]).
 
-[[data-quality]]data quality:: ‘fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc-jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
+[[data-quality]]data quality:: ‘fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
 
 [[datum]]datum:: a set of one or more parameters that serve as a reference or basis for the calculation of other parameters [ISO 19111]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a *datum* may be a <<geodetic datum>> or a <<vertical datum>>.
 
@@ -115,7 +115,7 @@ declination:: _see_ <<magnetic declination>>.
 
 [[geographic-information-system,geographic information system]]geographic information system (GIS):: is a set of computer-based tools designed to capture, store, manipulate, analyze, map, manage, and present all types of geographical data and information in the form of maps.
 
-[[geographic-radial]]geographic radial:: the distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term *geographic radial,* as defined here, replaces its equivalent "extent" used in the early versions of these Best Practices and related documents, including the {gqg}[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the {gcm}[Georeferencing Calculator] (Wieczorek & Wieczorek 2018)^] and its https://doi.org/10.35035/gdwq-3v93[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^].
+[[geographic-radial]]geographic radial:: the distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term *geographic radial,* as defined here, replaces its equivalent "extent" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^].
 
 [[geoid]]geoid:: a global equipotential surface that approximates <<mean sea level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^]).
 
@@ -129,7 +129,7 @@ declination:: _see_ <<magnetic declination>>.
 
 GIS:: _see_ <<geographic-information-system>>.
 
-[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID):: Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<PID,Persistent Identifier, PID>>.
+[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID):: Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<Persistent Identifier, PID>>.
 
 [[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems.
 
@@ -159,9 +159,9 @@ GUID:: _see_ <<GUID,Globally Unique Identifier>>.
 
 [[longitude]]longitude:: the angular distance of a point east or west of a <<prime meridian>> at a given <<latitude>>.
 
-[[magnetic-declination]]magnetic declination:: magnetic declination is the angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes] over time.
+[[magnetic-declination]]magnetic declination:: magnetic declination is the angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time.
 
-[[maximum-uncertainty-distance]]maximum uncertainty distance:: the radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeters].
+[[maximum-uncertainty-distance]]maximum uncertainty distance:: the radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeter].
 
 [[mean-sea-level]]mean sea level:: (MSL) a <<vertical datum>> from which heights such as <<elevation>> are usually measured. *Mean sea levels* were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, *mean sea level* is best described by a <<geoid>>.
 
@@ -204,7 +204,7 @@ Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precisi
 
 [[shape]]shape:: synonym of <<footprint>>. A representation of the <<geographic component>> of a **location** as a <<geometry>>. The result of a <<georeferencing method,shape georeferencing method>> includes a shape as the geographic component of the <<georeference>>, which contains the set of all possible <<geographic coordinates>> where a <<location>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within the geometry given. The *shape* method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
 
-[[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>.
+[[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>.
 
 [[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See xref:img-spatial-fit[xrefstyle="short"]).
 
