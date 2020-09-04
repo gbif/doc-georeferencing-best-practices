@@ -1,7 +1,7 @@
 = Georeferencing Best Practices [Community review draft]
 :authorcount: 2
-:author_1: A.D. Chapman
-:author_2: J.R Wieczorek
+:author_1: Arthur D. Chapman
+:author_2: John R. Wieczorek
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
 :title-logo-image: img/web/photo.jpg
