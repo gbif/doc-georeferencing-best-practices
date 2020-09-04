@@ -1,6 +1,6 @@
 == Maintaining Data Quality
 
-Data that have been incorporated into the database and <<georeference,georeferenced>> need to be maintained and checked for <<data quality,quality>>. The quality checking process involves a number of steps, including receiving feedback from users, providing feedback to collectors, and running various validation tests. For more information on data quality and what it means for primary species collection data, see https://doi.org/10.15468/doc-jrgg-a190[Chapman 2005b^]. Two major principles associated with data quality and data cleaning are:
+Data that have been incorporated into the database and <<georeference,georeferenced>> need to be maintained and checked for <<data quality,quality>>. The quality checking process involves a number of steps, including receiving feedback from users, providing feedback to collectors, and running various validation tests. For more information on data quality and what it means for primary species collection data, see http://www.gbif.org/document/80545/[Chapman 2005b^]. Two major principles associated with data quality and data cleaning are:
 
 * <<error,Error>> prevention is preferable to error correction.
 * The earlier in the information chain that you can detect an error, the cheaper it will be to correct it.
@@ -42,7 +42,7 @@ In addition, some problem records do not make sense because of contradictions or
 
 ==== Data Validation
 
-Data validation (checking for <<error,errors>>) can be a time-consuming process; however, it is one of the most important processes you can carry out with your data. It is not practical to check every record individually, so the use of batch processing techniques and outlier detection procedures, etc., is essential. Fortunately, a number of these have been developed and are available in software products or online (see http://georeferencing.org and https://www.gbif.org/document/80528[Chapman 2005b^]). The information in those resources are not repeated here. We recommend that you incorporate some of those methodologies into your own working practices.
+Data validation (checking for <<error,errors>>) can be a time-consuming process; however, it is one of the most important processes you can carry out with your data. It is not practical to check every record individually, so the use of batch processing techniques and outlier detection procedures, etc., is essential. Fortunately, a number of these have been developed and are available in software products or online (see http://georeferencing.org[http://georeferencing.org^] and https://www.gbif.org/document/80528[Chapman 2005b^]). The information in those resources are not repeated here. We recommend that you incorporate some of those methodologies into your own working practices.
 
 There are many methods of checking for errors in <<georeference, georeferenced>> data. These can involve:
 
@@ -54,9 +54,9 @@ There are many methods of checking for errors in <<georeference, georeferenced>>
 * Using taxon lists – for example, using a list of marine taxa to determine if a record should be marine or not, and similarly with terrestrial and freshwater aquatic taxa
 * Using modelling software in conjunction with statistical analysis to identify outliers in environmental (e.g. climate) space
 
-Some of these techniques are incorporated into a number of programmes including BioGeo (https://doi.org/10.1111/ecog.02118[Robertson et al. 2016^]), CoordinateCleaner (https://doi.org/10.1111/2041-210X.13152[Zizka et al. 2019^]) and the stand-alone <<geographic information system,GIS>> software DIVA-GIS (http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf[Hijmans et al. 2012^]). See also http://georeferencing.org.
+Some of these techniques are incorporated into a number of programmes including BioGeo (https://doi.org/10.1111/ecog.02118[Robertson et al. 2016^]), CoordinateCleaner (https://doi.org/10.1111/2041-210X.13152[Zizka et al. 2019^]) and the stand-alone <<geographic information system,GIS>> software DIVA-GIS (http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf[Hijmans et al. 2012^]). See also http://georeferencing.org[http://georeferencing.org^].
 
-The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the <<data quality,quality>> of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on <<Darwin Core>> terms will be coded and available for use in 2020 (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]). Currently (as of February 2020), there are 12 validation tests related to <<coordinates>> and <<datum,datums>> and another seven related to geography. In addition there are seven https://github.com/tdwg/bdq/labels/Test[amendment tests] that can be used to improve the quality of the data.
+The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the <<data quality,quality>> of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on <<Darwin Core>> terms will be coded and available for use in 2020 (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]). Currently (as of February 2020), there are 12 validation tests related to <<coordinates>> and <<datum,datums>> and another seven related to geography. In addition there are seven https://github.com/tdwg/bdq/labels/Test[amendment tests^] that can be used to improve the quality of the data.
 
 ==== Making Corrections
 
@@ -64,7 +64,7 @@ When making corrections to your database, we strongly recommend that you always 
 
 === Responsibilities of the Manager
 
-It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date <<data quality>> procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality^ (Chapman 2005a)], which should be read as an adjunct to this document.
+It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date <<data quality>> procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality (Chapman 2005a)^], which should be read as an adjunct to this document.
 
 === Responsibilities of the Supervisor
 
@@ -76,11 +76,11 @@ Training is a major responsibility of anyone beginning or conducting the <<geore
 
 Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf[Paul 2018^]:
 
-* Introduction to <<georeferencing>>
+* Introduction to georeferencing
 * Developing a georeferencing project
-* Georeferencing> best practices
-* Georeferencing Quick Reference Guide ({gqg}[Zermoglio et al. 2020])
-* Georeferencing Calculator ({gcm}[Wieczorek & Wieczorek 2020])
+* Georeferencing best practices
+* {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]
+* http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020^])
 * Geographic concepts
 * <<locality type,Locality types>>
 * Good and bad <<locality,localities>>
