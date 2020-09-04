@@ -6,59 +6,59 @@
 
 The <<Darwin Core>> (denoted with the abbreviated namespace [.term]#dwc#) <<georeference,georeferencing>> concepts that are directly used in this document are:
 
-term:dwc[dwc:decimalLatitude^], term:dwc[dwc:decimalLongitude^]:: the <<geographic coordinates>> of the center of the <<point-radius>> version of the <<georeference>>
+term:dwc[dwc:decimalLatitude], term:dwc[dwc:decimalLongitude]:: the <<geographic coordinates>> of the center of the <<point-radius>> version of the <<georeference>>
 
-term:dwc[dwc:geodeticDatum^]:: the <<EPSG>> code (preferably) or name of the <<coordinate reference system>>, <<geodetic datum>>, or <<ellipsoid>> of the <<point-radius>> version of the <<georeference>>
+term:dwc[dwc:geodeticDatum]:: the <<EPSG>> code (preferably) or name of the <<coordinate reference system>>, <<geodetic datum>>, or <<ellipsoid>> of the <<point-radius>> version of the <<georeference>>
 
-term:dwc[dwc:coordinateUncertaintyInMeters^]:: the <<radial>> of the <<point-radius>> version of the <<uncertainty>> of the <<georeference>>, in meters
+term:dwc[dwc:coordinateUncertaintyInMeters]:: the <<radial>> of the <<point-radius>> version of the <<uncertainty>> of the <<georeference>>, in meters
 
-term:dwc[dwc:coordinatePrecision^]:: the decimal representation of the <<precision>> of the output <<coordinates>> of the <<georeference>>
+term:dwc[dwc:coordinatePrecision]:: the decimal representation of the <<precision>> of the output <<coordinates>> of the <<georeference>>
 
-term:dwc[dwc:footprintWKT^]:: the representation of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])
+term:dwc[dwc:footprintWKT]:: the representation of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])
 
-term:dwc[dwc:footprintSRS^]:: the <<coordinate reference system>> of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])
+term:dwc[dwc:footprintSRS]:: the <<coordinate reference system>> of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])
 
-term:dwc[dwc:locality^]:: intended to contain a version (perhaps modified from the original) of the parts of the textual description of the <<location>> that do not have another <<Darwin Core>> term appropriate to hold them; in legacy data, may contain any textual information about the location
+term:dwc[dwc:locality]:: intended to contain a version (perhaps modified from the original) of the parts of the textual description of the <<location>> that do not have another <<Darwin Core>> term appropriate to hold them; in legacy data, may contain any textual information about the location
 
-term:dwc[dwc:verbatimLocality^]:: meant to contain all of the unmodified original <<location>> information
+term:dwc[dwc:verbatimLocality]:: meant to contain all of the unmodified original <<location>> information
 
 term:dwc[dwc:verbatimCoordinates^]:: the original <<coordinates>> in the original format, especially if they are not <<latitude>> and <<longitude>>, such as <<UTM>> coordinates
 
-term:dwc[dwc:verbatimLatitude^], term:dwc[dwc:verbatimLongitude^]:: the original <<latitude>> and <<longitude>> in the original format
+term:dwc[dwc:verbatimLatitude], term:dwc[dwc:verbatimLongitude]:: the original <<latitude>> and <<longitude>> in the original format
 
-term:dwc[dwc:verbatimCoordinateSystem^]:: the <<coordinate format>> of the <<coordinates>> that are either in term:dwc[dwc:verbatimCoordinates^] or in term:dwc[dwc:verbatimLatitude^] and term:dwc[dwc:verbatimLongitude^]
+term:dwc[dwc:verbatimCoordinateSystem]:: the <<coordinate format>> of the <<coordinates>> that are either in term:dwc[dwc:verbatimCoordinates] or in term:dwc[dwc:verbatimLatitude] and term:dwc[dwc:verbatimLongitude]
 
-term:dwc[dwc:verbatimSRS^]:: the <<coordinate reference system>> of either the term:dwc[dwc:verbatimCoordinates^] or the combination of term:dwc[dwc:verbatimLatitude^] and term:dwc[dwc:verbatimLongitude^]
+term:dwc[dwc:verbatimSRS]:: the <<coordinate reference system>> of either the term:dwc[dwc:verbatimCoordinates] or the combination of term:dwc[dwc:verbatimLatitude] and term:dwc[dwc:verbatimLongitude]
 
-term:dwc[dwc:minimumElevationInMeters^], term:dwc[dwc:maximumElevationInMeters^]:: the lower and upper limits of the <<elevation>> of the <<location>>, in meters
+term:dwc[dwc:minimumElevationInMeters], term:dwc[dwc:maximumElevationInMeters]:: the lower and upper limits of the <<elevation>> of the <<location>>, in meters
 
-term:dwc[dwc:verbatimElevation^]:: the original <<elevation>> in the original format with the original units
+term:dwc[dwc:verbatimElevation]:: the original <<elevation>> in the original format with the original units
 
-term:dwc[dwc:minimumDepthInMeters^], term:dwc[dwc:maximumDepthInMeters^]:: the minimum and maximum limits of the <<depth>> of the <<location>>, in meters
+term:dwc[dwc:minimumDepthInMeters], term:dwc[dwc:maximumDepthInMeters]:: the minimum and maximum limits of the <<depth>> of the <<location>>, in meters
 
-term:dwc[dwc:verbatimDepth^]:: the original <<depth>> in the original format with the original units
+term:dwc[dwc:verbatimDepth]:: the original <<depth>> in the original format with the original units
 
-term:dwc[dwc:minimumDistanceAboveSurfaceInMeters^], term:dwc[dwc:maximumDistanceAboveSurfaceInMeters^]:: the lower and upper limits of the position with respect to a local surface, either at an <<elevation>>, or at a <<depth>> from an <<elevation>>.
+term:dwc[dwc:minimumDistanceAboveSurfaceInMeters], term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]:: the lower and upper limits of the position with respect to a local surface, either at an <<elevation>>, or at a <<depth>> from an <<elevation>>.
 
-term:dwc[dwc:locationAccordingTo^]:: the source authority for the <<location>> information, not the <<georeference>> information, for which see term:dwc[dwc:georeferenceSources^]
+term:dwc[dwc:locationAccordingTo]:: the source authority for the <<location>> information, not the <<georeference>> information, for which see term:dwc[dwc:georeferenceSources]
 
-term:dwc[dwc:locationRemarks^]:: comments about the <<location>> information, not about the <<georeference>> for the location, for which see term:dwc[dwc:georeferenceRemarks^]
+term:dwc[dwc:locationRemarks]:: comments about the <<location>> information, not about the <<georeference>> for the location, for which see term:dwc[dwc:georeferenceRemarks]
 
-term:dwc[dwc:pointRadiusSpatialFit^]:: the <<spatial fit>> of the <<point-radius>> <<georeference>> (see <<Determining Spatial Fit>>)
+term:dwc[dwc:pointRadiusSpatialFit]:: the <<spatial fit>> of the <<point-radius>> <<georeference>> (see <<Determining Spatial Fit>>)
 
-term:dwc[dwc:footprintSpatialFit^]:: the <<spatial fit>> of the <<shape>> or <<bounding-box>> <<georeference>> (see <<Determining Spatial Fit>>)
+term:dwc[dwc:footprintSpatialFit]:: the <<spatial fit>> of the <<shape>> or <<bounding-box>> <<georeference>> (see <<Determining Spatial Fit>>)
 
-term:dwc[dwc:georeferencedBy^]:: who is responsible for the <<georeference>> as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it
+term:dwc[dwc:georeferencedBy]:: who is responsible for the <<georeference>> as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it
 
-term:dwc[dwc:georeferencedDate^]:: the date on which the data in the <<georeference>> fields reached their current state
+term:dwc[dwc:georeferencedDate]:: the date on which the data in the <<georeference>> fields reached their current state
 
-term:dwc[dwc:georeferenceProtocol^]:: a citation of a published set of rules used to determine a <<georeference>>. For example, “Georeferencing Quick Reference Guide Version 2019-11-08”. Any deviations from the cited protocol should be noted in term:dwc[dwc:georeferenceRemarks^]
+term:dwc[dwc:georeferenceProtocol]:: a citation of a published set of rules used to determine a <<georeference>>. For example, “Georeferencing Quick Reference Guide Version 2019-11-08”. Any deviations from the cited protocol should be noted in term:dwc[dwc:georeferenceRemarks]
 
-term:dwc[dwc:georeferenceSources^]:: a list of maps, <<gazetteer,gazetteers>>, or other resources used to <<georeference>> the <<locality>>. Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad; Terrametrics 2008, Google Earth™".
+term:dwc[dwc:georeferenceSources]:: a list of maps, <<gazetteer,gazetteers>>, or other resources used to <<georeference>> the <<locality>>. Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad; Terrametrics 2008, Google Earth™".
 
-term:dwc[dwc:georeferenceVerificationStatus^]:: an indicator of the extent to which the <<georeference>> has been verified to represent the best possible spatial description for the occurrence record. By default a newly created georeference should have the status "requires verification". Beyond that, there are really only two other functionally distinct possibilities, either "verified" (by the person mentioned in term:dwc[dwc:georeferencedBy^]), and "verified by collector" or equivalent, to designate that the georeference was reviewed for that specific record by the person who recorded it to begin with, and that it can not be further improved. This is the ideal status to aspire to.
+term:dwc[dwc:georeferenceVerificationStatus]:: an indicator of the extent to which the <<georeference>> has been verified to represent the best possible spatial description for the occurrence record. By default a newly created georeference should have the status "requires verification". Beyond that, there are really only two other functionally distinct possibilities, either "verified" (by the person mentioned in term:dwc[dwc:georeferencedBy]), and "verified by collector" or equivalent, to designate that the georeference was reviewed for that specific record by the person who recorded it to begin with, and that it can not be further improved. This is the ideal status to aspire to.
 
-term:dwc[dwc:georeferenceRemarks^]:: any notes or comments about the spatial description, deviations from the cited protocol, assumptions, or problems with <<georeference,georeferencing>>. For example, "locality too vague to georeference".
+term:dwc[dwc:georeferenceRemarks]:: any notes or comments about the spatial description, deviations from the cited protocol, assumptions, or problems with <<georeference,georeferencing>>. For example, "locality too vague to georeference".
 
 === Generalizing Georeferences for Sensitive Taxa and Locations
 
