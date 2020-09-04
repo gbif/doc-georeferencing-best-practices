@@ -14,9 +14,10 @@
 :numbered:
 :sectnumlevels: 3
 :pagenums:
-// Set <<these-links>> to use the name rather than "Section 1.2"
 :xrefstyle: basic
 :icons: font
+:xrefstyle: short
+:section-refsig: §
 // Content
 :stem:
 :marine: image:img/marine.svg[width=14px]
