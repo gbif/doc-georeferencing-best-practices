@@ -1,79 +1,79 @@
 [glossary]
 == Glossary
 
-The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the {http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
+The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
 
 [glossary]
-[[accuracy]]accuracy:: the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+[[accuracy]]accuracy:: The closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 +
-NOTE: "the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
+NOTE: "The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
 
-[[altitude]]altitude:: a measurement of the vertical distance above a <<vertical datum>>, usually <<mean sea level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>.
+[[altitude]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean sea level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>.
 
-[[antimeridian]]antimeridian:: is the <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its *antimeridian* form a continuous ring around the Earth. The "Antimeridian" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line.
+[[antimeridian]]antimeridian:: The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The "Antimeridian" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line.
 
 [[bathymetry]]bathymetry::
-1. the measure of <<depth>> of water in oceans, seas and lakes.
-2. the shapes of underwater terrains, including underwater topography and sea floor mapping.
+1. The measure of <<depth>> of water in oceans, seas and lakes.
+2. The shapes of underwater terrains, including underwater topography and sea floor mapping.
 
-[[bias]]bias:: the difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+[[bias]]bias:: The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 
-[[boundary]]boundary:: the spatial divide between what is inside a <<location>> and what is outside of it.
+[[boundary]]boundary:: The spatial divide between what is inside a <<location>> and what is outside of it.
 
-[[bounding-box]]bounding box:: an area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
+[[bounding-box]]bounding box:: An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
 
-clause:: _see_ <<locality clause>>.
+clause:: see <<locality clause>>.
 
-[[coordinate-format]]coordinate format:: the format in which <<coordinates>> are encoded, such as "<<decimal degrees>>", "<<DMS,degrees minutes seconds>>", "degrees decimal minutes", or <<UTM>>.
+[[coordinate-format]]coordinate format:: The format in which <<coordinates>> are encoded, such as "<<decimal degrees>>", "<<DMS,degrees minutes seconds>>", "degrees decimal minutes", or <<UTM>>.
 
-[[coordinate-precision]]coordinate precision:: the fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree.
+[[coordinate-precision]]coordinate precision:: The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree.
 
-[[coordinate-reference-system]]coordinate reference system:: (also <<spatial reference system>>) a <<coordinate system>> defined in relation to a standard reference or <<datum>>.
+[[coordinate-reference-system]]coordinate reference system:: (also <<spatial reference system>>) A <<coordinate system>> defined in relation to a standard reference or <<datum>>.
 
-[[coordinate-system]]coordinate system:: a geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system.
+[[coordinate-system]]coordinate system:: A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system.
 
-[[coordinate-uncertainty]]coordinate uncertainty:: a measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be.
+[[coordinate-uncertainty]]coordinate uncertainty:: A measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be.
 
-[[coordinates]]coordinates:: a set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations.
+[[coordinates]]coordinates:: A set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations.
 
-[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: the <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters.
+[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters.
 
-[[corrected-center]]corrected center:: the point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see xref:img-polygon-center[xrefstyle="short"]).
+[[corrected-center]]corrected center:: The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see xref:img-polygon-center[xrefstyle="short"]).
 
-[[Darwin-Core]]Darwin Core:: is a standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^]).
+[[Darwin-Core]]Darwin Core:: A standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^]).
 
-[[data-quality]]data quality:: ‘fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
+[[data-quality]]data quality:: ‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
 
-[[datum]]datum:: a set of one or more parameters that serve as a reference or basis for the calculation of other parameters [ISO 19111]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a *datum* may be a <<geodetic datum>> or a <<vertical datum>>.
+[[datum]]datum:: A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a *datum* may be a <<geodetic datum>> or a <<vertical datum>>.
 
-[[decimal-degrees]]decimal degrees:: degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>.
+[[decimal-degrees]]decimal degrees:: Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>.
 
-[[decimal-latitude]]decimal latitude:: <<latitude>> expressed in <<decimal degrees>>. The limits of *decimal latitude* are −90 to 90, inclusive.
+[[decimal-latitude]]decimal latitude:: <<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of *decimal latitude* are −90 to 90, inclusive.
 
-[[decimal-longitude]]decimal longitude:: <<longitude>> expressed in <<decimal degrees>>. The limits of *decimal longitude* are −180 to 180, inclusive.
+[[decimal-longitude]]decimal longitude:: <<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of *decimal longitude* are −180 to 180, inclusive.
 
-declination:: _see_ <<magnetic declination>>.
+declination:: see <<magnetic declination>>.
 
-[[DEM]]DEM:: _see_ <<digital elevation model>>.
+[[DEM]]DEM:: see <<digital elevation model>>.
 
-[[depth]]depth:: a measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. **Depth** is always a non-negative number.
+[[depth]]depth:: A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. **Depth** is always a non-negative number.
 
-[[digital-elevation-model,digital elevation model]]digital elevation model (DEM):: a digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean sea level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
+[[digital-elevation-model,digital elevation model]]digital elevation model (DEM):: A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean sea level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
 
 // TODO, link directly to heading?
-[[direction]]direction:: _see_ <<heading>>.
+[[direction]]direction:: see <<heading>>.
 
-[[distance-above-surface]]distance above surface:: in addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>.
+[[distance-above-surface]]distance above surface:: In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>.
 
-[[DMS]]DMS:: degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W).
+[[DMS]]DMS:: Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W).
 
-[[easting]]easting:: within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map.
+[[easting]]easting:: Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map.
 
-[[elevation]]elevation:: a measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean sea level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. **Elevations** that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>.
+[[elevation]]elevation:: A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean sea level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. **Elevations** that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>.
 
-[[ellipsoid]]ellipsoid:: a three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
+[[ellipsoid]]ellipsoid:: A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
 
-[[entry-point]]entry point:: {marine} the entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See xref:img-underwater-event[xrefstyle="short"].
+[[entry-point]]entry point:: {marine} The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See xref:img-underwater-event[xrefstyle="short"].
 
 [[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application.
 
