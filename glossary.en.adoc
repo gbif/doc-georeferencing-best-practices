@@ -44,19 +44,19 @@ clause:: see <<locality clause>>.
 
 [[data-quality]]data quality:: ‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
 
-[[datum]]datum:: A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a *datum* may be a <<geodetic datum>> or a <<vertical datum>>.
+[[datum]]datum:: A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>.
 
 [[decimal-degrees]]decimal degrees:: Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>.
 
-[[decimal-latitude]]decimal latitude:: <<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of *decimal latitude* are −90 to 90, inclusive.
+[[decimal-latitude]]decimal latitude:: <<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of decimal latitude are −90 to 90, inclusive.
 
-[[decimal-longitude]]decimal longitude:: <<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of *decimal longitude* are −180 to 180, inclusive.
+[[decimal-longitude]]decimal longitude:: <<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of decimal longitude are −180 to 180, inclusive.
 
 declination:: see <<magnetic declination>>.
 
 [[DEM]]DEM:: see <<digital elevation model>>.
 
-[[depth]]depth:: A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. **Depth** is always a non-negative number.
+[[depth]]depth:: A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number.
 
 [[digital-elevation-model,digital elevation model]]digital elevation model (DEM):: A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean sea level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
 
@@ -69,7 +69,7 @@ declination:: see <<magnetic declination>>.
 
 [[easting]]easting:: Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map.
 
-[[elevation]]elevation:: A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean sea level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. **Elevations** that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>.
+[[elevation]]elevation:: A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean sea level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>.
 
 [[ellipsoid]]ellipsoid:: A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
 
@@ -77,55 +77,55 @@ declination:: see <<magnetic declination>>.
 
 [[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application.
 
-[[error]]error:: the difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called "<<bias>>". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+[[error]]error:: The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called "<<bias>>". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 
-[[event]]event:: a process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations.
+[[event]]event:: A process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations.
 
-[[extent]]extent:: the entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance.
+[[extent]]extent:: The entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance.
 
-[[false-precision]]false precision:: an artifact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>.
+[[false-precision]]false precision:: An artifact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>.
 
-[[feature]]feature:: an object of observation, measurement, or reference that can be represented spatially. Often categorized into "*feature types*" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. "Mount Everest", "Ruta 40", "Istanbul"), which are also sometimes referred to as "named places", "place names" or "toponyms".
+[[feature]]feature:: An object of observation, measurement, or reference that can be represented spatially. Often categorized into "feature types" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. "Mount Everest", "Ruta 40", "Istanbul"), which are also sometimes referred to as "named places", "place names" or "toponyms".
 
-[[footprint]]footprint:: see <<shape>>. Note that "footprint" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit].
+[[footprint]]footprint:: See <<shape>>. Note that "footprint" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit].
 
-[[gazetteer]]gazetteer:: an index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>.
+[[gazetteer]]gazetteer:: An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>.
 
-[[generalization]]generalization:: in geographic terms, refers to the conversion of a geographic representation to one with less resolution and less information content; traditionally associated with a change in scale. Also referred to as: _fuzzying_, _dummying-up_, etc. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
+[[generalization]]generalization:: In geographic terms, refers to the conversion of a geographic representation to one with less resolution and less information content; traditionally associated with a change in scale. Also referred to as: _fuzzying_, _dummying-up_, etc. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
 
-[[geocode]]geocode:: the process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>.
+[[geocode]]geocode:: The process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>.
 
-[[geodetic-coordinate-reference-system]]geodetic coordinate reference system:: a <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth.
+[[geodetic-coordinate-reference-system]]geodetic coordinate reference system:: A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth.
 
-[[geodetic-datum]]geodetic datum:: a mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface.
+[[geodetic-datum]]geodetic datum:: A mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface.
 
-[[geographic-boundary]]geographic boundary:: the representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth.
+[[geographic-boundary]]geographic boundary:: The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth.
 
-[[geographic-center]]geographic center:: the midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. *Geographic centers* are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a *geographic center* for any application in <<georeference,georeferencing>>. Compare <<corrected center>>.
+[[geographic-center]]geographic center:: The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographiccenter* for any application in <<georeference,georeferencing>>. Compare <<corrected center>>.
 
-[[geographic-component]]geographic component:: the part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>.
+[[geographic-component]]geographic component:: The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>.
 
-[[geographic-coordinate-system]]geographic coordinate system:: a <<coordinate system>> that uses <<geographic coordinates>>.
+[[geographic-coordinate-system]]geographic coordinate system:: A <<coordinate system>> that uses <<geographic coordinates>>.
 
-[[geographic-coordinate-reference-system]]geographic coordinate reference system:: a <<geodetic coordinate reference system>> that uses <<geographic coordinates>>.
+[[geographic-coordinate-reference-system]]geographic coordinate reference system:: A <<geodetic coordinate reference system>> that uses <<geographic coordinates>>.
 
-[[geographic-coordinates]]geographic coordinates:: a measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>.
+[[geographic-coordinates]]geographic coordinates:: A measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>.
 
-[[geographic-extent]]geographic extent:: the entire space within the <<geographic boundary>> of a <<location>>. The *geographic extent* can be an area or a distance.
+[[geographic-extent]]geographic extent:: The entire space within the <<geographic boundary>> of a <<location>>. The geographic extent can be an area or a distance.
 
-[[geographic-information-system,geographic information system]]geographic information system (GIS):: is a set of computer-based tools designed to capture, store, manipulate, analyze, map, manage, and present all types of geographical data and information in the form of maps.
+[[geographic-information-system,geographic information system]]geographic information system (GIS):: A set of computer-based tools designed to capture, store, manipulate, analyze, map, manage, and present all types of geographical data and information in the form of maps.
 
-[[geographic-radial]]geographic radial:: the distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term *geographic radial,* as defined here, replaces its equivalent "extent" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^].
+[[geographic-radial]]geographic radial:: The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent "extent" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^].
 
-[[geoid]]geoid:: a global equipotential surface that approximates <<mean sea level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^]).
+[[geoid]]geoid:: A global equipotential surface that approximates <<mean sea level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^]).
 
-[[geometry]]geometry:: the measures and properties of points, lines, and surfaces. **Geometry** is used to represent the <<geographic component>> of <<location,locations>>.
+[[geometry]]geometry:: The measures and properties of points, lines, and surfaces. Geometry is used to represent the <<geographic component>> of <<location,locations>>.
 
-[[georeference]]georeference:: the process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification).
+[[georeference]]georeference:: The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification).
 
-[[georeferencing-method]]georeferencing method:: the type of spatial representation produced as the output of a <<georeferencing protocol>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method.
+[[georeferencing-method]]georeferencing method:: The type of spatial representation produced as the output of a <<georeferencing protocol>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method.
 
-[[georeferencing-protocol]]georeferencing protocol:: the documented specific steps to apply to a <<locality>>, based on the <<locality type>>, to produce a particular type of spatial representation.
+[[georeferencing-protocol]]georeferencing protocol:: The documented specific steps to apply to a <<locality>>, based on the <<locality type>>, to produce a particular type of spatial representation.
 
 GIS:: _see_ <<geographic-information-system>>.
 
@@ -133,9 +133,9 @@ GIS:: _see_ <<geographic-information-system>>.
 
 [[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems.
 
-[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. A **GPS** or <<GNSS>> Receiver (including those in smartphones and cameras) is the instrument that receives the radio signals and translates them into <<geographic coordinates>>. See also <<GNSS>> of which **GPS** is one example.
+[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. A GPS or <<GNSS>> Receiver (including those in smartphones and cameras) is the instrument that receives the radio signals and translates them into <<geographic coordinates>>. See also <<GNSS>> of which GPS is one example.
 
-[[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both **GPS** and <<GNSS>> receivers. A *GPS* or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret signals from GNSS satellites.
+[[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both GPS and <<GNSS>> receivers. A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret signals from GNSS satellites.
 
 [[grid]]grid:: a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid.
 
