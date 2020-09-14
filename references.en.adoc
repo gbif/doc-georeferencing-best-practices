@@ -166,7 +166,7 @@
 - WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php
 - Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method
 - Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf
-- Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://www.jstor.org/stable/439947?seq=1
+- Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://doi.org/10.2307/439947
 - Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128
 - Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152
 - Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature
