@@ -26,6 +26,8 @@
 // Shorthand for links to the other two documents
 :gqg: link:../../../georeferencing-quick-reference-guide/1.0/
 :gcm: link:../../../georeferencing-calculator-manual/1.0/
+// Shorthand for a link containing underscores
+:mcelroy_et_al_2007: https://www.spatial.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
 
 ifdef::backend-html5[]
 languageLinks:combined[]

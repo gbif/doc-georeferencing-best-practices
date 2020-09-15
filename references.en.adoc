@@ -90,7 +90,7 @@
 - Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/
 - Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear programming. Algorithmica 16 (4–5): 498–516. https://doi.org/10.1007/BF01940877
 - McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next Generation Height Reference Frame. 3/3 Technical Requirements. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf
-- McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. http://spatialservices.finance.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
+- McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. {mcelroy_et_al_2007}
 - Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf
 - Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE Spectrum. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018
 - Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software (DMAP). http://www.dmap.co.uk/utmworld.htm
