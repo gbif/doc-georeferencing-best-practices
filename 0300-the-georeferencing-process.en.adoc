@@ -247,7 +247,7 @@ There is a lot of variation in the way <<locality clause,clauses>> are written a
 * dubious (e.g. "presumably central Chile")
 * cannot be located (e.g. "locality not recorded")
 * demonstrably inconsistent (e.g. "Sonoma County side of the Gualala River, Mendocino County")
-* captive or cultivated (e.g_ "San Diego Wild Animal Park")
+* captive or cultivated (e.g "San Diego Wild Animal Park")
 
 A full locality description may contain multiple clauses. The goal of a <<georeference>> is to describe the <<location>> where all of the clauses are true simultaneously. In <<geographic information system,GIS>> terms, this would be the intersection of the <<shape,shapes>> for all the clauses in the locality description. As humans, we would choose the clause that is most specific and <<georeference>> based on that, using the information from the other clauses to filter from among multiple possibilities. For example, a locality written as
 
