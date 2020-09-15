@@ -127,7 +127,7 @@
 - Richards K (2010) TDWG GUID applicability statement. Version 2010‐09. http://www.tdwg.org/standards/150
 - Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to persistent identifiers. Version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/mjgq-d052
 - Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/
-- Reock EC Jr (1961) Measuring compactness as a requirement of legislative apportionment. Midwest J. Pol. Sci. 5: 70-74. https://www.jstor.org/stable/2109043?seq=1
+- Reock EC Jr (1961) A Note: Measuring Compactness as a Requirement of Legislative Apportionment. Midwest Journal of Political Science 5(1): 70-74 https://doi.org/10.2307/2109043
 - Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118
 - SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf
 - Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7
