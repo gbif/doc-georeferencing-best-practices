@@ -101,7 +101,7 @@ declination:: see <<magnetic declination>>.
 
 [[geographic-boundary]]geographic boundary:: The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth.
 
-[[geographic-center]]geographic center:: The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographiccenter* for any application in <<georeference,georeferencing>>. Compare <<corrected center>>.
+[[geographic-center]]geographic center:: The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographic center for any application in <<georeference,georeferencing>>. Compare <<corrected center>>.
 
 [[geographic-component]]geographic component:: The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>.
 
