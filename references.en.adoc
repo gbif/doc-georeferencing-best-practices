@@ -12,7 +12,7 @@
 - Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
 - Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Make Tech Easier. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/
 - Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf
-- Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. http://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
+- Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. https://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
 - Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq
 - Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-jrgg-a190
 - Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528
@@ -56,7 +56,7 @@
 - Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia
 - Geoscience Australia (2019b) Map Grid of Australia 2020. 2019 edition. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020
 - Gibson D (1996) How accurate is radio-location? Cave and Karst Science 23(2): 77-80. http://hdl.handle.net/10871/19788
-- Gibson D (2002) Radiolocation for Cave Surveying. http://site2.caves.org.uk/radio/radioloc_for_cave.html
+- Gibson D (2002) Radiolocation for Cave Surveying. {gibson_radiolocation}
 - GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath
 - GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/
 - [[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group.
