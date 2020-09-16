@@ -66,7 +66,7 @@ Based on an assessment of a variety of large-scale georeferencing projects that 
 ** Make sure that original records are uniquely identified (ideally with <<PID,PIDs>>, see <<Persistent Identifiers (PIDs)>>).
 ** Extract distinct <<locality,localities>>, generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding locality identifier in each original record.
 ** Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct locality records.
-** Label localities as marine, terrestrial, freshwater aquatic, or paleontological. The same locality description may refer to more than one category (e.g. <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with localities alone, you should account for all of the environmental possibilities.
+** Label localities as marine, terrestrial, freshwater aquatic, or palaeontological. The same locality description may refer to more than one category (e.g. <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with localities alone, you should account for all of the environmental possibilities.
 ** Create and uniquely identify distinct standardized localities and reference the standardized locality GUID in the non-standardized locality records.
 ** Match standardized localities against existing localities that have already been georeferenced using satisfactory <<georeferencing method,georeferencing methods>> and extract the existing georeferences (see <<Using Previously Georeferenced Records>>).
 * Assess the characteristics of the data to be georeferenced (e.g. how many already have <<coordinates>> without georeferences? How many consist only of administrative geography? What is the geographic distribution of the localities?) with a view to determining the resources that will be needed to complete the project.
@@ -132,7 +132,7 @@ CAUTION: The re-use of existing georeferences can propagate errors, if a mistake
 Each institution will have needs for different resources in order to <<georeference>> their <<location>> data. The basics, however, include:
 
 * A database and database software (spreadsheets may be apt for data capture, but they leave a lot to be desired compared to databases for data management, for which we do not recommend the use of spreadsheets). Note that there are a lot of database management systems already established and available for use with biodiversity data. See if any of these may do the job before developing your own as it may save a lot of extra work. Many also already include <<data quality>> aspects that could help improve the quality of your own data.
-* Topographic maps (electronic, paper or both), geologic maps (for paleontological events) and/or speleological maps (for events in cave systems).
+* Topographic maps (electronic, paper or both), geologic maps (for palaeontological events) and/or speleological maps (for events in cave systems).
 * Access to good <<gazetteer,gazetteers>> and/or maps – (many are available free via the Internet, either for downloading, or via online searching).
 * Internet access (as there are many resources on the Internet that will help in georeferencing and locating places).
 * Suitable computer hardware – such as a <<geographic information system,Geographic Information System>>.
@@ -173,7 +173,7 @@ Location-related fields to consider for georeferencing include all of the geogra
 * Latitude degrees, latitude minutes, latitude seconds, latitude hemisphere, <<longitude>> degrees, longitude minutes, longitude seconds, longitude hemisphere
 * Environment, to distinguish terrestrial, aquatic, and marine locations
 * <<event,Event>> date (best to follow and enforce a standard format, such as ISO 8601 (https://www.iso.org/standard/70907.html[ISO 2019^])
-* Fields in the Darwin Core term:dwc[geologicalContext] class for paleontological occurrences
+* Fields in the Darwin Core term:dwc[geologicalContext] class for palaeontological occurrences
 
 ==== Applying Data Constraints
 
@@ -189,7 +189,7 @@ Good user-friendly interfaces are essential to make <<georeference,georeferencin
 
 In the same way, macros and scripts can help with automated and semi-automated procedures, reducing the need for tedious (and time-consuming) repetition. For example, if the data are being entered from a number of collections by one collector, taken at the same time from the same <<location>>, the information that is repeated from record to record should be able to be entered using just one or two keystrokes.
 
-If maps are being used to assist in determining georeferences, a view that sorts the data geographically may also make the process more efficient by allowing the data operator to see all the records that may fall on one map sheet. Finally, it is also important to decide which fields the data entry operators should see when they are georeferencing. Fields such as date of collection, collector, specimen ID, taxonomy, and formation (for paleontological records) are very helpful for georeferencers to see along with the more obvious locality data.
+If maps are being used to assist in determining georeferences, a view that sorts the data geographically may also make the process more efficient by allowing the data operator to see all the records that may fall on one map sheet. Finally, it is also important to decide which fields the data entry operators should see when they are georeferencing. Fields such as date of collection, collector, specimen ID, taxonomy, and formation (for palaeontological records) are very helpful for georeferencers to see along with the more obvious locality data.
 
 ==== Using Standards and Guidelines
 
@@ -345,7 +345,7 @@ Collector’s itineraries and expedition tracks can be a useful adjunct in disco
 
 ===== Using Geological Context
 
-Maps or <<geographic information system,GIS>> layers of geological contexts, such as formations, can be used to narrow the <<location>> in the case of a paleontological specimen that includes such information in the shared content of the record. For example, if a fossil is taken from the surface in the Fox Hills formation (which is Cretaceous in age), that can distinguish the location from nearby different formations on the surface, like a habitat could do in an ecological context.
+Maps or <<geographic information system,GIS>> layers of geological contexts, such as formations, can be used to narrow the <<location>> in the case of a palaeontological specimen that includes such information in the shared content of the record. For example, if a fossil is taken from the surface in the Fox Hills formation (which is Cretaceous in age), that can distinguish the location from nearby different formations on the surface, like a habitat could do in an ecological context.
 
 === Georeferencing Methods
 
@@ -435,7 +435,7 @@ The National Standard for Spatial Data Accuracy (NSSDA) (https://www.fgdc.gov/st
 
 xref:table-horizontal-accuracy[xrefstyle="short"] shows the inherent accuracy of a number of maps at different scales. The <<table-horizontal-accuracy,table>> gives uncertainties for a line 0.5 mm wide at a number of different map scales. A value of 1 mm of error can be used on maps for which the standards are not published. This corresponds to about three times the detectable graphical error and should serve well as an uncertainty estimate for most maps.
 
-The <<table-horizontal-accuracy,table>> uses data from several sources. The TOPO250K Map series is the finest resolution mapping that covers the whole of the Australian continent. It is based on 1:250,000 topographic data, for which http://www.ga.gov.au/mapspecs/topographic/v5/index.html[Geoscience Australia 2007, Section 2^] defines the accuracy as "_not more than 10% of well-defined features are in error by more than 140 meters_ (for 1:250,000 scale maps); _more than 56 meters_ (for 1:100,000 maps)". The USGS Map Horizontal Uncertainty is calculated from US Bureau of Budget (1947) (reported in https://pubs.usgs.gov/fs/1999/0171/report.pdf[United States National Map Accuracy Standards (USGS 1999)^]) which states that "_As applied to the USGS 7.5-minute quadrangle topographic map, the horizontal accuracy standard requires that the positions of 90 percent of all points tested must be accurate within 1/50th of an inch (0.05 centimeters) on the map. At 1:24,000 scale, 1/50th of an inch is 40 feet (12.2 meters)._" These values need to be taken into account when determining the uncertainty of your georeference.
+The <<table-horizontal-accuracy,table>> uses data from several sources. The TOPO250K Map series is the finest resolution mapping that covers the whole of the Australian continent. It is based on 1:250,000 topographic data, for which http://www.ga.gov.au/mapspecs/topographic/v5/index.html[Geoscience Australia 2007, Section 2^] defines the accuracy as "_not more than 10% of well-defined features are in error by more than 140 meters_ (for 1:250,000 scale maps); _more than 56 meters_ (for 1:100,000 maps)". The USGS Map Horizontal Uncertainty is calculated from US Bureau of Budget (1947) (reported in https://pubs.usgs.gov/fs/1999/0171/report.pdf[United States National Map Accuracy Standards (USGS 1999)^]) which states that "_As applied to the USGS 7.5-minute quadrangle topographic map, the horizontal accuracy standard requires that the positions of 90 percent of all points tested must be accurate within 1/50th of an inch (0.05 centimetres) on the map. At 1:24,000 scale, 1/50th of an inch is 40 feet (12.2 meters)._" These values need to be taken into account when determining the uncertainty of your georeference.
 
 [#table-horizontal-accuracy]
 .Horizontal accuracy based on 0.5 mm of accuracy per unit of map scale, except for the 1:250,000 map series where the figure supplied with the data has been used.

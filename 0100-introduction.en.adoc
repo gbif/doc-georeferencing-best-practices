@@ -54,7 +54,7 @@ These documents DO NOT provide guidance on georectifying images or <<geocode,geo
 
 The accompanying {gqg}[Georeferencing Quick Reference Guide] provides a practical how-to guide for putting the theory of the <<shape>>, <<bounding-box>>, and <<point-radius>> <<georeferencing method,georeferencing methods>> into practice. The Quick Guide relies on this document for background, definitions, more detailed explanations, and information on dealing with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>).
 
-The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based javascript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>).
+The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based JavaScript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>).
 
 === Constraints
 
