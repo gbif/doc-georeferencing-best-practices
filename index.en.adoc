@@ -14,7 +14,6 @@
 :numbered:
 :sectnumlevels: 3
 :pagenums:
-:xrefstyle: basic
 :icons: font
 :xrefstyle: short
 :section-refsig: §
@@ -24,8 +23,12 @@
 :ecological: image:img/ecology.svg[width=14px]
 :caves: image:img/cave.svg[width=14px]
 // Shorthand for links to the other two documents
-:gqg: link:../../../georeferencing-quick-reference-guide/1.0/
-:gcm: link:../../../georeferencing-calculator-manual/1.0/
+:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
+:gcm: link:../../../georeferencing-calculator-manual/1.0/en/
+ifdef::backend-pdf[]
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
+:gcm: link:https://docs.gbif.org/georeferencing-calculator-manual/1.0/en/
+endif::backend-pdf[]
 // Shorthand for a link containing underscores
 :mcelroy_et_al_2007: https://www.spatial.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
 :gibson_radiolocation: http://site2.caves.org.uk/radio/radioloc_for_cave.html

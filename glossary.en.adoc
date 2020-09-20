@@ -38,7 +38,7 @@ clause:: see <<locality clause>>.
 
 [[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters.
 
-[[corrected-center]]corrected center:: The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see xref:img-polygon-center[xrefstyle="short"]).
+[[corrected-center]]corrected center:: The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see <<img-polygon-center>>).
 
 [[Darwin-Core]]Darwin Core:: A standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^]).
 
@@ -73,7 +73,7 @@ declination:: see <<magnetic declination>>.
 
 [[ellipsoid]]ellipsoid:: A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
 
-[[entry-point]]entry point:: {marine} The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See xref:img-underwater-event[xrefstyle="short"].
+[[entry-point]]entry point:: {marine} The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<img-underwater-event>>.
 
 [[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application.
 
@@ -139,7 +139,7 @@ GIS:: _see_ <<geographic-information-system>>.
 
 [[grid]]grid:: a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid.
 
-[[ground-zero]]ground zero:: {caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See xref:img-vertical-position-in-a-cave[xrefstyle="short"].
+[[ground-zero]]ground zero:: {caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<img-vertical-position-in-a-cave>>.
 
 GUID:: see <<GUID,Globally Unique Identifier>>.
 
@@ -206,7 +206,7 @@ Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precisi
 
 [[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>.
 
-[[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See xref:img-spatial-fit[xrefstyle="short"]).
+[[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See <<img-spatial-fit>>).
 
 [[spatial-reference-system]]spatial reference system:: see <<coordinate reference system>>.
 

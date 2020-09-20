@@ -69,7 +69,7 @@ We recommend that if data are to be generalized that it be done by reducing the 
 * Precision of the data provided (e.g. 0.1 degree; 0.001 degree, etc.)
 * Precision of the data stored or held (e.g. 0.0001 degree, 0.1 minute, 1 second, etc.)
 
-We recommend that when recording the degree of generalization of data, that <<spatial fit,Spatial Fit>> (<<Determining Spatial Fit>>) be used. For example, the degree to which a record has been generalized to obfuscate the georeference will be a number greater than 1 (see xref:img-spatial-fit[xrefstyle="short"] and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
+We recommend that when recording the degree of generalization of data, that <<spatial fit,Spatial Fit>> (<<Determining Spatial Fit>>) be used. For example, the degree to which a record has been generalized to obfuscate the georeference will be a number greater than 1 (see <<img-spatial-fit>> and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
 
 NOTE: Data should never be generalized at the time of collection, when georeferencing or when storing in the database.
 
