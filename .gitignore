@@ -3,6 +3,7 @@
 *.brotli
 *.html
 *.pdf
+*.webp
 *.??.adoc
 !*.en.adoc
 *.mo
