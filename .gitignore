@@ -1,5 +1,6 @@
 .DS_Store
 *.asis
+*.brotli
 *.html
 *.pdf
 *.??.adoc
