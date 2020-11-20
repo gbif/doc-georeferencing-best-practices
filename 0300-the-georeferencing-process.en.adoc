@@ -648,7 +648,7 @@ There are a number of ways of calculating uncertainty from distances. In this do
 For distance measurements that are positive integer powers of 10, the precision should be ten to the next lower power. This calculation differs from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^] which recommended that the precision should be based on ten to the same power. Upon reconsideration, that seems excessive (see <<table-uncertainty-from-offset-precision>>). This same reasoning can be used for precision in verbatim <<elevation,elevations>> and <<depth,depths>>.
 
 [#table-uncertainty-from-offset-precision]
-.Calculating uncertainty using the <<precision>> from a distance recording. Adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^] and https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004)^].
+.Calculating uncertainty using the precision from a distance recording. Adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^] and https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004)^].
 [%autowidth]
 |===
 h|Example h|Uncertainty (adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]) h|Uncertainty (https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004^])
@@ -659,7 +659,7 @@ h|Example h|Uncertainty (adapted from https://doi.org/10.1080/136588104123312802
 |10.75 km |0.125 km |0.01 km
 |10 mi |0.5 mi |1.5 mi
 |15 km |0.5 km |1 km
-|30 mi |5 mi |4.5 mi
+|30 mi |0.5 mi |4.5 mi
 |33 km |0.5 km |1 km
 |100 mi |5 mi |15 mi
 |140 km |5 km |21 km
