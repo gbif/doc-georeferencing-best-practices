@@ -639,7 +639,7 @@ e = sqrt( (x′-x)^2 + (y′-y)^2)
 ++++
 --
 
-where x=dcos(θ), y=dsin(θ), x′=dcos(θ’), and y′=dsin(θ′). and the uncertainty in the above example would be 3.90 km.
+where x=dcos(θ), y=dsin(θ), x′=dcos(θ’), and y′=dsin(θ′). The uncertainty in the above example would be 3.90 km.
 
 This shows just one simple example. For details and formulae for calculating more complicated uncertainties, see http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#combinations_of_uncertainties_distances[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Because of the complicated nature of these calculations, it is best to use the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] – see <<Using the Georeferencing Calculator>>.
 
