@@ -335,6 +335,10 @@ To the extent possible, the aim is to have a <<georeference>> and its <<uncertai
 
 We recommend that this sort of constraint be used in a followup workflow step to deal with <<locality,localities>> at the event level rather than try to construct a gazetteer that includes collecting dates.
 
+===== Using Elevation Constraints
+
+Elevation can often be used as a constraint to distinguish between two similarly named localities or to refine the uncertainty in a georeference. If both maximum and minimum elevations are given, then the contours may be used to refine a locality and its uncertainty as described in docs.gbif-uat.org/georeferencing-quick-reference-guide/1.0/en/#img-mountain-boundaries[Figure 5^] in https://docs.gbif-uat.org/georeferencing-quick-reference-guide/1.0/en/[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^].
+
 ===== Using Collector Itineraries
 
 Collector’s itineraries and expedition tracks can be a useful adjunct in discovering locations that are otherwise difficult to find, especially where there may be more than one possible <<location>> based on a <<feature>> name. This may be done through using field notebooks, published reports and maps, searching for the <<locality,localities>> of specimens with adjacent collecting numbers, etc. With historic collecting events (i.e. before the days of modern transport), you may also be able to restrict the area to look in by limiting the distance a collector may have been able to travel within one day. Note that the collector name and date are essential pieces of information in tracking itineraries, and therefore can not be done on localities alone. We thus recommend that this sort of constraint be used in a followup workflow step to deal with unresolved localities rather than try to construct a <<gazetteer>> that includes collecting dates, collector names, and collector numbers.
@@ -635,7 +639,7 @@ e = sqrt( (x′-x)^2 + (y′-y)^2)
 ++++
 --
 
-and the uncertainty in the above example would be 3.90 km.
+where x=dcos(θ), y=dsin(θ), x′=dcos(θ’), and y′=dsin(θ′). and the uncertainty in the above example would be 3.90 km.
 
 This shows just one simple example. For details and formulae for calculating more complicated uncertainties, see http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#combinations_of_uncertainties_distances[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Because of the complicated nature of these calculations, it is best to use the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] – see <<Using the Georeferencing Calculator>>.
 
