@@ -18,7 +18,7 @@ When recording data in the field, whether from a map or when using a <<GPS>>, it
 
 Provide a descriptive <<locality>>, even if you have <<coordinates>>. The locality should be as specific, succinct, unambiguous, complete, and as <<accuracy,accurate>> as possible, leaving no room for multiple interpretations.
 
-<<feature,Features>> used as reference points should be stable, i.e., places (permanent landmarks, <<trig point,trig points>>, etc.) that will remain unchanged for a long time after the <<event>> is recorded. Do NOT use temporary features or waypoints as the key reference locality.
+<<feature,Features>> used as reference points should be stable, i.e., places (permanent landmarks, <<trig point,trig points>>, etc.) that will remain unchanged for a long time after the <<event>> is recorded. Do NOT use temporary features or waypoints as the key reference locality. An example of what can go wrong in not using stable and permanent landmarks was given by Bob Mesibov (https://doi.org/10.3897/zookeys.247.4195[Mesibov 2012^]). He cites the case of nine Cableway support towers that ascend Mount Bellenden Ker in Queensland and which were numbered 1-9 from the top of the mountain to the bottom when installed in the 1970s. Many biologists have used these towers to reference their collection localities (e.g. ‘National Park Reserve 904, Wooroonooran, just S of tower 9, Mt Bellenden Ker cableway'), often with no accompanying georeferences. In 1997 the numbering of the towers was reversed, with the towers numbered from the bottom of the mountain to the top. Without knowing this, users may not be aware of the significant uncertainty in the location and with steep gradients involved (tower altitudes range from 210-1550 m), this can have significant meaning biologically.
 
 To facilitate the validation of a locality, use reference features that are easy to find on maps or in <<gazetteer,gazetteers>>. At all costs, avoid using vague terms such as "near" and "center of" or providing only an <<offset>> without a distance, such as "West of Jiuquan", or worse "W Jiuquan".
 
@@ -28,11 +28,13 @@ If recording locations on a <<path>> (road, river, etc.), it is important to als
 
 TIP: The most specific <<locality,localities>> are those described by a) a distance and heading along a <<path>> from a nearby and well-defined intersection, or b) two cardinal offset distances from a single persistent nearby <<feature>> of small <<extent>>.
 
+TIP: It is good practice not to use quotation marks ("") in locality descriptions as this can generate problems down the line if using open text files, spread sheets, etc.
+
 By describing a <<location>> in terms of a distance along a <<path>>, or by two orthogonal distances from a <<feature>>, one removes <<uncertainty>> due to <<precision,imprecise>> <<heading,headings>>, which, when the distances are great, can be the biggest contributing factor to overall uncertainty. Choosing a reference feature with small <<extent>> reduces the uncertainty due to the size of the reference feature, and by choosing a nearby reference feature, one reduces the potential for <<error>> in measuring the <<offset>> distances, especially along <<path,paths>>. The Museum of Vertebrate Zoology at the University of California, Berkeley has published a guide to recording good localities in the field that follows these principles. Following is an example locality from that document (copied with permission).
 
 .From http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[MVZ Guide for Recording Localities in Field Notes^]
 ====
-*Locality:* "Modoc National Wildlife Refuge, 2.8 mi S and 1.2 mi E junction of Hwy. 299 and Hwy. 395 in Alturas, Modoc Co., Calif."
+*Locality:* Modoc National Wildlife Refuge, 2.8 mi S and 1.2 mi E junction of Hwy. 299 and Hwy. 395 in Alturas, Modoc Co., Calif.
 
 *Lat/Long/Datum:* 41.45063, −120.50763 (WGS84)
 
