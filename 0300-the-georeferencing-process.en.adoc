@@ -335,9 +335,9 @@ To the extent possible, the aim is to have a <<georeference>> and its <<uncertai
 
 We recommend that this sort of constraint be used in a followup workflow step to deal with <<locality,localities>> at the event level rather than try to construct a gazetteer that includes collecting dates.
 
-===== Using Elevation Constraints
+===== Using Elevation or Depth Constraints
 
-Elevation can often be used as a constraint to distinguish between two similarly named localities or to refine the uncertainty in a georeference. If both maximum and minimum elevations are given, then the contours may be used to refine a locality and its uncertainty as described in {gqg}#image-mountain-boundaries[Figure 5^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^].
+Elevation can often be used as a constraint to distinguish between two similarly named localities or to refine the uncertainty in a georeference. If both maximum and minimum elevations are given, then the contours of these limits may be used to constrain the <<extent>> of a locality and therefore its uncertainty. If a single value is given for elevation, then the precision of that value can be used to estimate the minimum and maximum elevations as described in <<uncertainty-related-to-offset-precision,§3.4.6 Uncertainty Related to Offset Precision>>. The same considerations can also be applied to depths.
 
 ===== Using Collector Itineraries
 
