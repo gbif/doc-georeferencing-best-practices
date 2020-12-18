@@ -85,7 +85,7 @@ Based on an assessment of a variety of large-scale georeferencing projects that 
 
 ===== Project Follow-up Phase
 
-* Verify <<georeference,georeferences>> to meet <<data quality>> requirements (e.g., map <<georeference,georeferenced>> records to ensure they fall in the correct hemisphere, country, etc.) (see <<Data Checking and Cleaning>>).
+* Verify <<georeference,georeferences>> to meet <<data quality>> requirements (e.g. map <<georeference,georeferenced>> records to ensure they fall in the correct hemisphere, country, etc.) (see <<Data Checking and Cleaning>>).
 * Populate standardized <<locality>> records with data for the georeferences.
 * For original records that have not changed locality information since they were assembled, populate the original records from the standardized locality records with georeferences.
 * Repatriate the original records with standardized georeferenced locality data appended.
@@ -468,7 +468,7 @@ Digital versions of traditional paper maps that have been scanned or digitized b
 NOTE: A digital map is never more accurate than the original from which it was derived, nor is it more accurate when you zoom in on it. The accuracy is strictly a function of the scale and digitizing errors of the original map, plus the additional error added by the digitization process.
 
 // TODO: Was CARE.
-CAUTION: Care must be used when using a digital map that records the scale in the form of text (e.g., 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g., 1:20,000).
+CAUTION: Care must be used when using a digital map that records the scale in the form of text (e.g. 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g. 1:20,000).
 
 Measurement error is not unique to physical maps, it also enters into measurements on digital media. In general, the resolution of the media affects one's ability to distinguish between two points, and this in turn can be affected by the extent to which the media is zoomed. Note that zooming does not improve the accuracy of the original source from which the media was derived. That accuracy remains an independent factor, as described in the earlier paragraphs in this section. Naturally, the greater the zoom, the easier it is to pinpoint a <<location>>. This effect of zoom on digital media also has an effect on one's ability to measure along a <<path>> in that medium. The greater the zoom, the easier it is to follow the path faithfully and thus determine a distance along that path with the least error. The greater the curviness of the path, the greater the potential effect on accuracy. Note also, that the scale of the map may reduce the curviness of a path (road, river, etc.) and that small-scale maps tend to smooth out the paths of rivers, roads, coastlines, and other curved linear features (https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^]).
 
