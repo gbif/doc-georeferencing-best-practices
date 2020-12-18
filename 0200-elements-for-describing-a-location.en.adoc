@@ -28,11 +28,13 @@ If recording locations on a <<path>> (road, river, etc.), it is important to als
 
 TIP: The most specific <<locality,localities>> are those described by a) a distance and heading along a <<path>> from a nearby and well-defined intersection, or b) two cardinal offset distances from a single persistent nearby <<feature>> of small <<extent>>.
 
+TIP: It is good practice not to use quotation marks ("") in locality descriptions as this can generate problems down the line if using open text files, spread sheets, etc.
+
 By describing a <<location>> in terms of a distance along a <<path>>, or by two orthogonal distances from a <<feature>>, one removes <<uncertainty>> due to <<precision,imprecise>> <<heading,headings>>, which, when the distances are great, can be the biggest contributing factor to overall uncertainty. Choosing a reference feature with small <<extent>> reduces the uncertainty due to the size of the reference feature, and by choosing a nearby reference feature, one reduces the potential for <<error>> in measuring the <<offset>> distances, especially along <<path,paths>>. The Museum of Vertebrate Zoology at the University of California, Berkeley has published a guide to recording good localities in the field that follows these principles. Following is an example locality from that document (copied with permission).
 
 .From https://mvzhandbook.berkeley.edu/curatorial/tutorials-training/localities-events[MVZ Guide for Recording Localities in Field Notes^]
 ====
-*Locality:* "Modoc National Wildlife Refuge, 2.8 mi S and 1.2 mi E junction of Hwy. 299 and Hwy. 395 in Alturas, Modoc Co., Calif."
+*Locality:* Modoc National Wildlife Refuge, 2.8 mi S and 1.2 mi E junction of Hwy. 299 and Hwy. 395 in Alturas, Modoc Co., Calif.
 
 *Lat/Long/Datum:* 41.45063, −120.50763 (WGS84)
 

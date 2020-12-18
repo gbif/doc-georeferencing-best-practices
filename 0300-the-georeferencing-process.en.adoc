@@ -663,7 +663,7 @@ h|Distance h|Recommended Uncertainty h|Uncertainty sec. Frazier et al.
 |10.75 km |0.125 km |0.01 km
 |10 mi |0.5 mi |1.5 mi
 |15 km |0.5 km |1 km
-|30 mi |5 mi |4.5 mi
+|30 mi |0.5 mi |4.5 mi
 |33 km |0.5 km |1 km
 |100 mi |5 mi |15 mi
 |140 km |5 km |21 km
@@ -685,7 +685,7 @@ image::img/orthogonal-distances-from-feature.png[width=475,align="center"]
 
 ==== Combined Uncertainties
 
-When combining <<uncertainty,uncertainties>> from different sources, it is not as simple as taking the average or adding them together. Uncertainties inherent in the <<location>> of the <<feature>>, in its <<extent>>, in the direction of the <<offset>>, and the distance of the offset, are just four sources that need to be combined to get an overall uncertainty. A detailed discussion of the calculations involved can be found in http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. For a practical way of calculating uncertainties in <<locality>> descriptions, we recommend the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. To understand how each source of uncertainty contributes to the net overall uncertainty, see {gcm}#uncertainty[Understanding Uncertainty Contributions^] in the {gcm}[Georeferencing Calculator Manual (Bloom et al. 2020)^].
+When combining <<uncertainty,uncertainties>> from different sources, it is not as simple as taking the average or adding them together. Uncertainties inherent in the <<location>> of the <<feature>>, in its <<extent>>, in the direction of the <<offset>>, and the distance of the offset, are just four sources that need to be combined to get an overall uncertainty. A detailed discussion of the calculations involved can be found in http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. For a practical way of calculating uncertainties in <<locality>> descriptions, we recommend the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. To understand how each source of uncertainty contributes to the net overall uncertainty, see {gcm}#understanding-uncertainty[Understanding Uncertainty Contributions^] in the {gcm}[Georeferencing Calculator Manual (Bloom et al. 2020)^].
 
 ==== Using the Georeferencing Quick Reference Guide
 
