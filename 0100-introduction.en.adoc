@@ -1,5 +1,7 @@
 == Introduction
 
+CAUTION: A Location that is poorly georeferenced obscures the information upon which a georeference should be based, potentially making the originally provided information irrecoverable. The resulting georeferences can be misleading to users and lead to errors in research outputs. Thus, an important take-home message is, "To georeference poorly is worse than not to georeference at all."
+
 Throughout this document we make use of terminology for which the specific meaning has great importance for overall understanding, especially for terms that might differ from, or vary in common usage. We mark these key words <<accuracy,like this>>, with a link to the glossary, to call attention to the specific meaning and avoid potential confusion. All terms so marked are defined in the <<Glossary>>.
 
 This publication provides guidelines to the best practice for <<georeference,georeferencing>>. Though it is targeted specifically at biological occurrence data, the concepts and methods presented here can be applied in other disciplines where spatial interpretation of <<location>> is of interest. This document builds on the original https://doi.org/10.15468/doc-2zpf-zf42[Guide to Best Practices for Georeferencing (Chapman & Wieczorek 2006)^], which was one of the outputs from the BioGeomancer project (https://doi.org/10.1371/journal.pbio.0040381[Guralnick et al. 2006^]). Several earlier projects and organizations (e.g. MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO) had previously developed guidelines and tools for georeferencing, and these provided a good starting point for such a document. A detailed history of the organizations involved in the development of BioGeomancer and of the original Guide was given in that source. Throughout this document we reference tools and methodologies developed by those organizations and we acknowledge the valuable work by those organizations in their development. This document attempts to bring best practices up to date with terms, technologies, and georeferencing recommendations that have been developed and refined since the original document was published.
@@ -119,7 +121,7 @@ Whereas <<error>> is an estimate of the difference between a measured value and 
 Like error, <<uncertainty>> is a measure of how different an unknown true value might be from a value given. In <<georeference,georeferencing>>, we use uncertainty to refer to the maximum distance from a center <<coordinates,coordinate>> of a georeference to the furthest point where the true <<location>> might be–a combination of all the possible sources of error given as a distance.
 
 [#img-xkcd-coordinate-precision]
-.What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^].
+.40 digits: You are optimistic about our understanding of the nature of distance itself.<br />What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^].
 image::img/xkcd-coordinate-precision.png[width=50%,align="center"]
 
 === Software and Online Tools

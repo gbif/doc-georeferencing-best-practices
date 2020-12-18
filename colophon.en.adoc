@@ -13,6 +13,10 @@ Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices [Community review
 
 https://orcid.org/0000-0003-1700-6962[Arthur D. Chapman] & https://orcid.org/0000-0003-1144-0290[John R. Wieczorek] 
 
+=== Contributors
+
+Paula F. Zermoglio
+
 === Licence
 
 The document _Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
