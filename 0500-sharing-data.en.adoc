@@ -54,7 +54,7 @@ term:dwc[dwc:georeferencedDate]:: the date on which the data in the <<georeferen
 
 term:dwc[dwc:georeferenceProtocol]:: a citation of a published set of rules used to determine a <<georeference>>. For example, “Georeferencing Quick Reference Guide 2020”. Any deviations from the cited protocol should be noted in term:dwc[dwc:georeferenceRemarks]
 
-term:dwc[dwc:georeferenceSources]:: a list of maps, <<gazetteer,gazetteers>>, or other resources used to <<georeference>> the <<locality>>. Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad; Terrametrics 2008, Google Earth™".
+term:dwc[dwc:georeferenceSources]:: a list of maps, <<gazetteer,gazetteers>>, or other resources used to <<georeference>> the <<locality>>. Should be specific enough that someone else can locate and use the same sources. Example: "USGS 1:24000 Florence Montana Quad 1967; Terrametrics 2008, Google Earth".
 
 term:dwc[dwc:georeferenceVerificationStatus]:: an indicator of the extent to which the <<georeference>> has been verified to represent the best possible spatial description for the occurrence record. By default a newly created georeference should have the status "requires verification". Beyond that, there are really only two other functionally distinct possibilities, either "verified" (by the person mentioned in term:dwc[dwc:georeferencedBy]), and "verified by collector" or equivalent, to designate that the georeference was reviewed for that specific record by the person who recorded it to begin with, and that it can not be further improved. This is the ideal status to aspire to.
 
