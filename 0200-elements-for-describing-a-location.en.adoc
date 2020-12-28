@@ -133,7 +133,7 @@ image::img/underwater-event.png[width=511,align="center"]
 [#elements-coordinates]
 === Coordinates
 
-Whenever practical, provide the <<coordinates>> of the <<location>> where an <<event>> actually occurred (see <<Extent of a Location>>) and accompany these with the <<coordinate reference system>> of the coordinate source (map or <<GPS>>). The two <<coordinate system,coordinate systems>> most commonly used by biologists are based on <<geographic coordinates>> (i.e. <<latitude>> and <<longitude>>) or Universal Transverse Mercator (<<UTM>>) (i.e. <<easting>>, <<northing>> and UTM zone).
+Whenever practical, provide the <<coordinates>> of the <<location>> where an <<event>> actually occurred (see <<Extent of a Location>>) and accompany these with the <<coordinate reference system>> of the coordinate source (map or <<GPS>>). The two <<coordinate system,coordinate systems>> most commonly used by biologists are based on <<geographic coordinates>> (i.e. <<latitude>> and <<longitude>>) or <<UTM>> (i.e. <<easting>>, <<northing>> and UTM zone).
 
 A <<datum>> is an essential part of a <<coordinate reference system>> and provides the frame of reference. Without it the <<coordinates>> are ambiguous. When using both maps and <<GPS>> in the field, set the coordinate reference system or datum of the GPS or <<GNSS>> receiver to be the same as that of the map so that the GPS coordinates for a <<location>> will match those on the map. Be sure to record the coordinate reference system or datum used.
 
@@ -148,7 +148,7 @@ TIP: Decimal degrees are preferred when capturing coordinates from a GPS, howeve
 
 ==== Universal Transverse Mercator (UTM) Coordinates
 
-<<UTM>>, Universal Transverse Mercator, is a system for assigning distance-based <<coordinates>> using a Mercator <<projection>> from an idealized <<ellipsoid>> of the surface of the Earth onto a plane. In most applications of the UTM system, the Earth is divided into a series of six-degree wide <<longitude,longitudinal>> zones extending between 80°S and 84°N and numbered from 1-60 beginning with the zone at the <<antimeridian,Antimeridian>> (https://doi.org/10.3133/pp1395[Snyder 1987^]). Because of the <<latitude,latitudinal>> limitation in extent, UTM coordinates are not usable in the extreme polar regions of the Earth. A map of UTM zones can be found at http://www.dmap.co.uk/utmworld.htm[UTM Grid Zones of the World (Morton 2006)^].
+<<UTM>> is a system for assigning distance-based <<coordinates>> using a Mercator <<projection>> from an idealized <<ellipsoid>> of the surface of the Earth onto a plane. In most applications of the UTM system, the Earth is divided into a series of six-degree wide <<longitude,longitudinal>> zones extending between 80°S and 84°N and numbered from 1-60 beginning with the zone at the <<antimeridian,Antimeridian>> (https://doi.org/10.3133/pp1395[Snyder 1987^]). Because of the <<latitude,latitudinal>> limitation in extent, UTM coordinates are not usable in the extreme polar regions of the Earth. A map of UTM zones can be found at http://www.dmap.co.uk/utmworld.htm[UTM Grid Zones of the World (Morton 2006)^].
 
 UTM coordinates consist of a zone number, a hemisphere indicator (N or S), and <<easting>> and <<northing>> coordinate pairs separated by a space with 6 and 7 digits respectively, and all in the order given here. For example, for Big Ben in London (latitude 51.500721, longitude −0.124430), the UTM reference would be: 30N 699582 5709431.
 
@@ -457,4 +457,4 @@ An issue that often arises with insect collections is the challenge of recording
 [#Elements-Documentation]
 === Documentation
 
-Record the sources of all measurements. Minimally, include map name and scale, the <<datum>> or <<coordinate reference system>>, the source for <<elevation>> data, the <<accuracy>> reported by the <<GPS>> receiver, the <<UTM>> Zone if using <<UTM>> <<coordinates>>, the <<extent>> and <<radial>> of the <<location>>, the method used to record the <<depth>>, etc.
+Record the sources of all measurements. Minimally, include map name and scale, the <<datum>> or <<coordinate reference system>>, the source for <<elevation>> data, the <<accuracy>> reported by the <<GPS>> receiver, the <<UTM, UTM>> Zone if using <<UTM, UTM>> <<coordinates>>, the <<extent>> and <<radial>> of the <<location>>, the method used to record the <<depth>>, etc.
