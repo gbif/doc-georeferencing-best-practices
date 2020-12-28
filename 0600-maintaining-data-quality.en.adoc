@@ -80,7 +80,7 @@ Topics of a five day course may include (depending on the audience, and not in t
 * Developing a georeferencing project
 * Georeferencing best practices
 * {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]
-* http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020^])
+* Using the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020^])
 * Geographic concepts
 * <<locality type,Locality types>>
 * Good and bad <<locality,localities>>
@@ -97,6 +97,8 @@ Topics of a five day course may include (depending on the audience, and not in t
 * <<repatriate,Repatriating>> data
 * Building end-to-end georeferencing workflows
 * Sharing georeferenced data
+
+NOTE: Georeferencing training has a learning curve that in some cases can be steep. As a good georeferencing practice involves having knowledge of several different areas (e.g. geography, informatics, biodiversity data, data standards, etc.), make sure to establish a solid selection process of the participants. This will help you reduce the time and resources needed for training and, more importantly, will reduce the probability of <<error,errors>> and improve the <<data quality, quality>> of the data.
 
 === Performance Criteria
 
