@@ -8,7 +8,7 @@ The purpose of this glossary is to describe important concepts in accordance wit
 +
 NOTE: "The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
 
-[[altitude]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>.
+[[altitude]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>.
 
 [[antimeridian]]antimeridian:: The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The "Antimeridian" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line.
 
