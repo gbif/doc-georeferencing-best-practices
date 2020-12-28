@@ -14,7 +14,7 @@
 - Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf
 - Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. https://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
 - Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq
-- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-jrgg-a190
+- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190
 - Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528
 - Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545
 - Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10
