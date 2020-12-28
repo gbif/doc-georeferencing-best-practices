@@ -123,9 +123,9 @@ declination:: see <<magnetic declination>>.
 
 [[georeference]]georeference:: The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification).
 
-[[georeferencing-method]]georeferencing method:: The type of spatial representation produced as the output of a <<georeferencing protocol>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method.
+[[georeferencing-method]]georeferencing method:: The theory, including a set of rules, general procedures and expected outcomes, meant to produce a specific type of spatial representation of a <<locality>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method.
 
-[[georeferencing-protocol]]georeferencing protocol:: The documented specific steps to apply to a <<locality>>, based on the <<locality type>>, to produce a particular type of spatial representation.
+[[georeferencing-protocol]]georeferencing protocol:: The set of specific documented steps that can be applied to produce a spatial representation of a <<locality>>, following one or more georeferencing methods.
 
 GIS:: _see_ <<geographic-information-system>>.
 
@@ -133,9 +133,9 @@ GIS:: _see_ <<geographic-information-system>>.
 
 [[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems.
 
-[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. A GPS or <<GNSS>> Receiver (including those in smartphones and cameras) is the instrument that receives the radio signals and translates them into <<geographic coordinates>>. See also <<GNSS>> of which GPS is one example.
+[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy estimates>>. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>.
 
-[[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both GPS and <<GNSS>> receivers. A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret signals from GNSS satellites.
+[[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both GPS and <<GNSS>> receivers (including those in smartphones and cameras). A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret radio signals from GNSS satellites and translate them into <<geographic coordinates>>.
 
 [[grid]]grid:: a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid.
 
@@ -151,9 +151,9 @@ GUID:: see <<GUID,Globally Unique Identifier>>.
 
 [[locality]]locality:: The verbal representation of a <<location>>, also sometimes called "locality description".
 
-[[locality-clause]]locality clause:: A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing method>> can be applied.
+[[locality-clause]]locality clause:: A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing protocol>> can be applied.
 
-[[locality-type]]locality type:: A category applied to a <<locality clause>> that determines the specific <<georeferencing method>> that should be applied.
+[[locality-type]]locality type:: A category applied to a <<locality clause>> that determines the specific <<georeferencing protocol>> that should be used.
 
 [[location]]location:: A physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language <<locality>> description. In <<georeference,georeferencing>>, a location can have distinct representations based on distinct <<rules of interpretation>>, each of which is embodied in a <<georeferencing method>>.
 
@@ -177,7 +177,7 @@ GUID:: see <<GUID,Globally Unique Identifier>>.
 
 [[PID]]persistent identifier (PID):: A long-lasting reference to a document, file, web page, or other object. The term "persistent identifier" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs).
 
-[[point-radius]]point-radius:: A representation of the <<geographic component>> of a <<location>> as a <<geographic-coordinates,geographic coordinate>> and a <<maximum uncertainty distance>>. The <<point-radius>> <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
+[[point-radius]]point-radius:: A representation of the <<geographic component>> of a <<location>> as <<geographic-coordinates,geographic coordinates>> and a <<maximum uncertainty distance>>. The point-radius <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
 
 [[precision]]precision::
 +
