@@ -32,7 +32,7 @@ This document aims to provide current best practice for using the <<point-radius
 * Users of <<georeference,georeferences>> should take into account the <<uncertainty>> (or lack of its documentation) when choosing data for analyses, as without that information, analyses may be skewed and results <<bias,biased>> or altogether wrong.
 * <<coordinates,Coordinates>> alone can not generally be checked for consistency; a <<locality>> description provides a confirmation that coordinates are correct.
 * <<coordinates,Coordinates>> alone do not unambiguously define a <<location>>, because:
-** coordinates require a <<coordinate reference system>> to anchor the coordinates in relation to the earth
+** coordinates require a <<coordinate reference system>> to anchor the coordinates in relation to the Earth
 ** no <<location>> is a point; even the most specific locations have an <<extent>>
 ** any device that provides <<coordinates>> has an associated <<uncertainty>>
 
