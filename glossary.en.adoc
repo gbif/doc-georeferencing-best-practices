@@ -133,7 +133,7 @@ GIS:: _see_ <<geographic-information-system>>.
 
 [[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems.
 
-[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy estimates>>. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>.
+[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>.
 
 [[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both GPS and <<GNSS>> receivers (including those in smartphones and cameras). A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret radio signals from GNSS satellites and translate them into <<geographic coordinates>>.
 
