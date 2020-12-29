@@ -104,7 +104,7 @@ There is often confusion around what is meant by <<accuracy>>, <<error>>, <<bias
 
 Accuracy, error, and bias all relate directly to estimates of true values. The closer a statement (e.g. a measurement) is to the true value, the more accurate it is. Error is a measure of accuracy–the difference between an estimated value and the true value. The more accurate an estimate, the smaller the error. Bias is a measurement of the average systematic error in a set of measurements. Bias often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more accurate.
 
-[quote, Geodetic Survey Division (1996), FGDC 1998]
+[quote, "Geodetic Survey Division 1996, FGDC 1998"]
 Because the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.
 
 [#img-accuracy-vs-precision]
