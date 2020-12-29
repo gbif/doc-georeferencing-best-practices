@@ -27,7 +27,7 @@ https://doi.org/10.15468/doc-gg7h-s853
 
 === Abstract
 
-Georeferencing Best Practices provides guidelines to the best practice for georeferencing. Though targeted specifically at biological occurrence data, the concepts and methods presented here may be just as useful in other disciplines.
+Georeferencing Best Practices provides guidelines to the best practices for georeferencing. Though targeted specifically at biological occurrence data, the concepts and methods presented here may be just as useful in other disciplines.
 
 === Document control
 
