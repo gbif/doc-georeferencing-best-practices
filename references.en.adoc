@@ -83,7 +83,7 @@
 - [[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
 - Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962
 - Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/
-- Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_] [Accessed 13 Dec 2019].
+- Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_].
 - [[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
 - Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html
 - Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114
