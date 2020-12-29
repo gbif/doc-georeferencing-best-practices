@@ -121,7 +121,9 @@ Whereas <<error>> is an estimate of the difference between a measured value and 
 Like error, <<uncertainty>> is a measure of how different an unknown true value might be from a value given. In <<georeference,georeferencing>>, we use uncertainty to refer to the maximum distance from a center <<coordinates,coordinate>> of a georeference to the furthest point where the true <<location>> might be–a combination of all the possible sources of error given as a distance.
 
 [#img-xkcd-coordinate-precision]
-.40 digits: You are optimistic about our understanding of the nature of distance itself.<br />What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^].
+[%hardbreaks]
+.40 digits: You are optimistic about our understanding of the nature of distance itself.
+What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^].
 image::img/xkcd-coordinate-precision.png[width=50%,align="center"]
 
 === Software and Online Tools
