@@ -145,7 +145,7 @@
 - Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. Forests 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031
 - Topozone (1999) Free USGS Topo Maps for the Entire United States. https://www.topozone.com/
 - UNAVCO (2020) Geoid Height Calculator. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html
-- US Department of Defence & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf
+- US Department of Defense & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf
 - USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf
 - USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/
 - [[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
