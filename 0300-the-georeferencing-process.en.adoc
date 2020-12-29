@@ -625,7 +625,7 @@ h|Precision h|Interpretation h|Example h|Heading Uncertainty
 |NNE |Between N of NNE and E of NNE |10 km NNE of Lambert Centre |11.25°
 |===
 
-.Diagram showing directional precision for the interpretation of NE between ENE and NNE. Uncertainty (*x*, and *y*) increases with distance from the feature
+.Diagram showing directional precision for the interpretation of NE between ENE and NNE. Uncertainty (*x* and *y*) increases with distance from the feature
 [#img-directional-precision]
 image::img/directional-precision.png[width=464,align="center"]
 
@@ -686,7 +686,7 @@ CAUTION: Be careful that the value you are using for precision when calculating 
 <<img-orthogonal-distances-from-feature>> shows an example of two orthogonal distances measured from a <<feature>>, each with the uncertainty due to distance precision. If we ignore all sources of uncertainty except those arising from distance precision, the uncertainty is a bounding box centered on the point 8 km E and 6 km N of the <<corrected center>> of the feature. Each of the distance measurements demonstrates a precision of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km uncertainty in each cardinal direction from the center). Since we are characterizing the precision as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned bounding box to get the uncertainty due to the combined distance precisions. The radius of this circle is half the length of the distance precision bounding box, which is equal to one half the square root of two times the distance precision. So, for the above example the uncertainty associated with only the distance precision is one half the square root of two, or 0.707 km.
 
 [#img-orthogonal-distances-from-feature]
-.Example of a locality *b* as offsets (*x* and *y*) in orthogonal directions (from the corrected center *a* of a feature (i.e. stock watering point). The coordinates *b* (8 km E and 6 km N of *a* are surrounded by a bounding box 1 km square *c* showing the uncertainty due to distance precision of 1 km. The net uncertainty from distance precision is represented by a circle *d* that circumscribes the bounding box and which has a radial of 0.707 km. By convention the headings for localities with offsets in orthogonal directions are exactly in the specified directions and contribute no uncertainty due to direction precision.
+.Example of a locality *b* as offsets *x* and *y* in orthogonal directions (from the corrected center *a* of a feature (i.e. stock watering point). The coordinates *b* (8 km E and 6 km N of *a* are surrounded by a bounding box 1 km square *c* showing the uncertainty due to distance precision of 1 km. The net uncertainty from distance precision is represented by a circle *d* that circumscribes the bounding box and which has a radial of 0.707 km. By convention the headings for localities with offsets in orthogonal directions are exactly in the specified directions and contribute no uncertainty due to direction precision.
 image::img/orthogonal-distances-from-feature.png[width=475,align="center"]
 
 ==== Combined Uncertainties
@@ -724,7 +724,7 @@ A spatial fit with a value of "1" is an exact match or 100 per cent overlap. If 
 An example of the applicability of the spatial fit is where a point representing a terrestrial collection lies close to the coast, and the calculated <<uncertainty>> <<radial,radius>> encompasses some {marine}marine area. In this case the spatial fit would be greater than 1 as it represents an area greater than the real uncertainty (<<img-spatial-fit-point-radius>>). Spatial fit is also a valuable measure for describing the degree of <<generalization>> of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^].
 
 [#img-spatial-fit]
-.A diagram illustrating the spatial fit of a location that can be described by a polygon, a bounding box, a circle, or a point. c: corrected center, r1: radial of the circle encompassing the polygon, *r2*: radial of the circle encompassing the bounding box. (Modified from https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^]).
+.A diagram illustrating the spatial fit of a location that can be described by a polygon, a bounding box, a circle, or a point. *c* is the corrected center, *r1* is the radial of the circle encompassing the polygon, *r2* is the radius of the circle encompassing the bounding box. (Modified from https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^]).
 image::img/spatial-fit.png[width=429,align="center"]
 
 <<img-spatial-fit>> illustrates a few examples of the definition of spatial fit and these are elaborated in the Tables below:
