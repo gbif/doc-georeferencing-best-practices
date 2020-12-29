@@ -65,7 +65,7 @@ Based on an assessment of a variety of large-scale georeferencing projects that 
 * Prepare the data for georeferencing:
 ** Make sure that original records are uniquely identified (ideally with <<PID,PIDs>>, see <<Persistent Identifiers (PIDs)>>).
 ** Make sure that original data are captured and safe from alteration during the georeferencing process.
-** Extract distinct <<locality,localities>>, generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding locality identifier in each original record.
+** Extract distinct combinaation of all <<locality,locality-related>> fields (including administrative geography, <<elevation>>, etc.), generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding locality identifier in each original record.
 ** Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct locality records.
 ** Label localities as marine, terrestrial, freshwater aquatic, or paleontological. The same locality description may refer to more than one category (e.g. <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with localities alone, you should account for all of the environmental possibilities.
 ** Create and uniquely identify distinct standardized localities and reference the standardized locality GUID in the non-standardized locality records.
