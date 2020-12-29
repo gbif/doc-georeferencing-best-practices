@@ -76,7 +76,7 @@ Not all linear-based <<location,locations>> are <<transect,transects>> or straig
 To determine the <<uncertainty>> of a described <<path>> using the <<point-radius>> <<georeferencing method>>, one needs to determine the <<corrected center>> – i.e. the point on the <<path>> that describes the <<smallest enclosing circle>> that includes the totality of the path ("c" on <<img-path-center>>). This is very seldom the same place as the center of a line joining the two ends of the path ("y" on <<img-path-center>>), nor the center of the extremes of <<latitude>> and <<longitude>> (the <<geographic center>>) of the path ("x" on <<img-path-center>>).
 
 [#img-path-center]
-.A path (river) showing the center of the smallest enclosing circle, '*x*', the mid point between the ends of the river '*y*', the corrected center '*c*', and the radial '*r*'.
+.A path (river) showing the center of the smallest enclosing circle *x*, the mid point between the ends of the river *y*, the corrected center *c*, and the radial *r*.
 image::img/path-center.png[width=251px,align="center"]
 
 ==== Polygons
@@ -84,7 +84,7 @@ image::img/path-center.png[width=251px,align="center"]
 When collecting or recording data from an area, for example, bird counts on a lake, a set of nesting or roosting sites on an offshore coral cay, or a buffered <<transect>> – the <<location>> is best recorded as a polygon. Polygons can be stored using the <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) field called term:dwc[dwc:footprintWKT], in which a <<geometry>> can be stored in the Well-Known Text format (https://www.iso.org/standard/60343.html[ISO 2016^]). For the <<point-radius>> <<georeferencing method>>, if the polygon has a concave shape (for example a crescent), the center may not actually fall within the polygon (<<img-polygon-center>>). In that case, the <<corrected center>> on the <<boundary>> of the polygon is used for the <<coordinates>> of the location and the <<geographic radial>> is measured from that point to the furthest extremity of the polygon. Note that the circle based on the <<corrected center>> (red circle in <<img-polygon-center>>) will always be greater than the circle based on the <<geographic center>> (black circle in <<img-polygon-center>>).
 
 [#img-polygon-center]
-.The town of Caraguitatuba in São Paulo, Brazil (a complicated polygon), showing the center ('*x*') of the smallest enclosing circle encompassing the whole of the town, and the corrected center ('*c*') – the nearest place on the boundary to '*x*'. '*r*' is the geographic radial of the larger, red circle.
+.The town of Caraguitatuba in São Paulo, Brazil (a complicated polygon), showing the center *x* of the smallest enclosing circle encompassing the whole of the town, and the corrected center *c* – the nearest place on the boundary to *x*. *r* is the geographic radial of the larger, red circle.
 image::img/polygon-center.png[width=342px,align="center"]
 
 Complex polygons, such as donuts, self-intersecting polygons and multipolygons create even more problems, in both documentation and storage.
@@ -96,7 +96,7 @@ Complex polygons, such as donuts, self-intersecting polygons and multipolygons c
 It is important when converting gridded data to <<geographic coordinates>> to also check the <<locality>> description. Locality information may allow you to refine the <<location>> as in <<img-gridded>> where just having the <<grid,grids>> without the locality information (i.e. "on Northey Island") would lead to the circle (c) with its center (a) at the center of the grid. Knowing that the record is on Northey Island, however, allows you to refine the location to the smaller circle (d) with its center at (b). Note that other criteria (such as a change of <<datum>>, map scale, etc.) may add to the <<uncertainty>>.
 
 [#img-gridded]
-.Two options for georeferencing gridded data, ① circle '*c*' with center at '*a*' for just the grid cell, and ② circle '*d*' with center at '*b*' using the part of the grid cell constrained to be on Northey Island.
+.Two options for georeferencing gridded data, 1) circle *c* with center at *a* for just the grid cell, and 2) circle *d* with center at *b* using the part of the grid cell constrained to be on Northey Island.
 image::img/gridded.png[width=371,align="center"]
 
 ===== Township, Range and Section and Equivalents
@@ -115,7 +115,7 @@ Unlike most geographic <<grid>> systems, which have their origin in the bottom l
 Note that QDS is developed for use in Africa, and currently only works in the Southern Hemisphere. It has been suggested that it be extended for use in the Northern Hemisphere, but this is not yet under development.
 
 [#img-quarter-degree-squares]
-.Recording data using Quarter Degree Square (QDS) grids. The green grid is referenced as QDS 3218CB. Image with permission from http://rephotosa.adu.org.za/FAQs.php[RePhotoSA^].
+.Recording data using Quarter Degree Square (QDS) grids. The filled green grid cell is referenced as QDS 3218CB. Image with permission from http://rephotosa.adu.org.za/FAQs.php[RePhotoSA^].
 image::img/quarter-degree-squares.svg[width=264,align="center"]
 
 ==== Three-Dimensional Shapes
@@ -125,7 +125,7 @@ Most terrestrial <<location,locations>> are recorded with reference to the terre
 {marine}Diving <<event,events>> are commonly recorded using the geographic coordinates of the point on the surface where the diver entered the water, called <<entry point>> or point of entry. The underwater <<location>> should be recorded as a horizontal distance and <<direction>> along with water <<depth>> from that surface location (see <<img-underwater-event>>). Below the surface the diver may then begin a collection/observation exercise in three dimensions from that point including a horizontal component and a minimum and maximum water depth. These should all be recorded. The reference point should be the <<corrected center>> of the 3D-shape that includes the <<extent>> of the location. The <<geographic radial>> would be the distance from the corrected center of the 3D shape (the three dimensions projected perpendicularly onto the surface) to the furthest extremity of the projection of the 3D-shape in the horizontal plane (i.e. on the <<geographic boundary>>).
 
 [#img-underwater-event]
-.Recording the location of an underwater event. '*E*' denotes entry point, the surface location at which the geographic coordinates are recorded. '*x*' is the water depth, '*y*' is the horizontal offset (distance and direction) from '*E*' to the center of the location. Extent '*e*' is the three-dimensional location covered by the event. The corrected center '*cc*' is the point within the 3D shape that minimizes the length of the geographic radial '*gr*'. Minimum depth '*d1*' and maximum depth '*d2*' are the upper and lower limits of the location.
+.Recording the location of an underwater event. *E* denotes the entry point, the surface location at which the geographic coordinates are recorded. *x* is the water depth, *y* is the horizontal offset (distance and direction) from *E* to the center of the location. Extent *e* is the three-dimensional location covered by the event. The corrected center *cc* is the point within the 3D shape that minimizes the length of the geographic radial *gr*. Minimum depth *d1* and maximum depth *d2* are the upper and lower limits of the location.
 image::img/underwater-event.png[width=511,align="center"]
 
 {marine}There are many different types of trawls and tows, including bottom and mid-water trawls. The 3D nature should be captured as above. The geographic reference points would be line segments tracing the route of the trawl, and would be more akin to <<path,paths>> and captured as a <<shape>> as described in <<paths,§2.3.2>>.
@@ -389,7 +389,7 @@ The reference point for the measurement of a distance above surface can vary dep
 We recommend that distance above surface always be measured in the same sense, that is, as distances _above_ the reference surface. Distances above a reference point should be expressed as positive numbers, while those below should be negative. This is analogous to elevation, which is positive when expressing a distance above <<mean-sea-level>> and negative below that reference point. The maximum distance above surface will always be a number greater than or equal to the minimum distance above that surface for a given <<location>> (see <<img-depth-elevation-distance-above-surface>>).
 
 [#img-depth-elevation-distance-above-surface]
-.Examples of use of depth, elevation and distance above surface, for *A*: terrestrial locations, *B*: caves, and *C*: aquatic locations. *a* = elevation, either of a land surface or of an air/water interface; *b* = distance above surface, marked positive (+) or negative (−); *c* = depth (always positive).
+.Examples of use of depth, elevation and distance above surface, for *A*: terrestrial locations, *B*: caves, and *C*: aquatic locations. *a* signifies elevation, either of a land surface or of an air/water interface; *b* = distance above surface, marked positive (+) or negative (−); *c* signifies depth (always positive).
 image::img/depth-elevation-distance-above-surface.png[width=514,align="center"]
 
 For the special case of recording locations within a {caves}cave system or in an underground mine, see <<Caves>>.
