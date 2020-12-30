@@ -7,7 +7,7 @@ endif::backend-html5[]
 
 === Suggested citation
 
-Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices [Community review draft]. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
+Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
 
 === Authors
 
