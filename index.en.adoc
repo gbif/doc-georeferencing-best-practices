@@ -1,4 +1,4 @@
-= Georeferencing Best Practices [Community review draft]
+= Georeferencing Best Practices
 :authorcount: 2
 :author_1: Arthur D. Chapman
 :author_2: John R. Wieczorek
