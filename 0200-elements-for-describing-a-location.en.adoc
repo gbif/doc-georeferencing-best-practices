@@ -262,7 +262,6 @@ We are not aware of the characteristics of the <<accuracy>> of <<GPS>>-enabled c
 
 Supplement the <<locality>> description with <<elevation>> information if this can be easily obtained. Elevation can be determined from a variety of sources while in the field, including altimeters, maps (both digital and paper), and <<GPS>>/<<GNSS>> receivers, each with associated <<uncertainty,uncertainties>>. Elevation can be estimated after the fact using <<digital elevation model,Digital Elevation Models>> at the <<coordinates>> of the <<location>>. In any case, record the method used to determine the elevation.
 
-[NOTE]
 --
 [quote,Murphy et al. 2004]
 Elevation markings can narrow down the area in which you place a point. More often than not, however, they seem to create inconsistency. While elevation should not be ignored, it is important to realize that elevation was often measured inaccurately and/or imprecisely, especially early in the 20th century. One of the best uses of elevation in a locality description is to pinpoint a location along a road or river in a topographically complex area, especially when the rest of the locality description is vague.
