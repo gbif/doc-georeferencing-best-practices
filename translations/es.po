@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-02 13:33\n"
+"PO-Revision-Date: 2021-02-02 14:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -54,7 +54,7 @@ msgstr ""
 #: colophon.en.adoc:12
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "Autores"
 
 #. type: Plain text
 #: colophon.en.adoc:15
@@ -65,7 +65,7 @@ msgstr ""
 #: colophon.en.adoc:16
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #. type: Plain text
 #: colophon.en.adoc:19
@@ -76,7 +76,7 @@ msgstr ""
 #: colophon.en.adoc:20
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #. type: Plain text
 #: colophon.en.adoc:23
@@ -98,7 +98,7 @@ msgstr ""
 #: colophon.en.adoc:28
 #, no-wrap
 msgid "Abstract"
-msgstr ""
+msgstr "Resumen"
 
 #. type: Plain text
 #: colophon.en.adoc:31
@@ -152,7 +152,7 @@ msgstr ""
 #: 0100-introduction.en.adoc:1
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:4
@@ -177,7 +177,7 @@ msgstr ""
 #. type: Plain text
 #: 0100-introduction.en.adoc:12
 msgid "This version is a complete revision with many new and updated references. The major changes and additions in this edition include:"
-msgstr ""
+msgstr "Esta versión es una revisión completa con muchas referencias nuevas y actualizadas. Los cambios y adiciones más importantes en esta edición incluyen:"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:14
@@ -233,7 +233,7 @@ msgstr ""
 #: 0100-introduction.en.adoc:24
 #, no-wrap
 msgid "Objectives"
-msgstr ""
+msgstr "Objetivos"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:27
