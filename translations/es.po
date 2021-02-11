@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-09 14:14\n"
+"PO-Revision-Date: 2021-02-11 15:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5831,23 +5831,23 @@ msgstr ""
 #: glossary.en.adoc:150
 #, no-wrap
 msgid "[[latitude]]latitude"
-msgstr ""
+msgstr "[[latitude]]latitud"
 
 #. type: Plain text
 #: glossary.en.adoc:151
 msgid "The angular distance of a point north or south of the equator."
-msgstr ""
+msgstr "La distancia angular de un punto al norte o sur del ecuador."
 
 #. type: Labeled list
 #: glossary.en.adoc:152
 #, no-wrap
 msgid "[[locality]]locality"
-msgstr ""
+msgstr "[[locality]]localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:153
 msgid "The verbal representation of a <<location>>, also sometimes called \"locality description\"."
-msgstr ""
+msgstr "La representación verbal de una <<location>>, también llamada a veces \"descripción de la localidad\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:154
@@ -5875,7 +5875,7 @@ msgstr ""
 #: glossary.en.adoc:158
 #, no-wrap
 msgid "[[location]]location"
-msgstr ""
+msgstr "[[location]]ubicación"
 
 #. type: Plain text
 #: glossary.en.adoc:159
