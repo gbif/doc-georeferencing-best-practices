@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-11 16:27\n"
+"PO-Revision-Date: 2021-02-11 17:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5302,7 +5302,7 @@ msgstr ""
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[decimal-longitude]]decimal longitude"
-msgstr ""
+msgstr "[[decimal-longitude]]longitud decimal"
 
 #. type: Plain text
 #: glossary.en.adoc:54
@@ -5864,7 +5864,7 @@ msgstr ""
 #: glossary.en.adoc:156
 #, no-wrap
 msgid "[[locality-type]]locality type"
-msgstr ""
+msgstr "[[locality-type]]tipo de localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:157
@@ -5880,18 +5880,18 @@ msgstr "[[location]]ubicación"
 #. type: Plain text
 #: glossary.en.adoc:159
 msgid "A physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language <<locality>> description. In <<georeference,georeferencing>>, a location can have distinct representations based on distinct <<rules of interpretation>>, each of which is embodied in a <<georeferencing method>>."
-msgstr ""
+msgstr "Un espacio físico que puede posicionarse y orientarse de manera relativa a un punto de referencia, y potencialmente descrito en un lenguaje natural en la descripción de la <<locality>>. En <<georeference,georeferencing>>, una ubicación puede tener distintas representaciones basadas en diferentes <<rules of interpretation>>, cada una de las cuales está incorporada en un <<georeferencing method>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:160
 #, no-wrap
 msgid "[[longitude]]longitude"
-msgstr ""
+msgstr "[[longitude]]longitud"
 
 #. type: Plain text
 #: glossary.en.adoc:161
 msgid "The angular distance of a point east or west of a <<prime meridian>> at a given <<latitude>>."
-msgstr ""
+msgstr "La distancia angular de un punto este o oeste del <<prime meridian>> a una <<latitude>> determinada."
 
 #. type: Labeled list
 #: glossary.en.adoc:162
