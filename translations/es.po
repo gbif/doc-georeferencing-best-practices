@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-11 15:27\n"
+"PO-Revision-Date: 2021-02-11 16:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5056,29 +5056,29 @@ msgstr "Glosario"
 #. type: Plain text
 #: glossary.en.adoc:5
 msgid "The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^]."
-msgstr ""
+msgstr "El propósito de este glosario es definir conceptos importantes de acuerdo con el significado previsto en este documento y otros asociados como la {gqg}[Guía Rápida de georreferenciación (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Manual de la Calculadora de Georreferenciación (Bloom et al. 2020)^]. Los términos presentados aquí se han adapto de muchas fuentes, incluyendo Wikipedia (desde noviembre de 2019), el Diccionario de ESRI (desde noviembre de 2019) (https://support.esri.com/es/other-resources/gis-dictionary/browse/[ESRI n.d.^]), y varios artículos como https://doi.org/10.4135/9781412953962[Kemp 2008^]. Sin embargo, estos conceptos pueden ser consultados en otras fuentes con mayor contexto."
 
 #. type: Labeled list
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[accuracy]]accuracy"
-msgstr ""
+msgstr "[[accuracy]]exactitud"
 
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "The closeness of an estimated value (for example, measured or computed) to a standard or accepted (\"true\") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr ""
+msgstr "La cercanía de un valor estimado (por ejemplo, medido o calculado) a un valor estándar o aceptado (\"verdadero\"). Antónimo: inexactitud. Revisa <<error>>, <<bias>>, <<precision>>, <<false precision>> y <<uncertainty>>."
 
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "\"The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.\" (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
-msgstr ""
+msgstr "\"El valor verdadero no es conocido, sólo estimado, la exactitud de la cantidad medida también es desconocida. Por lo tanto, la exactitud de la coordenada, sólo puede ser estimada. (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey División 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:11
 #, no-wrap
 msgid "[[altitude]]altitude"
-msgstr ""
+msgstr "[[altitude]]altitud"
 
 #. type: Plain text
 #: glossary.en.adoc:12
@@ -5869,7 +5869,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:157
 msgid "A category applied to a <<locality clause>> that determines the specific <<georeferencing protocol>> that should be used."
-msgstr ""
+msgstr "Una categoría aplicada a una <<locality clause>> que determina el <<georeferencing protocol>> específico que debe ser utilizado."
 
 #. type: Labeled list
 #: glossary.en.adoc:158
