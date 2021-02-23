@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-11 18:47\n"
+"PO-Revision-Date: 2021-02-23 15:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5083,39 +5083,39 @@ msgstr "[[altitude]]altitud"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>."
-msgstr ""
+msgstr "Una medición de la distancia vertical por encima de un <<vertical datum>>, normalmente <<mean-sea-level>> o <<geoid>>. Para los puntos en la superficie de la Tierra, la altitud es sinónimo de <<elevation>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[antimeridian]]antimeridian"
-msgstr ""
+msgstr "[[antimeridian]]antimeridio"
 
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
-msgstr ""
+msgstr "El <<meridian>> de <<longitude>> opuesta a un <<meridian>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<prime meridian>> y se utiliza como base de la Línea internacional de cambio de fecha."
 
 #. type: Plain text
 #: glossary.en.adoc:16
 msgid "[[bathymetry]]bathymetry::"
-msgstr ""
+msgstr "[[bathymetry]]batimetría::"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "The measure of <<depth>> of water in oceans, seas and lakes."
-msgstr ""
+msgstr "Medida de <<depth>> del agua en océanos, mares y lagos."
 
 #. type: Plain text
 #: glossary.en.adoc:18
 msgid "The shapes of underwater terrains, including underwater topography and sea floor mapping."
-msgstr ""
+msgstr "Las formas de los terrenos subacuáticos, incluyendo la topografía submarina y el mapeo de los fondos marinos."
 
 #. type: Labeled list
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[bias]]bias"
-msgstr ""
+msgstr "[[bias]]tendencia"
 
 #. type: Plain text
 #: glossary.en.adoc:20
