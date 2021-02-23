@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-23 16:12\n"
+"PO-Revision-Date: 2021-02-23 17:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5236,29 +5236,29 @@ msgstr "Término <<Darwin Core>> correspondiente a la <<maximum uncertainty dist
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[corrected-center]]corrected center"
-msgstr ""
+msgstr "[[corrected-center]]centro corregido"
 
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see <<img-polygon-center>>)."
-msgstr ""
+msgstr "El punto dentro de una <<location>>, o en su <<boundary>>, que minimiza el <<geographic radial>> de la ubicación. Este punto se obtiene haciendo el <<smallest enclosing circle>> que contiene todo la <<feature>>, y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer el <<smallest enclosing circle>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radial>>, siempre serán mas grandes que el no corregido (ver <<img-polygon-center>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
 #, no-wrap
 msgid "[[Darwin-Core]]Darwin Core"
-msgstr ""
+msgstr "[[Darwin-Core]]Darwin Core"
 
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "A standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^])."
-msgstr ""
+msgstr "Estándar para el intercambio de información sobre diversidad biológica (ver https://www.tdwg.org/standards/dwc/[Darwin Core^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[data-quality]]data quality"
-msgstr ""
+msgstr "[[data-quality]]calidad de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:46
@@ -5269,7 +5269,7 @@ msgstr ""
 #: glossary.en.adoc:47
 #, no-wrap
 msgid "[[datum]]datum"
-msgstr ""
+msgstr "[[datum]]datum"
 
 #. type: Plain text
 #: glossary.en.adoc:48
@@ -5280,7 +5280,7 @@ msgstr ""
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[decimal-degrees]]decimal degrees"
-msgstr ""
+msgstr "[[decimal-degrees]]grados decimales"
 
 #. type: Plain text
 #: glossary.en.adoc:50
@@ -5291,7 +5291,7 @@ msgstr ""
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[decimal-latitude]]decimal latitude"
-msgstr ""
+msgstr "[[decimal-latitude]]latitud decimal"
 
 #. type: Plain text
 #: glossary.en.adoc:52
@@ -5313,7 +5313,7 @@ msgstr ""
 #: glossary.en.adoc:55
 #, no-wrap
 msgid "declination"
-msgstr ""
+msgstr "declinación"
 
 #. type: Plain text
 #: glossary.en.adoc:56
@@ -5324,7 +5324,7 @@ msgstr ""
 #: glossary.en.adoc:57
 #, no-wrap
 msgid "[[DEM]]DEM"
-msgstr ""
+msgstr "[[DEM]]DEM"
 
 #. type: Plain text
 #: glossary.en.adoc:58
@@ -5335,7 +5335,7 @@ msgstr ""
 #: glossary.en.adoc:59
 #, no-wrap
 msgid "[[depth]]depth"
-msgstr ""
+msgstr "[[depth]]profundidad"
 
 #. type: Plain text
 #: glossary.en.adoc:60
@@ -5358,12 +5358,12 @@ msgstr ""
 #: glossary.en.adoc:64
 #, no-wrap
 msgid "[[direction]]direction"
-msgstr ""
+msgstr "[[direction]]dirección"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "see <<heading>>."
-msgstr ""
+msgstr "ver <<heading>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:66
@@ -5380,7 +5380,7 @@ msgstr ""
 #: glossary.en.adoc:68
 #, no-wrap
 msgid "[[DMS]]DMS"
-msgstr ""
+msgstr "[[DMS]]GMS"
 
 #. type: Plain text
 #: glossary.en.adoc:69
@@ -5402,7 +5402,7 @@ msgstr ""
 #: glossary.en.adoc:72
 #, no-wrap
 msgid "[[elevation]]elevation"
-msgstr ""
+msgstr "[[elevation]]elevación"
 
 #. type: Plain text
 #: glossary.en.adoc:73
@@ -5490,12 +5490,12 @@ msgstr ""
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[feature]]feature"
-msgstr ""
+msgstr "[[feature]]geometría"
 
 #. type: Plain text
 #: glossary.en.adoc:89
 msgid "An object of observation, measurement, or reference that can be represented spatially. Often categorized into \"feature types\" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. \"Mount Everest\", \"Ruta 40\", \"Istanbul\"), which are also sometimes referred to as \"named places\", \"place names\" or \"toponyms\"."
-msgstr ""
+msgstr "Un objeto de observación, medida o referencia que puede ser representado espacialmente. A menudo categorizado en \"tipos\" (p. ej. montañas, caminos, centros poblados, etc.) y nombres específicos (p. ej. \"Monte Everest\", \"Ruta 40\", \"Istanbul\"), que también se denominan \"nombres de lugares\" o \"topónimos\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:90
