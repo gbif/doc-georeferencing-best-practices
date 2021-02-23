@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-23 15:12\n"
+"PO-Revision-Date: 2021-02-23 16:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5115,122 +5115,122 @@ msgstr "Las formas de los terrenos subacuáticos, incluyendo la topografía subm
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[bias]]bias"
-msgstr "[[bias]]tendencia"
+msgstr "[[bias]]sesgo"
 
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr ""
+msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Ver: <<accuracy>>, <<error>>, <<precision>>, <<false precision>> y <<uncertainty>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[boundary]]boundary"
-msgstr ""
+msgstr "[[boundary]] límite"
 
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "The spatial divide between what is inside a <<location>> and what is outside of it."
-msgstr ""
+msgstr "La división espacial entre lo que está dentro de una <<location>> y lo que está fuera de ella."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[bounding-box]]bounding box"
-msgstr ""
+msgstr "[[bounding-box]]cuadro delimitador"
 
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within."
-msgstr ""
+msgstr "Un área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, donde esos dos rincones definen los extremos norte-sur y este-oeste de la zona contenida."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "clause"
-msgstr ""
+msgstr "componente"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "see <<locality clause>>."
-msgstr ""
+msgstr "ver <<locality clause>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[coordinate-format]]coordinate format"
-msgstr ""
+msgstr "[[coordinate-format]]formato de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "The format in which <<coordinates>> are encoded, such as \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"degrees decimal minutes\", or <<UTM>>."
-msgstr ""
+msgstr "El formato en el que las <<coordinates>> están codificadas, como \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"grados minutos decimales\" o <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[coordinate-precision]]coordinate precision"
-msgstr ""
+msgstr "[[coordinate-precision]]precisión de las coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree."
-msgstr ""
+msgstr "La fracción de un grado correspondiente al número de dígitos significativos en las <<coordinates>> fuente. Por ejemplo, si las coordenadas son reportadas al minuto más cercano, la <<precision>> es 1/3600th (0. 0027778) de grado; si un <<decimal-degrees,decimal degree>> se reporta a dos decimales, la precisión es 0.01 de grado."
 
 #. type: Labeled list
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[coordinate-reference-system]]coordinate reference system"
-msgstr ""
+msgstr "[[coordinate-reference-system]]sistema de referencia de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "(also <<spatial reference system>>) A <<coordinate system>> defined in relation to a standard reference or <<datum>>."
-msgstr ""
+msgstr "(también <<spatial reference system>>) A <<coordinate system>> definido en relación a una referencia estándar o <<datum>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[coordinate-system]]coordinate system"
-msgstr ""
+msgstr "[[coordinate-system]]sistema de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system."
-msgstr ""
+msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordinates>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<geographic coordinate system>> y el sistema de coordenadas <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:35
 #, no-wrap
 msgid "[[coordinate-uncertainty]]coordinate uncertainty"
-msgstr ""
+msgstr "[[coordinate-uncertainty]]incertidumbre de las coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "A measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be."
-msgstr ""
+msgstr "Medida de la distancia mínima desde una <<coordinates,coordinate>>, en la que puede interpretarse que se ubica una <<locality>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[coordinates]]coordinates"
-msgstr ""
+msgstr "[[coordinates]]coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "A set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations."
-msgstr ""
+msgstr "Conjunto de valores que definen una posición dentro de un <<coordinate system>>. Las coordenadas se utilizan para representar <<location,locations>> en el espacio en relación a otras ubicaciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:39
 #, no-wrap
 msgid "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
-msgstr ""
+msgstr "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
 
 #. type: Plain text
 #: glossary.en.adoc:40
 msgid "The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters."
-msgstr ""
+msgstr "Término <<Darwin Core>> correspondiente a la <<maximum uncertainty distance>> en metros."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
