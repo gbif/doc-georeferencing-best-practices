@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-23 17:24\n"
+"PO-Revision-Date: 2021-02-24 14:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5263,7 +5263,7 @@ msgstr "[[data-quality]]calidad de datos"
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^])."
-msgstr ""
+msgstr "Aptitud para el uso de los datos (en inglés: ´Fitness for use') (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Como colector de los datos originales, puede que usted tenga una intensión de uso para los datos recopilados, pero los datos tienen el potencial de ser utilizados de otras maneras no previstas; por lo tanto, el valor de sus datos está directamente relacionado con la aptitud de dichos datos para ser utilizados en una variedad de usos. A medida que los datos se vuelven más accesibles, son mas evidentes sus potenciales usos. (http://www.gbif.org/document/80545[Chapman 2005c^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:47
