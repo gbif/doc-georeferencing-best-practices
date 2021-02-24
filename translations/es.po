@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-24 14:32\n"
+"PO-Revision-Date: 2021-02-24 15:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5263,7 +5263,7 @@ msgstr "[[data-quality]]calidad de datos"
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^])."
-msgstr "Aptitud para el uso de los datos (en inglés: ´Fitness for use') (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Como colector de los datos originales, puede que usted tenga una intensión de uso para los datos recopilados, pero los datos tienen el potencial de ser utilizados de otras maneras no previstas; por lo tanto, el valor de sus datos está directamente relacionado con la aptitud de dichos datos para ser utilizados en una variedad de usos. A medida que los datos se vuelven más accesibles, son mas evidentes sus potenciales usos. (http://www.gbif.org/document/80545[Chapman 2005c^])."
+msgstr "Aptitud para el uso de los datos (en inglés: ´Fitness for use') (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Como colector de datos primarios, puede que usted tenga una intensión de uso para los mismos, pero estos tienen el potencial de ser utilizados de otras maneras aún no previstas; por lo tanto, el valor de los datos está directamente relacionado con la aptitud que tienen para ser utilizados en una variedad de usos. A medida que los datos se vuelven más accesibles, son mas evidentes sus potenciales usos. (http://www.gbif.org/document/80545[Chapman 2005c^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:47
@@ -5274,7 +5274,7 @@ msgstr "[[datum]]datum"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>."
-msgstr ""
+msgstr "Conjunto de uno o más parámetros que sirven como referencia o base para el cálculo de otros parámetros https://www.iso.org/standard/74039.html[ISO 19111^]. El datum define la posición del origen, la escala y la orientación de los ejes de un <<coordinate system>>. Para propósitos de la <<georeference,georeferencing>>, un datum puede ser un <<geodetic datum>> o un <<vertical datum>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -5285,7 +5285,7 @@ msgstr "[[decimal-degrees]]grados decimales"
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>."
-msgstr ""
+msgstr "Grados expresados como un único número real (p. ej., -22.343456). Tenga en cuenta que las <<latitude,latitudes>> al sur del ecuador son negativas, al igual que las <<longitude,longitudes>> al oeste del <<prime meridian>> hasta −180 grados. Ver también <<decimal latitude>> y <<decimal longitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
@@ -5296,7 +5296,7 @@ msgstr "[[decimal-latitude]]latitud decimal"
 #. type: Plain text
 #: glossary.en.adoc:52
 msgid "<<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of decimal latitude are −90 to 90, inclusive."
-msgstr ""
+msgstr "<<latitude,Latitude>> expresada en <<decimal degrees>>. Los límites de la latitud decimal se encuentran entre -90 y 90 grados."
 
 #. type: Labeled list
 #: glossary.en.adoc:53
@@ -5307,7 +5307,7 @@ msgstr "[[decimal-longitude]]longitud decimal"
 #. type: Plain text
 #: glossary.en.adoc:54
 msgid "<<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of decimal longitude are −180 to 180, inclusive."
-msgstr ""
+msgstr "<<longitude,Longitude>> expresada en <<decimal degrees>>. Los límites de la latitud decimal se encuentran entre -180 y 180 grados."
 
 #. type: Labeled list
 #: glossary.en.adoc:55
@@ -5318,7 +5318,7 @@ msgstr "declinación"
 #. type: Plain text
 #: glossary.en.adoc:56
 msgid "see <<magnetic declination>>."
-msgstr ""
+msgstr "ver <<magnetic declination>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:57
@@ -5329,7 +5329,7 @@ msgstr "[[DEM]]DEM"
 #. type: Plain text
 #: glossary.en.adoc:58
 msgid "see <<digital elevation model>>."
-msgstr ""
+msgstr "ver <<digital elevation model>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:59
@@ -5340,18 +5340,18 @@ msgstr "[[depth]]profundidad"
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, \"water depth\" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number."
-msgstr ""
+msgstr "Medición de la distancia vertical por debajo de un <<vertical datum>>. En este documento tratamos de modificar el término para indicar el medio en el que se realiza la medición. En este sentido, la \"profundidad del agua\" es la distancia vertical por debajo de una interfaz de aire - agua, en un cuerpo de agua (océano, lago, río, agujero, etc.). Ver <<distance above surface>>. Profundidad es siempre un número no negativo."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
 #, no-wrap
 msgid "[[digital-elevation-model,digital elevation model]]digital elevation model (DEM)"
-msgstr ""
+msgstr "[[digital-elevation-model,digital elevation model]] modelo digital de elevación (DEM)"
 
 #. type: Plain text
 #: glossary.en.adoc:62
 msgid "A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean-sea-level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope."
-msgstr ""
+msgstr "Representación digital de la elevación de una <<location,locations>> en la superficie de la tierra, habitualmente representado en forma de una <<grid>> rectangular (raster) que almacena la <<elevation>> relativa al <<mean-sea-level>> o algún otro <<vertical datum>>. El término Modelo de Terreno Digital (DTM) se utiliza a veces de forma intercambiable con DEM, aunque normalmente se limita a modelos que representan capas. Un DTM normalmente contiene información adicional de superficie, como picos y roturas en pendiente."
 
 #.  TODO, link directly to heading?
 #. type: Labeled list
@@ -5369,12 +5369,12 @@ msgstr "ver <<heading>>."
 #: glossary.en.adoc:66
 #, no-wrap
 msgid "[[distance-above-surface]]distance above surface"
-msgstr ""
+msgstr "[[distance-above-surface]]distancia sobre la superficie"
 
 #. type: Plain text
 #: glossary.en.adoc:67
 msgid "In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>."
-msgstr ""
+msgstr "Además de la <<elevation>> y la <<depth>>, esta es una medida de la distancia vertical sobre un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Para la <<location,locations>> de una superficie terrestre, el punto de referencia debe ser la elevación a nivel del suelo. Sobre un cuerpo de agua (océano, mar, lago, río, glacier, etc.), el punto de referencia para las ubicaciones aéreas debe ser la elevación a partir de la interfaz aire-agua, mientras que el punto de referencia para ubicaciones bénticas subsuperficiales debe ser la interfaz entre el agua y el sustrato. Las ubicaciones dentro de un cuerpo de agua deben usar la profundidad en lugar de una <<distance above surface>> negativa. Las distancias por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están abajo deben ser negativas. La distancia máxima sobre una superficie será siempre un número mayor o igual a la distancia mínima sobre la superficie. Dado que las distancias por debajo de una superficie son números negativos, la distancia máxima siempre será un número menor o igual a la distancia mínima. Ver <<altitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:68
@@ -5385,7 +5385,7 @@ msgstr "[[DMS]]GMS"
 #. type: Plain text
 #: glossary.en.adoc:69
 msgid "Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W)."
-msgstr ""
+msgstr "Grados, minutos y segundos – uno de los formatos más comunes para expresar <<geographic coordinates>> en mapas. Un grado se divide en 60 minutos de arco y cada minuto se divide en 60 segundos de arco. Grados, minutos y segundos son indicados por los símbolos °, ', ''. Los grados de <<latitude>> son enteros entre 0 y 90 y deben ir seguidos de un indicador para el hemisferio (p. ej. N o S). Los grados de <<longitude>> son enteros entre 0 y 180, y deben ir seguidos de un indicador para el hemisferio (ej. E o W)."
 
 #. type: Labeled list
 #: glossary.en.adoc:70
