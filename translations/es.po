@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-24 15:33\n"
+"PO-Revision-Date: 2021-02-24 16:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5391,12 +5391,12 @@ msgstr "Grados, minutos y segundos – uno de los formatos más comunes para exp
 #: glossary.en.adoc:70
 #, no-wrap
 msgid "[[easting]]easting"
-msgstr ""
+msgstr "[[easting]]este"
 
 #. type: Plain text
 #: glossary.en.adoc:71
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map."
-msgstr ""
+msgstr "Dentro de un <<coordinate reference system>> (e.g. como la proporcionada por un <<GPS>> o un un mapa de <<grid>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridian>> de referencia en un mapa."
 
 #. type: Labeled list
 #: glossary.en.adoc:72
@@ -5407,24 +5407,24 @@ msgstr "[[elevation]]elevación"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean-sea-level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>."
-msgstr ""
+msgstr "Medida de la distancia vertical de una superficie contienental o marina a partir de un <<vertical datum>>. En los mapas, la referencia al <<datum>> generalmente es una interpretación del <<mean-sea-level>> o el <<geoid>>, mientras que en dispositivos <<GPS>>/<<GNSS>>, el datum de referencia es el <<ellipsoid>> del <<geodetic datum>> al que está configurada la unidad GPS, aunque el dispositivo puede hacer correcciones para informar de la elevación por encima del nivel del mar o del geoide. Las elevaciones que están por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están por debajo deben ser negativas. Ver <<depth>>, <<distance above surface>>, y <<altitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:74
 #, no-wrap
 msgid "[[ellipsoid]]ellipsoid"
-msgstr ""
+msgstr "[[ellipsoid]]elipsoide"
 
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis."
-msgstr ""
+msgstr "Una geometría tridimensional de <<shape>> cerrada, cuyas secciones planas son elipses o círculos. Un elipsoide tiene tres ejes independientes. Si un elipsoide se hace girando una elipse sobre uno de sus ejes, entonces dos ejes del elipsoide son los mismos, y se le llama un elipsoide de revolución. Cuando se usa para representar un modelo de la tierra, el elipsoide es un elipsoide oblato de revolución hecho girando un elipse sobre su eje menor."
 
 #. type: Labeled list
 #: glossary.en.adoc:76
 #, no-wrap
 msgid "[[entry-point]]entry point"
-msgstr ""
+msgstr "[[entry-point]]punto de entrada"
 
 #. type: Plain text
 #: glossary.en.adoc:77
@@ -5435,7 +5435,7 @@ msgstr ""
 #: glossary.en.adoc:78
 #, no-wrap
 msgid "[[EPSG]]EPSG"
-msgstr ""
+msgstr "[[EPSG]]EPSG"
 
 #. type: Plain text
 #: glossary.en.adoc:79
@@ -5446,40 +5446,40 @@ msgstr ""
 #: glossary.en.adoc:80
 #, no-wrap
 msgid "[[error]]error"
-msgstr ""
+msgstr "[[error]]error"
 
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called \"<<bias>>\". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr ""
+msgstr "La diferencia entre un valor calculado, estimado o medido y el valor verdadero aceptado, especificado, o teóricamente correcto. Este compara tanto la <<precision> de una medición como su imprecisión. El error puede ser aleatorio o sistemático. Si el error es sistemático, se llama \"<<bias>>\". Ver <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> y <<uncertainty>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:82
 #, no-wrap
 msgid "[[event]]event"
-msgstr ""
+msgstr "[[event]]evento"
 
 #. type: Plain text
 #: glossary.en.adoc:83
 msgid "A process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations."
-msgstr ""
+msgstr "Un proceso que ocurre en una determinada <<location>> durante un periodo de tiempo. Se utiliza genéricamente para cubrir varios tipos de eventos de colecta, eventos de muestreo y observaciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:84
 #, no-wrap
 msgid "[[extent]]extent"
-msgstr ""
+msgstr "[[extent]]extensión"
 
 #. type: Plain text
 #: glossary.en.adoc:85
 msgid "The entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance."
-msgstr ""
+msgstr "El espacio total dentro del <<boundary>> que representa una <<location>>. El alcance puede ser un volumen, un área o una distancia."
 
 #. type: Labeled list
 #: glossary.en.adoc:86
 #, no-wrap
 msgid "[[false-precision]]false precision"
-msgstr ""
+msgstr "[[false-precision]]precisión falsa"
 
 #. type: Plain text
 #: glossary.en.adoc:87
@@ -5512,7 +5512,7 @@ msgstr ""
 #: glossary.en.adoc:92
 #, no-wrap
 msgid "[[gazetteer]]gazetteer"
-msgstr ""
+msgstr "[[gazetteer]]gacetero"
 
 #. type: Plain text
 #: glossary.en.adoc:93
@@ -5523,7 +5523,7 @@ msgstr ""
 #: glossary.en.adoc:94
 #, no-wrap
 msgid "[[generalization]]generalization"
-msgstr ""
+msgstr "[[generalization]]generalización"
 
 #. type: Plain text
 #: glossary.en.adoc:95
@@ -5534,7 +5534,7 @@ msgstr ""
 #: glossary.en.adoc:96
 #, no-wrap
 msgid "[[geocode]]geocode"
-msgstr ""
+msgstr "[[geocode]]geocodificación"
 
 #. type: Plain text
 #: glossary.en.adoc:97
@@ -5545,7 +5545,7 @@ msgstr ""
 #: glossary.en.adoc:98
 #, no-wrap
 msgid "[[geodetic-coordinate-reference-system]]geodetic coordinate reference system"
-msgstr ""
+msgstr "[[geodetic-coordinate-reference-system]]sistema de referencia de coordenadas geodésicas"
 
 #. type: Plain text
 #: glossary.en.adoc:99
@@ -5556,7 +5556,7 @@ msgstr ""
 #: glossary.en.adoc:100
 #, no-wrap
 msgid "[[geodetic-datum]]geodetic datum"
-msgstr ""
+msgstr "[[geodetic-datum]]datum geodésico"
 
 #. type: Plain text
 #: glossary.en.adoc:101
@@ -5567,7 +5567,7 @@ msgstr ""
 #: glossary.en.adoc:102
 #, no-wrap
 msgid "[[geographic-boundary]]geographic boundary"
-msgstr ""
+msgstr "[[geographic-boundary]]límite geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:103
@@ -5578,7 +5578,7 @@ msgstr ""
 #: glossary.en.adoc:104
 #, no-wrap
 msgid "[[geographic-center]]geographic center"
-msgstr ""
+msgstr "[[geographic-center]]centro geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:105
@@ -5589,7 +5589,7 @@ msgstr ""
 #: glossary.en.adoc:106
 #, no-wrap
 msgid "[[geographic-component]]geographic component"
-msgstr ""
+msgstr "[[geographic-component]]componente geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:107
@@ -5644,7 +5644,7 @@ msgstr ""
 #: glossary.en.adoc:116
 #, no-wrap
 msgid "[[geographic-information-system,geographic information system]]geographic information system (GIS)"
-msgstr ""
+msgstr "[[geographic-information-system,geographic information system]]sistema de información geográfica (SIG)"
 
 #. type: Plain text
 #: glossary.en.adoc:117
@@ -5655,7 +5655,7 @@ msgstr ""
 #: glossary.en.adoc:118
 #, no-wrap
 msgid "[[geographic-radial]]geographic radial"
-msgstr ""
+msgstr "[[geographic-radial]]radio geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:119
@@ -5666,7 +5666,7 @@ msgstr ""
 #: glossary.en.adoc:120
 #, no-wrap
 msgid "[[geoid]]geoid"
-msgstr ""
+msgstr "[[geoid]]geoide"
 
 #. type: Plain text
 #: glossary.en.adoc:121
@@ -5677,7 +5677,7 @@ msgstr ""
 #: glossary.en.adoc:122
 #, no-wrap
 msgid "[[geometry]]geometry"
-msgstr ""
+msgstr "[[geometry]]geometría"
 
 #. type: Plain text
 #: glossary.en.adoc:123
