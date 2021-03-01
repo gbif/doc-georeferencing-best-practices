@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-02-24 16:31\n"
+"PO-Revision-Date: 2021-03-01 22:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5429,7 +5429,7 @@ msgstr "[[entry-point]]punto de entrada"
 #. type: Plain text
 #: glossary.en.adoc:77
 msgid "{marine} The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<img-underwater-event>>."
-msgstr ""
+msgstr "{marine} El punto de entrada sobre la superficie del océano o lago, donde un buceador entra al agua y desde el cual se miden todas las actividades. Ver <<img-underwater-event>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:78
