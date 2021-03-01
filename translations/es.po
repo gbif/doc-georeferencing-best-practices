@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-01 22:39\n"
+"PO-Revision-Date: 2021-03-01 23:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5440,7 +5440,7 @@ msgstr "[[EPSG]]EPSG"
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application."
-msgstr ""
+msgstr "Los códigos EPSG son definidos por la Asociación Internacional de Productores de Petróleo y Gas, usando un identificador de referencia espacial (SRID) <<spatial reference system,spatial reference systems>>. El Conjunto de parámetros geodésico EPSG (http://www. epsg.org/[IOPG 2019^]) es una colección de <<coordinate reference system,coordinate reference systems>> (incluyendo <<datum,datums>>) y transformaciones de <<coordinates,coordinate>> que pueden ser de aplicados a escala global, regional, nacional o local."
 
 #. type: Labeled list
 #: glossary.en.adoc:80
@@ -5517,7 +5517,7 @@ msgstr "[[gazetteer]]gacetero"
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>."
-msgstr ""
+msgstr "Índice de <<feature,features>> geográficas y sus <<location,locations>>, que generalmente incluyen <<geographic coordinates>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:94
@@ -5600,12 +5600,12 @@ msgstr ""
 #: glossary.en.adoc:108
 #, no-wrap
 msgid "[[geographic-coordinate-system]]geographic coordinate system"
-msgstr ""
+msgstr "[[geographic-coordinate-system]]sistema de coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:109
 msgid "A <<coordinate system>> that uses <<geographic coordinates>>."
-msgstr ""
+msgstr "Un <<coordinate system>> que usa <<geographic coordinates>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:110
@@ -5622,7 +5622,7 @@ msgstr ""
 #: glossary.en.adoc:112
 #, no-wrap
 msgid "[[geographic-coordinates]]geographic coordinates"
-msgstr ""
+msgstr "[[geographic-coordinates]]coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:113
@@ -5633,12 +5633,12 @@ msgstr ""
 #: glossary.en.adoc:114
 #, no-wrap
 msgid "[[geographic-extent]]geographic extent"
-msgstr ""
+msgstr "[[geographic-extent]]extensión geográfica"
 
 #. type: Plain text
 #: glossary.en.adoc:115
 msgid "The entire space within the <<geographic boundary>> of a <<location>>. The geographic extent can be an area or a distance."
-msgstr ""
+msgstr "Todo el espacio dentro del <<geographic boundary>> de una <<location>>. El alcance geográfico puede ser un área o una distancia."
 
 #. type: Labeled list
 #: glossary.en.adoc:116
@@ -5649,7 +5649,7 @@ msgstr "[[geographic-information-system,geographic information system]]sistema d
 #. type: Plain text
 #: glossary.en.adoc:117
 msgid "A set of computer-based tools designed to capture, store, manipulate, analyse, map, manage, and present all types of geographical data and information in the form of maps."
-msgstr ""
+msgstr "Conjunto de herramientas computacionales diseñadas para capturar, almacenar, manipular, analizar, mapear, gestionar, y presentar todo tipo de datos geográficos e información en forma de mapas."
 
 #. type: Labeled list
 #: glossary.en.adoc:118
