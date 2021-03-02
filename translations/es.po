@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-01 23:37\n"
+"PO-Revision-Date: 2021-03-02 22:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5484,7 +5484,8 @@ msgstr "[[false-precision]]precisión falsa"
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "An artefact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>."
-msgstr ""
+msgstr "Registro de datos con un mayor número de decimales que los presentes en los datos originales. Esto ocurre frecuentemente después de realizar transformaciones en las unidades de medida o <<coordinate system>>, por ejemplo de pies a metros, o de <<DMS,degrees, minutes, and seconds>> a <<decimal degrees>>. En general, la <<precision>> no se conserva a través de las transformaciones; sin embargo, en la práctica, se registra como si el resultado de la transformación correspondiera a la precisión original. Por ejemplo, un registro de 10°20’, es almacenado en una base de datos en grados decimales como ~10.3°. Cuando se exporta desde algunas bases de datos, resultará en un valor de 10. 3333333333 con una <<precision>> de 10 decimales, en lugar de la precisión original de 1 minuto. Interpretando la precisión que representan las <<coordinates,coordinate>> como una precisión en distancia en el suelo, 10^-10 grados corresponde a cerca de 0.002 mm en el ecuador, mientras que la precisión de 1 minuto corresponde a aproximadamente 2.6 km. Esta no es una verdadera precisión ya que se refiere a los datos originales, pero es una precisión falsa si se representa como una combinación de la conversión de coordenadas y la fracción resultante en la exportación desde una base de datos. Esta no es una precisión verdadera en lo que respecta a los datos originales, sino una precisión falsa, \n"
+"generada a partir de la combinación de la conversión de coordenadas y la representación de la fracción resultante en la exportación de una base de datos. Comparar con <<precision>> y <<accuracy>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:88
@@ -5501,12 +5502,12 @@ msgstr "Un objeto de observación, medida o referencia que puede ser representad
 #: glossary.en.adoc:90
 #, no-wrap
 msgid "[[footprint]]footprint"
-msgstr ""
+msgstr "[[footprint]]footprint"
 
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "See <<shape>>. Note that \"footprint\" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit]."
-msgstr ""
+msgstr "Ver <<shape>>. Tenga en cuenta que \"footprint\" se utilizó en anteriores documentos sobre <<georeference,georeferencing>> y en los nombres de algunos términos del estándar <<Darwin Core>>: dwc[footprintWKT] y term:dwc[footprintSpatialFit]."
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -5688,7 +5689,7 @@ msgstr ""
 #: glossary.en.adoc:124
 #, no-wrap
 msgid "[[georeference]]georeference"
-msgstr ""
+msgstr "[[georeference]]georreferencia"
 
 #. type: Plain text
 #: glossary.en.adoc:125
@@ -5699,7 +5700,7 @@ msgstr ""
 #: glossary.en.adoc:126
 #, no-wrap
 msgid "[[georeferencing-method]]georeferencing method"
-msgstr ""
+msgstr "[[georeferencing-method]]método de georreferenciación"
 
 #. type: Plain text
 #: glossary.en.adoc:127
@@ -5710,7 +5711,7 @@ msgstr ""
 #: glossary.en.adoc:128
 #, no-wrap
 msgid "[[georeferencing-protocol]]georeferencing protocol"
-msgstr ""
+msgstr "[[georeferencing-protocol]]protocolo de georreferenciación"
 
 #. type: Plain text
 #: glossary.en.adoc:129
@@ -5721,12 +5722,12 @@ msgstr ""
 #: glossary.en.adoc:130
 #, no-wrap
 msgid "GIS"
-msgstr ""
+msgstr "SIG"
 
 #. type: Plain text
 #: glossary.en.adoc:131
 msgid "_see_ <<geographic-information-system>>."
-msgstr ""
+msgstr "_ver_ <<geographic-information-system>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:132
