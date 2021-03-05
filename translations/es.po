@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-05 22:11\n"
+"PO-Revision-Date: 2021-03-05 23:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5551,7 +5551,7 @@ msgstr "[[geodetic-coordinate-reference-system]]sistema de referencia de coorden
 #. type: Plain text
 #: glossary.en.adoc:99
 msgid "A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth."
-msgstr ""
+msgstr "<<coordinate reference system>> basado en un <<geodetic datum>>, usado para describir las posiciones en la superficie de la tierra."
 
 #. type: Labeled list
 #: glossary.en.adoc:100
@@ -5562,7 +5562,7 @@ msgstr "[[geodetic-datum]]datum geodésico"
 #. type: Plain text
 #: glossary.en.adoc:101
 msgid "A mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface."
-msgstr ""
+msgstr "Un modelo matemático que utiliza un <<ellipsoid>> de referencia para describir el tamaño y la forma de la superficie de la tierra, y le añade la información necesaria sobre el origen y orientación del <<coordinate system,coordinate systems>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:102
@@ -5573,7 +5573,7 @@ msgstr "[[geographic-boundary]]límite geográfico"
 #. type: Plain text
 #: glossary.en.adoc:103
 msgid "The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth."
-msgstr ""
+msgstr "Representación en <<geographic coordinates>> del <<boundary>> de una proyección vertical sobre un modelo de la superficie de la tierra."
 
 #. type: Labeled list
 #: glossary.en.adoc:104
@@ -5584,7 +5584,7 @@ msgstr "[[geographic-center]]centro geográfico"
 #. type: Plain text
 #: glossary.en.adoc:105
 msgid "The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographic center for any application in <<georeference,georeferencing>>. Compare <<corrected center>>."
-msgstr ""
+msgstr "El punto medio entre la <<latitude>> y <<longitude>> mas alejados de una <<feature>>. Los centros geográficos son relativamente fáciles de determinar, pero por lo general no corresponden con el centro del círculo de menor diámetro circunscrito en la <<feature>>. Por esta razón, no se recomienda utilizar un centro geográfico para ninguna aplicación en <<georeference,georeferencing>>. Ver <<corrected center>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:106
@@ -5595,7 +5595,7 @@ msgstr "[[geographic-component]]componente geográfico"
 #. type: Plain text
 #: glossary.en.adoc:107
 msgid "The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>."
-msgstr ""
+msgstr "Parte de la descripción de una <<location>> que consiste en <<geographic coordinates>> y una <<uncertainty>> asociada. Los componentes no geográficos de una descripción de ubicación incluyen <<elevation>>, <<depth>> y <<distance above surface>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:108
@@ -5612,12 +5612,12 @@ msgstr "Un <<coordinate system>> que usa <<geographic coordinates>>."
 #: glossary.en.adoc:110
 #, no-wrap
 msgid "[[geographic-coordinate-reference-system]]geographic coordinate reference system"
-msgstr ""
+msgstr "[[geographic-coordinate-reference-system]]sistema de referencia de coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:111
 msgid "A <<geodetic coordinate reference system>> that uses <<geographic coordinates>>."
-msgstr ""
+msgstr "Un <<geodetic coordinate reference system>> que usa <<geographic coordinates>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:112
@@ -5628,7 +5628,7 @@ msgstr "[[geographic-coordinates]]coordenadas geográficas"
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "A measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>."
-msgstr ""
+msgstr "Medición de la <<location>> sobre la superficie de la tierra expresada como <<latitude>> y <<longitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:114
@@ -5683,7 +5683,7 @@ msgstr "[[geometry]]geometría"
 #. type: Plain text
 #: glossary.en.adoc:123
 msgid "The measures and properties of points, lines, and surfaces. Geometry is used to represent the <<geographic component>> of <<location,locations>>."
-msgstr ""
+msgstr "Las medidas y propiedades de puntos, líneas y superficies (polígonos). La geometría se utiliza para representar el <<geographic component>> de una<<location,locations>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:124
