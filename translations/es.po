@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-02 22:41\n"
+"PO-Revision-Date: 2021-03-05 22:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5529,7 +5529,7 @@ msgstr "[[generalization]]generalización"
 #. type: Plain text
 #: glossary.en.adoc:95
 msgid "In geographic terms, refers to the conversion of a geographic representation to one with less resolution and less information content; traditionally associated with a change in scale. Also referred to as: _fuzzying_, _dummying-up_, etc. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
-msgstr ""
+msgstr "En términos geográficos, se refiere a la conversión de una representación geográfica a una con menos resolución y menos contenido informativo; tradicionalmente asociado con un cambio de escala. También definido como _simplificado_. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:96
@@ -5540,7 +5540,7 @@ msgstr "[[geocode]]geocodificación"
 #. type: Plain text
 #: glossary.en.adoc:97
 msgid "The process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>."
-msgstr ""
+msgstr "El proceso (verbo) o producto (sustantivo) de determinar las <<coordinates>> a partir de una dirección. También se utiliza a veces como sinónimo de <<georeference>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:98
