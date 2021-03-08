@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-05 23:24\n"
+"PO-Revision-Date: 2021-03-08 19:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5672,7 +5672,7 @@ msgstr "[[geoid]]geoide"
 #. type: Plain text
 #: glossary.en.adoc:121
 msgid "A global equipotential surface that approximates <<mean-sea-level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^])."
-msgstr ""
+msgstr "Una superficie global equipotencial que se aproxima al <<mean-sea-level>>. Esta superficie es por todas partes perpendicular a la fuerza de gravedad (https://doi.org/10.1007/978-94-011-5826-8[Baja 1997^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:122
@@ -5694,7 +5694,7 @@ msgstr "[[georeference]]georreferencia"
 #. type: Plain text
 #: glossary.en.adoc:125
 msgid "The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification)."
-msgstr ""
+msgstr "El proceso (verbo) o producto (sustantivo) de interpretar la descripción de una <<locality>> en una representación espacializable usando un <<georeferencing method>>. Comparar con <<geocode>>. El uso aquí es distinto del concepto de georreferenciación satelital y de imágenes (conocido como georectificación)."
 
 #. type: Labeled list
 #: glossary.en.adoc:126
@@ -5705,7 +5705,7 @@ msgstr "[[georeferencing-method]]método de georreferenciación"
 #. type: Plain text
 #: glossary.en.adoc:127
 msgid "The theory, including a set of rules, general procedures and expected outcomes, meant to produce a specific type of spatial representation of a <<locality>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method."
-msgstr ""
+msgstr "Teoría que incluye un conjunto de reglas, procedimientos generales y resultados esperados, destinados a producir un tipo específico de representación espacial de una <<locality>>. En este documento discutimos en detalle tres métodos particulares de representación espacial, el método <<shape>>, el método <<bounding-box>> y el método <<point-radius>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:128
@@ -5716,7 +5716,7 @@ msgstr "[[georeferencing-protocol]]protocolo de georreferenciación"
 #. type: Plain text
 #: glossary.en.adoc:129
 msgid "The set of specific documented steps that can be applied to produce a spatial representation of a <<locality>>, following one or more georeferencing methods."
-msgstr ""
+msgstr "El conjunto de pasos documentados específicos que se pueden aplicar para producir una representación espacial de un <<locality>>, siguiendo uno o más métodos de georeferenciación."
 
 #. type: Labeled list
 #: glossary.en.adoc:130
@@ -5733,7 +5733,7 @@ msgstr "_ver_ <<geographic-information-system>>."
 #: glossary.en.adoc:132
 #, no-wrap
 msgid "[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID)"
-msgstr ""
+msgstr "[[GUID,Globally Unique Identifier]]Identificador Único Global (GUID)"
 
 #. type: Plain text
 #: glossary.en.adoc:133
