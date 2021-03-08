@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-08 19:41\n"
+"PO-Revision-Date: 2021-03-08 20:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5738,35 +5738,35 @@ msgstr "[[GUID,Globally Unique Identifier]]Identificador Único Global (GUID)"
 #. type: Plain text
 #: glossary.en.adoc:133
 msgid "Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<PID,Persistent Identifier, PID>>."
-msgstr ""
+msgstr "Identificador único global. Una cadena de caracteres de 128 bits aplicada a una única entidad física o digital para que dicha cadena identifique la entidad y pueda ser usada para referirla. Ver también <<PID,Persistent Identifier, PID>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:134
 #, no-wrap
 msgid "[[GNSS]]GNSS"
-msgstr ""
+msgstr "[[GNSS]]GNSS"
 
 #. type: Plain text
 #: glossary.en.adoc:135
 msgid "Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems."
-msgstr ""
+msgstr "Sistema Global de Navegación por Satélite. El término genérico para sistemas de navegación satelital que proporcionan una posición geoespacial global de forma autónoma. Este término engloba <<GPS>>, GLONASS, Galileo, BeiDou y otros sistemas regionales."
 
 #. type: Labeled list
 #: glossary.en.adoc:136
 #, no-wrap
 msgid "[[GPS]]GPS"
-msgstr ""
+msgstr "[[GPS]]GPS"
 
 #. type: Plain text
 #: glossary.en.adoc:137
 msgid "Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>."
-msgstr ""
+msgstr "Sistema de Posicionamiento Global. Un sistema basado en satélites utilizado para determinar posiciones espaciales sobre la Tierra o cerca de esta. Los satélites orbitacionales transmiten señales de radio que permiten a un receptor calcular su propia <<location>> como <<coordinates>> y <<elevation>>, y a veces con estimaciones de <<accuracy>>. Ver también <<GNSS>> del cual el GPS es un ejemplo. Ver también <<GPS-receiver,GPS (receiver)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:138
 #, no-wrap
 msgid "[[GPS-receiver]]GPS (receiver)"
-msgstr ""
+msgstr "[[GPS-receiver]]GPS (receptor)"
 
 #. type: Plain text
 #: glossary.en.adoc:139
