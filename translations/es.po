@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-09 13:31\n"
+"PO-Revision-Date: 2021-03-09 14:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5799,12 +5799,12 @@ msgstr ""
 #: glossary.en.adoc:144
 #, no-wrap
 msgid "GUID"
-msgstr ""
+msgstr "GUID"
 
 #. type: Plain text
 #: glossary.en.adoc:145
 msgid "see <<GUID,Globally Unique Identifier>>."
-msgstr ""
+msgstr "ver <<GUID,Globally Unique Identifier>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:146
@@ -5815,18 +5815,18 @@ msgstr "[[heading]]dirección"
 #. type: Plain text
 #: glossary.en.adoc:147
 msgid "Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>."
-msgstr ""
+msgstr "Dirección cardinal (de brújula) como este o noroeste, o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con una <<offset>> para señalar una dirección y distancia desde una <<feature>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:148
 #, no-wrap
 msgid "[[height-datum]]height datum"
-msgstr ""
+msgstr "[[height-datum]]datum de altura"
 
 #. type: Plain text
 #: glossary.en.adoc:149
 msgid "see <<vertical datum>>."
-msgstr ""
+msgstr "ver <<vertical datum>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:150
@@ -5854,12 +5854,12 @@ msgstr "La representación verbal de una <<location>>, también llamada a veces 
 #: glossary.en.adoc:154
 #, no-wrap
 msgid "[[locality-clause]]locality clause"
-msgstr ""
+msgstr "[[locality-clause]]componente de localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:155
 msgid "A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing protocol>> can be applied."
-msgstr ""
+msgstr "Parte de una descripción de <<locality>> que puede ser categorizada en un <<locality type,locality types>>, al que se puede aplicar un <<georeferencing protocol>> específico."
 
 #. type: Labeled list
 #: glossary.en.adoc:156
@@ -5898,23 +5898,23 @@ msgstr "La distancia angular de un punto este o oeste del <<prime meridian>> a u
 #: glossary.en.adoc:162
 #, no-wrap
 msgid "[[magnetic-declination]]magnetic declination"
-msgstr ""
+msgstr "[[magnetic-declination]]declinación magnética"
 
 #. type: Plain text
 #: glossary.en.adoc:163
 msgid "The angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time."
-msgstr ""
+msgstr "El ángulo en el plano horizontal entre el norte magnético (la dirección hacia el extremo norte al que apunta la aguja de una brújula magnetizada, correspondiente a la dirección de las líneas del campo magnético de la Tierra) y el verdadero norte (la dirección a lo largo de un <<meridian>> hacia el Polo Norte geográfico). Este ángulo varía dependiendo de la posición sobre la superficie de la Tierra y https://es.wikipedia.org/wiki/Polar_wandering[changes^] sobre el tiempo."
 
 #. type: Labeled list
 #: glossary.en.adoc:164
 #, no-wrap
 msgid "[[maximum-uncertainty-distance]]maximum uncertainty distance"
-msgstr ""
+msgstr "[[maximum-uncertainty-distance]]distancia máxima de incertidumbre"
 
 #. type: Plain text
 #: glossary.en.adoc:165
 msgid "The radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeters]."
-msgstr ""
+msgstr "El radio en una representación <<point-radius>> de una <<location>>, que corresponde a un valor numérico que define el límite superior de la distancia horizontal desde la posición de una <<geographic-coordinates,geographic coordinate>> dada, hasta el punto mas alejado del del área geográfica que respresenta la totalidad de la ubicación. Cuando se indica en metros, corresponde al término <<Darwin Core>> term:dwc[coordinateUncertaintyInMeters]."
 
 #. type: Labeled list
 #: glossary.en.adoc:166
