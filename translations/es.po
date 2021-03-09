@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-09 14:34\n"
+"PO-Revision-Date: 2021-03-09 15:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5920,73 +5920,73 @@ msgstr "El radio en una representación <<point-radius>> de una <<location>>, qu
 #: glossary.en.adoc:166
 #, no-wrap
 msgid "[[mean-sea-level,mean sea level]]mean sea level (MSL)"
-msgstr ""
+msgstr "[[mean-sea-level,mean sea level]]: nivel medio del mar (NMM)"
 
 #. type: Plain text
 #: glossary.en.adoc:167
 msgid "A <<vertical datum>> from which heights such as <<elevation>> are usually measured. Mean sea levels were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, MSL is best described by a <<geoid>>."
-msgstr ""
+msgstr "Un <<vertical datum>> desde el cual las alturas tales como la <<elevation>> se miden normalmente. Los niveles medios del mar tradicionalmente se determinan localmente midiendo el punto medio entre una marea media baja y una marea media alta, en una <<location>> particular, promediando un período de cerca de 19 años para cubrir un ciclo de mareas completo. Más recientemente, el NMM es mejor descrito por un <<geoid>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:168
 #, no-wrap
 msgid "[[meridian]]meridian"
-msgstr ""
+msgstr "[[meridian]]meridiano"
 
 #. type: Plain text
 #: glossary.en.adoc:169
 msgid "A line on the surface of the earth where all of the <<location,locations>> have the same <<longitude>>. Compare <<antimeridian>> and <<prime meridian>>."
-msgstr ""
+msgstr "Una línea en la superficie de la tierra donde todas las <<location,locations>> tienen la misma <<longitude>>. Ver <<antimeridian>> y <<prime meridian>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:170
 #, no-wrap
 msgid "[[named-place]]named place"
-msgstr ""
+msgstr "[[named-place]]lugar nombrado"
 
 #. type: Plain text
 #: glossary.en.adoc:171
 msgid "see <<feature>>. Note that \"named place\" was used in some earlier <<georeference,georeferencing>> documents."
-msgstr ""
+msgstr "ver <<feature>>. Note que \"lugar nombrado\" fue utilizado en documentos anteriores sobre <<georeference,georeferencing>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:172
 #, no-wrap
 msgid "[[northing]]northing"
-msgstr ""
+msgstr "[[northing]]norte"
 
 #. type: Plain text
 #: glossary.en.adoc:173
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr ""
+msgstr "Dentro de un <<coordinate reference system>> (e.g. como el proporcionado por un <<GPS>> o un un mapa de <<grid>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitude>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:174
 #, no-wrap
 msgid "[[offset]]offset"
-msgstr ""
+msgstr "[[offset]]desplazamiento"
 
 #. type: Plain text
 #: glossary.en.adoc:175
 msgid "A displacement from a reference <<location>>. Usually used in conjunction with <<heading>> to give a distance and <<direction>> from a <<feature>>."
-msgstr ""
+msgstr "El desplazamiento de una <<location>> de referencia. Generalmente utilizado en conjunto con <<heading>> para dar una distancia y <<direction>> desde una <<feature>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:176
 #, no-wrap
 msgid "[[path]]path"
-msgstr ""
+msgstr "[[path]]ruta"
 
 #. type: Plain text
 #: glossary.en.adoc:177
 msgid "A route or track between one place and another. In some cases the path may cross itself."
-msgstr ""
+msgstr "Ruta o camino entre un lugar y otro. En algunos casos el camino puede cruzarse a si mismo."
 
 #. type: Labeled list
 #: glossary.en.adoc:178
 #, no-wrap
 msgid "[[PID]]persistent identifier (PID)"
-msgstr ""
+msgstr "[[PID]]identificador persistente (PID)"
 
 #. type: Plain text
 #: glossary.en.adoc:179
@@ -5997,7 +5997,7 @@ msgstr ""
 #: glossary.en.adoc:180
 #, no-wrap
 msgid "[[point-radius]]point-radius"
-msgstr ""
+msgstr "[[point-radius]]radio-punto"
 
 #. type: Plain text
 #: glossary.en.adoc:181
@@ -6007,12 +6007,12 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:183
 msgid "[[precision]]precision::"
-msgstr ""
+msgstr "[[precision]]precisión::"
 
 #. type: Plain text
 #: glossary.en.adoc:186
 msgid "The closeness of a repeated set of observations of the same quantity to one another – a measure of control over random <<error>>."
-msgstr ""
+msgstr "La cercanía entre un conjunto repetido de observaciones de la misma cantidad entre sí - una medida de control sobre el <<error>> aleatorio."
 
 #. type: Plain text
 #: glossary.en.adoc:187
@@ -6028,7 +6028,7 @@ msgstr ""
 #: glossary.en.adoc:191
 #, no-wrap
 msgid "[[prime-meridian]]prime meridian"
-msgstr ""
+msgstr "[[prime-meridian]]primer meridiano"
 
 #. type: Plain text
 #: glossary.en.adoc:192
@@ -6039,7 +6039,7 @@ msgstr ""
 #: glossary.en.adoc:193
 #, no-wrap
 msgid "[[projection]]projection"
-msgstr ""
+msgstr "[[projection]]proyección"
 
 #. type: Plain text
 #: glossary.en.adoc:194
@@ -6050,7 +6050,7 @@ msgstr ""
 #: glossary.en.adoc:195
 #, no-wrap
 msgid "[[quality]]quality"
-msgstr ""
+msgstr "[[quality]]calidad"
 
 #. type: Plain text
 #: glossary.en.adoc:196
@@ -6061,7 +6061,7 @@ msgstr ""
 #: glossary.en.adoc:197
 #, no-wrap
 msgid "[[radial]]radial"
-msgstr ""
+msgstr "[[radial]]radial"
 
 #. type: Plain text
 #: glossary.en.adoc:198
@@ -6072,7 +6072,7 @@ msgstr ""
 #: glossary.en.adoc:199
 #, no-wrap
 msgid "[[repatriate]]repatriate, repatriation"
-msgstr ""
+msgstr "[[repatriate]]repatriar, repatriación"
 
 #. type: Plain text
 #: glossary.en.adoc:200
@@ -6083,7 +6083,7 @@ msgstr ""
 #: glossary.en.adoc:201
 #, no-wrap
 msgid "[[rules-of-interpretation]]rules of interpretation"
-msgstr ""
+msgstr "[[rules-of-interpretation]]reglas de interpretación"
 
 #. type: Plain text
 #: glossary.en.adoc:202
@@ -6105,7 +6105,7 @@ msgstr ""
 #: glossary.en.adoc:205
 #, no-wrap
 msgid "[[shape]]shape"
-msgstr ""
+msgstr "[[shape]]forma"
 
 #. type: Plain text
 #: glossary.en.adoc:206
@@ -6116,7 +6116,7 @@ msgstr ""
 #: glossary.en.adoc:207
 #, no-wrap
 msgid "[[smallest-enclosing-circle]]smallest enclosing circle"
-msgstr ""
+msgstr "[[smallest-enclosing-circle]]círculo mínimo de encapsulamiento"
 
 #. type: Plain text
 #: glossary.en.adoc:208
@@ -6127,7 +6127,7 @@ msgstr ""
 #: glossary.en.adoc:209
 #, no-wrap
 msgid "[[spatial-fit]]spatial fit"
-msgstr ""
+msgstr "[[spatial-fit]]ajuste espacial"
 
 #. type: Plain text
 #: glossary.en.adoc:210
@@ -6138,18 +6138,18 @@ msgstr ""
 #: glossary.en.adoc:211
 #, no-wrap
 msgid "[[spatial-reference-system]]spatial reference system"
-msgstr ""
+msgstr "[[spatial-reference-system]]sistema de referencia espacial"
 
 #. type: Plain text
 #: glossary.en.adoc:212
 msgid "see <<coordinate reference system>>."
-msgstr ""
+msgstr "ver <<coordinate reference system>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:213
 #, no-wrap
 msgid "[[stratigraphic-section]]stratigraphic section"
-msgstr ""
+msgstr "[[stratigraphic-section]]sección estratigráfica"
 
 #. type: Plain text
 #: glossary.en.adoc:214
@@ -6160,7 +6160,7 @@ msgstr ""
 #: glossary.en.adoc:215
 #, no-wrap
 msgid "[[transect]]transect"
-msgstr ""
+msgstr "[[transect]]transecto"
 
 #. type: Plain text
 #: glossary.en.adoc:216
@@ -6182,7 +6182,7 @@ msgstr ""
 #: glossary.en.adoc:219
 #, no-wrap
 msgid "[[uncertainty]]uncertainty"
-msgstr ""
+msgstr "[[uncertainty]]incertidumbre"
 
 #. type: Plain text
 #: glossary.en.adoc:220
@@ -6193,7 +6193,7 @@ msgstr ""
 #: glossary.en.adoc:221
 #, no-wrap
 msgid "[[UTM]]Universal Transverse Mercator (UTM)"
-msgstr ""
+msgstr "[[UTM]]Universal Transversa de Mercator (UTM)"
 
 #. type: Plain text
 #: glossary.en.adoc:222
@@ -6204,7 +6204,7 @@ msgstr ""
 #: glossary.en.adoc:223
 #, no-wrap
 msgid "[[vertical-datum]]vertical datum"
-msgstr ""
+msgstr "[[vertical-datum]]vertical datum"
 
 #. type: Plain text
 #: glossary.en.adoc:224
@@ -6226,7 +6226,7 @@ msgstr ""
 #: glossary.en.adoc:227
 #, no-wrap
 msgid "[[WGS84]]WGS84"
-msgstr ""
+msgstr "[[WGS84]]WGS84"
 
 #. type: Plain text
 #: glossary.en.adoc:227
