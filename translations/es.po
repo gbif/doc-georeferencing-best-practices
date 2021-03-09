@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-08 20:38\n"
+"PO-Revision-Date: 2021-03-09 13:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5771,18 +5771,18 @@ msgstr "[[GPS-receiver]]GPS (receptor)"
 #. type: Plain text
 #: glossary.en.adoc:139
 msgid "The colloquial term used to refer to both GPS and <<GNSS>> receivers (including those in smartphones and cameras). A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret radio signals from GNSS satellites and translate them into <<geographic coordinates>>."
-msgstr ""
+msgstr "El término coloquial utilizado para referirse tanto al GPS como a los receptores <<GNSS>> (incluyendo los de teléfonos inteligentes y cámaras). Un receptor GPS o GNSS es un instrumento que en combinación con una antena incorporada o separada, es capaz de recibir e interpretar señales de radio de los satélites GNSS y traducirlas en <<geographic coordinates>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:140
 #, no-wrap
 msgid "[[grid]]grid"
-msgstr ""
+msgstr "[[grid]]grilla"
 
 #. type: Plain text
 #: glossary.en.adoc:141
 msgid "a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid."
-msgstr ""
+msgstr "red o matriz de líneas ortogonales uniformemente espaciadas que se utilizan para organizar el espacio en particiones. A menudo estos son superpuestos en un mapa y usados como referencia, así como la cuadrícula <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:142
