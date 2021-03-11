@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-09 15:29\n"
+"PO-Revision-Date: 2021-03-11 15:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Georeferencing Best Practices"
-msgstr "Guía de Mejores Prácticas para Georreferenciación"
+msgstr "Guía de Mejores Prácticas de Georreferenciación"
 
 #. type: Plain text
 #: index.en.adoc:38
@@ -5991,7 +5991,7 @@ msgstr "[[PID]]identificador persistente (PID)"
 #. type: Plain text
 #: glossary.en.adoc:179
 msgid "A long-lasting reference to a document, file, web page, or other object. The term \"persistent identifier\" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs)."
-msgstr ""
+msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PIDs, como <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOIs)^] e Identificadores Únicos Universales (UUIDs)."
 
 #. type: Labeled list
 #: glossary.en.adoc:180
