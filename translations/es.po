@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-11 15:37\n"
+"PO-Revision-Date: 2021-03-11 16:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6017,12 +6017,12 @@ msgstr "La cercanía entre un conjunto repetido de observaciones de la misma can
 #. type: Plain text
 #: glossary.en.adoc:187
 msgid "With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree)."
-msgstr ""
+msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej. si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<decimal degrees,decimal degree>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
 
 #. type: Plain text
 #: glossary.en.adoc:190
 msgid "Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>."
-msgstr ""
+msgstr "Antónimo: imprecisión. Ver <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, y <<uncertainty>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:191
