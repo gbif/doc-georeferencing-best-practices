@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-12 20:10\n"
+"PO-Revision-Date: 2021-03-12 22:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6154,7 +6154,7 @@ msgstr "[[stratigraphic-section]]sección estratigráfica"
 #. type: Plain text
 #: glossary.en.adoc:214
 msgid "A local outcrop or series of adjacent outcrops that display a vertical sequence of strata in the order they were deposited."
-msgstr ""
+msgstr "Afloramiento local o serie de afloramientos adyacentes que muestran una secuencia vertical de estratos en el orden en que fueron depositados."
 
 #. type: Labeled list
 #: glossary.en.adoc:215
