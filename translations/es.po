@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-11 16:37\n"
+"PO-Revision-Date: 2021-03-12 19:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6002,7 +6002,7 @@ msgstr "[[point-radius]]radio-punto"
 #. type: Plain text
 #: glossary.en.adoc:181
 msgid "A representation of the <<geographic component>> of a <<location>> as <<geographic-coordinates,geographic coordinates>> and a <<maximum uncertainty distance>>. The point-radius <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
-msgstr ""
+msgstr "Representación del <<geographic component>> de una <<location>> a partir de una <<geographic-coordinates,geographic coordinates>> y una <<maximum uncertainty distance>>. El <<georeferencing method>> radio-punto produce <<georeference,georeferences>> que incluyen coordenadas geográficas, un <<coordinate reference system>> y una distancia máxima de incertidumbre que engloba todas las coordenadas geográficas posibles donde una <<locality>> podría interpretarse que está, representado la <<uncertainty,uncertainties>> dentro de un círculo. El método radio-punto utiliza rangos para representar otros atributos no geográficos de la ubicación (<<elevation>>, <<depth>>, <<distance above surface>>)."
 
 #. type: Plain text
 #: glossary.en.adoc:183
@@ -6033,7 +6033,7 @@ msgstr "[[prime-meridian]]primer meridiano"
 #. type: Plain text
 #: glossary.en.adoc:192
 msgid "The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes."
-msgstr ""
+msgstr "Conjunto de <<location,locations>> con <<longitude>> designada como 0 grados este y oeste, a partir del cuál todas las longitudes estan referenciadas. El <<meridian>> de Greenwich es reconocido internacionalmente como el <<prime meridian>> para muchos propósitos populares y oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:193
