@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-12 19:08\n"
+"PO-Revision-Date: 2021-03-12 20:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6044,7 +6044,7 @@ msgstr "[[projection]]proyección"
 #. type: Plain text
 #: glossary.en.adoc:194
 msgid "A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values."
-msgstr ""
+msgstr "Serie de transformaciones que convierten las ubicaciones de los puntos basados en un <<coordinate reference system>> sobre una superficie curvada (la superficie de referencia o <<datum>>) en las correspondientes <<location,locations>> de los puntos en un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<coordinate system,coordinate systems>> proyectados se basan en <<geographic coordinates>>, que a su vez son referenciadas en un <<geodetic datum>>. Es posible, e incluso común que los conjuntos de datos estén en la misma proyección, pero referenciados con un datum geodésico diferente y por lo tanto tienen distintos valores en sus <<coordinates,coordinate>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:195
@@ -6055,18 +6055,18 @@ msgstr "[[quality]]calidad"
 #. type: Plain text
 #: glossary.en.adoc:196
 msgid "see <<data quality>>."
-msgstr ""
+msgstr "ver <<data quality>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:197
 #, no-wrap
 msgid "[[radial]]radial"
-msgstr "[[radial]]radial"
+msgstr "[[radial]]radio"
 
 #. type: Plain text
 #: glossary.en.adoc:198
 msgid "The distance from a center point (e.g. the <<corrected center,corrected>> or <<geographic center>>) within a <<location>> to the furthest point on the outermost <<boundary>> of that <<location>>. See also <<geographic radial>>."
-msgstr ""
+msgstr "Distancia desde un punto central (p. ej. el <<corrected center,corrected>> o <<geographic center>>) dentro de una <<location>> al punto más lejano del <<boundary>> de esa <<location>>. Ver también <<geographic radial>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:199
@@ -6077,7 +6077,7 @@ msgstr "[[repatriate]]repatriar, repatriación"
 #. type: Plain text
 #: glossary.en.adoc:200
 msgid "The process of returning something to the source from which it was extracted. In the <<georeference,georeferencing>> sense, this refers to the process of adding the results of georeferencing to the original data, especially when georeferencing was done by a third party."
-msgstr ""
+msgstr "Proceso de retornar algo a la fuente de la que fue extraído. En el sentido de la <<georeference,georeferencing>> esto se refiere al proceso de agregar los resultados de la georeferencia a los datos originales, especialmente cuando la georeferenciación fue realizada por un tercero."
 
 #. type: Labeled list
 #: glossary.en.adoc:201
@@ -6088,18 +6088,18 @@ msgstr "[[rules-of-interpretation]]reglas de interpretación"
 #. type: Plain text
 #: glossary.en.adoc:202
 msgid "A documented set of steps to take in order to produce a standardized representation of source information."
-msgstr ""
+msgstr "Conjunto documentado de pasos a tomar para producir una representación estandarizada de la información fuente."
 
 #. type: Labeled list
 #: glossary.en.adoc:203
 #, no-wrap
 msgid "[[SBAS]]Satellite Based Augmentation System (SBAS)"
-msgstr ""
+msgstr "[[SBAS]]Sistema de Aumentación Basado en Satelite (SBAS)"
 
 #. type: Plain text
 #: glossary.en.adoc:204
 msgid "A civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<Satellite Based Augmentation System>>)."
-msgstr ""
+msgstr "Un sistema crítico para la aviación civil que apoya el aumento regional o de amplia área mediante el uso de satélites geoestacionarios (GEO) que difunden la información aumentada (véase la discusión en la sección <<Satellite Based Augmentation System>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:205
@@ -6110,7 +6110,7 @@ msgstr "[[shape]]forma"
 #. type: Plain text
 #: glossary.en.adoc:206
 msgid "Synonym of <<footprint>>. A representation of the <<geographic component>> of a location as a <<geometry>>. The result of a <<georeferencing method,shape georeferencing method>> includes a shape as the geographic component of the <<georeference>>, which contains the set of all possible <<geographic coordinates>> where a <<location>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within the geometry given. The shape method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
-msgstr ""
+msgstr "Sinónimo de <<footprint>>. Una representación del <<geographic component>> de una ubicación a partir de una <<geometry>>. El resultado de la aplicación de un <<georeferencing method,shape georeferencing method>> incluye una forma como componente geográfico de la <<georeference>>, que contiene el conjunto de todas las posibles <<geographic coordinates>> donde una <<location>> podría ser interpretada. Esta representación engloba toda la <<uncertainty,uncertainties>> geográfica dentro de la geometría resultante. El método de forma utiliza rangos para representar los atributos no geográficos de la ubicación (<<elevation>>, <<depth>>, <<distance above surface>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:207
@@ -6121,7 +6121,7 @@ msgstr "[[smallest-enclosing-circle]]círculo mínimo de encapsulamiento"
 #. type: Plain text
 #: glossary.en.adoc:208
 msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
-msgstr ""
+msgstr "círculo de menor radio (<<radial>>) que contiene todos los puntos de un conjunto determinado (o una <<shape>>) sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_smallallest-circle problem_^]). Esto rara vez es lo mismo que el <<geographic center>>, o que el punto medio entre las dos <<geographic coordinates>> mas distantes de una <<location>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:209
@@ -6132,7 +6132,7 @@ msgstr "[[spatial-fit]]ajuste espacial"
 #. type: Plain text
 #: glossary.en.adoc:210
 msgid "a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See <<img-spatial-fit>>)."
-msgstr ""
+msgstr "una medida de cuán bien una representación geométrica coincide con otra representación geométrica a partir de una relación del área mas grande de las dos geometrías respecto al área del más pequeña. (Ver <<img-spatial-fit>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:211
@@ -6165,7 +6165,7 @@ msgstr "[[transect]]transecto"
 #. type: Plain text
 #: glossary.en.adoc:216
 msgid "A <<path>> along which observations, measurements, or samples are made. Transects are often recorded as a starting <<location>> and a terminating <<location>>."
-msgstr ""
+msgstr "Un <<path>> a lo largo del cual se hacen observaciones, mediciones o se toman muestras. Los transectos a menudo se registran con una <<location>> de inicio y una <<location>> final."
 
 #. type: Labeled list
 #: glossary.en.adoc:217
