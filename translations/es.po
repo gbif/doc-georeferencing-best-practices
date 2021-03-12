@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-12 22:13\n"
+"PO-Revision-Date: 2021-03-12 23:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6187,7 +6187,7 @@ msgstr "[[uncertainty]]incertidumbre"
 #. type: Plain text
 #: glossary.en.adoc:220
 msgid "A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>."
-msgstr ""
+msgstr "Medida de la falta de completitud de los conocimientos o información sobre una cantidad desconocida cuyo valor real podría establecerse si estuviera disponible un conocimiento completo de la medición y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<georeferencing method,Georeferencing methods>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<accuracy>> y <<precision>>) en la interpretación de la <<location>>. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<precision>>, y <<false precision>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:221
@@ -6198,7 +6198,7 @@ msgstr "[[UTM]]Universal Transversa de Mercator (UTM)"
 #. type: Plain text
 #: glossary.en.adoc:222
 msgid "A standardized <<coordinate system>> based on a metric rectangular <<grid>> system and a division of the earth into sixty 6-degree longitudinal zones. The scope of UTM covers from 84° N to 80° S. (See <<Universal Transverse Mercator (UTM) Coordinates>>)."
-msgstr ""
+msgstr "<<coordinate system>> estandarizado basado en un sistema de <<grid>> métrico rectangular y una división de la tierra en 60 zonas longitudinales de 6 grados. El alcance del sistema UTM cubre desde los 84° N hasta 80° S. (Ver <<Universal Transverse Mercator (UTM) Coordinates>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:223
@@ -6209,18 +6209,18 @@ msgstr "[[vertical-datum]]vertical datum"
 #. type: Plain text
 #: glossary.en.adoc:224
 msgid "A reference surface for vertical positions, such as <<elevation>>. Vertical datums fall into several categories, including: tidal, based on sea level; gravimetric, based on a <<geoid>>; geodetic, based on <<ellipsoid>> models of the Earth; or local, based on a local reference surface. Also known as height datum."
-msgstr ""
+msgstr "Superficie de referencia para posiciones verticales, como la <<elevation>>. Los datums verticales cuentan con varias categorías, incluyendo: de marea, basado en el nivel del mar; gravimétrico, basado en un <<geoid>>; geodetico, basado en modelos de <<ellipsoid>> de la Tierra; o local, basado en una superficie local de referencia. También conocido como datum de altura."
 
 #. type: Labeled list
 #: glossary.en.adoc:225
 #, no-wrap
 msgid "[[WAAS]]Wide Area Augmentation System (WAAS)"
-msgstr ""
+msgstr "[[WAAS]]Sistema de Aumentación de Área Amplia (WAAS)"
 
 #. type: Plain text
 #: glossary.en.adoc:226
 msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<SBAS>>, of which WAAS is one example."
-msgstr ""
+msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para aumentar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<accuracy>>, integridad, y disponibilidad. Ver también <<SBAS>>, de los cuales WAAS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:227
@@ -6231,7 +6231,7 @@ msgstr "[[WGS84]]WGS84"
 #. type: Plain text
 #: glossary.en.adoc:227
 msgid "World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based."
-msgstr ""
+msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<geodetic coordinate reference system>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordinates>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<geodetic datum>> utilizado por ese sistema y para el <<ellipsoid>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
 
 #. type: Title ==
 #: acknowledgements.en.adoc:1
