@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-15 13:37\n"
+"PO-Revision-Date: 2021-03-15 14:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5661,7 +5661,7 @@ msgstr "[[geographic-radial]]radio geográfico"
 #. type: Plain text
 #: glossary.en.adoc:119
 msgid "The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent \"extent\" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
-msgstr ""
+msgstr "La distancia desde el <<corrected center>> de una <<location>> hasta el punto mas lejano de su <<geographic boundary>>. El radio geográfico contribuye al cálculo de la <<maximum uncertainty distance>> usando el <<georeferencing method>> <<point-radius>>. El término de radio geográfico, como se define aquí, remplaza la definición equivalente de \"extensión\" usada en versiones anteriores de este documento y otros relacionados, incluido el http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] y versiones de la https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] y su http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] antes del 2019. La nueva definición de <<extent>>en este documento se mantiene mas en consonancia con el uso común y un mejor entendimiento del término. La definición también ha sido actualizada en la última versión de la {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:120
@@ -5788,7 +5788,7 @@ msgstr "red o matriz de líneas ortogonales uniformemente espaciadas que se util
 #: glossary.en.adoc:142
 #, no-wrap
 msgid "[[ground-zero]]ground zero"
-msgstr ""
+msgstr "[[ground-zero]]zona cero"
 
 #. type: Plain text
 #: glossary.en.adoc:143
@@ -6171,12 +6171,12 @@ msgstr "Un <<path>> a lo largo del cual se hacen observaciones, mediciones o se 
 #: glossary.en.adoc:217
 #, no-wrap
 msgid "[[trig-point]]trig point"
-msgstr ""
+msgstr "[[trig-point]]punto de referencia"
 
 #. type: Plain text
 #: glossary.en.adoc:218
 msgid "A surveyed reference point, often on high points of <<elevation>> (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact <<location>> is determined by survey triangulation and hence the alternative names \"trigonometrical point\", \"triangulation point\" or \"benchmark\"."
-msgstr ""
+msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevation>> (cimas de montaña, etc.) y generalmente designado con un marcador fijo en una pequeña estructura piramidal o un pilar. La <<location>> exacta se determina mediante estudios de triangulación, por lo tanto, los nombres alternativos de \"punto trigonométrico\", \"punto de triangulación\" o \"punto de referencia\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:219
@@ -6237,7 +6237,7 @@ msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<geodet
 #: acknowledgements.en.adoc:1
 #, no-wrap
 msgid "Acknowledgements"
-msgstr ""
+msgstr "Agradecimientos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:4
@@ -6253,7 +6253,7 @@ msgstr ""
 #: references.en.adoc:1
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "Referencias"
 
 #. type: Plain text
 #: references.en.adoc:4
