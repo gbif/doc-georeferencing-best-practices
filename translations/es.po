@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-12 23:11\n"
+"PO-Revision-Date: 2021-03-15 13:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colofón"
 
 #. type: Title ===
 #: colophon.en.adoc:8
@@ -5142,7 +5142,7 @@ msgstr "[[bounding-box]]cuadro delimitador"
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within."
-msgstr "Un área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, donde esos dos rincones definen los extremos norte-sur y este-oeste de la zona contenida."
+msgstr "Área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, donde esos dos rincones definen los extremos norte-sur y este-oeste de la zona contenida."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -5164,7 +5164,7 @@ msgstr "[[coordinate-format]]formato de coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "The format in which <<coordinates>> are encoded, such as \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"degrees decimal minutes\", or <<UTM>>."
-msgstr "El formato en el que las <<coordinates>> están codificadas, como \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"grados minutos decimales\" o <<UTM>>."
+msgstr "Formato en el que las <<coordinates>> están codificadas, como \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"grados minutos decimales\" o <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -5793,7 +5793,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:143
 msgid "{caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<img-vertical-position-in-a-cave>>."
-msgstr ""
+msgstr "{caves} la <<location>> en la superficie del terreno, directamente sobre un punto de radiolocación en una cueva donde las líneas de radiación magnética son verticales. Ver <<img-vertical-position-in-a-cave>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:144
