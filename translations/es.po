@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-17 16:51\n"
+"PO-Revision-Date: 2021-03-17 17:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6176,7 +6176,7 @@ msgstr "[[trig-point]]punto de referencia"
 #. type: Plain text
 #: glossary.en.adoc:218
 msgid "A surveyed reference point, often on high points of <<elevation>> (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact <<location>> is determined by survey triangulation and hence the alternative names \"trigonometrical point\", \"triangulation point\" or \"benchmark\"."
-msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevation>> (cimas de montaña, etc.) y generalmente designado con un marcador fijo en una pequeña estructura piramidal o un pilar. La <<location>> exacta se determina mediante estudios de triangulación, por lo tanto, los nombres alternativos de \"punto trigonométrico\", \"punto de triangulación\" o \"punto de referencia\"."
+msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevation>> (cimas de montaña, etc.) y generalmente designado con un marcador fijo en una pequeña estructura piramidal o un pilar. La <<location>> exacta se determina mediante estudios de triangulación, por lo tanto, se conoce con los nombres alternativos de \"punto trigonométrico\", \"punto de triangulación\" o \"punto de referencia\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:219
@@ -6187,7 +6187,7 @@ msgstr "[[uncertainty]]incertidumbre"
 #. type: Plain text
 #: glossary.en.adoc:220
 msgid "A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>."
-msgstr "Medida de la falta de completitud de los conocimientos o información sobre una cantidad desconocida cuyo valor real podría establecerse si estuviera disponible un conocimiento completo de la medición y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<georeferencing method,Georeferencing methods>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<accuracy>> y <<precision>>) en la interpretación de la <<location>>. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<precision>>, y <<false precision>>."
+msgstr "Medida de la falta de completitud del conocimiento o información de uno sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusieran de un conocimiento completo y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<georeferencing method,Georeferencing methods>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<accuracy>> y <<precision>>) en la interpretación de la <<location>>. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<precision>>, y <<false precision>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:221
@@ -6204,7 +6204,7 @@ msgstr "<<coordinate system>> estandarizado basado en un sistema de <<grid>> mé
 #: glossary.en.adoc:223
 #, no-wrap
 msgid "[[vertical-datum]]vertical datum"
-msgstr "[[vertical-datum]]vertical datum"
+msgstr "[[vertical-datum]]datum vertical"
 
 #. type: Plain text
 #: glossary.en.adoc:224
