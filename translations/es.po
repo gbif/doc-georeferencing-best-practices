@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-15 14:39\n"
+"PO-Revision-Date: 2021-03-17 16:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Georeferencing Best Practices"
-msgstr "Guía de Mejores Prácticas de Georreferenciación"
+msgstr "Guía de Buenas Prácticas de Georreferenciación"
 
 #. type: Plain text
 #: index.en.adoc:38
@@ -6220,7 +6220,7 @@ msgstr "[[WAAS]]Sistema de Aumentación de Área Amplia (WAAS)"
 #. type: Plain text
 #: glossary.en.adoc:226
 msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<SBAS>>, of which WAAS is one example."
-msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para aumentar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<accuracy>>, integridad, y disponibilidad. Ver también <<SBAS>>, de los cuales WAAS es un ejemplo."
+msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para complementar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<accuracy>>, integridad, y disponibilidad. Ver también <<SBAS>>, de los cuales WAAS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:227
