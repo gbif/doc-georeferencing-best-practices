@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-17 17:54\n"
+"PO-Revision-Date: 2021-03-17 18:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6044,7 +6044,7 @@ msgstr "[[projection]]proyección"
 #. type: Plain text
 #: glossary.en.adoc:194
 msgid "A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values."
-msgstr "Serie de transformaciones que convierten las ubicaciones de los puntos basados en un <<coordinate reference system>> sobre una superficie curvada (la superficie de referencia o <<datum>>) en las correspondientes <<location,locations>> de los puntos en un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<coordinate system,coordinate systems>> proyectados se basan en <<geographic coordinates>>, que a su vez son referenciadas en un <<geodetic datum>>. Es posible, e incluso común que los conjuntos de datos estén en la misma proyección, pero referenciados con un datum geodésico diferente y por lo tanto tienen distintos valores en sus <<coordinates,coordinate>>."
+msgstr "Serie de transformaciones que convierten la ubicacion de los puntos en un <<coordinate reference system>> sobre una superficie curvada (la superficie de referencia o <<datum>>) en las correspondientes <<location,locations>> de los puntos en un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<coordinate system,coordinate systems>> proyectados se basan en <<geographic coordinates>>, que a su vez son referenciadas en un <<geodetic datum>>. Es posible, e incluso común, que los conjuntos de datos estén en la misma proyección, pero referenciados a distintos datums geodésicos y, por lo tanto, tengan diferentes valores en sus <<coordinates,coordinate>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:195
@@ -6116,12 +6116,12 @@ msgstr "Sinónimo de <<footprint>>. Una representación del <<geographic compone
 #: glossary.en.adoc:207
 #, no-wrap
 msgid "[[smallest-enclosing-circle]]smallest enclosing circle"
-msgstr "[[smallest-enclosing-circle]]círculo mínimo de encapsulamiento"
+msgstr "[[smallest-enclosing-circle]]círculo mínimo"
 
 #. type: Plain text
 #: glossary.en.adoc:208
 msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
-msgstr "círculo de menor radio (<<radial>>) que contiene todos los puntos de un conjunto determinado (o una <<shape>>) sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_smallallest-circle problem_^]). Esto rara vez es lo mismo que el <<geographic center>>, o que el punto medio entre las dos <<geographic coordinates>> mas distantes de una <<location>>."
+msgstr "círculo de menor radio (<<radial>>) que contiene todos los puntos de un conjunto determinado (o una <<shape>>) sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_problema del círculo mínimo_^]). Esto rara vez es lo mismo que el <<geographic center>>, o que el punto medio entre las dos <<geographic coordinates>> mas distantes de una <<location>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:209
