@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-22 18:50\n"
+"PO-Revision-Date: 2021-03-22 19:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5120,7 +5120,7 @@ msgstr "[[bias]]sesgo"
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Ver: <<accuracy>>, <<error>>, <<precision>>, <<false precision>> y <<uncertainty>>."
+msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Comparar con <<accuracy>>, <<error>>, <<precision>>, <<false precision>> y <<uncertainty>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
@@ -5340,7 +5340,7 @@ msgstr "[[depth]]profundidad"
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, \"water depth\" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number."
-msgstr "Medición de la distancia vertical por debajo de un <<vertical datum>>. En este documento tratamos de modificar el término para indicar el medio en el que se realiza la medición. En este sentido, la \"profundidad del agua\" es la distancia vertical por debajo de una interfaz de aire - agua, en un cuerpo de agua (océano, lago, río, agujero, etc.). Ver <<distance above surface>>. Profundidad es siempre un número no negativo."
+msgstr "Medición de la distancia vertical por debajo de un <<vertical datum>>. En este documento tratamos de modificar el término para indicar el medio en el que se realiza la medición. En este sentido, la \"profundidad del agua\" es la distancia vertical por debajo de una interfaz de aire - agua, en un cuerpo de agua (océano, lago, río, agujero, etc.). Comparar con <<distance above surface>>. Profundidad es siempre un número no negativo."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
@@ -5374,7 +5374,7 @@ msgstr "[[distance-above-surface]]distancia sobre la superficie"
 #. type: Plain text
 #: glossary.en.adoc:67
 msgid "In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>."
-msgstr "Además de la <<elevation>> y la <<depth>>, esta es una medida de la distancia vertical sobre un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Para la <<location,locations>> de una superficie terrestre, el punto de referencia debe ser la elevación a nivel del suelo. Sobre un cuerpo de agua (océano, mar, lago, río, glacier, etc.), el punto de referencia para las ubicaciones aéreas debe ser la elevación a partir de la interfaz aire-agua, mientras que el punto de referencia para ubicaciones bénticas subsuperficiales debe ser la interfaz entre el agua y el sustrato. Las ubicaciones dentro de un cuerpo de agua deben usar la profundidad en lugar de una <<distance above surface>> negativa. Las distancias por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están abajo deben ser negativas. La distancia máxima sobre una superficie será siempre un número mayor o igual a la distancia mínima sobre la superficie. Dado que las distancias por debajo de una superficie son números negativos, la distancia máxima siempre será un número menor o igual a la distancia mínima. Ver <<altitude>>."
+msgstr "Además de la <<elevation>> y la <<depth>>, esta es una medida de la distancia vertical sobre un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Para la <<location,locations>> de una superficie terrestre, el punto de referencia debe ser la elevación a nivel del suelo. Sobre un cuerpo de agua (océano, mar, lago, río, glacier, etc.), el punto de referencia para las ubicaciones aéreas debe ser la elevación a partir de la interfaz aire-agua, mientras que el punto de referencia para ubicaciones bénticas subsuperficiales debe ser la interfaz entre el agua y el sustrato. Las ubicaciones dentro de un cuerpo de agua deben usar la profundidad en lugar de una <<distance above surface>> negativa. Las distancias por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están abajo deben ser negativas. La distancia máxima sobre una superficie será siempre un número mayor o igual a la distancia mínima sobre la superficie. Dado que las distancias por debajo de una superficie son números negativos, la distancia máxima siempre será un número menor o igual a la distancia mínima. Comparar con <<altitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:68
@@ -5407,7 +5407,7 @@ msgstr "[[elevation]]elevación"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean-sea-level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>."
-msgstr "Medida de la distancia vertical de una superficie contienental o marina a partir de un <<vertical datum>>. En los mapas, la referencia al <<datum>> generalmente es una interpretación del <<mean-sea-level>> o el <<geoid>>, mientras que en dispositivos <<GPS>>/<<GNSS>>, el datum de referencia es el <<ellipsoid>> del <<geodetic datum>> al que está configurada la unidad GPS, aunque el dispositivo puede hacer correcciones para informar de la elevación por encima del nivel del mar o del geoide. Las elevaciones que están por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están por debajo deben ser negativas. Ver <<depth>>, <<distance above surface>>, y <<altitude>>."
+msgstr "Medida de la distancia vertical de una superficie contienental o marina a partir de un <<vertical datum>>. En los mapas, la referencia al <<datum>> generalmente es una interpretación del <<mean-sea-level>> o el <<geoid>>, mientras que en dispositivos <<GPS>>/<<GNSS>>, el datum de referencia es el <<ellipsoid>> del <<geodetic datum>> al que está configurada la unidad GPS, aunque el dispositivo puede hacer correcciones para informar de la elevación por encima del nivel del mar o del geoide. Las elevaciones que están por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están por debajo deben ser negativas. Comparar con <<depth>>, <<distance above surface>>, y <<altitude>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:74
