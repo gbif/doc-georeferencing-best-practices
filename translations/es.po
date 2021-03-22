@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-22 17:52\n"
+"PO-Revision-Date: 2021-03-22 18:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5083,7 +5083,7 @@ msgstr "[[altitude]]altitud"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>."
-msgstr "Una medición de la distancia vertical por encima de un <<vertical datum>>, normalmente <<mean-sea-level>> o <<geoid>>. Para los puntos en la superficie de la Tierra, la altitud es sinónimo de <<elevation>>."
+msgstr "Una medida de la distancia vertical por encima de un <<vertical datum>>, normalmente <<mean-sea-level>> o <<geoid>>. Para los puntos sobre la superficie de la Tierra, la altitud es sinónimo de <<elevation>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
@@ -5936,7 +5936,7 @@ msgstr "[[meridian]]meridiano"
 #. type: Plain text
 #: glossary.en.adoc:169
 msgid "A line on the surface of the earth where all of the <<location,locations>> have the same <<longitude>>. Compare <<antimeridian>> and <<prime meridian>>."
-msgstr "Una línea en la superficie de la tierra donde todas las <<location,locations>> tienen la misma <<longitude>>. Ver <<antimeridian>> y <<prime meridian>>."
+msgstr "Una línea en la superficie de la tierra donde todas las <<location,locations>> tienen la misma <<longitude>>. Comparar con <<antimeridian>> y <<prime meridian>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:170
@@ -6022,18 +6022,18 @@ msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar 
 #. type: Plain text
 #: glossary.en.adoc:190
 msgid "Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>."
-msgstr "Antónimo: imprecisión. Ver <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, y <<uncertainty>>."
+msgstr "Antónimo: imprecisión. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, y <<uncertainty>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:191
 #, no-wrap
 msgid "[[prime-meridian]]prime meridian"
-msgstr "[[prime-meridian]]primer meridiano"
+msgstr "[[prime-meridian]]meridiano cero"
 
 #. type: Plain text
 #: glossary.en.adoc:192
 msgid "The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes."
-msgstr "Conjunto de <<location,locations>> con <<longitude>> designada como 0 grados este y oeste, a partir del cuál todas las longitudes estan referenciadas. El <<meridian>> de Greenwich es reconocido internacionalmente como el <<prime meridian>> para muchos propósitos populares y oficiales."
+msgstr "Conjunto de <<location,locations>> con <<longitude>> designada como 0 grados este y oeste, a partir del cuál se referencian todas las longitudes. El <<meridian>> de Greenwich es reconocido internacionalmente como el <<prime meridian>> para muchos propósitos populares y oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:193
@@ -6077,7 +6077,7 @@ msgstr "[[repatriate]]repatriar, repatriación"
 #. type: Plain text
 #: glossary.en.adoc:200
 msgid "The process of returning something to the source from which it was extracted. In the <<georeference,georeferencing>> sense, this refers to the process of adding the results of georeferencing to the original data, especially when georeferencing was done by a third party."
-msgstr "Proceso de retornar algo a la fuente de la que fue extraído. En el sentido de la <<georeference,georeferencing>> esto se refiere al proceso de agregar los resultados de la georeferencia a los datos originales, especialmente cuando la georeferenciación fue realizada por un tercero."
+msgstr "Proceso de retornar algo a la fuente de la que fue extraído. En el sentido de la <<georeference,georeferencing>> se refiere al proceso de agregar los resultados de la georeferenciación a los datos originales, especialmente cuando esta fue realizada por un tercero."
 
 #. type: Labeled list
 #: glossary.en.adoc:201
@@ -6171,7 +6171,7 @@ msgstr "Un <<path>> a lo largo del cual se hacen observaciones, mediciones o se 
 #: glossary.en.adoc:217
 #, no-wrap
 msgid "[[trig-point]]trig point"
-msgstr "[[trig-point]]punto de referencia"
+msgstr "[[trig-point]]vértice geodésico"
 
 #. type: Plain text
 #: glossary.en.adoc:218
