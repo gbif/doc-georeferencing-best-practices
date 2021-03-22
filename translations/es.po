@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-19 03:54\n"
+"PO-Revision-Date: 2021-03-22 17:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6094,7 +6094,7 @@ msgstr "Conjunto documentado de pasos a tomar para producir una representación 
 #: glossary.en.adoc:203
 #, no-wrap
 msgid "[[SBAS]]Satellite Based Augmentation System (SBAS)"
-msgstr "[[SBAS]]Sistema de Aumentación Basado en Satelite (SBAS)"
+msgstr "[[SBAS]]Sistema de Aumentación Basado en Satélites (SBAS)"
 
 #. type: Plain text
 #: glossary.en.adoc:204
