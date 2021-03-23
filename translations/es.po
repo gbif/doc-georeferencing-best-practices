@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-03-22 19:51\n"
+"PO-Revision-Date: 2021-03-23 13:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5089,7 +5089,7 @@ msgstr "Una medida de la distancia vertical por encima de un <<vertical datum>>,
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[antimeridian]]antimeridian"
-msgstr "[[antimeridian]]antimeridio"
+msgstr "[[antimeridian]]antimeridiano"
 
 #. type: Plain text
 #: glossary.en.adoc:14
@@ -5142,7 +5142,7 @@ msgstr "[[bounding-box]]cuadro delimitador"
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within."
-msgstr "Área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, donde esos dos rincones definen los extremos norte-sur y este-oeste de la zona contenida."
+msgstr "Área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, que definen los extremos norte-sur y este-oeste del área contenida."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
