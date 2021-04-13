@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-13 19:51\n"
+"PO-Revision-Date: 2021-04-13 20:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5072,18 +5072,18 @@ msgstr "La cercanía de un valor estimado (por ejemplo, medido o calculado) a un
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "\"The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.\" (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
-msgstr "\"El valor verdadero no es conocido, sólo estimado, la exactitud de la cantidad medida también es desconocida. Por lo tanto, la exactitud de la coordenada, sólo puede ser estimada. (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey División 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
+msgstr "\"El valor verdadero no es conocido, sólo estimado, la exactitud de la cantidad medida también es desconocida. Por lo tanto, la exactitud de la coordenada sólo puede ser estimada. (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey División 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:11
 #, no-wrap
 msgid "[[altitude]]altitude"
-msgstr "[[altitude]]altitud"
+msgstr "[[altitud]]altitud"
 
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>."
-msgstr "Una medida de la distancia vertical por encima de un <<vertical datum>>, normalmente <<mean-sea-level>> o <<geoid>>. Para los puntos sobre la superficie de la Tierra, la altitud es sinónimo de <<elevation>>."
+msgstr "Una medida de la distancia vertical por encima de un <<datum-vertical>>, ya sea el <<nivel-medio-del-mar>> o un <<geoide>>. Para los puntos sobre la superficie de la Tierra, la altitud es sinónimo de <<elevación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
@@ -5094,7 +5094,7 @@ msgstr "[[antimeridian]]antimeridiano"
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
-msgstr "El <<meridian>> de <<longitude>> opuesta a un <<meridian>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<prime meridian>> y se utiliza como base de la Línea internacional de cambio de fecha."
+msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<meridiano-cero>> y se utiliza como base de la Línea internacional de cambio de fecha."
 
 #. type: Plain text
 #: glossary.en.adoc:16
@@ -5104,7 +5104,7 @@ msgstr "[[bathymetry]]batimetría:"
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "The measure of <<depth>> of water in oceans, seas and lakes."
-msgstr "Medida de <<depth>> del agua en océanos, mares y lagos."
+msgstr "Medida de <<profundidad>> del agua en océanos, mares y lagos."
 
 #. type: Plain text
 #: glossary.en.adoc:18
@@ -5115,34 +5115,34 @@ msgstr "Las formas de los terrenos subacuáticos, incluyendo la topografía subm
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[bias]]bias"
-msgstr "[[bias]]sesgo"
+msgstr "[[sesgo]]sesgo"
 
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Comparar con <<accuracy>>, <<error>>, <<precision>>, <<false precision>> y <<uncertainty>>."
+msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Comparar con <<exactitud>>, <<error>>, <<precisión>>, <<falsa-precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[boundary]]boundary"
-msgstr "[[boundary]] límite"
+msgstr "[[límite]] límite"
 
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "The spatial divide between what is inside a <<location>> and what is outside of it."
-msgstr "La división espacial entre lo que está dentro de una <<location>> y lo que está fuera de ella."
+msgstr "La división espacial entre lo que está dentro de una <<ubicación>> y lo que está fuera de ella."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[bounding-box]]bounding box"
-msgstr "[[bounding-box]]cuadro delimitador"
+msgstr "[[cuadro-delimitador]]cuadro delimitador"
 
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within."
-msgstr "Área definida por las <<coordinates>> de dos esquinas diagonalmente opuestas de un polígono, que definen los extremos norte-sur y este-oeste del área contenida."
+msgstr "Área definida por las <<coordenadas>> de dos esquinas diagonalmente opuestas de un polígono, que definen los extremos norte-sur y este-oeste del área contenida."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -5153,7 +5153,7 @@ msgstr "componente"
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "see <<locality clause>>."
-msgstr "ver <<locality clause>>."
+msgstr "ver <<componente de la localidad>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -5164,7 +5164,7 @@ msgstr "[[coordinate-format]]formato de coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "The format in which <<coordinates>> are encoded, such as \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"degrees decimal minutes\", or <<UTM>>."
-msgstr "Formato en el que las <<coordinates>> están codificadas, como \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"grados minutos decimales\" o <<UTM>>."
+msgstr "Formato en el que las <<coordenadas>> están codificadas, como \"<<grados-decimales>>\", \"<<GMS,grados-minutos-segundos>>\", \"grados minutos decimales\" o <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -5484,8 +5484,8 @@ msgstr "[[falsa-precisión]]falsa precisión "
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "An artefact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>."
-msgstr "Registro de datos con un mayor número de decimales que los presentes en los datos originales. Esto ocurre frecuentemente después de realizar transformaciones en las unidades de medida o <<coordinate system>>, por ejemplo de pies a metros, o de <<DMS,degrees, minutes, and seconds>> a <<decimal degrees>>. En general, la <<precision>> no se conserva a través de las transformaciones; sin embargo, en la práctica, se registra como si el resultado de la transformación correspondiera a la precisión original. Por ejemplo, un registro de 10°20’, es almacenado en una base de datos en grados decimales como ~10.3°. Cuando se exporta desde algunas bases de datos, resultará en un valor de 10. 3333333333 con una <<precision>> de 10 decimales, en lugar de la precisión original de 1 minuto. Interpretando la precisión que representan las <<coordinates,coordinate>> como una precisión en distancia en el suelo, 10^-10 grados corresponde a cerca de 0.002 mm en el ecuador, mientras que la precisión de 1 minuto corresponde a aproximadamente 2.6 km. Esta no es una verdadera precisión ya que se refiere a los datos originales, pero es una precisión falsa si se representa como una combinación de la conversión de coordenadas y la fracción resultante en la exportación desde una base de datos. Esta no es una precisión verdadera en lo que respecta a los datos originales, sino una precisión falsa, \n"
-"generada a partir de la combinación de la conversión de coordenadas y la representación de la fracción resultante en la exportación de una base de datos. Comparar con <<precision>> y <<accuracy>>."
+msgstr "Registro de datos con un mayor número de decimales que los presentes en los datos originales. Esto ocurre frecuentemente después de realizar transformaciones en las unidades de medida o <<coordinate system>>, por ejemplo de pies a metros, o de <<DMS,degrees, minutes, and seconds>> a <<decimal degrees>>. En general, la <<precisión>> no se conserva a través de las transformaciones; sin embargo, en la práctica, se registra como si el resultado de la transformación correspondiera a la precisión original. Por ejemplo, un registro de 10°20’, es almacenado en una base de datos en grados decimales como ~10.3°. Cuando se exporta desde algunas bases de datos, resultará en un valor de 10. 3333333333 con una <<precisión>> de 10 decimales, en lugar de la precisión original de 1 minuto. Interpretando la precisión que representan las <<coordinates,coordinate>> como una precisión en distancia en el suelo, 10^-10 grados corresponde a cerca de 0.002 mm en el ecuador, mientras que la precisión de 1 minuto corresponde a aproximadamente 2.6 km. Esta no es una verdadera precisión ya que se refiere a los datos originales, pero es una precisión falsa si se representa como una combinación de la conversión de coordenadas y la fracción resultante en la exportación desde una base de datos. Esta no es una precisión verdadera en lo que respecta a los datos originales, sino una precisión falsa, \n"
+"generada a partir de la combinación de la conversión de coordenadas y la representación de la fracción resultante en la exportación de una base de datos. Comparar con <<precisión>> y <<exactitud>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:88
@@ -5854,7 +5854,7 @@ msgstr "La representación verbal de una <<location>>, también llamada a veces 
 #: glossary.en.adoc:154
 #, no-wrap
 msgid "[[locality-clause]]locality clause"
-msgstr "[[locality-clause]]componente de localidad"
+msgstr "[[componente de la localidad]]componente de la localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:155
