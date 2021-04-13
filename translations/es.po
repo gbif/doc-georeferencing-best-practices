@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-13 20:46\n"
+"PO-Revision-Date: 2021-04-13 21:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5148,12 +5148,12 @@ msgstr "Área definida por las <<coordenadas>> de dos esquinas diagonalmente opu
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "clause"
-msgstr "componente"
+msgstr "cláusula"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "see <<locality clause>>."
-msgstr "ver <<componente de la localidad>>."
+msgstr "ver <<claúsula de la localidad>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -5854,7 +5854,7 @@ msgstr "La representación verbal de una <<location>>, también llamada a veces 
 #: glossary.en.adoc:154
 #, no-wrap
 msgid "[[locality-clause]]locality clause"
-msgstr "[[componente de la localidad]]componente de la localidad"
+msgstr "[[claúsula-de-la-localidad]]claúsula de la localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:155
