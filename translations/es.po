@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-08 14:12\n"
+"PO-Revision-Date: 2021-04-13 19:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5067,7 +5067,7 @@ msgstr "[[exactitud]]exactitud"
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "The closeness of an estimated value (for example, measured or computed) to a standard or accepted (\"true\") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La cercanía de un valor estimado (por ejemplo, medido o calculado) a un valor estándar o aceptado (\"verdadero\"). Antónimo: inexactitud. Comparar con <<error>>, <<bias>>, <<precision>>, <<false precision>> y <<uncertainty>>."
+msgstr "La cercanía de un valor estimado (por ejemplo, medido o calculado) a un valor estándar o aceptado (\"verdadero\"). Antónimo: inexactitud. Comparar con <<error>>, <<sesgo>>, <<precisión>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Plain text
 #: glossary.en.adoc:10
@@ -5099,7 +5099,7 @@ msgstr "El <<meridian>> de <<longitude>> opuesta a un <<meridian>> de referencia
 #. type: Plain text
 #: glossary.en.adoc:16
 msgid "[[bathymetry]]bathymetry::"
-msgstr "[[bathymetry]]batimetría::"
+msgstr "[[bathymetry]]batimetría:"
 
 #. type: Plain text
 #: glossary.en.adoc:17
@@ -5479,7 +5479,7 @@ msgstr "El espacio total dentro del <<boundary>> que representa una <<location>>
 #: glossary.en.adoc:86
 #, no-wrap
 msgid "[[false-precision]]false precision"
-msgstr "[[false-precision]]precisión falsa"
+msgstr "[[falsa-precisión]]falsa precisión "
 
 #. type: Plain text
 #: glossary.en.adoc:87
@@ -6007,7 +6007,7 @@ msgstr "Representación del <<geographic component>> de una <<location>> a parti
 #. type: Plain text
 #: glossary.en.adoc:183
 msgid "[[precision]]precision::"
-msgstr "[[precision]]precisión::"
+msgstr "[[precisión]]precisión::"
 
 #. type: Plain text
 #: glossary.en.adoc:186
@@ -6182,7 +6182,7 @@ msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevation>> (
 #: glossary.en.adoc:219
 #, no-wrap
 msgid "[[uncertainty]]uncertainty"
-msgstr "[[uncertainty]]incertidumbre"
+msgstr "[[incertidumbre]]incertidumbre"
 
 #. type: Plain text
 #: glossary.en.adoc:220
