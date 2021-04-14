@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-13 23:03\n"
+"PO-Revision-Date: 2021-04-14 15:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5083,7 +5083,7 @@ msgstr "[[altitud]]altitud"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>."
-msgstr "Una medida de la distancia vertical por encima de un <<datum-vertical>>, ya sea el <<nivel-medio-del-mar>> o un <<geoide>>. Para los puntos sobre la superficie de la Tierra, la altitud es sinónimo de <<elevación>>."
+msgstr "Una medida de la distancia vertical por encima de un <<datum vertical>>, ya sea el <<nivel medio del mar>> o un <<geoide>>. Para los puntos sobre la superficie de la Tierra, la altitud es sinónimo de <<elevación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
