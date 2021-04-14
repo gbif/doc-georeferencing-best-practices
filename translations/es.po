@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-14 15:06\n"
+"PO-Revision-Date: 2021-04-14 16:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5094,7 +5094,7 @@ msgstr "[[antimeridian]]antimeridiano"
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
-msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<meridiano-cero>> y se utiliza como base de la Línea internacional de cambio de fecha."
+msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<meridiano cero>> y se utiliza como base de la Línea internacional de cambio de fecha."
 
 #. type: Plain text
 #: glossary.en.adoc:16
@@ -5120,7 +5120,7 @@ msgstr "[[sesgo]]sesgo"
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Comparar con <<exactitud>>, <<error>>, <<precisión>>, <<falsa-precisión>> e <<incertidumbre>>."
+msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor verdadero aceptado. El sesgo es equivalente al promedio del <<error>> sistemático en un conjunto de mediciones y una corrección para contrarrestar el error sistemático puede hacerse ajustando el sesgo. Comparar con <<exactitud>>, <<error>>, <<precisión>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
@@ -5159,23 +5159,23 @@ msgstr "ver <<claúsula de la localidad>>."
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[coordinate-format]]coordinate format"
-msgstr "[[coordinate-format]]formato de coordenadas"
+msgstr "[[formato-de-las-coordenadas]]formato de las coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "The format in which <<coordinates>> are encoded, such as \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"degrees decimal minutes\", or <<UTM>>."
-msgstr "Formato en el que las <<coordenadas>> están codificadas, como \"<<grados-decimales>>\", \"<<GMS,grados-minutos-segundos>>\", \"grados minutos decimales\" o <<UTM>>."
+msgstr "Formato en el que las <<coordenadas>> están codificadas, como \"<<grados-decimales>>\", \"<<GMS,grados minutos segundos>>\", \"grados minutos decimales\" o <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[coordinate-precision]]coordinate precision"
-msgstr "[[coordinate-precision]]precisión de las coordenadas"
+msgstr "[[precisión-de-las-coordenadas]]precisión de las coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree."
-msgstr "La fracción de un grado correspondiente al número de dígitos significativos en las <<coordinates>> fuente. Por ejemplo, si las coordenadas son reportadas al minuto más cercano, la <<precision>> es 1/3600th (0. 0027778) de grado; si un <<decimal-degrees,decimal degree>> se reporta a dos decimales, la precisión es 0.01 de grado."
+msgstr "La fracción de un grado correspondiente al número de dígitos significativos en las <<coordenadas>> originales. Por ejemplo, si las coordenadas son reportadas al minuto más cercano, la <<precisión>> es 1/3600th (0. 0027778) de grado; si un <<grados-decimales,grado decimal>> se reporta a dos decimales, la precisión es 0.01 de grado."
 
 #. type: Labeled list
 #: glossary.en.adoc:31
@@ -5280,7 +5280,7 @@ msgstr "Conjunto de uno o más parámetros que sirven como referencia o base par
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[decimal-degrees]]decimal degrees"
-msgstr "[[decimal-degrees]]grados decimales"
+msgstr "[[grados-decimales]]grados decimales"
 
 #. type: Plain text
 #: glossary.en.adoc:50
