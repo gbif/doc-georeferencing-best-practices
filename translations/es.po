@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-20 16:07\n"
+"PO-Revision-Date: 2021-04-20 17:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5181,34 +5181,34 @@ msgstr "La fracción de un grado correspondiente al número de dígitos signific
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[coordinate-reference-system]]coordinate reference system"
-msgstr "[[coordinate-reference-system]]sistema de referencia de coordenadas"
+msgstr "[[sistema-de-referencia-de-coordenadas]]sistema de referencia de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "(also <<spatial reference system>>) A <<coordinate system>> defined in relation to a standard reference or <<datum>>."
-msgstr "(también <<spatial reference system>>) Un <<coordinate system>> definido en relación a una referencia estándar o <<datum>>."
+msgstr "(también <<sistema de referencia espacial>>) Un <<sistema de coordenadas>> definido en relación a una referencia estándar o <<datum>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[coordinate-system]]coordinate system"
-msgstr "[[coordinate-system]]sistema de coordenadas"
+msgstr "[[sistema-de-coordenadas]]sistema de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system."
-msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordinates>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<geographic coordinate system>> y el sistema de coordenadas <<UTM>>."
+msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordenadas>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<sistema de coordenadas geográfico> y el sistema de coordenadas <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:35
 #, no-wrap
 msgid "[[coordinate-uncertainty]]coordinate uncertainty"
-msgstr "[[coordinate-uncertainty]]incertidumbre de las coordenadas"
+msgstr "[[incertidumbre-de-las-coordenadas]]incertidumbre de las coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "A measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be."
-msgstr "Medida de la distancia mínima desde una <<coordinates,coordinate>>, en la que puede interpretarse que se ubica una <<locality>>."
+msgstr "Medida de la distancia mínima desde una <<coordenadas,coordenada>>, en la que puede interpretarse que se ubica una <<localidad>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:37
@@ -5219,7 +5219,7 @@ msgstr "[[coordinates]]coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "A set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations."
-msgstr "Conjunto de valores que definen una posición dentro de un <<coordinate system>>. Las coordenadas se utilizan para representar <<location,locations>> en el espacio en relación a otras ubicaciones."
+msgstr "Conjunto de valores que definen una posición dentro de un <<sistema de coordenadas>>. Las coordenadas se utilizan para representar <<ubicación,ubicaciones>> en el espacio en relación a otras ubicaciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:39
@@ -5230,18 +5230,18 @@ msgstr "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
 #. type: Plain text
 #: glossary.en.adoc:40
 msgid "The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters."
-msgstr "Término <<Darwin Core>> correspondiente a la <<maximum uncertainty distance>> en metros."
+msgstr "Término <<Darwin Core>> correspondiente a la <<máxima distancia de incertidumbre>> en metros."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[corrected-center]]corrected center"
-msgstr "[[corrected-center]]centro corregido"
+msgstr "[[centro-corregido]centro corregido"
 
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see <<img-polygon-center>>)."
-msgstr "El punto dentro de una <<location>>, o en su <<boundary>>, que minimiza el <<geographic radial>> de la ubicación. Este punto se obtiene haciendo el <<smallest enclosing circle>> que contiene todo la <<feature>>, y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer el <<smallest enclosing circle>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radial>>, siempre serán mas grandes que el no corregido (ver <<img-polygon-center>>)."
+msgstr "El punto dentro de una <<ubicación>>, o en sus <<límite,límites>> que minimiza el <<radio geográfico>> de la ubicación. Este punto se obtiene haciendo el <<círculo mínimo>> que contenga todo la <<geometría>> y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer un <<círculo mínimo>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radio>>, siempre serán mas grandes que el centro no corregido (ver <<img-centro-polígono>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -5258,7 +5258,7 @@ msgstr "Estándar para el intercambio de información sobre diversidad biológic
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[data-quality]]data quality"
-msgstr "[[data-quality]]calidad de datos"
+msgstr "[[calidad-de-datos]]calidad de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:46
@@ -5274,7 +5274,7 @@ msgstr "[[datum]]datum"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>."
-msgstr "Conjunto de uno o más parámetros que sirven como referencia o base para el cálculo de otros parámetros https://www.iso.org/standard/74039.html[ISO 19111^]. El datum define la posición del origen, la escala y la orientación de los ejes de un <<coordinate system>>. Para propósitos de la <<georeference,georeferencing>>, un datum puede ser un <<geodetic datum>> o un <<vertical datum>>."
+msgstr "Conjunto de uno o más parámetros que sirven como referencia o base para el cálculo de otros parámetros https://www.iso.org/standard/74039.html[ISO 19111^]. El datum define la posición del origen, la escala y la orientación de los ejes de un <<sistema de coordenadas>>. Para propósitos de la <<georreferenciación>>, un datum puede ser un <<datum geodésico>> o un <<datum vertical>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -5285,29 +5285,29 @@ msgstr "[[grados-decimales]]grados decimales"
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>."
-msgstr "Grados expresados como un único número real (p. ej., -22.343456). Tenga en cuenta que las <<latitude,latitudes>> al sur del ecuador son negativas, al igual que las <<longitude,longitudes>> al oeste del <<prime meridian>> hasta −180 grados. Ver también <<decimal latitude>> y <<decimal longitude>>."
+msgstr "Grados expresados como un único número real (p. ej., -22.343456). Tenga en cuenta que las <<latitud,latitudes>> al sur del ecuador son negativas, al igual que las <<longitud,longitudes>> al oeste del <<meridiano cero>> hasta −180 grados. Ver también <<latitud decimal>> y <<longitud decimal>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[decimal-latitude]]decimal latitude"
-msgstr "[[decimal-latitude]]latitud decimal"
+msgstr "[[latitud-decimal]]latitud decimal"
 
 #. type: Plain text
 #: glossary.en.adoc:52
 msgid "<<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of decimal latitude are −90 to 90, inclusive."
-msgstr "<<latitude,Latitude>> expresada en <<decimal degrees>>. Los límites de la latitud decimal se encuentran entre -90 y 90 grados."
+msgstr "<<latitud,Latitud>> expresada en <<grados decimales>>. Los límites de la latitud decimal se encuentran entre -90 y 90 grados."
 
 #. type: Labeled list
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[decimal-longitude]]decimal longitude"
-msgstr "[[decimal-longitude]]longitud decimal"
+msgstr "[[longitud-decimal]]longitud decimal"
 
 #. type: Plain text
 #: glossary.en.adoc:54
 msgid "<<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of decimal longitude are −180 to 180, inclusive."
-msgstr "<<longitude,Longitude>> expresada en <<decimal degrees>>. Los límites de la latitud decimal se encuentran entre -180 y 180 grados."
+msgstr "<<longitud,Longitud>> expresada en <<grados decimales>>. Los límites de la latitud decimal se encuentran entre -180 y 180 grados."
 
 #. type: Labeled list
 #: glossary.en.adoc:55
@@ -5318,7 +5318,7 @@ msgstr "declinación"
 #. type: Plain text
 #: glossary.en.adoc:56
 msgid "see <<magnetic declination>>."
-msgstr "ver <<magnetic declination>>."
+msgstr "ver <<declinación magnética>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:57
@@ -5329,52 +5329,52 @@ msgstr "[[DEM]]DEM"
 #. type: Plain text
 #: glossary.en.adoc:58
 msgid "see <<digital elevation model>>."
-msgstr "ver <<digital elevation model>>."
+msgstr "ver <<modelo digital de elevación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:59
 #, no-wrap
 msgid "[[depth]]depth"
-msgstr "[[depth]]profundidad"
+msgstr "[[profundidad]]profundidad"
 
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, \"water depth\" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number."
-msgstr "Medición de la distancia vertical por debajo de un <<vertical datum>>. En este documento tratamos de modificar el término para indicar el medio en el que se realiza la medición. En este sentido, la \"profundidad del agua\" es la distancia vertical por debajo de una interfaz de aire - agua, en un cuerpo de agua (océano, lago, río, agujero, etc.). Comparar con <<distance above surface>>. Profundidad es siempre un número no negativo."
+msgstr "Medición de la distancia vertical por debajo de un <<datum vertical>>. En este documento tratamos de modificar el término para indicar el medio en el que se realiza la medición. En este sentido, la \"profundidad del agua\" es la distancia vertical por debajo de una interfaz de aire-agua, en un cuerpo de agua (océano, lago, río, agujero, etc.). Comparar con <<distancia sobre la superficie>>. Profundidad es siempre un número no negativo."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
 #, no-wrap
 msgid "[[digital-elevation-model,digital elevation model]]digital elevation model (DEM)"
-msgstr "[[digital-elevation-model,digital elevation model]] modelo digital de elevación (DEM)"
+msgstr "[[modelo-digital-de-elevación,modelo digital de elevación]] modelo digital de elevación (DEM)"
 
 #. type: Plain text
 #: glossary.en.adoc:62
 msgid "A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean-sea-level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope."
-msgstr "Representación digital de la elevación de una <<location,locations>> en la superficie de la tierra, habitualmente representado en forma de una <<grid>> rectangular (raster) que almacena la <<elevation>> relativa al <<mean-sea-level>> o algún otro <<vertical datum>>. El término Modelo de Terreno Digital (DTM) se utiliza a veces de forma intercambiable con DEM, aunque normalmente se limita a modelos que representan capas. Un DTM normalmente contiene información adicional de superficie, como picos y roturas en pendiente."
+msgstr "Representación digital de la elevación de una <<ubicación>> en la superficie de la tierra, habitualmente representado en forma de una <<grilla>> rectangular (raster) que almacena la <<elevación>> relativa al <<nivel-medio-del-mar>> o algún otro <<datum vertical>>. El término Modelo de Terreno Digital (DTM) se utiliza a veces de forma intercambiable con DEM, aunque normalmente se limita a modelos que representan capas. Un DTM normalmente contiene información adicional de superficie, como picos y roturas en pendiente."
 
 #.  TODO, link directly to heading?
 #. type: Labeled list
 #: glossary.en.adoc:64
 #, no-wrap
 msgid "[[direction]]direction"
-msgstr "[[direction]]dirección"
+msgstr "[[dirección]]dirección"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "see <<heading>>."
-msgstr "ver <<heading>>."
+msgstr "ver <<dirección>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:66
 #, no-wrap
 msgid "[[distance-above-surface]]distance above surface"
-msgstr "[[distance-above-surface]]distancia sobre la superficie"
+msgstr "[[distancia-sobre-la-superficie]]distancia sobre la superficie"
 
 #. type: Plain text
 #: glossary.en.adoc:67
 msgid "In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>."
-msgstr "Además de la <<elevation>> y la <<depth>>, esta es una medida de la distancia vertical sobre un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Para la <<location,locations>> de una superficie terrestre, el punto de referencia debe ser la elevación a nivel del suelo. Sobre un cuerpo de agua (océano, mar, lago, río, glacier, etc.), el punto de referencia para las ubicaciones aéreas debe ser la elevación a partir de la interfaz aire-agua, mientras que el punto de referencia para ubicaciones bénticas subsuperficiales debe ser la interfaz entre el agua y el sustrato. Las ubicaciones dentro de un cuerpo de agua deben usar la profundidad en lugar de una <<distance above surface>> negativa. Las distancias por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están abajo deben ser negativas. La distancia máxima sobre una superficie será siempre un número mayor o igual a la distancia mínima sobre la superficie. Dado que las distancias por debajo de una superficie son números negativos, la distancia máxima siempre será un número menor o igual a la distancia mínima. Comparar con <<altitude>>."
+msgstr "Además de la <<elevación>> y la <<profundidad>>, esta es una medida de la distancia vertical sobre un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Para las <<ubicación,ubicaciones>> sobre una superficie terrestre, el punto de referencia debe ser la elevación a nivel del suelo. Sobre un cuerpo de agua (océano, mar, lago, río, glaciar, etc.), el punto de referencia para las ubicaciones aéreas debe ser la elevación a partir de la interfaz aire-agua, mientras que el punto de referencia para ubicaciones bénticas subsuperficiales debe ser la interfaz entre el agua y el sustrato. Las ubicaciones dentro de un cuerpo de agua deben usar la profundidad en lugar de una <<distancia sobre la superficie>> negativa. Las distancias por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están abajo deben ser negativas. La distancia máxima sobre una superficie será siempre un número mayor o igual a la distancia mínima sobre la superficie. Dado que las distancias por debajo de una superficie son números negativos, la distancia máxima siempre será un número menor o igual a la distancia mínima. Comparar con <<altitud>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:68
@@ -5385,18 +5385,18 @@ msgstr "[[DMS]]GMS"
 #. type: Plain text
 #: glossary.en.adoc:69
 msgid "Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W)."
-msgstr "Grados, minutos y segundos – uno de los formatos más comunes para expresar <<geographic coordinates>> en mapas. Un grado se divide en 60 minutos de arco y cada minuto se divide en 60 segundos de arco. Grados, minutos y segundos son indicados por los símbolos °, ', ''. Los grados de <<latitude>> son enteros entre 0 y 90 y deben ir seguidos de un indicador para el hemisferio (p. ej. N o S). Los grados de <<longitude>> son enteros entre 0 y 180, y deben ir seguidos de un indicador para el hemisferio (ej. E o W)."
+msgstr "Grados, minutos y segundos – uno de los formatos más comunes para expresar <<coordenadas geográficas>> en mapas. Un grado se divide en 60 minutos de arco y cada minuto se divide en 60 segundos de arco. Grados, minutos y segundos son indicados por los símbolos °, ', ''. Los grados de <<latitud>> son enteros entre 0 y 90 y deben ir seguidos de un indicador para el hemisferio (p. ej. N o S). Los grados de <<longitud>> son enteros entre 0 y 180, y deben ir seguidos de un indicador para el hemisferio (ej. E o W)."
 
 #. type: Labeled list
 #: glossary.en.adoc:70
 #, no-wrap
 msgid "[[easting]]easting"
-msgstr "[[easting]]este"
+msgstr "[[este]]este"
 
 #. type: Plain text
 #: glossary.en.adoc:71
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map."
-msgstr "Dentro de un <<coordinate reference system>> (e.g. como la proporcionada por un <<GPS>> o un un mapa de <<grid>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridian>> de referencia en un mapa."
+msgstr "Dentro de un <<sistema de referencia de coordenadas>> (e.g. como la proporcionada por un <<GPS>> o un un mapa de <<grilla>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridiano>> de referencia en un mapa."
 
 #. type: Labeled list
 #: glossary.en.adoc:72
@@ -5407,7 +5407,7 @@ msgstr "[[elevation]]elevación"
 #. type: Plain text
 #: glossary.en.adoc:73
 msgid "A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean-sea-level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>."
-msgstr "Medida de la distancia vertical de una superficie contienental o marina a partir de un <<vertical datum>>. En los mapas, la referencia al <<datum>> generalmente es una interpretación del <<mean-sea-level>> o el <<geoid>>, mientras que en dispositivos <<GPS>>/<<GNSS>>, el datum de referencia es el <<ellipsoid>> del <<geodetic datum>> al que está configurada la unidad GPS, aunque el dispositivo puede hacer correcciones para informar de la elevación por encima del nivel del mar o del geoide. Las elevaciones que están por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están por debajo deben ser negativas. Comparar con <<depth>>, <<distance above surface>>, y <<altitude>>."
+msgstr "Medida de la distancia vertical de una superficie continental o marina a partir de un <<datum vertical>>. En los mapas, la referencia al <<datum>> generalmente es una interpretación del <<nivel-medio-del-mar>> o el <<geoide>>, mientras que en dispositivos <<GPS>>/<<GNSS>>, el datum de referencia es el <<elipsoide>> del <<datum geodésico>> al que está configurada la unidad GPS, aunque el dispositivo puede hacer correcciones para informar de la elevación por encima del nivel del mar o del geoide. Las elevaciones que están por encima de un punto de referencia deben ser expresadas como números positivos, mientras que las que están por debajo deben ser negativas. Comparar con <<profundidad>>, <<distancia sobre la superficie>>, y <<altitud>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:74
@@ -5491,7 +5491,7 @@ msgstr "Registro de datos con un mayor número de decimales que los presentes en
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[feature]]feature"
-msgstr "[[feature]]geometría"
+msgstr "[[geometría]]geometría"
 
 #. type: Plain text
 #: glossary.en.adoc:89
