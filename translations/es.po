@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-14 16:08\n"
+"PO-Revision-Date: 2021-04-20 16:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5089,7 +5089,7 @@ msgstr "Una medida de la distancia vertical por encima de un <<datum vertical>>,
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[antimeridian]]antimeridian"
-msgstr "[[antimeridian]]antimeridiano"
+msgstr "[[antimeridiano]]antimeridiano"
 
 #. type: Plain text
 #: glossary.en.adoc:14
@@ -5099,7 +5099,7 @@ msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referenci
 #. type: Plain text
 #: glossary.en.adoc:16
 msgid "[[bathymetry]]bathymetry::"
-msgstr "[[bathymetry]]batimetría:"
+msgstr "[[batimetría]]batimetría:"
 
 #. type: Plain text
 #: glossary.en.adoc:17
@@ -5126,7 +5126,7 @@ msgstr "La diferencia entre el promedio de un conjunto de mediciones y el valor 
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[boundary]]boundary"
-msgstr "[[límite]] límite"
+msgstr "[[límite]]límite"
 
 #. type: Plain text
 #: glossary.en.adoc:22
