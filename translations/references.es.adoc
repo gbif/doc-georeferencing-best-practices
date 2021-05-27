@@ -1,0 +1,176 @@
+== References
+
+- ANBG (2018) Australia’s Virtual Herbarium. Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html
+- Apache (2019) Apache SISTM Coordinate Reference System (CRS) codes. https://sis.apache.org/tables/CoordinateReferenceSystems.html
+- ASPRS (1990) ASPRS Accuracy Standards for Large-Scale Maps. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf
+- ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf
+- Australian Hydrographic Office (2020) AHP20. Mariner’s Handbook for Australian Waters, 5th edition 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf
+- Australian Museum. DIGIVOL. https://volunteer.ala.org.au/
+- Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 models of diving compression computer. Underwater Technology 31(1): 3-12. https://doi.org/10.3723/ut.31.003
+- Barkwell ME & Murrell ZE (2012) The US Virtual Herbarium: working with individual herbaria to build a natural resource. Zookeys 209: 55-73. https://doi.org/10.3897/zookeys.209.3205
+- Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Eugene, Oregon, USA: Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf
+- Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
+- Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Make Tech Easier. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/
+- Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf
+- Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. https://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf
+- Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq
+- Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190
+- Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528
+- Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545
+- Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10
+- Chapman AD & Grafton O (2008) Guide to Best Practices for Generalising Sensitive Species-Occurrence Data, version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-b02j-gt10
+- Chapman AD, Muñoz MES & Koch I (2005) Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. Biodiversity Informatics 2: 24-41. https://doi.org/10.17161/bi.v2i0.5
+- Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42
+- Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889
+- Chisholm FP (1963) The Chisholm Effect, in Baker RA (ed), A Stress Analysis of a Strapless Evening Gown, and Other Essays for a Scientific Age. Englewood Cliffs, NJ. Prentice-Hall Inc., pp. 13-42.
+- [[chrisman]]Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
+- Coastal Navigation (2020) 1.3 The Nautical Chart. CoastalNavigation.com. http://www.coastalnavigation.com/samples/sec_1/1_pages/1_3.htm
+- Conn BJ (1999) Herbarium Information Standards and Protocols for Interchange of Data, version 4. Council of Heads of Australian Herbaria. http://plantnet.rbgsyd.nsw.gov.au/HISCOM/HISPID/HISPID4/Introduction/hispid4.html
+- [[cullen]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
+- Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details
+- Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/
+- Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/
+- De Pooter D, Appeltans W, Bailly N, Bristol S, Deneudt K, Eliezer M, Fujioka E, Giorgetti A, Goldstein P, Lewis M, Lipizer M, Mackay K, Marin M, Moncoiffé G, Nikolopoulou S, Provoost P, Rauch S, Roubicek A, Torres C, Putte A van der, Vandepitte L, Vanhoorne B, Vinci M, Wambiji N, Watts D, Salas EK & Hernandez F (2017) Toward a new data standard for combined marine biological and environmental datasets - expanding OBIS beyond species occurrences. Biodiversity Data Journal 5: e10989. https://doi.org/10.3897/BDJ.5.e10989
+- Doty J (2017) Comparing the GPS Accuracy of Three Cameras. https://www.blog.jimdoty.com/?p=14661
+- Edey M (n.d.) Mapping Tool Tutorial. Australian Museum. https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf
+- El-Ashmawy K (2016) Investigation of the Accuracy of Google Earth Elevation Data. Artificial Satellites 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008
+- Ellingson J (2017) NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022. https://cdn.ymaws.com/www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf
+- Eos Positioning Systems (2018) Elevation for Beginners: What to Know About GPS Receiver Elevation. https://eos-gnss.com/elevation-for-beginners/
+- ESA (2014) SBAS Systems. European Space Agency, Navipedia. https://gssc.esa.int/navipedia/index.php/SBAS_Systems
+- Escobar D, Díaz SR, Jojoa LM, Rudas E & Saavedra J (2015) Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. http://repository.humboldt.org.co/handle/20.500.11761/9610
+- Escobar D, Jojoa LM, Díaz SR, Rudas E, Albarracín RD, Ramírez C, Gómez JY, López CR, Saavedra J, Ortiz R (2016) Georreferenciación de localidades: Una guía de referencia para colecciones biológicas. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt –Instituto de Ciencias Naturales, Universidad Nacional de Colombia. Bogotá D.C., Colombia. 144p. http://repository.humboldt.org.co/bitstream/handle/20.500.11761/35180/Georreferenciaci%c3%b3n%20de%20localidades_SiBColombia.pdf?sequence=1&isAllowed=y 
+- ESRI (n.d.) GIS Dictionary. https://support.esri.com/en/other-resources/gis-dictionary/browse/
+- FAA (2017) Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report. Atlantic City, N.J., United States: William J. Hughes Technical Center. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22
+- FAA (2019) Satellite Navigation - WAAS - How it Works. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/
+- FAA (2020) SBAS Worldwide. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf
+- Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D & Alsdorf D (2007) The Shuttle Radar Topography Mission. Reviews of Geophysics 45(2): 1-33. https://doi.org/10.1029/2005RG000183
+- FGDC (1998) Geospatial Positioning Accuracy Standards, Part 3: National Standards for Spatial Data Accuracy. FGDC-STD-007.3-1998. Reston, Va., USA. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3
+- Frazier C, Neville T, Giermakowski JT & Racz G (2004) The INRAM Protocol for Georeferencing Biological Museum Specimen Records, Version 1.3. https://doi.org/10.5281/zenodo.3235003
+- GBIF (2019) GBIF Occurrence Download. GBIF.org. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/dl.5pmzev
+- GEBCO (2019a) GEBCO One Minute Grid. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/
+- GEBCO (2019b) General Bathymetric Chart of the Oceans. GEBCO-2019. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html
+- Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf
+- GEOLocate (2018) Collaborative Georeferencing. http://www.geo-locate.org/community/default.html
+- Geomatic Solutions (2018) Georepository. Version 9.0.0.0062. https://georepository.com/
+- [[geosci-au-2005]]Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia.
+- Geoscience Australia (2007) Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products. Version 5.0. http://www.ga.gov.au/mapspecs/topographic/v5/index.html
+- Geoscience Australia (2018) Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644
+- Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia
+- Geoscience Australia (2019b) Map Grid of Australia 2020. 2019 edition. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020
+- Gibson D (1996) How accurate is radio-location? Cave and Karst Science 23(2): 77-80. http://hdl.handle.net/10871/19788
+- Gibson D (2002) Radiolocation for Cave Surveying. {gibson_radiolocation}
+- GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath
+- GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/
+- [[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group.
+- Goulet CM (2001) Magnetic Declinations. Frequently Asked Questions. Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm
+- GPS.gov (2017) GPS Accuracy. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/
+- GPS.gov (2018) Selective Availability. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/
+- Grant S, Jones J, Webbink K & Zschernitz R (2018) Repatriation of Augmented Information to an Institutional Database. Biodiversity Information Science and Standards 2: e26479. https://doi.org/10.3897/biss.2.26479
+- Gries C, Gilbert EE & Franz NM (2014) Symbiota - a virtual platform for creating voucher-based biodiversity information communities. Biodiversity Data Journal 2: e1114. https://doi.org/10.3897/BDJ.2.e1114
+- Guan L (2019) Government ups the ante on securing Australia with satellites. CIO. https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/
+- Guo Q, Liu Y & Wieczorek JR (2008) Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. International Journal of Geographical Information Science 22: 1067-1090. https://doi.org/10.1080/13658810701851420
+- Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381
+- Guralnick R & Constable H (2010) VertNet: Creating a Data Sharing Community. Bioscience 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2
+- Hardy P & Field K (2012) Portrayal and Cartography. In Kresse W, Danko D, eds., Springer Handbook of Geographic Information. Berlin: Springer. https://doi.org/10.1007/978-3-540-72680-7_11
+- [[helbich]]Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria. https://www.researchgate.net/publication/267857078_Comparative_Spatial_Analysis_of_Positional_Accuracy_of_OpenStreetMap_and_Proprietary_Geodata
+- Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/
+- Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf
+- Iland D, Irish A, Madhow U & Sandler B (2018) Rethinking GPS: Engineering Next-Gen at Uber. Uber Engineering. https://eng.uber.com/rethinking-gps/
+- IOGP (2019) About the EPSG Dataset. http://www.epsg.org/
+- ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html
+- ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html
+- [[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
+- [[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
+- [[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House.
+- Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962
+- Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/
+- Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_].
+- [[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons.
+- Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html
+- Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114
+- Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and Engineers. Berlin: Springer Science and Business Media. https://doi.org/10.1007/978-94-011-5826-8
+- Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/
+- Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear programming. Algorithmica 16 (4–5): 498–516. https://doi.org/10.1007/BF01940877
+- McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next Generation Height Reference Frame. 3/3 Technical Requirements. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf
+- McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. {mcelroy_et_al_2007}
+- Mesibov R (2012) Known unknowns, Google Earth, plate tectonics and Mt Bellenden Ker: some thoughts on locality data. ZooKeys 247: 61-67. https://doi.org/10.3897/zookeys.247.4195
+- Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf
+- Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE Spectrum. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018
+- Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software (DMAP). http://www.dmap.co.uk/utmworld.htm
+- Mouratidis A & Ampatzidis D (2019) European Digital Elevation Model Validation against Extensive Global Navigation Satellite Systems Data and Comparison with SRTM DEM and ASTER GDEM in Central Macedonia (Greece). ISPRS International Journal of Geo-Information 8(3): 108. https://doi.org/10.3390/ijgi8030108
+- Mukherjee S, Joshi PK, Mukherjee S, Ghosh A, Garg RD & Mukhopadhyay A (2013) Evaluation of vertical accuracy of open source Digital Elevation Model (DEM). International Journal of Applied Earth Observation and Geoinformation 21: 205-217. https://doi.org/10.1016/j.jag.2012.09.004
+- Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792
+- Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. https://mvzhandbook.berkeley.edu/curatorial/tutorials-training/localities-events
+- National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml
+- NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental Information. NOAA. Version 2.19.0. https://www.ngdc.noaa.gov/maps/bathymetry/
+- Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5
+- Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027
+- [[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers.
+- NLWRA (2008) Natural Resources Information Management Toolkit. Version 2.0. In Promoting Best Practice in Spatial Data and Information Management. Canberra, Australia: National Land and Water Resources Australia. http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit
+- NOAA (n.d.a) Wandering of the Geomagnetic poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml
+- NOAA (n.d.b) Magnetic Field Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml
+- NOAA (2016) How accurate are nautical charts? News and Updates 8 April 2016 by NOAA Office of Coast Survey. https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/
+- NOAA (2018) International Comprehensive Ocean-Atmosphere Data Set (ICOADS). ICOADS Data and Documentation. http://icoads.noaa.gov/products.html
+- NOAA (2019) World Magnetic Model. https://www.ngdc.noaa.gov/geomag/WMM/
+- NOAA/NCEI (2019) GEBCO_2019 Bathymetric Contours (NOAA NCEI Visualization). https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8
+- NOAA/NCIE & CIRES (2019) US/UK World Magnetic Model. Epoch 2020.0. Main Field Declination (D). https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020_D_BoZ_MILL.pdf
+- NOT Engineers (2019) Underground radiolocation. NOT Engineers - engineers in speleology. http://www.not-engineers.fr/Underground-radiolocation.html
+- Novaczek E, Devillers R & Edinger E (2019) Generating higher resolution regional seafloor maps from crowd-sourced bathymetry. PLoS ONE 14(6): e0216792. https://doi.org/10.1371/journal.pone.0216792
+- Novatel (2015) An Introduction to GNSS. GPS, GLONASS, BeiDou, Galileo, and other Global Navigation Satellite Systems. 2nd edition. Alberta, Canada: Novatel Inc. https://novatel.com/support/knowledge-and-learning/gnss-book
+- OBIS (n.d.) Darwin Core, in OBIS Manual. https://obis.org/manual/darwincore/
+- OGC (2019) OGC Standards. Office of the Geospatial Consortium. http://www.opengeospatial.org/specs/?page=recommendation
+- Page RDM (2009) bioGUID: Resolving, discovering, and minting identifiers for biodiversity informatics. BMC Bioinformatics 10(Suppl 14): S5. https://doi.org/10.1186/1471-2105-10-S14-S5
+- Paredes-Hernández CU, Salinas-Castillo WE, Guevara-Cortina F & Martínez-Becerra X (2013) Horizontal positional accuracy of Google Earth's imagery over rural areas: a study case in Tamaulipas, Mexico. Boletim de Ciências Geodésicas 19(4): 588-601. https://doi.org/10.1590/S1982-21702013000400005
+- Paul D (2018). Georeferencing Overview. iDigBio. https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf
+- Pirazzi G, Mazzoni A, Biagi L & Crespi M (2017) Preliminary Performance Analysis with a GPS+Galileo Enabled Chipset Embedded in a Smartphone. Proceedings of the 30th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2017), Portland, Oregon: 101-115. https://doi.org/10.33012/2017.15260
+- Potere D (2008) Horizontal positional accuracy of Google Earth's high-resolution imagery archive. Sensors 8: 7973-7981. https://doi.org/10.3390/s8127973
+- Prince M (2020) Accuracy and Reliability of Charts. Fact Sheet A411302. Australian Hydrographic Office. http://www.hydro.gov.au/prodserv/important-info/accuracy_and_reliability_of_charts.pdf
+- Raes N, Mols J, Willemse L & Smets EF (2009) Georeferencing specimens by combining digitized maps with SRTM digital elevation data and satellite images: a Bornean case study. Blumea 54: 162–165 https://doi.org/10.3767/000651909X475950
+- Ragheb AE & Ragab AF (2015) Enhancement of Google Earth Positional Accuracy. International Journal of Engineering Research & Technology: 4(1): 627–630. https://pdfs.semanticscholar.org/3826/442bd5d9ceaf8f22e4a401a72eea090b8798.pdf
+- Rees T (2019) Interim Register of Marine and Nonmarine Genera (IRMNG). http://www.irmng.org
+- Richards K (2010) TDWG GUID applicability statement. Version 2010‐09. http://www.tdwg.org/standards/150
+- Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to persistent identifiers. Version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/mjgq-d052
+- Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/
+- Reock EC Jr (1961) A Note: Measuring Compactness as a Requirement of Legislative Apportionment. Midwest Journal of Political Science 5(1): 70-74 https://doi.org/10.2307/2109043
+- Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118
+- SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf
+- Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7
+- Skone S, Yousuf R & Coster A (2004) Combating the Perfect Storm. Improving Marine Differential GPS Accuracy with a Wide Area Network. GPS World. http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf
+- Skone S & Yousuf R (2007) Performance of satellite-based navigation for marine users during ionosphere disturbances. Space Weather 5: SO1006 https://doi.org/10.1029/2006SW000246
+- Snyder J (1987) Map Projections – A Working Manual. U.S. Geological Survey Professional Paper 1395. Washington, DC: United States Government Printing Office. https://doi.org/10.3133/pp1395
+- Sogade J, Vichabian Y, Reppert PM, Coles D & Morgan FD (2004) Electronic Cave-to-Surface Mapping System. IEEE Transactions on Geoscience and Remote Sensing 42(4): 754-763. https://doi.org/10.1109/TGRS.2003.819882
+- Stein B & Wieczorek J (2004) Mammals of the World: MaNIS as an example of data integration in a distributed network environment. Journal of Biodiversity Informatics 1: 14–22. https://doi.org/10.17161/bi.v1i0.7
+- Tan A, Alomari A & Schamschula M (2016) Land-water distribution and the pear-shape of the Earth. International Journal of Oceans & Oceanography 10(2): 123-132. https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf
+- Taylor C (2003) Geographic/UTM Coordinate Converter. http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html
+- TDWG (2018) Darwin Core quick reference guide. Biodiversity Information Standards (TDWG). https://dwc.tdwg.org/terms
+- Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. Forests 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031
+- Topozone (1999) Free USGS Topo Maps for the Entire United States. https://www.topozone.com/
+- UNAVCO (2020) Geoid Height Calculator. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html
+- US Department of Defense & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf
+- USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf
+- USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/
+- [[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc.
+- Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88
+- [[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294.
+- VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research. https://marineregions.org/
+- Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756
+- Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm
+- Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620
+- Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version 2020-01-31. Rauthiflor LLC. http://georeferencing.org/georefcalculator/gc.html
+- Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html
+- Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py
+- Wieczorek J & Beaman R (2002) Georeferencing: Collaboration and Automation. MaNIS. http://georeferencing.org/manis/GeorefCollaboration021021.ppt
+- Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html
+- Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C & Yamamoto K (2012a) Georeferencing Quick Reference Guide. Version 2012-10-08. http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf
+- Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012b) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715
+- Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. 18: 745-767. https://doi.org/10.1080/13658810412331280211
+- Wilkinson M, Dumontier M, Aalbersberg I, Appleton G, Axton M, Baak A, Blomberg N, Boiten J-W, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J & Mons B (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18
+- Wolf A-C, Snaith H, Amirebrahimi S, Devey CW, Dorschel B, Ferrini V, Huvenne VAI, Jakobsson M, Jencks J, Johnston G, Lamarche G, Mayer L, Millar D, Pedersen TH, Picard K, Reitz A, Schmitt T, Visbeck M, Weatherall P, Wigley R (2019) Seafloor Mapping - The Challenge of a Truly Global Bathymetry. Frontiers in Marine Science 6: 283. https://doi.org/10.3389/fmars.2019.00283
+- World Ocean Review (2010) Living with the Oceans: A Report on the state of the world’s oceans. Chapter 3: Coasts. https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts
+- WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php
+- Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method
+- Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf
+- Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://doi.org/10.2307/439947
+- Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128
+- Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152
+- Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature
