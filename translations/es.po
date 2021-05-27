@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
-"POT-Creation-Date: 2021-02-01 17:22+0000\n"
-"PO-Revision-Date: 2021-04-20 17:17\n"
+"POT-Creation-Date: 2021-05-27 18:14+0000\n"
+"PO-Revision-Date: 2021-05-27 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1270,7 +1270,8 @@ msgid "High-end dual and multi-frequency <<GPS>>/<<GNSS>> devices can bring <<ac
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:246 0200-elements-for-describing-a-location.en.adoc:300
+#: 0200-elements-for-describing-a-location.en.adoc:246
+#: 0200-elements-for-describing-a-location.en.adoc:300
 #, no-wrap
 msgid "Smartphones"
 msgstr ""
@@ -1308,7 +1309,8 @@ msgid "{marine}Over the years, a number of methods for tracking a diver underwat
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:261 0200-elements-for-describing-a-location.en.adoc:407
+#: 0200-elements-for-describing-a-location.en.adoc:261
+#: 0200-elements-for-describing-a-location.en.adoc:407
 #, no-wrap
 msgid "Elevation"
 msgstr ""
@@ -1812,7 +1814,8 @@ msgid "An issue that often arises with insect collections is the challenge of re
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:457 0600-maintaining-data-quality.en.adoc:159
+#: 0200-elements-for-describing-a-location.en.adoc:457
+#: 0600-maintaining-data-quality.en.adoc:159
 #, no-wrap
 msgid "Documentation"
 msgstr ""
@@ -5096,10 +5099,11 @@ msgstr "[[antimeridiano]]antimeridiano"
 msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
 msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referencia. Un meridiano y su antimeridiano forman un anillo continuo alrededor de la Tierra. El \"Antimeridiano\" es el meridiano específico de longitud opuesta al <<meridiano cero>> y se utiliza como base de la Línea internacional de cambio de fecha."
 
-#. type: Plain text
-#: glossary.en.adoc:16
-msgid "[[bathymetry]]bathymetry::"
-msgstr "[[batimetría]]batimetría:"
+#. type: Labeled list
+#: glossary.en.adoc:15
+#, no-wrap
+msgid "[[bathymetry]]bathymetry"
+msgstr ""
 
 #. type: Plain text
 #: glossary.en.adoc:17
@@ -6004,10 +6008,11 @@ msgstr "[[point-radius]]radio-punto"
 msgid "A representation of the <<geographic component>> of a <<location>> as <<geographic-coordinates,geographic coordinates>> and a <<maximum uncertainty distance>>. The point-radius <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
 msgstr "Representación del <<geographic component>> de una <<location>> a partir de una <<geographic-coordinates,geographic coordinates>> y una <<maximum uncertainty distance>>. El <<georeferencing method>> radio-punto produce <<georeference,georeferences>> que incluyen coordenadas geográficas, un <<coordinate reference system>> y una distancia máxima de incertidumbre que engloba todas las coordenadas geográficas posibles donde una <<locality>> podría interpretarse que está, representado la <<uncertainty,uncertainties>> dentro de un círculo. El método radio-punto utiliza rangos para representar otros atributos no geográficos de la ubicación (<<elevation>>, <<depth>>, <<distance above surface>>)."
 
-#. type: Plain text
-#: glossary.en.adoc:183
-msgid "[[precision]]precision::"
-msgstr "[[precisión]]precisión::"
+#. type: Labeled list
+#: glossary.en.adoc:182
+#, no-wrap
+msgid "[[precision]]precision"
+msgstr ""
 
 #. type: Plain text
 #: glossary.en.adoc:186
