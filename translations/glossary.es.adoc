@@ -1,0 +1,227 @@
+[glossary]
+== Glossary
+
+The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
+
+[glossary]
+[[accuracy]]accuracy:: The closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
++
+NOTE: "The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
+
+[[altitude]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>.
+
+[[antimeridian]]antimeridian:: The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The "Antimeridian" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line.
+
+[[bathymetry]]bathymetry::
+1. The measure of <<depth>> of water in oceans, seas and lakes.
+2. The shapes of underwater terrains, including underwater topography and sea floor mapping.
+
+[[bias]]bias:: The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+
+[[boundary]]boundary:: The spatial divide between what is inside a <<location>> and what is outside of it.
+
+[[bounding-box]]bounding box:: An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
+
+clause:: see <<locality clause>>.
+
+[[coordinate-format]]coordinate format:: The format in which <<coordinates>> are encoded, such as "<<decimal degrees>>", "<<DMS,degrees minutes seconds>>", "degrees decimal minutes", or <<UTM>>.
+
+[[coordinate-precision]]coordinate precision:: The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree.
+
+[[coordinate-reference-system]]coordinate reference system:: (also <<spatial reference system>>) A <<coordinate system>> defined in relation to a standard reference or <<datum>>.
+
+[[coordinate-system]]coordinate system:: A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system.
+
+[[coordinate-uncertainty]]coordinate uncertainty:: A measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be.
+
+[[coordinates]]coordinates:: A set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations.
+
+[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters:: The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters.
+
+[[corrected-center]]corrected center:: The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see <<img-polygon-center>>).
+
+[[Darwin-Core]]Darwin Core:: A standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^]).
+
+[[data-quality]]data quality:: ‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^]).
+
+[[datum]]datum:: A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>.
+
+[[decimal-degrees]]decimal degrees:: Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>.
+
+[[decimal-latitude]]decimal latitude:: <<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of decimal latitude are −90 to 90, inclusive.
+
+[[decimal-longitude]]decimal longitude:: <<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of decimal longitude are −180 to 180, inclusive.
+
+declination:: see <<magnetic declination>>.
+
+[[DEM]]DEM:: see <<digital elevation model>>.
+
+[[depth]]depth:: A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, "water depth" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number.
+
+[[digital-elevation-model,digital elevation model]]digital elevation model (DEM):: A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean-sea-level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope.
+
+// TODO, link directly to heading?
+[[direction]]direction:: see <<heading>>.
+
+[[distance-above-surface]]distance above surface:: In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>.
+
+[[DMS]]DMS:: Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W).
+
+[[easting]]easting:: Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map.
+
+[[elevation]]elevation:: A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean-sea-level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>.
+
+[[ellipsoid]]ellipsoid:: A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis.
+
+[[entry-point]]entry point:: {marine} The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See <<img-underwater-event>>.
+
+[[EPSG]]EPSG:: EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application.
+
+[[error]]error:: The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called "<<bias>>". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+
+[[event]]event:: A process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations.
+
+[[extent]]extent:: The entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance.
+
+[[false-precision]]false precision:: An artefact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>.
+
+[[feature]]feature:: An object of observation, measurement, or reference that can be represented spatially. Often categorized into "feature types" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. "Mount Everest", "Ruta 40", "Istanbul"), which are also sometimes referred to as "named places", "place names" or "toponyms".
+
+[[footprint]]footprint:: See <<shape>>. Note that "footprint" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit].
+
+[[gazetteer]]gazetteer:: An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>.
+
+[[generalization]]generalization:: In geographic terms, refers to the conversion of a geographic representation to one with less resolution and less information content; traditionally associated with a change in scale. Also referred to as: _fuzzying_, _dummying-up_, etc. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
+
+[[geocode]]geocode:: The process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>.
+
+[[geodetic-coordinate-reference-system]]geodetic coordinate reference system:: A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth.
+
+[[geodetic-datum]]geodetic datum:: A mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface.
+
+[[geographic-boundary]]geographic boundary:: The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth.
+
+[[geographic-center]]geographic center:: The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographic center for any application in <<georeference,georeferencing>>. Compare <<corrected center>>.
+
+[[geographic-component]]geographic component:: The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>.
+
+[[geographic-coordinate-system]]geographic coordinate system:: A <<coordinate system>> that uses <<geographic coordinates>>.
+
+[[geographic-coordinate-reference-system]]geographic coordinate reference system:: A <<geodetic coordinate reference system>> that uses <<geographic coordinates>>.
+
+[[geographic-coordinates]]geographic coordinates:: A measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>.
+
+[[geographic-extent]]geographic extent:: The entire space within the <<geographic boundary>> of a <<location>>. The geographic extent can be an area or a distance.
+
+[[geographic-information-system,geographic information system]]geographic information system (GIS):: A set of computer-based tools designed to capture, store, manipulate, analyse, map, manage, and present all types of geographical data and information in the form of maps.
+
+[[geographic-radial]]geographic radial:: The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent "extent" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^].
+
+[[geoid]]geoid:: A global equipotential surface that approximates <<mean-sea-level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^]).
+
+[[geometry]]geometry:: The measures and properties of points, lines, and surfaces. Geometry is used to represent the <<geographic component>> of <<location,locations>>.
+
+[[georeference]]georeference:: The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification).
+
+[[georeferencing-method]]georeferencing method:: The theory, including a set of rules, general procedures and expected outcomes, meant to produce a specific type of spatial representation of a <<locality>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method.
+
+[[georeferencing-protocol]]georeferencing protocol:: The set of specific documented steps that can be applied to produce a spatial representation of a <<locality>>, following one or more georeferencing methods.
+
+GIS:: _see_ <<geographic-information-system>>.
+
+[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID):: Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<PID,Persistent Identifier, PID>>.
+
+[[GNSS]]GNSS:: Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems.
+
+[[GPS]]GPS:: Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>.
+
+[[GPS-receiver]]GPS (receiver):: The colloquial term used to refer to both GPS and <<GNSS>> receivers (including those in smartphones and cameras). A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret radio signals from GNSS satellites and translate them into <<geographic coordinates>>.
+
+[[grid]]grid:: a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid.
+
+[[ground-zero]]ground zero:: {caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<img-vertical-position-in-a-cave>>.
+
+GUID:: see <<GUID,Globally Unique Identifier>>.
+
+[[heading]]heading:: Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>.
+
+[[height-datum]]height datum:: see <<vertical datum>>.
+
+[[latitude]]latitude:: The angular distance of a point north or south of the equator.
+
+[[locality]]locality:: The verbal representation of a <<location>>, also sometimes called "locality description".
+
+[[locality-clause]]locality clause:: A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing protocol>> can be applied.
+
+[[locality-type]]locality type:: A category applied to a <<locality clause>> that determines the specific <<georeferencing protocol>> that should be used.
+
+[[location]]location:: A physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language <<locality>> description. In <<georeference,georeferencing>>, a location can have distinct representations based on distinct <<rules of interpretation>>, each of which is embodied in a <<georeferencing method>>.
+
+[[longitude]]longitude:: The angular distance of a point east or west of a <<prime meridian>> at a given <<latitude>>.
+
+[[magnetic-declination]]magnetic declination:: The angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time.
+
+[[maximum-uncertainty-distance]]maximum uncertainty distance:: The radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeters].
+
+[[mean-sea-level,mean sea level]]mean sea level (MSL):: A <<vertical datum>> from which heights such as <<elevation>> are usually measured. Mean sea levels were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, MSL is best described by a <<geoid>>.
+
+[[meridian]]meridian:: A line on the surface of the earth where all of the <<location,locations>> have the same <<longitude>>. Compare <<antimeridian>> and <<prime meridian>>.
+
+[[named-place]]named place:: see <<feature>>. Note that "named place" was used in some earlier <<georeference,georeferencing>> documents.
+
+[[northing]]northing:: Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>.
+
+[[offset]]offset:: A displacement from a reference <<location>>. Usually used in conjunction with <<heading>> to give a distance and <<direction>> from a <<feature>>.
+
+[[path]]path:: A route or track between one place and another. In some cases the path may cross itself.
+
+[[PID]]persistent identifier (PID):: A long-lasting reference to a document, file, web page, or other object. The term "persistent identifier" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs).
+
+[[point-radius]]point-radius:: A representation of the <<geographic component>> of a <<location>> as <<geographic-coordinates,geographic coordinates>> and a <<maximum uncertainty distance>>. The point-radius <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
+
+[[precision]]precision::
++
+--
+1. The closeness of a repeated set of observations of the same quantity to one another – a measure of control over random <<error>>.
+2. With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree).
+--
++
+Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>.
+
+[[prime-meridian]]prime meridian:: The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes.
+
+[[projection]]projection:: A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values.
+
+[[quality]]quality:: see <<data quality>>.
+
+[[radial]]radial:: The distance from a center point (e.g. the <<corrected center,corrected>> or <<geographic center>>) within a <<location>> to the furthest point on the outermost <<boundary>> of that <<location>>. See also <<geographic radial>>.
+
+[[repatriate]]repatriate, repatriation:: The process of returning something to the source from which it was extracted. In the <<georeference,georeferencing>> sense, this refers to the process of adding the results of georeferencing to the original data, especially when georeferencing was done by a third party.
+
+[[rules-of-interpretation]]rules of interpretation:: A documented set of steps to take in order to produce a standardized representation of source information.
+
+[[SBAS]]Satellite Based Augmentation System (SBAS):: A civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in section <<Satellite Based Augmentation System>>).
+
+[[shape]]shape:: Synonym of <<footprint>>. A representation of the <<geographic component>> of a location as a <<geometry>>. The result of a <<georeferencing method,shape georeferencing method>> includes a shape as the geographic component of the <<georeference>>, which contains the set of all possible <<geographic coordinates>> where a <<location>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within the geometry given. The shape method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>).
+
+[[smallest-enclosing-circle]]smallest enclosing circle:: a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>.
+
+[[spatial-fit]]spatial fit:: a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See <<img-spatial-fit>>).
+
+[[spatial-reference-system]]spatial reference system:: see <<coordinate reference system>>.
+
+[[stratigraphic-section]]stratigraphic section:: A local outcrop or series of adjacent outcrops that display a vertical sequence of strata in the order they were deposited.
+
+[[transect]]transect:: A <<path>> along which observations, measurements, or samples are made. Transects are often recorded as a starting <<location>> and a terminating <<location>>.
+
+[[trig-point]]trig point:: A surveyed reference point, often on high points of <<elevation>> (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact <<location>> is determined by survey triangulation and hence the alternative names "trigonometrical point", "triangulation point" or "benchmark".
+
+[[uncertainty]]uncertainty:: A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>.
+
+[[UTM]]Universal Transverse Mercator (UTM):: A standardized <<coordinate system>> based on a metric rectangular <<grid>> system and a division of the earth into sixty 6-degree longitudinal zones. The scope of UTM covers from 84° N to 80° S. (See <<Universal Transverse Mercator (UTM) Coordinates>>).
+
+[[vertical-datum]]vertical datum:: A reference surface for vertical positions, such as <<elevation>>. Vertical datums fall into several categories, including: tidal, based on sea level; gravimetric, based on a <<geoid>>; geodetic, based on <<ellipsoid>> models of the Earth; or local, based on a local reference surface. Also known as height datum.
+
+[[WAAS]]Wide Area Augmentation System (WAAS):: An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<SBAS>>, of which WAAS is one example.
+
+[[WGS84]]WGS84:: World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based.
