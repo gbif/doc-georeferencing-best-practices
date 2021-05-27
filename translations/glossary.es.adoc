@@ -1,14 +1,14 @@
 [glossary]
-== Glossary
+== Glosario
 
 The purpose of this glossary is to describe important concepts in accordance with the intended meaning in this document, the associated {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]. These concepts are treated in broader contexts in many other sources. We have adapted the terms presented here from many sources including Wikipedia (as of November 2019), the ESRI Dictionary (as of November, 2019) (https://support.esri.com/en/other-resources/gis-dictionary/browse/[ESRI n.d.^]), and various articles within https://doi.org/10.4135/9781412953962[Kemp 2008^].
 
 [glossary]
-[[accuracy]]accuracy:: The closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
+[[exactitud]]accuracy:: La cercanía de un valor estimado (por ejemplo, medido o calculado) a un valor estándar o aceptado ("verdadero"). Antónimo: inexactitud. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 +
-NOTE: "The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
+NOTE: "El valor verdadero no es conocido, sólo estimado, la exactitud de la cantidad medida también es desconocida. Por lo tanto, la exactitud de la coordenada sólo puede ser estimada." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey División 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
 
-[[altitude]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>.
+[[altitud]]altitude:: A measurement of the vertical distance above a <<vertical datum>>, usually <<mean-sea-level>> or <<geoid>>. For points on the surface of the Earth, altitude is synonymous with <<elevation>>.
 
 [[antimeridian]]antimeridian:: The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The "Antimeridian" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line.
 
