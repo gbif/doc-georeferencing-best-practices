@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 16:40\n"
+"PO-Revision-Date: 2021-06-01 17:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5103,7 +5103,7 @@ msgstr "El <<meridiano>> de <<longitud>> opuesta a un <<meridiano>> de referenci
 #: glossary.en.adoc:15
 #, no-wrap
 msgid "[[bathymetry]]bathymetry"
-msgstr ""
+msgstr "[[batimetría]]batimetría:"
 
 #. type: Plain text
 #: glossary.en.adoc:17
@@ -5218,7 +5218,7 @@ msgstr "Medida de la distancia mínima desde una <<coordenadas,coordenada>>, en 
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[coordinates]]coordinates"
-msgstr "[[coordinates]]coordenadas"
+msgstr "[[coordenadas]]coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:38
@@ -5229,7 +5229,7 @@ msgstr "Conjunto de valores que definen una posición dentro de un <<sistema de 
 #: glossary.en.adoc:39
 #, no-wrap
 msgid "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
-msgstr "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
+msgstr "[[Incertidumbre-de-las-coordenadas-en-metros]]Incertidumbre de las coordenadas en metros"
 
 #. type: Plain text
 #: glossary.en.adoc:40
@@ -5240,7 +5240,7 @@ msgstr "Término <<Darwin Core>> correspondiente a la <<máxima distancia de inc
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[corrected-center]]corrected center"
-msgstr "[[centro-corregido]centro corregido"
+msgstr "[centro-corregido]centro corregido"
 
 #. type: Plain text
 #: glossary.en.adoc:42
@@ -5417,18 +5417,18 @@ msgstr "Medida de la distancia vertical de una superficie continental o marina a
 #: glossary.en.adoc:74
 #, no-wrap
 msgid "[[ellipsoid]]ellipsoid"
-msgstr "[[ellipsoid]]elipsoide"
+msgstr "[[elipsoide]]elipsoide"
 
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis."
-msgstr "Una geometría tridimensional de <<shape>> cerrada, cuyas secciones planas son elipses o círculos. Un elipsoide tiene tres ejes independientes. Si un elipsoide se hace girando una elipse sobre uno de sus ejes, entonces dos ejes del elipsoide son los mismos, y se le llama un elipsoide de revolución. Cuando se usa para representar un modelo de la tierra, el elipsoide es un elipsoide oblato de revolución hecho girando un elipse sobre su eje menor."
+msgstr "Una geometría tridimensional de <<forma>> cerrada, cuyas secciones planas son elipses o círculos. Un elipsoide tiene tres ejes independientes. Si se genera un elipsoide haciendo girar una elipse alrededor de uno de sus ejes principales y los dos ejes del elipsoide son los mismos, se le conoce como un elipsoide de revolución. Cuando se usa para representar un modelo de la tierra, el elipsoide es un elipsoide oblato de revolución hecho girando un elipse sobre su eje menor."
 
 #. type: Labeled list
 #: glossary.en.adoc:76
 #, no-wrap
 msgid "[[entry-point]]entry point"
-msgstr "[[entry-point]]punto de entrada"
+msgstr "[[punto-de-entrada]]punto de entrada"
 
 #. type: Plain text
 #: glossary.en.adoc:77
@@ -5444,7 +5444,7 @@ msgstr "[[EPSG]]EPSG"
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application."
-msgstr "Los códigos EPSG son definidos por la Asociación Internacional de Productores de Petróleo y Gas, usando un identificador de referencia espacial (SRID) <<spatial reference system,spatial reference systems>>. El Conjunto de parámetros geodésico EPSG (http://www. epsg.org/[IOPG 2019^]) es una colección de <<coordinate reference system,coordinate reference systems>> (incluyendo <<datum,datums>>) y transformaciones de <<coordinates,coordinate>> que pueden ser de aplicados a escala global, regional, nacional o local."
+msgstr "Los códigos EPSG son definidos por la Asociación Internacional de Productores de Petróleo y Gas, usando un identificador de referencia espacial (SRID) para referenciar los <<sistema-de-referencia-espacial,sistemas de referencia espacial>>. El Conjunto de parámetros geodésico EPSG (http://www. epsg.org/[IOPG 2019^]) es una colección de <<sistema-de-referencia-de-coordenadas,sistemas de referencia de coordenadas>> (incluyendo <<datum,datums>>) y transformaciones de <<coordenadas>> que pueden ser de aplicados a escala global, regional, nacional o local."
 
 #. type: Labeled list
 #: glossary.en.adoc:80
@@ -5455,29 +5455,29 @@ msgstr "[[error]]error"
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called \"<<bias>>\". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La diferencia entre un valor calculado, estimado o medido y el valor verdadero aceptado, especificado, o teóricamente correcto. Este compara tanto la <<precision> de una medición como su imprecisión. El error puede ser aleatorio o sistemático. Si el error es sistemático, se llama \"<<bias>>\". Ver <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> y <<uncertainty>>."
+msgstr "La diferencia entre un valor calculado, estimado o medido y el valor verdadero aceptado, especificado, o teóricamente correcto. Este compara tanto la <<precisión> de una medición como su imprecisión. El error puede ser aleatorio o sistemático. Si el error es sistemático, se llama \"<<sesgo>>\". Ver <<exactitud>>, <<sesgo>>, <<precisión>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:82
 #, no-wrap
 msgid "[[event]]event"
-msgstr "[[event]]evento"
+msgstr "[[evento]]evento"
 
 #. type: Plain text
 #: glossary.en.adoc:83
 msgid "A process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations."
-msgstr "Un proceso que ocurre en una determinada <<location>> durante un periodo de tiempo. Se utiliza genéricamente para cubrir varios tipos de eventos de colecta, eventos de muestreo y observaciones."
+msgstr "Un proceso que ocurre en una determinada <<ubicación>> durante un periodo de tiempo. Se utiliza genéricamente para cubrir varios tipos de eventos de colecta, eventos de muestreo y observaciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:84
 #, no-wrap
 msgid "[[extent]]extent"
-msgstr "[[extent]]extensión"
+msgstr "[[extensión]]extensión"
 
 #. type: Plain text
 #: glossary.en.adoc:85
 msgid "The entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance."
-msgstr "El espacio total dentro del <<boundary>> que representa una <<location>>. El alcance puede ser un volumen, un área o una distancia."
+msgstr "El espacio total dentro del <<límite>> que representa una <<ubicación>>. El alcance puede ser un volumen, un área o una distancia."
 
 #. type: Labeled list
 #: glossary.en.adoc:86
@@ -5488,8 +5488,8 @@ msgstr "[[falsa-precisión]]falsa precisión "
 #. type: Plain text
 #: glossary.en.adoc:87
 msgid "An artefact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees, minutes, and seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>."
-msgstr "Registro de datos con un mayor número de decimales que los presentes en los datos originales. Esto ocurre frecuentemente después de realizar transformaciones en las unidades de medida o <<coordinate system>>, por ejemplo de pies a metros, o de <<DMS,degrees, minutes, and seconds>> a <<decimal degrees>>. En general, la <<precisión>> no se conserva a través de las transformaciones; sin embargo, en la práctica, se registra como si el resultado de la transformación correspondiera a la precisión original. Por ejemplo, un registro de 10°20’, es almacenado en una base de datos en grados decimales como ~10.3°. Cuando se exporta desde algunas bases de datos, resultará en un valor de 10. 3333333333 con una <<precisión>> de 10 decimales, en lugar de la precisión original de 1 minuto. Interpretando la precisión que representan las <<coordinates,coordinate>> como una precisión en distancia en el suelo, 10^-10 grados corresponde a cerca de 0.002 mm en el ecuador, mientras que la precisión de 1 minuto corresponde a aproximadamente 2.6 km. Esta no es una verdadera precisión ya que se refiere a los datos originales, pero es una precisión falsa si se representa como una combinación de la conversión de coordenadas y la fracción resultante en la exportación desde una base de datos. Esta no es una precisión verdadera en lo que respecta a los datos originales, sino una precisión falsa, \n"
-"generada a partir de la combinación de la conversión de coordenadas y la representación de la fracción resultante en la exportación de una base de datos. Comparar con <<precisión>> y <<exactitud>>."
+msgstr "Registro de datos con un mayor número de decimales que los presentes en los datos originales. Esto ocurre frecuentemente después de realizar transformaciones en las unidades de medida o <<sistema de coordenadas>>, por ejemplo de pies a metros, o de <<GMS,grados, minutos, y segundos>> a <<grados decimales>>. En general, la <<precisión>> no se conserva a través de las transformaciones; sin embargo, en la práctica, se registra como si el resultado de la transformación correspondiera a la precisión original. Por ejemplo, un registro de 10°20’, es almacenado en una base de datos en grados decimales como ~10.3°. Cuando se exporta desde algunas bases de datos, resultará en un valor de 10. 3333333333 con una <<precisión>> de 10 decimales, en lugar de la precisión original de 1 minuto. Interpretando la precisión que representan las <<coordenadas>> como una precisión en distancia en el suelo, 10^-10 grados corresponde a cerca de 0.002 mm en el ecuador, mientras que la precisión de 1 minuto corresponde a aproximadamente 2.6 km. Esta no es una verdadera precisión ya que se refiere a los datos originales, pero es una precisión falsa si se representa como una combinación de la conversión de coordenadas y la fracción resultante en la exportación desde una base de datos. Esta no es una precisión verdadera en lo que respecta a los datos originales, sino una precisión falsa, \n"
+"generada a partir de la combinación de la conversión de coordenadas y la representación de la fracción resultante en la exportación de una base de datos. Comparar con <<precisión>> y <<exactitud>>.<sistema de coordenadas>"
 
 #. type: Labeled list
 #: glossary.en.adoc:88
@@ -5511,7 +5511,7 @@ msgstr "[[footprint]]footprint"
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "See <<shape>>. Note that \"footprint\" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit]."
-msgstr "Ver <<shape>>. Tenga en cuenta que \"footprint\" se utilizó en anteriores documentos sobre <<georeference,georeferencing>> y en los nombres de algunos términos del estándar <<Darwin Core>>: dwc[footprintWKT] y term:dwc[footprintSpatialFit]."
+msgstr "Ver <<forma>>. Tenga en cuenta que \"footprint\" se utilizó en anteriores documentos sobre <<georreferencia,georreferenciación>> y en los nombres de algunos términos del estándar <<Darwin Core>>: dwc[footprintWKT] y term:dwc[footprintSpatialFit]."
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -5522,7 +5522,7 @@ msgstr "[[gazetteer]]gacetero"
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>."
-msgstr "Índice de <<feature,features>> geográficas y sus <<location,locations>>, que generalmente incluyen <<geographic coordinates>>."
+msgstr "Índice de <<geometría,geometrías>> geográficas y sus <<ubicación,ubicaciones>>, que generalmente incluyen <<coordenadas geográficas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:94
@@ -5539,23 +5539,23 @@ msgstr "En términos geográficos, se refiere a la conversión de una representa
 #: glossary.en.adoc:96
 #, no-wrap
 msgid "[[geocode]]geocode"
-msgstr "[[geocode]]geocodificación"
+msgstr "[[geocodificación]]geocodificación"
 
 #. type: Plain text
 #: glossary.en.adoc:97
 msgid "The process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>."
-msgstr "El proceso (verbo) o producto (sustantivo) de determinar las <<coordinates>> a partir de una dirección. También se utiliza a veces como sinónimo de <<georeference>>."
+msgstr "El proceso (verbo) o producto (sustantivo) de determinar las <<coordenadas>> a partir de una dirección. También se utiliza a veces como sinónimo de <<georreferencia,georreferenciación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:98
 #, no-wrap
 msgid "[[geodetic-coordinate-reference-system]]geodetic coordinate reference system"
-msgstr "[[geodetic-coordinate-reference-system]]sistema de referencia de coordenadas geodésicas"
+msgstr "[[sistema-de-referencia-de-coordenadas-geodésicas]]sistema de referencia de coordenadas geodésicas"
 
 #. type: Plain text
 #: glossary.en.adoc:99
 msgid "A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth."
-msgstr "<<coordinate reference system>> basado en un <<geodetic datum>>, usado para describir las posiciones en la superficie de la tierra."
+msgstr "<<sistema de referencia de coordenadas>> basado en un <<datum geodésico>>, usado para describir las posiciones en la superficie de la tierra."
 
 #. type: Labeled list
 #: glossary.en.adoc:100
@@ -5566,13 +5566,13 @@ msgstr "[[geodetic-datum]]datum geodésico"
 #. type: Plain text
 #: glossary.en.adoc:101
 msgid "A mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface."
-msgstr "Un modelo matemático que utiliza un <<ellipsoid>> de referencia para describir el tamaño y la forma de la superficie de la tierra, y le añade la información necesaria sobre el origen y orientación del <<coordinate system,coordinate systems>>."
+msgstr "Un modelo matemático que utiliza un <<elipsoide>> de referencia para describir el tamaño y la forma de la superficie de la tierra y le añade la información necesaria sobre el origen y orientación del <<sistema de coordenadas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:102
 #, no-wrap
 msgid "[[geographic-boundary]]geographic boundary"
-msgstr "[[geographic-boundary]]límite geográfico"
+msgstr "[[límite-geográfico]]límite geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:103
@@ -5588,40 +5588,40 @@ msgstr "[[geographic-center]]centro geográfico"
 #. type: Plain text
 #: glossary.en.adoc:105
 msgid "The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographic center for any application in <<georeference,georeferencing>>. Compare <<corrected center>>."
-msgstr "El punto medio entre la <<latitude>> y <<longitude>> mas alejados de una <<feature>>. Los centros geográficos son relativamente fáciles de determinar, pero por lo general no corresponden con el centro del círculo de menor diámetro circunscrito en la <<feature>>. Por esta razón, no se recomienda utilizar un centro geográfico para ninguna aplicación en <<georeference,georeferencing>>. Ver <<corrected center>>."
+msgstr "El punto medio entre la <<latitud>> y <<longitud>> mas alejados de una <<geometría>>. Los centros geográficos son relativamente fáciles de determinar, pero por lo general no corresponden con el centro del círculo de menor diámetro circunscrito en la <<geometría>>. Por esta razón, no se recomienda utilizar un centro geográfico para ninguna aplicación en <<georreferencia,georreferenciación>>. Ver <<centro corregido>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:106
 #, no-wrap
 msgid "[[geographic-component]]geographic component"
-msgstr "[[geographic-component]]componente geográfico"
+msgstr "[[componente-geográfico]]componente geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:107
 msgid "The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>."
-msgstr "Parte de la descripción de una <<location>> que consiste en <<geographic coordinates>> y una <<uncertainty>> asociada. Los componentes no geográficos de una descripción de ubicación incluyen <<elevation>>, <<depth>> y <<distance above surface>>."
+msgstr "Parte de la descripción de una <<ubicación>> que consta de <<coordenadas geográficas>> y una <<incertidumbre>> asociada. Los componentes no geográficos de una descripción de ubicación incluyen <<elevación>>, <<profundidad>> y <<distancia sobre la superficie>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:108
 #, no-wrap
 msgid "[[geographic-coordinate-system]]geographic coordinate system"
-msgstr "[[geographic-coordinate-system]]sistema de coordenadas geográficas"
+msgstr "[[sistema-de-coordenadas-geográficas]]sistema de coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:109
 msgid "A <<coordinate system>> that uses <<geographic coordinates>>."
-msgstr "Un <<coordinate system>> que usa <<geographic coordinates>>."
+msgstr "Un <<sistema de coordenadas>> que usa <<coordenadas geográficas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:110
 #, no-wrap
 msgid "[[geographic-coordinate-reference-system]]geographic coordinate reference system"
-msgstr "[[geographic-coordinate-reference-system]]sistema de referencia de coordenadas geográficas"
+msgstr "[[sistema-de-referencia-de-coordenadas-geográficas]]sistema de referencia de coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:111
 msgid "A <<geodetic coordinate reference system>> that uses <<geographic coordinates>>."
-msgstr "Un <<geodetic coordinate reference system>> que usa <<geographic coordinates>>."
+msgstr "Un <<sistema de referencia de coordenadas geodésicas>> que usa <<coordenadas geográficas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:112
@@ -5632,18 +5632,18 @@ msgstr "[[geographic-coordinates]]coordenadas geográficas"
 #. type: Plain text
 #: glossary.en.adoc:113
 msgid "A measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>."
-msgstr "Medición de la <<location>> sobre la superficie de la tierra expresada como <<latitude>> y <<longitude>>."
+msgstr "Medición de la <<ubicación>> sobre la superficie de la tierra expresada a partir de <<latitud,latitudes>> y <<longitud,longitudes>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:114
 #, no-wrap
 msgid "[[geographic-extent]]geographic extent"
-msgstr "[[geographic-extent]]extensión geográfica"
+msgstr "[[extensión-geográfica]]extensión geográfica"
 
 #. type: Plain text
 #: glossary.en.adoc:115
 msgid "The entire space within the <<geographic boundary>> of a <<location>>. The geographic extent can be an area or a distance."
-msgstr "Todo el espacio dentro del <<geographic boundary>> de una <<location>>. El alcance geográfico puede ser un área o una distancia."
+msgstr "Todo el espacio dentro del <<límite geográfico>> de una <<ubicación>>. El alcance geográfico puede ser un área o una distancia."
 
 #. type: Labeled list
 #: glossary.en.adoc:116
@@ -6012,7 +6012,7 @@ msgstr "Representación del <<geographic component>> de una <<location>> a parti
 #: glossary.en.adoc:182
 #, no-wrap
 msgid "[[precision]]precision"
-msgstr ""
+msgstr "[[precisión]]precisión"
 
 #. type: Plain text
 #: glossary.en.adoc:186
