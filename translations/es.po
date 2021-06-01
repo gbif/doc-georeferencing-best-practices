@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 20:09\n"
+"PO-Revision-Date: 2021-06-01 21:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5709,13 +5709,13 @@ msgstr "[[método-de-georreferenciación]]método de georreferenciación"
 #. type: Plain text
 #: glossary.en.adoc:127
 msgid "The theory, including a set of rules, general procedures and expected outcomes, meant to produce a specific type of spatial representation of a <<locality>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method."
-msgstr "Teoría que incluye un conjunto de reglas, procedimientos generales y resultados esperados, destinados a producir un tipo específico de representación espacial de una <<localidad>>. En este documento discutimos en detalle tres métodos particulares de representación espacial, el método de <<forma geométrica>>, el método de <<caja delimitadora>> y el método <<radio punto>>."
+msgstr "Teoría que incluye un conjunto de reglas, procedimientos generales y resultados esperados, destinados a producir un tipo específico de representación espacial de una <<localidad>>. En este documento discutimos en detalle tres métodos particulares de representación espacial, el método de <<forma geométrica>>, el método de <<cuadro delimitador>> y el método <<radio-punto>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:128
 #, no-wrap
 msgid "[[georeferencing-protocol]]georeferencing protocol"
-msgstr "[[protocolo de georreferenciación]]protocolo de georreferenciación"
+msgstr "[[protocolo-de-georreferenciación]]protocolo de georreferenciación"
 
 #. type: Plain text
 #: glossary.en.adoc:129
@@ -5891,7 +5891,7 @@ msgstr "Un espacio físico que puede posicionarse y orientarse de manera relativ
 #: glossary.en.adoc:160
 #, no-wrap
 msgid "[[longitude]]longitude"
-msgstr "[[longitude]]longitud"
+msgstr "[[longitud]]longitud"
 
 #. type: Plain text
 #: glossary.en.adoc:161
@@ -6006,7 +6006,7 @@ msgstr "[[radio-punto]]radio-punto"
 #. type: Plain text
 #: glossary.en.adoc:181
 msgid "A representation of the <<geographic component>> of a <<location>> as <<geographic-coordinates,geographic coordinates>> and a <<maximum uncertainty distance>>. The point-radius <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
-msgstr "Representación del <<geographic component>> de una <<location>> a partir de una <<geographic-coordinates,geographic coordinates>> y una <<maximum uncertainty distance>>. El <<georeferencing method>> radio-punto produce <<georeference,georeferences>> que incluyen coordenadas geográficas, un <<coordinate reference system>> y una distancia máxima de incertidumbre que engloba todas las coordenadas geográficas posibles donde una <<locality>> podría interpretarse que está, representado la <<uncertainty,uncertainties>> dentro de un círculo. El método radio-punto utiliza rangos para representar otros atributos no geográficos de la ubicación (<<elevation>>, <<depth>>, <<distance above surface>>)."
+msgstr "Representación del <<componente geográfico>> de una <<ubicación>> a partir de sus <<coordenadas geográficas>> y una <<distancia máxima de incertidumbre>>. El <<método de georreferenciación>> radio-punto produce <<georreferencia,georreferencias>> que incluyen coordenadas geográficas bajo un <<sistema de coordenadas de referencia>> y una distancia máxima de incertidumbre que cubre todas las  posibles coordenadas geográficas donde una <<localidad>> podría interpretarse que está. Esta representación enmarca toda la <<incertidumbre>> dentro de un círculo. El método radio-punto utiliza rangos para representar otros atributos no geográficos de la ubicación (<<elevación>>, <<profundidad>>, <<distancia sobre la surficie>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:182
@@ -6022,7 +6022,7 @@ msgstr "La cercanía entre un conjunto repetido de observaciones de la misma can
 #. type: Plain text
 #: glossary.en.adoc:187
 msgid "With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree)."
-msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej. si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<decimal degrees,decimal degree>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
+msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej. si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<grados decimales,grado decimal>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
 
 #. type: Plain text
 #: glossary.en.adoc:190
@@ -6049,7 +6049,7 @@ msgstr "[[projection]]proyección"
 #. type: Plain text
 #: glossary.en.adoc:194
 msgid "A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values."
-msgstr "Serie de transformaciones que convierten la ubicacion de los puntos en un <<coordinate reference system>> sobre una superficie curvada (la superficie de referencia o <<datum>>) en las correspondientes <<location,locations>> de los puntos en un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<coordinate system,coordinate systems>> proyectados se basan en <<geographic coordinates>>, que a su vez son referenciadas en un <<geodetic datum>>. Es posible, e incluso común, que los conjuntos de datos estén en la misma proyección, pero referenciados a distintos datums geodésicos y, por lo tanto, tengan diferentes valores en sus <<coordinates,coordinate>>."
+msgstr "Serie de transformaciones que convierten la ubicacion de los puntos de un <<sistema de referencia de coordenadas>> sobre una superficie curvada (la superficie de referencia o <<datum>>), en las <<ubicación,ubicaciones>> de dichos puntos a un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<sistema de coordenadas,sistemas de coordenadas>> proyectados se basan en <<coordenadas geográficas>>, que a su vez son referenciadas en un <<datum geodésico>>. Es posible, e incluso común, que los conjuntos de datos estén en la misma proyección, pero referenciados a distintos datums geodésicos y, por lo tanto, tengan diferentes valores en sus <<coordenadas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:195
@@ -6110,7 +6110,7 @@ msgstr "Un sistema crítico para la aviación civil que apoya el aumento regiona
 #: glossary.en.adoc:205
 #, no-wrap
 msgid "[[shape]]shape"
-msgstr "[[shape]]forma"
+msgstr "[[forma-geométrica]]forma geométrica"
 
 #. type: Plain text
 #: glossary.en.adoc:206
@@ -6121,12 +6121,12 @@ msgstr "Sinónimo de <<footprint>>. Una representación del <<geographic compone
 #: glossary.en.adoc:207
 #, no-wrap
 msgid "[[smallest-enclosing-circle]]smallest enclosing circle"
-msgstr "[[smallest-enclosing-circle]]círculo mínimo"
+msgstr "[[círculo mínimo]]círculo mínimo"
 
 #. type: Plain text
 #: glossary.en.adoc:208
 msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
-msgstr "círculo de menor radio (<<radial>>) que contiene todos los puntos de un conjunto determinado (o una <<shape>>) sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_problema del círculo mínimo_^]). Esto rara vez es lo mismo que el <<geographic center>>, o que el punto medio entre las dos <<geographic coordinates>> mas distantes de una <<location>>."
+msgstr "círculo de menor radio (<<radio>>) que contiene todo un conjunto de puntos determinado (o una <<forma geométrica>> dada) ubicados sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_problema del círculo mínimo_^]). Este rara vez es el mismo que aquel obtenido a partir del <<centro geografico>>, o del punto medio entre las dos <<coordenadas geográficas>> mas distantes de una <<ubicación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:209
@@ -6170,7 +6170,7 @@ msgstr "[[transect]]transecto"
 #. type: Plain text
 #: glossary.en.adoc:216
 msgid "A <<path>> along which observations, measurements, or samples are made. Transects are often recorded as a starting <<location>> and a terminating <<location>>."
-msgstr "Un <<path>> a lo largo del cual se hacen observaciones, mediciones o se toman muestras. Los transectos a menudo se registran con una <<location>> de inicio y una <<location>> final."
+msgstr "Una <<ruta>> a lo largo de la cual se hacen observaciones, mediciones o se toman muestras. Los transectos frecuentemente se registran con una <<ubicación>> inicial y una <<ubicación>> final."
 
 #. type: Labeled list
 #: glossary.en.adoc:217
@@ -6236,7 +6236,7 @@ msgstr "[[WGS84]]WGS84"
 #. type: Plain text
 #: glossary.en.adoc:227
 msgid "World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based."
-msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<geodetic coordinate reference system>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordinates>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<geodetic datum>> utilizado por ese sistema y para el <<ellipsoid>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
+msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<sistema de referencia de coordenadas geodésico>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordenadas>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<datum geodésico>> utilizado por ese sistema y para el <<elipsoide>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
 
 #. type: Title ==
 #: acknowledgements.en.adoc:1
