@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 19:03\n"
+"PO-Revision-Date: 2021-06-01 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5245,7 +5245,7 @@ msgstr "[[centro-corregido]]centro corregido"
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see <<img-polygon-center>>)."
-msgstr "El punto dentro de una <<ubicación>>, o en sus <<límite,límites>> que minimiza el <<radio geográfico>> de la ubicación. Este punto se obtiene haciendo el <<círculo mínimo>> que contenga todo la <<geometría>> y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer un <<círculo mínimo>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radio>>, siempre serán mas grandes que el centro no corregido (ver <<img-centro-polígono>>)."
+msgstr "El punto dentro de una <<ubicación>>, o en sus <<límite,límites>> que minimiza el <<radio geográfico>> de la ubicación. Este punto se obtiene haciendo el <<círculo mínimo>> que contenga todo la <<entidad geográfica>> y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer un <<círculo mínimo>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radio>>, siempre serán mas grandes que el centro no corregido (ver <<img-centro-polígono>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -5422,7 +5422,7 @@ msgstr "[[elipsoide]]elipsoide"
 #. type: Plain text
 #: glossary.en.adoc:75
 msgid "A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis."
-msgstr "Una geometría tridimensional de <<forma>> cerrada, cuyas secciones planas son elipses o círculos. Un elipsoide tiene tres ejes independientes. Si se genera un elipsoide haciendo girar una elipse alrededor de uno de sus ejes principales y los dos ejes del elipsoide son los mismos, se le conoce como un elipsoide de revolución. Cuando se usa para representar un modelo de la tierra, el elipsoide es un elipsoide oblato de revolución hecho girando un elipse sobre su eje menor."
+msgstr "Una geometría tridimensional de <<forma geométrica>> cerrada, cuyas secciones planas son elipses o círculos. Un elipsoide tiene tres ejes independientes. Si se genera un elipsoide haciendo girar una elipse alrededor de uno de sus ejes principales y los dos ejes del elipsoide son los mismos, se le conoce como un elipsoide de revolución. Cuando se usa para representar un modelo de la tierra, el elipsoide es un elipsoide oblato de revolución hecho girando un elipse sobre su eje menor."
 
 #. type: Labeled list
 #: glossary.en.adoc:76
@@ -5495,7 +5495,7 @@ msgstr "Registro de datos con un mayor número de decimales que los presentes en
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[feature]]feature"
-msgstr "[[entidad]]entidad"
+msgstr "[[entidad-geográfica]]entidad geográfica"
 
 #. type: Plain text
 #: glossary.en.adoc:89
@@ -5522,7 +5522,7 @@ msgstr "[[gazetteer]]gacetero"
 #. type: Plain text
 #: glossary.en.adoc:93
 msgid "An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>."
-msgstr "Índice de <<geometría,geometrías>> geográficas y sus <<ubicación,ubicaciones>>, que generalmente incluyen <<coordenadas geográficas>>."
+msgstr "Índice de <<entidad-geográfica,entidades-geográficas>> y sus <<ubicación,ubicaciones>>, que generalmente incluyen <<coordenadas geográficas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:94
@@ -5693,34 +5693,34 @@ msgstr "Las medidas y propiedades de puntos, líneas y superficies (polígonos).
 #: glossary.en.adoc:124
 #, no-wrap
 msgid "[[georeference]]georeference"
-msgstr "[[georeference]]georreferencia"
+msgstr "[[georreferencia]]georreferencia"
 
 #. type: Plain text
 #: glossary.en.adoc:125
 msgid "The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification)."
-msgstr "El proceso (verbo) o producto (sustantivo) de interpretar la descripción de una <<locality>> en una representación espacializable usando un <<georeferencing method>>. Comparar con <<geocode>>. El uso aquí es distinto del concepto de georreferenciación satelital y de imágenes (conocido como georectificación)."
+msgstr "El proceso (verbo) o producto (sustantivo) de interpretar la descripción de una <<localidad>> en una representación espacializable usando un <<método de georreferenciación>>. Comparar con <<geocodificación>>. El uso aquí es distinto del concepto de georreferenciación satelital y de imágenes (conocido como georectificación)."
 
 #. type: Labeled list
 #: glossary.en.adoc:126
 #, no-wrap
 msgid "[[georeferencing-method]]georeferencing method"
-msgstr "[[georeferencing-method]]método de georreferenciación"
+msgstr "[[método-de-georreferenciación]]método de georreferenciación"
 
 #. type: Plain text
 #: glossary.en.adoc:127
 msgid "The theory, including a set of rules, general procedures and expected outcomes, meant to produce a specific type of spatial representation of a <<locality>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method."
-msgstr "Teoría que incluye un conjunto de reglas, procedimientos generales y resultados esperados, destinados a producir un tipo específico de representación espacial de una <<locality>>. En este documento discutimos en detalle tres métodos particulares de representación espacial, el método <<shape>>, el método <<bounding-box>> y el método <<point-radius>>."
+msgstr "Teoría que incluye un conjunto de reglas, procedimientos generales y resultados esperados, destinados a producir un tipo específico de representación espacial de una <<localidad>>. En este documento discutimos en detalle tres métodos particulares de representación espacial, el método de <<forma geométrica>>, el método de <<caja delimitadora>> y el método <<radio punto>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:128
 #, no-wrap
 msgid "[[georeferencing-protocol]]georeferencing protocol"
-msgstr "[[georeferencing-protocol]]protocolo de georreferenciación"
+msgstr "[[protocolo de georreferenciación]]protocolo de georreferenciación"
 
 #. type: Plain text
 #: glossary.en.adoc:129
 msgid "The set of specific documented steps that can be applied to produce a spatial representation of a <<locality>>, following one or more georeferencing methods."
-msgstr "El conjunto de pasos documentados específicos que se pueden aplicar para producir una representación espacial de un <<locality>>, siguiendo uno o más métodos de georeferenciación."
+msgstr "El conjunto de pasos documentados específicos que se pueden aplicar para producir una representación espacial de una <<localidad>>, siguiendo uno o más métodos de georeferenciación."
 
 #. type: Labeled list
 #: glossary.en.adoc:130
@@ -5731,13 +5731,13 @@ msgstr "SIG"
 #. type: Plain text
 #: glossary.en.adoc:131
 msgid "_see_ <<geographic-information-system>>."
-msgstr "_ver_ <<geographic-information-system>>."
+msgstr "_ver_ <<sistema-de-información-geográfica>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:132
 #, no-wrap
 msgid "[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID)"
-msgstr "[[GUID,Globally Unique Identifier]]Identificador Único Global (GUID)"
+msgstr "[[GUID,Identificador Único Global]]Identificador Único Global (GUID)"
 
 #. type: Plain text
 #: glossary.en.adoc:133
@@ -5764,7 +5764,7 @@ msgstr "[[GPS]]GPS"
 #. type: Plain text
 #: glossary.en.adoc:137
 msgid "Global Positioning System, a satellite-based system used for determining positions on or near the Earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. See also <<GNSS>> of which GPS is one example. See also <<GPS-receiver,GPS (receiver)>>."
-msgstr "Sistema de Posicionamiento Global. Un sistema basado en satélites utilizado para determinar posiciones espaciales sobre la Tierra o cerca de esta. Los satélites orbitacionales transmiten señales de radio que permiten a un receptor calcular su propia <<location>> como <<coordinates>> y <<elevation>>, y a veces con estimaciones de <<accuracy>>. Ver también <<GNSS>> del cual el GPS es un ejemplo. Ver también <<GPS-receiver,GPS (receiver)>>."
+msgstr "Sistema de Posicionamiento Global. Un sistema basado en satélites utilizado para determinar posiciones espaciales sobre la Tierra o cerca de esta. Los satélites orbitacionales transmiten señales de radio que permiten a un receptor calcular su propia <<ubicación>> como <<coordenadas>> y <<elevación>>, y a veces con estimaciones de <<exactitud>>. Ver también <<GNSS>> del cual el GPS es un ejemplo. Ver también <<Receptor-GPS,GPS (receptor)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:138
@@ -5775,13 +5775,13 @@ msgstr "[[GPS-receiver]]GPS (receptor)"
 #. type: Plain text
 #: glossary.en.adoc:139
 msgid "The colloquial term used to refer to both GPS and <<GNSS>> receivers (including those in smartphones and cameras). A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret radio signals from GNSS satellites and translate them into <<geographic coordinates>>."
-msgstr "El término coloquial utilizado para referirse tanto al GPS como a los receptores <<GNSS>> (incluyendo los de teléfonos inteligentes y cámaras). Un receptor GPS o GNSS es un instrumento que en combinación con una antena incorporada o separada, es capaz de recibir e interpretar señales de radio de los satélites GNSS y traducirlas en <<geographic coordinates>>."
+msgstr "El término coloquial utilizado para referirse tanto al GPS como a los receptores <<GNSS>> (incluyendo los de teléfonos inteligentes y cámaras). Un receptor GPS o GNSS es un instrumento que en combinación con una antena incorporada o separada, es capaz de recibir e interpretar señales de radio de los satélites GNSS y traducirlas en <<coordenadas geográficas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:140
 #, no-wrap
 msgid "[[grid]]grid"
-msgstr "[[grid]]grilla"
+msgstr "[[grilla]]grilla"
 
 #. type: Plain text
 #: glossary.en.adoc:141
@@ -5792,12 +5792,12 @@ msgstr "red o matriz de líneas ortogonales uniformemente espaciadas que se util
 #: glossary.en.adoc:142
 #, no-wrap
 msgid "[[ground-zero]]ground zero"
-msgstr "[[ground-zero]]zona cero"
+msgstr "[[zona cero]]zona cero"
 
 #. type: Plain text
 #: glossary.en.adoc:143
 msgid "{caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See <<img-vertical-position-in-a-cave>>."
-msgstr "{caves} la <<location>> en la superficie del terreno, directamente sobre un punto de radiolocación en una cueva donde las líneas de radiación magnética son verticales. Ver <<img-vertical-position-in-a-cave>>."
+msgstr "{caves} la <<ubicación>> en la superficie del terreno, directamente sobre un punto de radiolocación en una cueva donde las líneas de radiación magnética son verticales. Ver <<img-vertical-position-in-a-cave>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:144
@@ -5808,35 +5808,35 @@ msgstr "GUID"
 #. type: Plain text
 #: glossary.en.adoc:145
 msgid "see <<GUID,Globally Unique Identifier>>."
-msgstr "ver <<GUID,Globally Unique Identifier>>."
+msgstr "ver <<GUID,Identificador Único Global>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:146
 #, no-wrap
 msgid "[[heading]]heading"
-msgstr "[[heading]]dirección"
+msgstr "[[dirección]]dirección"
 
 #. type: Plain text
 #: glossary.en.adoc:147
 msgid "Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>."
-msgstr "Dirección cardinal (de brújula) como este o noroeste, o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con una <<offset>> para señalar una dirección y distancia desde una <<feature>>."
+msgstr "Dirección cardinal (de brújula) como este o noroeste, o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con un <<desplazamiento>> para señalar una dirección y distancia desde una <<entidad>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:148
 #, no-wrap
 msgid "[[height-datum]]height datum"
-msgstr "[[height-datum]]datum de altura"
+msgstr "[[datum-de-elevación]]datum de elevación"
 
 #. type: Plain text
 #: glossary.en.adoc:149
 msgid "see <<vertical datum>>."
-msgstr "ver <<vertical datum>>."
+msgstr "ver <<datum vertical>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:150
 #, no-wrap
 msgid "[[latitude]]latitude"
-msgstr "[[latitude]]latitud"
+msgstr "[[latitud]]latitud"
 
 #. type: Plain text
 #: glossary.en.adoc:151
@@ -5847,12 +5847,12 @@ msgstr "La distancia angular de un punto al norte o sur del ecuador."
 #: glossary.en.adoc:152
 #, no-wrap
 msgid "[[locality]]locality"
-msgstr "[[locality]]localidad"
+msgstr "[[localidad]]localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:153
 msgid "The verbal representation of a <<location>>, also sometimes called \"locality description\"."
-msgstr "La representación verbal de una <<location>>, también llamada a veces \"descripción de la localidad\"."
+msgstr "La representación verbal de una <<ubicación>>, también llamada a veces \"descripción de la localidad\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:154
@@ -5863,29 +5863,29 @@ msgstr "[[claúsula-de-la-localidad]]claúsula de la localidad"
 #. type: Plain text
 #: glossary.en.adoc:155
 msgid "A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing protocol>> can be applied."
-msgstr "Parte de una descripción de <<locality>> que puede ser categorizada en un <<locality type,locality types>>, al que se puede aplicar un <<georeferencing protocol>> específico."
+msgstr "Parte de una descripción de la <<localidad>> que puede ser categorizada en un <<tipo de localidad>> al que se puede aplicar un <<protocolo de georreferenciación>> específico."
 
 #. type: Labeled list
 #: glossary.en.adoc:156
 #, no-wrap
 msgid "[[locality-type]]locality type"
-msgstr "[[locality-type]]tipo de localidad"
+msgstr "[[tipo-de-localidad]]tipo de localidad"
 
 #. type: Plain text
 #: glossary.en.adoc:157
 msgid "A category applied to a <<locality clause>> that determines the specific <<georeferencing protocol>> that should be used."
-msgstr "Una categoría aplicada a una <<locality clause>> que determina el <<georeferencing protocol>> específico que debe ser utilizado."
+msgstr "Una categoría aplicada a una <<claúsula de la localidad>> que determina el <<protocolo de georreferenciación>> específico que debe ser utilizado."
 
 #. type: Labeled list
 #: glossary.en.adoc:158
 #, no-wrap
 msgid "[[location]]location"
-msgstr "[[location]]ubicación"
+msgstr "[[ubicación]]ubicación"
 
 #. type: Plain text
 #: glossary.en.adoc:159
 msgid "A physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language <<locality>> description. In <<georeference,georeferencing>>, a location can have distinct representations based on distinct <<rules of interpretation>>, each of which is embodied in a <<georeferencing method>>."
-msgstr "Un espacio físico que puede posicionarse y orientarse de manera relativa a un punto de referencia, y potencialmente descrito en un lenguaje natural en la descripción de la <<locality>>. En <<georeference,georeferencing>>, una ubicación puede tener distintas representaciones basadas en diferentes <<rules of interpretation>>, cada una de las cuales está incorporada en un <<georeferencing method>>."
+msgstr "Un espacio físico que puede posicionarse y orientarse de manera relativa a un punto de referencia y potencialmente descrito en un lenguaje natural en la descripción de la <<localidad>>. En la <<georeferencia,georreferenciación>>, una ubicación puede tener distintas representaciones basadas en diferentes <<reglas de interpretación>>, cada una de las cuales está incorporada en un <<método de georreferenciación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:160
@@ -5896,62 +5896,62 @@ msgstr "[[longitude]]longitud"
 #. type: Plain text
 #: glossary.en.adoc:161
 msgid "The angular distance of a point east or west of a <<prime meridian>> at a given <<latitude>>."
-msgstr "La distancia angular de un punto este o oeste del <<prime meridian>> a una <<latitude>> determinada."
+msgstr "La distancia angular de un punto este o oeste del <<meridiano cero>> a una <<latitud>> determinada."
 
 #. type: Labeled list
 #: glossary.en.adoc:162
 #, no-wrap
 msgid "[[magnetic-declination]]magnetic declination"
-msgstr "[[magnetic-declination]]declinación magnética"
+msgstr "[[declinación-magnética]]declinación magnética"
 
 #. type: Plain text
 #: glossary.en.adoc:163
 msgid "The angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time."
-msgstr "El ángulo en el plano horizontal entre el norte magnético (la dirección hacia el extremo norte al que apunta la aguja de una brújula magnetizada, correspondiente a la dirección de las líneas del campo magnético de la Tierra) y el verdadero norte (la dirección a lo largo de un <<meridian>> hacia el Polo Norte geográfico). Este ángulo varía dependiendo de la posición sobre la superficie de la Tierra y https://es.wikipedia.org/wiki/Polar_wandering[changes^] sobre el tiempo."
+msgstr "El ángulo en el plano horizontal entre el norte magnético (la dirección hacia el extremo norte al que apunta la aguja de una brújula magnetizada, correspondiente a la dirección de las líneas del campo magnético de la Tierra) y el verdadero norte (la dirección a lo largo de un <<meridiano>> hacia el Polo Norte geográfico). Este ángulo varía dependiendo de la posición sobre la superficie de la Tierra y https://es.wikipedia.org/wiki/Polar_wandering[changes^] sobre el tiempo."
 
 #. type: Labeled list
 #: glossary.en.adoc:164
 #, no-wrap
 msgid "[[maximum-uncertainty-distance]]maximum uncertainty distance"
-msgstr "[[maximum-uncertainty-distance]]distancia máxima de incertidumbre"
+msgstr "[[distancia-máxima-de-incertidumbre]]distancia máxima de incertidumbre"
 
 #. type: Plain text
 #: glossary.en.adoc:165
 msgid "The radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeters]."
-msgstr "El radio en una representación <<point-radius>> de una <<location>>, que corresponde a un valor numérico que define el límite superior de la distancia horizontal desde la posición de una <<geographic-coordinates,geographic coordinate>> dada, hasta el punto mas alejado del del área geográfica que respresenta la totalidad de la ubicación. Cuando se indica en metros, corresponde al término <<Darwin Core>> term:dwc[coordinateUncertaintyInMeters]."
+msgstr "El radio en una representación <<radio-punto>> de una <<ubicación>>, que corresponde a un valor numérico que define el límite superior de la distancia horizontal desde la posición de una <<coordenadas geográficas,coordenada geográfica>> dada, hasta el punto mas alejado del área geográfica que respresenta la totalidad de la ubicación. Cuando se indica en metros, corresponde al término <<Darwin Core>> term:dwc[coordinateUncertaintyInMeters]."
 
 #. type: Labeled list
 #: glossary.en.adoc:166
 #, no-wrap
 msgid "[[mean-sea-level,mean sea level]]mean sea level (MSL)"
-msgstr "[[mean-sea-level,mean sea level]]: nivel medio del mar (NMM)"
+msgstr "[[nivel-medio-del-mar,nivel medio del mar]]: nivel medio del mar (NMM)"
 
 #. type: Plain text
 #: glossary.en.adoc:167
 msgid "A <<vertical datum>> from which heights such as <<elevation>> are usually measured. Mean sea levels were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, MSL is best described by a <<geoid>>."
-msgstr "Un <<vertical datum>> desde el cual las alturas tales como la <<elevation>> se miden normalmente. Los niveles medios del mar tradicionalmente se determinan localmente midiendo el punto medio entre una marea media baja y una marea media alta, en una <<location>> particular, promediando un período de cerca de 19 años para cubrir un ciclo de mareas completo. Más recientemente, el NMM es mejor descrito por un <<geoid>>."
+msgstr "Un <<datum vertical>> desde el cual las alturas tales como la <<elevación>> se miden normalmente. Los niveles medios del mar tradicionalmente se determinan localmente midiendo el punto medio entre una marea media baja y una marea media alta, en una <<ubicación>> particular, promediando un período de cerca de 19 años para cubrir un ciclo de mareas completo. Más recientemente, el NMM es mejor descrito por un <<geoide>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:168
 #, no-wrap
 msgid "[[meridian]]meridian"
-msgstr "[[meridian]]meridiano"
+msgstr "[[meridiano]]meridiano"
 
 #. type: Plain text
 #: glossary.en.adoc:169
 msgid "A line on the surface of the earth where all of the <<location,locations>> have the same <<longitude>>. Compare <<antimeridian>> and <<prime meridian>>."
-msgstr "Una línea en la superficie de la tierra donde todas las <<location,locations>> tienen la misma <<longitude>>. Comparar con <<antimeridian>> y <<prime meridian>>."
+msgstr "Una línea en la superficie de la tierra donde todas las <<ubicación,ubicaciones>> tienen la misma <<longitud>>. Comparar con <<antimeridiano>> y <<meridiano cero>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:170
 #, no-wrap
 msgid "[[named-place]]named place"
-msgstr "[[named-place]]lugar nombrado"
+msgstr "[[lugar-nombrado]]lugar nombrado"
 
 #. type: Plain text
 #: glossary.en.adoc:171
 msgid "see <<feature>>. Note that \"named place\" was used in some earlier <<georeference,georeferencing>> documents."
-msgstr "ver <<feature>>. Note que \"lugar nombrado\" fue utilizado en documentos anteriores sobre <<georeference,georeferencing>>."
+msgstr "ver <<entidad>>. Note que \"lugar nombrado\" fue utilizado en documentos anteriores sobre <<georreferencia,georreferenciación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:172
@@ -5962,24 +5962,24 @@ msgstr "[[northing]]norte"
 #. type: Plain text
 #: glossary.en.adoc:173
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr "Dentro de un <<coordinate reference system>> (e.g. como el proporcionado por un <<GPS>> o un un mapa de <<grid>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitude>> de referencia."
+msgstr "Dentro de un <<sistema de referencia de coordenadas>> (e.g. como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:174
 #, no-wrap
 msgid "[[offset]]offset"
-msgstr "[[offset]]desplazamiento"
+msgstr "[[desplazamiento]]desplazamiento"
 
 #. type: Plain text
 #: glossary.en.adoc:175
 msgid "A displacement from a reference <<location>>. Usually used in conjunction with <<heading>> to give a distance and <<direction>> from a <<feature>>."
-msgstr "El desplazamiento de una <<location>> de referencia. Generalmente utilizado en conjunto con <<heading>> para dar una distancia y <<direction>> desde una <<feature>>."
+msgstr "El desplazamiento desde una <<ubicación>> de referencia. Generalmente utilizado en conjunto con una <<dirección>> para dar una distancia y orientación desde una <<entidad geográfica>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:176
 #, no-wrap
 msgid "[[path]]path"
-msgstr "[[path]]ruta"
+msgstr "[[ruta]]ruta"
 
 #. type: Plain text
 #: glossary.en.adoc:177
@@ -5995,13 +5995,13 @@ msgstr "[[PID]]identificador persistente (PID)"
 #. type: Plain text
 #: glossary.en.adoc:179
 msgid "A long-lasting reference to a document, file, web page, or other object. The term \"persistent identifier\" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs)."
-msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PIDs, como <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOIs)^] e Identificadores Únicos Universales (UUIDs)."
+msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PIDs, como <<GUID,Identificadores Únicos Globales (GUIDs)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOIs)^] e Identificadores Únicos Universales (UUIDs)."
 
 #. type: Labeled list
 #: glossary.en.adoc:180
 #, no-wrap
 msgid "[[point-radius]]point-radius"
-msgstr "[[point-radius]]radio-punto"
+msgstr "[[radio-punto]]radio-punto"
 
 #. type: Plain text
 #: glossary.en.adoc:181
