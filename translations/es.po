@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 21:04\n"
+"PO-Revision-Date: 2021-06-01 22:05\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5185,7 +5185,7 @@ msgstr "La fracción de un grado correspondiente al número de dígitos signific
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[coordinate-reference-system]]coordinate reference system"
-msgstr "[[sistema-de-referencia-de-coordenadas]]sistema de referencia de coordenadas"
+msgstr "[[sistema-de-coordenadas-de-referencia]]sistema de coordenadas de referencia"
 
 #. type: Plain text
 #: glossary.en.adoc:32
@@ -6027,7 +6027,7 @@ msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar 
 #. type: Plain text
 #: glossary.en.adoc:190
 msgid "Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>."
-msgstr "Antónimo: imprecisión. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, y <<uncertainty>>."
+msgstr "Antónimo: imprecisión. Comparar con <<exactitud>>, <<error>>, <<sesgo>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:191
@@ -6060,7 +6060,7 @@ msgstr "[[quality]]calidad"
 #. type: Plain text
 #: glossary.en.adoc:196
 msgid "see <<data quality>>."
-msgstr "ver <<data quality>>."
+msgstr "ver <<calidad de datos>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:197
@@ -6121,12 +6121,12 @@ msgstr "Sinónimo de <<footprint>>. Una representación del <<geographic compone
 #: glossary.en.adoc:207
 #, no-wrap
 msgid "[[smallest-enclosing-circle]]smallest enclosing circle"
-msgstr "[[círculo mínimo]]círculo mínimo"
+msgstr "[[círculo-mínimo]]círculo mínimo"
 
 #. type: Plain text
 #: glossary.en.adoc:208
 msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
-msgstr "círculo de menor radio (<<radio>>) que contiene todo un conjunto de puntos determinado (o una <<forma geométrica>> dada) ubicados sobre una superficie (ver https://en. ikipedia. rg/wiki/smallallest-circle_problem[_problema del círculo mínimo_^]). Este rara vez es el mismo que aquel obtenido a partir del <<centro geografico>>, o del punto medio entre las dos <<coordenadas geográficas>> mas distantes de una <<ubicación>>."
+msgstr "círculo de menor radio (<<radio>>) que contiene todo un conjunto de puntos determinado (o una <<forma geométrica>> dada) ubicados sobre una superficie (ver https://en.wikipedia.org/wiki/Smallest-circle_problem[_problema del círculo mínimo_^]). Este rara vez es el mismo que aquel obtenido a partir del <<centro geografico>>, o del punto medio entre las dos <<coordenadas geográficas>> mas distantes de una <<ubicación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:209
