@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 17:37\n"
+"PO-Revision-Date: 2021-06-01 19:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5240,7 +5240,7 @@ msgstr "Término <<Darwin Core>> correspondiente a la <<máxima distancia de inc
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[corrected-center]]corrected center"
-msgstr "[centro-corregido]centro corregido"
+msgstr "[[centro-corregido]]centro corregido"
 
 #. type: Plain text
 #: glossary.en.adoc:42
@@ -5495,7 +5495,7 @@ msgstr "Registro de datos con un mayor número de decimales que los presentes en
 #: glossary.en.adoc:88
 #, no-wrap
 msgid "[[feature]]feature"
-msgstr "[[geometría]]geometría"
+msgstr "[[entidad]]entidad"
 
 #. type: Plain text
 #: glossary.en.adoc:89
@@ -5511,7 +5511,7 @@ msgstr "[[footprint]]footprint"
 #. type: Plain text
 #: glossary.en.adoc:91
 msgid "See <<shape>>. Note that \"footprint\" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit]."
-msgstr "Ver <<forma>>. Tenga en cuenta que \"footprint\" se utilizó en anteriores documentos sobre <<georreferencia,georreferenciación>> y en los nombres de algunos términos del estándar <<Darwin Core>>: dwc[footprintWKT] y term:dwc[footprintSpatialFit]."
+msgstr "Ver <<forma geométrica>>. Tenga en cuenta que \"footprint\" se utilizó en anteriores documentos sobre <<georreferencia,georreferenciación>> y en los nombres de algunos términos del estándar <<Darwin Core>>: dwc[footprintWKT] y term:dwc[footprintSpatialFit]."
 
 #. type: Labeled list
 #: glossary.en.adoc:92
@@ -5660,12 +5660,12 @@ msgstr "Conjunto de herramientas computacionales diseñadas para capturar, almac
 #: glossary.en.adoc:118
 #, no-wrap
 msgid "[[geographic-radial]]geographic radial"
-msgstr "[[geographic-radial]]radio geográfico"
+msgstr "[[radio-geográfico]]radio geográfico"
 
 #. type: Plain text
 #: glossary.en.adoc:119
 msgid "The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent \"extent\" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
-msgstr "La distancia desde el <<corrected center>> de una <<location>> hasta el punto mas lejano de su <<geographic boundary>>. El radio geográfico contribuye al cálculo de la <<maximum uncertainty distance>> usando el <<georeferencing method>> <<point-radius>>. El término de radio geográfico, como se define aquí, remplaza la definición equivalente de \"extensión\" usada en versiones anteriores de este documento y otros relacionados, incluido el http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] y versiones de la https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] y su http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] antes del 2019. La nueva definición de <<extent>>en este documento se mantiene mas en consonancia con el uso común y un mejor entendimiento del término. La definición también ha sido actualizada en la última versión de la {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
+msgstr "La distancia desde el <<centro corregido>> de una <<ubicación>> hasta el punto mas lejano de su <<límite geográfico>>. El radio geográfico contribuye al cálculo de la <<distancia máxima de incertidumbre>> usando el <<método de georreferenciación>> <<radio-punto>>. El término de radio geográfico, como se define aquí, remplaza la definición equivalente de \"extensión\" usada en versiones anteriores de este documento y otros relacionados, incluido el http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] y versiones de la https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] y su http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] antes del 2019. La nueva definición de <<extensión>>en este documento se mantiene mas en consonancia con el uso común y un mejor entendimiento del término. La definición también ha sido actualizada en la última versión de la {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:120
@@ -5676,18 +5676,18 @@ msgstr "[[geoid]]geoide"
 #. type: Plain text
 #: glossary.en.adoc:121
 msgid "A global equipotential surface that approximates <<mean-sea-level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^])."
-msgstr "Una superficie global equipotencial que se aproxima al <<mean-sea-level>>. Esta superficie es por todas partes perpendicular a la fuerza de gravedad (https://doi.org/10.1007/978-94-011-5826-8[Baja 1997^])."
+msgstr "Una superficie global equipotencial que se aproxima al <<nivel-medio-del-mar>>. Esta superficie es por todas partes perpendicular a la fuerza de gravedad (https://doi.org/10.1007/978-94-011-5826-8[Baja 1997^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:122
 #, no-wrap
 msgid "[[geometry]]geometry"
-msgstr "[[geometry]]geometría"
+msgstr "[[geometría]]geometría"
 
 #. type: Plain text
 #: glossary.en.adoc:123
 msgid "The measures and properties of points, lines, and surfaces. Geometry is used to represent the <<geographic component>> of <<location,locations>>."
-msgstr "Las medidas y propiedades de puntos, líneas y superficies (polígonos). La geometría se utiliza para representar el <<geographic component>> de una<<location,locations>>."
+msgstr "Las medidas y propiedades de puntos, líneas y superficies (polígonos). La geometría se utiliza para representar el <<componente geográfico>> de una<<ubicación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:124
