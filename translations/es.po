@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-05-27 18:31\n"
+"PO-Revision-Date: 2021-06-01 16:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5406,7 +5406,7 @@ msgstr "Dentro de un <<sistema de referencia de coordenadas>> (e.g. como la prop
 #: glossary.en.adoc:72
 #, no-wrap
 msgid "[[elevation]]elevation"
-msgstr "[[elevation]]elevación"
+msgstr "[[elevación]]elevación"
 
 #. type: Plain text
 #: glossary.en.adoc:73
