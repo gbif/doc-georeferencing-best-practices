@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-01 22:05\n"
+"PO-Revision-Date: 2021-06-09 15:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5201,7 +5201,7 @@ msgstr "[[sistema-de-coordenadas]]sistema de coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system."
-msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordenadas>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<sistema de coordenadas geográfico> y el sistema de coordenadas <<UTM>>."
+msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordenadas>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<sistema de coordenadas geográfico>> y el sistema de coordenadas <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:35
@@ -5234,7 +5234,7 @@ msgstr "[[Incertidumbre-de-las-coordenadas-en-metros]]Incertidumbre de las coord
 #. type: Plain text
 #: glossary.en.adoc:40
 msgid "The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters."
-msgstr "Término <<Darwin Core>> correspondiente a la <<máxima distancia de incertidumbre>> en metros."
+msgstr "Término <<Darwin Core>> correspondiente a la <<distancia máxima de incertidumbre>> en metros."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
@@ -5278,7 +5278,7 @@ msgstr "[[datum]]datum"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>."
-msgstr "Conjunto de uno o más parámetros que sirven como referencia o base para el cálculo de otros parámetros https://www.iso.org/standard/74039.html[ISO 19111^]. El datum define la posición del origen, la escala y la orientación de los ejes de un <<sistema de coordenadas>>. Para propósitos de la <<georreferenciación>>, un datum puede ser un <<datum geodésico>> o un <<datum vertical>>."
+msgstr "Conjunto de uno o más parámetros que sirven como referencia o base para el cálculo de otros parámetros https://www.iso.org/standard/74039.html[ISO 19111^]. El datum define la posición del origen, la escala y la orientación de los ejes de un <<sistema de coordenadas>>. Para propósitos de la <<georreferencia,georreferenciación>>, un datum puede ser un <<datum geodésico>> o un <<datum vertical>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -5400,7 +5400,7 @@ msgstr "[[este]]este"
 #. type: Plain text
 #: glossary.en.adoc:71
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map."
-msgstr "Dentro de un <<sistema de referencia de coordenadas>> (e.g. como la proporcionada por un <<GPS>> o un un mapa de <<grilla>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridiano>> de referencia en un mapa."
+msgstr "Dentro de un <<sistema de coordenadas de referencia>> (e.g. como la proporcionada por un <<GPS>> o un un mapa de <<grilla>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridiano>> de referencia en un mapa."
 
 #. type: Labeled list
 #: glossary.en.adoc:72
@@ -5444,7 +5444,7 @@ msgstr "[[EPSG]]EPSG"
 #. type: Plain text
 #: glossary.en.adoc:79
 msgid "EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application."
-msgstr "Los códigos EPSG son definidos por la Asociación Internacional de Productores de Petróleo y Gas, usando un identificador de referencia espacial (SRID) para referenciar los <<sistema-de-referencia-espacial,sistemas de referencia espacial>>. El Conjunto de parámetros geodésico EPSG (http://www. epsg.org/[IOPG 2019^]) es una colección de <<sistema-de-referencia-de-coordenadas,sistemas de referencia de coordenadas>> (incluyendo <<datum,datums>>) y transformaciones de <<coordenadas>> que pueden ser de aplicados a escala global, regional, nacional o local."
+msgstr "Los códigos EPSG son definidos por la Asociación Internacional de Productores de Petróleo y Gas, usando un identificador de referencia espacial (SRID) para referenciar los <<sistema-de-referencia-espacial,sistemas de referencia espacial>>. El Conjunto de parámetros geodésico EPSG (http://www.epsg.org/[IOPG 2019^]) es una colección de <<sistema-de-referencia-de-coordenadas,sistemas de referencia de coordenadas>> (incluyendo <<datum,datums>>) y transformaciones de <<coordenadas>> que pueden ser de aplicados a escala global, regional, nacional o local."
 
 #. type: Labeled list
 #: glossary.en.adoc:80
@@ -5455,7 +5455,7 @@ msgstr "[[error]]error"
 #. type: Plain text
 #: glossary.en.adoc:81
 msgid "The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called \"<<bias>>\". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
-msgstr "La diferencia entre un valor calculado, estimado o medido y el valor verdadero aceptado, especificado, o teóricamente correcto. Este compara tanto la <<precisión> de una medición como su imprecisión. El error puede ser aleatorio o sistemático. Si el error es sistemático, se llama \"<<sesgo>>\". Ver <<exactitud>>, <<sesgo>>, <<precisión>>, <<falsa precisión>> e <<incertidumbre>>."
+msgstr "La diferencia entre un valor calculado, estimado o medido y el valor verdadero aceptado, especificado, o teóricamente correcto. Este compara tanto la <<precisión> de una medición como su imprecisión. El error puede ser aleatorio o sistemático. Si el error es sistemático, se llama \"<<sesgo>>\". Comparar con <<exactitud>>, <<sesgo>>, <<precisión>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:82
@@ -5483,7 +5483,7 @@ msgstr "El espacio total dentro del <<límite>> que representa una <<ubicación>
 #: glossary.en.adoc:86
 #, no-wrap
 msgid "[[false-precision]]false precision"
-msgstr "[[falsa-precisión]]falsa precisión "
+msgstr "[[falsa-precisión]]falsa precisión"
 
 #. type: Plain text
 #: glossary.en.adoc:87
@@ -5555,7 +5555,7 @@ msgstr "[[sistema-de-referencia-de-coordenadas-geodésicas]]sistema de referenci
 #. type: Plain text
 #: glossary.en.adoc:99
 msgid "A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth."
-msgstr "<<sistema de referencia de coordenadas>> basado en un <<datum geodésico>>, usado para describir las posiciones en la superficie de la tierra."
+msgstr "<<sistema de coordenadas de referencia>> basado en un <<datum geodésico>>, usado para describir las posiciones en la superficie de la tierra."
 
 #. type: Labeled list
 #: glossary.en.adoc:100
@@ -5671,7 +5671,7 @@ msgstr "La distancia desde el <<centro corregido>> de una <<ubicación>> hasta e
 #: glossary.en.adoc:120
 #, no-wrap
 msgid "[[geoid]]geoid"
-msgstr "[[geoid]]geoide"
+msgstr "[[geoide]]geoide"
 
 #. type: Plain text
 #: glossary.en.adoc:121
@@ -6066,7 +6066,7 @@ msgstr "ver <<calidad de datos>>."
 #: glossary.en.adoc:197
 #, no-wrap
 msgid "[[radial]]radial"
-msgstr "[[radial]]radio"
+msgstr "[[radio]]radio"
 
 #. type: Plain text
 #: glossary.en.adoc:198
