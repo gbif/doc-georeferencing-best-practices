@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-09 15:15\n"
+"PO-Revision-Date: 2021-06-09 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -48,7 +48,7 @@ msgstr "Citación sugerida"
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853"
-msgstr ""
+msgstr "Chapman AD & Wieczorek JR (2020) Guía de Buenas Prácticas de Georreferenciación. Copenhague: Secretariado de GBIF. https://doi.org/10.15468/doc-gg7h-s853"
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -59,7 +59,7 @@ msgstr "Autores"
 #. type: Plain text
 #: colophon.en.adoc:15
 msgid "https://orcid.org/0000-0003-1700-6962[Arthur D. Chapman] & https://orcid.org/0000-0003-1144-0290[John R. Wieczorek]"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1700-6962[Arthur D. Chapman] & https://orcid.org/0000-0003-1144-0290[John R. Wieczorek]"
 
 #. type: Title ===
 #: colophon.en.adoc:16
@@ -70,7 +70,7 @@ msgstr "Colaboradores"
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "Paula F. Zermoglio"
-msgstr ""
+msgstr "Paula F. Zermoglio"
 
 #. type: Title ===
 #: colophon.en.adoc:20
@@ -81,7 +81,7 @@ msgstr "Licencia"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "The document _Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr ""
+msgstr "Este documento _Guía de Mejores Prácticas de Georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:24
@@ -92,7 +92,7 @@ msgstr "URI persistente"
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "https://doi.org/10.15468/doc-gg7h-s853"
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-gg7h-s853"
 
 #. type: Title ===
 #: colophon.en.adoc:28
@@ -103,7 +103,7 @@ msgstr "Resumen"
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "Georeferencing Best Practices provides guidelines to the best practices for georeferencing. Though targeted specifically at biological occurrence data, the concepts and methods presented here may be just as useful in other disciplines."
-msgstr ""
+msgstr "La Guía de Mejores Prácticas de Georreferenciación provee los lineamientos para la georreferenciación. Aunque se dirija específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden ser igual de útiles en otras disciplinas."
 
 #. type: Title ===
 #: colophon.en.adoc:32
@@ -5577,7 +5577,7 @@ msgstr "[[límite-geográfico]]límite geográfico"
 #. type: Plain text
 #: glossary.en.adoc:103
 msgid "The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth."
-msgstr "Representación en <<geographic coordinates>> del <<boundary>> de una proyección vertical sobre un modelo de la superficie de la tierra."
+msgstr "Representación en <<coordenadas geográficas>> del <<límite>> de una proyección vertical sobre un modelo de la superficie de la tierra."
 
 #. type: Labeled list
 #: glossary.en.adoc:104
@@ -5627,7 +5627,7 @@ msgstr "Un <<sistema de referencia de coordenadas geodésicas>> que usa <<coorde
 #: glossary.en.adoc:112
 #, no-wrap
 msgid "[[geographic-coordinates]]geographic coordinates"
-msgstr "[[geographic-coordinates]]coordenadas geográficas"
+msgstr "[[coordenadas-geográficas]]coordenadas geográficas"
 
 #. type: Plain text
 #: glossary.en.adoc:113
@@ -5649,7 +5649,7 @@ msgstr "Todo el espacio dentro del <<límite geográfico>> de una <<ubicación>>
 #: glossary.en.adoc:116
 #, no-wrap
 msgid "[[geographic-information-system,geographic information system]]geographic information system (GIS)"
-msgstr "[[geographic-information-system,geographic information system]]sistema de información geográfica (SIG)"
+msgstr "[[sistema-de-información-geográfica,sistema de información geográfica]]sistema de información geográfica (SIG)"
 
 #. type: Plain text
 #: glossary.en.adoc:117
@@ -5665,7 +5665,7 @@ msgstr "[[radio-geográfico]]radio geográfico"
 #. type: Plain text
 #: glossary.en.adoc:119
 msgid "The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent \"extent\" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
-msgstr "La distancia desde el <<centro corregido>> de una <<ubicación>> hasta el punto mas lejano de su <<límite geográfico>>. El radio geográfico contribuye al cálculo de la <<distancia máxima de incertidumbre>> usando el <<método de georreferenciación>> <<radio-punto>>. El término de radio geográfico, como se define aquí, remplaza la definición equivalente de \"extensión\" usada en versiones anteriores de este documento y otros relacionados, incluido el http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] y versiones de la https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] y su http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] antes del 2019. La nueva definición de <<extensión>>en este documento se mantiene mas en consonancia con el uso común y un mejor entendimiento del término. La definición también ha sido actualizada en la última versión de la {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
+msgstr "La distancia desde el <<centro corregido>> de una <<ubicación>> hasta el punto mas lejano de su <<límite geográfico>>. El radio geográfico contribuye al cálculo de la <<distancia máxima de incertidumbre>> usando el <<método de georreferenciación>> <<radio-punto>>. El término de radio geográfico, como se define aquí, remplaza la definición equivalente de \"extensión\" usada en versiones anteriores de este documento y otros relacionados, incluido el http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] y versiones de la https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] y su http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] antes del 2019. La nueva definición de <<extensión>> en este documento se mantiene mas en consonancia con el uso común y un mejor entendimiento del término. La definición también ha sido actualizada en la última versión de la {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] y el https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:120
@@ -5792,7 +5792,7 @@ msgstr "red o matriz de líneas ortogonales uniformemente espaciadas que se util
 #: glossary.en.adoc:142
 #, no-wrap
 msgid "[[ground-zero]]ground zero"
-msgstr "[[zona cero]]zona cero"
+msgstr "[[zona-cero]]zona cero"
 
 #. type: Plain text
 #: glossary.en.adoc:143
@@ -5819,7 +5819,7 @@ msgstr "[[dirección]]dirección"
 #. type: Plain text
 #: glossary.en.adoc:147
 msgid "Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>."
-msgstr "Dirección cardinal (de brújula) como este o noroeste, o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con un <<desplazamiento>> para señalar una dirección y distancia desde una <<entidad>>."
+msgstr "Dirección cardinal (de brújula) como este o noroeste, o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con un <<desplazamiento>> para señalar una dirección y distancia desde una <<entidad geográfica>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:148
@@ -5924,7 +5924,7 @@ msgstr "El radio en una representación <<radio-punto>> de una <<ubicación>>, q
 #: glossary.en.adoc:166
 #, no-wrap
 msgid "[[mean-sea-level,mean sea level]]mean sea level (MSL)"
-msgstr "[[nivel-medio-del-mar,nivel medio del mar]]: nivel medio del mar (NMM)"
+msgstr "[[nivel-medio-del-mar,nivel medio del mar]]nivel medio del mar (NMM)"
 
 #. type: Plain text
 #: glossary.en.adoc:167
@@ -5962,7 +5962,7 @@ msgstr "[[northing]]norte"
 #. type: Plain text
 #: glossary.en.adoc:173
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr "Dentro de un <<sistema de referencia de coordenadas>> (e.g. como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
+msgstr "Dentro de un <<sistema de coordenadas de referencia>> (e.g. como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:174
@@ -6038,7 +6038,7 @@ msgstr "[[prime-meridian]]meridiano cero"
 #. type: Plain text
 #: glossary.en.adoc:192
 msgid "The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes."
-msgstr "Conjunto de <<location,locations>> con <<longitude>> designada como 0 grados este y oeste, a partir del cuál se referencian todas las longitudes. El <<meridian>> de Greenwich es reconocido internacionalmente como el <<prime meridian>> para muchos propósitos populares y oficiales."
+msgstr "Conjunto de <<ubicación,ubicaciones>> con <<longitud>> designada como 0 grados este y oeste, a partir del cuál se referencian todas las longitudes. El <<meridiano>> de Greenwich es reconocido internacionalmente como el <<meridiano cero>> para muchos propósitos populares y oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:193
@@ -6049,7 +6049,7 @@ msgstr "[[projection]]proyección"
 #. type: Plain text
 #: glossary.en.adoc:194
 msgid "A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values."
-msgstr "Serie de transformaciones que convierten la ubicacion de los puntos de un <<sistema de referencia de coordenadas>> sobre una superficie curvada (la superficie de referencia o <<datum>>), en las <<ubicación,ubicaciones>> de dichos puntos a un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<sistema de coordenadas,sistemas de coordenadas>> proyectados se basan en <<coordenadas geográficas>>, que a su vez son referenciadas en un <<datum geodésico>>. Es posible, e incluso común, que los conjuntos de datos estén en la misma proyección, pero referenciados a distintos datums geodésicos y, por lo tanto, tengan diferentes valores en sus <<coordenadas>>."
+msgstr "Serie de transformaciones que convierten la ubicación de los puntos de un <<sistema de coordenadas de referencia>> sobre una superficie curvada (la superficie de referencia o <<datum>>), en las <<ubicación,ubicaciones>> de dichos puntos a un sistema de referencia de coordenadas plano o proyectado. El datum es una parte integral de la proyección ya que los <<sistema de coordenadas,sistemas de coordenadas>> proyectados se basan en <<coordenadas geográficas>>, que a su vez son referenciadas en un <<datum geodésico>>. Es posible, e incluso común, que los conjuntos de datos estén en la misma proyección, pero referenciados a distintos datums geodésicos y, por lo tanto, tengan diferentes valores en sus <<coordenadas>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:195
@@ -6071,7 +6071,7 @@ msgstr "[[radio]]radio"
 #. type: Plain text
 #: glossary.en.adoc:198
 msgid "The distance from a center point (e.g. the <<corrected center,corrected>> or <<geographic center>>) within a <<location>> to the furthest point on the outermost <<boundary>> of that <<location>>. See also <<geographic radial>>."
-msgstr "Distancia desde un punto central (p. ej. el <<corrected center,corrected>> o <<geographic center>>) dentro de una <<location>> al punto más lejano del <<boundary>> de esa <<location>>. Ver también <<geographic radial>>."
+msgstr "Distancia desde un punto central (p. ej. el <<centro corregido,corregido>> o <<centro geográfico>>) dentro de una <<ubicación>> al punto más lejano del <<límite>> de esa <<ubicación>>. Ver también <<radio geográfico>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:199
@@ -6082,7 +6082,7 @@ msgstr "[[repatriate]]repatriar, repatriación"
 #. type: Plain text
 #: glossary.en.adoc:200
 msgid "The process of returning something to the source from which it was extracted. In the <<georeference,georeferencing>> sense, this refers to the process of adding the results of georeferencing to the original data, especially when georeferencing was done by a third party."
-msgstr "Proceso de retornar algo a la fuente de la que fue extraído. En el sentido de la <<georeference,georeferencing>> se refiere al proceso de agregar los resultados de la georeferenciación a los datos originales, especialmente cuando esta fue realizada por un tercero."
+msgstr "Proceso de retornar algo a la fuente de la que fue extraído. En el sentido de la <<georreferencia,georreferenciación>> se refiere al proceso de agregar los resultados de la georreferenciación a los datos originales, especialmente cuando esta fue realizada por un tercero."
 
 #. type: Labeled list
 #: glossary.en.adoc:201
@@ -6115,7 +6115,7 @@ msgstr "[[forma-geométrica]]forma geométrica"
 #. type: Plain text
 #: glossary.en.adoc:206
 msgid "Synonym of <<footprint>>. A representation of the <<geographic component>> of a location as a <<geometry>>. The result of a <<georeferencing method,shape georeferencing method>> includes a shape as the geographic component of the <<georeference>>, which contains the set of all possible <<geographic coordinates>> where a <<location>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within the geometry given. The shape method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
-msgstr "Sinónimo de <<footprint>>. Una representación del <<geographic component>> de una ubicación a partir de una <<geometry>>. El resultado de la aplicación de un <<georeferencing method,shape georeferencing method>> incluye una forma como componente geográfico de la <<georeference>>, que contiene el conjunto de todas las posibles <<geographic coordinates>> donde una <<location>> podría ser interpretada. Esta representación engloba toda la <<uncertainty,uncertainties>> geográfica dentro de la geometría resultante. El método de forma utiliza rangos para representar los atributos no geográficos de la ubicación (<<elevation>>, <<depth>>, <<distance above surface>>)."
+msgstr "Sinónimo de <<footprint>>. Una representación del <<componente geográfico>> de una ubicación a partir de una <<geometría>>. El resultado de la aplicación de un <<método de georreferenciación, método de georreferenciación de formas geométricas>> incluye una forma geométrica como componente geográfico de la <<georreferencia>>, que contiene el conjunto de todas las posibles <<coordenadas geográficas>> donde una <<ubicación>> podría estar presente. Esta representación engloba toda la <<incertidumbre>> geográfica dentro de la geometría resultante. El método de forma geométrica utiliza rangos para representar los atributos no geográficos de la ubicación (<<elevación>>, <<profundidad>>, <<distancia sobre la superficie>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:207
@@ -6126,13 +6126,13 @@ msgstr "[[círculo-mínimo]]círculo mínimo"
 #. type: Plain text
 #: glossary.en.adoc:208
 msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[_Smallest-circle problem_^]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
-msgstr "círculo de menor radio (<<radio>>) que contiene todo un conjunto de puntos determinado (o una <<forma geométrica>> dada) ubicados sobre una superficie (ver https://en.wikipedia.org/wiki/Smallest-circle_problem[_problema del círculo mínimo_^]). Este rara vez es el mismo que aquel obtenido a partir del <<centro geografico>>, o del punto medio entre las dos <<coordenadas geográficas>> mas distantes de una <<ubicación>>."
+msgstr "círculo de menor radio (<<radio>>) que contiene todo un conjunto de puntos determinado (o una <<forma geométrica>> dada) ubicados sobre una superficie (ver https://en.wikipedia.org/wiki/Smallest-circle_problem[_problema del círculo mínimo_^]). Este rara vez es el mismo que aquel obtenido a partir del <<centro geográfico>>, o del punto medio entre las dos <<coordenadas geográficas>> mas distantes de una <<ubicación>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:209
 #, no-wrap
 msgid "[[spatial-fit]]spatial fit"
-msgstr "[[spatial-fit]]ajuste espacial"
+msgstr "[[ajuste-espacial]]ajuste espacial"
 
 #. type: Plain text
 #: glossary.en.adoc:210
@@ -6148,13 +6148,13 @@ msgstr "[[spatial-reference-system]]sistema de referencia espacial"
 #. type: Plain text
 #: glossary.en.adoc:212
 msgid "see <<coordinate reference system>>."
-msgstr "ver <<coordinate reference system>>."
+msgstr "ver <<sistema de coordenadas de referencia>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:213
 #, no-wrap
 msgid "[[stratigraphic-section]]stratigraphic section"
-msgstr "[[stratigraphic-section]]sección estratigráfica"
+msgstr "[[sección-estratigráfica]]sección estratigráfica"
 
 #. type: Plain text
 #: glossary.en.adoc:214
@@ -6165,7 +6165,7 @@ msgstr "Afloramiento local o serie de afloramientos adyacentes que muestran una 
 #: glossary.en.adoc:215
 #, no-wrap
 msgid "[[transect]]transect"
-msgstr "[[transect]]transecto"
+msgstr "[[transecto]]transecto"
 
 #. type: Plain text
 #: glossary.en.adoc:216
@@ -6176,12 +6176,12 @@ msgstr "Una <<ruta>> a lo largo de la cual se hacen observaciones, mediciones o 
 #: glossary.en.adoc:217
 #, no-wrap
 msgid "[[trig-point]]trig point"
-msgstr "[[trig-point]]vértice geodésico"
+msgstr "[[vértice-geodésico]]vértice geodésico"
 
 #. type: Plain text
 #: glossary.en.adoc:218
 msgid "A surveyed reference point, often on high points of <<elevation>> (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact <<location>> is determined by survey triangulation and hence the alternative names \"trigonometrical point\", \"triangulation point\" or \"benchmark\"."
-msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevation>> (cimas de montaña, etc.) y generalmente designado con un marcador fijo en una pequeña estructura piramidal o un pilar. La <<location>> exacta se determina mediante estudios de triangulación, por lo tanto, se conoce con los nombres alternativos de \"punto trigonométrico\", \"punto de triangulación\" o \"punto de referencia\"."
+msgstr "Punto de referencia, a menudo ubicado en puntos altos de <<elevación>> (cimas de montaña, etc.) y generalmente designado con un marcador fijo en una pequeña estructura piramidal o un pilar. La <<ubicación>> exacta se determina mediante estudios de triangulación, por lo tanto, se conoce con los nombres alternativos de \"punto trigonométrico\", \"punto de triangulación\" o \"punto de referencia\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:219
@@ -6192,7 +6192,7 @@ msgstr "[[incertidumbre]]incertidumbre"
 #. type: Plain text
 #: glossary.en.adoc:220
 msgid "A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>."
-msgstr "Medida de la falta de completitud del conocimiento o información de uno sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusieran de un conocimiento completo y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<georeferencing method,Georeferencing methods>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<accuracy>> y <<precision>>) en la interpretación de la <<location>>. Comparar con <<accuracy>>, <<error>>, <<bias>>, <<precision>>, y <<false precision>>."
+msgstr "Medida de la falta de completitud del conocimiento o información de uno sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusieran de un conocimiento completo y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<método de georreferenciación,Métodos de georreferenciación>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<exactitud>> y <<precisión>>) en la interpretación de la <<ubicación>>. Comparar con <<exactitud>>, <<error>>, <<sesgo>>, <<precisión>>, y <<falsa precisión>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:221
@@ -6203,7 +6203,7 @@ msgstr "[[UTM]]Universal Transversa de Mercator (UTM)"
 #. type: Plain text
 #: glossary.en.adoc:222
 msgid "A standardized <<coordinate system>> based on a metric rectangular <<grid>> system and a division of the earth into sixty 6-degree longitudinal zones. The scope of UTM covers from 84° N to 80° S. (See <<Universal Transverse Mercator (UTM) Coordinates>>)."
-msgstr "<<coordinate system>> estandarizado basado en un sistema de <<grid>> métrico rectangular y una división de la tierra en 60 zonas longitudinales de 6 grados. El alcance del sistema UTM cubre desde los 84° N hasta 80° S. (Ver <<Universal Transverse Mercator (UTM) Coordinates>>)."
+msgstr "<<sistema de coordenadas, Sistema de coordenadas>> estandarizado basado en un sistema de <<grilla,grillas>> métrico rectangular y una división de la tierra en 60 zonas longitudinales de 6 grados. El alcance del sistema UTM cubre desde los 84° N hasta 80° S. (Ver <<Universal Transverse Mercator (UTM) Coordinates>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:223
@@ -6214,7 +6214,7 @@ msgstr "[[datum-vertical]]datum vertical"
 #. type: Plain text
 #: glossary.en.adoc:224
 msgid "A reference surface for vertical positions, such as <<elevation>>. Vertical datums fall into several categories, including: tidal, based on sea level; gravimetric, based on a <<geoid>>; geodetic, based on <<ellipsoid>> models of the Earth; or local, based on a local reference surface. Also known as height datum."
-msgstr "Superficie de referencia para posiciones verticales, como la <<elevation>>. Los datums verticales cuentan con varias categorías, incluyendo: de marea, basado en el nivel del mar; gravimétrico, basado en un <<geoid>>; geodetico, basado en modelos de <<ellipsoid>> de la Tierra; o local, basado en una superficie local de referencia. También conocido como datum de altura."
+msgstr "Superficie de referencia para posiciones verticales, como la <<elevación>>. Los datums verticales cuentan con varias categorías, incluyendo: de marea, basado en el nivel del mar; gravimétrico, basado en un <<geoide>>; geodésico, basado en modelos de <<elipsoide>> de la Tierra; o local, basado en una superficie local de referencia. También conocido como datum de altura."
 
 #. type: Labeled list
 #: glossary.en.adoc:225
@@ -6225,7 +6225,7 @@ msgstr "[[WAAS]]Sistema de Aumentación de Área Amplia (WAAS)"
 #. type: Plain text
 #: glossary.en.adoc:226
 msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<SBAS>>, of which WAAS is one example."
-msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para complementar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<accuracy>>, integridad, y disponibilidad. Ver también <<SBAS>>, de los cuales WAAS es un ejemplo."
+msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para complementar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<exactitud>>, integridad, y disponibilidad. Ver también <<SBAS>>, de los cuales WAAS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:227
