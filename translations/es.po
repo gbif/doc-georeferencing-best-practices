@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-09 16:11\n"
+"PO-Revision-Date: 2021-06-09 17:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -119,34 +119,34 @@ msgstr "v1.0, Diciembre 2020"
 #. type: Plain text
 #: colophon.en.adoc:37
 msgid "Originally based on an earlier publication, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42"
-msgstr ""
+msgstr "Originalmente basado en una publicación anterior, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guía de Mejores Prácticas para la Georreferenciación. Copenhague: Secretariado de GBIF. https://doi.org/10.15468/doc-2zpf-zf42"
 
 #. type: Title ===
 #: colophon.en.adoc:38
 #, no-wrap
 msgid "Disclaimer"
-msgstr ""
+msgstr "Términos de Uso"
 
 #. type: Plain text
 #: colophon.en.adoc:41
 msgid "The information in this book represents the professional opinion of the authors, and does not necessarily represent the views of the publisher. While the authors and the publisher have attempted to make this book as accurate and as thorough as possible, the information contained herein is provided on an \"As Is\" basis, and without any warranties with respect to its accuracy or completeness. The authors and the publisher shall have no liability to any person or entity for any loss or damage caused by using the information provided in this book."
-msgstr ""
+msgstr "La información en este libro representa la opinión profesional de los autores y no representa necesariamente las opiniones del editor. Los autores y el editor han intentado hacer este libro lo más preciso y minucioso posible, sin embargo, la información contenida en esta publicación se proporciona sobre la base \"Como es\" y sin ninguna garantía con respecto a su exactitud o integridad. Los autores y el editor no tendrán ninguna responsabilidad ante ninguna persona o entidad por cualquier pérdida o daño causado por el uso de la información proporcionada en este libro."
 
 #. type: Plain text
 #: colophon.en.adoc:43
 msgid "Where there are differences in interpretation between this document and translated versions in languages other than English, the English version remains the original and definitive version."
-msgstr ""
+msgstr "Donde haya diferencias de interpretación entre este documento y las versiones traducidas en idiomas distintos del inglés, la versión inglesa sigue siendo la original y definitiva."
 
 #. type: Title ===
 #: colophon.en.adoc:44
 #, no-wrap
 msgid "Cover image"
-msgstr ""
+msgstr "Imagen de portada"
 
 #. type: Plain text
 #: colophon.en.adoc:46
 msgid "Spotted whelk (_Cominella maculosa_), Waitangi Bay, Chatham Island. Photo 2019 Peter de Lange via https://www.gbif.org/occurrence/2005333834[iNaturalist research-grade observations], public domain under http://creativecommons.org/publicdomain/zero/1.0/[CC0]."
-msgstr ""
+msgstr "Buccino manchado (_Cominella maculosa_), Bahía de Waitangi, Isla de Chatham. Foto 2019 Peter de Lange vía https://www.gbif.org/occurrence/200533834[observaciones de grado de investigación de iNaturalist], dominio público bajo licencia http://creativecommons.org/publicdomain/zero/1.0/[CC0]."
 
 #. type: Title ==
 #: 0100-introduction.en.adoc:1
@@ -157,17 +157,17 @@ msgstr "Introducción"
 #. type: Plain text
 #: 0100-introduction.en.adoc:4
 msgid "A Location that is poorly georeferenced obscures the information upon which a georeference should be based, potentially making the originally provided information irrecoverable. The resulting georeferences can be misleading to users and lead to errors in research outputs. Thus, an important take-home message is, \"To georeference poorly is worse than not to georeference at all.\""
-msgstr ""
+msgstr "Una ubicación que está pobremente georreferenciada oculta la información en la que debería basarse su correcta georreferenciación, lo que potencialmente hace que la información originalmente proporcionada sea irrecuperable. Las georreferencias resultantes pueden ser engañosas para los usuarios y conducir a errores en los resultados de su investigación. Por lo tanto, un importante mensaje para llevar a casa es: \"Georreferenciar mal es peor que no georreferenciar en absoluto\"."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:6
 msgid "Throughout this document we make use of terminology for which the specific meaning has great importance for overall understanding, especially for terms that might differ from, or vary in common usage. We mark these key words <<accuracy,like this>>, with a link to the glossary, to call attention to the specific meaning and avoid potential confusion. All terms so marked are defined in the <<Glossary>>."
-msgstr ""
+msgstr "A lo largo de este documento hacemos uso de terminología con un significado específico que es de gran importancia para el entendimiento general, especialmente para los términos que pueden diferir o variar en el uso común. Marcamos estas palabras clave <<exactitud,así>>, con un enlace al glosario, para llamar la atención sobre el significado específico y evitar la confusión potencial. Todos los términos marcados de esta forma son definidos en el <<Glossary>>."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:8
 msgid "This publication provides guidelines to the best practice for <<georeference,georeferencing>>. Though it is targeted specifically at biological occurrence data, the concepts and methods presented here can be applied in other disciplines where spatial interpretation of <<location>> is of interest. This document builds on the original https://doi.org/10.15468/doc-2zpf-zf42[Guide to Best Practices for Georeferencing (Chapman & Wieczorek 2006)^], which was one of the outputs from the BioGeomancer project (https://doi.org/10.1371/journal.pbio.0040381[Guralnick et al. 2006^]). Several earlier projects and organizations (e.g. MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO) had previously developed guidelines and tools for georeferencing, and these provided a good starting point for such a document. A detailed history of the organizations involved in the development of BioGeomancer and of the original Guide was given in that source. Throughout this document we reference tools and methodologies developed by those organizations and we acknowledge the valuable work by those organizations in their development. This document attempts to bring best practices up to date with terms, technologies, and georeferencing recommendations that have been developed and refined since the original document was published."
-msgstr ""
+msgstr "Esta publicación proporciona lineamientos sobre las mejores prácticas para la <<georreferencia,georreferenciación>>. Aunque se dirige específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden aplicarse en otras disciplinas donde la interpretación espacial de la <<ubicación>> sea de interés. Este documento se basa en la publicación original https://doi.org/10. 5468/doc-2zpf-zf42[Guía para las mejores prácticas de Georreferenciación (Chapman & Wieczorek 2006)^], que fue uno de los resultados del proyecto BioGeomancer (https://doi. rg/10.1371/journal.pbio.0040381[Guralnick et al. 2006^]).Muchos proyectos y organizaciones (e.g. MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO), habían desarrollado previamente las directrices y herramientas para la georreferencación. Estos resultados proporcionaron un buen punto de partida para dicho documento, en el cuál se proporciona una historia detallada de las organizaciones involucradas en el desarrollo de BioGeomancer y de la Guía original. A través de este documento hacemos referencia a herramientas y metodologías elaboradas por esas organizaciones y reconocemos el valioso trabajo de esas organizaciones en su desarrollo. Este documento intenta actualizar las mejores prácticas con los términos, las tecnologías, y recomendaciones de georreferenciación que se han desarrollado y refinado desde que se publicó el documento original."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:10
