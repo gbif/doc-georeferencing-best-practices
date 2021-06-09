@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-09 17:16\n"
+"PO-Revision-Date: 2021-06-09 19:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -172,7 +172,7 @@ msgstr "Esta publicación proporciona lineamientos sobre las mejores prácticas 
 #. type: Plain text
 #: 0100-introduction.en.adoc:10
 msgid "This document is designed so that institutions with georeferencing commitments can extract those portions that apply to their own requirements and priorities, and adapt them if necessary where those practices vary from, or elaborate on, the ones given here. Derived works should be made publicly accessible and the derived <<georeferencing protocol>> should be cited in the metadata of any georeferenced records that were produced by it. Citing a published protocol when your own methods differ would violate the best practice principle of replicability, described in <<Principles of Best Practice>>. An example of a citable protocol is the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]. This document should not be cited as a georeferencing protocol."
-msgstr ""
+msgstr "Este documento está diseñado para que las instituciones con compromisos de georreferenciación puedan extraer aquellas partes que se aplican a sus propios requisitos y prioridades, y adaptarlas si es necesario cuando las prácticas difieran de las que se facilitan en este documento o se deriven de ellas. Las obras derivadas deben ser públicamente accesibles y los <<protocolo de georreferenciación,protocolos de georreferenciación>> basados en este documento, deben ser citados en los metadatos de cualquier registro georreferenciado que haya sido producido por el mismo. Citar un protocolo publicado cuando los métodos usados para la georreferenciación difieren, violaría los  principios de las mejores prácticas de replicabilidad, descritos en <<Principios de Buenas Prácticas>>. Un ejemplo de un protocolo citable es la {gqg}[Guía de referencia rápida de geferrenciación (Zermoglio et al. 202)^].  El presente documento no debe ser citado como un protocolo de georreferenciación."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:12
