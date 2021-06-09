@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-06-09 19:19\n"
+"PO-Revision-Date: 2021-06-09 20:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -182,12 +182,12 @@ msgstr "Esta versión es una revisión completa con muchas referencias nuevas y 
 #. type: Plain text
 #: 0100-introduction.en.adoc:14
 msgid "Redefined the term <<extent>> to conform with general English and common technical usage to mean a distance, area or volume within defined <<boundary,boundaries>> and added the term <<radial>> to cover the sense of the term \"extent\" in previous documents (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^], https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^], http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Wieczorek et al. 2012a^], http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Wieczorek & Bloom 2015^])."
-msgstr ""
+msgstr "Redefinición del término <<extensión>> para adaptarse al inglés general y al uso técnico común para referirse a una distancia, área o volumen dentro de unos <<límite,límites>> definidos. También se agrega el término <<radio>> para cubrir el sentido del término \"extensión\" en documentos anteriores (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^], https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^], http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Wieczorek et al. 2012a^], http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Wieczorek & Bloom 2015^])."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:15
 msgid "Introduced the concept of the <<corrected center>> to replace <<geographic center>> wherever that was used in the past. This is an important change because the geographic center did not necessarily yield the correct minimum <<uncertainty>> due to the extent of a feature, the corrected center does."
-msgstr ""
+msgstr "Se introduce el concepto de <<centro corregido>> para reemplazar el <<centro geográfico>> que se utilizaba en el pasado. Este es un cambio importante porque el centro geográfico no necesariamente conduce a la obtención de la <<incertidumbre>> mínima correcta debida a la extensión de la entidad geográfica, mientras que el centro corregido sí lo hace."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:16
