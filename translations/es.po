@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-14 16:07\n"
+"PO-Revision-Date: 2021-07-14 17:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1116,18 +1116,18 @@ msgstr "Eligiendo un receptor GPS o GNSS"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:189
 msgid "One of the most important issues for consideration when choosing a <<GPS>> or <<GNSS>> receiver is the antenna. An antenna behaves both as a spatial and frequency filter, therefore, selecting the right antenna is critical for optimizing performance (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^]). One of the drawbacks with smartphones, for example, is the limited size of the GNSS antenna."
-msgstr ""
+msgstr "Uno de los problemas más importantes para tener en cuenta al elegir un receptor <<GPS>> o <<GNSS>> es la antena. Una antena se comporta tanto como un filtro espacial y de frecuencia, por lo tanto, seleccionar la antena correcta es fundamental para optimizar el rendimiento (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^]). Uno de los inconvenientes con teléfonos inteligentes, por ejemplo, es el tamaño limitado de la antena GNSS."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:191
 msgid "For information on issues to consider when selecting an appropriate <<GNSS>> antenna and/or <<GPS>> receiver, we refer you to Chapter 2 in https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^] and Chapter 10 in http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit[NLWRA 2008^]."
-msgstr ""
+msgstr "Para obtener información sobre problemas a tener en cuenta al seleccionar una adecuada antena <<GNSS>> y/o un receptor <<GPS>>, lo remitimos al Capítulo 2 en https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^] y Capítulo 10 en http://lwa.gov.au/national-land-and-waterer-resources-audit/natural-resources-information-management-toolkit[NLWRA 2008^]."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:192
 #, no-wrap
 msgid "GPS Accuracy"
-msgstr ""
+msgstr "Exactitud del GPS"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:195
