@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 20:23\n"
+"PO-Revision-Date: 2021-07-20 21:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1229,40 +1229,40 @@ msgstr "Sistema de iAumentación Basado en Tierra"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:231
 msgid "Ground Based Augmentation Systems (GBAS), also known as Local Area Augmentation Systems (LAAS), provide differential corrections and satellite integrity monitoring in conjunction with VHF radio, to link to <<GNSS>> receivers. A GBAS consists of several GNSS antennas placed at known locations with a central control system and a VHF radio transmitter. GBAS is limited in its coverage and is used mainly for specific applications that require high levels of <<accuracy>>, availability and integrity, and is the system largely used for airport navigation systems."
-msgstr ""
+msgstr "Sistemas de Aumentación de Base Terrestre (GBAS), también conocidos como Sistemas de Aumentación de Área Local (LAAS), proporciona correcciones diferenciales y monitoreo de integridad satelital en conjunto con la radio VHF, para enlazar a receptores <<GNSS>>. Una GBAS consiste en varias antenas GNSS colocadas en lugares conocidos con un sistema de control central y un transmisor de radio VHF. GBAS está limitado en su cobertura y se utiliza principalmente para aplicaciones específicas que requieren altos niveles de <<exactitud>>, disponibilidad e integridad, y es un sistema ampliamente utilizado para los sistemas de navegación aeroportuaria."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:232
 #, no-wrap
 msgid "Precise Point Positioning"
-msgstr ""
+msgstr "Punto Preciso de Posicionamiento"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:235
 msgid "Precise Point Positioning (PPP) depends on <<GNSS>> satellite clock and orbit corrections, generated from a network of global reference stations to remove GNSS system <<error>> and provide a high level (decimeter) of positional <<accuracy>>. Once the corrections are calculated, they are delivered to the end user via satellite or over the Internet."
-msgstr ""
+msgstr "El Punto Preciso de Posicionamiento (PPP) depende del reloj del satelite <<GNSS>> y las correcciones orbitales, generadas a partir de una red de estaciones globales de referencia para eliminar el <<error>> del sistema GNSS y proporcionar un alto nivel (decimetro) de <<exactitud>> en la posición. Una vez calculadas las correcciones, se entregan al usuario final vía satélite o a través de Internet."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:237
 msgid "Although similar to <<SBAS>> systems (see above), they generally provide a greater <<accuracy>> and have the advantage of providing a single, global reference stream as opposed to the regional nature of an SBAS system. Whereas SBAS is free, the use of PPP usually incurs a charge to access the corrections, so it is unlikely that the increased accuracy of PPP when compared to that of SBAS, will be a consideration for most biological applications."
-msgstr ""
+msgstr "Aunque es similar a los sistemas <<SBAS>> (ver arriba), generalmente proporcionan una <<exactitud>> mayor y tienen la ventaja de proporcionar un flujo de referencia global único en comparación con la naturaleza regional de un sistema SBAS. Dado que la SBAS es gratuita, y el uso de PPP suele incurrir en un cargo para acceder a las correcciones, por lo que es poco probable que el aumento de la precisión de la PPP en comparación con la de la SBAS, sea una consideración para la mayoría de las aplicaciones biológicas."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:238
 #, no-wrap
 msgid "Static GPS"
-msgstr ""
+msgstr "GPS Estático"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:241
 msgid "Static <<GPS>> uses high <<precision>> instruments and specialist techniques and is generally employed only by surveyors. Surveys conducted in Australia using these techniques reported <<accuracy,accuracies>> in the centimeter range. These techniques are unlikely to be extensively used with biological record collection due to the cost and general lack of requirement for such precision."
-msgstr ""
+msgstr "El <<GPS>> Estático utiliza instrumentos de alta <<precisión>> y técnicas de especializadas, y es generalmente empleado solo por topógrafos. Los estudio topográficos realizados en Australia utilizando estas técnicas reportan <<exactitud,exactitudes>> en el rango de centímetros. Es poco probable que estas técnicas se utilicen extensivamente en la colecta de registros biológicos debido al costo y la falta general de requerimientos para tal precisión."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:242
 #, no-wrap
 msgid "Dual and Multi-Frequency GPS"
-msgstr ""
+msgstr "GPS 's Duales y Multi-Frecuencia"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:245
@@ -1274,7 +1274,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:300
 #, no-wrap
 msgid "Smartphones"
-msgstr ""
+msgstr "Teléfonos inteligentes"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:249
@@ -1313,7 +1313,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:407
 #, no-wrap
 msgid "Elevation"
-msgstr ""
+msgstr "Elevación"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:264
@@ -1324,7 +1324,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:266
 #, no-wrap
 msgid "Murphy et al. 2004"
-msgstr ""
+msgstr "Murphy et al. 2004"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:268
@@ -1340,7 +1340,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:272
 #, no-wrap
 msgid "Altimeters"
-msgstr ""
+msgstr "Altímetros"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:275
