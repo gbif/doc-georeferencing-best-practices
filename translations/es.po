@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 17:32\n"
+"PO-Revision-Date: 2021-07-20 19:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1169,13 +1169,13 @@ msgstr "Sistema de Aumentación Basado en Satélites"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:209
 msgid "<<SBAS,Satellite Based Augmentation System (SBAS)>> is a collection of geosynchronous satellites originally developed for precision guidance of aircraft (https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf[Federal Aviation Administration 2020^]) and more recently to provide services for improving the <<accuracy>>, integrity and availability of basic <<GNSS>> signals (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^]). SBAS receivers are inexpensive examples of real-time differential correction. SBAS uses a network of ground-based reference stations to measure small variations in the GNSS satellite signals. Measurements from the reference stations are routed to master stations, which queue the received Deviation Correction (DC) and send the correction messages to geostationary satellites. Those satellites broadcast the correction messages back to Earth, where SBAS-enabled <<GPS>>/GNSS receivers use the corrections while computing their positions to improve accuracy. Separate corrections are calculated for ionospheric delay, satellite timing, and satellite orbits (ephemerides), which allows <<error>> corrections to be processed separately, if appropriate, by the user application."
-msgstr ""
+msgstr "<<SBAS,Sistema de Aumentación Basado en Satélites (SBAS)>> es una colección de satélites geosincrónicos originalmente desarrollados para la navegación precisa de aeronaves (https://www.faa.gov/about/office_org/he)[video] arters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf[Administración Federal de Aviación 2020^]) y más recientemente para proporcionar servicios para mejorar la <<exactitud>, integridad y disponibilidad de las señales básicas <<GNSS>> (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^]). Los receptores de SBAS son ejemplos de bajo costo de corrección diferencial en tiempo real. Los SBAS utilizan una red de estaciones de referencia en tierra para medir pequeñas variaciones en las señales de los satélites GNSS. Las mediciones de las estaciones de referencia son enrutadas a estaciones maestras, que encolan la Corrección de Desviación (DC) recibida y envían los mensajes de corrección a satélites geoestacionarios. Esos satélites transmiten los mensajes de corrección a la Tierra, donde los receptores <<GPS>>/GNSS habilitados para SBAS utilizan las correcciones mientras calculan sus posiciones para mejorar la exactitud. Las correcciones se calculan de forma independiente para el retraso ionosférico, la sincronización temporal de los satélite y las órbitas satelitales (efemérides), lo que permite que las correcciones del <<error>> sean procesadas por separado, si es apropiado para el usuario."
 
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:210
 #, no-wrap
 msgid "Wide Area Augmentation System"
-msgstr ""
+msgstr "Sistema de Aumentación de Área Amplia"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:213
