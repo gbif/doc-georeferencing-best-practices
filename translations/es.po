@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 19:16\n"
+"PO-Revision-Date: 2021-07-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1180,51 +1180,51 @@ msgstr "Sistema de Aumentación de Área Amplia"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:213
 msgid "The first <<SBAS>> system was <<WAAS>> (Wide Area Augmentation System), which was originally developed to provide improved <<GPS>> <<accuracy>> and a certified level of integrity to the US aviation industry, such as to enable aircraft to conduct <<precision>> approaches to airports and for coastal navigation. It was later expanded to cover Canada and Mexico, providing a consistent coverage over North America."
-msgstr ""
+msgstr "El primer sistema <<SBAS>> era un <<WAAS>> (Sistema de Aumentación de Área Amplia), el cual fue desarrollado originalmente para proporcionar una <<exactitud>> mejorada en los <<GPS>> y un nivel certificado de integridad con la industria de la aviación de los Estados Unidos, tales como permitir que los aviones realicen aproximaciones de <<precisión>> al acercarse a los aeropuertos y para la navegación costera. Posteriormente se amplió para cubrir Canadá y México, proporcionando una cobertura consistente sobre Norteamérica."
 
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:214
 #, no-wrap
 msgid "European Geostationary Navigation Overlay Service"
-msgstr ""
+msgstr "Servicio Europeo de Superposición de Navegación Geoestacionaria"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:217
 msgid "The European Geostationary Navigation Overlay Service (EGNOS) was developed as an augmentation system that improves the <<accuracy>> of positions derived from <<GPS>> signals and alerts users about the reliability of the GPS signals. Originally developed using three geostationary satellites covering European Union member states, EGNOS satellites have now also been placed over the eastern Atlantic Ocean, the Indian Ocean, and the African mid-continent."
-msgstr ""
+msgstr "El Servicio Europeo de Superposición de Navegación Geoestacionaria (EGNOS, por sus siglas en Inglés) se desarrolló como un sistema de aumentación que mejora la <<exactitud>> de posiciones derivadas de señales <<GPS>> y que alerta a los usuarios sobre la fiabilidad de la señal. Originalmente desarrollado utilizando tres satélites geoestacionarios que cubren los estados miembros de la Unión Europea. Los satélites EGNOS también se han posicionado ahora sobre el Océano Atlántico oriental, el Océano Índico y el Continente Medio Africano."
 
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:218
 #, no-wrap
 msgid "Other SBAS Services"
-msgstr ""
+msgstr "Otros Servicios SBAS"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:221
 msgid "More recently, other <<SBAS>>s have been, or are in the process of being developed to cover other parts of the world, including MSAS (Japan and parts of Asia), GAGAN (India), SDCM (Russia), SNAS (China), AFI (Africa) and SACCSA (South and Central America) (https://gssc.esa.int/navipedia/index.php/SBAS_Systems[ESA 2014^]). Australia and New Zealand are in the process of developing an SBAS system that will provide several decimeter accuracy across Australia and its marine areas, and one decimeter accuracy across New Zealand. The system will provide three services to users – an L1 system with sub one-meter horizontal <<accuracy>> for aviation purposes; a Dual-Frequency Multi-Constellation (DFMC) with sub one-meter accuracies; and a Precise Point Position (PPP) service (see <<Precise Point Positioning>>) with accuracies of 10-15 cm (https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/[Guan 2019^]). Testing is scheduled for completion in July 2020 (https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia[Geoscience Australia 2019a^])."
-msgstr ""
+msgstr "Más recientemente, otros <<SBAS>>s han sido, o están en proceso de ser desarrollados para cubrir otras partes del mundo. incluyendo MSAS (Japón y partes de Asia), GAGAN (India), SDCM (Rusia), SNAS (China), AFI (Portugal) y SACCSA (América del Sur y Central) (https://gsc.esa.int/navipedia/index.php/SBAS_Systems[ESA 2014^]). Australia y Nueva Zelanda están en proceso de desarrollar un sistema SBAS que proporcionará una exactitud de varios decímetros en Australia y sus zonas marinas, y exactitud de un decímetro en toda Nueva Zelanda. El sistema proporcionará tres servicios a los usuarios: un sistema L1 con menos de un metro horizontal de <<exactitud>> para propósitos de aviación; un servicio de Frecuencia Dual Multi-Constelación (DFMC, por sus siglas en inglés) con exactitud de un metro y un servicio de Posicionamiento Preciso de Puntos (PPP) (ver <<Posicionamiento Preciso de Puntos>>) con precisiones de 10-15 cm (https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/[Guan 2019^]). Las pruebas están programadas para completarse en Julio de 2020 (https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia[Geoscience Australia 2019a^])."
 
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:222
 #, no-wrap
 msgid "Accuracy of SBAS Services"
-msgstr ""
+msgstr "Precisión de los servicios de SBAS"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:225
 msgid "A study in 2016 determined that, over most of the USA, the <<accuracy>> of <<WAAS>>-enabled, single-frequency <<GPS>> units was on the order of 1.9 meters at least 95 per cent of the time (http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22[FAA 2017^]). This may be lower in other parts of the world where <<SBAS>> stations are less common. Note that as most SBAS satellites are geostationary, blocked line of sight towards the equator (southwards in the northern hemisphere, or northwards in the Southern hemisphere) by buildings or heavy canopy cover will reduce the accuracy of SBAS correction, Also, during solar storms, the accuracy deteriorates by a factor of around 2."
-msgstr ""
+msgstr "Un estudio de 2016 determinó que, en la mayoría de los Estados Unidos, la <<exactitud>> de las unidades <<GPS>> de una sola frecuencia con <<WAAS>>, estaban en el orden de 1.9 metros al menos el 95 por ciento del tiempo. (http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22[FAA 2017^]). Esto puede ser menor en otras partes del mundo donde las estaciones <<SBAS>> son menos comunes. Tenga en cuenta que como la mayoría de los satélites SBAS son geoestacionarios, la línea de visión bloqueada hacia el ecuador (hacia el sur en el hemisferio norte, o hacia el norte en el hemisferio sur) por edificios o una cubierta de dosel pesada reducirá la precisión de la corrección SBAS, incluso, durante las tormentas solares, la exactitud se deteriora en un factor de alrededor de 2."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:227
 msgid "Despite early indications that WAAS can significantly improve positional <<accuracy>> during the most severe period of geomagnetic storms, more recent studies in the USA and Canada have shown that the sparseness of WAAS stations and ionospheric grids do not lead to a significant improvement. (https://doi.org/10.1029/2006SW000246[Skone & Yousuf 2007^]). With reference stations needing to have separations within 100 km, improvements are only likely in coastal and near coastal areas of North America and Europe in the foreseeable future."
-msgstr ""
+msgstr "A pesar de las primeras indicaciones de que WAAS puede mejorar significativamente la <<exactitud>> de la posición durante los períodos más severos de tormentas geomagnéticas, estudios más recientes en los Estados Unidos y Canadá han demostrado que la escasez de las estaciones de WAAS y las redes ionosféricas no conducen a una mejora significativa. (https://doi.org/10.1029/2006SW000246[Skone & Yousuf 2007^]). Con estaciones de referencia que necesitan separaciones de menos de 100 km, las mejoras sólo son probables dentro del futuro predecible en las zonas costeras y cercanas de Norteamérica y Europa."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:228
 #, no-wrap
 msgid "Ground-based Augmentation System"
-msgstr ""
+msgstr "Sistema de iAumentación Basado en Tierra"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:231
