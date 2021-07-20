@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 16:27\n"
+"PO-Revision-Date: 2021-07-20 17:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1153,18 +1153,18 @@ msgstr "El uso de <<GNSS>> diferenciales (DGNSS) (incorporando <<GPS>> Diferenci
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:203
 msgid "{marine}Marine horizontal position <<accuracy>> requirements are 2-5 meters (at a 95 percent confidence level) for safety of navigation in inland waters, 8-20 meters (95%) in harbor entrances and approaches, and horizontal position accuracies of 1-100 meters (95%) for resource exploration in coastal regions (http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf[Skone et al. 2004^], https://doi.org/10.1029/2006SW000246[Skone & Yousuf 2007^]). While DGNSS horizontal <<error>> bounds are specified as 10 meters (95%) studies have shown that under normal operating conditions accuracies fall well within this bound."
-msgstr ""
+msgstr "{marine} Los requerimientos sobre la <<exactitud>> de la posición horizontal marina son de 2-5 metros (con un nivel de confianza del 95 por ciento) para la seguridad de la navegación en aguas continentales, 8-20 metros (95%) en las entradas a puertos, y una exactitud de posición horizontal de 1-100 metros (95%) para la exploración de recursos en las regiones costeras (http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf[Skone et al. 2004^], https://doi.org/10.1029/2006SW000246[Skone & Yousuf 2007^]). Mientras que el límite del <<error>> en un DGNSS horizontal está especificado a 10 metros (95%). Estudios han demostrado que en condiciones de funcionamiento normales la exactitud se encuentra dentro de este límite."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:205
 msgid "DGNSS accuracies are susceptible to severe degradation due to enhanced ionospheric effects associated with geomagnetic storms. Degradation can be in the order of 2-30 times in some areas and depending on the severity of the storm."
-msgstr ""
+msgstr "La exactitud de los DGNSS es susceptible a una severa disminución debido al aumento de los efectos ionosféricos asociados con tormentas geomagnéticas. La disminución puede ser del orden de 2-30 veces en algunas zonas y dependiendo de la gravedad de la tormenta."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:206
 #, no-wrap
 msgid "Satellite Based Augmentation System"
-msgstr ""
+msgstr "Sistema de Aumentación Basado en Satélites"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:209
