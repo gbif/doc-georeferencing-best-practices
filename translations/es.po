@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 21:30\n"
+"PO-Revision-Date: 2021-07-20 22:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1267,7 +1267,7 @@ msgstr "GPS 's Duales y Multi-Frecuencia"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:245
 msgid "High-end dual and multi-frequency <<GPS>>/<<GNSS>> devices can bring <<accuracy>> to the centimeter level, and even mm level over the long-term (https://www.gps.gov/systems/gps/performance/accuracy/[GPS.gov 2017^]). One of the ways this is done is by removing one of the largest contributors to overall satellite <<error>> － error due to the ionosphere (known as ionosphere error) (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^])."
-msgstr ""
+msgstr "Los dispositivos <<GPS>>/<<GNSS>> de alta frecuencia -dual y multiple- pueden proveer una <<exactitud>> a nivel del centímetros, e incluso a nivel de mm a largo plazo (https://www.gps.gov/systems/gps/performance/accuracy/[GPS.gov 2017^]). Una de las maneras en que esto se logra es eliminando una de las mayores fuentes generales de <<error>> del satélite - error debido a la ionósfera (conocido como error de ionósfera) (https://novatel.com/support/knowledge-and-learning/gnss-book[Novatel 2015^])."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:246
@@ -1284,18 +1284,18 @@ msgstr ""
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:251
 msgid "Smartphone GPS technology is changing rapidly and there is likely to be new and updated information even before this document is published."
-msgstr ""
+msgstr "La tecnología GPS de los teléfonos inteligentes está cambiando rápidamente y es probable que haya información nueva y actualizada incluso antes de que se publique este documento."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:252
 #, no-wrap
 msgid "GPS-enabled Cameras"
-msgstr ""
+msgstr "Cámaras con GPS habilitado"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:255
 msgid "We are not aware of the characteristics of the <<accuracy>> of <<GPS>>-enabled cameras, but we expect the accuracy to be similar to that of smartphones. One study, using three different cameras, showed variation between the three and the true <<location>> to be less than 3 m from the reported location (https://www.blog.jimdoty.com/?p=14661[Doty 2017^]). {marine}Note that GPS-enabled cameras that are used for snorkeling and diving activities, will only give new GPS readings each time the camera is brought to the surface."
-msgstr ""
+msgstr "No conocemos las características de la <<exactitud>> de las cámaras habilitadas con <<GPS>> pero esperamos que la precisión sea similar a la de los teléfonos inteligentes. Un estudio, usando tres diferentes cámaras, mostró variación entre las tres, con una <<ubicación>> real inferior a 3 m desde la ubicación reportada (https://www. log.jimdoty.com/?p=14661[Doty 2017^]). {marine}Tenga en cuenta que las cámaras GPS que se utilizan para realizar actividades de buceo y snorkel, sólo darán nuevas lecturas de GPS cada vez que la cámara llegue a la superficie."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:256
@@ -1306,7 +1306,7 @@ msgstr ""
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:259
 msgid "{marine}Over the years, a number of methods for tracking a diver underwater with a <<GPS>> have been tried with limited success. These included using a floating GPS receiver over the diver’s bubbles, and a GPS receiver on a raft towed by the diver that recorded intermittent readings to provide a dive <<transect>> (https://doi.org/10.1007/s10661-011-2122-7[Schories & Niedzwiedz 2011^]). The most successful to date has been the use of a <<GPS>> antenna on a floating buoy that is attached by a cable to a diver-held <<GPS>>. These diver-towed underwater <<GPS>>/<<GNSS>> handheld receivers have been used for underwater monitoring studies for several years. Most dives using this method are at <20 meters as the signal deteriorates with cable length giving a maximum practical depth of 50 meters (<<niedzwiedz,Niedzwiedz & Schories 2013>>). One problem is cable drag, and it is almost impossible to determine the buoys <<offset>> exactly although <<niedzwiedz,Niedzwiedz & Schories 2013>> provide formulae for attempting to do so. A study by the same authors (https://doi.org/10.1007/s10661-011-2122-7[Schories & Niedzwiedz 2011^]) showed displacement of 2.3 m at a <<depth>> of 5 m, 3.2 m at 10-m depth, 4.6 m at 20-m depth, 5.5 m at 30-m depth, and 6.8 m at 40-m depth. These are in addition to GPS <<accuracy>> discussed under <<GPS Accuracy>>."
-msgstr ""
+msgstr "{marine}A lo largo de los años, una serie de métodos para rastrear un buceador bajo el agua con un <<GPS>> han sido probados con éxito limitado. Estas incluyen el uso de un receptor GPS flotante sobre las burbujas del buzo, y un receptor de GPS en una balsa remolcada por el buzo que registraba lecturas intermitentes para proporcionar un <<transecto>>de inmersión (https://doi.org/10.1007/s10661-011-2122-7[Schories & Niedzwiedz 2011^]). El más exitoso hasta la fecha ha sido el uso de una antena <<GPS>> en una boya flotante que está conectada por un cable a un contenedor <<GPS>>. Estos receptores portátiles <<GPS>>/<<GNSS>> con remolque submarino han sido utilizados para estudios de monitoreo subacuático durante varios años. La mayoría de las inmersiones utilizando este método están a <20 metros, ya que la señal se deteriora con la longitud del cable dando una profundidad práctica máxima de 50 metros (<<niedzwiedz,Niedzwiedz & Schories 2013>>). Un problema es el arrastre de cables, y es casi imposible determinar el <<desplazamiento>> de las boyas exactamente, aunque <<niedzwiedz,Niedzwiedz & Schories 2013>> proporciona fórmulas para intentar hacerlo. Un estudio realizado por los mismos autores (https://doi.org/10.1007/s10661-011-2122-7[Schories & Niedzwiedz 2011^]) mostró un desplazamiento de 2.3 m a una <<profundidad>> de 5 m, 3.2m a 10-m de profundidad, 4.6 m a 20-m de profundidad, 5.5 m a 30-m de profundidad, y 6.8 m a 40-m de profundidad. Estos son adicionales a la <<exactitud>> del GPS discutido en <<Exactitud del GPS>>."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:261
@@ -1318,7 +1318,7 @@ msgstr "Elevación"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:264
 msgid "Supplement the <<locality>> description with <<elevation>> information if this can be easily obtained. Elevation can be determined from a variety of sources while in the field, including altimeters, maps (both digital and paper), and <<GPS>>/<<GNSS>> receivers, each with associated <<uncertainty,uncertainties>>. Elevation can be estimated after the fact using <<digital elevation model,Digital Elevation Models>> at the <<coordinates>> of the <<location>>. In any case, record the method used to determine the elevation."
-msgstr ""
+msgstr "Complemente la descripción de la <<localidad>>con la información de <<elevación>> si es posible obtenerla fácilmente. La elevación puede determinarse a partir de una variedad de fuentes en campo, incluyendo los altímetros, mapas (tanto digitales como de papel), y receptores <<GPS>>/<<GNSS>>, cada uno con <<incertidumbre,incertidumbres>> asociadas. La elevación se puede estimar después del evento usando <<modelo digital de elevación, Modelos Digitales de Elevación>> a partir de las <<coordenadas>> de la <<ubicación>>. En cualquier caso, registre el método utilizado para determinar la elevación."
 
 #. type: Positional ($2) AttributeList argument for style 'quote'
 #: 0200-elements-for-describing-a-location.en.adoc:266
@@ -1329,12 +1329,12 @@ msgstr "Murphy et al. 2004"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:268
 msgid "Elevation markings can narrow down the area in which you place a point. More often than not, however, they seem to create inconsistency. While elevation should not be ignored, it is important to realize that elevation was often measured inaccurately and/or imprecisely, especially early in the 20th century. One of the best uses of elevation in a locality description is to pinpoint a location along a road or river in a topographically complex area, especially when the rest of the locality description is vague."
-msgstr ""
+msgstr "Las marcas de elevación pueden restringir el área en la que se ubica un punto, pero la mayoría de las veces parecen crear inconsistencias. Si bien la elevación no debe ser ignorada, es importante darse cuenta de que la elevación a menudo fue medida de forma incorrecta y/o imprecisa, especialmente a principios del siglo XX. Uno de los mejores usos de la elevación en una descripción de la localidad es identificar una ubicación a lo largo de una carretera o río en una zona topográficamente compleja, especialmente cuando el resto de la descripción de la localidad es vaga."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:271
 msgid "When adding elevation after the fact be aware that the elevation can vary considerably over a small area (especially in steep terrain) and that the uncertainty of the <<georeference>> must be taken into account when determining the elevation. Do not use the coordinates on their own."
-msgstr ""
+msgstr "Al incluir la elevación después del evento, note que la elevación puede variar considerablemente en un área pequeña (especialmente en un terreno abrupto) y que la incertidumbre de la <<georreferencia>> debe tenerse en cuenta al determinar la elevación. No utilice las coordenadas por sí solas."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:272
@@ -1356,7 +1356,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:278
 #, no-wrap
 msgid "Maps"
-msgstr ""
+msgstr "Mapas"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:281
