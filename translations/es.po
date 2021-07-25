@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-25 22:51\n"
+"PO-Revision-Date: 2021-07-25 23:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1404,7 +1404,7 @@ msgstr "Modelos Digitales de Elevación"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:298
 msgid "<<digital elevation model,Digital Elevation Models>> (DEM) are based on <<elevation,elevations>> above <<mean-sea-level>> (or more recently, the <<geoid>>). The models are calculated using sophisticated interpolations and do not necessarily correspond to the actual surface elevation. DEM vertical <<accuracy>> is influenced by several factors such as <<grid>> size, slope, land cover, and geolocation (horizontal) <<error>>, as well as other <<bias,biases>> due to the original DEM data collection (e.g. satellite imaging geometry) and/or production method (https://doi.org/10.1016/j.jag.2012.09.004[Mukherjee et al. 2013^], https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^]). Global DEMs such as the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global DEM V2 (https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf[Meyer 2011^]) and the Shuttle Radar Topography Mission (SRTM) are based on 1 arc-second grids (about 30 m x 30 m) (https://doi.org/10.1029/2005RG000183[Farr et al. 2007^]) and have an accuracy of better than 17 m and 10 m respectively (except for in steep terrain such as mountains, and areas with very smooth sandy surfaces with low signal to noise ratio, such as the Sahara Desert (https://doi.org/10.1029/2005RG000183[Farr et al. 2007^])). Local and regional DEMs may have a smaller grid size. For example, a 5 m grid in Australia, which has a vertical accuracy better than one meter, and even to 0.3 meter in some areas (https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644[Geoscience Australia 2018^]) or the European Digital Elevation Model, which has an accuracy of better than three meters (https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^]). Note also that satellite image-based DEMs, being radar based, vary greatly over different land surfaces, forests, shrub or herbaceous vegetation, agricultural areas, bare areas, rocky surfaces, wetlands, and artificial surfaces such as cities. Also the radar can penetrate into areas of snow, ice, and sand (as in deserts) (https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^])."
-msgstr ""
+msgstr "Los <<modelo digital de elevación,Modelos Digitales de Elevación>> (DEM) se basan en <<elevación,elevaciones>> sobre el <<nivel medio del mar>> (o más recientemente, basadas en el <<geoide>>). Los modelos se calculan utilizando sofisticadas interpolaciones y no corresponden necesariamente a la elevación real de la superficie. La <<exactitud>> vertical del DEM está influenciada por varios factores como el tamaño de la <<cuadrícula>>, la pendiente, cobertura de la tierra, y el <<error>> de la geolocalización (horizontal), así como otros <<sesgo,sesgos>> debidos a la recolección original de datos DEM (e.g. geometría de imágenes por satélite) o los método de producción (https://doi.org/10.1016/j.jag.2012.09.004[Mukherjee et al. 2013^], https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^]). Los DEMs globales como el Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global DEM V2 (https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf[Meyer 2011^]) y la Shuttle Radar Topography Mission (SRTM) se basan en una cuadrícula de 1 arco-segundo (cerca de 30 m x 30 m) (https://doi.org/10.1029/2005RG000183[Farr et al. 2007^]) y tienen una precisión de mas de 17 m y 10 m respectivamente (excepto en terrenos empinados como montañas, y áreas con superficies de arena muy lisas con baja relación señal/ruido, como el desierto de Sahara (https://doi.org/10.1029/2005RG000183[Farr et al. 2007^])). Los DEMs locales y regionales pueden tener un tamaño de cuadrícula menor. Por ejemplo, una cuadrícula de 5 m en Australia, que tiene una precisión vertical inferior a un metro, e incluso hasta 0.3 metros en algunas áreas,(https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644[Geoscience Australia 2018^]) o el Modelo Europeo Digital de Elevación, que tiene una precisión superior a tres metros (https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^]). Hay que tener en cuenta también que los DEM basados en imágenes satelitales y los basados en radares, varían mucho entre diferentes superficies de tierra, bosques, arbusto o vegetación herbácea, áreas agrícolas, áreas desnudas, superficies rocosas, humedales y superficies artificiales como ciudades. También el radar puede penetrar en áreas de nieve, hielo y arena (como en desiertos) (https://doi.org/10.3390/ijgi8030108[Mouratidis & Ampatzidis 2019^])."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:303
@@ -1427,7 +1427,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:308
 #, no-wrap
 msgid "GPS-enabled Digital Cameras"
-msgstr ""
+msgstr "Cámaras con GPS habilitado"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:311
@@ -1443,7 +1443,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:314
 #, no-wrap
 msgid "Google Earth"
-msgstr ""
+msgstr "Google earth"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:317
@@ -1475,7 +1475,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:326
 #, no-wrap
 msgid "Offsets"
-msgstr ""
+msgstr "Desplazamientos"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:329
@@ -1566,7 +1566,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:360
 #, no-wrap
 msgid "Water Depth"
-msgstr ""
+msgstr "Profundidad del Agua"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:363
@@ -1577,7 +1577,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:365
 #, no-wrap
 msgid "Bathymetry"
-msgstr ""
+msgstr "Batimetría"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:368
@@ -1603,7 +1603,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:375
 #, no-wrap
 msgid "Dive Computers"
-msgstr ""
+msgstr "Computadoras de Buceo"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:378
@@ -1619,7 +1619,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:382
 #, no-wrap
 msgid "Distance above Surface"
-msgstr ""
+msgstr "Distancia Sobre la Superficie"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:385
