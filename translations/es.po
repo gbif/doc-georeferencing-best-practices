@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-25 20:48\n"
+"PO-Revision-Date: 2021-07-25 21:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1279,7 +1279,7 @@ msgstr "Teléfonos inteligentes"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:249
 msgid "<<GPS>>-enabled smartphones are typically <<accuracy,accurate>> to within 4.9 m (16 ft.) under open sky, however, their accuracy worsens near buildings, bridges, and trees (https://www.gps.gov/systems/gps/performance/accuracy/[GPS.gov 2017^]). A study by https://doi.org/10.1093/forestry/cpw031[Tomaštik et al. 2017^] found that the accuracy of smartphones in open areas was around 2-4 m. This decreased to 3-11 m in deciduous forest without leaves, and 3-20 m in deciduous forest with leaves. There are reports that the accuracy in some <<GPS>>-enabled smartphones will soon be improved to <1 meter (https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018[Moore 2017^]) and that accuracy in areas with restricted satellite view within cities will be improved drastically with inbuilt 3D smartphone apps and probabilistic shadow matching (https://eng.uber.com/rethinking-gps/[Iland et al. 2018^]). In general, the <<GNSS>> chipsets in smartphones are quite good, and any loss of accuracy is usually due to the <<data quality,quality>> of the antenna, whose chief failing is due to their poor multipath suppression (https://doi.org/10.33012/2017.15260[Pirazzi et al. 2017^]). In some smartphones where good satellite coverage is unavailable (e.g. in cities and forests), the phone may introduce <<error,errors>> from <<bias>> in its internal clock (https://doi.org/10.33012/2017.15260[Pirazzi et al. 2017^]), leading to occasional large inaccuracies (Arturo Ariño Oct 2019, pers. comm.). Already the technology for better than 1 meter smartphone accuracy exists, but it is not available to the public due to the difficulty and cost of incorporating the technology into small smartphones (https://www.maketecheasier.com/gps-global-navigation-satellite-systems/[Braun 2019^]). The accuracies reported in most publications refer to studies in the USA, Europe, coastal Australia, India or Japan where good differential stations are plentiful. More studies are needed to test smartphone accuracies in remote <<location,locations>> and where differential stations are not available."
-msgstr ""
+msgstr "Los teléfonos inteligentes habilitados con <<GPS>> típicamente cuentan con una <<exactitud>> de 4.9 m (16 ft.) a cielo abierto, sin embargo, su exactitud decrece cerca de edificios, puentes y árboles (https://www.gps.gov/systems/gps/performance/accuracy/[GPS.gov 2017^]). Un estudio realizado por https://doi.org/10.1093/foresty/cpw031[Tomaštik et al. 2017^] determinó que la exactitud de los teléfonos inteligentes en áreas abiertas era de alrededor de 2-4 m. Esta disminuyó a un rango de 3-11 m en un bosque caducifolio sin hojas, y 3-20 m en un bosque caducifolio con hojas. Hay informes de que la precisión en algunos teléfonos inteligentes habilitados con <<GPS>> pronto mejorará a <1 metro (https://spectrum.ieeee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018[Moore 2017^]) y que la exactitud en áreas con vista satelital restringida dentro de las ciudades mejorará drásticamente con aplicaciones 3D incorporadas a los teléfonos inteligentes y con la coincidencia probabilística de sombras (https://eng.uber.com/rethinking-gps/[Iland et al. 2018^]). En general, los dispositivos <<GNSS>> en los teléfonos inteligentes son bastante buenos, y cualquier pérdida de exactitud se debe generalmente a la <<calidad de datos,calidad>> de la antena, cuyo falló principal es debido a una supresión de trayectos múltiples deficiente (https://doi.org/10.33012/2017.15260[Pirazzi et al. 2017^]). En algunos teléfonos inteligentes sin una buena disponibilidad de cobertura satelital (e.g. en ciudades y bosques), el teléfono puede introducir <<error,errores>> de <<sesgo>> en su reloj interno (https://doi.org/10.33012/2017.15260[Pirazzi et al. 2017^]), dando lugar ocasionalmente a amplias inexactitudes (Arturo Ariño Oct 2019, pers. comm.). Actualmente ya existe la tecnología para mejorar la exactitud en los teléfonos inteligentes por debajo de 1 metro, pero no está disponible para el público debido a la dificultad y el costo de incorporar la tecnología a los teléfonos inteligentes pequeños (https://www.maketecheasier.com/gps-global-navigation-satellite-systems/[Braun 2019^]). Las precisiones reportadas en la mayoría de las publicaciones se refieren a estudios en los Estados Unidos, Europa, la costa australiana, India o Japón, donde abundan las estaciones diferenciales. Se necesitan más estudios para probar la exactitud de los teléfonos inteligentes en <<ubicación,ubicaciones>> remotas y donde las estaciones diferenciales no están disponibles."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:251
@@ -1350,7 +1350,7 @@ msgstr "Un altímetro barométrico utiliza cambios en la presión del aire como 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:277
 msgid "In theory it would be possible to use a barometric altimeter to determine elevations when in a {caves}subterranean <<location>> (cave, mine, etc.), but these situations are particularly prone to changes in air pressure independent from elevation changes (especially in caves with narrow openings), so recalibration would have to be particularly careful."
-msgstr ""
+msgstr "En teoría sería posible usar un altímetro barométrico para determinar las elevaciones en una {caves}<<ubicación>> subterranea (cueva, minas, etc.), pero estas ubicaciones son particularmente propensas a cambios en la presión del aire independientes de los cambios de elevación (especialmente en cuevas con aberturas estrechas), de modo que la recalibración tendría que ser particularmente cuidadosa."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:278
@@ -1361,18 +1361,18 @@ msgstr "Mapas"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:281
 msgid "Elevation can be determined using the contours and spot height information from a suitable scale map of the area. In general, the uncertainty in the elevation when read from a map is half the contour interval."
-msgstr ""
+msgstr "La elevación se puede determinar utilizando mapas de contornos y la información de la altura del punto a partir de un mapa del área a una escala adecuada. En general, cuando se lee desde un mapa, la incertidumbre en la elevación es la mitad del intervalo de contorno."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:283
 msgid "For information on determining accuracy from a map, see <<Uncertainty in Paper Map Measurements>>."
-msgstr ""
+msgstr "Para obtener información sobre cómo determinar la exactitud de un mapa, consulte <<Incertidumbre en las Medidas de Mapas Impresos>>."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:285
 #, no-wrap
 msgid "GPS"
-msgstr ""
+msgstr "GPS"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:288
