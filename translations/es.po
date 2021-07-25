@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-20 22:37\n"
+"PO-Revision-Date: 2021-07-25 20:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1345,7 +1345,7 @@ msgstr "Altímetros"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:275
 msgid "A barometric altimeter uses changes in air pressure as a proxy for changes in elevation, and can be a reliable source of elevation if properly calibrated. Calibration requires that the elevation of the altimeter be set to a known starting elevation, which could be determined from a map, for example. Thereafter, as the altimeter goes higher or lower in elevation, it estimates the new elevation directly from the air pressure it experiences. Since weather conditions can change the air pressure independently of changes in elevation, it is important to re-calibrate the altimeter frequently, either by recording the elevation when you stop moving and resetting to that same elevation before starting out again, and/or by recalibrating to known elevations whenever you encounter them."
-msgstr ""
+msgstr "Un altímetro barométrico utiliza cambios en la presión del aire como una aproximación a los cambios en la elevación, y puede ser una fuente confiable de elevación si está debidamente calibrada. La calibración requiere que la elevación del altímetro se ajuste a una elevación inicial conocida, que podría determinarse por ejemplo, a partir de un mapa. Por lo tanto, a medida que el altímetro este a mayor o menor en elevación, este calcula la nueva elevación directamente a partir de la presión del aire que experimenta. Dado que las condiciones meteorológicas pueden cambiar la presión del aire independientemente de los cambios en la elevación, es importante calibrar el altímetro frecuentemente, ya sea registrando la elevación cuando se detienen y recalibrar usando esa elevación como referencia antes de comenzar de nuevo, y/o recalibrando a elevaciones conocidas cada vez que se encuentren."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:277
