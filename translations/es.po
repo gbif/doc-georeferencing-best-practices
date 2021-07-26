@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 20:09\n"
+"PO-Revision-Date: 2021-07-26 21:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1544,23 +1544,23 @@ msgstr "Desplazamiento a lo largo de una Ruta"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:353
 msgid "Sometimes it is convenient to describe a <<locality>> as a distance along a curvilinear <<feature>> — a <<path>> such as a road, river, trail, etc. (see {gqg}#offset-distance-along-a-path[Offset – Distance along a Path^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]). One advantage of a description of this kind is that it avoids the <<uncertainty>> due to an <<precision,imprecise>> <<heading>>. It might also be easy to register, such as when tracking distance with the odometer of a car while driving. However, a disadvantage is that it may not be quite as easy to determine the same location afterwards from maps alone during the <<georeference,georeferencing>> process. One reason is that you have to trace the facsimile of the path on a map. The map may have <<error,errors>>, loss of resolution due to map scale, inconsistencies with conditions at the time of the <<event>>, or might not even be present. There is also a difference between distance on the topographic surface and distance on a map, though for most normal situations (along roads and navigable waterways) the difference is <1% (see {gqg}#offset-distance-along-a-path[Offset – Distance along a Path^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]). Worse, the path may have changed over time, making it even more difficult to find the exact locality retrospectively."
-msgstr ""
+msgstr "A veces es conveniente describir una <<localidad>> como una distancia a lo largo de una <<entidad geográfica>> curvilinea — una <<ruta>> como un camino, río, sendero, etc. (ver {gqg}#offset-distance--a-path[Desplazamiento– Distancia a lo largo de una Ruta^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]). Una ventaja de una descripción de este tipo es que evita la <<incertidumbre>> debida a una <<orientación>> <<precisión,imprecisa>>. También es más fácil de capturar, así como cuando se observa la distancia con el odometro (Kilometraje) de un coche mientras se conduce. Sin embargo, una desventaja es que puede no ser tan fácil determinar la misma ubicación posteriormente desde los mapas durante el proceso <<georreferencia,georeferrenciación>>. Una razón es que hay que encontrar la reproducción exacta de la ruta en un mapa. El mapa puede tener <<error,errores>>, pérdida de resolución por escala del mapa, inconsistencias con las condiciones en el momento del <<evento>>, o puede ni siquiera estar representado en cartografía. También hay una diferencia entre la distancia en la superficie topográfica y la distancia en un mapa, aunque para la mayoría de situaciones es normal que (a lo largo de caminos y vías navegables) la diferencia sea de <1% (ver {gqg}#offset-distance--a-path[Desplazamiento – Distancia a lo largo de una Ruta^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]). O peor aún, el camino puede haber cambiado con el tiempo, lo que hace aún más difícil encontrar la localización exacta de forma retrospectiva."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:355
 msgid "If the <<locality>> references a river, such as in the example \"16 mi downstream from St Louis on the left bank of the Mississippi River\", it is reasonable to assume that the <<offset>> is along the river. In this example, the <<locality>> is on the east side of the river, in Illinois, rather than on the west side, in Missouri, as the reference to \"left bank\" is conventionally taken to be in the orientation looking downstream."
-msgstr ""
+msgstr "Si la <<localidad>> hace referencia a un río, como en el ejemplo \"16 millas río abajo de San Louis en el margen izquierdo del río Mississipi\", es razonable asumir que el <<desplazamiento>> se realice a lo largo del río. En este ejemplo, la <<localidad>> está en el lado este del río, en Illinois, en lugar de en el lado oeste en Missouri, tomando como la referencia el \"margen izquierdo\" de forma convencional, es decir mirando río abajo o en el sentido de la corriente."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:356
 #, no-wrap
 msgid "Offset along Orthogonal Directions"
-msgstr ""
+msgstr "Desplazamiento a lo largo de las Direcciones Ortogonales"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:359
 msgid "This type of <<locality>> refers to rectilinear distances in two orthogonal <<direction,directions>> from a <<feature>>, for example, \"2 mi E and 1.5 mi N of Kandy\" (see {gqg}#offset-distance-along-orthogonal-directions[Offset – Distance along Orthogonal Directions^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and <<img-orthogonal-distances-from-feature>>). This way of describing a locality can be very effective, as it tends to remove one of the potentially largest sources of <<uncertainty>>, the ever-expanding uncertainty of direction with distance. Using orthogonal directions removes all directional <<uncertainty>>, as orthogonality implies directly in the orthogonal directions \"by air\". It is for this reason that this <<locality type>> is highly recommended for locality descriptions."
-msgstr ""
+msgstr "Este tipo de <<localidad>> se refiere a distancias rectilineas en dos <<dirección,direcciones>> ortogonales desde una <<entidad geográfica>>, por ejemplo, \"2 millas al E y 1.5 millas al N de Kandy\" (ver {gqg}#offset-distance-along-orthogonal-directions[Desplazamiento – Distancia a partir de Direcciones Ortogonales^] en {gqg}[Guía de Referencia rápida de Georreferenciación (Zermoglio et al. 2020)^] y la <<img-orthogonal-distances-from-feature>>). Esta forma de describir una localidad puede ser muy eficaz, ya que tiende a eliminar una de las fuentes más grandes de <<incertidumbre>>, la siempre creciente incertidumbre debida a la distancia a partir de una dirección. Usar direcciones ortogonales elimina toda la <<incertidumbre>> direccional, ya que la ortogonalidad implica que las direcciones ortogonales son tomadas \"por aire\". Es por esta razón que este <<tipo de localidad>> es altamente recomendable para describir las localidades."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:360
@@ -1571,7 +1571,7 @@ msgstr "Profundidad del Agua"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:363
 msgid "Water <<depth>> should be recorded as a range; i.e. as minimum and maximum positive distances in meters below the air-water interface of the water body ({marine}ocean, sea, lake, river, etc.). Maximum depth will always be a positive number greater than or equal to the minimum depth. If the depth measurement is specific rather than a range, use the same value for the minimum and maximum depths."
-msgstr ""
+msgstr "La <<profundidad>> del agua debe ser registrada como un rango; i.e. como distancias positivas en metros, mínimas y máximas, por debajo de la interfaz aire-agua del cuerpo de agua ({marine}oceano, mar, lago, río, etc.). La profundidad máxima siempre será un número positivo mayor o igual a la profundidad mínima. Si la medición de profundidad es específica en lugar de un rango, utilice el mismo valor para las profundidades mínimas y máximas."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:365
@@ -1582,12 +1582,12 @@ msgstr "Batimetría"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:368
 msgid "{marine}The <<depth>> of the benthic surface in large water bodies is called <<bathymetry>> or bathymetric depth. It is usually recorded in one of two ways – as a gridded surface (Digital Terrain Model), or as contours. The accuracy of the bathymetry depends on how it was determined, and is generally much more <<accuracy,accurate>> near the coasts, or in harbors, than it is in the deeper ocean."
-msgstr ""
+msgstr "{marine}La <<profundidad>> de la superficie bentónica en grandes cuerpos de agua se llama <<batimetría>> o profundidad batimétrica. Normalmente se registra de una de dos maneras – como una grilla superficial (Modelo Digital de Terreno), o como contornos. La precisión de la batimetría depende de cómo se determinó, y generalmente es mucho más <<exactitud exacta>> cerca de las costas, o en los puertos, que en el océano más profundo."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:370
 msgid "Since 2003, the most commonly used global coverage of bathymetry has been the One Minute General Bathymetric Chart of the Oceans (https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/[GEBCO 2019a^]), however, in 2019, a much finer, and more detailed, 15 arc-second <<grid>> coverage was released (https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html[GEBCO 2019b^]). The 3,732,480,000 grids (86,400 rows by 43,200 columns) cover from 89°59'52.5'' N, 179°59'52.5'' W to 89°59'52.5'' S, 179°59'52.5'' E, with <<elevation>> given for each pixel center. There are many criteria that determine the vertical accuracy of these grids, including the presence of steep canyons, water depth and turbidity (affects instrument penetration and acoustic beams get wider, the deeper they go), and methodology (satellite, single beam echo sounders (SES), multibeam echo sounders (MES), airborne laser (LADS), Light Detection and Ranging (LIDAR), etc.) (https://doi.org/10.3389/fmars.2019.00283[Wolf et al. 2019^])."
-msgstr ""
+msgstr "Desde 2003, la cobertura global de batimetría más comúnmente utilizada ha sido la Carta Batimétrica General de Un Minuto de los Océanos (https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/[GEBCO 2019a^]), sin embargo, en 2019, se publicó una cobertura mucho más fina, y más detallada, con una <<cuadrícula>> de 15 arcos-segundo (https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html[GEBCO 2019b^]). Las '3,732,480,000 cuadrículas (86,400 filas por 43,200 columnas) cubren desde los 89°59'52.5'' N, 179°59'52.5'' W hasta los 89°59'52.5'' S, 179°59'52.5'' E, con una <<elevación>> dada para cada centro del píxel. Hay muchos criterios que determinan la exactitud vertical de estas cuadrículas, incluyendo la presencia de cañones pronunciados, profundidad del agua y turbiedad (afecta a la penetración del instrumento y a los haces acústicos que se hacen más amplias entre mas profundo vayan), y la metodología (satelital, sonidos de eco de un haz único (SES, por sus siglas en inglés), sonidos de eco de múltiples haces (MES, por sus siglas en inglés), láser de transporte aéreo (LADS), Light Detection and Ranging (LIDAR), etc.) (https://doi.org/10.3389/fmars.2019.00283[Wolf et al. 2019^])."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:372
