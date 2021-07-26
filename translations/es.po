@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 15:40\n"
+"PO-Revision-Date: 2021-07-26 16:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1437,7 +1437,7 @@ msgstr "Las cámaras digitales habilitadascon <<GPS>> son como los teléfonos in
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:313
 msgid "Underwater digital cameras only update their position when the diver or snorkeler takes the camera above the surface long enough for the GPS to fix its position."
-msgstr ""
+msgstr "Las cámaras digitales sumergibles sólo actualizan su posición cuando el buceador lleva la cámara a la superficie el tiempo suficiente para que el GPS fije su posición."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:314
@@ -1448,23 +1448,23 @@ msgstr "Google earth"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:317
 msgid "Using a large sample size (n>20,000) of <<GPS>> benchmarks in a variety of terrains in the United States, https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] found that <<elevation,elevations>> in the Google Earth terrain model had a boundary of <<error>> interval at 95 per cent (BE95) of ±44 m, with worst-case scenarios around 200 m. The same study found that Google Earth terrain model had a BE95 of ±6 m along highways. Though we find no data for elsewhere in the world at this time, we recommend using the values extracted from the work of https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] as estimates of elevational <<uncertainty>> when the source is the Google Earth terrain model. A second study using Google Earth to determine elevation in three regions of Egypt (https://doi.org/10.1515/arsa-2016-0008[El-Ashmawy 2016^]) on flat, medium, and steep terrains concluded that elevation data is more accurate in flat areas or areas with small height difference, with an accuracy of approximately 1.85 m (RMSE) and an <<error>> range of less than 3.72 m (and in some findings less than 1 m). Increasing the difference in height leads to decrease in the obtained accuracy with the RMSE rising to 5.69 m in steep terrain."
-msgstr ""
+msgstr "Utilizando un gran tamaño de muestras (n>20,000) de puntos de referencia <<GPS>> en una variedad de terrenos en los Estados Unidos, https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] encontró que las <<elevación,elevaciones>> en el modelo de terrenos de Google Earth tenía un límite de intervalo de <<error>> al 95 por ciento (BE95) de ±44 m, con peores escenarios de alrededor de 200 m. El mismo estudio descubrió que el modelo del terreno de Google Earth tenía un BE95 de ±6 m a lo largo de las carreteras. Aunque a la fecha no se encontraron datos para otras partes del mundo, se recomienda usar los valores extraídos del trabajo de https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] como estimaciones de la <<incertidumbre>> de las elevaciones cuando el origen es el modelo del terreno de Google Earth. Un segundo estudio que utiliza Google Earth para determinar la elevación en tres regiones de Egipto (https://doi.org/10. 515/arsa-2016-0008[El-Ashmawy 2016^]) en terrenos planos, medios y empinados llega a la conclusión de que los datos de elevación son más exactos en áreas planas o con poca diferencia de altura, con una exactitud de aproximadamente 1.85 m (RMSE) y un rango de <<error>> de menos de 3.72 m (y en algunos casos de menos de 1 m). El aumento en la diferencia de altura, conduce a una disminución de la exactitud obtenida con un aumento del RMSE de 5.69 m en terreno empinado."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:318
 #, no-wrap
 msgid "Headings"
-msgstr ""
+msgstr "Orientaciones"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:321
 msgid "Compass directions (also known as <<heading,headings>>) can be rather ambiguous. North, for example, might be any direction between northwest and northeast if more specific information is not provided. There are several ways to avoid ambiguity when recording headings. One way is to qualify the direction with \"due\" (e.g. \"due north\") if the heading warrants it. A second way to avoid ambiguity is to use two orthogonal headings in <<locality>> descriptions, making implicit that both components are \"due\". Finally, ambiguity can be reduced if headings are given in degrees from north (0° is north, 90° is east, 180° is south, and 270° is west)."
-msgstr ""
+msgstr "Las direcciones de la brújula (también conocidas como <<orientación,orientaciones>>) pueden ser bastante ambiguas. El norte, por ejemplo, podría ser cualquier dirección entre el noroeste y el noreste si no se proporciona información más específica. Hay varias maneras de evitar la ambigüedad cuando se documentan las orientaciones. Una forma es calificar la dirección con \"due\" (e.g. \"due north\") si la orientación lo garantiza. Una segunda manera de evitar la ambigüedad es utilizar dos orientaciones ortogonales en la descripción de la <<localidad>>, haciendo implícito que ambos componentes son \"due\". Por último, la ambigüedad puede reducirse si las orientaciones se dan en grados desde el norte (0° es el norte, 90° está al este, 180° al sur y 270° al oeste)."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:323
 msgid "It is important to record headings based on True North (true heading) and not on Magnetic North (magnetic heading). The differences between True North and Magnetic North vary throughout the world, and in some places can vary greatly across a very small distance (https://www.ngdc.noaa.gov/geomag/WMM/[NOAA 2019^], https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020_D_BoZ_MILL.pdf[NOAA/NCEI & CIRES 2019^]). For example, in an area about 250 km NW of Minneapolis in the United States, the anomalous <<magnetic declination>> (the difference between the declination caused by the Earth's outer core and the declination at the surface) changes from 16.6° E to 12.0° W across a distance of just 6 km (http://www.rescuedynamics.ca/articles/MagDecFAQ.htm[Goulet 2001^])."
-msgstr ""
+msgstr "Es importante registrar las orientaciones basados en el Norte Verdadero (orientación verdadera) y no en el norte magnético (dirección magnética). Las diferencias entre el Norte verdadero y el Norte magnético varían en todo el mundo, y en algunos lugares puede variar mucho en distancias muy pequeña (https://www.ngdc.noaa.gov/geomag/WMM/[NOAA 2019^], https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WM2020_D_BoZ_MILL.pdf[NOAA/NCEI & CIRES 2019^]). Por ejemplo, en un área de unos 250 km al NW de Minneapolis en los Estados Unidos, la anomalía de la <<declinación magnética>> (la diferencia entre la declinación causada por el núcleo externo de la Tierra y la declinación en la superficie) cambia de 16.6° E hasta 12.0° W en de una distancia de sólo 6 km (http://www.rescuedynamics.ca/articles/MagDecFAQ.htm[Goulet 2001^])."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:325
