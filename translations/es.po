@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 19:08\n"
+"PO-Revision-Date: 2021-07-26 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1507,39 +1507,39 @@ msgstr "Una <<localidad>> con una <<orientación>> desde una <<entidad geográfi
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:339
 msgid "Note that seldom is such locality information given alone. For example, the locality may have administrative geography information (e.g. ‘East of Albuquerque, Bernalillo County, New Mexico’). This gives you a stopping point (e.g. the county border), and should allow you to georeference the locality (see {gqg}#offset-heading-only[Offset – Heading only^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]). In any case, it is highly recommended not to record locality descriptions in this way."
-msgstr ""
+msgstr "Tenga en cuenta que rara vez es dada tal información de localidad sin otros datos que la acompañen. Por ejemplo, la localidad puede tener información de la división político administrativa (e.g. ‘Este de Albuquerque, Condado de Bernalillo, Nuevo México’), lo que le señala un límite en la extensión de la georreferencia (e.g. la frontera del condado), y debería permitirle georeferenciar la localidad (ver {gqg}#offset-heading-only[Desplazamiento – Orientación solamente^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al)^]). En cualquier caso, es altamente recomendable no documentar descripciones de localidad de esta manera."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:340
 #, no-wrap
 msgid "Offset at a Heading"
-msgstr ""
+msgstr "Desplazamiento a partir de una Orientación"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:343
 msgid "A <<locality>> that contains an <<offset>> in a given direction to or from a <<feature>> is treated here as an \"offset at a <<heading>>\". There are several variations on such localities. One difficulty in determining a <<georeference>> for this type of locality description is knowing how the offset was determined – for example, by air, or along a <<path>> such as a road or river. Therefore, whenever a locality with an offset at a heading is described, be sure to be explicit about what is intended."
-msgstr ""
+msgstr "Una <<localidad>> que contiene un <<desplazamiento>> en una dirección determinada hacia o desde una <<entidad geográfica>> es tratado aquí como un \"desplazamiento a partir de una <<orientación>>\". Hay muchas variaciones en este tipo de localidades. Una dificultad para determinar una <<georreferencia>> para este tipo de descripción de localidad es saber cómo fue determinado el desplazamiento - por ejemplo, por aire, o a lo largo de una <<ruta>> como una carretera o río. Por lo tanto, siempre que se describa una localidad con un desplazamiento a partir de la orientación asegúrese de ser explícito acerca de cómo fue determinada la distancia."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:345
 msgid "It is not uncommon for {marine}marine locality descriptions to use an azimuth – a heading toward a target feature, for example, \"25° to Waipapa Point Lighthouse\". In these cases the referenced feature is the starting point, and the heading from there should be 180 degrees on the compass away from the compass reading given in the locality description. This is known as a \"back azimuth\" or \"backsighting\"."
-msgstr ""
+msgstr "No es raro que las descripciones de las {marine}localidades marinas usen un azimut – una dirección hacia una entidad geográfica objetivo, por ejemplo, \"25° del Faro de Waipapa Point\". En estos casos la entidad referenciada es el punto de partida, y la orientación dede allí debe ser 180 grados en la brújula desde la medición dada en la descripción de la localidad. Esto se conoce como un \"azimut posterior\" o \"inverso\"."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:347
 msgid "Where the sense of the offset cannot be determined from the locality description or additional information and there is no obvious major path that can be followed in the rough direction and distance given, then it is best to assume the collector measured the distance by air. Whatever the decision, document the assumption in the georeference remarks (e.g. ‘Assumed \"by air\" – no roads E out of Yuma’, or ‘Assumed \"by road\" on Hwy. 80’) and georeference accordingly (see {gqg}#offset-distance-at-a-heading[Offset – Distance at a Heading^] and {gqg}#offset-distance-along-a-path[Offset – Distance along a Path^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^])."
-msgstr ""
+msgstr "Donde el método del desplazamiento no se puede determinar a partir de la descripción de la localidad o información adicional y no hay ninguna ruta importante u obvia que se pueda seguir en la dirección y distancia dada, es mejor asumir que el colector midió la distancia por aire. Cualquiera que sea la decisión, documentar la suposición en los comentarios de la georreferenciación (e.g. ‘Supuesto “por aire” – no hay caminos al E fuera de Yuma’, o ‘Supuesto “por carretera” en Carretera 80’) y georreferenciar acorde a esa suposición (ver {gqg}#offset-distance-at-a-heading[Offset - Distancia a partir de una Orientación^] y {gqg}#offset-distance--a-path[Offset - Distancia a lo largo de una Ruta^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^])."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:349
 msgid "The addition of an adverbial modifier to the distance part of a locality description (such as \"about 25 km\"), while an honest observation, should not affect the determination of the <<geographic coordinates>> or the <<maximum uncertainty distance,maximum uncertainty>>. Treat the uncertainty due to distance <<precision>> normally (see <<Uncertainty Related to Offset Precision>>)."
-msgstr ""
+msgstr "La adición de un adverbio modificador a la distancia en una descripción de localidad (como \"cerca de 25 km\"), en vez de una observación exacta, no debe afectar a la determinación de las <<coordenadas geográficas>> o la <<máxima distancia de incertidumbre,maxima incertidumbre>>. Se debe tratar la incertidumbre debida a la <<precisión>> de la distancia de forma convencional (ver <<Incertidumbre Relacionada con la Precisión del Desplazamiento>>)."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:350
 #, no-wrap
 msgid "Offset along a Path"
-msgstr ""
+msgstr "Desplazamiento a lo largo de una Ruta"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:353
