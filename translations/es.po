@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-25 23:47\n"
+"PO-Revision-Date: 2021-07-26 15:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1409,13 +1409,13 @@ msgstr "Los <<modelo digital de elevación,Modelos Digitales de Elevación>> (DE
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:303
 msgid "Some smartphones, whether they incorporate <<GPS>> capabilities or not, use apps that provide <<elevation>> values based on a <<digital elevation model,DEM>>. With smartphone GPS apps, be aware that some devices and apps incorrectly record the method used. The <<uncertainty>> in elevation due to an unknown elevation source can be up to 100 meters. For example, the difference with <<datum>> <<WGS84>> between the <<ellipsoid>> and <<geoid>> or <<mean-sea-level>> methods of reporting elevation is shown in xref:img-mean-sea-level-wgs84-ellipsoid[xrefstyle=\"short\"]. Note also that these uncertainties are in addition to the uncertainties associated with the measurements themselves. The only true way of determining what your GPS receiver or smartphone is recording is to test it against a known elevation. Some preliminary studies by the authors show elevation <<accuracy>> from smartphones varies greatly in different areas of the world. In areas in the USA, Europe, Australia, Japan, etc. (where most published results are from) <<error,errors>> are generally within 10 meters or so, but in more remote areas (such as on a remote island in Fiji), errors in the order of ±60 meters are not uncommon. Using two different mobile applications at sea level at one location resulted in reported elevations from −24 m to +58.9 m. These studies are preliminary and more research is needed in different areas of the world."
-msgstr ""
+msgstr "Algunos teléfonos inteligentes, ya sea que tengan incorporadas o no tecnología <<GPS>>, utilizan aplicaciones que proporcionan valores de <<elevación>> basados en un <<modelo digital de elevación,DEM>>. Con las aplicaciones GPS de los teléfonos inteligentes, hay que tener en cuenta que algunos dispositivos y aplicaciones registran incorrectamente el método utilizado. La <<incertidumbre>> de la elevación debida a una fuente de elevación desconocida puede ser de hasta 100 metros. Por ejemplo, la diferencia entre el <<datum>> <<WGS84>>, y los métodos de<<elipsoide>> y <<geoide>>, o el <<nivel medio del mar>> usados para reportar la elevación se muestran en la xref:img-mean-sea-level-wgs84-ellipsoid[xrefstyle=\"short\"]. Tenga en cuenta también que estas incertidumbres se suman a las incertidumbres asociadas a las propias mediciones. La única forma verdadera de determinar lo que el receptor GPS o teléfono inteligente está registrando es compararlo contra una elevación conocida. Algunos estudios preliminares de los autores muestran que la <<exactitud>> de la elevación en los teléfonos inteligentes varía mucho en diferentes áreas del mundo. En las zonas de los Estados Unidos, Europa, Australia, Japón, etc. (de donde provienen la mayoría de los resultados publicados), los <<error,errores>> están generalmente dentro de los 10 metros o medidas similares, pero en zonas más remotas (como en una isla remota de Fiji), los errores en el orden de ±60 metros no son raros. Usando dos aplicaciones móviles diferentes al nivel del mar en una misma ubicación, dio lugar a elevaciones desde -24m hasta +58.9 m. Estos estudios son preliminares y se necesita más investigación en diferentes áreas del mundo."
 
 #. type: Block title
 #: 0200-elements-for-describing-a-location.en.adoc:305
 #, no-wrap
 msgid "Map comparing the geoid-based Mean Sea Level to the WGS84 ellipsoid. (http://cddis.nasa.gov/926/egm96/egm96.html[Lemoine et al. 1998^]). The color scale shows distance of the geoid below (negative) or above (positive) the WGS84 ellipsoid in meters. Image from https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf[Tan et al. 2016^] with permission of the authors."
-msgstr ""
+msgstr "Mapa comparando el Nivel Medio del Mar con el elipsoide WGS84 (http://cddis.nasa.gov/926/egm96/egm96.html[Lemoine et al. 1998^]). La escala de color muestra la distancia en metros del geoide estando debajo (negativo) o sobre (positivo) el elipsoide WGS84. Imagen de https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf[Tan et al. 2016^] con permiso de los autores."
 
 #. type: Target for macro image
 #: 0200-elements-for-describing-a-location.en.adoc:306
@@ -1432,7 +1432,7 @@ msgstr "Cámaras con GPS habilitado"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:311
 msgid "<<GPS>>-enabled digital cameras are like smartphones with respect to positional accuracy as they have similar sized in-board antennas. To conserve battery life, most GPS-enabled digital cameras have options to set positional update intervals. Depending on the camera, these can range from once every second to once every five minutes. The setting of this interval may have significant implications with respect to both <<coordinates>> and <<uncertainty>>."
-msgstr ""
+msgstr "Las cámaras digitales habilitadascon <<GPS>> son como los teléfonos inteligentes con respecto a la exactitud posicional ya que tienen incorporadas antenas de tamaño similar. Para conservar la duración de la batería, la mayoría de las cámaras digitales con GPS tienen opciones para establecer intervalos de actualización de la posicionales. Dependiendo de la cámara, puede variar desde una vez por segundo hasta una vez cada cinco minutos. La configuración de este intervalo puede tener implicaciones significativas con respecto a las <<coordenadas>> y a la <<incertidumbre>>."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:313
