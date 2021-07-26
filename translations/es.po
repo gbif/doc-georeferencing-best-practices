@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 21:21\n"
+"PO-Revision-Date: 2021-07-26 23:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1592,7 +1592,7 @@ msgstr "Desde 2003, la cobertura global de batimetría más comúnmente utilizad
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:372
 msgid "Bathymetric contours have generally only been available for harbors, coastal and near inshore areas, in some places extending to the edges of the continental slope. Where bathymetric contours (also called depth contours or isobaths) do exist, they are generally quite coarse (except in areas like the North Sea, and in harbors), and get wider apart as the depth increases. For example, the 2009 bathymetric contours for Australia are at 20 m, 40 m, 100 m, 200 m and 400 m. In some harbors, the contour interval is as small as one meter (https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details[Data.gov.au 2018^]). In 2019, the GEBCO_2019 global bathymetric contour dataset was derived from the GEBCO_2019 15 arc-second grid mentioned above. At large scales (1:5,000,000 and closer), the contour interval is 500 m; at medium scales (1:5,000,000 to 1:30,000,000) the contour interval is 1000 m; and at small scales (1:30,000,000 and greater), the contour interval is 2000 meters. Supplementary contours are shown in shallow waters (less than 500 m) (https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8[NCEI-NOAA 2019^])."
-msgstr ""
+msgstr "Por lo general, los contornos batimétricos sólo están disponibles para los puertos, las zonas costeras y sus zonas más cercanas, en algunos lugares que se extienden hasta los límites de la pendiente continental. Donde existen contornos batimétricos (también llamados contornos de profundidad o isóbatas), son generalmente bastante gruesos (excepto en zonas como el Mar del Norte y en los puertos), y se separan más a medida que aumenta la profundidad. Por ejemplo, los contornos batimétricos de 2009 para Australia están a 20 m, 40 m, 100 m, 200 m y 400 m. En algunos puertos, el intervalo de contorno es tan pequeño como un metro (https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details[Data.gov.au 2018^]). A grandes escalas (1:5,000,000 y menores), el intervalo del contorno es de 500 m; en escalas medias (1:5,000,000 a 1:30,000,000) el intervalo del contorno es de 1000 m; y a pequeñas escalas (1:30,000.000 y mayores), el intervalo de contorno es de 2000 metros. Los contornos suplementarios se muestran en aguas superficiales (menos de 500 m) (https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8[NCEI-NOAA 2019^])."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:374
