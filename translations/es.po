@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 16:39\n"
+"PO-Revision-Date: 2021-07-26 17:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1469,7 +1469,7 @@ msgstr "Es importante registrar las orientaciones basados en el Norte Verdadero 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:325
 msgid "The differences between True North and Magnetic North also change over time (https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml[NOAA n.d.a^]). The National Oceanic and Atmospheric Administration (NOAA) has an https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml[online calculator^] that can calculate the anomalous or geomagnetic declination (adjustment needed to convert the magnetic reading to a reading based on True North) for any place on earth and at any point in time. If you need to make adjustments, we suggest that you use this calculator to determine the magnetic declination for the area in question. Otherwise determine your heading using a reliable map and always report your methods. Note that some smartphone apps will make that calculation for you, and allow you to set your app to record either Magnetic North or True North."
-msgstr ""
+msgstr "Las diferencias entre el Norte Verdadero y el Norte Magnetico también cambian con el tiempo (https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml[NOAA n.d.a^]). La Administación Oceánica y Atmosmférica Nacional (NOAA, por sus siglas en inglés) cuenta con una https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml[calculadora en línea^]que puede calcular la declinación anómala o geomagnética (ajuste necesario para convertir la lectura magnética en una lectura basada en el Norte Verdadero) para cualquier lugar en la tierra y en cualquier punto en el tiempo. Si se necesita realizar ajustes, sugerimos utilizar esta calculadora para determinar la declinación magnética del área en cuestión. De lo contrario, se debe determinar la orientación usando un mapa confiable y documentar siempre los métodos utilizados. Tenga en cuenta que algunas aplicaciones en los teléfonos inteligentes hacen ese cálculo y permiten configurar la aplicación para registrar el Norte Magnético o Norte Verdadero."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:326
@@ -1480,13 +1480,13 @@ msgstr "Desplazamientos"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:329
 msgid "An <<offset>> is a displacement from a reference point, named place, or other <<feature>>, and is generally accompanied by a direction (or <<heading>>, see <<Headings>>). One of the best ways to describe a <<locality>> is with orthogonal offsets from a small, persistent, easy to locate feature (see <<Localities>>). Using an offset at a very specific heading is a second option, though the <<uncertainty>> still grows with the offset distance. Offsets along a <<path>> are a third reasonable option for describing a locality, though they tend to be much harder to measure after the fact. Other <<locality type,locality types>> that use offsets (e.g. an offset <<direction>> without a distance, or an offset distance without a direction) tend to introduce excessive <<uncertainty>> and should be avoided."
-msgstr ""
+msgstr "Un <<desplazamiento>> es una distancia entre un punto de referencia, sitio u otra <<entidad geográfica>>, que generalmente se acompaña de una dirección (u <<orientación>>, ver <<Orientaciones>>). Una de las mejores maneras de describir una <<localidad>> es a través de desplazamientos ortogonales desde una entidad geográfica, pequeña, persistente y fácil de localizar (ver <<Localidades>>). Usar un desplazamiento en una orientación muy específica es una segunda opción para describir una localidad, aunque la <<incertidumbre>> aumenta con la distancia del desplazamiento. Los desplazamientos a lo largo de una <<ruta>> son una tercera opción razonable para describir una localidad, aunque tienden a ser mucho más difíciles de medir después del evento. Otros <<tipo de localidad,tipos de localidades>> que utilizan distancias (e.g. una <<dirección>> de desplazamiento sin distancia, o una distancia de desplazamiento sin una dirección) tienden a introducir un exceso <<incertidumbre>> y por esto deben evitarse."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:330
 #, no-wrap
 msgid "Offset Distance Only"
-msgstr ""
+msgstr "Sólo Distancia de Desplazamiento"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:333
@@ -1497,7 +1497,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:334
 #, no-wrap
 msgid "Offset Direction Only"
-msgstr ""
+msgstr "Sólo Dirección de Desplazamiento"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:337
