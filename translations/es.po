@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-27 18:52\n"
+"PO-Revision-Date: 2021-07-27 19:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1629,7 +1629,7 @@ msgstr ""
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:387
 msgid "The reference point for the measurement of a distance above surface can vary depending on the context. For surface terrestrial locations, the reference point should be the <<elevation>> at ground level. For water bodies ({marine}ocean, sea, lake, river, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for {marine}sub-surface benthic locations should be the bottom of the water body at that <<location>>. Locations within the water body should use water <<depth>> and should not use any other distance above a surface."
-msgstr ""
+msgstr "El punto de referencia para la medición de una distancia sobre la superficie puede variar dependiendo del contexto. Para ubicaciones terrestrales superficiales, el punto de referencia debe ser la <<elevación>> a nivel del suelo. Para cuerpos de agua ({marine}oceano, mar, lago, río, etc.), el punto de referencia para las ubicaciones debe ser la elevación de la interfaz de aire-agua, mientras que el punto de referencia para {marine}ubicaciones bentónicas debajo de la superficie debe ser el fondo del cuerpo de agua en esa <<ubicación>>. Las ubicaciones dentro del cuerpo de agua deben usar la <<profundidad>> del agua y no usar ninguna otra distancia por encima de una superficie."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:389
@@ -1834,88 +1834,88 @@ msgstr "El proceso de Georeferenciación"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:4
 msgid "<<location,Locations>> that are not fully <<georeference,georeferenced>> in the field may eventually have to be georeferenced after the fact in order to be useful. One hopes in these situations that the collector of the original information followed best practices such as those described in <<Elements for Describing a Location>>. As will be seen in <<Calculating Uncertainties>>, below, many of the greatest sources of <<uncertainty>> arise from missing, ambiguous, or non-specific information, which could have been avoided, but that can no longer be overcome without knowledge from someone who was there at the time the <<event>> occurred."
-msgstr ""
+msgstr "<<ubicación,ubicaciones>> que no son totalmente <<georreferencia,georeferenciadas>> en campo puede que posteriormente tengan que ser georeferenciadas para ser útiles. Uno espera en estas situaciones que el recolector de la información original siga unas buenas prácticas como las descritas en <<Elements for Describing a Location>>. Como se verá a continuación en <<Calculating Uncertainties>>, las mayores fuentes de <<incertidumbre>> surgen de información faltante, ambigua o no específica, que podría haberse evitado, pero que no puede solucionarse sin el conocimiento de alguien que estuvo en el momento en que el <<evento>> ocurrió."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:5
 #, no-wrap
 msgid "Planning a Georeferencing Project"
-msgstr ""
+msgstr "Planificando un proyecto de Georeferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:8
 msgid "Before beginning a <<georeference,georeferencing>> project, whether for an individual researcher or a large institution, it is helpful to anticipate the kinds of challenges one might expect to encounter. It may appear to be a daunting task, but there are many ways the process can be simplified and made more practical. Having a suitable workflow (see <<Georeferencing Project Workflow>>) decided in advance can increase both the efficiency and the consistency of the <<data quality,quality>> of the resulting georeferences. The basic determiners for a project are what you have to start with and what outputs you want when you are finished. In an ideal world, the obvious practical questions such as the cost and how long it will take would not be important, but realistically, when balanced against the benefits of making the effort, these might be the major determining factors. Following is a representative list of questions that might affect planning of a georeferencing project:"
-msgstr ""
+msgstr "Antes de comenzar un proyecto de <<georreferencia,georreferenciación>>, ya sea para un investigador individual o para una institución grande, es útil anticipar los tipos de desafíos que se espera encontrar. Puede parecer una tarea abrumadora, pero hay muchas maneras en que el proceso puede simplificarse y hacerse más práctico. Tener un flujo de trabajo adecuado (ver <<Georeferencing Project Workflow>>) decidido de antemano puede aumentar tanto la eficiencia como la consistencia de la <<calidad de los datos,calidad>> de las georeferencias resultantes. Los determinantes básicos de un proyecto son, con qué se inicia y qué resultados se esperan al terminar. En un mundo ideal, las cuestiones prácticas obvias como el costo y el tiempo que tardará el proyecto no serían importantes, pero siendo realistas, cuando se equilibra con los beneficios de hacer el esfuerzo, estos podrían ser los principales factores determinantes. A continuación se muestra una lista representativa de preguntas que pueden afectar la planificación de un proyecto de georeferenciación:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:10
 msgid "About the original data:"
-msgstr ""
+msgstr "Acerca de los datos originales:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:11
 msgid "Where is the source data coming from (herbarium labels, ledgers, database, or a combination, etc.)"
-msgstr ""
+msgstr "Cuál es la fuente de los datos (etiquetas de herbario, libros de registro, base de datos o una combinación, etc.)"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:12
 msgid "Are the source data already digitized?"
-msgstr ""
+msgstr "¿Los datos originales ya están digitalizados?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:13
 msgid "How many distinct <<locality>> descriptions are there to georeference?"
-msgstr ""
+msgstr "¿Cuántas descripciones de <<localidad>> únicas hay para georeferenciar?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:14
 msgid "Are there terrestrial or marine <<location,locations>> to georeference? Or both?"
-msgstr ""
+msgstr "¿Hay <<ubicación,ubicaciones>> terrestres o marinas para georeferenciar? ¿O ambas?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:15
 msgid "Is the geographic scope local? Country-wide? Global?"
-msgstr ""
+msgstr "¿El alcance geográfico es local? ¿Nacional? ¿Global?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:16
 msgid "About the process:"
-msgstr ""
+msgstr "Acerca del proceso:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:17
 msgid "What is the time frame for the project?"
-msgstr ""
+msgstr "¿Cuál es el tiempo destinado para realizar el proyecto?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:18
 msgid "When in the broader workflow will georeferencing happen?"
-msgstr ""
+msgstr "¿Cuándo, en el flujo de trabajo más amplio, tendrá lugar la georeferenciación?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:19
 msgid "How much of the established best practices do I really need to follow?"
-msgstr ""
+msgstr "¿Cuánto de las buenas prácticas establecidas realmente necesito seguir?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:20
 msgid "What if we want to use our own methods?"
-msgstr ""
+msgstr "¿Qué pasa si queremos utilizar nuestros propios métodos?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:21
 msgid "What procedural documentation will we need to prepare?"
-msgstr ""
+msgstr "¿Qué documentación del procedimiento se necesita preparar?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:22
 msgid "Who will do what?"
-msgstr ""
+msgstr "¿Quién hará qué?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:23
 msgid "What expertise is needed?"
-msgstr ""
+msgstr "¿Qué experiencia se necesita?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:24
