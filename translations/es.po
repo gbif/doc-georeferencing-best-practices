@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-26 23:07\n"
+"PO-Revision-Date: 2021-07-27 00:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1608,12 +1608,12 @@ msgstr "Computadoras de Buceo"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:378
 msgid "{marine}There are three methods for determining <<depth>> that are generally used by divers, i.e. dive computers, dive watches and depth gauges. All work on ambient pressure to determine the depth. Dive computers need to be calibrated before dives and set depending on the water density – i.e. saltwater or freshwater, etc. — and, if calibrated correctly, are reported by manufacturers to be <<accuracy,accurate>> to within 0.3 meters."
-msgstr ""
+msgstr "{marine}Hay tres métodos para determinar la <<profundidad>> que generalmente son utilizados por los buzos, i.e. ordenadores de buceo, relojes de inmersión y medidores de profundidad. Todo funciona sobre la presión ambiental para determinar la profundidad. Los ordenadores de buceo deben ser calibrados antes de las inmersiones y configurados dependiendo de la densidad del agua – es decir, agua salada o agua dulce, etc. — y, si están calibrados correctamente, los fabricantes informan que es <<exactitud,exacto>> entre los 0.3 metros."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:380
 msgid "A study of 47 brands of dive computers at depths of 10 m, 20 m, 30 m, 40 m and 50 m in both seawater and freshwater showed that the majority of depth estimates were in the ± 1 meter range, and that if the salinity is known and the instrument is properly calibrated, accuracies of around 1 per cent could or should be expected (https://doi.org/10.3723/ut.31.003[Azzopardi & Sayer 2012^]). The accuracy of diver-held depth gauges are of a similar order. Dive watches are generally thought less accurate, but with reports for some watches of depth accuracy, at depths of up to 100 meters, as ± 1 per cent of displayed value + 0.3 meter (when used at constant temperature). Accuracy can be influenced by changes in ambient temperature and water salinity."
-msgstr ""
+msgstr "Un estudio de 47 marcas de computadoras de buceo a profundidades de 10 m, 20 m, 30 m, 40 m y 50 m tanto en agua de mar como en agua dulce mostraron que la mayoría de las estimaciones de profundidad estaban en el rango de ± 1 metro, y que si se conoce la salinidad y el instrumento está debidamente calibrado, se podrían o deberían esperarse precisiones de alrededor del 1 por ciento (https://doi.org/10.3723/ut.31.003[Azzopardi & Sayer 2012^]). La exactitud de los medidores de profundidad de mano están en un orden similar. Los relojes de buceo generalmente son menos precisos, pero con informes de exactitud para algunos relojes de profundidad, hasta 100 metros de profundidad, como ± 1 por ciento del valor mostrado de + 0.3 metros (Cuando se usa a temperatura constante). La exactitud puede verse influenciada por los cambios en la temperatura del ambiente y la salinidad del agua."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:382
