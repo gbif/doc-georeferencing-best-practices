@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-07-27 22:03\n"
+"PO-Revision-Date: 2021-10-01 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -278,7 +278,7 @@ msgstr "Las <<coordenadas>> por sí solas no definen sin ambigüedades una <<ubi
 #. type: Plain text
 #: 0100-introduction.en.adoc:36
 msgid "coordinates require a <<coordinate reference system>> to anchor the coordinates in relation to the Earth"
-msgstr "las coordenadas requieren un <<coordinate reference system>> para ubicar las coordenadas en relación a la Tierra"
+msgstr "las coordenadas requieren un <<sistema de referencia de coordenadas>> para ubicar las coordenadas en relación a la Tierra"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:37
