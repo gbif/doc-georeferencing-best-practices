@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-04 16:50\n"
+"PO-Revision-Date: 2021-10-04 19:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -119,7 +119,7 @@ msgstr "v1.0, Diciembre 2020"
 #. type: Plain text
 #: colophon.en.adoc:37
 msgid "Originally based on an earlier publication, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42"
-msgstr "Originalmente basado en una publicación anterior, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guía de Mejores Prácticas para la Georreferenciación. Copenhague: Secretariado de GBIF. https://doi.org/10.15468/doc-2zpf-zf42"
+msgstr "Originalmente basado en una publicación anterior, https://orcid.org/0000-0003-1700-6962[Chapman AD] & https://orcid.org/0000-0003-1144-0290[Wieczorek JR] (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42"
 
 #. type: Title ===
 #: colophon.en.adoc:38
