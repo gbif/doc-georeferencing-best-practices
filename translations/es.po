@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-04 19:51\n"
+"PO-Revision-Date: 2021-10-04 22:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -125,7 +125,7 @@ msgstr "Originalmente basado en una publicación anterior, https://orcid.org/000
 #: colophon.en.adoc:38
 #, no-wrap
 msgid "Disclaimer"
-msgstr "Términos de Uso"
+msgstr "Descargo de responsabilidad"
 
 #. type: Plain text
 #: colophon.en.adoc:41
@@ -135,7 +135,7 @@ msgstr "La información en este libro representa la opinión profesional de los 
 #. type: Plain text
 #: colophon.en.adoc:43
 msgid "Where there are differences in interpretation between this document and translated versions in languages other than English, the English version remains the original and definitive version."
-msgstr "Donde haya diferencias de interpretación entre este documento y las versiones traducidas en idiomas distintos del inglés, la versión inglesa sigue siendo la original y definitiva."
+msgstr "Donde haya diferencias de interpretación entre este documento y las versiones traducidas en idiomas distintos del inglés, la versión en inglés sigue siendo la original y definitiva."
 
 #. type: Title ===
 #: colophon.en.adoc:44
