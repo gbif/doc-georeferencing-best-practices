@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-01 12:25\n"
+"PO-Revision-Date: 2021-10-04 13:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -31,7 +31,7 @@ msgstr "languageLinks:combined[]"
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/photo.jpg"
-msgstr ""
+msgstr "img/web/photo.jpg"
 
 #. type: Title ==
 #: colophon.en.adoc:6
@@ -81,7 +81,7 @@ msgstr "Licencia"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "The document _Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr "Este documento _Guía de Mejores Prácticas de Georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
+msgstr "Este documento _Guía de Buenas Prácticas de Georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:24
