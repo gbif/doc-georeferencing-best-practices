@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-04 13:17\n"
+"PO-Revision-Date: 2021-10-04 16:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -103,7 +103,7 @@ msgstr "Resumen"
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "Georeferencing Best Practices provides guidelines to the best practices for georeferencing. Though targeted specifically at biological occurrence data, the concepts and methods presented here may be just as useful in other disciplines."
-msgstr "La Guía de Buenas Prácticas de Georreferenciación provee los lineamientos para la georreferenciación. Aunque se dirija específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden ser igual de útiles en otras disciplinas."
+msgstr "La Guía de Buenas Prácticas de Georreferenciación provee los lineamientos para la correcta georreferenciación. Aunque está dirigida específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden ser igual de útiles en otras disciplinas."
 
 #. type: Title ===
 #: colophon.en.adoc:32
