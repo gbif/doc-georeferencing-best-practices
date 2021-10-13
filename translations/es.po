@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-06 16:06\n"
+"PO-Revision-Date: 2021-10-13 16:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1454,7 +1454,7 @@ msgstr "Utilizando un gran tamaño de muestras (n>20,000) de puntos de referenci
 #: 0200-elements-for-describing-a-location.en.adoc:318
 #, no-wrap
 msgid "Headings"
-msgstr "Orientaciones"
+msgstr "Orientaciones Cardinales"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:321
