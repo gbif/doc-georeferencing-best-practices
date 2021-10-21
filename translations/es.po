@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-13 16:31\n"
+"PO-Revision-Date: 2021-10-21 23:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -557,7 +557,7 @@ msgstr "Exactitud versus Precisión. Los datos pueden ser exactos y precisos, ex
 #: 0100-introduction.en.adoc:112
 #, no-wrap
 msgid "img/accuracy-versus-precision.png"
-msgstr ""
+msgstr "img/accuracy-versus-precision.png"
 
 #. type: quote
 #: 0100-introduction.en.adoc:115
@@ -584,7 +584,7 @@ msgstr "40 dígitos: Eres optimista acerca de nuestra comprensión de la natural
 #: 0100-introduction.en.adoc:122
 #, no-wrap
 msgid "img/xkcd-coordinate-precision.png"
-msgstr ""
+msgstr "img/xkcd-coordinate-precision.png"
 
 #. type: Title ===
 #: 0100-introduction.en.adoc:124
@@ -832,7 +832,7 @@ msgstr "Una ruta (río) que muestra el centro del círculo mínimo que encierra 
 #: 0200-elements-for-describing-a-location.en.adoc:80
 #, no-wrap
 msgid "img/path-center.png"
-msgstr ""
+msgstr "img/path-center.png"
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:82
@@ -855,7 +855,7 @@ msgstr "La ciudad de Caraguitatuba en Sao Paulo, Brasil (un polígono cóncavo),
 #: 0200-elements-for-describing-a-location.en.adoc:88
 #, no-wrap
 msgid "img/polygon-center.png"
-msgstr ""
+msgstr "img/polygon-center.png"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:91
@@ -888,7 +888,7 @@ msgstr "Dos opciones para georreferenciar una ubicación en una cuadrícula, 1) 
 #: 0200-elements-for-describing-a-location.en.adoc:100
 #, no-wrap
 msgid "img/gridded.png"
-msgstr ""
+msgstr "img/gridded.png"
 
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:102
@@ -942,7 +942,7 @@ msgstr "Registro de datos usando Cuadrículas de Cuarto de Grado (QDS). La celda
 #: 0200-elements-for-describing-a-location.en.adoc:119
 #, no-wrap
 msgid "img/quarter-degree-squares.svg"
-msgstr ""
+msgstr "img/quarter-degree-squares.svg"
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:121
@@ -970,7 +970,7 @@ msgstr "Registro de la ubicación de un evento subacuático. *E* indica el punto
 #: 0200-elements-for-describing-a-location.en.adoc:129
 #, no-wrap
 msgid "img/underwater-event.png"
-msgstr ""
+msgstr "img/underwater-event.png"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:132
@@ -1421,7 +1421,7 @@ msgstr "Mapa comparando el Nivel Medio del Mar con el elipsoide WGS84 (http://cd
 #: 0200-elements-for-describing-a-location.en.adoc:306
 #, no-wrap
 msgid "img/mean-sea-level-wgs84-ellipsoid.png"
-msgstr ""
+msgstr "img/mean-sea-level-wgs84-ellipsoid.png"
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:308
@@ -1646,7 +1646,7 @@ msgstr "Ejemplos de uso de profundidad, elevación y distancia sobre superficie,
 #: 0200-elements-for-describing-a-location.en.adoc:392
 #, no-wrap
 msgid "img/depth-elevation-distance-above-surface.png"
-msgstr ""
+msgstr "img/depth-elevation-distance-above-surface.png"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:395
@@ -1710,7 +1710,7 @@ msgstr ""
 #: 0200-elements-for-describing-a-location.en.adoc:419
 #, no-wrap
 msgid "img/vertical-position-in-a-cave.png"
-msgstr ""
+msgstr "img/vertical-position-in-a-cave.png"
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:421
@@ -3748,7 +3748,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:710
 #, no-wrap
 msgid "img/georeferencing-calculator.png"
-msgstr ""
+msgstr "img/georeferencing-calculator.png"
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:712
@@ -6278,22 +6278,22 @@ msgstr ""
 #. type: Plain text
 #: references.en.adoc:7
 msgid "ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf"
-msgstr ""
+msgstr "ASPRS (2014) ASPRS Positional Accuracy Standards for Digital Geospatial Data, Edition 1, Version 1.0. Photogrammetric Engineering and Remote Sensing. https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf"
 
 #. type: Plain text
 #: references.en.adoc:8
 msgid "Australian Hydrographic Office (2020) AHP20. Mariner’s Handbook for Australian Waters, 5th edition 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf"
-msgstr ""
+msgstr "Australian Hydrographic Office (2020) AHP20. Mariner’s Handbook for Australian Waters, 5th edition 2019, updated 10 Jan 2020. http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf"
 
 #. type: Plain text
 #: references.en.adoc:9
 msgid "Australian Museum. DIGIVOL. https://volunteer.ala.org.au/"
-msgstr ""
+msgstr "Australian Museum. DIGIVOL. https://volunteer.ala.org.au/"
 
 #. type: Plain text
 #: references.en.adoc:10
 msgid "Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 models of diving compression computer. Underwater Technology 31(1): 3-12. https://doi.org/10.3723/ut.31.003"
-msgstr ""
+msgstr "Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 models of diving compression computer. Underwater Technology 31(1): 3-12. https://doi.org/10.3723/ut.31.003"
 
 #. type: Plain text
 #: references.en.adoc:11
