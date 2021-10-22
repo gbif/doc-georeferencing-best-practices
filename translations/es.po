@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-21 23:39\n"
+"PO-Revision-Date: 2021-10-22 02:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6298,232 +6298,232 @@ msgstr "Azzopardi E & Sayer MD (2012) Estimation of depth and temperature in 47 
 #. type: Plain text
 #: references.en.adoc:11
 msgid "Barkwell ME & Murrell ZE (2012) The US Virtual Herbarium: working with individual herbaria to build a natural resource. Zookeys 209: 55-73. https://doi.org/10.3897/zookeys.209.3205"
-msgstr ""
+msgstr "Barkwell ME & Murrell ZE (2012) The US Virtual Herbarium: working with individual herbaria to build a natural resource. Zookeys 209: 55-73. https://doi.org/10.3897/zookeys.209.3205"
 
 #. type: Plain text
 #: references.en.adoc:12
 msgid "Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Eugene, Oregon, USA: Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf"
-msgstr ""
+msgstr "Biedron EM & Famoso NA (2016) Using GEOLocate for Collaborative Georeferencing. Eugene, Oregon, USA: Museum of Natural and Cultural History, University of Oregon. https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf"
 
 #. type: Plain text
 #: references.en.adoc:13
 msgid "Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93"
-msgstr ""
+msgstr "Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93"
 
 #. type: Plain text
 #: references.en.adoc:14
 msgid "Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Make Tech Easier. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/"
-msgstr ""
+msgstr "Braun A (2019) It’s Not Just GPS: We Have Six Global Satellite Navigation Systems, And They’re Getting Better. Make Tech Easier. https://www.maketecheasier.com/gps-global-navigation-satellite-systems/"
 
 #. type: Plain text
 #: references.en.adoc:15
 msgid "Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf"
-msgstr ""
+msgstr "Brown N, Bollard N, McCubbine J & Featherstone W (2019) Next Generation Height Reference Frame. Part 2/3 User Requirements. Melbourne, Australia: FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/04/2-of-3-FrontierSI-P1.29-User-Requirements.pdf"
 
 #. type: Plain text
 #: references.en.adoc:16
 msgid "Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. https://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf"
-msgstr ""
+msgstr "Buecher B (2016) Estimating Cave Radio Horizontal Location Accuracy. Ely, Nevada, USA: National Speleological Society Convention. https://caves.org/section/commelect/drupal/files/Presentations/NSS2016%20Cave%20Radio%20Accuracy.pdf"
 
 #. type: Plain text
 #: references.en.adoc:17
 msgid "Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq"
-msgstr ""
+msgstr "Cadman M & González-Talaván A (eds.) (2014) Publishing Camera Trap Data, a Best Practice Guide. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/1o6HNHuCxKaiAC8yG86gQq"
 
 #. type: Plain text
 #: references.en.adoc:18
 msgid "Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190"
-msgstr ""
+msgstr "Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190"
 
 #. type: Plain text
 #: references.en.adoc:19
 msgid "Chapman AD (2005b) Principles and Methods of Data Cleaning. Copenhagen: GBIF Secretariat. https://www.gbif.org/document/80528"
-msgstr ""
+msgstr "Chapman AD (2005a) Principles of Data Quality: Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc.jrgg-a190"
 
 #. type: Plain text
 #: references.en.adoc:20
 msgid "Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545"
-msgstr ""
+msgstr "Chapman AD (2005c) Uses of Primary Species-Occurrence Data. Copenhagen: GBIF Secretariat. http://www.gbif.org/document/80545"
 
 #. type: Plain text
 #: references.en.adoc:21
 msgid "Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10"
-msgstr ""
+msgstr "Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-5jp4-5g10"
 
 #. type: Plain text
 #: references.en.adoc:22
 msgid "Chapman AD & Grafton O (2008) Guide to Best Practices for Generalising Sensitive Species-Occurrence Data, version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-b02j-gt10"
-msgstr ""
+msgstr "Chapman AD & Grafton O (2008) Guide to Best Practices for Generalising Sensitive Species-Occurrence Data, version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-b02j-gt10"
 
 #. type: Plain text
 #: references.en.adoc:23
 msgid "Chapman AD, Muñoz MES & Koch I (2005) Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. Biodiversity Informatics 2: 24-41. https://doi.org/10.17161/bi.v2i0.5"
-msgstr ""
+msgstr "Chapman AD, Muñoz MES & Koch I (2005) Environmental Information: Placing Biodiversity Phenomena in an Ecological and Environmental Context. Biodiversity Informatics 2: 24-41. https://doi.org/10.17161/bi.v2i0.5"
 
 #. type: Plain text
 #: references.en.adoc:24
 msgid "Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42"
-msgstr ""
+msgstr "Chapman AD & Wieczorek J (eds) (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-2zpf-zf42"
 
 #. type: Plain text
 #: references.en.adoc:25
 msgid "Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889"
-msgstr ""
+msgstr "Chapman AD, Belbin L, Zermoglio PF, Wieczorek JR, Morris PJ, Nicholls M, Rees ER, Veiga AK, Thompson A, Saraiva AM, James S, Gendreau C, Benson A & Schigel D (2020) Developing Standards for Improved Data Quality and for Selecting Fit for Use Biodiversity Data. Biodiversity Information Science and Standards 4: e50889. https://doi.org/10.3897/biss.4.50889"
 
 #. type: Plain text
 #: references.en.adoc:26
 msgid "Chisholm FP (1963) The Chisholm Effect, in Baker RA (ed), A Stress Analysis of a Strapless Evening Gown, and Other Essays for a Scientific Age. Englewood Cliffs, NJ. Prentice-Hall Inc., pp. 13-42."
-msgstr ""
+msgstr "Chisholm FP (1963) The Chisholm Effect, in Baker RA (ed), A Stress Analysis of a Strapless Evening Gown, and Other Essays for a Scientific Age. Englewood Cliffs, NJ. Prentice-Hall Inc., pp. 13-42."
 
 #. type: Plain text
 #: references.en.adoc:27
 msgid "[[chrisman]]Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174."
-msgstr ""
+msgstr "[[chrisman]]Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174."
 
 #. type: Plain text
 #: references.en.adoc:28
 msgid "Coastal Navigation (2020) 1.3 The Nautical Chart. CoastalNavigation.com. http://www.coastalnavigation.com/samples/sec_1/1_pages/1_3.htm"
-msgstr ""
+msgstr "Coastal Navigation (2020) 1.3 The Nautical Chart. CoastalNavigation.com. http://www.coastalnavigation.com/samples/sec_1/1_pages/1_3.htm"
 
 #. type: Plain text
 #: references.en.adoc:29
 msgid "Conn BJ (1999) Herbarium Information Standards and Protocols for Interchange of Data, version 4. Council of Heads of Australian Herbaria. http://plantnet.rbgsyd.nsw.gov.au/HISCOM/HISPID/HISPID4/Introduction/hispid4.html"
-msgstr ""
+msgstr "Conn BJ (1999) Herbarium Information Standards and Protocols for Interchange of Data, version 4. Council of Heads of Australian Herbaria. http://plantnet.rbgsyd.nsw.gov.au/HISCOM/HISPID/HISPID4/Introduction/hispid4.html"
 
 #. type: Plain text
 #: references.en.adoc:30
 msgid "[[cullen]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press."
-msgstr ""
+msgstr "[[cullen]]Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press."
 
 #. type: Plain text
 #: references.en.adoc:31
 msgid "Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details"
-msgstr ""
+msgstr "Data.gov.au (2018) Bathymetric Contours - City of Geelong. Australian Government. https://data.gov.au/dataset/ds-dga-92d6201a-826d-499d-9163-69cc37c1b657/details"
 
 #. type: Plain text
 #: references.en.adoc:32
 msgid "Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/"
-msgstr ""
+msgstr "Dempsey C (2014) Mapping Ship Logs. GIS Lounge. https://www.gislounge.com/mapping-ship-logs/"
 
 #. type: Plain text
 #: references.en.adoc:33
 msgid "Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/"
-msgstr ""
+msgstr "Dempsey C (2017) Digitizing Errors in GIS. GIS Lounge. https://www.gislounge.com/digitizing-errors-in-gis/"
 
 #. type: Plain text
 #: references.en.adoc:34
 msgid "De Pooter D, Appeltans W, Bailly N, Bristol S, Deneudt K, Eliezer M, Fujioka E, Giorgetti A, Goldstein P, Lewis M, Lipizer M, Mackay K, Marin M, Moncoiffé G, Nikolopoulou S, Provoost P, Rauch S, Roubicek A, Torres C, Putte A van der, Vandepitte L, Vanhoorne B, Vinci M, Wambiji N, Watts D, Salas EK & Hernandez F (2017) Toward a new data standard for combined marine biological and environmental datasets - expanding OBIS beyond species occurrences. Biodiversity Data Journal 5: e10989. https://doi.org/10.3897/BDJ.5.e10989"
-msgstr ""
+msgstr "De Pooter D, Appeltans W, Bailly N, Bristol S, Deneudt K, Eliezer M, Fujioka E, Giorgetti A, Goldstein P, Lewis M, Lipizer M, Mackay K, Marin M, Moncoiffé G, Nikolopoulou S, Provoost P, Rauch S, Roubicek A, Torres C, Putte A van der, Vandepitte L, Vanhoorne B, Vinci M, Wambiji N, Watts D, Salas EK & Hernandez F (2017) Toward a new data standard for combined marine biological and environmental datasets - expanding OBIS beyond species occurrences. Biodiversity Data Journal 5: e10989. https://doi.org/10.3897/BDJ.5.e10989"
 
 #. type: Plain text
 #: references.en.adoc:35
 msgid "Doty J (2017) Comparing the GPS Accuracy of Three Cameras. https://www.blog.jimdoty.com/?p=14661"
-msgstr ""
+msgstr "Doty J (2017) Comparing the GPS Accuracy of Three Cameras. https://www.blog.jimdoty.com/?p=14661"
 
 #. type: Plain text
 #: references.en.adoc:36
 msgid "Edey M (n.d.) Mapping Tool Tutorial. Australian Museum. https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf"
-msgstr ""
+msgstr "Edey M (n.d.) Mapping Tool Tutorial. Australian Museum. https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf"
 
 #. type: Plain text
 #: references.en.adoc:37
 msgid "El-Ashmawy K (2016) Investigation of the Accuracy of Google Earth Elevation Data. Artificial Satellites 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008"
-msgstr ""
+msgstr "El-Ashmawy K (2016) Investigation of the Accuracy of Google Earth Elevation Data. Artificial Satellites 51(3): 89-97 https://doi.org/10.1515/arsa-2016-0008"
 
 #. type: Plain text
 #: references.en.adoc:38
 msgid "Ellingson J (2017) NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022. https://cdn.ymaws.com/www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf"
-msgstr ""
+msgstr "Ellingson J (2017) NGS is Scheduled to Replace NAVD 88 and NAD 83 in 2022. https://cdn.ymaws.com/www.ispls.org/resource/resmgr/2017_Convention_Handouts/Ellingson_-_Replacing_NAD_83.pdf"
 
 #. type: Plain text
 #: references.en.adoc:39
 msgid "Eos Positioning Systems (2018) Elevation for Beginners: What to Know About GPS Receiver Elevation. https://eos-gnss.com/elevation-for-beginners/"
-msgstr ""
+msgstr "Eos Positioning Systems (2018) Elevation for Beginners: What to Know About GPS Receiver Elevation. https://eos-gnss.com/elevation-for-beginners/"
 
 #. type: Plain text
 #: references.en.adoc:40
 msgid "ESA (2014) SBAS Systems. European Space Agency, Navipedia. https://gssc.esa.int/navipedia/index.php/SBAS_Systems"
-msgstr ""
+msgstr "ESA (2014) SBAS Systems. European Space Agency, Navipedia. https://gssc.esa.int/navipedia/index.php/SBAS_Systems"
 
 #. type: Plain text
 #: references.en.adoc:41
 msgid "Escobar D, Díaz SR, Jojoa LM, Rudas E & Saavedra J (2015) Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. http://repository.humboldt.org.co/handle/20.500.11761/9610"
-msgstr ""
+msgstr "Escobar D, Díaz SR, Jojoa LM, Rudas E & Saavedra J (2015) Georreferenciación de Localidades: una Guía de Referencia para Colecciones Biológicas. Programa de Evaluación y Monitoreo del Estado de la Biodiversidad Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Versión 3.0. http://repository.humboldt.org.co/handle/20.500.11761/9610"
 
 #. type: Plain text
 #: references.en.adoc:42
 msgid "Escobar D, Jojoa LM, Díaz SR, Rudas E, Albarracín RD, Ramírez C, Gómez JY, López CR, Saavedra J, Ortiz R (2016) Georreferenciación de localidades: Una guía de referencia para colecciones biológicas. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt –Instituto de Ciencias Naturales, Universidad Nacional de Colombia. Bogotá D.C., Colombia. 144p. http://repository.humboldt.org.co/bitstream/handle/20.500.11761/35180/Georreferenciaci%c3%b3n%20de%20localidades_SiBColombia.pdf?sequence=1&isAllowed=y"
-msgstr ""
+msgstr "Escobar D, Jojoa LM, Díaz SR, Rudas E, Albarracín RD, Ramírez C, Gómez JY, López CR, Saavedra J, Ortiz R (2016) Georreferenciación de localidades: Una guía de referencia para colecciones biológicas. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt –Instituto de Ciencias Naturales, Universidad Nacional de Colombia. Bogotá D.C., Colombia. 144p. http://repository.humboldt.org.co/bitstream/handle/20.500.11761/35180/Georreferenciaci%c3%b3n%20de%20localidades_SiBColombia.pdf?sequence=1&isAllowed=y"
 
 #. type: Plain text
 #: references.en.adoc:43
 msgid "ESRI (n.d.) GIS Dictionary. https://support.esri.com/en/other-resources/gis-dictionary/browse/"
-msgstr ""
+msgstr "ESRI (n.d.) GIS Dictionary. https://support.esri.com/en/other-resources/gis-dictionary/browse/"
 
 #. type: Plain text
 #: references.en.adoc:44
 msgid "FAA (2017) Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report. Atlantic City, N.J., United States: William J. Hughes Technical Center. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22"
-msgstr ""
+msgstr "FAA (2017) Global Positioning System (GPS), Standard Positioning Service (SPS) Performance Analysis Report. Atlantic City, N.J., United States: William J. Hughes Technical Center. http://www.nstb.tc.faa.gov/reports/PAN96_0117.pdf#page=22"
 
 #. type: Plain text
 #: references.en.adoc:45
 msgid "FAA (2019) Satellite Navigation - WAAS - How it Works. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/"
-msgstr ""
+msgstr "FAA (2019) Satellite Navigation - WAAS - How it Works. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas/howitworks/"
 
 #. type: Plain text
 #: references.en.adoc:46
 msgid "FAA (2020) SBAS Worldwide. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf"
-msgstr ""
+msgstr "FAA (2020) SBAS Worldwide. Washington, DC: Federal Aviation Administration. https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/library/factsheets/media/SBAS_Worldwide_QFact.pdf"
 
 #. type: Plain text
 #: references.en.adoc:47
 msgid "Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D & Alsdorf D (2007) The Shuttle Radar Topography Mission. Reviews of Geophysics 45(2): 1-33. https://doi.org/10.1029/2005RG000183"
-msgstr ""
+msgstr "Farr TG, Rosen PA, Caro E, Crippen R, Duren R, Hensley S, Kobrick M, Paller M, Rodriguez E, Roth L, Seal D, Shaffer S, Shimada J, Umland J, Werner M, Oskin M, Burbank D & Alsdorf D (2007) The Shuttle Radar Topography Mission. Reviews of Geophysics 45(2): 1-33. https://doi.org/10.1029/2005RG000183"
 
 #. type: Plain text
 #: references.en.adoc:48
 msgid "FGDC (1998) Geospatial Positioning Accuracy Standards, Part 3: National Standards for Spatial Data Accuracy. FGDC-STD-007.3-1998. Reston, Va., USA. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3"
-msgstr ""
+msgstr "FGDC (1998) Geospatial Positioning Accuracy Standards, Part 3: National Standards for Spatial Data Accuracy. FGDC-STD-007.3-1998. Reston, Va., USA. https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3"
 
 #. type: Plain text
 #: references.en.adoc:49
 msgid "Frazier C, Neville T, Giermakowski JT & Racz G (2004) The INRAM Protocol for Georeferencing Biological Museum Specimen Records, Version 1.3. https://doi.org/10.5281/zenodo.3235003"
-msgstr ""
+msgstr "Frazier C, Neville T, Giermakowski JT & Racz G (2004) The INRAM Protocol for Georeferencing Biological Museum Specimen Records, Version 1.3. https://doi.org/10.5281/zenodo.3235003"
 
 #. type: Plain text
 #: references.en.adoc:50
 msgid "GBIF (2019) GBIF Occurrence Download. GBIF.org. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/dl.5pmzev"
-msgstr ""
+msgstr "GBIF (2019) GBIF Occurrence Download. GBIF.org. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/dl.5pmzev"
 
 #. type: Plain text
 #: references.en.adoc:51
 msgid "GEBCO (2019a) GEBCO One Minute Grid. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/"
-msgstr ""
+msgstr "GEBCO (2019a) GEBCO One Minute Grid. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_one_minute_grid/"
 
 #. type: Plain text
 #: references.en.adoc:52
 msgid "GEBCO (2019b) General Bathymetric Chart of the Oceans. GEBCO-2019. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html"
-msgstr ""
+msgstr "GEBCO (2019b) General Bathymetric Chart of the Oceans. GEBCO-2019. https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2019/gebco_2019_info.html"
 
 #. type: Plain text
 #: references.en.adoc:53
 msgid "Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf"
-msgstr ""
+msgstr "Geodetic Survey Division (1996) Accuracy Standards for Positioning, Version 1.0: Ottawa, Canada: Natural Resources Canada. ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf"
 
 #. type: Plain text
 #: references.en.adoc:54
 msgid "GEOLocate (2018) Collaborative Georeferencing. http://www.geo-locate.org/community/default.html"
-msgstr ""
+msgstr "GEOLocate (2018) Collaborative Georeferencing. http://www.geo-locate.org/community/default.html"
 
 #. type: Plain text
 #: references.en.adoc:55
 msgid "Geomatic Solutions (2018) Georepository. Version 9.0.0.0062. https://georepository.com/"
-msgstr ""
+msgstr "Geomatic Solutions (2018) Georepository. Version 9.0.0.0062. https://georepository.com/"
 
 #. type: Plain text
 #: references.en.adoc:56
 msgid "[[geosci-au-2005]]Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia."
-msgstr ""
+msgstr "[[geosci-au-2005]]Geoscience Australia (2005) NATMAP Raster Premium. 1:250 000 scale topographic maps of Australia. [DVD] Canberra, Australia: Geoscience Australia."
 
 #. type: Plain text
 #: references.en.adoc:57
@@ -6778,355 +6778,355 @@ msgstr ""
 #. type: Plain text
 #: references.en.adoc:107
 msgid "Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5"
-msgstr ""
+msgstr "Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of Australian Herbaria. https://github.com/hiscom/hispid5"
 
 #. type: Plain text
 #: references.en.adoc:108
 msgid "Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027"
-msgstr ""
+msgstr "Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers (GUIDs) to link herbarium specimen records to physical specimens. Applications in Plant Sciences 6(2): e1027. https://doi.org/10.1002%2Faps3.1027"
 
 #. type: Plain text
 #: references.en.adoc:109
 msgid "[[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers."
-msgstr ""
+msgstr "[[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning Systems. Signal Structure, Applications and Sources of Error and Biases. New York: Nova Publishers."
 
 #. type: Plain text
 #: references.en.adoc:110
 msgid "NLWRA (2008) Natural Resources Information Management Toolkit. Version 2.0. In Promoting Best Practice in Spatial Data and Information Management. Canberra, Australia: National Land and Water Resources Australia. http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit"
-msgstr ""
+msgstr "NLWRA (2008) Natural Resources Information Management Toolkit. Version 2.0. In Promoting Best Practice in Spatial Data and Information Management. Canberra, Australia: National Land and Water Resources Australia. http://lwa.gov.au/national-land-and-water-resources-audit/natural-resources-information-management-toolkit"
 
 #. type: Plain text
 #: references.en.adoc:111
 msgid "NOAA (n.d.a) Wandering of the Geomagnetic poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml"
-msgstr ""
+msgstr "NOAA (n.d.a) Wandering of the Geomagnetic poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml"
 
 #. type: Plain text
 #: references.en.adoc:112
 msgid "NOAA (n.d.b) Magnetic Field Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml"
-msgstr ""
+msgstr "NOAA (n.d.b) Magnetic Field Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml"
 
 #. type: Plain text
 #: references.en.adoc:113
 msgid "NOAA (2016) How accurate are nautical charts? News and Updates 8 April 2016 by NOAA Office of Coast Survey. https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/"
-msgstr ""
+msgstr "NOAA (2016) How accurate are nautical charts? News and Updates 8 April 2016 by NOAA Office of Coast Survey. https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/"
 
 #. type: Plain text
 #: references.en.adoc:114
 msgid "NOAA (2018) International Comprehensive Ocean-Atmosphere Data Set (ICOADS). ICOADS Data and Documentation. http://icoads.noaa.gov/products.html"
-msgstr ""
+msgstr "NOAA (2018) International Comprehensive Ocean-Atmosphere Data Set (ICOADS). ICOADS Data and Documentation. http://icoads.noaa.gov/products.html"
 
 #. type: Plain text
 #: references.en.adoc:115
 msgid "NOAA (2019) World Magnetic Model. https://www.ngdc.noaa.gov/geomag/WMM/"
-msgstr ""
+msgstr "NOAA (2019) World Magnetic Model. https://www.ngdc.noaa.gov/geomag/WMM/"
 
 #. type: Plain text
 #: references.en.adoc:116
 msgid "NOAA/NCEI (2019) GEBCO_2019 Bathymetric Contours (NOAA NCEI Visualization). https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8"
-msgstr ""
+msgstr "NOAA/NCEI (2019) GEBCO_2019 Bathymetric Contours (NOAA NCEI Visualization). https://noaa.maps.arcgis.com/home/item.html?id=a751dd63f6c744e8bb7d6203266166d8"
 
 #. type: Plain text
 #: references.en.adoc:117
 msgid "NOAA/NCIE & CIRES (2019) US/UK World Magnetic Model. Epoch 2020.0. Main Field Declination (D). https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020_D_BoZ_MILL.pdf"
-msgstr ""
+msgstr "NOAA/NCIE & CIRES (2019) US/UK World Magnetic Model. Epoch 2020.0. Main Field Declination (D). https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020_D_BoZ_MILL.pdf"
 
 #. type: Plain text
 #: references.en.adoc:118
 msgid "NOT Engineers (2019) Underground radiolocation. NOT Engineers - engineers in speleology. http://www.not-engineers.fr/Underground-radiolocation.html"
-msgstr ""
+msgstr "NOT Engineers (2019) Underground radiolocation. NOT Engineers - engineers in speleology. http://www.not-engineers.fr/Underground-radiolocation.html"
 
 #. type: Plain text
 #: references.en.adoc:119
 msgid "Novaczek E, Devillers R & Edinger E (2019) Generating higher resolution regional seafloor maps from crowd-sourced bathymetry. PLoS ONE 14(6): e0216792. https://doi.org/10.1371/journal.pone.0216792"
-msgstr ""
+msgstr "Novaczek E, Devillers R & Edinger E (2019) Generating higher resolution regional seafloor maps from crowd-sourced bathymetry. PLoS ONE 14(6): e0216792. https://doi.org/10.1371/journal.pone.0216792"
 
 #. type: Plain text
 #: references.en.adoc:120
 msgid "Novatel (2015) An Introduction to GNSS. GPS, GLONASS, BeiDou, Galileo, and other Global Navigation Satellite Systems. 2nd edition. Alberta, Canada: Novatel Inc. https://novatel.com/support/knowledge-and-learning/gnss-book"
-msgstr ""
+msgstr "Novatel (2015) An Introduction to GNSS. GPS, GLONASS, BeiDou, Galileo, and other Global Navigation Satellite Systems. 2nd edition. Alberta, Canada: Novatel Inc. https://novatel.com/support/knowledge-and-learning/gnss-book"
 
 #. type: Plain text
 #: references.en.adoc:121
 msgid "OBIS (n.d.) Darwin Core, in OBIS Manual. https://obis.org/manual/darwincore/"
-msgstr ""
+msgstr "OBIS (n.d.) Darwin Core, in OBIS Manual. https://obis.org/manual/darwincore/"
 
 #. type: Plain text
 #: references.en.adoc:122
 msgid "OGC (2019) OGC Standards. Office of the Geospatial Consortium. http://www.opengeospatial.org/specs/?page=recommendation"
-msgstr ""
+msgstr "OGC (2019) OGC Standards. Office of the Geospatial Consortium. http://www.opengeospatial.org/specs/?page=recommendation"
 
 #. type: Plain text
 #: references.en.adoc:123
 msgid "Page RDM (2009) bioGUID: Resolving, discovering, and minting identifiers for biodiversity informatics. BMC Bioinformatics 10(Suppl 14): S5. https://doi.org/10.1186/1471-2105-10-S14-S5"
-msgstr ""
+msgstr "Page RDM (2009) bioGUID: Resolving, discovering, and minting identifiers for biodiversity informatics. BMC Bioinformatics 10(Suppl 14): S5. https://doi.org/10.1186/1471-2105-10-S14-S5"
 
 #. type: Plain text
 #: references.en.adoc:124
 msgid "Paredes-Hernández CU, Salinas-Castillo WE, Guevara-Cortina F & Martínez-Becerra X (2013) Horizontal positional accuracy of Google Earth's imagery over rural areas: a study case in Tamaulipas, Mexico. Boletim de Ciências Geodésicas 19(4): 588-601. https://doi.org/10.1590/S1982-21702013000400005"
-msgstr ""
+msgstr "Paredes-Hernández CU, Salinas-Castillo WE, Guevara-Cortina F & Martínez-Becerra X (2013) Horizontal positional accuracy of Google Earth's imagery over rural areas: a study case in Tamaulipas, Mexico. Boletim de Ciências Geodésicas 19(4): 588-601. https://doi.org/10.1590/S1982-21702013000400005"
 
 #. type: Plain text
 #: references.en.adoc:125
 msgid "Paul D (2018). Georeferencing Overview. iDigBio. https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf"
-msgstr ""
+msgstr "Paul D (2018). Georeferencing Overview. iDigBio. https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf"
 
 #. type: Plain text
 #: references.en.adoc:126
 msgid "Pirazzi G, Mazzoni A, Biagi L & Crespi M (2017) Preliminary Performance Analysis with a GPS+Galileo Enabled Chipset Embedded in a Smartphone. Proceedings of the 30th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2017), Portland, Oregon: 101-115. https://doi.org/10.33012/2017.15260"
-msgstr ""
+msgstr "Pirazzi G, Mazzoni A, Biagi L & Crespi M (2017) Preliminary Performance Analysis with a GPS+Galileo Enabled Chipset Embedded in a Smartphone. Proceedings of the 30th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2017), Portland, Oregon: 101-115. https://doi.org/10.33012/2017.15260"
 
 #. type: Plain text
 #: references.en.adoc:127
 msgid "Potere D (2008) Horizontal positional accuracy of Google Earth's high-resolution imagery archive. Sensors 8: 7973-7981. https://doi.org/10.3390/s8127973"
-msgstr ""
+msgstr "Potere D (2008) Horizontal positional accuracy of Google Earth's high-resolution imagery archive. Sensors 8: 7973-7981. https://doi.org/10.3390/s8127973"
 
 #. type: Plain text
 #: references.en.adoc:128
 msgid "Prince M (2020) Accuracy and Reliability of Charts. Fact Sheet A411302. Australian Hydrographic Office. http://www.hydro.gov.au/prodserv/important-info/accuracy_and_reliability_of_charts.pdf"
-msgstr ""
+msgstr "Prince M (2020) Accuracy and Reliability of Charts. Fact Sheet A411302. Australian Hydrographic Office. http://www.hydro.gov.au/prodserv/important-info/accuracy_and_reliability_of_charts.pdf"
 
 #. type: Plain text
 #: references.en.adoc:129
 msgid "Raes N, Mols J, Willemse L & Smets EF (2009) Georeferencing specimens by combining digitized maps with SRTM digital elevation data and satellite images: a Bornean case study. Blumea 54: 162–165 https://doi.org/10.3767/000651909X475950"
-msgstr ""
+msgstr "Raes N, Mols J, Willemse L & Smets EF (2009) Georeferencing specimens by combining digitized maps with SRTM digital elevation data and satellite images: a Bornean case study. Blumea 54: 162–165 https://doi.org/10.3767/000651909X475950"
 
 #. type: Plain text
 #: references.en.adoc:130
 msgid "Ragheb AE & Ragab AF (2015) Enhancement of Google Earth Positional Accuracy. International Journal of Engineering Research & Technology: 4(1): 627–630. https://pdfs.semanticscholar.org/3826/442bd5d9ceaf8f22e4a401a72eea090b8798.pdf"
-msgstr ""
+msgstr "Ragheb AE & Ragab AF (2015) Enhancement of Google Earth Positional Accuracy. International Journal of Engineering Research & Technology: 4(1): 627–630. https://pdfs.semanticscholar.org/3826/442bd5d9ceaf8f22e4a401a72eea090b8798.pdf"
 
 #. type: Plain text
 #: references.en.adoc:131
 msgid "Rees T (2019) Interim Register of Marine and Nonmarine Genera (IRMNG). http://www.irmng.org"
-msgstr ""
+msgstr "Rees T (2019) Interim Register of Marine and Nonmarine Genera (IRMNG). http://www.irmng.org"
 
 #. type: Plain text
 #: references.en.adoc:132
 msgid "Richards K (2010) TDWG GUID applicability statement. Version 2010‐09. http://www.tdwg.org/standards/150"
-msgstr ""
+msgstr "Richards K (2010) TDWG GUID applicability statement. Version 2010‐09. http://www.tdwg.org/standards/150"
 
 #. type: Plain text
 #: references.en.adoc:133
 msgid "Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to persistent identifiers. Version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/mjgq-d052"
-msgstr ""
+msgstr "Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to persistent identifiers. Version 1.0. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/mjgq-d052"
 
 #. type: Plain text
 #: references.en.adoc:134
 msgid "Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/"
-msgstr ""
+msgstr "Rios N (2019) GEOLocate - Software for Georeferencing Natural History Data. [Web application software]. http://www.geo-locate.org/"
 
 #. type: Plain text
 #: references.en.adoc:135
 msgid "Reock EC Jr (1961) A Note: Measuring Compactness as a Requirement of Legislative Apportionment. Midwest Journal of Political Science 5(1): 70-74 https://doi.org/10.2307/2109043"
-msgstr ""
+msgstr "Reock EC Jr (1961) A Note: Measuring Compactness as a Requirement of Legislative Apportionment. Midwest Journal of Political Science 5(1): 70-74 https://doi.org/10.2307/2109043"
 
 #. type: Plain text
 #: references.en.adoc:136
 msgid "Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118"
-msgstr ""
+msgstr "Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and improving data quality of occurrence record datasets. Ecography 39: 394-401. https://doi.org/10.1111/ecog.02118"
 
 #. type: Plain text
 #: references.en.adoc:137
 msgid "SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf"
-msgstr ""
+msgstr "SANBI (2016) Report of the National Sensitive Species List Workshop 18 and 19 August 2016. Cape Town, South Africa: South African National Biodiversity Institute. http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf"
 
 #. type: Plain text
 #: references.en.adoc:138
 msgid "Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7"
-msgstr ""
+msgstr "Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of diver-towed underwater GPS receivers. Environmental Monitoring and Assessment 184: 2359-2372. https://doi.org/10.1007/s10661-011-2122-7"
 
 #. type: Plain text
 #: references.en.adoc:139
 msgid "Skone S, Yousuf R & Coster A (2004) Combating the Perfect Storm. Improving Marine Differential GPS Accuracy with a Wide Area Network. GPS World. http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf"
-msgstr ""
+msgstr "Skone S, Yousuf R & Coster A (2004) Combating the Perfect Storm. Improving Marine Differential GPS Accuracy with a Wide Area Network. GPS World. http://www2.unb.ca/gge/Resources/gpsworld.october04.pdf"
 
 #. type: Plain text
 #: references.en.adoc:140
 msgid "Skone S & Yousuf R (2007) Performance of satellite-based navigation for marine users during ionosphere disturbances. Space Weather 5: SO1006 https://doi.org/10.1029/2006SW000246"
-msgstr ""
+msgstr "Skone S & Yousuf R (2007) Performance of satellite-based navigation for marine users during ionosphere disturbances. Space Weather 5: SO1006 https://doi.org/10.1029/2006SW000246"
 
 #. type: Plain text
 #: references.en.adoc:141
 msgid "Snyder J (1987) Map Projections – A Working Manual. U.S. Geological Survey Professional Paper 1395. Washington, DC: United States Government Printing Office. https://doi.org/10.3133/pp1395"
-msgstr ""
+msgstr "Snyder J (1987) Map Projections – A Working Manual. U.S. Geological Survey Professional Paper 1395. Washington, DC: United States Government Printing Office. https://doi.org/10.3133/pp1395"
 
 #. type: Plain text
 #: references.en.adoc:142
 msgid "Sogade J, Vichabian Y, Reppert PM, Coles D & Morgan FD (2004) Electronic Cave-to-Surface Mapping System. IEEE Transactions on Geoscience and Remote Sensing 42(4): 754-763. https://doi.org/10.1109/TGRS.2003.819882"
-msgstr ""
+msgstr "Sogade J, Vichabian Y, Reppert PM, Coles D & Morgan FD (2004) Electronic Cave-to-Surface Mapping System. IEEE Transactions on Geoscience and Remote Sensing 42(4): 754-763. https://doi.org/10.1109/TGRS.2003.819882"
 
 #. type: Plain text
 #: references.en.adoc:143
 msgid "Stein B & Wieczorek J (2004) Mammals of the World: MaNIS as an example of data integration in a distributed network environment. Journal of Biodiversity Informatics 1: 14–22. https://doi.org/10.17161/bi.v1i0.7"
-msgstr ""
+msgstr "Stein B & Wieczorek J (2004) Mammals of the World: MaNIS as an example of data integration in a distributed network environment. Journal of Biodiversity Informatics 1: 14–22. https://doi.org/10.17161/bi.v1i0.7"
 
 #. type: Plain text
 #: references.en.adoc:144
 msgid "Tan A, Alomari A & Schamschula M (2016) Land-water distribution and the pear-shape of the Earth. International Journal of Oceans & Oceanography 10(2): 123-132. https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf"
-msgstr ""
+msgstr "Tan A, Alomari A & Schamschula M (2016) Land-water distribution and the pear-shape of the Earth. International Journal of Oceans & Oceanography 10(2): 123-132. https://www.ripublication.com/ijoo16/ijoov10n2_04.pdf"
 
 #. type: Plain text
 #: references.en.adoc:145
 msgid "Taylor C (2003) Geographic/UTM Coordinate Converter. http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html"
-msgstr ""
+msgstr "Taylor C (2003) Geographic/UTM Coordinate Converter. http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html"
 
 #. type: Plain text
 #: references.en.adoc:146
 msgid "TDWG (2018) Darwin Core quick reference guide. Biodiversity Information Standards (TDWG). https://dwc.tdwg.org/terms"
-msgstr ""
+msgstr "TDWG (2018) Darwin Core quick reference guide. Biodiversity Information Standards (TDWG). https://dwc.tdwg.org/terms"
 
 #. type: Plain text
 #: references.en.adoc:147
 msgid "Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. Forests 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031"
-msgstr ""
+msgstr "Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and Applicability of Smart Phone GNSS in Forests. Forests 90(2): 187-198. https://doi.org/10.1093/forestry/cpw031"
 
 #. type: Plain text
 #: references.en.adoc:148
 msgid "Topozone (1999) Free USGS Topo Maps for the Entire United States. https://www.topozone.com/"
-msgstr ""
+msgstr "Topozone (1999) Free USGS Topo Maps for the Entire United States. https://www.topozone.com/"
 
 #. type: Plain text
 #: references.en.adoc:149
 msgid "UNAVCO (2020) Geoid Height Calculator. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html"
-msgstr ""
+msgstr "UNAVCO (2020) Geoid Height Calculator. https://www.unavco.org/software/geodetic-utilities/geoid-height-calculator/geoid-height-calculator.html"
 
 #. type: Plain text
 #: references.en.adoc:150
 msgid "US Department of Defense & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf"
-msgstr ""
+msgstr "US Department of Defense & GPS Navstar (2008) Global Positioning System Standard Positioning Service Performance Standard. 4th editon. https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf"
 
 #. type: Plain text
 #: references.en.adoc:151
 msgid "USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf"
-msgstr ""
+msgstr "USGS (1999) Map Accuracy Standards. USGS Fact Sheet 171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf"
 
 #. type: Plain text
 #: references.en.adoc:152
 msgid "USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/"
-msgstr ""
+msgstr "USGS (2017) USGS Global Positioning Application and Practice. https://water.usgs.gov/osw/gps/"
 
 #. type: Plain text
 #: references.en.adoc:153
 msgid "[[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc."
-msgstr ""
+msgstr "[[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New York: CRC Press, Inc."
 
 #. type: Plain text
 #: references.en.adoc:154
 msgid "Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88"
-msgstr ""
+msgstr "Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid with application of nested equations. Survey Review 23(176): 88–93. https://doi.org/10.1179/sre.1975.23.176.88"
 
 #. type: Plain text
 #: references.en.adoc:155
 msgid "[[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294."
-msgstr ""
+msgstr "[[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of geodesics. Survey Review23 (180): 294."
 
 #. type: Plain text
 #: references.en.adoc:156
 msgid "VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research. https://marineregions.org/"
-msgstr ""
+msgstr "VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine Research. https://marineregions.org/"
 
 #. type: Plain text
 #: references.en.adoc:157
 msgid "Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756"
-msgstr ""
+msgstr "Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth elevation data extraction and accuracy assessment for transportation applications. PLoS ONE 12(4): e0175756. https://doi.org/10.1371/journal.pone.0175756"
 
 #. type: Plain text
 #: references.en.adoc:158
 msgid "Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm"
-msgstr ""
+msgstr "Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological Survey of Canada (Terrestrial Arthropods). http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm"
 
 #. type: Plain text
 #: references.en.adoc:159
 msgid "Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620"
-msgstr ""
+msgstr "Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version 2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. Available: https://github.com/VertNet/georefcalculator/releases/tag/v20180620"
 
 #. type: Plain text
 #: references.en.adoc:160
 msgid "Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version 2020-01-31. Rauthiflor LLC. http://georeferencing.org/georefcalculator/gc.html"
-msgstr ""
+msgstr "Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version 2020-01-31. Rauthiflor LLC. http://georeferencing.org/georefcalculator/gc.html"
 
 #. type: Plain text
 #: references.en.adoc:161
 msgid "Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html"
-msgstr ""
+msgstr "Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html"
 
 #. type: Plain text
 #: references.en.adoc:162
 msgid "Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py"
-msgstr ""
+msgstr "Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py"
 
 #. type: Plain text
 #: references.en.adoc:163
 msgid "Wieczorek J & Beaman R (2002) Georeferencing: Collaboration and Automation. MaNIS. http://georeferencing.org/manis/GeorefCollaboration021021.ppt"
-msgstr ""
+msgstr "Wieczorek J & Beaman R (2002) Georeferencing: Collaboration and Automation. MaNIS. http://georeferencing.org/manis/GeorefCollaboration021021.ppt"
 
 #. type: Plain text
 #: references.en.adoc:164
 msgid "Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html"
-msgstr ""
+msgstr "Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html"
 
 #. type: Plain text
 #: references.en.adoc:165
 msgid "Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C & Yamamoto K (2012a) Georeferencing Quick Reference Guide. Version 2012-10-08. http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf"
-msgstr ""
+msgstr "Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C & Yamamoto K (2012a) Georeferencing Quick Reference Guide. Version 2012-10-08. http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf"
 
 #. type: Plain text
 #: references.en.adoc:166
 msgid "Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012b) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715"
-msgstr ""
+msgstr "Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012b) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715"
 
 #. type: Plain text
 #: references.en.adoc:167
 msgid "Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. 18: 745-767. https://doi.org/10.1080/13658810412331280211"
-msgstr ""
+msgstr "Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. 18: 745-767. https://doi.org/10.1080/13658810412331280211"
 
 #. type: Plain text
 #: references.en.adoc:168
 msgid "Wilkinson M, Dumontier M, Aalbersberg I, Appleton G, Axton M, Baak A, Blomberg N, Boiten J-W, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J & Mons B (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
-msgstr ""
+msgstr "Wilkinson M, Dumontier M, Aalbersberg I, Appleton G, Axton M, Baak A, Blomberg N, Boiten J-W, da Silva Santos LB, Bourne PE, Bouwman J, Brookes AJ, Clark T, Crosas M, Dillo I, Dumon O, Edmunds S, Evelo CT, Finkers R, Gonzalez-Beltran A, Gray AJG, Groth P, Goble C, Grethe JS, Heringa J, ’t Hoen PAC, Hooft R, Kuhn T, Kok R, Kok J, Lusher SJ, Martone ME, Mons A, Packer AL, Persson B, Rocca-Serra P, Roos M, van Schaik R, Sansone S-A, Schultes E, Sengstag T, Slater T, Strawn G, Swertz MA, Thompson M, van der Lei J, van Mulligen E, Velterop J, Waagmeester A, Wittenburg P, Wolstencroft K, Zhao J & Mons B (2016) The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18"
 
 #. type: Plain text
 #: references.en.adoc:169
 msgid "Wolf A-C, Snaith H, Amirebrahimi S, Devey CW, Dorschel B, Ferrini V, Huvenne VAI, Jakobsson M, Jencks J, Johnston G, Lamarche G, Mayer L, Millar D, Pedersen TH, Picard K, Reitz A, Schmitt T, Visbeck M, Weatherall P, Wigley R (2019) Seafloor Mapping - The Challenge of a Truly Global Bathymetry. Frontiers in Marine Science 6: 283. https://doi.org/10.3389/fmars.2019.00283"
-msgstr ""
+msgstr "Wolf A-C, Snaith H, Amirebrahimi S, Devey CW, Dorschel B, Ferrini V, Huvenne VAI, Jakobsson M, Jencks J, Johnston G, Lamarche G, Mayer L, Millar D, Pedersen TH, Picard K, Reitz A, Schmitt T, Visbeck M, Weatherall P, Wigley R (2019) Seafloor Mapping - The Challenge of a Truly Global Bathymetry. Frontiers in Marine Science 6: 283. https://doi.org/10.3389/fmars.2019.00283"
 
 #. type: Plain text
 #: references.en.adoc:170
 msgid "World Ocean Review (2010) Living with the Oceans: A Report on the state of the world’s oceans. Chapter 3: Coasts. https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts"
-msgstr ""
+msgstr "World Ocean Review (2010) Living with the Oceans: A Report on the state of the world’s oceans. Chapter 3: Coasts. https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts"
 
 #. type: Plain text
 #: references.en.adoc:171
 msgid "WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php"
-msgstr ""
+msgstr "WoRMS (2019) WoRMS - World Register of Marine Species. http://www.marinespecies.org/users.php"
 
 #. type: Plain text
 #: references.en.adoc:172
 msgid "Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method"
-msgstr ""
+msgstr "Yost M (2015) Georeferencing: the Polygon Method. iDigBio. https://www.idigbio.org/content/georeferencing-polygon-method"
 
 #. type: Plain text
 #: references.en.adoc:173
 msgid "Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf"
-msgstr ""
+msgstr "Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection Consortium (MaCC). https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf"
 
 #. type: Plain text
 #: references.en.adoc:174
 msgid "Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://doi.org/10.2307/439947"
-msgstr ""
+msgstr "Young HP (1988) Measuring the Compactness of Legislative Districts. Legislative Studies Quarterly 13(1): 105-115. https://doi.org/10.2307/439947"
 
 #. type: Plain text
 #: references.en.adoc:175
 msgid "Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128"
-msgstr ""
+msgstr "Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128"
 
 #. type: Plain text
 #: references.en.adoc:176
 msgid "Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152"
-msgstr ""
+msgstr "Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from biological collection databases. Methods in Ecology and Evolution 10(5): 744-751. https://doi.org/10.1111/2041-210X.13152"
 
 #. type: Plain text
 #: references.en.adoc:176
 msgid "Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature"
-msgstr ""
+msgstr "Zooniverse (n.d.) Notes from Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature"
 
