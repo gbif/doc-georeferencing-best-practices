@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-25 02:35\n"
+"PO-Revision-Date: 2021-10-25 15:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -562,23 +562,23 @@ msgstr "img/accuracy-versus-precision.png"
 #. type: quote
 #: 0100-introduction.en.adoc:115
 msgid "Whereas <<error>> is an estimate of the difference between a measured value and the truth, <<precision>> is a measurement of the consistency of repeated measurements to each other. Precision is not the same as <<accuracy>> (see <<img-accuracy-vs-precision>>) because measurements can be consistently wrong (have the same error). Precise measurements of the same target will give similar results, accurate or not. We quantify precision as how specific a measurement should be to give consistent results. For example, a measuring device might give measurements to five decimal places (e.g. 3.14159), while repeated measurements of the same target with the same device are only consistent to four decimal places (e.g. 3.1416). We would say the precision is 0.0001 in the units of the measurement."
-msgstr "Mientras que el <<error>> es una estimación de la diferencia entre un valor medido y el valor verdadero, la <<precisión>> es una medición de la consistencia de mediciones repetidas entre sí. La precisión no es lo mismo que la <<exactitud>> (ver <<img-accuracy-vs-precision>>) porque las mediciones pueden ser consistentemente incorrectas (tienen el mismo error). Las mediciones precisas del mismo objetivo darán resultados similares, sean exactas o no. Cuantificamos la precisión como cuan específica una medida deber ser para dar resultados consistentes. Por ejemplo, un dispositivo de medición podría dar mediciones con cinco decimales (por ejemplo, 3.14159), mientras que las mediciones repetidas del mismo objetivo con el mismo dispositivo sólo son consistentes a cuatro decimales (e.g. 3.1416). Podriamos decir que la precisión es de 0.0001 respecto a las unidades de medida."
+msgstr "Mientras que el <<error>> es una estimación de la diferencia entre un valor medido y el valor verdadero, la <<precisión>> es una medición de la consistencia de mediciones repetidas entre sí. La precisión no es lo mismo que la <<exactitud>> (ver <<img-accuracy-vs-precision>>) porque las mediciones pueden ser consistentemente incorrectas (tienen el mismo error). Las mediciones precisas del mismo objetivo darán resultados similares, sean exactas o no. Cuantificamos la precisión como cuan específica deber ser una medida para dar resultados consistentes. Por ejemplo, un dispositivo de medición podría dar mediciones con cinco cifras decimales (p. ej. 3.14159), mientras que las mediciones repetidas del mismo objetivo con el mismo dispositivo sólo son consistentes a cuatro cifras decimales (e.g. 3.1416). Podríamos decir que la precisión es de 0.0001 respecto a las unidades de medida."
 
 #. type: quote
 #: 0100-introduction.en.adoc:117
 msgid "<<false precision,False precision>> refers to recorded values that have precision that is unwarranted by the original measurement. This is often an artefact of how data are stored, calculated, represented, or displayed. For example, a user interface might be designed to always display <<coordinates>> with five decimal places (e.g. 3.00000), demonstrating false precision for any coordinate that was not <<precision,precise>> (e.g. 3°, a <<latitude>> given only to the nearest degree). Because false precision can be undetectable, the actual precision of a measurement is something that should be captured explicitly rather than inferred from the representation of a value. This is particularly true for coordinates, which can suffer from false precision as a result of a format transformation. For example, 3°20’ has a precision of one minute, equivalent to about 0.0166667 degrees, but when stored as decimal degrees where five decimal places are retained and displayed the value would be 3.33333, with a false precision of 0.00001 degrees. Also see <<img-xkcd-coordinate-precision>>."
-msgstr "La <<falsa precisión>> se refiere a los valores registrados que tienen una precisión injustificada por la medición original. Esto es a menudo un efecto de cómo se almacenan, calculan, representan o muestran los datos. Por ejemplo, una interfaz de usuario podría estar diseñada para mostrar siempre las <<coordenadas>> con cinco decimales (por ejemplo, 3.00000), mostrando una falsa precisión para cualquier coordenada que no fuera <<precisión,precisa>> (e.g. 3°, una <<latitud>> dada sólo al grado más cercano). Porque la falsa precisión puede ser indetectable, la precisión real de una medición es algo que debe ser capturado explícitamente en lugar de ser inferido por la representación de un valor. Esto es particularmente cierto en el caso de las coordenadas, que pueden ser objeto de una falsa precisión como resultado de una transformación de formato. Por ejemplo, 3°20’ tiene una precisión de un minuto, equivalente a aproximadamente 0.0166667 grados, pero cuando se almacenan como grados decimales donde se mantienen cinco decimales y se muestra el valor sería 3. 33333, con una falsa precisión de 0.00001 grados. También ver <<img-xkcd-coordinate-precision>>."
+msgstr "La <<falsa precisión>> se refiere a los valores registrados que tienen una precisión injustificada por la medición original. Esto es a menudo un efecto de cómo se almacenan, calculan, representan o muestran los datos. Por ejemplo, una interfaz de usuario podría estar diseñada para mostrar siempre las <<coordenadas>> con cinco cifras decimales (por ejemplo, 3.00000), mostrando una falsa precisión para cualquier coordenada que no sea <<precisión,precisa>> (p. ej. 3°, una <<latitud>> dada sólo al grado más cercano). Porque la falsa precisión puede ser indetectable, la precisión real de una medición es algo que debe ser capturado explícitamente en lugar de ser inferido por la representación de un valor. Esto es particularmente cierto en el caso de las coordenadas, que pueden ser objeto de una falsa precisión como resultado de una transformación de formato. Por ejemplo, 3°20’ tiene una precisión de un minuto, equivalente a aproximadamente 0.0166667 grados, pero cuando se almacenan como grados decimales donde se mantienen y se muestran cinco cifras decimales, el valor sería 3. 33333 con una falsa precisión de 0.00001 grados. Ver también <<img-xkcd-coordinate-precision>>."
 
 #. type: quote
 #: 0100-introduction.en.adoc:119
 msgid "Like error, <<uncertainty>> is a measure of how different an unknown true value might be from a value given. In <<georeference,georeferencing>>, we use uncertainty to refer to the maximum distance from a center <<coordinates,coordinate>> of a georeference to the furthest point where the true <<location>> might be–a combination of all the possible sources of error given as a distance."
-msgstr "Como el error, la <<incertidumbre>> es una medida de cuán diferente puede ser un valor dado de un valor verdadero desconocido. En <<georreferencia,georreferenciación>>, usamos la incertidumbre para referirnos a la distancia máxima desde las <<coordenadas>> centrales en una georeferencia hasta el punto más lejano donde el verdadero de una <<ubicación>> podría estar - como una combinación de todas las posibles fuentes de error dadas como una distancia."
+msgstr "Como el error, la <<incertidumbre>> es una medida de cuán diferente puede ser un valor dado de un valor verdadero desconocido. En <<georreferencia,georreferenciación>> usamos la incertidumbre para referirnos a la distancia máxima desde las <<coordenadas>> centrales en una georeferencia hasta el punto más lejano donde el verdadero de una <<ubicación>> verdadera podría estar, como una combinación de todas las posibles fuentes de error dadas como una distancia."
 
 #. type: Block title
 #: 0100-introduction.en.adoc:121
 #, no-wrap
 msgid "40 digits: You are optimistic about our understanding of the nature of distance itself. What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^]."
-msgstr "40 dígitos: Eres optimista acerca de nuestra comprensión de la naturaleza de la distancia en si misma. Lo qué el número de dígitos en las coordenadas podría implicar si la precisión se malinterpretara al construir la extensión geográfica. Desde https://xkcd.com/2170/[xkcd^]."
+msgstr "40 dígitos: Eres optimista acerca de nuestra comprensión de la naturaleza de la distancia en si misma. Lo que el número de cifras en las coordenadas podría implicar si la precisión se malinterpretara al construir la extensión geográfica. Desde https://xkcd.com/2170/[xkcd^]."
 
 #. type: Target for macro image
 #: 0100-introduction.en.adoc:122
@@ -590,7 +590,7 @@ msgstr "img/xkcd-coordinate-precision.png"
 #: 0100-introduction.en.adoc:124
 #, no-wrap
 msgid "Software and Online Tools"
-msgstr "Software y herramientas en línea"
+msgstr "Software y Herramientas en Línea"
 
 #. type: quote
 #: 0100-introduction.en.adoc:127
