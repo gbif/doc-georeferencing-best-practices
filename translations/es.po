@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-05-27 18:14+0000\n"
-"PO-Revision-Date: 2021-10-26 10:29\n"
+"PO-Revision-Date: 2021-10-26 13:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -975,7 +975,7 @@ msgstr "img/underwater-event.png"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:132
 msgid "{marine}There are many different types of trawls and tows, including bottom and mid-water trawls. The 3D nature should be captured as above. The geographic reference points would be line segments tracing the route of the trawl, and would be more akin to <<path,paths>> and captured as a <<shape>> as described in <<paths,§2.3.2>>."
-msgstr "{marine}Hay muchos tipos diferentes de arrastres y remolques, incluyendo arrastres de fondo y niveles medios. La naturaleza 3D debe ser capturada como se muestra arriba. Los puntos de referencia geográficos serían segmentos de línea que siguen la ruta del arrastre, y sería más similar a <<ruta,rutas>> y documentado como una <<forma geométrica>> como se describe en <<rutas,§2.3.2>>."
+msgstr "{marine}Hay muchos tipos diferentes de arrastres y remolques, incluyendo arrastres de fondo y niveles medios. La naturaleza 3D debe ser capturada como se muestra arriba. Los puntos de referencia geográficos serían segmentos de línea que siguen la ruta del arrastre y serían más similares a <<ruta,rutas>> y documentados como una <<forma geométrica>> como se describe en <<rutas,§2.3.2>>."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:134
@@ -986,12 +986,12 @@ msgstr "Coordenadas"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:137
 msgid "Whenever practical, provide the <<coordinates>> of the <<location>> where an <<event>> actually occurred (see <<Extent of a Location>>) and accompany these with the <<coordinate reference system>> of the coordinate source (map or <<GPS>>). The two <<coordinate system,coordinate systems>> most commonly used by biologists are based on <<geographic coordinates>> (i.e. <<latitude>> and <<longitude>>) or <<UTM>> (i.e. <<easting>>, <<northing>> and UTM zone)."
-msgstr "Siempre que sea práctico, se deben proporcionar las <<coordenadas>> de la <<ubicación>> donde ocurrió el <<evento>> (ver <<Extensión de una Ubicación>>) y acompañarlas con el <<sistema de referencia de coordenadas>> de la fuente de las coordenadas (mapa o <<GPS>>). Los dos <<sistema de coordenadas, sistemas de coordenadas>> más comúnmente utilizados por los biólogos se basan en <<coordenadas geográficas>> (i.e. <<latitud>> y <<longitud>>) o <<UTM>> (es decir, <<este>>, <<norte>> y zona UTM)."
+msgstr "Siempre que sea práctico, se deben proporcionar las <<coordenadas>> de la <<ubicación>> donde ocurrió el <<evento>> (ver <<Extensión de una Ubicación>>) y acompañarlas con el <<sistema de coordenadas de referencia>> de la fuente de las coordenadas (mapa o <<GPS>>). Los dos <<sistema de coordenadas, sistemas de coordenadas>> más comúnmente utilizados por los biólogos se basan en <<coordenadas geográficas>> (es decir, <<latitud>> y <<longitud>>) o <<UTM>> (es decir, <<este>>,<<norte>> y zona UTM)."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:139
 msgid "A <<datum>> is an essential part of a <<coordinate reference system>> and provides the frame of reference. Without it the <<coordinates>> are ambiguous. When using both maps and <<GPS>> in the field, set the coordinate reference system or datum of the GPS or <<GNSS>> receiver to be the same as that of the map so that the GPS coordinates for a <<location>> will match those on the map. Be sure to record the coordinate reference system or datum used."
-msgstr "El <<datum>> es una parte esencial de un <<sistema de coordenadas de referencia>> ya que proporciona el marco de referencia de las coordenadas. Sin este, las <<coordenadas>> son ambiguas. Cuando se utilizan mapas y <<GPS>> en campo, debe configurarse el sistema de referencia de coordenadas o datum del receptor GPS o <<GNSS>> para que sea el mismo que el del mapa, de esta forma las coordenadas GPS de una <<ubicación>> coincidirán con las del mapa. Asegúrese de registrar el sistema de coordenadas de referencia o datum utilizado."
+msgstr "El <<datum>> es una parte esencial de un <<sistema de coordenadas de referencia>> pues proporciona el marco de referencia de las coordenadas. Sin este, las <<coordenadas>> son ambiguas. Cuando se utilizan mapas y <<GPS>> en campo, debe configurarse el sistema de referencia de coordenadas o datum del receptor GPS o <<GNSS>> para que sea el mismo que el del mapa, de esta forma las coordenadas GPS de una <<ubicación>> coincidirán con las del mapa. Asegúrese de registrar el sistema de coordenadas de referencia o datum utilizado."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:141
@@ -1002,17 +1002,17 @@ msgstr "Coordenadas Geográficas"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:144
 msgid "<<geographic coordinates,Geographic coordinates>> are a convenient way to define a <<location>> in a way that is not only more specific than is otherwise possible with a <<locality>> description, but also readily allows calculations to be made in a <<geographic information system,GIS>>. Geographic coordinates can be expressed in a number of different <<coordinate format,coordinate formats>> (<<decimal degrees>>, <<DMS,degrees minutes seconds>>, degrees decimal minutes), with decimal degrees being the most commonly used. Geographic coordinates in decimal degrees are convenient for <<georeference,georeferencing>> because this succinct format has global applicability and relies on just three attributes, one for <<latitude>>, one for <<longitude>>, and one for the <<geodetic datum>> or <<ellipsoid>>, which, together with the coordinate format, make up the <<coordinate reference system>>. By keeping the number of recorded attributes to a minimum, the chances for transcription <<error,errors>> are minimized (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
-msgstr "Las <<coordenadas geográficas>> son una forma conveniente de definir una <<ubicación>> de una manera que no sólo es más específica que la descripción de una <<localidad>>, sino que también permite realizar cálculos en <<sistemas de información geográficos,SIG>>. Las coordenadas geográficas pueden ser expresadas en diferentes <<formato de coordenadas,formatos de coordenadas>> (<<grados decimales>>, <<GMS,grados minutos segundos>>, grados minutos decimales), siendo los grados decimales los más comúnmente utilizados. Las coordenadas geográficas en grados decimales son convenientes para <<georreferencia,georreferenciación>> porque este formato sucinto tiene aplicabilidad global y se basa en sólo tres atributos, uno para <<latitud>>, uno para <<longitud>>, y uno para el <<datum geodésico>> o <<elipsoide>>, que, junto con el formato de coordenada, componen el <<sistema de referencia de coordenadas>>. Al mantener al mínimo el número de atributos registrados, los posibles <<error,errores>> de transcripción se minimizan (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
+msgstr "Las <<coordenadas geográficas>> son una forma conveniente de definir una <<ubicación>> de una manera que no sólo es más específica que la descripción de una <<localidad>>, sino que también permite realizar cálculos en <<sistemas de información geográficos,SIG>> fácilmente. Las coordenadas geográficas pueden ser expresadas en diferentes <<formato de coordenadas,formatos de coordenadas>> (<<grados decimales>>, <<GMS,grados minutos segundos>>, grados minutos decimales), siendo los grados decimales los más comúnmente utilizados. Las coordenadas geográficas en grados decimales son convenientes para <<georreferencia,georreferenciar>> porque este formato sucinto tiene aplicabilidad global y se basa en sólo tres atributos, uno para la <<latitud>>, uno para la <<longitud>> y uno para el <<datum geodésico>> o <<elipsoide>>, que, junto con el formato de coordenada, componen el <<sistema de referencia de coordenadas>>. Al mantener al mínimo el número de atributos registrados, los posibles <<error,errores>> de transcripción se minimizan (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:146
 msgid "When capturing geographic coordinates, always include as many decimals of <<precision>> as given by the <<coordinates,coordinate>> source. Coordinates in decimal degrees given to five decimal places are more precise than a measurement in <<DMS,degrees-minutes-seconds>> to the nearest second, and more precise than a measurement in degrees and decimal minutes given to three decimal places (see <<table-uncertainty>>). Some new <<GPS>>/<<GNSS>> receivers now display data in decimal seconds to two decimal places, which corresponds to less than a meter everywhere on Earth. This doesn't mean that the GPS reading is accurate at that scale, only that the coordinates as given do not contribute additional <<uncertainty>>."
-msgstr "Al capturar coordenadas geográficas, incluya siempre tantos decimales de <<precisión>> como indique la fuente de las <<coordenadas>>. Las coordenadas en grados decimales con cinco decimales son más precisas que una medición en <<GMS,grados-minutos-segundos>> al segundo más cercano, y más precisa que una medición en grados minutos decimales con tres decimales (ver <<table-uncertainty>>). Algunos nuevos receptores <<GPS>>/<<GNSS>> capturan datos en segundos decimales a dos decimales, que corresponde a menos de un metro en cualquier parte de la Tierra. Esto no significa que la lectura del GPS sea precisa en esa escala, sólo que las coordenadas proporcionadas no aportan una <<incertidumbre>> adicional."
+msgstr "Al capturar coordenadas geográficas, incluya siempre tantas cifras decimales de <<precisión>> como indique la fuente de las <<coordenadas>>. Las coordenadas en grados decimales con cinco cifras decimales son más precisas que una medición en <<GMS,grados-minutos-segundos>> al segundo más cercano y más precisa que una medición en grados minutos decimales con tres decimales (ver <<table-uncertainty>>). Algunos nuevos receptores <<GPS>>/<<GNSS>> capturan datos en segundos decimales a dos decimales, que corresponde a menos de un metro en cualquier parte de la Tierra. Esto no significa que la lectura del GPS sea precisa en esa escala, sólo que las coordenadas proporcionadas no aportan una <<incertidumbre>> adicional."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:148
 msgid "Decimal degrees are preferred when capturing coordinates from a GPS, however, where reference to maps is important, and where the GPS receiver allows, set the recorder to report in degrees, minutes, and decimal seconds."
-msgstr "Los grados decimales son preferidos al capturar coordenadas de un GPS, sin embargo, donde la referencia a los mapas sea importante, y donde el receptor GPS lo permita, establezca que el dispositivo para que reporte en grados, minutos y segundos decimales."
+msgstr "Los grados decimales se prefieren al capturar coordenadas de un GPS, sin embargo, donde la referencia a los mapas sea importante y donde el receptor GPS lo permita, establezca el dispositivo para que reporte en grados, minutos y segundos decimales."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:149
@@ -1023,7 +1023,7 @@ msgstr "Coordenadas Universales Transversales de Mercator (UTM)"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:152
 msgid "<<UTM>> is a system for assigning distance-based <<coordinates>> using a Mercator <<projection>> from an idealized <<ellipsoid>> of the surface of the Earth onto a plane. In most applications of the UTM system, the Earth is divided into a series of six-degree wide <<longitude,longitudinal>> zones extending between 80°S and 84°N and numbered from 1-60 beginning with the zone at the <<antimeridian,Antimeridian>> (https://doi.org/10.3133/pp1395[Snyder 1987^]). Because of the <<latitude,latitudinal>> limitation in extent, UTM coordinates are not usable in the extreme polar regions of the Earth. A map of UTM zones can be found at http://www.dmap.co.uk/utmworld.htm[UTM Grid Zones of the World (Morton 2006)^]."
-msgstr "<<UTM>> es un sistema para asignar <<coordenadas>> basadas en distancia usando la <<proyección>> de Mercartor desde un <<elipsoide>> idealizado de la superficie de la tierra sobre una superficie plana. En la mayoría de las aplicaciones del sistema UTM, la Tierra se divide en una serie de zonas <<longitud,longitudinales>> de seis grados de ancho que se extienden entre 80°S y 84°N y están numeradas del 1 al 60 comenzando con la zona en el <<antimeridiano,Antimeridiano>> (https://doi.org/10.3133/pp1395[Snyder 1987^]). Debido a la limitación en la extensión <<latitud,latitudinal>>, las coordenadas UTM no son usables en los extremos de las regiones polares de la Tierra. Un mapa de zonas UTM puede ser encontrado en http://www.dmap.co.uk/utmworld.htm[Cuadrícula de Zonas UTM del Mundo (Morton 2006)^]."
+msgstr "<<UTM>> es un sistema para asignar <<coordenadas>> basadas en distancia usando la <<proyección>> de Mercartor desde un <<elipsoide>> idealizado de la superficie de la tierra sobre una superficie plana. En la mayoría de las aplicaciones del sistema UTM, la Tierra se divide en una serie de zonas <<longitud,longitudinales>> de seis grados de ancho que se extienden entre 80°S y 84°N y están numeradas del 1 al 60 comenzando con la zona en el <<antimeridiano,Antimeridiano>> (https://doi.org/10.3133/pp1395[Snyder 1987^]). Debido a la limitación en la extensión <<latitud,latitudinal>>, las coordenadas UTM no pueden ser usadas en los extremos de las regiones polares de la Tierra. Un mapa de zonas UTM puede ser encontrado en http://www.dmap.co.uk/utmworld.htm[Grilla de Zonas UTM del Mundo (Morton 2006)^]."
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:154
@@ -6247,7 +6247,7 @@ msgstr "Agradecimientos"
 #. type: Plain text
 #: acknowledgements.en.adoc:4
 msgid "Many people have contributed ideas to this document and its precursors, either directly or indirectly through discussions at meetings, publications, or in email correspondence. We refer you to the earlier document for those we acknowledged there."
-msgstr ""
+msgstr "Muchas personas han aportado ideas a este documento y a sus precursores, directa o indirectamente a través de discusiones en reuniones, publicaciones o en correspondencia por correo electrónico. Le remitimos al documento anterior para aquellos que hemos reconocido allí."
 
 #. type: Plain text
 #: acknowledgements.en.adoc:6
@@ -6263,17 +6263,17 @@ msgstr "Referencias"
 #. type: Plain text
 #: references.en.adoc:4
 msgid "ANBG (2018) Australia’s Virtual Herbarium. Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html"
-msgstr ""
+msgstr "ANBG (2018) Australia’s Virtual Herbarium. Australian National Botanic Gardens on behalf of the Committee of Heads of Australian Herbaria. https://www.anbg.gov.au/chah/avh/avh.html"
 
 #. type: Plain text
 #: references.en.adoc:5
 msgid "Apache (2019) Apache SISTM Coordinate Reference System (CRS) codes. https://sis.apache.org/tables/CoordinateReferenceSystems.html"
-msgstr ""
+msgstr "Apache (2019) Apache SISTM Coordinate Reference System (CRS) codes. https://sis.apache.org/tables/CoordinateReferenceSystems.html"
 
 #. type: Plain text
 #: references.en.adoc:6
 msgid "ASPRS (1990) ASPRS Accuracy Standards for Large-Scale Maps. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf"
-msgstr ""
+msgstr "ASPRS (1990) ASPRS Accuracy Standards for Large-Scale Maps. Photogrammetric Engineering and Remote Sensing 1989: 1068-1070. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf"
 
 #. type: Plain text
 #: references.en.adoc:7
