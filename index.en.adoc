@@ -22,13 +22,19 @@
 :marine: image:img/marine.svg[width=14px]
 :ecological: image:img/ecology.svg[width=14px]
 :caves: image:img/cave.svg[width=14px]
+
 // Shorthand for links to the other two documents
-:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
 :gcm: link:../../../georeferencing-calculator-manual/1.0/en/
+:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
+:gcm-es: link:../../../georeferencing-calculator-manual/1.0/es/
+:gqg-es: link:../../../georeferencing-quick-reference-guide/1.0/es/
 ifdef::backend-pdf[]
-:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
 :gcm: link:https://docs.gbif.org/georeferencing-calculator-manual/1.0/en/
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
+:gcm-es: link:https://docs.gbif.org/georeferencing-calculator-manual/1.0/es/
+:gqg-es: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/es/
 endif::backend-pdf[]
+
 // Shorthand for a link containing underscores
 :mcelroy_et_al_2007: https://www.spatial.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
 :gibson_radiolocation: http://site2.caves.org.uk/radio/radioloc_for_cave.html
