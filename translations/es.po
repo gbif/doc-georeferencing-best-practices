@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 22:56\n"
+"PO-Revision-Date: 2021-11-03 23:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2177,27 +2177,27 @@ msgstr "Los participantes utilizan <<protocolo de georreferenciación, protocolo
 #: 0300-the-georeferencing-process.en.adoc:87
 #, no-wrap
 msgid "Project Follow-up Phase"
-msgstr ""
+msgstr "Fase de Seguimiento del Proyecto"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:90
 msgid "Verify <<georeference,georeferences>> to meet <<data quality>> requirements (e.g. map <<georeference,georeferenced>> records to ensure they fall in the correct hemisphere, country, etc.) (see <<Data Checking and Cleaning>>)."
-msgstr ""
+msgstr "Verificar las <<georreferencia,georreferencias>> para cumplir con los requerimientos de <<calidad de datos>> (p. ej. registros <<georreferencia,georreferenciados>> en mapas para asegurarse de que caen en el hemisferio o país correcto, etc.) (ver <<Verificación y Limpieza de Datos>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:91
 msgid "Populate standardized <<locality>> records with data for the georeferences."
-msgstr ""
+msgstr "Poblar los registros estandarizados de <<localidad, localidades>> con datos para las georreferencias."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:92
 msgid "Normal curatorial activity is not usually suspended during a georeferencing project, which opens the possibility that locality information could be changed for some records in the source database after being aggregated for georeferencing and before being re-incorporated in the source database. For database records that did not have changes to the <<locality>> information before re-incorporation, populate the original records from the standardized locality records with georeferences."
-msgstr ""
+msgstr "La actividad curatorial normal no suele suspenderse durante un proyecto de georreferenciación, lo que abre la posibilidad de que la información de la localidad pueda ser cambiada para algunos registros en la base de datos fuente después de ser agregada para la georreferenciación y antes de ser reincorporada a la base de datos fuente. Para los registros de base de datos que no tenían cambios en la información <<localidad>> antes de reincorporarse, se deben rellenar los registros originales de los registros estandarizados de la localidad con georreferencias."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:93
 msgid "Repatriate the original records with standardized georeferenced locality data appended to the corresponding institutions (this step is mostly relevant in collaborative projects)."
-msgstr ""
+msgstr "Repatriar los registros originales anexando los datos de localidad georreferenciados estandarizados a las instituciones correspondientes (este paso es principalmente relevante en proyectos colaborativos)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:94
