@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 21:14\n"
+"PO-Revision-Date: 2021-11-03 21:46\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1982,54 +1982,54 @@ msgstr "La pregunta, \"¿Cuándo, en el flujo de trabajo más amplio, tendrá lu
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:38
 msgid "This document does not cover methods of general data entry. There are many ways that this may be conducted, including direct entry from the field notes, labels, or ledgers with the material brought to a data entry computer; or direct entry where tablets or laptops are brought to the material. There are also indirect methods, such as entry after using scanning or photographic (still or video) equipment to capture the original information so that data entry can be done after imaging. Capturing the images allows for digitization using handwriting and optical character recognition tools and crowdsourcing (e.g. <<DigiVol>>, <<Notes from Nature>>). Some of these methods are just becoming practical, but you should make an active decision on the method that best suits the needs of your project. When digitization is in progress and each specimen is being handled, it is a good time to consider other actions, such as georeferencing (though we do not recommend this for the sake of efficiency), assigning <<PID,persistent identifiers (PIDs)>> (see <<Persistent Identifiers (PIDs)>>), barcoding specimens and linking these to the database to save resources further down the line."
-msgstr "Este documento no cubre los métodos generales de ingreso de datos. Hay muchas maneras de hacerlo, incluyendo la entrada directa desde las notas de campo, etiquetas, o libros de registro ingresad a un computador; o el ingreso directo cuando se usan tabletas o computadores. También hay métodos indirectos, como el ingreso después de utilizar un escaner o equipo fotográfico (fotografías o vídeo) para capturar la información original de modo que la entrada de datos pueda hacerse después de la imagen. Capturar las imágenes permite la digitalización usando herramientas de reconocimiento óptico de caracteres y escritura a mano, y de colaboración abierta (\"crowdsourcing\") (e.g. <<DigiVol>>, <<Notes from Nature>>). Algunos de estos métodos se están volviendo prácticos, pero se debe tomar una decisión activa sobre el método que mejor se adapte a las necesidades del proyecto. Cuando la digitización está en marcha y cada espécimen está siendo manejado, es un buen momento para considerar otras acciones como la georeferenciación (aunque no se recomienda en aras de la eficiencia), asignando <<PID,identificadores persistentes (PIDs)>> (ver <<Identificadores persistentes (PIDs)>>), códigos de barras de especímenes y vincularlos a la base de datos para ahorrar recursos más adelante en el proceso."
+msgstr "Este documento no cubre los métodos generales de ingreso de datos. Hay muchas maneras de hacerlo, incluyendo la entrada directa desde las notas de campo, etiquetas o libros de registro ingresados a un computador. También, el ingreso directo cuando se usan tabletas o computadores. También hay métodos indirectos, como el ingreso después de utilizar un escaner o un equipo fotográfico (fotografías o vídeo) para capturar la información original, de modo que la entrada de datos pueda hacerse después de la toma de imágenes. Capturar imágenes permite la digitalización, usando herramientas de reconocimiento óptico de caracteres y escritura a mano y de colaboración abierta (\"crowdsourcing\") (e.g. <<DigiVol>>, <<Notes from Nature>>). Algunos de estos métodos apenas se están volviendo prácticos, pero se debe tomar una decisión activa sobre el método que mejor se adapte a las necesidades del proyecto. Cuando la digitalización está en marcha y cada espécimen esté siendo manejado, es un buen momento para considerar otras acciones como la georreferenciación (aunque no se recomienda en aras de la eficiencia), la asignación de <<PID,identificadores persistentes (PIDs)>> (ver <<Identificadores persistentes (PIDs)>>), asignación códigos de barras de especímenes y vinculación a la base de datos para ahorrar recursos más adelante en el proceso."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:40
 msgid "It is also important that the long-term maintenance of the data is considered early in the process. Project managers may wish to consider questions such as:"
-msgstr ""
+msgstr "También es importante que el mantenimiento a largo plazo de los datos se considere temprano en el proceso. Los gestores de proyectos pueden desear considerar preguntas como:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:42
 msgid "How are we going to deal with corrections to the data?"
-msgstr ""
+msgstr "¿Cómo se va a hacer frente a las correcciones de los datos?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:43
 msgid "How do we handle feedback on data quality from data aggregators, data users, etc.?"
-msgstr ""
+msgstr "¿Cómo manejar los comentarios por parte de los agregadores de datos, los usuarios de datos, etc. sobre la calidad de los datos?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:44
 msgid "Do we have a process in place for documenting changes to the data?"
-msgstr ""
+msgstr "¿Hay en marcha un proceso para documentar los cambios en los datos?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:45
 msgid "Have we budgeted sufficient resources for ongoing maintenance and data quality checking?"
-msgstr ""
+msgstr "¿Se han presupuestado suficientes recursos para el mantenimiento continuo y la verificación de la calidad de los datos?"
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:46
 #, no-wrap
 msgid "Georeferencing Project Workflow"
-msgstr ""
+msgstr "Flujo de Trabajo para Proyectos de Georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:49
 msgid "A workflow covering all the <<georeference,georeferencing>> activities can be a valuable instrument, not only for improving the efficiency of the whole georeferencing process, but also for incorporating checks and balances, and improving the <<data quality,quality>> of the resulting product. The type of workflow may be determined by the nature of the data, the way the original data are stored or documented, the nature of the desired end product, and even by the general preferences of those involved. In the following subsections we propose a generic workflow that covers all of the major aspects of georeferencing projects. Note that some of the steps presented might not apply to every project, and one must take into account priorities as discussed in <<Planning a Georeferencing Project>>. This first section, <<Georeferencing Project Workflow>> outlines a recommended georeferencing project workflow in four phases. Subsequent sections deal with the details of some of the steps presented in the outline."
-msgstr ""
+msgstr "Un flujo de trabajo que cubra todas las actividades de <<georreferencia,georreferenciación>> puede ser un instrumento valioso, no sólo para mejorar la eficiencia de todo el proceso de georeeferenciación, pero también para incorporar controles y balances, y para mejorar la <<calidad de datos, calidad>> del producto resultante. El tipo de flujo de trabajo puede ser determinado por la naturaleza de los datos, la forma en que se almacenaron y documentaron los datos originales, la naturaleza del producto final deseado e incluso por las preferencias generales de los implicados. En las siguientes subsecciones proponemos un flujo de trabajo genérico que cubre todos los aspectos importantes de los proyectos de georreferenciación. Tenga en cuenta que algunos de los pasos presentados podrían no aplicarse a cada proyecto y que hay que tener presentes las prioridades tal y como se discutió en <<Planificando un Proyecto de Georeferenciación>>. Esta primera sección, <<Flujo de Trabajo para Proyectos de Georreferenciación>> describe un flujo de trabajo recomendado de georreferenciación en cuatro fases. Las siguientes secciones tratan los detalles de algunos de los pasos presentados en el esbozo."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:51
 msgid "Based on an assessment of a variety of large-scale georeferencing projects that had efficiency as well as data quality in mind (e.g. <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>), we recommend the following generic outline for a georeferencing project workflow using either the <<point-radius>> <<georeferencing method,method>> or the <<shape>> method, or a mix of the two. This workflow can be used for projects that involve a single individual or a large collaboration, though some steps may apply more in one case than in another. Note that some of the actions included in different phases might happen simultaneously depending on the type and scale of the project."
-msgstr ""
+msgstr "Basados en una evaluación de una variedad de proyectos de georreferenciación a gran escala que tuvieran en mente tanto la eficiencia como la calidad de los datos (p. ej. <<Ejemplo de Flujo de Trabajo de Proyecyo – MaNIS/HerpNET/ORNIS>>), recomendamos el siguiente esquema genérico para un flujo de trabajo de georreferenciación utilizando el <<método de georreferenciación,método>> <<radio-punto>> o el método de <<forma geométrica>> o una mezcla de ambos. Este flujo de trabajo se puede utilizar para proyectos que impliquen una sola persona o una gran colaboración, aunque algunos pasos pueden aplicarse más en un caso que en otro. Tenga en cuenta que algunas de las acciones incluidas en las diferentes fases pueden ocurrir simultáneamente dependiendo del tipo y la escala del proyecto."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:52
 #, no-wrap
 msgid "Project Preparation Phase"
-msgstr ""
+msgstr "Fase de Preparación del Proyecto"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:55
