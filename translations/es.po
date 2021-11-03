@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 21:46\n"
+"PO-Revision-Date: 2021-11-03 22:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2034,78 +2034,78 @@ msgstr "Fase de Preparación del Proyecto"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:55
 msgid "Commit to the use of a documented set of best practices such as those set forth in this document."
-msgstr ""
+msgstr "Comprometerse con el uso de un conjunto documentado de buenas prácticas como las expuestas en este documento."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:56
 msgid "Clearly define (and document) the goals of the project, including <<data quality>> requirements (see <<Planning a Georeferencing Project>>)."
-msgstr ""
+msgstr "Definir (y documentar) claramente los objetivos del proyecto, incluyendo los requisitos de <<calidad-de-datos, calidad de los datos>> (ver <<Planificando un Proyecto de Georeferenciación>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:57
 msgid "Determine what data will be used as input for <<georeference,georeferencing>>."
-msgstr ""
+msgstr "Determinar qué datos se usarán como entrada para <<georreferencia,georreferenciar>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:58
 msgid "Select the tools to be used."
-msgstr ""
+msgstr "Seleccionar las herramientas a utilizar."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:59
 msgid "Estimate the resources needed to complete the georeferencing preparation phase (see <<Resources Needed>>)."
-msgstr ""
+msgstr "Estimar los recursos necesarios para completar la fase de preparación de georreferenciación (ver <<Recursos Necesarios>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:60
 msgid "Assign someone to manage the project."
-msgstr ""
+msgstr "Asignar a alguien para administrar el proyecto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:61
 msgid "Acquire the resources needed to start the project."
-msgstr ""
+msgstr "Adquirir los recursos necesarios para iniciar el proyecto."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:62
 #, no-wrap
 msgid "Georeferencing Preparation Phase"
-msgstr ""
+msgstr "Fase de Preparación de Georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:65
 msgid "Assemble the data to be <<georeference,georeferenced>>."
-msgstr ""
+msgstr "Recopilar los datos a ser <<georreferencia, georreferenciados>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:66
 msgid "Prepare the data for georeferencing:"
-msgstr ""
+msgstr "Prepara los datos para la georreferenciación:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:67
 msgid "Make sure that original records are uniquely identified (ideally with <<PID,PIDs>>, see <<Persistent Identifiers (PIDs)>>)."
-msgstr ""
+msgstr "Asegurarse de que los registros originales estén identificados de forma única (idealmente con <<PID,PIDs>>, ver <<Identificadores Persistentes (PIDs)>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:68
 msgid "Make sure that original data are captured and safe from alteration during the georeferencing process."
-msgstr ""
+msgstr "Asegurarse de que los datos originales estén capturados y protegidos de cualquier alteración durante el proceso de georreferenciación."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:69
 msgid "Extract distinct combinations of all <<locality,locality-related>> fields (including administrative geography, <<elevation>>, etc.), generate unique identifiers (ideally <<GUID,GUIDs>>, see <<Persistent Identifiers (PIDs)>>) for each, and reference the corresponding locality identifier in each original record."
-msgstr ""
+msgstr "Extraer combinaciones distintas de todos los campos <<localidad, relacionados con la localidad>> (incluyendo la división político administrativa, <<elevación>>, etc.), generar identificadores únicos (idealmente <<GUID,GUIDs>>, ver <<Identificadores Persistentes (PIDs)>>) para cada uno y referenciar el identificador de localización en cada registro original correspondiente."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:70
 msgid "Use source-provided administrative geography fields to create and add standardized administrative geography values to the distinct locality records. This will help with the organization of georeferencing by region as well as facilitate lookups against geographic authorities. Optionally, extend this standardization to the contents of the specific locality fields as well. Though this approach has been taken in some large-scale georeferencing efforts such as those undertaken by CONABIO and SiB Colombia (http://repository.humboldt.org.co/bitstream/handle/20.500.11761/35180/Georreferenciaci%c3%b3n%20de%20localidades_SiBColombia.pdf?sequence=1&isAllowed=y[Escobar et al. 2016^]), there is no clear evidence that the reduction in the number of distinct localities warrants the effort required to do this standardization. More research in this area is needed."
-msgstr ""
+msgstr "Usar los campos de división político administrativa proporcionados por fuentes para crear y agregar valores de división político administrativa estandarizados a los registros de localidad. Esto ayudará a la organización de georreferenciación por región, así como a facilitar la búsqueda de autoridades geográficas. Opcionalmente, también ampliar esta estandarización a los contenidos de los campos específicos de la localidad. Aunque este enfoque se ha adoptado en algunos esfuerzos de georreferenciación a gran escala, como los realizados por CONABIO y SiB Colombia (http://repository.humboldt.org.co/bitstream/handle/20.500.11761/35180/Georreferenciaci%c3%b3n%20de%20localidades_SiBColombia.pdf?sequence=1&isAllowed=y[Escobar et al. 2016^]), no hay pruebas claras de que la reducción en el número de localidades distintas justifique el esfuerzo necesario para realizar esta estandarización. Se necesita más investigación en esta área."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:71
 msgid "Label localities as marine, terrestrial, freshwater aquatic, or paleontological. The same locality description may refer to more than one category (e.g. <<location,locations>> on coasts) unless further constraining information is used (see <<Applying Spatial Constraints>>). If dealing with localities alone, you should account for all of the environmental possibilities."
-msgstr ""
+msgstr "Identificar las localidades como marinas, terrestres, acuáticas de agua fresca o paleontológicas. La misma descripción de una localidad puede referirse a más de una categoría (p. ej. <<ubicación,ubicaciones>> en costas) a menos que se use más información para limitar las opciones (ver <<Aplicando Restricciones Espaciales>>). Al tratar con localidades únicamente, se deben considerar todas las posibilidades ambientales."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:72
