@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 23:27\n"
+"PO-Revision-Date: 2021-11-03 23:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2202,78 +2202,78 @@ msgstr "Repatriar los registros originales anexando los datos de localidad georr
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:94
 msgid "Support the incorporation of the standardized georeferenced locality data into the source data management systems (see <<Accepting Feedback from Users>>)."
-msgstr ""
+msgstr "Apoyar la incorporación de los datos de la localidad georreferenciada estandarizada en los sistemas de gestión de datos fuente (ver <<Aceptando Retroalimentación de los Usuarios>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:95
 msgid "Support the sharing of the standardized georeferenced original data (including additional <<generalization,generalizations>> and withholdings) in open data venues such as GBIF (see <<Sharing Data>>)."
-msgstr ""
+msgstr "Apoyar la divulgación de los datos originales georreferenciados estandarizados (incluyendo <<generalización, generalizaciones>> y retenciones adicionales) en plataformas de datos abiertos como GBIF (ver <<Compartiendo los Datos>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:96
 msgid "Establish a long-term data maintenance policy that includes the management of feedback on data quality and the documentation of changes (see <<Accepting Feedback from Users>>)."
-msgstr ""
+msgstr "Establecer una política de mantenimiento de datos a largo plazo que incluya la gestión de la retroalimentación sobre la calidad de los datos y la documentación de los cambios (ver <<Aceptando Retroalimentación de los Usuarios>>)."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:97
 #, no-wrap
 msgid "Project Workflow Example – MaNIS/HerpNET/ORNIS"
-msgstr ""
+msgstr "Ejemplo de Flujo de Trabajo de Proyecto – MaNIS/HerpNET/ORNIS"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:100
 msgid "One of the major contributions of the Mammal Networked Information System (MaNIS) project (https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^]) was the design and implementation of a set of <<georeference,georeferencing>> guidelines (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^]) and online resources for a http://georeferencing.org/manis/GeorefSteps.html[collaborative georeferencing workflow^]. The same basic workflow was implemented with great success for the sister projects http://herpnet.org/Gazetteer/GeorefSteps.html[HerpNET^] and the https://sites.google.com/site/ornisnet/georeferencing/workflownew[Ornithological Information System (ORNIS)^]. Between the three projects, more than 1.2 million <<locality,localities>> were georeferenced for 4.5 million vertebrate occurrence records. The basic workflow was more or less as follows:"
-msgstr ""
+msgstr "Una de las principales contribuciones del proyecto Mammal Networked Information System (MaNIS) (https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^]) fue el diseño y la implementación de un conjunto de directrices para <<georreferencia,georreferenciar>> (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^]) y recursos en línea para unhttp://georeferencing.org/manis/GeorefSteps.html[Flujo de Trabajo Colaborativo Para Georreferenciación^]. El mismo flujo de trabajo básico se implementó con gran éxito para los proyectos hermanos, http://herpnet.org/Gazetteer/GeorefSteps.html[HerpNET^] y el https://sites.google.com/site/ornisnet/georeferencing/workflownew[Ornithological Information System (ORNIS)^]. Entre los tres proyectos, más de 1,2 millones de <<localidad,localidad>> fueron georreferenciadas para 4.5 millones de registros de vertebrados. El flujo de trabajo básico fue más o menos el siguiente:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:102
 msgid "Establish a <<georeferencing method>> and select tools to be used."
-msgstr ""
+msgstr "Establecer un <<método de georreferenciación>> y seleccionar las herramientas a utilizar."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:103
 msgid "Train participants (combination of help desk, forum, documents, and in the case of HerpNET, courses)."
-msgstr ""
+msgstr "Entrenar a los participantes (una combinación de servicios de asistencia, foros, documentos y en el caso de HerpNET, cursos)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:104
 msgid "Establish a convention and tools to manage georeferencing work packages for participants."
-msgstr ""
+msgstr "Establecer una convención y las herramientas para gestionar los paquetes de trabajo de georreferenciación para los participantes."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:105
 msgid "Aggregate occurrences and extract distinct localities into a project <<gazetteer>>."
-msgstr ""
+msgstr "Agregar ocurrencias y extraer localidades distintas en un proyecto <<gacetero>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:106
 msgid "Engage participants to claim and complete (georeference) work packages."
-msgstr ""
+msgstr "Involucrar a los participantes para reclamar y completar (georreferenciar) paquetes de trabajo."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:107
 msgid "Participant downloads work package."
-msgstr ""
+msgstr "Los participantes descargan los paquetes de trabajo."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:108
 msgid "Participant georeferences work package, consulting documentation and colleagues to resolve questions."
-msgstr ""
+msgstr "Los participantes georreferencian el paquete de trabajo, consultan documentación y a colegas para resolver preguntas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:109
 msgid "Finished work package is sent to the project coordinator."
-msgstr ""
+msgstr "El paquete de trabajo terminado es enviado al coordinador del proyecto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:110
 msgid "Project coordinator validates georeferences to meet <<data quality>> standards."
-msgstr ""
+msgstr "El coordinador del proyecto valida que las georreferencias satisfagan los estándares de <<calidad de datos>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:111
 msgid "Project coordinator populates communal <<gazetteer>> with validated georeferences."
-msgstr ""
+msgstr "El coordinador del proyecto llena el <<gacetero>> comunal con las georreferencias validadas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:112
