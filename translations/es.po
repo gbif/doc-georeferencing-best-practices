@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 15:35\n"
+"PO-Revision-Date: 2021-11-03 16:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1756,7 +1756,7 @@ msgstr "Ausencias y No Detecciones"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:436
 msgid "An ‘absence’ is when a particular detection protocol, implemented at a particular location and time, does not result in a detection. True absence occurs in areas where the environmental conditions are unsuitable for a species’ survival. Recording of absences has always been contentious. This is partly because it is very much a result of subjective interpretation and it cannot be vouchered. There are three important and overlapping factors – <<location>>, time and methodology. An annual plant, for example, may not be present as an individual at the time of an observation, but may be present at a different time of the year. The location needs to be bounded and is closely linked to the methodology. <<uncertainty,Uncertainty>> of the location applies as elsewhere in this document. However, it may have additional implications. Though an observation may record that species x was not detected at a particular location at a particular time using a particular methodology, that location has an uncertainty. The uncertainty is saying that the area within which the observation (non-detection) was made is somewhere within the <<radial,radius>> or <<shape>> defined by that uncertainty. It does NOT mean that the absence can be ascribed to the totality of the area described by that uncertainty."
-msgstr ""
+msgstr "Una \"ausencia\" es cuando un protocolo de detección particular, implementado en una ubicación y tiempo determinados, no resulta en una detección. Una ausencia real ocurre en zonas donde las condiciones ambientales son inadecuadas para la supervivencia de una especie. El registro de ausencias siempre ha sido polémico. Esto se debe, en parte, a que en gran medida es resultado de una interpretación subjetiva y no puede ser comprobado. Hay tres factores importantes y superpuestos: <<ubicación>>, tiempo y metodología. Una planta anual, por ejemplo, no puede estar presente como individuo en el momento de una observación, pero puede estar presente en una época diferente del año. La ubicación debe delimitarse y está estrechamente vinculada a la metodología. La <<incertidumbre>> de la ubicación se aplica como en cualquier otra parte de este documento. Sin embargo, puede tener implicaciones adicionales. Aunque una observación puede registrar que la especie x no fue detectada en una ubicación particular en un momento determinado usando una metodología en particular, esa ubicación tiene una incertidumbre. La incertidumbre indica que el área en la que se realizó la observación (no detección) está en algún lugar dentro del <<radio>> o <<forma geométrica>> que se define por esa incertidumbre. Esto NO significa que la ausencia pueda atribuirse a la totalidad de la zona descrita por esa incertidumbre."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:438
