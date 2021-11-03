@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 16:24\n"
+"PO-Revision-Date: 2021-11-03 16:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1761,43 +1761,43 @@ msgstr "Una \"ausencia\" es cuando un protocolo de detección particular, implem
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:438
 msgid "There are many methodologies by which an observer may ascribe an absence. Each of these methodologies will have an additional methodological uncertainty associated with it, which is important to record, as it may determine the fitness of that non-detection for a particular use. For example, if you took observations every 10 meters along a <<transect>>, and the species was not detected at any of those locations, to what extent can you ascribe an absence to the area covered by the transect? Another methodology may be related to the expertise of the observer. If an expert was intensely searching an area for a species, but at the same time noticed that they hadn’t seen any records of a closely related species, which they would have noticed if it was present – what level of certainty can be given to the surmised observation that the second species is absent from the area?"
-msgstr ""
+msgstr "Hay muchas metodologías por las que un observador puede asignar una ausencia. Cada una de estas metodologías tendrá una incertidumbre metodológica adicional asociada a ella que es importante registrar, ya que puede determinar qué tan adecuada es esa no detección para un uso particular. Por ejemplo, si registró observaciones cada 10 metros a lo largo de un <<transecto>> y no detectó la especie en ninguno de esos lugares ¿en qué medida puede asignar una ausencia a la zona cubierta por el transecto? Otra metodología puede estar relacionada con la experiencia del observador. Si un experto estaba buscando intensamente una especie en un área, pero al mismo tiempo se dio cuenta de que no había ningún registro de una especie estrechamente relacionada, que seguramente hubieran registrado si estuviera presente, ¿qué nivel de certeza puede darse a la supuesta observación de que la segunda especie está ausente en la zona?"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:440
 msgid "It is thus important to document:"
-msgstr ""
+msgstr "Por tanto, es importante documentar:"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:442
 msgid "The location as discussed <<elements-for-describing-a-location,elsewhere in this document>>"
-msgstr ""
+msgstr "La ubicación tal y como se ha discutido <<elementos-para-describir-una-ubicación, en otra parte de este documento>>"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:443
 msgid "The area covered by the non-detection"
-msgstr ""
+msgstr "El área cubierta por la no detección"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:444
 msgid "The time, duration, and date"
-msgstr ""
+msgstr "La hora, duración y fecha"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:445
 msgid "The methodology used"
-msgstr ""
+msgstr "La metodología utilizada"
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:446
 #, no-wrap
 msgid "Remotely Captured Data"
-msgstr ""
+msgstr "Datos Capturados Remotamente"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:449
 msgid "{ecological}Counts of animals or plants may be made remotely – for example using an aircraft utilizing direct counts by individuals or using camera or video equipment that is then analyzed back in the laboratory. Examples include aerial counts of kangaroos, counts of whales at sea, etc. It may also include the capture of information from {marine}trawls, whereby one or more ships catch marine organisms along one or more <<path,paths>> over a given period (for example, a day) and then the catch is analyzed back on shore. Another example is the use of tracking instruments on birds or turtles, etc. that may give either periodic or intermittent reports of <<location>>. Other examples are the use of satellites to remotely image penguins in the Antarctic and then use either individual researchers or machines to count the individual penguins from the satellite image and counts of caribou in the arctic using aerial photography."
-msgstr ""
+msgstr "{ecological}Es posible hacer conteos de animales o plantas remotamente, por ejemplo usando una aeronave en el que personas realizan conteos directos o utilizando cámaras o equipos de vídeo que luego se analiza en el laboratorio. Algunos ejemplos específicos incluyen conteos aéreos de canguros, conteos de ballenas en el mar, etc. También puede incluir la captura de información de {marine}arrastres, en los que uno o más barcos capturan organismos marinos a lo largo de una o más <<ruta,rutas>> durante un período determinado (por ejemplo, un día) y luego la captura se analiza en la orilla. Otro ejemplo es el uso de instrumentos de rastreo en aves o tortugas, etc. que pueden entregar informes periódicos o intermitentes de la <<ubicación>>. Otros ejemplos son el uso de satélites para obtener remotamente imágenes de pingüinos en la Antártida y luego usar investigadores o máquinas para contar a los pingüinos en la imagen satelital, y los conteos de caribúes en el ártico mediante fotografías aéreas."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:451
