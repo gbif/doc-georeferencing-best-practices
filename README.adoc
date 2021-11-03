@@ -11,3 +11,9 @@ _This is information *about* this document's source code.  It is not part of the
 The document is available as HTML and PDF at https://docs.gbif.org/georeferencing-best-practices/1.0/[Georeferencing Best Practices].
 
 The document is built using AsciiDoc, for guidance on how to make changes or suggestions see the https://docs.gbif.org/documentation-guidelines/[GBIF Documentation Guidelines].
+
+== Notes for translators
+
+The AsciiDoctor attributes `{gcm}` points to the English Georeferencing Calculator Manual document, to make links to this document easier.  `{gqg}` points to the Georeferencing Quick Reference Guide.  `{gcm-es}` and `{gqg-es}` point to the Spanish versions of these documents.  The attributes are defined in `index.en.adoc`.
+
+Translations in progress can be viewed on the https://docs.gbif-uat.org/georeferencing-best-practices/[UAT site].
