@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 10:55\n"
+"PO-Revision-Date: 2021-11-03 14:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1626,7 +1626,7 @@ msgstr "Distancia Sobre la Superficie"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:385
 msgid "<<distance above surface,Distance above surface>> should be recorded in meters in a vertical direction from a reference point, with a minimum and a maximum distance to cover a range. Examples include the height above the ground of a soaring eagle, the distance up a tree from the ground (height), and the distance from the top of a vertical core sample to a diatom sample found in that core."
-msgstr "La <<distancia sobre la superfice>> debe registrarse en metros en dirección vertical desde un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Ejemplos incluyen la altura sobre el suelo de un águila en vuelo, la distancia hacia arriba de un árbol desde el suelo (altura) y la distancia desde la parte superior de una muestra vertical de un núcleo a una muestra de diatomeas encontrada en ese núcleo."
+msgstr "La <<distancia sobre la superficie>> debe registrarse en metros en dirección vertical desde un punto de referencia, con una distancia mínima y máxima para cubrir un rango. Ejemplos incluyen la altura sobre el suelo de un águila en vuelo, la distancia hacia arriba de un árbol desde el suelo (altura) y la distancia desde la parte superior de una muestra vertical de un núcleo a una muestra de diatomeas encontrada en ese núcleo."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:387
