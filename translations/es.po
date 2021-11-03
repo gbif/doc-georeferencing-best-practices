@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 17:22\n"
+"PO-Revision-Date: 2021-11-03 20:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1813,7 +1813,7 @@ msgstr "Datos para Etiquetas Pequeñas"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:455
 msgid "An issue that often arises with insect collections is the challenge of recording <<locality>> information on small labels. This should not be as big an issue as previously, because new technologies allow for linking information on the label to a database (through barcodes, or QR codes, etc.) with the recording of only basic information on the label. See http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^] on guidelines for preparing labels for terrestrial arthropods, but bear in mind the principles laid out in this document when preparing data for insect labels, especially the recording of <<datum>>, <<coordinate reference system>> or <<EPSG>> codes, etc., which are not covered by http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^]."
-msgstr "Un problema que suele surgir en las colecciones de insectos es el reto de registrar la información de la <<localidad>> en etiquetas pequeñas. Esto no debería ser un problema tan importante como lo era antes, pues las nuevas tecnologías permiten vincular la información de la etiqueta a una base de datos (a través de códigos de barras, códigos QR, etc.), registrando solamente información básica en la etiqueta.Consulte http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^] para conocer las pautas para la preparación de etiquetas para artrópodos terrestres, pero tenga en cuenta los principios expuestos en este documento al preparar los datos para las etiquetas de insectos, especialmente la documentación del <<datum>>, el <<sistema de coordenadas de referencia>> o códigos <<EPSG>>, etc., que no están contemplados en http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^]."
+msgstr "Un problema que suele surgir en las colecciones de insectos es el reto de registrar la información de la <<localidad>> en etiquetas pequeñas. Esto no debería ser un problema tan importante como lo era antes, pues las nuevas tecnologías permiten vincular la información de la etiqueta a una base de datos (a través de códigos de barras, códigos QR, etc.), registrando solamente información básica en la etiqueta.Consulte http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^] para conocer las pautas para la preparación de etiquetas para artrópodos terrestres, pero tenga en cuenta los principios expuestos en este documento al preparar los datos para las etiquetas de insectos, especialmente la documentación del <<datum>>, el <<sistema de referencia de coordenadas>> o códigos <<EPSG>>, etc., que no están contemplados en http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^]."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:457
@@ -1825,7 +1825,7 @@ msgstr "Documentación"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:459
 msgid "Record the sources of all measurements. Minimally, include map name and scale, the <<datum>> or <<coordinate reference system>>, the source for <<elevation>> data, the <<accuracy>> reported by the <<GPS>> receiver, the <<UTM, UTM>> Zone if using <<UTM, UTM>> <<coordinates>>, the <<extent>> and <<radial>> of the <<location>>, the method used to record the <<depth>>, etc."
-msgstr ""
+msgstr "Registre las fuentes de todas las mediciones. Mínimo incluya el nombre y la escala del mapa, el <<datum>> o <<sistema de referencia de coordenadas>>, la fuente para los datos de <<elevación>>, la <<exactitud>> reportada por el receptor <<GPS>>, la Zona <<UTM, UTM>> si se usa <<coordenadas>> <<UTM, UTM>>, la <<extensión>> y <<radio>> de la <<ubicación>>, el método utilizado para registrar la <<profunidad>>, etc."
 
 #. type: Title ==
 #: 0300-the-georeferencing-process.en.adoc:1
