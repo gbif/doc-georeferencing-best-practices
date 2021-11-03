@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 20:47\n"
+"PO-Revision-Date: 2021-11-03 21:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1836,18 +1836,18 @@ msgstr "El proceso de Georeferenciación"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:4
 msgid "<<location,Locations>> that are not fully <<georeference,georeferenced>> in the field may eventually have to be georeferenced after the fact in order to be useful. One hopes in these situations that the collector of the original information followed best practices such as those described in <<Elements for Describing a Location>>. As will be seen in <<Calculating Uncertainties>>, below, many of the greatest sources of <<uncertainty>> arise from missing, ambiguous, or non-specific information, which could have been avoided, but that can no longer be overcome without knowledge from someone who was there at the time the <<event>> occurred."
-msgstr "<<ubicación,ubicaciones>> que no son totalmente <<georreferencia,georeferenciadas>> en campo puede que posteriormente tengan que ser georeferenciadas para ser útiles. Uno espera en estas situaciones que el recolector de la información original siga unas buenas prácticas como las descritas en <<Elements for Describing a Location>>. Como se verá a continuación en <<Calculating Uncertainties>>, las mayores fuentes de <<incertidumbre>> surgen de información faltante, ambigua o no específica, que podría haberse evitado, pero que no puede solucionarse sin el conocimiento de alguien que estuvo en el momento en que el <<evento>> ocurrió."
+msgstr "Las <<ubicación,ubicaciones>> que no son totalmente <<georreferencia,georeferenciadas>> en campo puede que tengan que ser georeferenciadas posteriormente para ser útiles.En estas situaciones, uno esperaría que el recolector de la información original siga unas buenas prácticas como las descritas en <<Elementos para Describir una Ubicación>>. Como se verá a continuación en <<Calculando Incertidumbres>>, las mayores fuentes de <<incertidumbre>> surgen de información faltante, ambigua o no específica, que podría haberse evitado, pero que no puede solucionarse sin el conocimiento de alguien que estuvo en el momento en que el <<evento>> ocurrió."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:5
 #, no-wrap
 msgid "Planning a Georeferencing Project"
-msgstr "Planificando un proyecto de Georeferenciación"
+msgstr "Planificando un Proyecto de Georeferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:8
 msgid "Before beginning a <<georeference,georeferencing>> project, whether for an individual researcher or a large institution, it is helpful to anticipate the kinds of challenges one might expect to encounter. It may appear to be a daunting task, but there are many ways the process can be simplified and made more practical. Having a suitable workflow (see <<Georeferencing Project Workflow>>) decided in advance can increase both the efficiency and the consistency of the <<data quality,quality>> of the resulting georeferences. The basic determiners for a project are what you have to start with and what outputs you want when you are finished. In an ideal world, the obvious practical questions such as the cost and how long it will take would not be important, but realistically, when balanced against the benefits of making the effort, these might be the major determining factors. Following is a representative list of questions that might affect planning of a georeferencing project:"
-msgstr "Antes de comenzar un proyecto de <<georreferencia,georreferenciación>>, ya sea para un investigador individual o para una institución grande, es útil anticipar los tipos de desafíos que se espera encontrar. Puede parecer una tarea abrumadora, pero hay muchas maneras en que el proceso puede simplificarse y hacerse más práctico. Tener un flujo de trabajo adecuado (ver <<Georeferencing Project Workflow>>) decidido de antemano puede aumentar tanto la eficiencia como la consistencia de la <<calidad de los datos,calidad>> de las georeferencias resultantes. Los determinantes básicos de un proyecto son, con qué se inicia y qué resultados se esperan al terminar. En un mundo ideal, las cuestiones prácticas obvias como el costo y el tiempo que tardará el proyecto no serían importantes, pero siendo realistas, cuando se equilibra con los beneficios de hacer el esfuerzo, estos podrían ser los principales factores determinantes. A continuación se muestra una lista representativa de preguntas que pueden afectar la planificación de un proyecto de georeferenciación:"
+msgstr "Antes de comenzar un proyecto de <<georreferencia,georreferenciación>>, ya sea para un investigador individual o para una institución grande, es útil anticipar los tipos de desafíos que se espera encontrar. Puede parecer una tarea abrumadora, pero hay muchas maneras en que el proceso puede simplificarse y hacerse más práctico. Tener un flujo de trabajo adecuado (ver <<Flujo de Trabajo para Proyectos de Georreferenciación>>) decidido anticipadamente puede aumentar tanto la eficiencia como la consistencia de la <<calidad de los datos,calidad>> de las georreferencias resultantes. Los determinantes básicos de un proyecto son, con qué se inicia y qué resultados se esperan al terminar. En un mundo ideal, las preguntas prácticas obvias como el costo y el tiempo que tardará el proyecto no serían importantes, pero siendo realistas, cuando se equilibra con los beneficios de hacer el esfuerzo, estos podrían ser los principales factores determinantes. A continuación se muestra una lista representativa de preguntas que pueden afectar la planificación de un proyecto de georreferenciación:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:10
@@ -1867,12 +1867,12 @@ msgstr "¿Los datos originales ya están digitalizados?"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:13
 msgid "How many distinct <<locality>> descriptions are there to georeference?"
-msgstr "¿Cuántas descripciones de <<localidad>> únicas hay para georeferenciar?"
+msgstr "¿Cuántas descripciones de <<localidad>> únicas hay para georreferenciar?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:14
 msgid "Are there terrestrial or marine <<location,locations>> to georeference? Or both?"
-msgstr "¿Hay <<ubicación,ubicaciones>> terrestres o marinas para georeferenciar? ¿O ambas?"
+msgstr "¿Hay <<ubicación,ubicaciones>> terrestres o marinas para georreferenciar? ¿O ambas?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:15
@@ -1892,12 +1892,12 @@ msgstr "¿Cuál es el tiempo destinado para realizar el proyecto?"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:18
 msgid "When in the broader workflow will georeferencing happen?"
-msgstr "¿Cuándo, en el flujo de trabajo más amplio, tendrá lugar la georeferenciación?"
+msgstr "¿Cuándo, en el flujo de trabajo más amplio, tendrá lugar la georreferenciación?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:19
 msgid "How much of the established best practices do I really need to follow?"
-msgstr "¿Cuánto de las buenas prácticas establecidas realmente necesito seguir?"
+msgstr "¿Cuántas de las buenas prácticas establecidas realmente necesito seguir?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:20
@@ -1927,7 +1927,7 @@ msgstr "¿Qué habilidades deben tener aquellos que participen en el proyecto?"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:25
 msgid "Where can training be found?"
-msgstr ""
+msgstr "¿Dónde se puede encontrar entrenamiento?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:26
@@ -1942,12 +1942,12 @@ msgstr "Acerca del producto final:"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:28
 msgid "What data quality target is there for the georeferences?"
-msgstr "¿Qué es el nivel de calidad de los datos objetivo para la georeferencias?"
+msgstr "¿Cuál es el objetivo de calidad de los datos para la georreferencias?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:29
 msgid "How will data validation take place?"
-msgstr "¿Cómo se realizará la validación de los datos?"
+msgstr "¿Cómo se hará la validación de los datos?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:30
@@ -1957,17 +1957,17 @@ msgstr "¿Cómo se hará el mantenimiento de los datos?"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:31
 msgid "How will the georeferenced data be used and by whom?"
-msgstr "¿Cómo serán utilizados los datos georeferenciados y por quién?"
+msgstr "¿Cómo serán utilizados los datos georreferenciados y por quién?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:32
 msgid "Will the georeferences be generalized on export (for sensitive species, for example)?"
-msgstr "¿Se generalizarán las georeferencias en la exportación (para especies sensibles, por ejemplo)?"
+msgstr "¿Se generalizarán las georreferencias en la exportación (para especies sensibles, por ejemplo)?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:33
 msgid "How can the georeferences be integrated back into the original data?"
-msgstr "¿Cómo se pueden integrar las georeferencias a los datos originales?"
+msgstr "¿Cómo se pueden integrar las georreferencias a los datos originales?"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:34
@@ -1977,7 +1977,7 @@ msgstr "¿Cómo puede incorporar mecanismos adecuados de retroalimentación sobr
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:36
 msgid "The question, \"When in the broader workflow will georeferencing happen?\" is of particular significance. Is it best to georeference each record as you enter the data into the database? Or is it better to <<georeference>> in a batch after the data have been entered? There are arguments for each method, and again the circumstances of your institution should dictate the best method. If the data are stored taxonomically and not geographically (as is the case in the majority of instances) it is often best to georeference in a batch mode by sorting the locality data electronically, and in this way deal with many records on one map sheet or area at a time and not jump back and forth between map sheets. In other cases, it may be more important to minimize wear and tear on collections, and you may wish to database collections as they are received before distributing duplicates or sending on loan. There may be other good practical reasons to georeference as you go. One advantage of georeferencing as you go is that you may be able to do all the collections of one collector at a time, and virtually follow his/her path, thus reducing errors from not knowing which of several localities may be correct."
-msgstr "La pregunta, \"¿Cuándo, en el flujo de trabajo más amplio, tendrá lugar la georeferenciación?\" es de especial importancia. ¿Es mejor georeferenciar cada registro al ingresar los datos en la base de datos? ¿O es mejor <<georeferenciar>> un lote después de que se hayan ingresado los datos? Hay argumentos para cada método, y una vez más, las circunstancias de su institución deberían dictar el mejor método. Si los datos se almacenan taxonómicamente y no geográficamente (como es el caso en la mayoría de las instancias) a menudo es mejor georeferenciar por lote ordenando los datos de la localidad electrónicamente, y de esta manera tratar muchos registros en un mapa análogo o área a la vez y no saltar de un lado a otro entre mapas análogos. En otros casos, puede ser más importante minimizar el desgaste de las colectas, y usted puede desear ingresar las colectas en la base de datos a medida que son recibidas antes de distribuir duplicados o enviar un préstamo. Puede haber otras buenas razones prácticas para georeferenciar a medida que se ingresan los datos. Una ventaja de la georeferenciación a medida que se ingresan los datos es que puede hacer todas las colectas de un colector a la vez y prácticamente seguir su camino, reduciendo así los errores de no saber cuál de las múltiples localidades pueden ser correctas."
+msgstr "La pregunta, \"¿Cuándo, en el flujo de trabajo más amplio, tendrá lugar la georreferenciación?\" es de especial importancia. ¿Es mejor georreferenciar cada registro al ingresar los datos en la base de datos? ¿O es mejor <<georreferenciar>> un lote después de que se hayan ingresado los datos? Hay argumentos para cada método, y una vez más, las circunstancias de su institución deberían dictar el mejor método. Si los datos se almacenan taxonómicamente y no geográficamente (como es el caso en la mayoría de las instancias) a menudo es mejor georreferenciar por lote ordenando los datos de la localidad electrónicamente, de esta manera puede tratar muchos registros en un mapa análogo o área a la vez y no saltar de un lado a otro entre mapas análogos. En otros casos, puede ser más importante minimizar el desgaste de las colectas, usted puede querer ingresar las colectas en la base de datos a medida que son recibidas antes de distribuir duplicados o enviar un préstamo. Puede haber otras buenas razones prácticas para georreferenciar a medida que se ingresan los datos. Una ventaja de la georreferenciación a medida que se ingresan los datos es que puede tratar todas las colectas de un colector a la vez y prácticamente seguir su camino, reduciendo así los errores de no saber cuál de las múltiples localidades pueden ser correctas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:38
