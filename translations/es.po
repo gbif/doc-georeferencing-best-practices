@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 22:30\n"
+"PO-Revision-Date: 2021-11-03 22:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2110,68 +2110,68 @@ msgstr "Identificar las localidades como marinas, terrestres, acuáticas de agua
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:72
 msgid "Create and uniquely identify distinct standardized localities and reference the standardized locality GUID in the non-standardized locality records."
-msgstr ""
+msgstr "Crear e identificar de forma única las localidades estandarizadas y referenciar la localidad estandarizada GUID en los registros de localidad no estandarizados."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:73
 msgid "Match standardized localities against existing localities that have already been georeferenced using satisfactory <<georeferencing method,georeferencing methods>> and extract the existing georeferences (see <<Using Previously Georeferenced Records>>)."
-msgstr ""
+msgstr "Comparar las localidades estandarizadas con localidades existentes que ya han sido georreferenciadas usando <<método de georreferenciación,métodos de georreferenciación>> satisfactorios y extraer las georreferencias existentes (ver <<Usando Registros Previamente Georreferenciados>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:74
 msgid "Assess the characteristics of the data to be georeferenced (e.g. how many already have <<coordinates>> without georeferences? How many consist only of administrative geography? What is the geographic distribution of the localities?) with a view to determining the resources that will be needed to complete the project."
-msgstr ""
+msgstr "Evaluar las características de los datos a ser georeferenciados (p. ej. ¿cuántos ya tienen <<coordenadas>> sin georreferencias? ¿cuántos consisten sólo en la división político administrativa? ¿cuál es la distribución geográfica de las localidades?) en aras de determinar los recursos que serán necesarios para completar el proyecto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:75
 msgid "Estimate the resources needed to complete the project using the information determined in the project preparation phase."
-msgstr ""
+msgstr "Estimar los recursos necesarios para completar el proyecto utilizando la información determinada en la fase de preparación del proyecto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:76
 msgid "Acquire the resources to complete the project."
-msgstr ""
+msgstr "Adquirir los recursos para completar el proyecto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:77
 msgid "Train participating contributors and georeferencing operators (see <<Data Entry>> and <<Training>>)."
-msgstr ""
+msgstr "Entrenar colaboradores participantes y operadores de georreferenciación (ver <<Entrada de Datos>> y <<Entrenamiento>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:78
 msgid "Establish a convention and tools to manage participation (assignments)."
-msgstr ""
+msgstr "Establecer una convención y las herramientas para gestionar la participación (tareas)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:79
 msgid "Prepare data capture requirements and tools (see <<Data to Capture>>, <<User Interfaces>>, <<Using Standards and Guidelines>>, and <<Mapping to Darwin Core>>)."
-msgstr ""
+msgstr "Preparar los requisitos y herramientas de captura de datos (ver <<Datos a Capturar>>, <<Interfaces de Usuario>>, <<Usando Estándares y Pautas>> y <<Mapeando al Darwin Core>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:80
 msgid "Assign priorities to sets of standardized localities."
-msgstr ""
+msgstr "Asignar prioridades a conjuntos de localidades estandarizadas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:81
 msgid "Assign standardized locality sets to participants."
-msgstr ""
+msgstr "Asignar conjuntos de localidades estandarizadas a los participantes."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:82
 #, no-wrap
 msgid "Georeferencing Phase"
-msgstr ""
+msgstr "Fase de georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:85
 msgid "Participants <<georeference>> assigned <<locality>> sets as outlined in <<Georeferencing Workflow – Localities>>."
-msgstr ""
+msgstr "Los participantes <<georreferencian>> los conjuntos de <<localidad, localidades>> asignados como se describe en <<Flujo de Trabajo de Georreferenciación: Localidades>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:86
 msgid "Participants utilize <<georeferencing protocol,protocols>> and tools such as the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]."
-msgstr ""
+msgstr "Los participantes utilizan <<protocolo de georreferenciación, protocolos>> y herramientas como la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] y la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^]."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:87
