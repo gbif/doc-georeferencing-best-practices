@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 15:08\n"
+"PO-Revision-Date: 2021-11-03 15:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1745,13 +1745,13 @@ msgstr "Lidiando con Registros No Naturales"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:432
 msgid "Records of non-natural occurrences such as cultivated plants and captive animals, and records resulting from {marine}beach drift or having been washed ashore (such as shells on a beach that do not contain live animals) should have their \"non-natural\" or \"non-wild\" provenance recorded. There may be many valuable uses for these records even if the <<location,locations>> do not correspond to natural occurrences of the organisms. We recommend that the location be recorded and <<georeference,georeferenced>>, along with the nature of the provenance (cultivated, captive, washed ashore, etc.)."
-msgstr ""
+msgstr "La documentación de registros no naturales como plantas cultivadas y animales cautivos y los registros resultantes de {marine}derivas litorales o por haber sido arrastrados a la orilla (como los conchas en una playa que no contienen animales vivos) deben tener documentada su procedencia \"no natural\" o \"no salvaje\". Puede haber muchos usos valiosos para estos registros, incluso si las <<ubicación,ubicaciones>> no corresponden a registros naturales de los organismos. Recomendamos que la ubicación se documente y <<georreferencia,georreferencie>>, junto con la naturaleza de la procedencia (cultivado, cautivo, arrastrado a la orilla, etc.)."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:433
 #, no-wrap
 msgid "Absences and Non-Detections"
-msgstr ""
+msgstr "Ausencias y No Detecciones"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:436
