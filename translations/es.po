@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 14:30\n"
+"PO-Revision-Date: 2021-11-03 15:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1685,7 +1685,7 @@ msgstr "El segundo método (que usa la boca de la cueva) que probablemente se us
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:410
 msgid "Traditionally, cavers have recorded the depth in a {caves}cave as the depth below the surface, however, in this document and for the purposes of recording biological observations, we use <<elevation>> (above <<mean-sea-level>> or <<geoid>>) for a position at the floor of the cave."
-msgstr "Tradicionalmente, los espeleólogos han registrado la profundidad en una {caves}cueva como la profundidad debajo de la superficie, sin embargo, en este documento y con el fin de registrar observaciones biológicas, usamos la <<elevación>> (por encima del <<nivel medio del mar>> o <<geoide>>) para una posición en el suelo de la cueva."
+msgstr "Tradicionalmente, los espeleólogos han registrado la profundidad en una {caves}cueva como la profundidad debajo de la superficie, sin embargo, en este documento y con el fin de registrar observaciones biológicas, usamos la <<elevación>> (por encima del <<nivel medio del mar>> o <<geoide>>) para una posición en el fondo de la cueva."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:412
@@ -1695,7 +1695,7 @@ msgstr "La distancia por debajo de la <<cota cero>> puede determinarse usando el
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:414
 msgid "From these figures, it is possible to determine the <<elevation>> of the floor of the cave by taking the elevation at ground zero and deducting the calculated distance below that point (see <<img-vertical-position-in-a-cave>>). Note that when determining elevation in a cave, the accuracy mentioned above is additional to the elevation uncertainty determined for the elevation at ground zero."
-msgstr "A partir de estas figuras, es posible determinar la <<elevación>> del suelo de la cueva tomando la elevación en la cota cero y deduciendo la distancia calculada debajo de ese punto (ver <<img-vertical-position-in-a-cave>>). Tenga en cuenta que al determinar la elevación en una cueva, la precisión mencionada anteriormente es adicional a la incertidumbre de la elevación determinada para la elevación en la cota cero."
+msgstr "A partir de estas figuras, es posible determinar la <<elevación>> del fondo de la cueva tomando la elevación en la cota cero y deduciendo la distancia calculada debajo de ese punto (ver <<img-vertical-position-in-a-cave>>). Tenga en cuenta que al determinar la elevación en una cueva, la precisión mencionada anteriormente es adicional a la incertidumbre de la elevación determinada para la elevación en la cota cero."
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:416
@@ -1706,7 +1706,7 @@ msgstr "Usar mapas detallados de cuevas puede proporcionar una alternativa mejor
 #: 0200-elements-for-describing-a-location.en.adoc:418
 #, no-wrap
 msgid "Specifying the vertical position of a location in a cave using an elevation *e* and a distance above surface *X*. The location *a* is at a vertical distance *X* directly above the floor of the cave, which is at elevation *e*. The elevation of **e** is determined within the cave by surveying from a known elevation on the cave floor *e1*, which is calculated using an estimated distance below the surface elevation at ground zero *GZ*."
-msgstr "Especificando la posición vertical de una ubicación en una cueva usando una elevación *e* y una distancia por encima de la superficie *X*. La ubicación *a* está a una distancia vertical *X* directamente sobre el suelo de la cueva, la cual corresponde la elevación *e*. La elevación de **e** se determina dentro de la cueva por medio de la prospección desde una elevación conocida en el suelo de la cueva *e1*, que se calcula utilizando una distancia estimada por debajo de la elevación de la superficie en la cota cero *GZ*."
+msgstr "Especificando la posición vertical de una ubicación en una cueva usando una elevación *e* y una distancia por encima de la superficie *X*. La ubicación *a* está a una distancia vertical *X* directamente sobre el fondo de la cueva, la cual corresponde la elevación *e*. La elevación de **e** se determina dentro de la cueva por medio de prospección desde una elevación conocida en el suelo de la cueva *e1*, que se calcula utilizando una distancia estimada por debajo de la elevación de la superficie en la cota cero *GZ*."
 
 #. type: Target for macro image
 #: 0200-elements-for-describing-a-location.en.adoc:419
@@ -1723,24 +1723,24 @@ msgstr "Profundidad en Cuerpos de Agua Subterráneos"
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:424
 msgid "The water <<depth>> within a subterranean water body (lake, river, sinkhole, etc.) is recorded as for other water bodies and is measured from the surface of the water body (see <<img-depth-elevation-distance-above-surface>>B). The <<elevation>> of the surface of the water body is determined as for the floor of the cave in <<img-vertical-position-in-a-cave>>."
-msgstr "La <<profundidad>> del agua dentro de un cuerpo de agua subterráneo (lago, río, sumidero, etc.) se registra como para otros cuerpos de agua y se mide a partir de la superficie del cuerpo de agua (ver <<img-depth-elevation-distance-above-surface>>B). La <<elevación>> de la superficie del cuerpo de agua se determina como para al suelo de la cueva en <<img-vertical-position-in-a-cave>>."
+msgstr "La <<profundidad>> del agua dentro de un cuerpo de agua subterráneo (lago, río, sumidero, etc.) se registra como para otros cuerpos de agua y se mide a partir de la superficie del cuerpo de agua (ver <<img-depth-elevation-distance-above-surface>>B). La <<elevación>> de la superficie del cuerpo de agua se determina como para al fondo de la cueva en <<img-vertical-position-in-a-cave>>."
 
 #. type: Title ====
 #: 0200-elements-for-describing-a-location.en.adoc:425
 #, no-wrap
 msgid "Distance Above or Below a Surface"
-msgstr ""
+msgstr "Distancia Sobre o Debajo de una Superficie"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:428
 msgid "Determining the <<distance above surface,distance above>> (and below) a surface (as documented elsewhere) is treated the same within a {caves}cave system (see <<img-depth-elevation-distance-above-surface>>B, <<img-vertical-position-in-a-cave>>). As above, the <<elevation>> of the cave floor has been determined, so a troglobiont (e.g. an animal) on the roof of the cave is given as meters above the floor of the cave whose elevation has been determined as above (\"X\" in <<img-vertical-position-in-a-cave>>)."
-msgstr ""
+msgstr "La determinación de la <<distancia sobre la superficie,distancia sobre>> y debajo de una superficie (como se documenta en otros lugares) se debe hacer de la misma manera que dentro de un sistema de {caves}cuevas(ver <<img-depth-elevation-distance-above-surface>>B, <<img-vertical-position-in-a-cave>>). Al igual que antes, la <<elevación>> del fondo de la cueva ha sido determinada, por lo que un troglobionte (p. ej. un animal) en el techo de la cueva se indica en metros sobre el fondo de la cueva, cuya elevación se ha determinado como se mencionó anteriormente (\"X\" en <<img-vertical-position-in-a-cave>>)."
 
 #. type: Title ===
 #: 0200-elements-for-describing-a-location.en.adoc:429
 #, no-wrap
 msgid "Dealing with Non-natural Occurrences"
-msgstr ""
+msgstr "Lidiando con Registros No Naturales"
 
 #. type: quote
 #: 0200-elements-for-describing-a-location.en.adoc:432
