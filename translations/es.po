@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 20:43\n"
+"PO-Revision-Date: 2021-11-04 21:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2544,23 +2544,23 @@ msgstr "Interfaces de Usuario"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:196
 msgid "Good user-friendly interfaces are essential to make <<georeference,georeferencing>> efficient and rapid, and to cut down on operator <<error,errors>>. The design should take into consideration the specific details of the georeferencing workflow, and optimize simultaneously for both overall efficiency, and consistency of the data entry process. This will improve accuracy and cut down on errors. The layout should be friendly, easy to use, and easy on the eyes. Where possible (and the software allows it) a number of different views of the data should be presented. These views can place emphasis on different aspects of the data and help data entry operator proficiency by allowing different ways of entering the data and by presenting a changing view for the operator."
-msgstr ""
+msgstr "Las buenas interfaces amigables con el usuario son esenciales para hacer la <<georrefencia,georreferenciación>> eficiente y rápida, también para reducir los <<error,errores>> del operador. El diseño debe tener en cuenta los detalles específicos del flujo de trabajo de georreferenciación y optimizar simultáneamente tanto la eficiencia general como la consistencia del proceso de entrada de datos. Esto mejorará la exactitud y reducirá los errores. El diseño debe ser amigable, fácil de usar y agradable a la vista. Cuando sea posible (y el software lo permita) se deben presentar varias maneras diferentes de visualizar los datos. Estas visualizaciones pueden hacer hincapié en diferentes aspectos de los datos y ayudar a la eficiencia de los operadores de datos al permitirles diferentes maneras para ingresar los datos y presentandoles una visualización variable."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:198
 msgid "In the same way, macros and scripts can help with automated and semi-automated procedures, reducing the need for tedious (and time-consuming) repetition. For example, if the data are being entered from a number of collections by one collector, taken at the same time from the same <<location>>, the information that is repeated from record to record should be able to be entered using just one or two keystrokes."
-msgstr ""
+msgstr "De la misma manera, los macros y los scripts pueden ayudar con procedimientos automatizados y semi-automatizados, reduciendo la necesidad de repeticiones tediosas (y que consumen mucho tiempo). Por ejemplo, si los datos están siendo introducidos desde varias colecciones por un colector y son registros tomados al mismo tiempo, en la misma <<ubicación>>, se debe ser capaz de ingresar la información que se repite de registro a registro usando sólo una o dos pulsaciones de teclado."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:200
 msgid "If maps are being used to assist in determining georeferences, a view that sorts the data geographically may also make the process more efficient by allowing the data operator to see all the records that may fall on one map sheet. Finally, it is also important to decide which fields the data entry operators should see when they are georeferencing. Fields such as date of collection, collector, specimen ID, taxonomy, habitat, and formation (for paleontological records) are very helpful for georeferencers to see along with the more obvious locality data."
-msgstr ""
+msgstr "Si se están usando mapas para apoyar la determinación de las georreferencias, una vista que ordene los datos geográficamente también puede hacer el proceso más eficiente, permitiendo que el operador de datos vea todos los registros que pueden caer en una misma zona del mapa. Por último, también es importante decidir cuáles son los campos que los operadores de entrada de datos deben ver cuando están georreferenciando. Campos como fecha de colección, colector, ID del espécimen, taxonomía, hábitat y la formación (para los registros paleontológicos) es muy útil que los georreferenciadores los vean junto con los datos más obvios de la localidad."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:201
 #, no-wrap
 msgid "Using Standards and Guidelines"
-msgstr ""
+msgstr "Usando Normas y Directrices"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:204
