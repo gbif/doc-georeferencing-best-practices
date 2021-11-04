@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 19:03\n"
+"PO-Revision-Date: 2021-11-04 19:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2407,22 +2407,22 @@ msgstr "Al dividir los datos en el proceso de entrada, siempre incluya uno o var
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:156
 msgid "Automatic format transformations to <<decimal degrees>> may introduce <<false precision>>. See <<accuracy-error-bias-precision-false-precision-and-uncertainty,§1.6>>."
-msgstr ""
+msgstr "Las transformaciones de formato automáticas a <<grados decimales>> pueden introducir <<falsa precisión>>. Ver <<exactitud-error-sesgo-precisión-falsa-precisión-e-incertidumbre,§1.6>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:158
 msgid "Be careful with any automatic data formatting or transformation in your database, especially when incorporating original data. Sometimes databases are set to have a particular type or format for data in a given field (e.g. numbers, dates, etc.), which can change the original data and result in irrecoverable losses of information. In this sense, it is recommended that you set all verbatim data fields to be of type \"text\". Also be aware of the encoding of the data upon import and export, because if the encoding of the data does not match the encoding of the destination, the data can be corrupted."
-msgstr ""
+msgstr "Tenga cuidado con cualquier edición o transformación automática en su base de datos, especialmente al incorporar los datos originales. A veces se restringen algunos campos de las bases de datos para recibir un determinado tipo o formato (p. ej. números, fechas, etc.), esto puede generar cambios en los datos originales y provocar pérdidas irrecuperables de información. En este sentido, se recomienda que establecer todos los campos de datos originales para ser de tipo \"text\". También tenga en cuenta la codificación de los datos al importar y exportar, porque si la codificación de los datos no coincide con la codificación del destino, los datos pueden corromperse."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:160
 msgid "It is always advisable to test the structure of your database with a small sample of records before committing to using it for the whole project. In doing so, you may detect additional fields that are needed and/or fields that require definition review or that are not used at all."
-msgstr ""
+msgstr "Siempre es aconsejable probar la estructura de su base de datos con una pequeña muestra de registros antes de comprometerse a utilizarla para todo el proyecto. Al hacerlo, puede detectar campos adicionales que son necesarios y/o campos que requieren que se revise su definición o que no se utilizan en absoluto."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:162
 msgid "A reference worth checking before developing your own database system is the Herbarium Information Standards and Protocols for Interchange of Data (http://plantnet.rbgsyd.nsw.gov.au/HISCOM/HISPID/HISPID4/Introduction/hispid4.html[Conn 1999^], https://github.com/hiscom/hispid5[Neish et al. 2007^]), which, although set up for data interchange between herbaria, is applicable to most data from natural history collections."
-msgstr ""
+msgstr "Una referencia que vale la pena consultar antes de desarrollar su propio sistema de base de datos es los Estándares de Información de Herbario y Protocolos para el Intercambio de Datos (http://www.tdwg.org/standards/110[Conn 1999^], https://github.com/hiscom/hispid5[Neish et al. 2007^]), que, a pesar de que fue creado para el intercambio de datos entre herbarios, es aplicable a la mayoría de los datos de colecciones de historia natural."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:164
