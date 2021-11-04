@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 16:00\n"
+"PO-Revision-Date: 2021-11-04 16:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2314,29 +2314,29 @@ msgstr "Una extensión de este método podría beneficiarse de un sistema de dat
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:123
 msgid "A preliminary study (Wieczorek pers. comm.) of roughly 33.1 million occurrences for 38.7 thousand plant taxa in GBIF from 15 April 2019 (https://doi.org/10.15468/dl.5pmzev[GBIF 2019^]) showed that the records were associated with 7.2 million distinct locations, of which 25.7 per cent (30.9 per cent of occurrences) already had georeferences (i.e. term:dwc[decimalLatitude], term:dwc[decimalLongitude], term:dwc[geodeticDatum] and term:dwc[coordinateUncertaintyInMeters]). Of those without georeferences, exact matches (on geography plus locality fields, all turned into upper case) from other locations in GBIF could be found for 2.5 per cent of distinct locations (11.4 per cent of occurrences)."
-msgstr ""
+msgstr "Un estudio preliminar (Wieczorek pers. comm.) que incluía aproximadamente 33.1 millones de registros de 38.7 taxa de plantas en GBIF desde el 15 de abril del 2019 (https://doi.org/10.15468/dl.5pmzev[GBIF 2019^]) mostró que los registros estaban asociados con 7.2 millones de ubicacioces, de las cuales el 25.7 por ciento (30.9 por ciento de los registros) ya contaban con georreferencias (en específico term:dwc[decimalLatitude], term:dwc[decimalLongitude], term:dwc[geodeticDatum] and term:dwc[coordinateUncertaintyInMeters]). De los registros que no tenían georreferencias se encontraron coincidencias exactas (en los campos de geografía y de localidad, todo en mayúscula) con otras ubicaciones en GBIF para el 2.5 por ciento de las ubicaciones (11.4 por ciento de los registros)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:125
 msgid "In the case where multiple possible georeferences are found using a lookup on previously existing georeferenced locations, the problem is knowing which of the several georeferences, if any, to choose."
-msgstr ""
+msgstr "En el caso de encontrar múltiples georreferencias posibles mediante una búsqueda de localidades existentes previamente georreferenciadas, el problema es saber cuál de las georreferencias elegir, si es que se llega a elegir alguna."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:127
 msgid "If the georeference is not fully documented following best practices (including being reproducible), we recommend that existing georeferences not be used (or used only with extreme caution). Even if the georeference is documented, it should be checked visually on a map to be sure that it makes sense, just as for any new georeference."
-msgstr ""
+msgstr "Si la georreferencia no está totalmente documentada siguiendo las buenas prácticas (incluyendo ser reproducible), recomendamos que las georreferencias existentes no se utilicen (o que se utilicen sólo con extrema precaución). Incluso, si la georreferencia está completamente documentada, debería ser verificada visualmente en un mapa para asegurarse de que tiene sentido al igual que para cualquier georreferencia nueva."
 
 #.  TODO: Was CARE.
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:130
 msgid "The re-use of existing georeferences can propagate errors, if a mistake was made the first time. Existing georeferences should be verified just as for any newly generated georeference."
-msgstr ""
+msgstr "La reutilización de georreferencias existentes puede propagar errores si se cometió un error la primera vez. Las georreferencias existentes deben ser verificadas igual que cualquier georreferencia generada recientemente."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:131
 #, no-wrap
 msgid "Resources Needed"
-msgstr ""
+msgstr "Recursos Necesarios"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:134
