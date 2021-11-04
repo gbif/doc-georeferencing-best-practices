@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 16:51\n"
+"PO-Revision-Date: 2021-11-04 17:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2392,7 +2392,7 @@ msgstr "¿Cuáles son los campos que necesita en su base de datos para almacenar
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:150
 msgid "It is also of benefit to name the fields unambiguously, as users tend to go by the field names rather than looking at the field definitions. Thus, 'latitude_in_degrees' is a better name than '<<latitude>>' for a field that is supposed to contain latitudes in <<decimal degrees>>, while 'verbatim_latitude' is better name for a field that is supposed to contain the <<latitude>> in the format given in the source. The names and definitions of fields in <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) were created specifically with this principle of clarity in mind. In order to take advantage of a community standard set of definitions, it is not a bad idea to use the term names from Darwin Core as field names in the database if the semantics of the two are the same."
-msgstr ""
+msgstr "También es beneficioso que los nombres de los campos no sean ambiguos, pues los usuarios suelen guiarse por los nombres de los campos en vez de mirar las definiciones. Por lo tanto, 'latitud_en_grados' es un mejor nombre que '<<latitud>>' para un campo que supuestamente contiene latitudes en <<grados decimales>>, mientras que 'latitud_original' es un mejor nombre para un campo que debe contener la <<latitud>> en el formato dado en la fuente. Los nombres y definiciones de los campos del <<Darwin Core>> https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) fueron creados específicamente con este principio de claridad en mente. Con el fin de aprovechar un conjunto de definiciones de estándares comunitarios, no es una mala idea usar los nombres de los campos del Darwin Core como nombres de los campos en la base de datos si la semántica de ambos es la misma."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:152
