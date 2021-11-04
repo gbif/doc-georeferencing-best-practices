@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 19:36\n"
+"PO-Revision-Date: 2021-11-04 20:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2427,98 +2427,98 @@ msgstr "Una referencia que vale la pena consultar antes de desarrollar su propio
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:164
 msgid "Many institutions separate <<locality>> descriptions into their component parts; <<feature>> name, distance, <<direction>>, etc., and store this information in separate fields in their databases. If this division of locality information is done, it is important not to replace the verbatim free-text locality field (the data as written on the label or in the field notebook), but instead add additional fields. This is because any transformation of data has the potential to lose information and to introduce <<error,errors>>, and the written format of the description may be the only original source available. The original information should _never_ be overwritten or deleted."
-msgstr ""
+msgstr "Muchas instituciones separan las descripciones de las <<localidades>> en las partes que las componen: nombre de la <<entidad geográfica>>, distancia, <<dirección>>, etc., y almacenan esta información en campos separados en sus bases de datos. Si se decide dividir la información de la localidad, es importante no reemplazar el campo original de texto libre (los datos escritos tal como en la etiqueta o en la libreta de campo), en cambio debe agregar campos adicionales. Esto es necesario pues cualquier transformación de datos tiene el potencial de generar una pérdida de información e introducir <<error,errores>>. En este caso el formato escrito de la descripción puede ser la única fuente original disponible. La información original _nunca_ debe ser sobrescrita o eliminada."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:166
 msgid "Location-related fields to consider for georeferencing include all of the geography, locality, <<elevation>>, <<depth>>, and georeference terms in the Location class of Darwin Core (see term:dwc[location] and <<Mapping to Darwin Core>>) as well as the following fields that can have an influence on the georeference:"
-msgstr ""
+msgstr "Los campos relacionados con la ubicación a considerar para la georreferencia incluyen: la totalidad de la geografía, la localidad, la <<elevación>>, la <<profundidad>> y los campos de georreferencia en la clase Ubicación del Darwin Core (ver término:dwc[location] y <<Mapeando al Darwin Core>>) así como los siguientes campos que pueden tener influencia en la georreferencia:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:168
 msgid "As many levels of administrative subdivision as necessary (e.g. country, state, county, municipality, etc.), though if the geographic scope is multinational, it is better to name the administrative subdivisions more generically to avoid confusion (e.g. country, geog_admin_1, geog_admin_2, etc.)"
-msgstr ""
+msgstr "Tantos niveles de subdivisión administrativa como sea necesario (p. ej. país, estado, condado, municipio, etc.), aunque si el alcance geográfico es multinacional, es mejor nombrar las subdivisiones administrativas de manera más genérica para evitar confusión (p. ej. país, geog_admin_1, geog_admin_2, etc.)"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:169
 msgid "Feature name, feature-type, <<offset>> distance, offset direction, offset units"
-msgstr ""
+msgstr "Nombre de la entidad geográfica, tipo de la entidad geográfica, distancia de <<desplazamiento>>, dirección de desplazamiento, unidades del desplazamiento"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:170
 msgid "Feature <<shape>>, feature center, feature radial"
-msgstr ""
+msgstr "<<forma geométrica, Forma geométrica>> de la entidad geográfica, centro de la entidad geográfica, radio de la entidad geográfica"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:171
 msgid "Township, range, section, subsection or similar for other <<grid>> systems"
-msgstr ""
+msgstr "Municipio (township), rango, sección (section), subsección o similares para otro tipo de sistemas de <<grilla, grillas>>"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:172
 msgid "Protected area"
-msgstr ""
+msgstr "Área protegida"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:173
 msgid "Watershed"
-msgstr ""
+msgstr "Cuenca hidrográfica"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:174
 msgid "Map quad"
-msgstr ""
+msgstr "Mapas quad"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:175
 msgid "<<UTM>> <<easting>>, <<northing>>, and zone"
-msgstr ""
+msgstr "<<UTM>> <<este>>, <<norte>> y zona"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:176
 msgid "For {marine}marine locations － nearest island, exclusive economic zone, etc."
-msgstr ""
+msgstr "Para {marine} ubicaciones marinas: isla más cercana, zona económica exclusiva, etc."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:177
 msgid "Elevation <<accuracy>>, <<vertical datum>>, and the method of determining elevation"
-msgstr ""
+msgstr "<<exactitud, Exactitud>> de la elevación, <<datum vertical>> y el método usado para determinar la elevación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:178
 msgid "<<depth,Depth>> <<accuracy>>, vertical datum, and the method of determining depth"
-msgstr ""
+msgstr "<<exactitud,Exactitud>> de la <<profundidad>>, datum vertical y el método usado para determinar la profundidad"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:179
 msgid "Latitude degrees, latitude minutes, latitude seconds, latitude hemisphere, <<longitude>> degrees, longitude minutes, longitude seconds, longitude hemisphere"
-msgstr ""
+msgstr "Grados de latitud, minutos de latitud, segundos de latitud, hemisferio de latitud, grados de <<longitud>>, minutos de longitud, segundos de longitud, hemisferio de longitud"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:180
 msgid "Biome, to distinguish terrestrial, freshwater aquatic, and marine locations"
-msgstr ""
+msgstr "Bioma, para distinguir las ubicaciones terrestres, acuáticas de agua dulce y marinas"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:181
 msgid "<<event,Event>> date (best to follow and enforce a standard format, such as ISO 8601 (https://www.iso.org/standard/70907.html[ISO 2019^]). Note that if your project is dealing with <<location>> information only (dissociated from occurrence or event records), this may not be possible or advisable."
-msgstr ""
+msgstr "Fecha del <<evento>> (mejor seguir y aplicar un formato estándar, como ISO 8601 (https://www.iso.org/standard/70907.html[ISO 2019^]). Tenga en cuenta que si su proyecto trata únicamente con información de <<ubicación,ubicaciones>> (disociado de registros o registros de eventos), esto puede no ser posible o aconsejable."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:182
 msgid "Fields in the Darwin Core term:dwc[GeologicalContext] class for paleontological occurrences"
-msgstr ""
+msgstr "Campos en la clase term:dwc[GeologicalContext] (contexto geológico) del Darwin Core para registros paleontológicos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:184
 msgid "When adding extra fields to your database, always consider that the more fields you add, the higher the chances that data entry operators could make a mistake. Therefore, although having more fields has many advantages when it comes to checking the results, try to avoid over parsing information if not really necessary."
-msgstr ""
+msgstr "Cuando agregue campos adicionales a su base de datos, siempre considere que cuantas más campos añada, mayor es la probabilidad de que los operadores de entrada de datos puedan cometer un error. Por lo tanto, aunque tener más campos tiene muchas ventajas a la hora de verificar los resultados, trate de evitar el sobre análisis de información si no es realmente necesario."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:185
 #, no-wrap
 msgid "Applying Data Constraints"
-msgstr ""
+msgstr "Aplicando Restricciones de Datos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:188
