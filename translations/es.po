@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 17:17\n"
+"PO-Revision-Date: 2021-11-04 17:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2397,7 +2397,7 @@ msgstr "También es beneficioso que los nombres de los campos no sean ambiguos, 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:152
 msgid "Note, however, that the georeferencing results might benefit from additional fields that are not described in Darwin Core (e.g. '<<feature>>_<<radial>>', 'radialUnits') in order to make it easier to reproduce the georeference and thus test its veracity. It is often tempting to include fields for the georeferenced <<coordinates>> and ignore any additional fields; however, you (or those who follow after you) are sure to regret this minimalist approach, because it severely limits the usability of the data. A <<location,Location>> occupies a physical <<extent>>, not just a point. The associated information on methods used to determine the georeference, the extent, <<radial>>, and <<uncertainty>> associated with the georeference are important pieces of information for the end user, as well as for managing and improving the <<data quality,quality>> of your information. The fields that are needed can be divided into two categories: the first consists of the fields associated with the textual description of the location, and the second consists of the fields associated with the spatially enabled interpretation as a georeference and the georeferencing process."
-msgstr ""
+msgstr "Tenga en cuenta, sin embargo, que los resultados de la georreferenciación podrían beneficiarse de campos adicionales que no se encuentran en el Darwin Core (p. ej. '<<radio>>_<<entidad geográfica>>', 'UnidadesRadio') para facilitar la replicabilidad de la georreferencia y así poner a prueba su veracidad. A menudo es tentador incluir campos para las <<coordenadas>> georreferenciadas e ignorar cualquier campo adicional. Sin embargo, es probable que se arrepienta de elegir un enfoque minimalista, pues limita severamente la utilidad de los datos. Una <<localidad>> ocupa una <<extensión>> física, no solo un punto. La información sobre los métodos utilizados para determinar la georreferencia, la extensión, el <<radio>> y la <<incertidumbre>> asociada con la georreferencia son piezas de información importantes para el usuario final, así como para gestionar y mejorar la <<calidad de datos,calidad>> de su información. Los campos necesarios pueden dividirse en dos categorías: la primera consiste en los campos asociados con la descripción textual de la ubicación y la segunda consiste en los campos asociados con la interpretación espacial, como la georreferencia y el proceso de georreferenciación."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:154
