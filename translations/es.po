@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 17:50\n"
+"PO-Revision-Date: 2021-11-04 19:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2402,7 +2402,7 @@ msgstr "Tenga en cuenta, sin embargo, que los resultados de la georreferenciaci√
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:154
 msgid "When atomizing data on entry, always include a field or fields that record the original data in its verbatim form so that atomization and other transformations can later be revealed and checked."
-msgstr ""
+msgstr "Al dividir los datos en el proceso de entrada, siempre incluya uno o varios campos que registren los datos en su forma original. De esta manera se pueden las divisiones y otras transformaciones se pueden demostrar y verificar."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:156
