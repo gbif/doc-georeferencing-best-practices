@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 16:26\n"
+"PO-Revision-Date: 2021-11-04 16:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2341,53 +2341,53 @@ msgstr "Recursos Necesarios"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:134
 msgid "Each institution will have needs for different resources in order to <<georeference>> their <<location>> data. The basics, however, include:"
-msgstr ""
+msgstr "Cada institución necesitará diferentes recursos para <<georreferenciar>> sus datos de <<localidades>>. Sin embargo, los recursos básicos incluyen:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:136
 msgid "Suitable computer hardware to support all of the below."
-msgstr ""
+msgstr "Equipos de computación adecuados para soportar todo lo que se menciona a continuación."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:137
 msgid "A database and database software (spreadsheets may be apt for data capture, but they leave a lot to be desired compared to databases for data management, for which we do not recommend the use of spreadsheets). Note that there are a lot of database management systems already established and available for use with biodiversity data. See if any of these may do the job before developing your own as it may save a lot of extra work. Many also already include <<data quality>> aspects that could help improve the quality of your own data."
-msgstr ""
+msgstr "Una base de datos y un software de base de datos (las hojas de cálculo pueden ser aptas para la captura de datos, pero dejan mucho que desear en comparación con bases de datos para la gestión de datos, para las cuales no se recomienda el uso de hojas de cálculo). Tenga en cuenta que existen muchos sistemas de gestión de bases de datos ya establecidos y disponibles para su uso con datos de biodiversidad. Compruebe si alguno de estos puede funcionar para su propósito antes de desarrollar el suyo, esto puede ahorrarle mucho trabajo adicional. Muchos incluyen también aspectos de <<calidad de datos>> que podrían ayudar a mejorar la calidad de sus propios datos."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:138
 msgid "Topographic or bathymetric maps (electronic, paper or both), geologic maps (for paleontological events) and/or speleological maps (for events in cave systems)."
-msgstr ""
+msgstr "Mapas topográficos o batimétricos (electrónicos, físicos o ambos), mapas geológicos (para eventos paleontológicos) y/o mapas espeleológicos (para eventos en los sistemas de cuevas)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:139
 msgid "Access to good <<gazetteer,gazetteers>> (many are available free via the Internet, either for downloading, or via online searching)."
-msgstr ""
+msgstr "Acceso a buenos <<gacetero,gaceteros>> (muchos están disponibles gratis a través de Internet, ya sea para descargar o para búsqueda en línea)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:140
 msgid "Internet access (as there are many resources on the Internet that will help in georeferencing and locating places)."
-msgstr ""
+msgstr "Acceso a Internet (ya que hay muchos recursos en línea que ayudarán a georreferenciar y a localizar lugares)."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:141
 #, no-wrap
 msgid "Data to Capture"
-msgstr ""
+msgstr "Datos a Capturar"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:144
 msgid "One of the most important preparation steps for efficient <<georeference,georeferencing>> is to have an effective way to handle the data. This section will help you decide if your data capture framework will need modification or not, and to what extent."
-msgstr ""
+msgstr "Uno de los pasos de preparación más importantes para la <<georreferencia,georreferenciación>> eficente es tener una forma efectiva de manejar los datos. Esta sección le ayudará a decidir si su marco de captura de datos necesitará modificaciones o no y en qué medida."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:146
 msgid "Some georeferencing projects (e.g. MaPSTeDI (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^])) used a separate working database for data entry operators so that the main data were not modified and day-to-day use of the database was not hindered. This also meant that the working database could be designed optimally for data entry, rather than trying to accommodate other database management and searching requirements. The data from the working database can be checked for quality, and then integrated into the main database from time to time. Such a way of operating is institution dependent, and may be worth considering."
-msgstr ""
+msgstr "Algunos proyectos de georreferenciación (p. ej. MaPSTeDI (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^])) usaron una base de datos de trabajo independiente para los operadores de entrada de datos, de modo que los datos principales no se modificaron y el uso diario de la base de datos no se entorpeció. Esto también significó que la base de datos de trabajo pudo diseñarse de forma óptima para la entrada de datos, en lugar de intentar acomodarse a otros requisitos de búsqueda y a otra administración de bases de datos. La calidad de los datos de la base de datos de trabajo pudo verificarse y luego se integraron los datos a la base de datos principal periódicamente. Esta forma de operar depende de la institución y vale la pena considerarla."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:148
 msgid "What are the fields you need in your database to best store georeferencing information? This may seem obvious, but it is surprising how often a database is created and finalized before it is determined exactly what the database is supposed to hold. Be sure not to lump together dissimilar data into one field. Always atomize the data into separate fields with very specific definitions and rules for their content."
-msgstr ""
+msgstr "¿Cuáles son los campos que necesita en su base de datos para almacenar la información de georreferenciación de la mejor manera? Esto puede parecer obvio, pero es sorprendente con qué frecuencia se crea y finaliza una base de datos antes de que se determine exactamente qué es lo que se supone que la base de datos debe mantener. Asegúrese de no juntar datos distintos en un solo campo. Siempre divida los datos en campos separados con definiciones y reglas muy específicas para su contenido."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:150
