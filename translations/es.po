@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 10:40\n"
+"PO-Revision-Date: 2021-11-04 16:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2304,12 +2304,12 @@ msgstr "Usando Registros Previamente Georreferenciados"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:119
 msgid "It may be possible to use a look-up system that searches for similar localities that have already been <<georeference,georeferenced>>. For example, if you have a record with the <<locality>> \"10 km NW of Campinas\", you can search for all records with locality \"Campinas\" and see if any records that mean the same thing as \"10 km NW of Campinas\" have been georeferenced previously. Note that it is always worth verifying the georeference on a map — this can easily be done using software such as Google Maps, Google Earth, etc. Checking this way can reduce <<error,errors>> such as neglecting to add the minus (−) sign to a <<coordinates,coordinate>> in the western or southern hemispheres."
-msgstr "Es posible utilizar un sistema de búsqueda para encontrar localidades similares que ya hayan sido <<georreferencia,georreferenciadas>>. Por ejemplo, si se tiene un registro con una <<localidad>> \"10 km NW de Campinas\", se puede buscar todos los registros con la localidad \"Campinas\" y ver si existen registros georreferenciados anteriormente que signifiquen lo mismo que \"10 km NW de Campinas\". Tenga en cuenta que siempre vale la pena verificar la georreferencia en un mapa, esto puede hacerse fácilmente utilizando software como Google Maps, Google Earth, etc. Verificar de esta forma puede reducir <<error,errores>> tales como descuidar añadir el signo menos (−) a una <<coordenadas,coordenada>> en el hemisferio oeste o sur."
+msgstr "Es posible utilizar un sistema de búsqueda para encontrar localidades similares que ya hayan sido <<georreferencia,georreferenciadas>>. Por ejemplo, si se tiene un registro con una <<localidad>> \"10 km NW de Campinas\", se pueden buscar todos los registros con la localidad \"Campinas\" y ver si existen registros georreferenciados anteriormente que correspondan a \"10 km NW de Campinas\". Tenga en cuenta que siempre vale la pena verificar la georreferencia en un mapa, esto puede hacerse fácilmente utilizando software como Google Maps, Google Earth, etc. Verificar de esta forma puede reducir <<error,errores>> tales como descuidar añadir el signo menos (−) a una <<coordenadas,coordenada>> en el hemisferio oeste o sur."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:121
 msgid "An extension of this method could use the benefits of a distributed data system such as https://www.gbif.org/[GBIF.org^]. A search could be conducted to see if the locality has already been georeferenced by another institution. At present, we quite often find that duplicates of occurrence records have been given significantly different georeferences by different institutions. Presumably this would not happen if best practices were followed, or if georeferencing is done by the original institution before distributing duplicates."
-msgstr "Una extensión de este método podría beneficiarse de un sistema de datos distribuido como https://www.gbif.org/[GBIF.org^]. Se podría realizar una búsqueda para ver si la localidad ya ha sido georreferenciada por otra institución. En la actualidad, nos encontramos con frecuencia con que a los registros duplicados distintas instituciones les han asignado georreferencias significativamente diferentes. Probablemente, esto no ocurriría si se siguieran las buenas prácticas o si la georreferenciación se hiciera por la institución fuente antes de distribuir duplicados."
+msgstr "Una extensión de este método podría beneficiarse de un sistema de datos distribuido como https://www.gbif.org/[GBIF.org^]. Podría hacer una búsqueda para conocer si la localidad ya ha sido georreferenciada por otra institución. En la actualidad, nos encontramos con frecuencia con que a los registros duplicados distintas instituciones les han asignado georreferencias significativamente diferentes. Probablemente, esto no ocurriría si se siguieran las buenas prácticas o si la georreferenciación se hiciera por la institución fuente antes de distribuir duplicados."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:123
