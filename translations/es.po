@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-03 23:54\n"
+"PO-Revision-Date: 2021-11-04 10:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2278,7 +2278,7 @@ msgstr "El coordinador del proyecto llena el <<gacetero>> comunal con las georre
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:112
 msgid "When georeferencing is completed for the entire project, project coordinator validates that localities for original occurrence records have not changed from the sources since they were added to the gazetteer and repatriates occurrence records with georeferences to participating data custodians."
-msgstr ""
+msgstr "Una vez se complete el proceso de georreferenciación para todo el proyecto, el coordinador del proyecto debe validar que las localidades de los registros originales no hayan cambiado desde que se agregaron al gacetero y repatria los registros con sus respectivas georreferencias a los custodios de los datos participantes."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:113
