@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-04 20:12\n"
+"PO-Revision-Date: 2021-11-04 20:43\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2523,23 +2523,23 @@ msgstr "Aplicando Restricciones de Datos"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:188
 msgid "One of the key ways of making sure that data are standardized and <<accuracy,accurate>> is to ensure, to the extent possible, that data are put in the correct field and that only data of an appropriate type can be put into each field by design. This is done by applying constraints on the data fields – for example, only allowing values between +90 and −90 in the field for <<decimal latitude>>. Many of the <<error,errors>> found when checking databases could have been easily avoided if the database had been set up correctly in the first place. The use of pick lists is essential where the field should contain only values from a restricted list of terms."
-msgstr ""
+msgstr "Una de las formas clave de asegurarse de que los datos estén estandarizados y sean <<exactitud,exactos>> es garantizar, en la medida de lo posible, que los datos estén en el campo correcto y que sólo un tipo apropiado de datos puedan ser ingresados en cada campo. Esto se hace aplicando restricciones a los campos de datos (por ejemplo, el campo <<latitud decimal>> sólo permite valores entre +90 y −90). Muchos de los <<error,errores>> encontrados al revisar las bases de datos podrían haberse evitado fácilmente si la base de datos se hubiera configurado correctamente en primer lugar. El uso de listas de selección es esencial cuando el campo debe contener sólo valores de una lista restringida de términos."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:190
 msgid "More complex constraints may also be possible. With {ecological}ecological or survey data for example, one could set <<boundary>> limits between the starting <<locality>> and ending locality of a <<transect>>. For example, if your methodology always uses 1 km or shorter transects, then the database could include a boundary limit that flagged whenever an attempt was made to place these two points more than 1 km apart."
-msgstr ""
+msgstr "También se pueden incluir restricciones más complejas. Por ejemplo, con {ecological}datos o muestreos ecológicos se podrían establecer restricciones de <<límite>> entre la <<localidad>> de inicio y la localidad final de un <<transecto>>. Por ejemplo, si su metodología siempre utiliza transectos de 1km o más cortos, entonces la base de datos podría incluir una restricción límite que señalara cada vez que se intentara situar estos dos puntos más de 1 km de distancia."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:192
 msgid "For more information on constraints, see various sections under <<Uncertainty Due to the Extent of the Feature>>."
-msgstr ""
+msgstr "Para más información sobre restricciones, vea varias secciones abajo <<Incertidumbre Debido a la Extensión de la Entidad Geográfica>>."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:193
 #, no-wrap
 msgid "User Interfaces"
-msgstr ""
+msgstr "Interfaces de Usuario"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:196
