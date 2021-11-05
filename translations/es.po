@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 15:55\n"
+"PO-Revision-Date: 2021-11-05 17:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2687,13 +2687,13 @@ msgstr "Documentar las fuentes y métodos lo suficiente como para hacer que la g
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:237
 msgid "Though the list of steps above applies to a single locality record, the most efficient way to implement these steps might be to do each step for all of the localities in the set, and use the results of that step to organize the next step. For example, by identifying the features from all of the most specific clauses, one could filter localities by feature and with the accumulated body of information about the feature from all the localities at hand, georeference all of the localities containing the same feature together. One could also do statistics on the number of records affected by determining the boundaries of each feature and use that to prioritize which localities get georeferenced, if resources do not otherwise cover georeferencing everything. This kind of feature extraction could be done in the aggregate georeferencing preparation stage (see <<Georeferencing Project Workflow>>)."
-msgstr ""
+msgstr "Aunque la lista de pasos anteriores se aplica a un único registro de localidad, la forma más eficiente de implementar estos pasos podría ser hacer cada paso para todas las localidades del conjunto y usar los resultados de cada paso para organizar el siguiente paso. Por ejemplo, identificando las entidades geográficas de todas las cláusulas más específicas, se podrían filtrar las localidades por entidad y con la información acumulada sobre la entidad de todas las localidades a la mano, puede georreferenciar todas las localidades que contienen la misma entidad al mismo tiempo. También se podrían calcular estadísticos sobre el número de registros afectados al determinar los límites de cada entidad geográfica y utilizarlos para priorizar las localidades a ser georreferenciadas, si con los recursos disponibles no es posible georreferenciar todo. Este tipo de extracción de entidades podría hacerse en el paso de agregación de georreferencias en la fase de preparación (ver <<Flujo de Trabajo para Proyectos de Georreferenciación>>)."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:238
 #, no-wrap
 msgid "Parsing the Locality Description"
-msgstr ""
+msgstr "Analizando la Descripción de la Localidad"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:241
