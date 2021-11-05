@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 13:40\n"
+"PO-Revision-Date: 2021-11-05 15:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2662,12 +2662,12 @@ msgstr "Descomponer la localidad en <<claúsula de la localidad,clausulas de loc
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:231
 msgid "Identify the <<feature>>(s) and determine the <<locality type>> of the most specific <<locality clause>> (see <<Classifying the Locality Description>>)."
-msgstr "Identificar la <<entidad geográfica>> y determinar el <<tipo de localidad>> de la <<claúsula de la localidad>> más específica (ver <<Clasificando la Descripción de la Localidad>>)."
+msgstr "Identificar la(s) <<entidad(es) geografica(s)>> y determinar el <<tipo de localidad>> de la <<clausula de la localidad>> más específica (ver <<Clasificando la Descripción de la Localidad>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:232
 msgid "Find the feature(s) in a spatial data source (e.g. map, <<gazetteer>>, <<geographic-information-system,GIS>> layer, application programming interface (API)) that can give you an idea of where the feature is with <<coordinates>>, a bounding box, a point-radius, or a shape)."
-msgstr ""
+msgstr "Encontrar la(s) entidad(es) geografica(s) en una fuente de datos espaciales (p. ej. mapa, <<gacetero>>, capa <<sistema de información geográfica,GIS>>, interfaz de programación de aplicaciones (API)) que pueda darle una idea de dónde está la característica con unas <<coordenadas>>, una caja de delimitadora, un radio-punto o una forma geométrica)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:233
