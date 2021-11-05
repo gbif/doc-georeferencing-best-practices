@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 15:28\n"
+"PO-Revision-Date: 2021-11-05 15:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2662,7 +2662,7 @@ msgstr "Descomponer la localidad en <<claúsula de la localidad,clausulas de loc
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:231
 msgid "Identify the <<feature>>(s) and determine the <<locality type>> of the most specific <<locality clause>> (see <<Classifying the Locality Description>>)."
-msgstr "Identificar la(s) <<entidad(es) geografica(s)>> y determinar el <<tipo de localidad>> de la <<clausula de la localidad>> más específica (ver <<Clasificando la Descripción de la Localidad>>)."
+msgstr "Identificar la(s) <<entidad geográfica, entidad(es) geografica(s)>> y determinar el <<tipo de localidad>> de la <<clausula de la localidad>> más específica (ver <<Clasificando la Descripción de la Localidad>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:232
@@ -2672,17 +2672,17 @@ msgstr "Encontrar la(s) entidad(es) geografica(s) en una fuente de datos espacia
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:233
 msgid "Determine the <<boundary,boundaries>> of the feature(s) (see <<Setting the Boundaries of the Feature>>) including all constraints (see <<Applying Spatial Constraints>>)."
-msgstr ""
+msgstr "Determinar los <<límite, límites>> de la(s) entidad(es) geográfica(s) (ver <<Estableciendo los Límites de la Entidad Geográfica>>) incluyendo todas las restricciones (ver <<Aplicando Restricciones Espaciales>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:234
 msgid "Follow the protocol in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] to georeference the locality based on the locality type of the most specific clause and the shape or point-radius of the constrained feature from the previous step."
-msgstr ""
+msgstr "Siga el protocolo de la Guía de Referencia Rápida de Referenciación de {gqg}(Zermoglio et al. 2020)^] para georreferenciar la localidad basado en el tipo de localidad de la cláusula más específica y la forma geométrica o radio-punto de la entidad geográfica restringida obtenida en el paso anterior."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:235
 msgid "Document the sources and methods sufficiently to make the resulting georeference reproducible (see <<Objectives>>)."
-msgstr ""
+msgstr "Documentar las fuentes y métodos lo suficiente como para hacer que la georreferencia resultante sea reproducible (ver <<Objetivos>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:237
