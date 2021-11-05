@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 13:00\n"
+"PO-Revision-Date: 2021-11-05 13:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2652,17 +2652,17 @@ msgstr "Independientemente de que haya otros pasos antes de este en un flujo de 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:229
 msgid "Choose the <<georeferencing method>> (e.g. <<point-radius>>, <<bounding-box>>, <<shape>>) to use. You may do this for all localities or on a case by case basis (see <<Georeferencing Methods>>)."
-msgstr ""
+msgstr "Elegir el <<método de georreferenciación>> (p. ej. <<radio-punto>>, <<caja delimitadora>>, <<forma geométrica>>) a usar. Se puede hacer esto para todas las localidades o caso por caso (ver <<Métodos de Georreferenciación>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:230
 msgid "Parse the locality into <<locality clause,locality clauses>> (see <<Parsing the Locality Description>>)."
-msgstr ""
+msgstr "Descomponer la localidad en <<claúsula de la localidad,clausulas de localidad>> (ver <<Descomponiendo la Descripción de la Localidad>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:231
 msgid "Identify the <<feature>>(s) and determine the <<locality type>> of the most specific <<locality clause>> (see <<Classifying the Locality Description>>)."
-msgstr ""
+msgstr "Identificar la <<entidad geográfica>> y determinar el <<tipo de localidad>> de la <<claúsula de la localidad>> más específica (ver <<Clasificando la Descripción de la Localidad>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:232
