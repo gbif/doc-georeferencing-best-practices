@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 19:51\n"
+"PO-Revision-Date: 2021-11-05 20:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2704,72 +2704,72 @@ msgstr "Las descripciones de la <<localidad>> se dan a menudo en texto libre y e
 #: 0300-the-georeferencing-process.en.adoc:242
 #, no-wrap
 msgid "Classifying the Locality Description"
-msgstr ""
+msgstr "Clasificando la Descripción de la Localidad"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:245
 msgid "There is a lot of variation in the way <<locality clause,clauses>> are written and the types of <<feature,features>> they reference, but there are actually very few basic <<locality type,locality types>>, though these may have many variations depending on the feature type referenced. The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020^]) was written specifically to explain how to <<georeference>> all of the most common variations of <<locality type,locality types>> and <<feature>> types (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]):"
-msgstr ""
+msgstr "Hay muchas variaciones en la forma en que están escritas las <<clausula de localidad, clausulas>> y los tipos de <<entidad geográfica,entidades>> a los que hacen referencia. Sin embargo, hay muy pocos <<tipo de localidad, tipos de localidad>> básicos, aunque pueden tener muchas variaciones dependiendo del tipo de entidad geográfica referenciada. La {gqg}[Guía de Referencia Rápida de Referenciación (Zermoglio et al. 2020^]) fue escrita específicamente para explicar cómo <<georreferencia,georreferenciar>> todas las variaciones más comunes de los <<tipo de localidad, tipos de localidades>> y los tipos de <<entidad geográfica>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]):"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:247
 msgid "<<coordinates>> only (e.g. 27°34'23.4\" N, 121°56'42.3\" W)"
-msgstr ""
+msgstr "solo <<coordenadas>> (e.g. 27°34'23.4\" N, 121°56'42.3\" O)"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:248
 msgid "geographic feature only (e.g. \"Bakersfield\")"
-msgstr ""
+msgstr "solo entidad geográfica (p. ej. \"Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:249
 msgid "distance only (e.g. \"5 mi from Bakersfield\")"
-msgstr ""
+msgstr "solo distancia (p. ej. \"a 5 mi de Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:250
 msgid "<<heading>> only (e.g. \"North of Bakersfield\")"
-msgstr ""
+msgstr "solo <<orientación cardinal>> (p. ej. \"Norte de Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:251
 msgid "distance along a <<path>> (e.g. \"13 miles east (by road) from Bakersfield\")"
-msgstr ""
+msgstr "distancia a lo largo de una <<ruta>> (p. ej. \"13 millas al este (por carretera) de Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:252
 msgid "distance along orthogonal <<direction,directions>> (e.g. \"2 miles east and 3 miles north of Bakersfield\")"
-msgstr ""
+msgstr "distancia a lo largo de <<dirección,direcciones>> ortogonales (p. ej. \"2 millas al este y 3 millas al norte de Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:253
 msgid "distance at a heading (e.g. \"10 miles east (by air) from Bakersfield\")"
-msgstr ""
+msgstr "distancia en una orientación (p. ej. \"10 millas al este (por aire) de Bakersfield\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:254
 msgid "distances from two distinct paths (e.g. \"1.5 miles east of Louisiana State Highway 1026 and 2 miles south of U.S. Highway 190\")"
-msgstr ""
+msgstr "distancias desde dos rutas distintas (p. ej. \"1,5 millas al este de Louisiana State Highway 1026 y 2 millas al sur de U.S. Highway 190\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:255
 msgid "dubious (e.g. \"presumably central Chile\")"
-msgstr ""
+msgstr "(por ejemplo, \"probablemente Chile central\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:256
 msgid "cannot be located (e.g. \"locality not recorded\")"
-msgstr ""
+msgstr "no se puede localizar (por ejemplo, \"localidad no registrada\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:257
 msgid "demonstrably inconsistent (e.g. \"Sonoma County side of the Gualala River, Mendocino County\")"
-msgstr ""
+msgstr "demostrablemente inconsistente (ej. \"Condado de Sonoma del lado del Río Gualala, Condado de Mendocino\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:258
 msgid "captive or cultivated (e.g. \"San Diego Wild Animal Park\")"
-msgstr ""
+msgstr "cautivo o cultivado (p. ej. \"San Diego Wild Animal Park\")"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:260
