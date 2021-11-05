@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 20:55\n"
+"PO-Revision-Date: 2021-11-05 21:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2826,39 +2826,39 @@ msgstr "|país\n"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:291
 msgid "In this example, there are four fields contributing five separate clauses. The three administrative geography terms each have one clause of the type \"_Geographic feature only_\" with subtype \"_Feature – with obvious spatial extent_\" (see {gqg}#feature-with-obvious-spatial-extent[Feature – with Obvious Spatial Extent^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]), while the locality field contains a clause (\"12.3 km N of (by road) Nahuel Huapi\") of the type \"_Distance along path_\" (see {gqg}#offset-distance-along-a-path[Offset – Distance along a Path^] in {gqg}[Georeferencing Quick Reference Guide^]) and a clause (\"elev: 760m\") of the type \"_Geographic feature only_\" with subtype \"_Feature – Path_\" (see {gqg}#feature-path[Feature – Path^] in {gqg}[Georeferencing Quick Reference Guide^]). The most specific of all five clauses is \"12.3 km N of (by road) Nahuel Huapi\"."
-msgstr ""
+msgstr "En este ejemplo, hay cuatro campos que aportan cinco cláusulas distintas. Cada uno de los tres términos de división político administrativa tiene una cláusula del tipo \"sólo entidad geográfica_\" con el subtipo \"_Entidad Geográfica con una Extensión Espacial Obvia_\" (ver {gqg}#entidad-geográfica-con-una-extensión-espacial-obvia[Entidad Geográfica con una Extensión Espacial Obvia^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al). 2020)^]), mientras que el campo de la localidad contiene una cláusula (\"12. km N de (por ruta) Nahuel Huapi\") del tipo \"_Distancia a lo Largo de una Ruta_\" (ver {gqg}#desplazamiento-a-lo-largo-de-una-ruta[Desplazamiento: Distancia a lo Largo de una Ruta^] en {gqg}[Guía de Referencia Rápida de Georreferenciación^]) y una cláusula (\"elev: 760m\") del tipo \"_Solo Entidad Geográfica_\" con un subtipo \"_Entidad Geográfica: Ruta_\" (ver {gqg}#entidad-geográfica-ruta[Entidad Geográfica: Ruta^] en {gqg}[Guía de Referencia Rápida de Georreferenciación^]). La más específica de las cinco cláusulas es \"12,3 km N de (por carretera) Nahuel Huapi\"."
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:294
 msgid "It is sometimes possible to infer the nature of the offset path from additional supporting evidence in the locality description. For example, the locality"
-msgstr ""
+msgstr "A veces es posible inferir la naturaleza de la ruta de desplazamiento a partir de evidencia adicional de apoyo en la descripción de la localidad. Por ejemplo, la localidad"
 
 #. type: delimited block .
 #: 0300-the-georeferencing-process.en.adoc:297
 #, no-wrap
 msgid "58 km NW of Haines Junction, Kluane Lake\n"
-msgstr ""
+msgstr "58 km de NO de Haines Junction, Lago Kluane\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:300
 msgid "suggests a measurement by road since the final coordinates by that path are nearer to the lake than going 58 km NW in a straight line. At other times, you may have to consult detailed supplementary sources, such as field notes, collectors’ itineraries (see <<Using Collector Itineraries>>), diaries, or sequential collections made on the same day, to determine this information."
-msgstr ""
+msgstr "sugiere una medición por carretera, ya que las coordenadas finales por ese camino están más cerca del lago que ir 58 km NO en una línea recta. En otros momentos, puede que tenga que consultar fuentes complementarias detalladas, como notas de campo, itinerarios de los colectores (ver <<Usando los Itinerarios de los Colectores>>), diarios, o colecciones consecutivas hechas el mismo día para determinar esta información."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:302
 msgid "If any of the clauses in the locality description is classified as one of the three locality types, ‘_dubious_’, ‘_cannot be located_’, or ‘_demonstrably inaccurate_’, then the locality should not be georeferenced. Instead, an annotation should be made to the locality record giving the reason why it is not being georeferenced. See also {gqg}#difficult-localities[Difficult Localities^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "Si alguna de las cláusulas de la descripción de la localidad está clasificada como uno de los tres tipos de localidad, '_dudosa_', '_no se puede ubicar_', o '_demostrablemente inconsistente_', entonces la localidad no debe ser georreferenciada. En lugar de ello, debería hacerse una anotación al registro de la localidad explicando por qué no se está georreferenciando. Ver también {gqg}#localidades-difíciles[Localidades Difíciles^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:303
 #, no-wrap
 msgid "Setting the Boundaries of the Feature"
-msgstr ""
+msgstr "Estableciendo los Límites de la Entidad Geográfica"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:306
 msgid "Regardless of the method to be used (<<shape>>, <<bounding-box>>, or <<point-radius>>), the <<georeferencing-protocol,georeferencing protocols>> for nearly every <<locality type>> begin with the identification of the <<feature,features>> of reference in the <<locality>> description and the determination of the <<geographic boundary,geographic boundaries>> of their <<extent,extents>>. This is usually the most critical and time-consuming part of the protocols. It is best to use a visual reference to determine boundaries. If a feature name search on a visual source does not reveal the feature of interest, it is a good idea to use <<coordinates>> from a <<gazetteer>> to find the feature on a map, and then use the map to find the boundaries:"
-msgstr ""
+msgstr "Independientemente del método a utilizar (<<forma geométrica>>, <<caja delimitadora>> o <<radio-punto>>), el <<protocolo-de-georreferenciación,protocolo de georreferenciación>> para casi cada uno de los <<tipos de localidad>> comienza con la identificación de las <<entidad geográfica,entidades geográficas>> de referencia en la descripción de la <<localidad>> y la determinación del <<límite geográfico, límites geográficos>> de sus <<extensión,extensiones>>. Esta es generalmente la parte más crítica y lenta de los protocolos. Es mejor utilizar una referencia visual para determinar los límites. Si una búsqueda del nombre de la entidad en una fuente visual no arroja la entidad de interés, es una buena idea usar las <<coordenadas>> de un <<gacetero>> para encontrar la entidad en un mapa y luego usar el mapa para encontrar los límites:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:308
