@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 12:34\n"
+"PO-Revision-Date: 2021-11-05 13:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2642,12 +2642,12 @@ msgstr "Flujo de Trabajo de Georreferenciación: Localidades"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:225
 msgid "At the heart of any <<georeference,georeferencing>> project is the hands-on georeferencing of individual <<locality>> descriptions. The value of getting this part right can't be overstated."
-msgstr ""
+msgstr "En el corazón de cualquier proyecto <<georreferencia,georreferenciación>> se encuentra la georreferenciación práctica de cada una de las <<localidad, localidades>>. El valor de hacer bien este proceso no se puede sobrestimar."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:227
 msgid "Regardless of what other steps might have preceded this in a project workflow, for individual localities we recommend the following georeferencing workflow — refined from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]."
-msgstr ""
+msgstr "Independientemente de que haya otros pasos antes de este en un flujo de trabajo de un proyecto, para las localidades individuales recomendamos el siguiente flujo de trabajo de georreferenciación, mejorado de https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:229
