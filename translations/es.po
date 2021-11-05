@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 11:03\n"
+"PO-Revision-Date: 2021-11-05 12:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2620,24 +2620,24 @@ msgstr "Métodos de validación de datos que se llevarán a cabo antes de que un
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:217
 msgid "Determining and documenting your institution’s own georeferencing best practice in manuals, for example that suit the circumstances of that institute (including language, local software and resources, etc.) can help maintain consistency as well as assist in training and <<data quality>> recording. As an example, see http://repository.humboldt.org.co/handle/20.500.11761/9610[Escobar et al. 2015^], where an internal document for the Alexander von Humboldt Institute in Colombia has been developed and put into practice. See also <<Documentation>>."
-msgstr ""
+msgstr "Determinar y documentar las buenas prácticas de georreferenciación propias de su institución en manuales, por ejemplo que se adapte a las circunstancias de ese instituto (incluyendo idioma, software y recursos locales, etc.), puede ayudar a mantener la consistencia así como a ayudar en la capacitación y al registro de <<calidad de datos>>. Como ejemplo recomendamos ir a http://repository.humboldt.org.co/handle/20.500.11761/9610[Escobar et al. 2015^], donde se ha desarrollado y puesto en práctica un documento interno para el Instituto Alexander von Humboldt en Colombia. Ver también <<Documentación>>."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:218
 #, no-wrap
 msgid "Data Entry Operators"
-msgstr ""
+msgstr "Operadores de Entrada de Datos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:221
 msgid "One of the greatest sources of <<georeference,georeferencing>> <<error>> is the data entry process. It is important that this process is made user-friendly and set up so that many errors cannot occur (e.g. through the use of pick lists, field constraints, etc.). The selection and training of data entry operators (see under <<Training>>) can make a big difference to the final <<data quality,quality>> of the georeferenced data. As mentioned earlier, the provision of good guidelines and standards can help in the training process and allow for data entry operators to reinforce their training over time."
-msgstr ""
+msgstr "Una de las fuentes más grandes de <<error>> en la <<georreferencia,georreferenciación>> es el proceso de entrada de datos. Es importante que este proceso sea fácil de usar y configurado de tal manera que no puedan ocurrir muchos errores (p. ej. a través del uso de listas de selección, restricciones de campos, etc.) La selección y formación de los operadores de entrada de datos (ver debajo en <<Entrenamiento>>) puede marcar una gran diferencia en <<calidad de datos,calidad>> final de los datos georreferenciados. Como se ha mencionado anteriormente, la provisión de buenas pautas y normas puede ayudar en el proceso de entrenamiento y permitir que los operadores de entrada de datos refuercen su formación con el tiempo."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:222
 #, no-wrap
 msgid "Georeferencing Workflow – Localities"
-msgstr ""
+msgstr "Flujo de Trabajo de Georreferenciación: Localidades"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:225
