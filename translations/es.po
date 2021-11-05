@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 10:23\n"
+"PO-Revision-Date: 2021-11-05 11:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2565,57 +2565,57 @@ msgstr "Usando Normas y Pautas"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:204
 msgid "Standard methodologies, in-house standards, and guidelines can help lead to consistency throughout the database and cut down on <<error,errors>>. A set of standards and guidelines should be established before any <<georeference,georeferencing>> begins (see <<Documentation>>). They should remain flexible enough to cater for new data and changes in processes over time, though careful thought beforehand can minimize the need for methodological changes, which might lead to inconsistencies where earlier efforts are lacking compared to those produced under newer protocols. Standards and guidelines in the following areas can improve the <<data quality,quality>> of the data and the efficiency of data entry:"
-msgstr ""
+msgstr "Las metodologías estándar, los estándares internos y las pautas, pueden ayudar a que haya consistencia a través de la base de datos y a reducir el margen de <<error>>. Antes de empezar cualquier proceso de <<georreferencia,georreferenciación>> se debe establecer un conjunto de estándares y pautas (ver <<Documentación>>). Este conjunto debe mantenerse lo suficientemente flexible como para dar cabida a nuevos datos y cambiar en los diferentes procesos a través del tiempo. El pensamiento minucioso con antelación puede minimizar la necesidad de cambios metodológicos, que podrían generar inconsistencias cuando faltan esfuerzos previos a comparación de las inconsistencias producidas bajo los nuevos protocolos. Los estándares y pautas en las siguientes áreas pueden mejorar la <<calidad de datos,calidad>> de los datos y la eficiencia de la entrada de datos:"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:206
 msgid "Units of measure. Use a single unit of measure in interpreted fields. For example, do not allow a mixture of feet and meters in <<elevation>> and <<depth>> fields. Irrespective of this, the original units and measurements should be retained in a verbatim field."
-msgstr ""
+msgstr "Unidades de medida. Utilice una sola unidad de medida en los campos interpretados. Por ejemplo, no permita una mezcla de pies y metros en los campos de <<elevación>> y <<profundidad>>. Independientemente de ello, las unidades y las mediciones originales deben conservarse en un campo original."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:207
 msgid "Methods and formats for determining and recording <<uncertainty>> and <<extent>>."
-msgstr ""
+msgstr "Métodos y formatos para determinar y registrar la <<incertidumbre>> y <<extensión>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:208
 msgid "Required fields (fields that must have meaningful, non-empty values)."
-msgstr ""
+msgstr "Campos obligatorios (campos que deben tener valores significantes, no vacíos)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:209
 msgid "Format for recording <<coordinates>> (e.g. <<DMS,degrees/minutes/seconds>>, degrees/decimal minutes, or <<decimal degrees>> for <<latitude>> and <<longitude>>)."
-msgstr ""
+msgstr "Formato para el registro de las <<coordenadas>> (p. ej.<<GMS,grados/minutos/segundos>>, grados/minutos decimales, o <<grados decimales>> para <<latitud>> y <<longitud>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:210
 msgid "Original source(s) of place names and <<feature,features>>."
-msgstr ""
+msgstr "Fuente(s) original de nombres de lugares y <<entidad geográfica,entidades geográficas>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:211
 msgid "Dealing with typographical <<error,errors>> and other errors in the existing database."
-msgstr ""
+msgstr "Cómo tratar con <<error,errores>> tipográficos y otros errores en la base de datos existente."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:212
 msgid "Number of decimal places to keep in the various fields with decimal numbers."
-msgstr ""
+msgstr "Número de cifras decimales a mantener en los diversos campos que contienen números decimales."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:213
 msgid "How to deal with \"empty\" values as opposed to the numerical value zero (Note: configure databases to not supply 0 for an empty value)."
-msgstr ""
+msgstr "Cómo tratar con los valores \"vacíos\" en lugar del valor numérico cero (Nota: configure las bases de datos para no proporcionar 0 para un valor vacío)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:214
 msgid "How to deal with mandatory fields that cannot be filled in immediately (e.g. because a reference has to be found). There may be a need for a default value that flags that the information is still required."
-msgstr ""
+msgstr "Cómo tratar los campos obligatorios que no se pueden ingresar inmediatamente (p. ej. porque hay que encontrar una referencia). Puede haber una necesidad de un valor por defecto que indique que la información sigue siendo requerida."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:215
 msgid "Methods for data validation that will be carried out before a record can be considered complete and verified."
-msgstr ""
+msgstr "Métodos de validación de datos que se llevarán a cabo antes de que un registro pueda considerarse completo y verificado."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:217
