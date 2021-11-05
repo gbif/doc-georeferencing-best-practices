@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 20:17\n"
+"PO-Revision-Date: 2021-11-05 20:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2774,34 +2774,34 @@ msgstr "cautivo o cultivado (p. ej. \"San Diego Wild Animal Park\")"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:260
 msgid "A full locality description may contain multiple clauses. The goal of a <<georeference>> is to describe the <<location>> where all of the clauses are true simultaneously. In <<geographic information system,GIS>> terms, this would be the intersection of the <<shape,shapes>> for all the clauses in the locality description. As humans, we would choose the clause that is most specific and <<georeference>> based on that, using the information from the other clauses to filter from among multiple possibilities. For example, a locality written as"
-msgstr ""
+msgstr "Una descripción completa de una localidad puede contener varias cláusulas. El objetivo de una <<georreferencia>> es describir la <<ubicación>> donde todas las cláusulas son simultáneamente verdaderas. En términos <<sistema de información geográfica,GIS>>, esta sería la intersección de las <<forma geográfica,formas geográficas>> de todas las cláusulas presentes en la descripción de la localidad. Como humanos, eligiríamos la cláusula más específica y <<georreferencia,georreferenciaríamos>> basados en eso, utilizando la información de las otras cláusulas para filtrar entre múltiples posibilidades. Por ejemplo, una localidad escrita como"
 
 #. type: delimited block .
 #: 0300-the-georeferencing-process.en.adoc:263
 #, no-wrap
 msgid "bridge over the St. Croix River, 4 km N of Somerset\n"
-msgstr ""
+msgstr "puente sobre el río St. Croix, 4 km N de Somerset\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:266
 msgid "should be georeferenced with a locality type \"geographic feature only\" with subtype {gqg}#feature-with-obvious-spatial-extent[Feature – with Obvious Spatial Extent^] as in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] based on the _bridge_ as the <<feature>>. Of course, the second clause helps us to determine which bridge (something we wouldn't be able to do without that second clause), but beyond that the second clause contributes nothing to the <<boundary,boundaries>> of the feature, nor to the <<uncertainty>> in the final georeference."
-msgstr ""
+msgstr "debe ser georeferenciada con un tipo de localidad \"solo entidad geográfica\" con el subtipo {gqg}#feature-with-obvious-spatial-extent[Entidad Geográfica con una Extensión Espacial Obvia^] como en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] basado en el _puente_ como la <<entidad geográfica>>. Por supuesto, la segunda cláusula nos ayuda a determinar qué puente (algo que no podríamos hacer sin esa segunda cláusula), pero más allá de eso la segunda cláusula no contribuye nada a los <<límite,límites>> de la entidad, ni a la <<incertidumbre>> en la georreferencia final."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:268
 msgid "If the more specific part of the locality cannot be unambiguously identified, then the next less specific part of the locality (\"4 km N of Somerset\" in the example above) should be georeferenced. In a case such as this, annotate in the georeference remarks with something like \"unable to find the bridge georeferenced '4 km N of Somerset'\"."
-msgstr ""
+msgstr "Si la parte más específica de la localidad no puede ser identificada sin ambigüedades, entonces la siguiente parte menos específica de la localidad (\"4 km N de Somerset\" en el ejemplo anterior) debe ser georreferenciada. En un caso como este, anote en las observaciones de la georreferencia con algo como \"no fue posible encontrar el puente georreferenciado '4 km N de Somerset'\"."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:270
 msgid "Some locality descriptions give information about the nature of the <<offset>> (‘by road’, ‘by river’, ‘by air’, ‘up the valley’, etc.). Having this information simplifies the choice of offset-based locality type as <<Offset at a Heading>> or <<Offset along a Path>>."
-msgstr ""
+msgstr "Algunas descripciones de la localidad dan información sobre la naturaleza del <<desplazamiento>> (‘por ruta’, ‘por río’, ‘por aire’, ‘por el valle’, etc.. Tener esta información simplifica la elección del tipo de localidad basado en desplazamiento como <<Desplazamiento en una Orientación Cardinal>> o <<Desplazamiento a lo Largo de una Ruta>>."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:271
 #, no-wrap
 msgid "Classifying the locality description"
-msgstr ""
+msgstr "Clasificando la descripción de la localidad"
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:287
@@ -2814,7 +2814,14 @@ msgid "|country\n"
 "|Los Lagos\n\n"
 "|locality\n"
 "|12.3 km N of (by road) Nahuel Huapi, elev: 760m\n"
-msgstr ""
+msgstr "|país\n"
+"|AR\n\n"
+"|estadoProvincia\n"
+"|Neuquén\n\n"
+"|condado\n"
+"|Los Lagos\n\n"
+"|localidad\n"
+"|12. km N de (por carretera) Nahuel Huapi, elev: 760m\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:291
