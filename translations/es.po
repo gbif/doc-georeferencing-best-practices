@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 17:02\n"
+"PO-Revision-Date: 2021-11-05 19:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2698,7 +2698,7 @@ msgstr "Analizando la Descripción de la Localidad"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:241
 msgid "<<locality,Locality>> descriptions are often given in free text and encompass a wide range of content in a vast array of formats. An important part of the <<georeference,georeferencing>> process is to have a consistent way to interpret the text into spatial forms that can be operated on analytically. To do this, look for the parts of the description that can be interpreted independently, called <<locality clause,locality clauses>>, each of which can be categorized into a <<locality type>> (see <<Classifying the Locality Description>>) that uses a specific set of rules to georeference (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
-msgstr ""
+msgstr "Las descripciones de la <<localidad>> se dan a menudo en texto libre y engloban una amplia gama de contenidos en una variedad de formatos. Una parte importante del proceso <<georreferencia,georreferenciación>> es establecer una forma consistente de interpretar el texto en formas espaciales que pueden operarse analíticamente. Para hacer esto, busque las partes de la descripción que pueden ser interpretadas de forma independiente, llamadas <<clausula de localidad, clausulas de localidad>>, cada una de las cuales puede ser categorizada en un <<tipo de localidad>> (ver <<Clasificando la Descripción de la Localidad>>) que utiliza un conjunto específico de reglas para ser georreferenciada (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:242
