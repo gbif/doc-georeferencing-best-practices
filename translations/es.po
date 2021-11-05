@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 21:24\n"
+"PO-Revision-Date: 2021-11-05 21:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2864,24 +2864,24 @@ msgstr "Independientemente del método a utilizar (<<forma geométrica>>, <<caja
 #: 0300-the-georeferencing-process.en.adoc:308
 #, no-wrap
 msgid "*Point-radius method*: store the <<corrected center>> of the constrained boundaries from the previous step as decimal <<latitude>> and decimal <<longitude>> and store the <<geographic radial>> as a distance in the units given in the most specific <<locality clause>>. If there are no distance units in that clause, use meters (see <<Point-radius Method>>).\n"
-msgstr ""
+msgstr "*Método radio-punto*: almacenar el <<centro corregido>> de los límites restringidos del paso anterior como <<latitud>> decimal y <<longitude>>decimal y almacenar el <<radio geográfico>> como una distancia en las unidades dadas en la <<claúsula de la localidad>> más específica. Si no hay unidades de distancia en esa cláusula, utilice metros (ver <<Método Radio-Punto>>).\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:309
 #, no-wrap
 msgid "*Bounding Box* method: store the furthest north, south, east, and west coordinates on the constrained boundaries of the feature (see <<Bounding Box Method>>).\n"
-msgstr ""
+msgstr "*Método de Caja Delimitadora*: almacenar las coordenadas más lejanas al norte, sur, este y oeste en los límites restringidos de la función (ver <<Método de Caja Delimitadora>>).\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:310
 #, no-wrap
 msgid "*Shape method*: store the resulting constrained boundaries as a shape (see <<Shape Method>>).\n"
-msgstr ""
+msgstr "*Método de Forma Geométrica*: almacenar los límites restringidos resultantes como una forma geométrica (ver <<Método de Forma Geométrica>>).\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:312
 msgid "Use information from other clauses, such as administrative geography, information from other location fields such as <<elevation>>, and environmental information (e.g. terrestrial, freshwater aquatic, marine, taxon-specific) to constrain the extent as appropriate (see <<Applying Spatial Constraints>> and <<Applying Data Constraints>>)."
-msgstr ""
+msgstr "Utilice la información de otras cláusulas, como la división político administrativa, información de otros campos de ubicación como <<elevación>> e información ambiental (p.ej. terrestres, acuáticos de agua dulce, marinos, específicos de taxón) para restringir la extensión como sea apropiado (ver <<Aplicando Restricciones Espaciales>> y <<Aplicando Restricción de Datos>>)."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:313
