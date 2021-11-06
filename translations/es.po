@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-05 21:57\n"
+"PO-Revision-Date: 2021-11-06 16:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2864,7 +2864,7 @@ msgstr "Independientemente del método a utilizar (<<forma geométrica>>, <<caja
 #: 0300-the-georeferencing-process.en.adoc:308
 #, no-wrap
 msgid "*Point-radius method*: store the <<corrected center>> of the constrained boundaries from the previous step as decimal <<latitude>> and decimal <<longitude>> and store the <<geographic radial>> as a distance in the units given in the most specific <<locality clause>>. If there are no distance units in that clause, use meters (see <<Point-radius Method>>).\n"
-msgstr "*Método radio-punto*: almacenar el <<centro corregido>> de los límites restringidos del paso anterior como <<latitud>> decimal y <<longitude>>decimal y almacenar el <<radio geográfico>> como una distancia en las unidades dadas en la <<claúsula de la localidad>> más específica. Si no hay unidades de distancia en esa cláusula, utilice metros (ver <<Método Radio-Punto>>).\n"
+msgstr "*Método Radio-punto*: almacenar el <<centro corregido>> de los límites restringidos del paso anterior como <<latitud>> decimal y <<longitude>>decimal y almacenar el <<radio geográfico>> como una distancia en las unidades dadas en la <<claúsula de la localidad>> más específica. Si no hay unidades de distancia en esa cláusula, utilice metros (ver <<Método Radio-Punto>>).\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:309
@@ -2887,7 +2887,7 @@ msgstr "Utilice la información de otras cláusulas, como la división político
 #: 0300-the-georeferencing-process.en.adoc:313
 #, no-wrap
 msgid "Applying Spatial Constraints"
-msgstr ""
+msgstr "Aplicando Restricciones Espaciales"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:316
