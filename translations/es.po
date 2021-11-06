@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-06 16:35\n"
+"PO-Revision-Date: 2021-11-06 17:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2887,7 +2887,7 @@ msgstr "Utilice la información de otras cláusulas, como la división político
 #: 0300-the-georeferencing-process.en.adoc:313
 #, no-wrap
 msgid "Applying Spatial Constraints"
-msgstr "Aplicando Restricciones Espaciales"
+msgstr "Aplicando Acotaciones Espaciales"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:316
