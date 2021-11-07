@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 01:18\n"
+"PO-Revision-Date: 2021-11-07 01:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2903,22 +2903,22 @@ msgstr "Restricciones de Taxón"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:320
 msgid "It is common to encounter <<locality>> descriptions for which the <<boundary,boundaries>> and <<uncertainty>> could be reduced if the taxon and its environmental or geographic constraints are known."
-msgstr ""
+msgstr "Es común encontrar descripciones de <<localidad,localidades>> para las cuales los <<límite,límites>> y la <<incertidumbre>> podrían acotarse si se conoce el taxón y sus restricciones ambientales o geográficas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:322
 msgid "One case in which a taxon constraint might be applied is where a locality description would be <<georeference,georeferenced>> in a distinct manner if it was known to be terrestrial, aquatic, or marine. Here even the life stage of a taxon could be taken into account."
-msgstr ""
+msgstr "Un caso en el que una restricción de taxón podría ser aplicada es cuando la descripción de la localidad podría ser <<georreferencia,georreferenciada>> de una manera distinta si se supiera que era terrestre, acuático o marino. Incluso, aquí se podría tener en cuenta la etapa del ciclo de vida de un taxón."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:324
 msgid "{marine}OBIS (the Ocean Biodiversity Information System) uses the http://www.marinespecies.org/users.php[World Register of Marine Species (WoRMS 2019)^] to determine if a species can be classified as either marine or terrestrial. Note, however, that there are many species listed in the WoRMS database that occur on coastal shores or in estuaries (i.e. species that could be regarded as both marine and terrestrial at some stage during their life cycle), so caution needs to be taken when using this method in <<georeference,georeferencing>>."
-msgstr ""
+msgstr "{marine}OBIS (el Sistema de Información de Biodiversidad del Océano) utiliza el http://www.marinespecies.org/users.php[Registro Mundial de Especies Marinas (WoRMS 2019)^] para determinar si una especie puede ser clasificada como marina o terrestre. Sin embargo, hay que tener en cuenta que hay muchas especies incluidas en la base de datos de WoRMS que ocurren en orillas costeras o en estuarios (en específico, especies que podrían considerarse tanto marinas como terrestres en algún momento de su ciclo de vida), así que hay que tener cuidado al usar este método en la <<georreferencia,georreferenciación>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:326
 msgid "At the generic level there are similar biome-matching services available through the http://www.irmng.org/[Interim Register of Marine and Nonmarine Genera (IRMNG) (Rees 2019)^], and the associated http://www.lifewatch.be/data-services/[LifeWatch taxon matching services^]."
-msgstr ""
+msgstr "En el nivel genérico hay servicios similares de asignación de biomas disponibles a través de http://www.irmng.org/[Interim Register of Marine and Nonmarine Genera (IRMNG) y http://www.lifewatch.be/data-services/[LifeWatch taxon matching services^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:328
