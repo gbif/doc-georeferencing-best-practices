@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 01:53\n"
+"PO-Revision-Date: 2021-11-07 02:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2923,25 +2923,25 @@ msgstr "En el nivel genérico hay servicios similares de asignación de biomas d
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:328
 msgid "Another case where taxon might be taken into account is where a distribution range or environmental domain suggests a restriction in the boundaries of a location. However, this kind of constraint on a georeference is not recommended, because an organism whose location falls outside of an established range map may indicate a genuine outlier, or a taxon misidentification. Given that, such information can help distinguish between two possible locations of the same <<feature>> name where one possible location fits within the environmental domain for the taxon, and the other outside the range. This auxiliary information is also particularly useful after georeferencing, to reveal records of possible range extensions, exotic invasions, or cryptic taxa."
-msgstr ""
+msgstr "Otro caso en el que se podría tener en cuenta el taxón es aquel en el que un rango de distribución o las condiciones ambientales sugieren una restricción en los límites de una ubicación. Sin embargo, este tipo de restricción en una georreferencia no es recomendable, porque un organismo cuya ubicación se encuentre fuera de un mapa del rango establecido puede ser un registro atípico verdadero o una mala identificación del taxón. Teniendo esto en cuenta, tal información puede ayudar a distinguir entre dos posibles ubicaciones de la misma <<entidad geográfica>>, donde una posible ubicación se ajusta a las condiciones ambientales para el taxón y la otra está fuera del rango. Esta información de apoyo también es particularmente útil después de la georreferenciación para revelar posibles registros de extensiones de rango, invasiones exóticas o taxones crípticos."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:329
 #, no-wrap
 msgid "Using Date Constraints"
-msgstr ""
+msgstr "Usando Restricciones de Fecha"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:332
 msgid "The date is an important characteristic of an <<event>> and must be recorded. Towns, roads, counties, and even countries can change names and <<boundary,boundaries>> over time, and can even cease to exist as extant <<feature,features>>. Rivers and coastlines can change position, billabongs and ox-bow lakes can come and go, and areas of once pristine environment may become farmland or urban areas."
-msgstr ""
+msgstr "La fecha es una característica importante de un <<evento>> y debe ser registrada. Las ciudades, vías, condados e incluso los países pueden cambiar de nombre y <<límite,ímites>> con el tiempo, incluso puede dejar de existir como <<entidad geográfica,entidades geográficas>> vigentes. Los ríos y costas pueden cambiar de posición; los lagos, estanques y brazos muertos pueden aparecer y desaparcer y las áreas de un ambiente prístino puede convertirse en tierras de cultivo o áreas urbanas."
 
 #.  TODO: Matt made up example title
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:335
 #, no-wrap
 msgid "Date constraints"
-msgstr ""
+msgstr "Restricciones de fecha"
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:338
