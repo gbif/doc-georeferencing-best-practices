@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 03:04\n"
+"PO-Revision-Date: 2021-11-07 22:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2967,13 +2967,13 @@ msgstr "Usando Restricciones de Elevación y Profunidad"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:347
 msgid "Elevation can often be used as a constraint to distinguish between two similarly named localities or to refine the uncertainty in a georeference. If both maximum and minimum elevations are given, then the contours of these limits may be used to constrain the <<extent>> of a locality and therefore its uncertainty. If a single value is given for elevation, then the precision of that value can be used to estimate the minimum and maximum elevations as described in <<uncertainty-related-to-offset-precision,§3.4.6 Uncertainty Related to Offset Precision>>. The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] describes how to georeference using elevation constraints in section {gqg}#feature-path[2.1.3.3. Feature – Path^]. The same considerations can also be applied to occurrence depths in cases of benthic organisms, or when the depth of the waterbody floor is available in non-benthic occurrence records, or to exclude geographic regions where waterbody depth is shallower than occurrence depth given."
-msgstr ""
+msgstr "La elevación a menudo se puede utilizar como una restricción para distinguir entre dos localidades con nombres similares o para refinar la incertidumbre en una georreferencia. Si se dan elevaciones máximas y mínimas, entonces los contornos de estos límites pueden utilizarse para restringir la <<extensión>> de una localidad y, por lo tanto, su incertidumbre. Si se da un único valor para la elevación, entonces la precisión de ese valor se puede utilizar para estimar las elevaciones mínimas y máximas como se describe en <<incertidumbre-relacionada-con-la-precisión-de-un-desplazamiento,§3.4.6 Incertidumbre Relacionada con la Precisión de un Desplazamiento>>. La {gqg}[Guía de Referencia Rápida de Referenciación (Zermoglio et al. 2020)^] describe cómo georreferenciar usando restricciones de elevación en la sección {gqg}#feature-path[2.1.3.3. Entidad Geográfica: Ruta^]. También se pueden aplicar las mismas consideraciones a las profundidades del registro en casos de organismos bentónicos, cuando la profundidad del suelo del cuerpo del agua esté disponible en registros no bentónicos o para excluir las regiones geográficas donde la profundidad del cuerpo del agua es menor que la profundidad dada para el registro."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:348
 #, no-wrap
 msgid "Using Collector Itineraries"
-msgstr ""
+msgstr "Usando los Itinerarios del Colector"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:351
