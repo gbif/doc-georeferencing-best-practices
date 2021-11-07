@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-06 17:11\n"
+"PO-Revision-Date: 2021-11-07 01:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2892,13 +2892,13 @@ msgstr "Aplicando Acotaciones Espaciales"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:316
 msgid "There are many ways that a <<location>> can be constrained beyond what the geography and <<locality>> descriptions alone suggest. Doing so relies on applying additional location information, such as <<elevation>> or <<depth>>, lithostratigraphic information for fossils, or information outside the location information, such as environmental constraints for a particular species. There are important implications about workflow and effort that need to be considered when applying additional constraints. For example, if taxon constraints are going to be applied, the <<georeference,georeferencing>> cannot be done strictly on location information, which means it has to be done on occurrence records, or on an index combining location and taxon. This would be much slower than georeferencing based on location alone. A good compromise would be to georeference in multiple stages, with the first stage based on location information, and a subsequent stage including the rest of the occurrence information, and perhaps a final stage of review by collectors to be able to set term:dwc[dwc:georeferenceVerificationStatus] to \"verified by collector\" – the best status a georeference can possibly have."
-msgstr ""
+msgstr "Hay muchas maneras en que se puede acotar una <<ubicación>> más allá de lo que la geografía y las descripciones de las <<localidad,localidades>> sugieren por si solas. Hacerlo depende de usar la información adicional sobre la ubicación, como la <<elevación>> o la <<profundidad>>, información litoestratográfica para los fósiles o información fuera de la de la ubicación, como restricciones ambientales para una especie en particular. Hay implicaciones importantes sobre el flujo de trabajo y el esfuerzo requerido que se deben tener en cuenta al aplicar acotaciones adicionales. Por ejemplo, si se van a aplicar restricciones de taxón, la <<georreferencia,georreferenciación>> no se puede hacer estrictamente sobre la información de la ubicación, lo que significa que debe hacerse sobre registros de presencia o sobre un índice que combine la ubicación y el taxón. Este proceso sería mucho más lento que la georreferencia basada únicamente en la ubicación. Un buen equilibrio sería georreferenciar en múltiples etapas, con la primera etapa basadandose en la información de la ubicación y una etapa posterior incluyendo el resto de la información del registro. También puede haber una etapa final de revisión por los colectores para poder establecer el term:dwc[dwc:georeferenceVerificationStatus] (estado de la verificación de la georreferenciación) como \"verificado por el colector\", el mejor estado que una georreferencia puede tener."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:317
 #, no-wrap
 msgid "Taxon Constraints"
-msgstr ""
+msgstr "Restricciones de Taxón"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:320
