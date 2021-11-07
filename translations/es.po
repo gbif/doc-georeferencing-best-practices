@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 02:21\n"
+"PO-Revision-Date: 2021-11-07 03:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2946,23 +2946,23 @@ msgstr "Restricciones de fecha"
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:338
 msgid "“Collecting localities along the Alaska Highway are frequently given in terms of milepost markers; however, the Alaska Highway is approximately 40 km shorter than it was in 1942 and road improvements continue to re-route and shorten it every year. Accurate location of a milepost, therefore, would require cross-referencing to the collecting date. To further complicate matters, Alaska uses historical mileposts (calibrated to 1942 distance), the Yukon uses historical mileposts converted to kilometers, and British Columbia uses actual mileage (expressed in kilometers).” From http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^]"
-msgstr ""
+msgstr "“La localidades de colecta a lo largo de Alaska Highway se dan con frecuencia en términos de marcadores de millas. Sin embargo, Alaska Highway es aproximadamente 40 km más corta que en 1942 y las mejoras en la carretera siguen redirigiendola y acortándola cada año. Por lo tanto, determinar la ubicación exacta de un kilometraje requeriría remitirse a la fecha de colecta. Para complicar aún más las cosas, Alaska utiliza marcadores de millas históricos (calibrados a las distancias de 1942), el Yukon utiliza marcadores de millas históricos convertidas a kilómetros y Columbia Británica utiliza kilómetros reales (expresados en kilómetros). De http://www.biology.ualberta.ca/bsc/briefs/brlabelstandards.htm[Wheeler et al. 2001^]"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:341
 msgid "To the extent possible, the aim is to have a <<georeference>> and its <<uncertainty,uncertainties>> based on the conditions at the time an <<event>> occurred at a <<locality>>. There are two major implications associated with this. One is that current maps and <<gazetteer,gazetteers>> may not reflect the conditions at the time of the event, and the other is that old maps and gazetteers may not represent well the conditions of later events."
-msgstr ""
+msgstr "En la medida de lo posible, el objetivo es tener un <<georeference>> y sus <<incertidumbre,incertidumbres>> basándose en las condiciones del momento en que ocurrió un <<evento>> en una <<localidad>>. Esto tiene dos implicaciones importantes. Una es que los mapas actuales y <<gacetero,gaceteros>> pueden no reflejar las condiciones en el momento del evento y la otra es que los mapas antiguos y los gacetero pueden no representar bien las condiciones de eventos futuros."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:343
 msgid "We recommend that this sort of constraint be used in a followup workflow step to deal with <<locality,localities>> at the event level rather than try to construct a gazetteer that includes collecting dates."
-msgstr ""
+msgstr "Recomendamos que este tipo de restricción se utilice en un paso de seguimiento en el flujo de trabajo, para tratar con <<localidad,localidades>> en el nivel de evento en lugar de intentar construir un gacetero que incluya colectar fechas."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:344
 #, no-wrap
 msgid "Using Elevation or Depth Constraints"
-msgstr ""
+msgstr "Usando Restricciones de Elevación y Profunidad"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:347
