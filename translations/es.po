@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 22:54\n"
+"PO-Revision-Date: 2021-11-07 23:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2978,35 +2978,35 @@ msgstr "Usando los Itinerarios del Colector"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:351
 msgid "Collector’s itineraries and expedition tracks can be a useful adjunct in discovering locations that are otherwise difficult to find, especially where there may be more than one possible <<location>> based on a <<feature>> name. This may be done through using field notebooks, published reports and maps, searching for the <<locality,localities>> of specimens with adjacent collecting numbers, etc. With historic collecting events (i.e. before the days of modern transport), you may also be able to restrict the area to look in by limiting the distance a collector may have been able to travel within one day. Note that the collector name and date are essential pieces of information in tracking itineraries, and therefore can not be done on localities alone. We thus recommend that this sort of constraint be used in a followup workflow step to deal with unresolved localities rather than try to construct a <<gazetteer>> that includes collecting dates, collector names, and collector numbers."
-msgstr ""
+msgstr "Los itinerarios del colector y los recorridos de la expedición pueden ser un complemento útil para descubrir lugares que de otra manera serían difíciles de encontrar, especialmente donde puede haber más de una <<localidad>> posible dado el nombre de una <<entidad geográfica>>. Esto puede hacerse utilizando libretas de campo, informes y mapas publicados, buscando las <<localidad,localidades>> de especímenes con números de colecta adyacentes, etc. Con eventos de colectas históricas (p.ej. épocas anteriores al transporte moderno), también se puede restringir el área a buscar limitando la distancia que un colector pudo haber recorrido en un solo día. Tenga en cuenta que el nombre del colector y la fecha son piezas esenciales de información en el seguimiento de los itinerarios y, por lo tanto, no se puede hacer sólo en localidades. Por consiguiente, recomendamos que este tipo de restricción se utilice en un paso de seguimiento en el flujo de trabajo para tratar con localidades no resueltas en lugar de intentar construir un <<gacetero>> que incluya las fechas de colecta, nombres de los colectores y números de colectores."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:352
 #, no-wrap
 msgid "Using Ship Logs"
-msgstr ""
+msgstr "Usando Registros de los Barcos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:355
 msgid "{marine}Digitized ships logs contain a wealth of data (https://www.gislounge.com/mapping-ship-logs/[Dempsey 2014^]) and are valuable data resources. A freely downloadable database of surface marine observational records from ships, buoys, and other platform types is available as the https://icoads.noaa.gov/products.html[International Comprehensive Ocean-Atmosphere Data Set (NOAA 2018)^]. Be aware that the <<accuracy>> of records obtained from this dataset vary, depending on the original source, and are not always documented."
-msgstr ""
+msgstr "{marine}Los registros digitalizados de barcos contienen una gran cantidad de datos (https://www.gislounge.com/mapping-ship-logs/[Dempsey 2014^]) y son fuentes de datos valiosas. Una base de datos de libre descarga de registros de observación marina superficial de buques, boyas y otros tipos de plataformas está disponible en el https://icoads.noaa.gov/products.html[International Comprehensive Ocean-Atmosphere Data Set (NOAA 2018)^]. Tenga en cuenta que la <<exactitud>> de los registros obtenidos de este conjunto de datos varía, dependiendo de la fuente original y no siempre está documentada."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:356
 #, no-wrap
 msgid "Using Geological Context"
-msgstr ""
+msgstr "Usando el Contexto Geológico"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:359
 msgid "Maps or <<geographic information system,GIS>> layers of geological contexts, such as formations, can be used to narrow the <<location>> in the case of a paleontological specimen that includes such information in the shared content of the record. For example, if a fossil is taken from the surface in the Fox Hills formation (which is Cretaceous in age), that can distinguish the location from nearby different formations on the surface, like a habitat could do in an ecological context."
-msgstr ""
+msgstr "Los mapas o capas <<sistema de información geográfica,GIS>> de contextos geológicos, como las formaciones, pueden utilizarse para acotar la <<ubicación>> en el caso de un espécimen paleontológico que incluya dicha información en el contenido compartido del registro. Por ejemplo, si se toma un fósil de la superficie en la formación Fox Hills (que es de edad cretácica), esto puede distinguir la ubicación de otras formaciones diferentes cercanas en la superficie, como lo haría un hábitat en un contexto ecológico."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:360
 #, no-wrap
 msgid "Georeferencing Methods"
-msgstr ""
+msgstr "Métodos de Georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:363
