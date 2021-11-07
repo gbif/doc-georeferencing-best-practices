@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 23:28\n"
+"PO-Revision-Date: 2021-11-07 23:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3011,24 +3011,24 @@ msgstr "Métodos de Georreferenciación"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:363
 msgid "The distinction between <<georeferencing method,georeferencing methods>> is in the basic approach taken to capture spatially enabled <<location>> data. Within each method there should be protocols for how to produce <<georeference,georeferences>> based on the input <<locality>> description and supporting information. The goal of any georeferencing method and its specific, documented protocols should be to create a spatial representation of the entire location, including all <<uncertainty,uncertainties>> involved, with sufficient accompanying information and documentation to make the georeference reproducible."
-msgstr ""
+msgstr "Lo que diferencia los distintos <<método de georreferenciación,métodos de georreferenciación>> es el enfoque básico tomado para capturar datos espaciales de la <<ubicación>>. Dentro de cada método debe haber protocolos para producir <<georreferencia,georreferencias>> basándose en la descripción de la <<localidad>> de entrada y otra información de soporte. El objetivo de cualquier método de georreferenciación y sus protocolos específicos y documentados debería ser crear una representación espacial de toda la ubicación, incluyendo todas las <<incertidumbre,incertidumbres>> involucradas, con suficiente información y documentación complementaria para hacer que la georreferencia sea reproducible."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:364
 #, no-wrap
 msgid "Point Method"
-msgstr ""
+msgstr "Método del Punto"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:367
 msgid "Based on the aspirations for <<georeferencing method,georeferencing methods>> described in the previous paragraph, the point method, consisting of only <<coordinates>>, or coordinates in a <<coordinate reference system>>, is insufficient to be useful except to center a point on a map (and even that potentially incorrectly without the coordinate reference system). The point method does not give any indication of scale, though the mistake is often made to try to represent scale and/or <<uncertainty,uncertainties>> in the <<precision>> of the coordinates. For these reasons, the point method is *NOT* recommended as the end product of a <<georeference,georeferencing>> workflow."
-msgstr ""
+msgstr "Teniendo en cuenta las aspiraciones de los <<método de georreferenciación,métodos de georreferenciación>> descritas en el párrafo anterior, el método del punto, que consiste solo en <<coordenadas>> o coordenadas en un <<sistema de referencia de coordenadas>>, es insuficiente para ser útil, excepto para centrar un punto en un mapa (e incluso eso puede ser potencialmente incorrecto sin un sistema de referencia de coordenadas). El método del punto no da ninguna indicación sobre la escala, aunque a menudo se comete el error de intentar representar la escala y/o las <<incertidumbre,incertidumbres>> por medio de la <<precisión>> de las coordenadas. Por estas razones, el método del punto es *NO* es un producto final de un flujo de trabajo <<georreferencia,georreferenciación>> recomendado."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:368
 #, no-wrap
 msgid "Point-radius Method"
-msgstr ""
+msgstr "Método Radio-punto"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:371
