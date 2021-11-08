@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 04:01\n"
+"PO-Revision-Date: 2021-11-08 04:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3310,7 +3310,7 @@ msgstr "Un mapa digital nunca es más exacto que el original del que se derivó,
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:478
 msgid "Care must be used when using a digital map that records the scale in the form of text (e.g. 1:100,000) rather than by using a scale bar, as the resolution of the computer screen, and the level of zooming will change the apparent scale of the map being viewed. (It does not change the scale at which the map was prepared). This also applies to maps printed from a digital map. When preparing digital maps, always include scale as a scale bar and do not just record scale in textual form (e.g. 1:20,000)."
-msgstr ""
+msgstr "Hay que tener cuidado cuando se utiliza un mapa digital que registra la escala en forma de texto (p. ej. 1:100.000) en lugar de utilizar una barra de escala, ya que la resolución de la pantalla del ordenador y el nivel de zoom cambiarán la escala aparente del mapa que se está viendo (no cambia la escala a la que se preparó el mapa). Esto también aplica a los mapas impresos a partir de un mapa digital. Al preparar mapas digitales, incluya siempre la escala como una barra de escala y no se limite a registrar la escala en forma de texto (p. ej. 1:20.000)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:480
@@ -3321,7 +3321,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:481
 #, no-wrap
 msgid "Using OpenStreetMap, Google Maps and Google Earth"
-msgstr ""
+msgstr "Usando OpenStreetMap, Google Maps y Google Earth"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:484
@@ -3342,7 +3342,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:489
 #, no-wrap
 msgid "Uncertainties in Marine Maps"
-msgstr ""
+msgstr "Incertidumbres en los Mapas Marinos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:492
@@ -3375,7 +3375,13 @@ msgid "h|ZOC\n"
 "|A1\n"
 "|± 5m (16 ft)\n"
 "|=0.50m (1.6 ft) +\n"
-msgstr ""
+msgstr "h|ZOC\n"
+"h|<<exactitud,Exactitud>> Posicional\n"
+"h|<<exactitud,Exactitud>> de la Profundidad\n"
+"h|Cobertura del Fondo Marino\n\n"
+"|A1\n"
+"|± 5m (16 ft)\n"
+"|=0. 0m (1,6 pies) +\n"
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:515
@@ -3385,7 +3391,11 @@ msgid "1% depth\n"
 "|A2\n"
 "|± 20m (66 ft)\n"
 "|=1.0m (3.2 ft) +\n"
-msgstr ""
+msgstr "1% de profundidad\n"
+"|Todas las características significativas del fondo marino detectadas.\n\n"
+"|A2\n"
+"|± 20m (66 ft)\n"
+"|=1,0m (3.2 ft) +\n"
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:521
@@ -3395,7 +3405,11 @@ msgid "2% depth\n"
 "|B\n"
 "|± 50m (160 ft)\n"
 "|=1.0m (3.2 ft) +\n"
-msgstr ""
+msgstr "2% de profundidad\n"
+"|Todas las características significativas del fondo marino detectadas.\n\n"
+"|B\n"
+"|± 50m (160 ft)\n"
+"|=1,0m (3.2 ft) +\n"
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:527
@@ -3405,7 +3419,11 @@ msgid "2% depth\n"
 "|C\n"
 "|± 500m (1600 ft)\n"
 "|=2.0m (6.5 ft) +\n"
-msgstr ""
+msgstr "2% de profundidad\n"
+"|No se espera que haya entidades peligrosas para la navegación de superficie, pero pueden existir.\n\n"
+"|C\n"
+"|± 500m (1600 ft)\n"
+"|=2.0m (6.5 ft) +\n"
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:537
@@ -3418,13 +3436,20 @@ msgid "5% depth\n"
 "|Large depth anomalies may be expected.\n\n"
 "|U\n"
 "3+|Unassessed. The quality of bathymetric data has yet to be assessed.\n"
-msgstr ""
+msgstr "5% de profundidad\n"
+"|Se pueden esperar anomalías de profundidad.\n\n"
+"|D\n"
+"|Peor que ZOC C\n"
+"|Peor que ZOC C\n"
+"|Se pueden esperar grandes anomalías de profundidad.\n\n"
+"|U\n"
+"3+|No evaluado. La calidad de los datos batimétricos aún no ha sido evaluada.\n"
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:539
 #, no-wrap
 msgid "Uncertainty due to GPS"
-msgstr ""
+msgstr "Incertidumbre debido al GPS"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:542
@@ -3445,7 +3470,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:547
 #, no-wrap
 msgid "Uncertainty due to using previously georeferenced localities"
-msgstr ""
+msgstr "Incertidumbre debido al uso de localidades previamente georreferenciadas"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:550
@@ -3461,7 +3486,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:553
 #, no-wrap
 msgid "Uncertainty Related to Coordinate Precision"
-msgstr ""
+msgstr "Incertidumbre Relacionada con la Precisión de las Coordenadas"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:556
@@ -3501,7 +3526,20 @@ msgid "h|Precision h|0 degrees Latitude h|30 degrees Latitude h|60 degrees Latit
 "|1.0 second |44 m |41 m |35 m |32 m\n"
 "|0.1 second |5 m |5 m |4 m |4 m\n"
 "|0.01 second |1 m |1 m |1 m |1 m\n"
-msgstr ""
+msgstr "h|Precisión h|0 grados Latitud h|30 grados Latitud h|60 grados Latitud h|85 grados Latitud\n"
+"|1. grado |156,904 m |146,962 m |124,605 m |112,109 m\n"
+"|0. grado |15,691 m |14,697 m |12,461 m |11,211 m\n"
+"|0,01 grado |1,570 m |1,470 m |1,246 m |1,121 m\n"
+"|0. 01 grado |157 m |147 m |125 m |112 m\n"
+"|0.0001 grado |16 m |15 m |13 m |12 m\n"
+"|0. 0001 grado |2 m |2 m |2 m |2 m\n"
+"|1,0 minuto |2,615 m |2,450 m |2,077 m |1,869 m\n"
+"|0. minuto |262 m |245 m |208 m |187 m\n"
+"|0.01 minuto |27 m |25 m |21 m |19 m\n"
+"|0. 01 minuto | 3 m |3 m |3 m |2 m\n"
+"|1,0 segundo |44 m |41 m |35 m |32 m\n"
+"|0. segundo |5 m |5 m |4 m |4 m\n"
+"|0.01 segundo |1 m |1 m |1 m |1 m\n"
 
 #.  TODO: Was CARE.
 #. type: Plain text
@@ -3525,13 +3563,13 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:591
 #, no-wrap
 msgid "Coordinate precision"
-msgstr ""
+msgstr "Precisión de las coordenadas"
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:595
 #, no-wrap
 msgid "*Lat:* 10.27° *Long:* −123.6° *Datum:* WGS84\n"
-msgstr ""
+msgstr "*Lat:* 10.27° *Largo:* −123.6° *Datum:* WGS84\n"
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:598
@@ -3542,7 +3580,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:601
 #, no-wrap
 msgid "*Lat:* 10.00000° *Long:* −123.50000° *Datum:* WGS84\n"
-msgstr ""
+msgstr "*Lat:* 10.00000° *Largo:* −123.50000° *Datum:* WGS84\n"
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:604
@@ -3553,7 +3591,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:606
 #, no-wrap
 msgid "Uncertainty from Unknown Datum"
-msgstr ""
+msgstr "Incertidumbre debido a un Datum Desconocido"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:609
@@ -3569,7 +3607,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:612
 #, no-wrap
 msgid "Uncertainty Related to Heading"
-msgstr ""
+msgstr "Incertidumbre Relacionada con la Orientación Cardinal"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:615
@@ -3594,7 +3632,10 @@ msgid "h|Precision h|Interpretation h|Example h|Heading Uncertainty\n"
 "|N |Between NW and NE |10.6 km N of Lambert Centre |45°\n"
 "|NE |Between NNE and ENE |10.5 mi NE of Lambert Centre |22.5°\n"
 "|NNE |Between N of NNE and E of NNE |10 km NNE of Lambert Centre |11.25°\n"
-msgstr ""
+msgstr "h|Precisión h|Interpretación h|Ejemplo h|Incertidumbre de Orientación\n"
+"|N |Entre NO y NE |10.6 km N de Lambert Centre |45°\n"
+"|NE |Entre NNE y ENE |10. mi NE de Lambert Centre |22. °\n"
+"|NNE |Entre N de NNE y E de NNE |10 km NNE de Lambert Centre |11.25°\n"
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:628
@@ -3606,18 +3647,18 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:630
 #, no-wrap
 msgid "img/directional-precision.png"
-msgstr ""
+msgstr "img/directional-precision.png"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:633
 msgid "Using the example"
-msgstr ""
+msgstr "Usando el ejemplo"
 
 #. type: delimited block .
 #: 0300-the-georeferencing-process.en.adoc:636
 #, no-wrap
 msgid "10 km NE of Lambert Centre\n"
-msgstr ""
+msgstr "A 10 km NE de Lambert Centre\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:639
@@ -3628,12 +3669,12 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:645
 #, no-wrap
 msgid "e = sqrt( (x′-x)^2 + (y′-y)^2)\n"
-msgstr ""
+msgstr "e = sqrt( (x′-x)^2 + (y′-y)^2)\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:649
 msgid "where x=dcos(θ), y=dsin(θ), x′=dcos(θ′), and y′=dsin(θ′). The uncertainty in the above example would be 3.90 km."
-msgstr ""
+msgstr "donde x=dcos(θ), y=dsin(θ), x′=dcos(θ′) y y′=dsin(θ′). La incertidumbre en el ejemplo anterior sería de 3.90 km."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:651
@@ -3644,7 +3685,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:652
 #, no-wrap
 msgid "Uncertainty Related to Offset Precision"
-msgstr ""
+msgstr "Incertidumbre Relacionada con la Precisión del Desplazamiento"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:655
@@ -3685,7 +3726,21 @@ msgid "h|Distance h|Recommended Uncertainty h|Uncertainty sec. Frazier et al.\n"
 "|200 mi |5 mi |30 mi\n"
 "|1000 m |50 m |150 m\n"
 "|2000 m |50 m |300 m\n"
-msgstr ""
+msgstr "h|Distancia h|Incertidumbre Recomendada h|Incertidumbre seg. Frazier et al.\n"
+"|10.1 km |0.05 km |0.1 km\n"
+"|10.25 mi |0.125 mi |0. 1 mi\n"
+"|10.5 km |0.25 km |0.1 km\n"
+"|10.6 mi |0.05 mi | 0. mi\n"
+"|10.75 km |0.125 km |0.01 km\n"
+"|10 mi |0. mi |1,5 mi\n"
+"|15 km |0.5 km |1 km\n"
+"|30 mi |0.5 mi |4.5 mi\n"
+"|33 km |0. km |1 km\n"
+"|100 mi |5 mi |15 mi |15 mi\n"
+"|140 km |5 km |21 km |21 km\n"
+"|200 mi |5 mi |30 mi\n"
+"|1000 m |50 m |150 m\n"
+"|2000 m |50 m\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:682
@@ -3713,13 +3768,13 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:690
 #, no-wrap
 msgid "img/orthogonal-distances-from-feature.png"
-msgstr ""
+msgstr "img/orthogonal-distances-from-feature.png"
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:692
 #, no-wrap
 msgid "Combined Uncertainties"
-msgstr ""
+msgstr "Incertidumbres Combinadas"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:695
@@ -3730,7 +3785,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:696
 #, no-wrap
 msgid "Using the Georeferencing Quick Reference Guide"
-msgstr ""
+msgstr "Utilizando la Guía de Referencia Rápida de Georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:699
@@ -3741,7 +3796,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:700
 #, no-wrap
 msgid "Using the Georeferencing Calculator"
-msgstr ""
+msgstr "Usando la Calculadora de Georreferenciación"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:703
@@ -3774,7 +3829,7 @@ msgstr "img/georeferencing-calculator.png"
 #: 0300-the-georeferencing-process.en.adoc:712
 #, no-wrap
 msgid "Difficult Localities"
-msgstr ""
+msgstr "Localidades Difíciles"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:715
@@ -3790,7 +3845,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:718
 #, no-wrap
 msgid "Determining Spatial Fit"
-msgstr ""
+msgstr "Determinando el Ajuste Espacial"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:721
@@ -3817,7 +3872,7 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:728
 #, no-wrap
 msgid "img/spatial-fit.png"
-msgstr ""
+msgstr "img/spatial-fit.png"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:731
@@ -3838,7 +3893,11 @@ msgid "|The <<spatial fit>> of the white circle (r₂) |stem:[(pi r_2^2)/A]\n"
 "|The <<spatial fit>> of the yellow circle (r₁) |stem:[(pi r_1^2)/A]\n"
 "|The <<spatial fit>> of the polygon |*1*\n"
 "|The <<spatial fit>> of the point C |*0*\n"
-msgstr ""
+msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[(pi r_2^2)/A]\n"
+"|El <<ajuste espacial>> de la caja delimitadora |stem:[(2 r_2^2)/A]\n"
+"|El <<ajuste espacial>> del circulo amarillo (r₁) |stem:[(pi r_1^2)/A]\n"
+"|El <<ajuste espacial>> del polígono |*1*\n"
+"|El <<ajuste espacial>> del punto C |*0*\n"
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:743
@@ -3854,7 +3913,11 @@ msgid "|The <<spatial fit>> of the white circle (r₂) |stem:[(pi r_2^2)/(2r_2^2
 "|The <<spatial fit>> of the yellow circle (r₁) |*0*\n"
 "|The <<spatial fit>> of the polygon |*0*\n"
 "|The <<spatial fit>> of the point C |*0*\n"
-msgstr ""
+msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[(pi r_2^2)/(2r_2^2)]\n"
+"|El <<ajuste espacial>> de la caja delimitadora |*1*\n"
+"|El <<ajuste espacial>> del circulo amarillo (r₁) |*0*\n"
+"|El <<ajuste espacial>> del polígono |*0*\n"
+"|El <<ajuste espacial>> del punto C |*0*\n"
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:753
@@ -3870,7 +3933,11 @@ msgid "|The <<spatial fit>> of the white circle (r₂) |stem:[r_2^2/r_1^2]\n"
 "|The <<spatial fit>> of the yellow circle (r~1~) |*1*\n"
 "|The <<spatial fit>> of the polygon |*0*\n"
 "|The <<spatial fit>> of the point C |*0*\n"
-msgstr ""
+msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[r_2^2/r_1^2]\n"
+"|El <<ajuste espacial>> de la caja delimitadora |*0*\n"
+"|El <<ajuste espacial>> del circulo amarillo (r~1~) |*1*\n"
+"|El <<ajuste espacial>> del polígono |*0*\n"
+"|El <<ajuste espacial>> del punto C |*0*\n"
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:764
@@ -3886,7 +3953,11 @@ msgid "|The <<spatial fit>> of the white circle (r~2~) |*Undefined*\n"
 "|The <<spatial fit>> of the yellow circle (r~1~) |*Undefined*\n"
 "|The <<spatial fit>> of the polygon |*Undefined*\n"
 "|The <<spatial fit>> of the point C |*1*\n"
-msgstr ""
+msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |*Indefinido*\n"
+"|El <<ajuste espacial>> de la caja delimitadora |*Indefinido*\n"
+"|El <<ajuste espacial>> del circulo amarillo (r~1~) |*Indefinido*\n"
+"|El <<ajuste espacial>> del polígono |*Indefinido*\n"
+"|El <<ajuste espacial>> del punto C |*1*\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:775
@@ -3903,13 +3974,13 @@ msgstr ""
 #: 0300-the-georeferencing-process.en.adoc:778
 #, no-wrap
 msgid "img/spatial-fit-point-radius.jpg"
-msgstr ""
+msgstr "img/spatial-fit-point-radius.jpg"
 
 #. type: Title ==
 #: 0400-collaborative-georeferencing.en.adoc:1
 #, no-wrap
 msgid "Collaborative Georeferencing"
-msgstr ""
+msgstr "Georreferenciación Colaborativa"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:4
@@ -3925,7 +3996,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:8
 #, no-wrap
 msgid "*Advantages*\n"
-msgstr ""
+msgstr "*Ventajas*\n"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:10
@@ -3966,7 +4037,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:18
 #, no-wrap
 msgid "*Disadvantages*\n"
-msgstr ""
+msgstr "*Desventajas*\n"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:20
@@ -4012,7 +4083,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:31
 #, no-wrap
 msgid "DigiVol"
-msgstr ""
+msgstr "DigiVol"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:34
@@ -4028,7 +4099,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:37
 #, no-wrap
 msgid "Notes from Nature"
-msgstr ""
+msgstr "Notes from Nature"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:40
@@ -4039,7 +4110,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:41
 #, no-wrap
 msgid "GEOLocate"
-msgstr ""
+msgstr "GEOLocate"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:44
@@ -4055,7 +4126,7 @@ msgstr ""
 #: 0400-collaborative-georeferencing.en.adoc:47
 #, no-wrap
 msgid "Other Collaborative Georeferencing Projects"
-msgstr ""
+msgstr "Otros Proyectos de Georreferenciación Colaborativa"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:49
@@ -4066,7 +4137,7 @@ msgstr ""
 #: 0500-sharing-data.en.adoc:1
 #, no-wrap
 msgid "Sharing Data"
-msgstr ""
+msgstr "Compartiendo los Datos"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:4
@@ -4077,7 +4148,7 @@ msgstr ""
 #: 0500-sharing-data.en.adoc:5
 #, no-wrap
 msgid "Mapping to Darwin Core"
-msgstr ""
+msgstr "Mapeando al Darwin Core"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:8
