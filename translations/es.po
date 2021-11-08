@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-07 23:54\n"
+"PO-Revision-Date: 2021-11-08 00:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3033,44 +3033,44 @@ msgstr "Método Radio-punto"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:371
 msgid "The result of the <<point-radius>> <<georeferencing method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]) is a <<geographic coordinates,geographic coordinate>> (the \"<<corrected center>>\"), its <<geodetic datum>>, and a <<maximum uncertainty distance>> as a <<radial,radius>>. The length of the radius must be large enough so that a circle centered on the corrected center and based on that radius encompasses all of the <<uncertainty,uncertainties>> in the interpretation of the <<location>>. The point-radius is a very simple representation of the location that contains all of the places that the <<locality>> description might refer to, but may also circumscribe areas that do not match the locality description. That's OK. The point-radius circle can also be intersected with other spatially enabled information to constrain the effective area within the circle, such as <<elevation>>, to derive a <<shape>> representation of the <<locality>>. For example, calculate the intersection of a point-radius circle with the shape of the matching elevation contours in a <<geographic information system>> to get a shape that better matches the described locality. Similarly, one could calculate the intersection of an exposed geological formation with a point-radius <<georeference>> to refine the latter into a shape. The detailed recommended protocols for georeferencing using the point-radius method are given in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "El resultado del <<método de georreferenciación,método>> <<radio-punto>>((https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]) es una <<coordenadas geográficas,coordenada geográfica>> (el \"<<centro corregido>>\"), su <<datum geodésico>> y una <<distancia máxima de incertidumbre>> como un <<radio>>. La longitud del radio debe ser lo suficientemente grande para que un círculo centrado en el centro corregido y basado en el radio abarque todas las <<incertidumbre,incertidumbres>> presentes la interpretación de la <<localidad>>. El radio-punto es una representación muy sencilla de la ubicación que contiene todos los lugares a los que la descripción de la <<localidad>> podría referirse, pero también puede circunscribir áreas que no coincidan con la descripción de la localidad.No hay ningún problema con eso. El círculo del radio-punto también puede intersecarse con otra información espacial para acotar el área efectiva dentro del círculo, tal como la <<elevación>>, para derivar una representación de <<forma geométrica>> de la <<localidad>>. Por ejemplo, calcular la intersección de un círculo de radio-punto con la forma geométrica de los contornos de elevación correspondientes en un <<sistema de información geográfica>> para obtener una forma que se ajuste mejor a la localidad descrita. De manera similar, se podría calcular la intersección de una formación geológica expuesta con una <<georreferencia>> radio-punto para refinar esta última como una forma geométrica. Los protocolos recomendados detallados para la georreferenciación utilizando el método de radio-punto se describen en la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:372
 #, no-wrap
 msgid "Bounding Box Method"
-msgstr ""
+msgstr "Método de Caja Delimitadora"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:375
 msgid "The result of the <<bounding-box>> <<georeferencing method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]) is a set of two <<coordinates>>, one for each of two corners diagonally opposed on the bounding box along with their <<coordinate reference system>>. The corners define the minimum and maximum values of the coordinates, within which the whole of the <<location>> and its <<uncertainty,uncertainties>> is contained. Like the <<point-radius>> method, the bounding box method results in a very simple representation of the <<location>> that contains all of the places that the <<locality>> description might refer to, but may also contain areas that do not match the locality description."
-msgstr ""
+msgstr "El resultado del <<método de georreferenciación,método>> de <<caja delimitadora>>(<<georeferencing method,method>>) es un conjunto de dos <<coordenadas>>, una por cada una de las dos esquinas que se oponen diagonalmente en la caja delimitadora, junto con su <<sistema de referencia de coordenadas>>. Las esquinas definen los valores mínimos y máximos de las coordenadas, dentro de los cuales se contiene toda la <<localidad>> y sus <<incertidumbre,incertidumbres>>. Como el método <<radio-punto>>, el método de la caja delimitadora resulta en una representación muy simple de la <<ubicación>> que contiene todos los lugares a los que se puede referir la descripción de la <<localidad>, pero también puede contener áreas que no coinciden con la descripción de la localidad."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:377
 msgid "Unlike the <<point-radius>> method, this method has no scalar <<maximum uncertainty distance>> to be able to easily understand or filter on the size of the enclosed region, though one can be calculated using half the distance between the two corners as given by Vincenty's formulae (https://doi.org/10.1179/sre.1975.23.176.88[Vincenty 1975^], <<vincenty-1976,Vincenty 1976>>). Thus, a bounding box <<georeference>> can be turned into a point-radius georeference by using the distance just described as the <<geographic radial>>, and from that finding the <<corrected center>>, which will not be equal to the <<geographic center>> of the bounding box, except where the bounding box spans equal distances north and south of the equator or is based on a metric <<grid>>."
-msgstr ""
+msgstr "A diferencia del método <<radio-punto>>, este método no tiene una <<distancia máxima de incertidumbre>> escalar que permita entender fácilmente o filtrar basado en el tamaño de la región delimitada, aunque se puede calcular usando la mitad de la distancia entre las dos esquinas, como se indica en las fórmulas de Vincenty (https://doi.org/10.1179/sre.1975.23.176.88[Vincenty 1975^], <<vincenty-1976,Vincenty 1976>>). Así, una <<georreferencia>> de caja delimitadora puede convertirse en una georreferencia de radio-punto utilizando la distancia descrita como el <<radio geográfico>> y a partir de ahí encontrando el <<centro corregido>>, que no será igual a la <<centro geográfico>> de la caja delimitadora, excepto en los casos en que la caja delimitadora abarca distancias iguales al norte y al sur del ecuador o se basa en una <<grilla>> métrica."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:379
 msgid "A point-radius georeference can be turned into a bounding box georeference by using the geographic radial from the corrected center of the point-radius to determine the coordinates of the east-west and north-south extremes of the bounding box."
-msgstr ""
+msgstr "Una georreferencia de radio-punto se puede convertir en una georreferencia de caja delimitadora mediante el uso del radio geográfico desde el centro corregido del radio-punto para determinar las coordenadas de los extremos este-oeste y norte-sur de la caja delimitadora."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:381
 msgid "Though transformations can be made back and forth between point-radius and bounding box representations of a location, it is not recommended, because the transformed georeference will necessarily be bigger than the original, and therefore contain more area that does not pertain to the actual location. Better to georeference directly using the method of choice."
-msgstr ""
+msgstr "Aunque las transformaciones se pueden realizar entre las representaciones radio-punto y caja delimitadora de una ubicación, no se recomienda porque la georreferencia transformada será necesariamente más grande que la original y, por lo tanto, contiene más área que no pertenece a la ubicación real. Es mejor georreferenciar directamente utilizando el método elegido."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:383
 msgid "Like the point-radius circle, the bounding box can also be intersected with other spatially enabled information to constrain the effective area within."
-msgstr ""
+msgstr "Al igual que el círculo de radio-punto, la caja delimitadora también puede ser intersecada con otra información espacial para acotar el área efectiva contenida."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:384
 #, no-wrap
 msgid "Shape Method"
-msgstr ""
+msgstr "Método de Forma Geométrica"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:387
