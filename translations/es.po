@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 01:29\n"
+"PO-Revision-Date: 2021-11-08 02:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -905,7 +905,7 @@ msgstr "El Township, Range and Section (TRS) o Public Land Survey System (PLSS) 
 #: 0200-elements-for-describing-a-location.en.adoc:106
 #, no-wrap
 msgid "Quarter Degree Squares"
-msgstr "Cuadrados de cuarto de grado"
+msgstr "Cuadrados de Cuarto de Grado"
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:109
@@ -3153,7 +3153,8 @@ msgstr "Incertidumbre debido a la Extensión de la Entidad Geográfica"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:411
 msgid "The first step in determining the <<coordinates>> for a <<locality>> description is to identify the most specific <<feature>> within the locality description. Coordinates may be retrieved from <<gazetteer,gazetteers>>, geographic name databases, maps, or from other locality descriptions that have coordinates or <<shape,shapes>>. We use the term ‘<<feature>>’ to refer to not only traditional named places, but also to places that may not have proper names, such as road junctions, stream confluences, highway mile pegs, and cells in grid systems (e.g. Quarter Degree Square Cells, see <<Quarter Degree Squares>>). The source and <<precision>> of the coordinates should be recorded so that the validity of the <<georeference,georeferenced>> locality can be checked. The original <<coordinate system>> and the <<geodetic datum>> should also be recorded. This information helps to determine sources and the <<maximum uncertainty distance>>, especially with respect to the original <<coordinate precision>>."
-msgstr ""
+msgstr "El primer paso para determinar las <<coordenadas>> para una descripción de una <<localidad>> es identificar la <<entidad geográfica>> más específica dentro de la descripción de la localidad. Las coordenadas pueden extraerse de <<gacetero,gaceteros>>, bases de datos de nombres geográficos, mapas o de otras descripciones de localidad que tengan coordenadas o <<figura geométrica,figuras geométricas>>. Utilizamos el término '<<entidad geográfica>>' para referirnos no sólo a lugares tradicionalmente nombrados, sino también a lugares que pueden no tener nombres adecuados, tales como uniones de carreteras, confluencias de arroyos, indicaciones de millaje en las carreteras y las celdas en sistemas de grillas (p. ej. Celdas de Cuadrícula de Cuarto de Grado, ver <<Cuadrados de Cuarto de Grado\n"
+">>). La fuente y <<precisión>> de las coordenadas deben ser registradas para que la validez de la localidad <<georreferencia,georreferenciada>> pueda ser comprobada. El <<sistema de coordenadas>> original y el <<datum geodésico>> también deben ser registrados. Esta información ayuda a determinar las fuentes y la <<distancia máxima de incertidumbre>>, especialmente con respecto a la <<precisión de las coordenadas>> original."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:413
