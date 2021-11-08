@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 02:37\n"
+"PO-Revision-Date: 2021-11-08 03:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1318,7 +1318,7 @@ msgstr "Elevación"
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:264
 msgid "Supplement the <<locality>> description with <<elevation>> information if this can be easily obtained. Elevation can be determined from a variety of sources while in the field, including altimeters, maps (both digital and paper), and <<GPS>>/<<GNSS>> receivers, each with associated <<uncertainty,uncertainties>>. Elevation can be estimated after the fact using <<digital elevation model,Digital Elevation Models>> at the <<coordinates>> of the <<location>>. In any case, record the method used to determine the elevation."
-msgstr "Si es posible obtenerla fácilmente, complemente la descripción de la <<localidad>> con la información de <<elevación>>. La elevación puede determinarse en campo a partir de una variedad de fuentes, incluyendo los altímetros, mapas (tanto digitales como físicos) y receptores <<GPS>>/<<GNSS>>, cada uno con <<incertidumbre,incertidumbres>> asociadas. La elevación se puede estimar después del evento usando <<modelo digital de elevación, Modelos Digitales de Elevación>> a partir de las <<coordenadas>> de la <<ubicación>>. En cualquier caso, registre el método utilizado para determinar la elevación."
+msgstr "Si es posible obtenerla fácilmente, complemente la descripción de la <<localidad>> con la información de <<elevación>>. La elevación puede determinarse en campo a partir de una variedad de fuentes, incluyendo los altímetros, mapas (tanto digitales como en papel) y receptores <<GPS>>/<<GNSS>>, cada uno con <<incertidumbre,incertidumbres>> asociadas. La elevación se puede estimar después del evento usando <<modelo digital de elevación, Modelos Digitales de Elevación>> a partir de las <<coordenadas>> de la <<ubicación>>. En cualquier caso, registre el método utilizado para determinar la elevación."
 
 #. type: Positional ($2) AttributeList argument for style 'quote'
 #: 0200-elements-for-describing-a-location.en.adoc:266
@@ -3185,44 +3185,44 @@ msgstr "También vale la pena señalar que la extensión de una entidad geográf
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:425
 msgid "If the locality described is an irregular shape (e.g. a winding road or river), there are two ways of calculating the \"center\" coordinates and determining the <<radial>>. The first is to measure along the vector (line) and determine the midpoint as the <<location>> of the feature. This is not always easy, so the second method is to determine the <<geographic center>> (i.e. the midpoint of the extremes of <<latitude>> and <<longitude>>) of the feature. This method describes a point where the uncertainty due to the extent of the feature is minimized (what we are calling the <<corrected center>>). The radial is then determined as the distance from the determined position to the furthest point at the extremes of the vector. If the geographic center of the shape is used and it does not lie within the locality described (e.g. the geographic center of a segment of a river does not actually lie on the river), then the point nearest the geographic center that lies within the shape (corrected center) is the preferred reference for the feature and represents the point from which the geographic radial should be calculated (see <<img-polygon-center>>)."
-msgstr ""
+msgstr "Si la localidad descrita es una forma geométrica irregular (p. ej. un camino sinuoso o un río), hay dos maneras de calcular las coordenadas del \"centro\" y determinar el <<radio>>. La primera es medir a lo largo del vector (línea) y determinar el punto medio como la <<ubicación>> de la entidad. Esto no siempre es fácil, así que el segundo método es determinar el <<centro geográfico>> (es decir, el punto medio de los extremos de <<latitud>> y <<longitud>>) de la entidad. Este método describe un punto en el que la incertidumbre debida a la extensión de la entidad se minimiza (lo que estamos llamando el <<centro corregido>>). El radio se determina entonces como la distancia desde la posición establecida hasta el punto más lejano en los extremos del vector. Si el centro geográfico de la forma geométrica se utiliza y no se encuentra dentro de la localidad descrita (p. ej. el centro geográfico del segmento del rí­o no se encuentra realmente en el río), entonces el punto más cercano al centro geográfico que se encuentre dentro de la forma (centro corregido) es la referencia a escoger para la característica y representa el punto a partir del cual debe calcularse el radio geográfico (ver <<img-polygon-center>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:427
 msgid "When documenting the georeferencing process, it is recommended that the feature, its extent, radial, and the source of the information (including its date) all be recorded. For details on georeferencing, see {gqg}#geographic-feature-only[Geographic Feature Only^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "Al documentar el proceso de georreferenciación, se recomienda registrar la entidad geográfica, su alcance y la fuente de la información (incluyendo su fecha). Para más detalles sobre la georreferenciación, consulte {gqg}#solo-entidad-gepgráfica[Solo Entidad Gepgráfica^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:429
 msgid "<<geographic coordinates,Geographic coordinates>> can be expressed in a number of different <<coordinate format,coordinate formats>>. <<decimal degrees,Decimal degrees>> provide the most convenient coordinates to use for georeferencing for no more profound reason than a locality can be described with only four attributes – <<decimal latitude>>, <<decimal longitude>>, <<datum>>, and uncertainty (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^])."
-msgstr ""
+msgstr "Las <<coordenadas geográficas>> pueden expresarse en una cantidad de <<formato de las coordenadas,formatos de coordenadas>> diferentes. Los <<grados decimales>> proporcionan las coordenadas más convenientes para la georeferenciación por la sencilla razón de que una localidad puede describirse con sólo cuatro atributos: <<latitud decimal>>, <<longitud decimal>>, <<datum>>, e incertidumbre (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^])."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:430
 #, no-wrap
 msgid "Uncertainty in Coordinate Source"
-msgstr ""
+msgstr "Incertidumbre en la Fuente de la Coordenada"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:433
 msgid "There are many ways of finding <<coordinates>> for a <<location>>, including using a <<gazetteer>>, a <<geographic information system,GPS>>, aerial photogrammetry, digital maps, or paper maps of many different types, and scales."
-msgstr ""
+msgstr "Hay muchas maneras de encontrar las <<coordenadas>> para una <<ubicación>>, incluyendo el uso de un <<gacetero>>, un <<sistema de información geográfica,GPS>>, fotogrametría aérea o mapas digitales o mapas en papel de muchos tipos y escalas diferentes."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:434
 #, no-wrap
 msgid "Uncertainty in Paper Map Measurements"
-msgstr ""
+msgstr "Incertidumbre en Mediciones de Mapas Físicos"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:437
 msgid "One of the most common methods of finding <<coordinates>> for a <<location>> is to estimate the location from a paper map. Using paper maps can be problematic and subject to varying degrees of inaccuracy. Unfortunately, the <<accuracy>> of many maps, particularly old ones, is undocumented. Accuracy standards generally explain the physical <<error>> tolerance on a printed map, so that the net uncertainty is dependent on the map scale (see <<table-horizontal-accuracy>>)."
-msgstr ""
+msgstr "Uno de los métodos más comunes para encontrar <<coordenadas>> para una <<ubicación>> es estimar la ubicación desde un mapa en papel. El uso de mapas en físico puede ser problemático y estar sujeto a diferentes grados de imprecisión. Desafortunadamente, la <<exactitud>> de muchos mapas, especialmente los antiguos, está indocumentada. Los estándares de precisión suelen explicar la tolerancia de <<error>> físico en un mapa impreso, así que la incertidumbre neta dependa de la escala del mapa (ver <<table-horizontal-accuracy>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:439
 msgid "Map reading requires a certain level of skill in order to determine coordinates accurately, and different types of maps require different skills. Challenges arise due to the <<coordinate system>> of the map (<<latitude>> and <<longitude>>, <<UTM>>, etc.), the scale of the paper map, the line widths used to draw the <<feature,features>> on the maps, the frequency of <<grid>> lines, etc."
-msgstr ""
+msgstr "Leer mapas requiere de cierto nivel de habilidad para determinar las coordenadas con exactitud y diferentes tipos de mapas requieren diferentes habilidades. Los desafíos surgen debido al <<sistema de coordenadas>> del mapa (<<latitud>> y <<longitud>>, <<UTM>>, etc.), la escala del mapa en papel, los anchos de línea utilizados para dibujar las <<entidad geográfica,entidades geográficas>> en los mapas, la frecuencia de las líneas de <<grilla>>, etc."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:441
