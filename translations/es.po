@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 03:07\n"
+"PO-Revision-Date: 2021-11-08 03:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3227,22 +3227,22 @@ msgstr "Leer mapas requiere de cierto nivel de habilidad para determinar las coo
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:441
 msgid "The accuracy of a map depends on the accuracy of the original data used to compile the map, how accurately these source data have been transferred onto the map, and the resolution at which the map is printed or displayed. For example, USGS maps of 1:24,000 and 1:100,000 are different products. The accuracy is explicitly dependent on scale but is due to the different methods of preparation. When using a map, the user must take into account the limitations encountered by the map maker such as acuity of vision, lithographic processes, plotting methodologies, and symbolization of features (e.g. line widths) (https://doi.org/10.1007/978-3-540-72680-7_11[Hardy & Field 2012^])."
-msgstr ""
+msgstr "La exactitud de un mapa depende de la exactitud de los datos originales utilizados para compilar el mapa, con qué precisión se transfirieron al mapa estos datos originales y la resolución en la que se imprime o muestra el mapa. Por ejemplo, los mapas USGS de 1:24,000 y 1:100,000 son productos diferentes. La exactitud depende explícitamente de la escala, pero se debe a los diferentes métodos de preparación. Al usar un mapa, el usuario debe tener en cuenta las limitaciones con las que se encuentra el cartógrafo como la agudeza visual, procesos litográficos, metodologías de trazado y simbolización de entidades geográficas (p. ej. ancho de las líneas) (https://doi.org/10.1007/978-3-540-72680-7_11[Hardy & Field 2012^])."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:443
 msgid "With paper topographic maps, drawing constraints may restrict the accuracy with which lines are placed on the map. A 0.5 mm wide line depicting a road on a 1:250,000 map represents 125 meters on the ground. To depict a railway running beside the road, a separation of 1-2 mm (250-500 meters) is needed, and then the line for the railway (another 0.5 mm or 125 meters) makes a total of 500-750 m as a minimum representation. If one uses such features to determine an occurrence locality, for example, then minimum uncertainty would be in the order of 1 km. If thicker lines were used, then appropriate adjustments would need to be made (https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^])."
-msgstr ""
+msgstr "Con los mapas topográficos en papel, las restricciones de dibujo pueden limitar la exactitud con la que líneas se ponen en el mapa. Una línea de 0.5 mm de ancho que representa una carretera en un mapa de 1:250.000 representa 125 metros sobre el suelo. Para representar un ferrocarril que corre al lado de la carretera, se necesita una separación de 1-2 mm (250-500 metros) y luego la línea para el ferrocarril (otros 0.5 mm o 125 m), lo que hace que la representación mínima sea de 500-750 m. Si se utilizan estas entidades geográficas para determinar la localidad de un registro, por ejemplo, entonces la incertidumbre mínima estaría en el orden de 1 km. Si se utilizaran líneas más gruesas, habría que hacer los ajustes apropiados (https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^])."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:445
 msgid "The National Standard for Spatial Data Accuracy (NSSDA) (https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]) established a standard methodology for calculating the horizontal and vertical accuracy of printed maps, which state that 95% of all points must fall within a specified tolerance (1/30\" for map scales larger than 1:20,000, and 1/50\" for map scales smaller than or equal to 1:20,000)."
-msgstr ""
+msgstr "El Estándar Nacional para la Exactitud de Datos Espaciales (NSDA por sus siglas en inglés) (https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]) estableció una metodología estándar para calcular la precisión horizontal y vertical de los mapas impresos, que establece que el 95% de todos los puntos deben estar dentro de una tolerancia especificada (1/30\" para escalas de mapa mayores que 1:20, 00, y 1/50\" para escalas de mapa menores o iguales a 1:20,000)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:447
 msgid "<<table-horizontal-accuracy>> shows the inherent accuracy of a number of maps at different scales. The <<table-horizontal-accuracy,table>> gives uncertainties for a line 0.5 mm wide at a number of different map scales. A value of 1 mm of error can be used on maps for which the standards are not published. This corresponds to about three times the detectable graphical error and should serve well as an uncertainty estimate for most maps."
-msgstr ""
+msgstr "La <<table-horizontal-accuracy>> muestra la exactitud inherente de una serie de mapas en diferentes escalas. La <<table-horizontal-accuracy,table>> da incertidumbres para una línea de 0.5 mm de ancho a varias escalas de mapa diferentes. Se puede utilizar un valor de 1 mm de error en mapas para los que los estándares no están publicados. Esto corresponde a aproximadamente tres veces el error gráfico detectable y debería funcionar bien como una estimación de la incertidumbre para la mayoría de los mapas."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:449
