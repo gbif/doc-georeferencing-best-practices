@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 03:35\n"
+"PO-Revision-Date: 2021-11-08 04:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3212,7 +3212,7 @@ msgstr "Hay muchas maneras de encontrar las <<coordenadas>> para una <<ubicació
 #: 0300-the-georeferencing-process.en.adoc:434
 #, no-wrap
 msgid "Uncertainty in Paper Map Measurements"
-msgstr "Incertidumbre en Mediciones de Mapas Físicos"
+msgstr "Incertidumbre en Mediciones de Mapas de Papel"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:437
@@ -3247,13 +3247,13 @@ msgstr "La <<table-horizontal-accuracy>> muestra la exactitud inherente de una s
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:449
 msgid "The <<table-horizontal-accuracy,table>> uses data from several sources. The TOPO250K Map series is the finest resolution mapping that covers the whole of the Australian continent. It is based on 1:250,000 topographic data, for which http://www.ga.gov.au/mapspecs/topographic/v5/index.html[Geoscience Australia 2007, Section 2^] defines the accuracy as \"_not more than 10% of well-defined features are in error by more than 140 meters_ (for 1:250,000 scale maps); _more than 56 meters_ (for 1:100,000 maps)\". The USGS Map Horizontal Uncertainty is calculated from US Bureau of Budget (1947) (reported in https://pubs.usgs.gov/fs/1999/0171/report.pdf[United States National Map Accuracy Standards (USGS 1999)^]) which states that \"_As applied to the USGS 7.5-minute quadrangle topographic map, the horizontal accuracy standard requires that the positions of 90 percent of all points tested must be accurate within 1/50th of an inch (0.05 centimeters) on the map. At 1:24,000 scale, 1/50th of an inch is 40 feet (12.2 meters)._\" These values need to be taken into account when determining the uncertainty of your georeference."
-msgstr ""
+msgstr "La <<table-horizontal-accuracy,table>> utiliza datos de varias fuentes. La serie de mapas TOPO250K es la cartografía de mayor resolución que cubre todo el continente australiano.Se basa en datos topográficos a escala 1:250.000, para los que http://www.ga.gov.au/mapspecs/topographic/v5/index.html[Geoscience Australia 2007, Sección 2^] define la precisión como \"no más del 10% de las entidades geográficas bien definidas tienen un error de más de 140 metros_ (para mapas a escala 1:250.000); _más de 56 metros_ (para mapas a escala 1:100.000)\". La incertidumbre horizontal de los mapas USGS se calcula a partir de US Bureau of Budget (1947) (https://pubs.usgs.gov/fs/1999/0171/report.pdf[United States National Map Accuracy Standards (USGS 1999)^]), que establece que \"_Aplicado al mapa cuadrangular topográfico de 7.5 minutos del USGS, el estándar de precisión horizontal requiere que las posiciones del 90 por ciento de todos los puntos comprobados sean precisas dentro de 1/50 de pulgada (0.05 centímetros) en el mapa. A escala 1:24.000, 1/50 de pulgada es 40 pies (12.2 metros)._\" Estos valores deben tenerse en cuenta a la hora de determinar la incertidumbre de su georreferencia."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:451
 #, no-wrap
 msgid "Horizontal accuracy based on 0.5 mm of accuracy per unit of map scale, except for the 1:250,000 map series where the figure supplied with the data has been used."
-msgstr ""
+msgstr "Precisión horizontal basada en 0.5 mm de precisión por unidad de escala del mapa, excepto para las series de mapas de 1:250.000 donde se ha utilizado la cifra suministrada con los datos."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:464
@@ -3268,33 +3268,43 @@ msgid "|Scale of Map |Map Horizontal Accuracy (http://www.ga.gov.au/mapspecs/top
 "|1:250,000 |160-300 m |695 ft (210 m) |475 ft (145 m)\n"
 "|1:500,000 | | |950 ft (290 m)\n"
 "|1:1 million |500 m |2,777 ft (845 m) |1,900 ft (580 m)\n"
-msgstr ""
+msgstr "|Escala del Mapa |Precisión Horizontal del Mapa\n"
+"(http://www.ga.gov.au/mapspecs/topographic/v5/index.html[Geoscience Australia^]) |Precisión Horizontal del Mapa (https://pubs.usgs.gov/fs/1999/0171/report.pdf[USGS^]) |Precisión Horizontal de NSSDA (https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])\n"
+"|1:1000 |0.5 m |2.8 ft (0.85 m) |3.2 ft (1 m)\n"
+"|1:10,000 |5 m |28 ft (8.5 m) |32 ft (10 m)\n"
+"|1:25,000 |12.5 m |70 ft (21 m) |47.5 ft (14.5 m)\n"
+"|1:50,000 |25 m |139 ft (42 m) |95 ft (29 m)\n"
+"|1:75,000 | | |142.5 ft (43.5 m)\n"
+"|1:100,000 |50 m |278 ft (85 m) |190 ft (58 m)\n"
+"|1:250,000 |160-300 m |695 ft (210 m) |475 ft (145 m)\n"
+"|1:500,000 | | |950 ft (290 m)\n"
+"|1:1 million |500 m |2,777 ft (845 m) |1,900 ft (580 m)\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:467
 msgid "If you are using phenomena that do not have distinct <<boundary,boundaries>> in nature to determine a locality (such as soils, vegetation, geology, timberlines, etc.) then err vastly on the side of conservatism when determining an uncertainty value as such boundaries are seldom accurate, often determined at a scale of 1:1 million or worse and would have a minimum uncertainty of between 1 and 5 km. Also be aware that coastlines vary greatly at different scales (see https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^]) and rivers are often straightened on smaller scale maps, and can thus include uncertainties far greater than are generally recorded on maps whose accuracies are determined from \"well-defined\" points such as buildings, road intersections, etc. In addition, coastlines and river <<path,paths>> can change greatly over time (https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts[World Ocean Review 2010^]) and thus the date of the map needs to be taken into account when determining uncertainty."
-msgstr ""
+msgstr "Si utiliza fenómenos que no tienen <<límite,límites>> definidos en la naturaleza para determinar una localidad (como los suelos, la vegetación, la geología, los bordes forestales, etc.), es necesario errar ampliamente hacia el lado del conservadurismo al determinar un valor de incertidumbre, ya que dichos límites rara vez son precisos, a menudo se determinan a una escala de 1:1 millón o peor y podrían tener una incertidumbre mínima de entre 1 y 5 km. También hay que tener en cuenta que las costas varían mucho a diferentes escalas (véase https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^]) y que los ríos suelen enderezarse en los mapas de menor escala, por lo que pueden incluir incertidumbres muy superiores a las que suelen registrarse en los mapas cuya precisión se determina a partir de puntos \"bien definidos\" como edificios, intersecciones de carreteras, etc. Además, las costas y las <<ruta,rutas>> de los ríos pueden cambiar mucho con el tiempo (https://worldoceanreview.com/en/wor-1/coasts/altering-the-coasts[World Ocean Review 2010^]) y, por tanto, hay que tener en cuenta la fecha del mapa a la hora de determinar la incertidumbre."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:469
 msgid "In addition to the inherent inaccuracies of printed maps, one must consider inaccuracies that can arise from using maps to measure distances. These potential inaccuracies are a direct consequence of the projection of the map and one's ability to distinguish between two adjacent points, which may be affected by your measuring device and even your eyesight. A straight line distance measurement only works on a map in an equal distance projection, where distance follows the same scale regardless of the orientation. Unless the conditions for measuring are particularly poor, it is reasonable to use 1 mm as a value for measurement error on physical maps. Depending on the scale of the map, this translates into a distance on the ground."
-msgstr ""
+msgstr "Además de las inexactitudes inherentes a los mapas impresos, hay que tener en cuenta las inexactitudes que pueden surgir al utilizar mapas para medir distancias. Estas posibles imprecisiones son consecuencia directa de la proyección del mapa y de la capacidad para distinguir entre dos puntos adyacentes, que puede verse afectada por el dispositivo de medición e incluso por la vista. Una medición de distancia en línea recta sólo funciona en un mapa en una proyección de igual distancia, donde la distancia sigue la misma escala independientemente de la orientación. A menos que las condiciones de medición sean especialmente malas, es razonable utilizar 1 mm como valor de error de medición en los mapas físicos. Dependiendo de la escala del mapa, esto se traduce en una distancia sobre el terreno."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:470
 #, no-wrap
 msgid "Uncertainty in Digital Map Measurements"
-msgstr ""
+msgstr "Incertidumbre en Mediciones de Mapas Digitales"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:473
 msgid "Digital versions of traditional paper maps that have been scanned or digitized by hand using a digitizing tablet to trace lines, have an extra layer of <<uncertainty>> (https://www.gislounge.com/digitizing-errors-in-gis/[Dempsey 2017^]). Depending on how the map was digitized, the <<error>> may be small or large when compared to the scale of the original map. In parts of the world where digitized maps are not readily available, they can be scanned and rectified using satellite data (https://doi.org/10.3767/000651909X475950[Raes et al. 2009^]). Scanned maps often (and should always) include information on the <<accuracy>> added by the digitizing process (see http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf[ASPRS 1990^]). Be careful when using digital maps, and record any information on the scanning accuracy if that information is available. Always err on the cautious side when recording the uncertainty of your <<georeference>> when using maps of this type (https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf[ASPRS 2014^])."
-msgstr ""
+msgstr "Las versiones digitales de mapas de papel tradicionales que han sido escaneados o digitalizados a mano usando una tableta de digitalización para rastrear líneas, tienen una capa extra de <<incertidumbre>> (https://www.gislounge.com/digitizing-errors-in-gis/[Dempsey 2017^]). Dependiendo de cómo se digitalizó el mapa, el <<error>> puede ser pequeño o grande cuando se compara con la escala del mapa original. En algunas partes del mundo donde los mapas digitalizados no están disponibles fácilmente, se pueden escanear y rectificar mediante datos de satélite https://doi.org/10.3767/000651909X475950[Raes et al. 2009^]). Los mapas escaneados a menudo (y siempre deberían) incluyen información sobre la <<exactitud>> añadida por el proceso de digitalización (ver http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf[ASPRS 1990^]). Tenga cuidado cuando utilice mapas digitales y registre cualquier información sobre la exactitud del escaneo, si esa información está disponible. Siempre erre hacia el lado cauteloso al registrar la incertidumbre de su <<georreferencia>> cuando use mapas de este tipo (https://www.asprs.org/wp-content/uploads/2015/01/ASPRS_Positional_Accuracy_Standards_Edition1_Version100_November2014.pdf[ASPRS 2014^])."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:475
 msgid "A digital map is never more accurate than the original from which it was derived, nor is it more accurate when you zoom in on it. The accuracy is strictly a function of the scale and digitizing errors of the original map, plus the additional error added by the digitization process."
-msgstr ""
+msgstr "Un mapa digital nunca es más exacto que el original del que se derivó, tampoco lo es cuando se amplía el mapa. La exactitud es estrictamente una función de los errores de escala y digitalización del mapa original, más el error adicional añadido por el proceso de digitalización."
 
 #.  TODO: Was CARE.
 #. type: Plain text
