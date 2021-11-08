@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 02:10\n"
+"PO-Revision-Date: 2021-11-08 02:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3159,28 +3159,28 @@ msgstr "El primer paso para determinar las <<coordenadas>> para una descripción
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:413
 msgid "How do we take into account the uncertainty due to the shape of the feature? The method that results in the least uncertainty is to find the <<smallest enclosing circle>> (https://doi.org/10.1007/BF01940877[Matoušek et al. 1996^]) that contains all of the points on the <<geographic boundary>> of the feature. If the center of the circle does not fall on or within the <<boundary>> of the feature, choose the point nearest to the center that is on the boundary. This is known as the <<corrected center>>. The distance from the corrected center to the farthest point on the geographic boundary of the feature is called the <<geographic radial>>. The geographic radial is the uncertainty due to the <<extent>> of the feature (see <<img-polygon-center>>)."
-msgstr ""
+msgstr "¿Cómo tener en cuenta la incertidumbre debida a la forma de la entidad geográfica? El método que resulta en la menor incertidumbre es encontrar el <<círculo mínimo>> (https://doi.org/10.1007/BF01940877[Matoušek et al. 1996^]) que contiene todos los puntos en el <<límite geográfico>> de la entidad. Si el centro del círculo no cae sobre o dentro del <<límite>> de la entidad, elija el punto más cercano al centro que se encuentra en el límite. Esto se conoce como el <<centro corregido>>. La distancia desde el centro corregido hasta el punto más lejano en el límite geográfico de la entidad se llama el <<radio geográfico>>. El radio geográfico corresponde a la incertidumbre debida a la <<extensión>> de la entidad geográfica (ver <<img-polygon-center>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:415
 msgid "Every feature occupies a finite space, or ‘extent’. The extents of features are an important source of uncertainty. Points of reference for features may change over time – post offices and courthouses are relocated, towns change in size, the courses of rivers change, etc. Moreover, there is no guarantee that the person who recorded the locality information paid attention to any specific convention when reporting a locality as an <<offset>> from a feature. For example,"
-msgstr ""
+msgstr "Cada entidad geográfica ocupa un espacio finito o \"extensión\". Las dimensiones de las entidad son una fuente importante de incertidumbre. Los puntos de referencia de las entidades pueden cambiar con el tiempo, las oficinas de correos y los palacios de justicia son reubicados, las ciudades cambian de tamaño, los cursos de los ríos cambian, etc. Además, no hay garantía de que la persona que registró la información de la localidad haya prestado atención a cualquier convención específica al reportar una localidad como un <<desplazamiento>> desde una característica. Por ejemplo,"
 
 #. type: delimited block .
 #: 0300-the-georeferencing-process.en.adoc:418
 #, no-wrap
 msgid "4 km E of Bariloche, Argentina\n"
-msgstr ""
+msgstr "4 km E de Bariloche, Argentina\n"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:421
 msgid "may have been measured from the post office, the civic plaza, or from the bus station on the eastern side of the heavily populated part of town, or anywhere else in Bariloche, which is actually quite large. When calculating an offset, we generally have no way of knowing where the person who recorded the locality started to measure the distance. The determination of the boundaries of a feature are discussed in <<Setting the Boundaries of the Feature>>."
-msgstr ""
+msgstr "puede haber sido medido desde la oficina de correos, la plaza cívica, desde la estación de autobuses en el lado este de la zona más poblada de la ciudad o en cualquier otro lugar de Bariloche, que en realidad es bastante grande. Al calcular un desplazamiento, generalmente no tenemos forma de saber desde dónde comenzó a medir la distancia la persona que registro la localidad. La determinación de los límites de una entidad geográfica se discuten en <<Estableciendo los Límites de una Entidad Geográfica>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:423
 msgid "It is also worth noting that the extent of a feature may have changed over time, so the date of the recording may also be important when calculating an extent and thus the geographic radial. In many cases (especially for populated places), the current extent of a feature will be greater than its historical extent and the uncertainty may be somewhat overestimated if current maps are used."
-msgstr ""
+msgstr "También vale la pena señalar que la extensión de una entidad geográfica puede haber cambiado con el tiempo, por lo que la fecha del registro también puede ser importante a la hora de calcular una extensión y, por ende, el radio geográfico. En muchos casos (especialmente para lugares poblados), la extensión actual de una entidad será mayor que su extensión histórica y la incertidumbre puede sobreestimarse en cierto modo si se utilizan mapas actuales."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:425
