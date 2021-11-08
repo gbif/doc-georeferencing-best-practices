@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 00:29\n"
+"PO-Revision-Date: 2021-11-08 00:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3075,74 +3075,74 @@ msgstr "Método de Forma Geométrica"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:387
 msgid "The <<shape>> <<georeferencing method,method>> (also called the polygon method by some (https://www.idigbio.org/content/georeferencing-polygon-method[Yost 2015^])) of determining <<uncertainty>> is a conceptually simple method that delineates a <<locality>> using <<geometry,geometries>> with one or more polygons, buffered points, or buffered polylines. A combination of these <<shape,shapes>> can represent a town, park, river, junction, or any other <<feature>> or combination of features found on a map. While simple to describe, the task of generating these shapes must account for all the uncertainties, and that can be difficult. Except for the simplest <<locality type,locality types>>, creating shapes is impractical without the aid of digital maps, <<geographic information system,GIS>> software (for buffering, clipping, etc.), and expertise, all of which can be relatively expensive. Also, except for a <<bounding-box>>, which is an extremely simple example, storing a shape in a database can be considerably more complicated than storing a single pair of <<coordinates>> with a scalar uncertainty distance as in the <<point-radius>> method. <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) offers the field term:dwc[dwc:footprintWKT], in which a <<geometry>> can be stored in the Well-Known Text format (https://www.iso.org/standard/60343.html[ISO 2016^]) accompanied by the <<coordinate reference system>> in the field term:dwc[dwc:footprintSRS]. Particular challenges to making this method practical for <<georeference,georeferencing>> natural history collections data include assembling freely accessible digital cartographic resources and developing tools for automation of the georeferencing process (https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf[Yost n.d.^]). This is because, not only does the geometry of the feature usually need to be created (unless it is an administrative <<boundary>> or other shape available in a spatial data layer), but also all the points in the feature geometry have to be used in combination with the uncertainties to arrive at a final shape that includes the location with its uncertainties and nothing more. Note that http://www.geo-locate.org/[GEOLocate (Rios 2019)^] does produce an \"error polygon\" (https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[Biedron & Famoso 2016^]) in addition to a point-radius, but how this is done is http://www.geo-locate.org/point_radii.html[not documented in detail^]."
-msgstr ""
+msgstr "El <<método de georreferenciación>> de <<forma geométrica>> (también llamado método del polígono por algunos (https://www.idigbio.org/content/georeferencing-polygon-method[Yost 2015^])) de determinación de la <<incertidumbre>>, es un método conceptualmente simple que delimita una <<localidad>> utilizando <<geometría,geometrías>> con uno o más polígonos, puntos con buffers o polilíneas con buffers. Una combinación de estas <<forma geométrica,formas>> puede representar una ciudad, un parque, un río, un cruce o cualquier otra <<entidad geográfica>> o una combinación de entidades que se encuentren en un mapa. Aunque su descripción es sencilla, la tarea de generar estas formas debe tener en cuenta todas las incertidumbres y eso puede ser difícil. Salvo en el caso de los <<tipo de localidad,tipos de localidades>> más sencillos, la creación de formas geométricas es poco práctica sin la ayuda de mapas digitales, software <<sistema de información geográfica,GIS>> (para crear los buffers, recortar, etc.) y conocimientos especializados, todo lo cual puede ser relativamente costoso. Además, excepto en el caso de la <<caja delimitadora>> que es un ejemplo extremadamente sencillo, el almacenamiento de una forma geométrica en una base de datos puede ser considerablemente más complicado que el almacenamiento de un solo par de <<coordenadas>> con una distancia de incertidumbre escalar como en el método <<radio-punto>>. El <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) ofrece el campo term:dwc[dwc:footprintWKT], en el que se puede almacenar una <<geometría>> en el formato Well-Known Text (https://www.iso.org/standard/60343.html[ISO 2016^]) acompañada del <<sistema de referencia de coordenadas>> en el campo term:dwc[dwc:footprintSRS]. Los desafíos particulares para hacer que este método sea práctico para los datos de <<georreferencia, georreferenciación>> de las colecciones de historia natural incluyen el ensamblaje de recursos cartográficos digitales de libre acceso y el desarrollo de herramientas para la automatización del proceso de georreferenciación (https://www.idigbio.org/sites/default/files/working-groups/gwg/GeoreferencingBlogPolygons_FINAL-1.pdf[Yost s.f.^]). Esto se debe a que, por lo general, no sólo hay que crear la geometría de la entidad geográfica (a menos que se trate de un <<límite administrativo>> u otra forma disponible en una capa de datos espaciales), sino que también hay que utilizar todos los puntos de la geometría de la entidad en combinación con las incertidumbres para llegar a una forma final que incluya la ubicación con sus incertidumbres y nada más. Nótese que http://www.geo-locate.org/[GEOLocate (Rios 2019)^] sí produce un \"polígono de error\" (https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[Biedron & Famoso 2016^]) además de un radio-punto, pero la forma en que se hace http://www.geo-locate.org/point_radii.html[no está documentada en detalle^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:389
 msgid "Of all the methods discussed in this document, the shape <<georeferencing method,method>> has the potential to generate the most specific digital spatial descriptions of localities, leaving out areas that are not viable as part of the location. A point-radius can be easily derived from a final shape by using the <<corrected center>> for the coordinates and the <<geographic radial>> of the georeference (not just the feature) for the <<maximum uncertainty distance>>. See <<img-spatial-fit-point-radius>> for one example of where a point-radius may be refined by using the shape method. See also <<Polygons>>."
-msgstr ""
+msgstr "De todos los métodos discutidos en este documento, el <<método de georreferenciación,método>> de forma geométrica tiene el potencial de generar las descripciones espaciales digitales más específicas de las localidades, es decir, dejar fuera zonas que no son viables como parte de la ubicación. Un radio-puntos puede derivarse fácilmente de una forma geométrica usando el <<centro corregido>> como las coordenadas y el <<radio geográfico>> de la georreferencia (no solo la entidad) como la <<distancia máxima de incertidumbre>>. Ver <<img-spatial-fit-point-radius>> para un ejemplo en donde un radio-punto puede ser refinado usando el método de forma geométrica. Ver también <<Polígonos>>."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:390
 #, no-wrap
 msgid "Probabilistic Method"
-msgstr ""
+msgstr "Método Probabilístico"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:393
 msgid "Other shape-based <<georeferencing method,methods>> have been proposed that use probabilistic approaches (https://doi.org/10.1080/13658810701851420[Guo et al. 2008^], https://doi.org/10.1080/13658810802247114[Liu et al. 2009^]). Since these methods are even more difficult than the <<shape>> method, and there are currently no tools available to take advantage of these methods, we do not discuss them further in this document."
-msgstr ""
+msgstr "Otros <<métodos de georreferenciación,métodos>> basados en formas geométricas que utilizan enfoques probabilísticos han sido propuestos (https://doi.org/10.1080/13658810701851420[Guo et al. 2008^], https://doi.org/10.1080/13658810802247114[Liu et al. 2009^]). Dado que estos métodos son incluso más complejos que el método de <<forma geométrica> y que actualmente no hay herramientas disponibles para aprovechar estos métodos, no los discutimos más allá en este documento."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:394
 #, no-wrap
 msgid "Calculating Uncertainties"
-msgstr ""
+msgstr "Calculando Incertidumbres"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:397
 msgid "Regardless of the <<georeferencing method,method>>, <<uncertainty,uncertainties>> in <<georeference,georeferenced>> data are essential to document, so that the data’s fitness for use and thus their overall <<data quality>> can be understood. There are sources of uncertainty in each <<locality>> interpretation as well as in the data sources used to georeference, and any physical measurement that might need to be made (such as on maps, digital or physical). Each of the sources of uncertainty have to be taken into account to capture the overall uncertainty in a resulting georeference."
-msgstr ""
+msgstr "Independientemente del <<método de georreferenciación,método>>, es esencial documentar las <<incertidumbre,incertidumbres>> en los datos <<georreferencia,georreferenciados>> para que la idoneidad de los datos para el uso y, por lo tanto, su <<calidad de datos>> total pueda ser entendida. Hay fuentes de incertidumbre en cada interpretación de <<localidad>>, así como en las fuentes de datos utilizadas para la georreferencia y cualquier medición física que pueda necesitar llevarse a cabo (como en mapas, digitales o físicos). Hay que tener en cuenta cada una de las fuentes de incertidumbre para capturar la incertidumbre general en una georreferencia resultante."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:399
 msgid "Whenever subjectivity is involved, it is preferable to overestimate each contribution to uncertainty. The following seven sources of uncertainty are the most commonly encountered. These are explained below and can be accounted for by using the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]."
-msgstr ""
+msgstr "Siempre que haya subjetividad involucrada, es preferible sobreestimar cada contribución a la incertidumbre. Las siguientes siete fuentes de incertidumbre son las más comúnmente encontradas. Estas se explican a continuación y pueden tenerse en cuenta mediante el uso de http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:401
 msgid "Uncertainty due to the <<extent>> of the <<feature>> in the <<locality>> description."
-msgstr ""
+msgstr "Incertidumbre debida a la <<extensión>> de la <<entidad geográfica>> en la descripción de la <<localidad>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:402
 msgid "Uncertainty in <<coordinates,coordinate>> source."
-msgstr ""
+msgstr "Incertidumbre en la fuente de la <<coordenadas,coordenada>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:403
 msgid "Uncertainty in map measurements."
-msgstr ""
+msgstr "Incertidumbre en las mediciones del mapa."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:404
 msgid "Uncertainty related to <<coordinate precision>>."
-msgstr ""
+msgstr "Incertidumbre relacionada con la <<precisión de las coordenadas>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:405
 msgid "Uncertainty from unknown <<coordinate reference system>> or <<datum>>."
-msgstr ""
+msgstr "Incertidumbre por un <<sistema de referencia de coordenadas>> o <<datum>> desconocido."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:406
 msgid "Uncertainty related to <<heading>>."
-msgstr ""
+msgstr "Incertidumbre relacionada con la <<orientación cardinal>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:407
 msgid "Uncertainty related to <<offset>> <<precision>>."
-msgstr ""
+msgstr "Incertidumbre relacionada con la <<precisión>> del <<desplazamiento>>."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:408
