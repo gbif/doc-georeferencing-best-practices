@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-08 04:36\n"
+"PO-Revision-Date: 2021-11-10 22:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3315,7 +3315,7 @@ msgstr "Hay que tener cuidado cuando se utiliza un mapa digital que registra la 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:480
 msgid "Measurement error is not unique to physical maps, it also enters into measurements on digital media. In general, the resolution of the media affects one's ability to distinguish between two points, and this in turn can be affected by the extent to which the media is zoomed. Note that zooming does not improve the accuracy of the original source from which the media was derived. That accuracy remains an independent factor, as described in the earlier paragraphs in this section. Naturally, the greater the zoom, the easier it is to pinpoint a <<location>>. This effect of zoom on digital media also has an effect on one's ability to measure along a <<path>> in that medium. The greater the zoom, the easier it is to follow the path faithfully and thus determine a distance along that path with the least error. The greater the curviness of the path, the greater the potential effect on accuracy. Note also, that the scale of the map may reduce the curviness of a path (road, river, etc.) and that small-scale maps tend to smooth out the paths of rivers, roads, coastlines, and other curved linear features (https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^])."
-msgstr ""
+msgstr "El error de medición no es exclusivo de los mapas físicos, también existe en mediciones tomadas en recursos digitales. En general, la resolución de los medios afecta la capacidad para distinguir entre dos puntos y esto a su vez puede verse afectado por el grado de ampliación (zoom) de los recursos. Hay que tener en cuenta que el zoom no mejora la exactitud de la fuente original de la que procede el recurso digital. Esa exactitud sigue siendo un factor independiente, como se describe en los párrafos anteriores de esta sección. Naturalmente, cuanto mayor sea el zoom, más fácil será localizar una <<ubicación>>. Este efecto del zoom en los recursos digitales también tiene un efecto en la capacidad de medir a lo largo de una <ruta>> en ese recurso. Cuanto mayor sea el zoom, más fácil será seguir fielmente la ruta y, por tanto, determinar una distancia a lo largo de esa ruta con el menor error. Cuanto mayor sea la curvatura de la ruta, mayor será el potencial efecto sobre la precisión. Hay que tener en cuenta también que la escala del mapa puede reducir la curvatura de una ruta (carretera, río, etc.) y que los mapas a pequeña escala tienden a suavizar las trayectorias de los ríos, las carreteras, las líneas costeras y otros elementos lineales curvos (https://doi.org/10.17161/bi.v2i0.5[Chapman et al. 2005^])."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:481
