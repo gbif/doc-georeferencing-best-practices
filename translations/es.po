@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 22:40\n"
+"PO-Revision-Date: 2021-11-11 23:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3962,13 +3962,13 @@ msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |*Indefinido*\n"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:775
 msgid "<<img-spatial-fit-point-radius>> shows an example of applying the spatial-fit concept of a <<point-radius>> <<georeferencing-method,method>> of describing uncertainty where it is restricted to a shape method representation. For example, the location of a plant along the coast of north-east Madagascar – marked with the yellow *X* (<<img-spatial-fit-point-radius>>) – has an uncertainty radius of approx 1.35 km, but we know the record is of a terrestrial plant species so we can calculate the true area of uncertainty by excluding the marine biome using the shape method, thus the spatial fit is the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) giving a spatial fit of the uncertainty radius of *1.39*."
-msgstr ""
+msgstr "La <<img-spatial-fit-point-radius>> muestra un ejemplo de la aplicación del concepto de ajuste espacial de un<<método de georreferenciación,método>><<radio-punto>> de descripción de la incertidumbre cuando se limita a una representación del método de forma geométrica. Por ejemplo, la ubicación de una planta a lo largo de la costa nororiental de Madagascar (marcada con la *X* amarilla en <<img-spatial-fit-point-radius>>), tiene un radio de incertidumbre de aproximadamente 1.35 A 5 km, pero se sabe que el registro es de una especie de planta terrestre, por lo que se puede calcular el área verdadera de incertidumbre al excluir el bioma marino usando el método de forma geométrica. Por lo tanto el ajuste espacial es la proporción del área del círculo rojo (5. 26 km cuadrados) dividido por el área de la zona sombreada de azul (~4.1 km cuadrados), resultando en un ajuste espacial del radio de incertidumbre de *1.39*."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:777
 #, no-wrap
 msgid "Example of using spatial fit on the results of both a point-radius method and a refined shape method of describing uncertainty. Assuming the blue-shaded area is the \"true\" locality as we know the species is terrestrial, and the red circle is the point-radius method of representing the uncertainty, the ratio of the area of the red circle (5.726 sq km) divided by the area of the blue shaded area (~4.1 sq km) gives a spatial fit for the point-radius of 1.39."
-msgstr ""
+msgstr "Ejemplo de uso del ajuste espacial en los resultados de un método de radio-punto y un método de forma geométrica refinada para describir la incertidumbre. Suponiendo que el área sombreada en azul es la localidad \"verdadera\" ya que sabemos que la especie es terrestre y que el círculo rojo es el método de radio-punto para representar la incertidumbre, la relación del área del círculo rojo (5.726 km cuadrados) dividida por el área del área sombreada en azul (~4.1 km cuadrados) resulta en un ajuste espacial para el radio-punto de 1.39."
 
 #. type: Target for macro image
 #: 0300-the-georeferencing-process.en.adoc:778
@@ -3985,12 +3985,12 @@ msgstr "Georreferenciación Colaborativa"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:4
 msgid "The characteristics that make a <<georeference,georeferencing>> project collaborative are the aggregation of occurrence records from multiple participating groups (e.g. datasets, collections, institutions), the extraction of distinct <<locality,localities>> as the actual target of georeferencing, the standardization of the geography of the aggregated records to aid record grouping and assignment by geography."
-msgstr ""
+msgstr "Las características que hacen que un proyecto de <<georreferencia,georreferenciación>> sea colaborativo son la agregación de registros de múltiples grupos participantes (p. ej. conjuntos de datos, colecciones, instituciones), la extracción de diferentes <<localidad,localidades> como objetivo real de georreferenciación, la estandarización de la geografía de los registros agregados para ayudar al agrupamiento y asignación de registros por geografía."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:6
 msgid "Collaborative georeferencing, if done properly, can have definitive advantages over georeferencing alone. MaNIS (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^]) and Australia's Virtual Herbarium (https://www.anbg.gov.au/chah/avh/avh.html[ANBG 2018^]) found that collaborative georeferencing resulted in great efficiency gains, but that including validation checks afterwards by reviewing the records using collector and date, or looking at the records taxonomically to check for outliers, and other such <<data quality>> flags, is important. Advantages and disadvantages of collaborative georeferencing, adapted from http://georeferencing.org/manis/GeorefCollaboration021021.ppt[Wieczorek & Beaman 2002^] and https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^] include:"
-msgstr ""
+msgstr "La georreferenciación colaborativa, si se hace correctamente, puede tener ventajas definitivas sobre la georreferenciación por en solitario. MaNIS (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^]) y el Australia's Virtual Herbarium (https://www.anbg.gov.au/chah/avh/avh.html[ANBG 2018^]) encontraron que la georreferenciación colaborativa dio lugar a un gran aumento de la eficiencia, pero que es importante incluir verificaciones de validación a posteriori mediante la revisión de los registros usando el colector y la fecha, o examinando los registros taxonómicamente para comprobar si existen valores atípicos y otros indicadores de la <<calidad de datos>>. Las ventajas y desventajas de la georreferenciación colaborativa, adaptadas de http://georeferencing.org/manis/GeorefCollaboration021021.ppt[Wieczorek & Beaman 2002^] y https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^] incluyen:"
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:8
@@ -4001,7 +4001,7 @@ msgstr "*Ventajas*\n"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:10
 msgid "Reduces overall cost of supplies (e.g. maps) – no duplication."
-msgstr ""
+msgstr "Reduce el costo total de los suministros (p. ej. mapas), sin duplicación."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:11
