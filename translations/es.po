@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 16:44\n"
+"PO-Revision-Date: 2021-11-11 17:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3700,13 +3700,13 @@ msgstr "Hay varias formas de calcular la incertidumbre a partir de las distancia
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:659
 msgid "For distance measurements that are positive integer powers of 10, the precision should be ten to the next lower power. This calculation differs from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], which recommended that the precision should be based on ten to the same power. Upon reconsideration, that seems excessive (see <<table-uncertainty-from-offset-precision>>). This same reasoning can be used for precision in verbatim <<elevation,elevations>> and <<depth,depths>>. Recommended values for uncertainty related to offset precisions are shown in <<table-uncertainty-from-offset-precision>>."
-msgstr ""
+msgstr "Para las mediciones de distancia que son potencias enteras positivas de 10, la precisión debe ser de diez a la potencia inmediatamente inferior. Este cálculo difiere de https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], que recomendó que la precisión se basara en diez a la misma potencia. Al reconsiderarlo, parece excesivo (ver <<table-uncertainty-from-offset-precision>>). Este mismo razonamiento puede utilizarse para la precisión en <<elevación,elevaciones>> y <<profundidad,profundidades>> originales. Los valores recomendados para la incertidumbre relacionada con las precisiones de desplazamiento se muestran en <<table-uncertainty-from-offset-precision>>."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:661
 #, no-wrap
 msgid "Calculating uncertainty related to the <<precision>> of a distance measurement.  The table shows examples of distance measurements, the recommended uncertainty due to the precision in the example adapted from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], and a comparison to the rules applied for uncertainty by https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004)^]."
-msgstr ""
+msgstr "Calculando incertidumbre relacionada con la <<precisión>> de una medición de distancia. La tabla muestra ejemplos de mediciones de distancia, la incertidumbre recomendada debido a la precisión en el ejemplo adaptado de https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^] y una comparación con las reglas aplicadas para la incertidumbre por https://doi.org/10.5281/zenodo.3235003[Frazier et al. 2004)^]."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:679
@@ -3745,13 +3745,13 @@ msgstr "h|Distancia h|Incertidumbre Recomendada h|Incertidumbre seg. Frazier et 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:682
 msgid "Precision can also be masked or lost when measurements are converted, such as from feet to meters, or from miles to kilometers."
-msgstr ""
+msgstr "La precisión también puede ser enmascarada o perderse cuando se convierten las medidas, por ejemplo, de pies a metros o de millas a kilómetros."
 
 #.  TODO: Was CARE.
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:685
 msgid "Be careful that the value you are using for precision when calculating the uncertainty is a true precision and not a false precision. For example, converting a collector’s recording of 16 miles (with a precision of 1 mile) to 25.6 km (with a precision of 0.1 km) leads to an unwarranted level of precision that is more than 16 times higher than the original."
-msgstr ""
+msgstr "Tenga cuidado de que el valor que está utilizando para la precisión al calcular la incertidumbre sea una verdadera precisión y no una falsa precisión. Por ejemplo, convertir el registro de un colector de 16 millas (con una precisión de 1 milla) a 25.6 km (con una precisión de 0.1 km) lleva a un nivel de precisión injustificado que es más de 16 veces superior al original."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:687
