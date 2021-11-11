@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 19:15\n"
+"PO-Revision-Date: 2021-11-11 20:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3762,7 +3762,7 @@ msgstr "La <<img-orthogonal-distances-from-feature>> muestra un ejemplo de dos d
 #: 0300-the-georeferencing-process.en.adoc:689
 #, no-wrap
 msgid "Example of a locality *b* as offsets *x* and *y* in orthogonal directions (from the corrected center *a* of a feature (i.e. stock watering point). The coordinates *b* (8 km E and 6 km N of *a* are surrounded by a bounding box 1 km square *c* showing the uncertainty due to distance precision of 1 km. The net uncertainty from distance precision is represented by a circle *d* that circumscribes the bounding box and which has a radial of 0.707 km. By convention the headings for localities with offsets in orthogonal directions are exactly in the specified directions and contribute no uncertainty due to direction precision."
-msgstr ""
+msgstr "Ejemplo de una localidad *b* como desplazamientos *x* y *y* en direcciones ortogonales (desde el centro corregido *a* de una entidad geográfica (es decir, punto de hidratación de ganado). Las coordenadas *b* (8 km E y 6 km N de *a* están rodeadas por una caja delimitadora de 1 km cuadrado *c* que muestra la incertidumbre debido a la precisión de la distancia de 1 km. La incertidumbre neta de la precisión de la distancia es representada por un círculo *d* que circunscribe la caja delimitadora y que tiene un radial de 0.707 km. Por convención, las orientaciones cardinales para localidades con desplazamientos en direcciones ortogonales están exactamente en las direcciones especificadas y no aportan incertidumbre debido a la precisión de la dirección."
 
 #. type: Target for macro image
 #: 0300-the-georeferencing-process.en.adoc:690
