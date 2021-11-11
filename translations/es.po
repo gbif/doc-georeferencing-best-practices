@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 14:17\n"
+"PO-Revision-Date: 2021-11-11 14:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3352,18 +3352,18 @@ msgstr "Las cartas portuarias se elaboran generalmente a escala 1:10,000 y las c
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:494
 msgid "For most marine or nautical charts, the <<accuracy>> and reliability of the information used to compile the chart is recorded as http://www.hydro.gov.au/prodserv/important-info/accuracy_and_reliability_of_charts.pdf[Zones of Confidence (ZOC) (Prince 2020)^]. ZOC categories warn mariners which parts of the chart are based on good or poor information and which areas should be navigated with caution. The ZOC system consists of five categories for assessed <<data quality>>, with a sixth category for data which has not been assessed (<<table-marine-mapping-zoc>>)."
-msgstr ""
+msgstr "Para la mayoría de las cartas marinas o náuticas, la <<exactitud>> y la fiabilidad de la información utilizada para compilar la carta se registra como http://www.hydro.gov.au/prodserv/important-info/accuracy_and_reliability_of_charts.pdf[Zonas de Confianza (ZOC por sus siglas en inglés) (Prince 2020)^]. Las categorías de ZOC advierten a los navegantes sobre qué partes de la carta están basadas en información buena o deficiente y qué áreas deben ser navegadas con precaución. El sistema ZOC consta de cinco categorías para la <<calidad de datos>> evaluada, con una sexta categoría para los datos que no han sido evaluados (<<table-marine-mapping-zoc>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:496
 msgid "Positional accuracy refers to the horizontal accuracy of a <<depth>> or <<feature>>. Depth accuracy refers to the vertical accuracy of individual recorded depths, of which those shown on the chart are a subset designed to best represent the sea floor as it is known or estimated."
-msgstr ""
+msgstr "La exactitud posicional se refiere a la exactitud horizontal de una <<profunidad>> o de una <<entidad geográfica>>. La exactitud de profundidad se refiere a la exactitud vertical de las profundidades individuales registradas, de las cuales las que se muestran en la carta son un subconjunto diseñado para representar lo mejor posible el fondo marino como se conoce o se estima."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:498
 #, no-wrap
 msgid "Marine mapping Zones of Confidence (ZOC) categories and their associated accuracy. Derived with permission from http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf[AHP20 (Australian Hydrographic Office 2020)^] and https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/[NOAA 2016^]."
-msgstr ""
+msgstr "Las categorías de Zonas de Confianza (ZOC) y su exactitud asociada. Derivadas con permiso de http://www.hydro.gov.au/prodserv/publications/AHP20_Edition_5.pdf[AHP20 (Australian Hydrographic Office 2020)^] y https://www.nauticalcharts.noaa.gov/updates/how-accurate-are-nautical-charts/[NOAA 2016^]."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:509
@@ -3454,12 +3454,12 @@ msgstr "Incertidumbre debido al GPS"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:542
 msgid "The <<uncertainty,uncertainties>> inherent in various <<GNSS,Global Navigation Satellite Systems>> and <<GPS>>/GNSS devices are discussed in detail in Section <<GPS Accuracy>>. The most common way of getting <<coordinates>> in the field is from a GNSS-enabled device, which includes most smartphones. Most user interfaces on hand-held GPS/GNSS devices and applications on smartphones show a \"GPS Accuracy\". The figure shown as \"Accuracy\" isn't true <<accuracy>>. It is the EPE (Estimated Position Error) (https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/[Herries 2012^]). In other words, it is the probability that the location the GPS is displaying is within the \"accuracy\" distance from the true location. Keep in mind that a GPS receiver doesn't actually know its true location. It calculates a location, based on the data received from the satellites. However, if the instrument has a <<bias>>, it still may give a low reported \"Accuracy\" (i.e. the repeated measurements may be close together) but they may be some distance from the true location (see <<img-accuracy-vs-precision>>). While most GPS manufacturers don’t tell you how they calculate \"accuracy\", you can consider it a figure that says \"most of the time, the displayed location coordinates are within X distance of the GPS receiver\" (where X is the \"accuracy\" figure)."
-msgstr ""
+msgstr "Las <<incertidumbre, incertidumbres>> inherentes a varios <<GNSS, Sistemas Globales de Navegación por Satélite>> y dispositivos <<GPS>>/GNSS> se discuten en detalle en la sección <<Exactitud del GPS>>. La forma más habitual de obtener <<coordenadas>> en campo es a partir de un dispositivo habilitado para GNSS, lo que incluye la mayoría de los smartphones. La mayoría de las interfaces de usuario de los dispositivos GPS/GNSS portátiles y las aplicaciones de los smartphones muestran una \"Exactitud del GPS\". La cifra mostrada como \"Exactitud\" no es la verdadera <<exactitud>>, es el EPE (Error de Posición Estimado) (https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/[Herries 2012^]). En otras palabras, es la probabilidad de que la ubicación que el GPS está mostrando esté dentro de la distancia de \"exactitud\" de la verdadera ubicación. Tenga en cuenta que un receptor GPS no conoce realmente su verdadera ubicación. Calcula una ubicación, basado en los datos recibidos de los satélites. Sin embargo, si el instrumento tiene un <<sesgo>>, todavía puede reportar una baja \"Exactitud\" (es decir, las mediciones repetidas pueden estar cerca entre sí), pero pueden estar a cierta distancia de la verdadera ubicación (ver <<img-accuracy-vs-precision>>). Aunque la mayoría de los fabricantes de GPS no indican cómo calculan la \"exactitud\", puede considerarla como una cifra que indica que \"la mayoría de las veces, las coordenadas de ubicación mostradas están dentro de X distancia del receptor GPS\" (donde X es la cifra de \"exactitud\")."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:544
 msgid "The \"Accuracy\" value is affected by the current satellite configuration (the number of satellites that are visible and their positions in the sky (satellite ephemeris)), and a vast host of environmental variables between the device and the satellites that affect the signal trajectories and signal-to-noise ratios. Without access to a <<SBAS>> (see <<Satellite Based Augmentation System>>), this value can be used only as an indicator of relative accuracy, but it is statistically always less than the real value. This is easy to demonstrate with sufficient repeated measurements of coordinates and purported accuracy at the same well-known location over time. The mean accuracy value will be less than the mean distance shift between the mean coordinate given by all readings (a statistical proxy for the true coordinates) and the individual coordinate readings. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/[Herries 2012^] recommends doubling the Accuracy (EPE) reported by the GPS Receiver (including smartphones) to get a more realistic representation of true accuracy."
-msgstr ""
+msgstr "El valor \"Exactitud\" se ve afectado por la configuración actual de los satélites (el número de satélites que son visibles y sus posiciones en el cielo (efemérides de satélite)) y una gran cantidad de variables ambientales entre el dispositivo y los satélites, que afectan a las trayectorias de señales y las relaciones señal-ruido. Sin acceso a un <<SBAS>> (ver <<Sistema de Aumentación Basado en Satélites>>), este valor solo puede utilizarse como indicador de exactitud relativa, pero estadísticamente siempre es menor que el valor real. Esto es fácil de demostrar con suficientes mediciones repetidas de las coordenadas y la supuesta precisión en la misma ubicación conocida a lo largo del tiempo. El valor medio de la exactitud será menor que el cambio de distancia promedio entre la coordenada media dada por todas las lecturas (un proxy estadístico para las coordenadas verdaderas) y las lecturas individuales de coordenadas. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/[Herries 2012^] recomienda duplicar la exactitud (EPE) reportada por el receptor GPS (incluyendo los teléfonos inteligentes) para obtener una representación más realista de la exactitud verdadera."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:546
