@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 14:45\n"
+"PO-Revision-Date: 2021-11-11 15:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3464,7 +3464,7 @@ msgstr "El valor \"Exactitud\" se ve afectado por la configuración actual de lo
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:546
 msgid "In summary, the EPE (‘accuracy’ given on a GPS) is not a maximum uncertainty, but an equal (50 per cent) chance that your position lies with a <<radial,radius>> of that value. To get a 95 per cent confidence level that your measurement is within a circle of a fixed radius, you have to multiply the EPE value by two as an absolute minimum. For details on <<georeference,georeferencing>> GPS coordinates see <<GPS Accuracy>>, and {gqg}#coordinates-geographic-coordinates[Coordinates – Geographic Coordinates^] in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "En resumen, el EPE (‘exactitud’ dada en un GPS) no es una máxima incertidumbre, pero una probabilidad igual (50 por ciento) de que su posición se encuentre con un <<radio>> de ese valor. Para obtener un nivel de confianza del 95 por ciento de que su medición está dentro de un círculo de un radio fijo, tiene que multiplicar el valor EPE por dos como mínimo absoluto. Para más detalles sobre <<georrferencia,georreferenciación>> de Coordenadas GPS vea <<Exactitud del GPS>>, y {gqg}#coordenadas-coordenadas-geográficas[Coordenadas: Coordenadas Geográficas^] en la {gqg}[Guía de referencia Rápida de georreferenciación (Zermoglio et al. 2020)^]."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:547
@@ -3475,12 +3475,12 @@ msgstr "Incertidumbre debido al uso de localidades previamente georreferenciadas
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:550
 msgid "Using previously <<georeference,georeferenced>> <<locality,localities>> – whether from your own database, or from an external source can introduce <<uncertainty,uncertainties>>. If the source is previously georeferenced localities from your own database, then it is important that you retain all the metadata associated with that previously georeferenced locality with all subsequent records. Similarly, if using an external source, try and record a DOI reference or similar if possible, so that any subsequent changes can be traced."
-msgstr ""
+msgstr "El uso de <<localidad,localidades>> previamente <<georreferencia,georreferenciada>>, ya sea de una base de datos propia o desde una fuente externa puede introducir <<incertidumbre,incertidumbres>>. Si la fuente son localidades previamente georreferenciadas de su propia base de datos, es importante que conserve todos los metadatos asociados a esa localidad previamente georreferenciada junto a todos los registros posteriores. Del mismo modo, si se utiliza una fuente externa, intente registrar una referencia DOI o similar, si es posible, de modo que se pueda rastrear cualquier cambio posterior."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:552
 msgid "When using previously georeferenced localities as a source, if an <<error>> was made with the original georeferencing, then it will be perpetuated through all subsequent georeferences."
-msgstr ""
+msgstr "Al usar localidades previamente georreferenciadas como fuente, si se cometió un <<error>> en la georreferencia original, éste será perpetrado a través de todas las georreferencias posteriores."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:553
