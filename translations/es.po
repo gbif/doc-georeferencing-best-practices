@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 00:07\n"
+"PO-Revision-Date: 2021-11-11 14:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3336,7 +3336,7 @@ msgstr "El error de posición en Google Maps y Google Earth está poco documenta
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:488
 msgid "<<elevation,Elevation>> coverage from Google Maps is inconsistent, it can be obtained by reading the contour lines in mountainous areas in the Terrain view, but it does not show elevation by default and not in cities or areas where there are no natural elevation gradients. In Google Earth one can access elevation information everywhere and it is visible with the <<latitude>> and <<longitude>> in the lower right of the view screen. Elevation in Google Earth is based on the <<mean-sea-level>> model of the EGM96 <<geoid>>. Note that this can vary by up to 200 meters from the <<WGS84>> reference <<ellipsoid>> in some areas (see xref:img-mean-sea-level-wgs84-ellipsoid[xrefstyle=\"short\"]). As noted under <<Google Earth>>, we recommend using the values extracted from the work of https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] as estimates of elevational uncertainty when the source is the Google Earth terrain model."
-msgstr ""
+msgstr "La cobertura de <<elevación>> Google Maps es inconsistente, se puede obtener leyendo las líneas de contorno en zonas montañosas en la vista de Terreno (Terrain), pero no muestra la elevación por defecto y no en las ciudades o zonas donde no hay gradientes naturales de elevación. En Google Earth se puede acceder a la información de elevación en cualquier lugar y es visible con la <<latitud>> y <<longitude> en la parte inferior derecha de la pantalla de visualización. La elevación en Google Earth se basa en el modelo <<nivel medio del mar>> del <<geoide>> EGM96. Tenga en cuenta que este puede variar hasta 200 metros con respecto al <<elipsoide>> de referencia <<WGS84>> en algunas zonas (ver xref:img-mean-sea-level-wgs84-ellipsoid[xrefstyle=\"short\"]). Como se indica en <<Google Earth>>, recomendamos utilizar los valores extraídos del trabajo de https://doi.org/10.1371/journal.pone.0175756[Wang et al. 2017^] como estimaciones de la incertidumbre en elevación cuando la fuente es el modelo de terreno de Google Earth."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:489
@@ -3347,7 +3347,7 @@ msgstr "Incertidumbres en los Mapas Marinos"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:492
 msgid "Harbor charts are generally produced at a scale of 1:10,000, and coastal charts at 1:50,000 to 1:150,000, and often in the Mercator projection. A page on Navigation – finding <<location>> on nautical maps can be seen at http://www.coastalnavigation.com/samples/sec_1/1_pages/1_3.htm[Coastal Navigation 2020^]. A majority of new maps (post-2019) are only being produced digitally (NOAA 2020, personal communication, 25 Jan), with paper maps being produced from the digital product."
-msgstr ""
+msgstr "Las cartas portuarias se elaboran generalmente a escala 1:10,000 y las cartas costeras a una escala de 1:50,000 a 1:150,000, a menudo en la proyección Mercator. En http://www.coastalnavigation.com/samples/sec_1/1_pages/1_3.htm[Coastal Navigation 2020^] se puede consultar una página sobre la navegación (encontrar una <<ubicación>> en los mapas náuticos). La mayoría de los nuevos mapas (posteriores a 2019) sólo se producen digitalmente (NOAA 2020, comunicación personal, 25 de enero) y los mapas en papel se producen a partir del producto digital."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:494
