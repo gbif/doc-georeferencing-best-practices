@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 15:11\n"
+"PO-Revision-Date: 2021-11-11 16:02\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3491,23 +3491,23 @@ msgstr "Incertidumbre Relacionada con la Precisión de las Coordenadas"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:556
 msgid "<<geographic coordinates,Geographic coordinates>> should always be recorded using as many digits as possible; the <<precision>> of the <<coordinates>> should be captured separately from the coordinates themselves, preferably as a distance, which conserves its meaning regardless of <<location>> and coordinate transformations. Recording coordinates with insufficient <<precision>> can result in unnecessary <<uncertainty,uncertainties>>. The magnitude of the uncertainty is a function of not only the precision with which the data are recorded, but also of the <<datum>> and the coordinates themselves. This is a direct result of the fact that a degree does not correspond to the same distance everywhere on the surface of the earth."
-msgstr ""
+msgstr "Las <<coordenada geográfica, coordenadas geográficas>> deben registrarse siempre con el mayor número de cifras posible. La <<precisión>> de las <<coordenadas>> debe capturarse por separado de las propias coordenadas, preferiblemente como una distancia, que conserva su significado independientemente de la <<ubicación>> y de las transformaciones de coordenadas. El registro de coordenadas con una <<precisión>> insuficiente puede dar lugar a <<incertidumbre, incertidumbres>> innecesarias. La magnitud de la incertidumbre es una función no sólo de la precisión con la que se registran los datos, sino también del <<datum>> y de las propias coordenadas. Esto es un resultado directo del hecho de que un grado no corresponde a la misma distancia en cualquier lugar de la superficie de la tierra."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:558
 msgid "<<table-uncertainty>> shows examples of the contributions to uncertainty for different levels of precision in coordinates using the <<WGS84>> reference <<ellipsoid>>. Calculations are based on the same degree of imprecision in both coordinates and are given for several different <<latitude,latitudes>>. Approximate calculations can be made based on this <<table-uncertainty,table>>, however, more <<accuracy,accurate>> calculations can be obtained using the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] – see further discussion below."
-msgstr ""
+msgstr "<<table-uncertainty>> muestra ejemplos de las contribuciones a la incertidumbre para diferentes niveles de precisión en las coordenadas usando el<<ellipsoid>> de referencia <<WGS84>>. Los cálculos se basan en el mismo grado de imprecisión en ambas coordenadas y se dan para diferentes <<latitud,latitudes>>. Se pueden hacer calculos aproximados con base en esta <<table-uncertainty,tabla>>, sin embargo, se pueden obtener cálculos más <<exacto,exactos>> usando la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^], vea más información a continuación."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:560
 msgid "From <<table-uncertainty>>, it can be seen that an observation recorded in degrees, minutes, and seconds (<<DMS>>) has a minimum <<uncertainty>> of between 32 and 44 metres."
-msgstr ""
+msgstr "De <<table-uncertainty>>, se puede inferir que una observación registrada en grados, minutos, y segundos (<<DMS>>) tiene una <<incertidumbre>> mínima de entre 32 y 44 metros."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:562
 #, no-wrap
 msgid "Table showing metric uncertainty due to precision of coordinates based on the WGS84 datum at varying latitudes. Uncertainty values have been rounded up in all cases. From http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#imprecision_in_coordinates[Wieczorek 2001^]."
-msgstr ""
+msgstr "Tabla que muestra la incertidumbre métrica debida a la precisión de las coordenadas basadas en el datum WGS84 en distintas latitudes. Los valores de incertidumbre se han redondeado en todos los casos. De http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#imprecision_in_coordinates[Wieczorek 2001^]."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:579
@@ -3545,7 +3545,7 @@ msgstr "h|Precisión h|0 grados Latitud h|30 grados Latitud h|60 grados Latitud 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:583
 msgid "<<false-precision,False precision>> can arise when transformations from degrees minutes seconds to <<decimal degrees>> are stored in a database (see Glossary for expanded discussion)."
-msgstr ""
+msgstr "La <<falsa precisión>> puede surgir cuando las transformaciones de grados minutos segundos a <<grados decimales>> se almacenan en una base de datos (véase el Glosario para una discusión ampliada)."
 
 #.  TODO: Was CARE.
 #. type: Plain text
