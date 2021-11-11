@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 16:02\n"
+"PO-Revision-Date: 2021-11-11 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3551,12 +3551,12 @@ msgstr "La <<falsa precisión>> puede surgir cuando las transformaciones de grad
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:586
 msgid "Never use <<precision>> in a database as a surrogate for the <<coordinate-uncertainty,coordinate uncertainty>>; instead, record the uncertainty explicitly, preferably as a distance."
-msgstr ""
+msgstr "Nunca use la <<precisión>> en una base de datos como un sustituto de la <incertidumbre de las coordenadas>>, en cambio, registre la incertidumbre explícitamente, preferiblemente como una distancia."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:588
 msgid "Details of calculations used to determine <<uncertainty,uncertainties>> in <<coordinate precision,coordinate precisions>> can be found in http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#imprecision_in_coordinates[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]."
-msgstr ""
+msgstr "Detalles de los cálculos usados para determinar las <<incertidumbre,incertidumbres>> en las <<precisión de las coordenadas, precisiones de las coordenadas>> se pueden encontrar en http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#imprecision_in_coordinates[Wieczorek 2001^] y https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]."
 
 #.  TODO Matt gave example title
 #. type: Block title
@@ -3574,7 +3574,7 @@ msgstr "*Lat:* 10.27° *Largo:* −123.6° *Datum:* WGS84\n"
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:598
 msgid "In this example, the lat/long precision is 0.01 degrees. Thus, latitude error = 1.1061 km, <<longitude>> error = 1.0955 km, and the uncertainty resulting from the combination of the two is 1.5568 km."
-msgstr ""
+msgstr "En este ejemplo, la precisión lat/long es de 0.01 grados. Por lo tanto, error de latitud = 1.1061 km, error de <<longitud>> = 1.0955 km y la incertidumbre resultante de la combinación de ambas es de 1.5568 km."
 
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:601
@@ -3585,7 +3585,7 @@ msgstr "*Lat:* 10.00000° *Largo:* −123.50000° *Datum:* WGS84\n"
 #. type: delimited block =
 #: 0300-the-georeferencing-process.en.adoc:604
 msgid "In this example, the lat/long precision is 0.5 degrees because neither coordinate demonstrates more specificity than that. Thus, latitude error = 55.6 km, longitude error = 54.75 km, and the uncertainty resulting from the combination of the two is 77.87 km."
-msgstr ""
+msgstr "En este ejemplo, la precisión lat/long es de 0.5 grados porque ninguna de las coordenadas demuestra más especificidad que esa. Por lo tanto, error de latitud = 55.6 km, error de longitud = 54.75 km y la incertidumbre resultante de la combinación de ambas es de 77.87 km."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:606
@@ -3596,12 +3596,12 @@ msgstr "Incertidumbre debido a un Datum Desconocido"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:609
 msgid "It is important to record the <<datum>> used for the <<coordinates,coordinate>> source (<<GPS>>, map sheet, <<gazetteer>>) if it is known, or to record the fact that it is not known. Coordinates without a <<coordinate reference system>> are ambiguous. <<geographic coordinates,Geographic coordinates>> with a datum constitute a coordinate reference system (see <<Coordinate Reference System>>), but seldom do natural history collections have complete coordinate reference system information. Even with a <<GPS>> being used to record coordinates in the field, the <<geodetic datum>> is typically ignored."
-msgstr ""
+msgstr "Es importante registrar el <<datum>> utilizado para la fuente de las <<coordenadas>> (<<GPS>>, hoja del mapa, <<gacetero>>), si se conoce, o registrar el hecho de que no se conoce. Las coordenadas sin un <<sistema de referencia de coordenadas>> son ambiguas. Las <<coordenadas geográficas>> con un datum constituyen un sistema de referencia de coordenadas (ver <<Sistema de Coordenadas de Referencia>>), pero rara vez las colecciones de historia natural tienen información completa sobre el sistema de referencia de coordenadas. Incluso cuando se usa un <<GPS>> para registrar las coordenadas en el campo, el <<datum geodésico>> se suele ignorar."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:611
 msgid "The ambiguity from a missing datum varies geographically and adds greatly to the <<error>> inherent in the <<georeference,georeferencing>>. Differences between datums may cause an error in true <<location>> from a few centimeters up to kilometers (https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py[Wieczorek 2019^]). Note that the difference between datums is not a simple function that can be calculated on the fly. The values have to be pre-calculated comparing all datums to a reference datum of choice (e.g. <<WGS84>>) at every point of interest over the earth's surface and stored in a way that can be looked up by geographic coordinates. The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is capable of doing such a lookup (see <<Using the Georeferencing Calculator>>). In the absence of looking up the actual value by coordinates, the worst case scenario of 5359 m (https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py[Wieczorek 2019^]) can be used."
-msgstr ""
+msgstr "La ambigüedad resultante de un datum faltante varía geográficamente y se suma en gran medida al <<error>> inherente a la <<georreferencia, georreferenciación>>. Las diferencias entre datums pueden causar un error en la <<ubicación>> real, desde unos pocos centímetros hasta kilómetros (https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py[Wieczorek 2019^]). Hay que tener en cuenta que la diferencia entre datums no es una función sencilla que se pueda calcular sobre la marcha. Los valores tienen que ser precalculados comparando todos los datums con un datum de referencia de elección (p. ej., <<WGS84>>) en cada punto de interés sobre la superficie terrestre y almacenados de forma que puedan ser consultados por coordenadas geográficas. La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] es capaz de realizar dicha búsqueda (ver <<Usando la Calculadora de Georreferenciación>>). A falta de buscar el valor real por coordenadas, se puede utilizar el peor escenario de 5359 m (https://github.com/VertNet/georefcalculator/blob/master/source/python/datumshiftproj.py[Wieczorek 2019^])."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:612
@@ -3612,18 +3612,18 @@ msgstr "Incertidumbre Relacionada con la Orientación Cardinal"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:615
 msgid "The calculation of <<uncertainty>> from the <<precision>> in which a <<direction>> is recorded depends on the distance from the starting reference <<feature>>. The uncertainty will increase with increasing distance from the source. For simple determinations of angular precision due to direction – see <<table-heading>>."
-msgstr ""
+msgstr "El cálculo de <<incertidumbre>> a partir de la <<precision>> en el que se registra una <<dirección>> depende de la distancia desde <<entidad geográfica>> inicial de referencia. La incertidumbre aumentará con una distancia cada vez mayor con respecto a la fuente. Para determinaciones simples de precisión angular debido a la dirección ver <<table-heading>>."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:617
 msgid "The uncertainty due to directional <<precision,imprecision>> increases with distance, so it can only be calculated from the combination of distance and direction (see below)."
-msgstr ""
+msgstr "La incertidumbre debida a la <<precisión,imprecisión>> direccional aumenta con la distancia, por lo que solo se puede calcular a partir de la combinación de distancia y dirección (ver abajo)."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:619
 #, no-wrap
 msgid "Calculating uncertainty using the precision of the recorded direction (derived from https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
-msgstr ""
+msgstr "Calculando incertidumbre usando la precisión de la dirección registrada (derivado de https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^])."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:626
@@ -3641,7 +3641,7 @@ msgstr "h|Precisión h|Interpretación h|Ejemplo h|Incertidumbre de Orientación
 #: 0300-the-georeferencing-process.en.adoc:628
 #, no-wrap
 msgid "Diagram showing directional precision for the interpretation of NE between ENE and NNE. Uncertainty (*x* and *y*) increases with distance from the feature"
-msgstr ""
+msgstr "Diagrama que muestra la precisión direccional para la interpretación de NE entre ENE y NNE. La incertidumbre (*x* y *y*) aumenta con la distancia desde la entidad geográfica"
 
 #. type: Target for macro image
 #: 0300-the-georeferencing-process.en.adoc:630
@@ -3663,7 +3663,7 @@ msgstr "A 10 km NE de Lambert Centre\n"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:639
 msgid "and if we ignore distance imprecision, uncertainty due to the direction imprecision (<<img-directional-precision>>) is encompassed by an arc centered 10 km (*d*) from the center of Lambert Centre (at *x,y*) at a heading of 45 degrees (*θ*), extending 22.5 degrees in either direction from that point. At this scale the distance (*e*) from the center of the arc to the furthest extent of the arc (at *x′,y′*) at a heading of 22.5 degrees (*θ′*) from the center of Lambert Centre can be approximated by the Pythagorean Theorem,"
-msgstr ""
+msgstr "y si ignoramos la imprecisión de la distancia, la incertidumbre debido a la falta de precisión en la dirección (<<img-directional-precision>>) es abarcada por un arco centrado a 10 km (*d*) del centro de Lambert Centre (en *x,y*) en una dirección cardinal de 45 grados (*θ*), extendiéndose 22.5 grados en cualquier dirección desde ese punto. En esta escala la distancia (*e*) desde el centro del arco hasta la extensión más lejana del arco (en *x',y'*) en una dirección cardinal de 22.5 Grados (*θ′*) del centro de Lambert Centre puede aproximarse por el teorema de Pitágoras,"
 
 #. type: delimited block +
 #: 0300-the-georeferencing-process.en.adoc:645
@@ -3679,7 +3679,7 @@ msgstr "donde x=dcos(θ), y=dsin(θ), x′=dcos(θ′) y y′=dsin(θ′). La in
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:651
 msgid "This shows just one simple example. For details and formulae for calculating more complicated uncertainties, see http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#combinations_of_uncertainties_distances[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Because of the complicated nature of these calculations, it is best to use the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] – see <<Using the Georeferencing Calculator>>."
-msgstr ""
+msgstr "Esto muestra sólo un ejemplo simple. Para detalles y fórmulas para calcular incertidumbres más complicadas, vea http://georeferencing.org/georefcalculator/docs/GeorefGuide.html#combinations_of_uncertainties_distances[Wieczorek 2001^] y https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Debido a la compleja naturaleza de estos cálculos, es mejor utilizar la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^], vea <<Usando la Calculadora de Georreferenciación>>."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:652
@@ -3690,12 +3690,12 @@ msgstr "Incertidumbre Relacionada con la Precisión del Desplazamiento"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:655
 msgid "<<precision,Precision>> can be difficult to gauge from a <<locality>> description as it is seldom, if ever, explicitly recorded. Further, a database record may not reflect, or may reflect incorrectly, the precision inherent in the original measurements, especially if the locality description in the database has undergone normalization, reformatting, or secondary interpretation of the original locality description."
-msgstr ""
+msgstr "Puede ser difícil medir la <<precisión>> a partir de una descripción de <<localidad>>,ya que rara vez, si es que alguna vez, se documenta explícitamente. Además, un registro de una base de datos puede no reflejar, o puede reflejar incorrectamente, la precisión inherente a las medidas originales, especialmente si la descripción de la localidad en la base de datos ha sido objeto de normalización, reformateo o interpretación secundaria de la descripción original de la localidad."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:657
 msgid "There are a number of ways of calculating uncertainty from distances. In this document, we recommend a conservative approach, which assumes that many records have undergone a certain amount of interpretation or transformation when being entered into the database. Thus, a record of \"10¼ mi\" may be entered into the database as 10.25 mi. The precision implied in the value 10.25 is thus a <<false precision>> and the real precision should not be assumed to be between 10.24 and 10.26 or between 10.2 and 10.3. The method of https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], adapted here, bases the estimate of uncertainty on the fractional part of the distance, calculated by dividing 1 by the fractional denominator. The uncertainty would just be half of the precision. For example, 10.5 mi N of Bakersfield could reasonably be expected to mean 10½ mi with a precision of half a mile between 10.25 and 10.75 mi, or 10.5 with an uncertainty of 0.25 mi."
-msgstr ""
+msgstr "Hay varias formas de calcular la incertidumbre a partir de las distancias. En este documento, recomendamos un enfoque conservador que asume que muchos registros han sido objeto de una cierta cantidad de interpretaciones o transformaciones al ser ingresados a en la base de datos. Así, un registro de \"10¼ mi\" puede ser ingresado a la base de datos como 10,25 mi. La precisión implícita en el valor 10.25 es, por tanto, una <<falsa precisión>>y no debe asumirse que la precisión real está entre 10.24 y 10.26 o entre 10.2 y 10.3. El método de https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], adaptado aquí, basa la estimación de la incertidumbre en la parte fraccionaria de la distancia, calculada dividiendo 1 por el denominador fraccionario. La incertidumbre sería simplemente la mitad de la precisión. Por ejemplo, 10.5 mi N de Bakersfield de podría esperarse razonablemente que significara 10½ mi con una precisión de media milla entre 10.25 y 10.75 mi, o 10.5 con una incertidumbre de 0.25 mi."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:659
