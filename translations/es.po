@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 20:40\n"
+"PO-Revision-Date: 2021-11-11 21:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3779,7 +3779,7 @@ msgstr "Incertidumbres Combinadas"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:695
 msgid "When combining <<uncertainty,uncertainties>> from different sources, it is not as simple as taking the average or adding them together. Uncertainties inherent in the <<location>> of the <<feature>>, in its <<extent>>, in the direction of the <<offset>>, and the distance of the offset, are just four sources that need to be combined to get an overall uncertainty. A detailed discussion of the calculations involved can be found in http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^] and https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. For a practical way of calculating uncertainties in <<locality>> descriptions, we recommend the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]. To understand how each source of uncertainty contributes to the net overall uncertainty, see {gcm}#understanding-uncertainty[Understanding Uncertainty Contributions^] in the {gcm}[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
-msgstr ""
+msgstr "Combinar las <<incertidumbre,incertidumbrres>> de diferentes fuentes, no es tan sencillo como tomar el promedio o sumarlas. Las incertidumbres inherentes en la <<ubicación>> de la <<entidad geográfica>>, en su <<extensión>>, en la dirección del <<desplazamiento>> y la distancia de la compensación, son solo cuatro fuentes que deben combinarse para obtener una incertidumbre general. Se puede encontrar una discusión detallada sobre los cálculos involucrados en http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^] y https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]. Para una forma práctica de calcular las incertidumbres en las descripciones de <<localidad>>, recomendamos la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^]. Para entender cómo cada fuente de incertidumbre contribuye a la incertidumbre general neta vea {gcm}#entendiendo-las-contribuciones-a-la-incertidumbre[Entendiendo las Contribuciones a la Incertidumbre^] en el {gcm}[Manual de la Calculadora de Georreferenciación(Bloom et al. 2020)^]."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:696
@@ -3790,7 +3790,7 @@ msgstr "Utilizando la Guía de Referencia Rápida de Georreferenciación"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:699
 msgid "The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] is a practical guide for <<georeference,georeferencing>> giving step-by-step instructions on how to georeference a wide variety of <<locality type,locality types>> (see <<Georeferencing Workflow – Localities>>) following the best practices in this document and with specific reference on what to enter into the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]."
-msgstr ""
+msgstr "La {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] es una guía práctica para la <<georreferencia,georreferenciación>>. Da instrucciones paso a paso sobre cómo georreferenciar una amplia variedad de <<tipo de localidad,tipos de localidades>> (ver <<Flujo de Trabajo de Georreferenciación: Localidades>>) siguiendo las buenas prácticas de este documento y con referencia específica sobre qué datos ingresar en la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^]."
 
 #. type: Title ====
 #: 0300-the-georeferencing-process.en.adoc:700
@@ -3801,23 +3801,23 @@ msgstr "Usando la Calculadora de Georreferenciación"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:703
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)] (<<img-georeferencing-calculator>>) is a tool to aid in <<georeference,georeferencing>> descriptive <<locality,localities>> such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) Project and has since been adopted by many other georeferencing initiatives. The current version and its https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^] have been extensively upgraded to include new features and to bring it in line with this document."
-msgstr ""
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)](<<img-georeferencing-calculator>>) es una herramienta para ayudar en la <<georreferencia,georreferenciación>> de <<localidad,localidades>> descriptivas como las que se encuentran en las colecciones de historia natural de los museos. Originalmente fue diseñado para el Proyecto Mammal Network Information System (MaNIS) y desde entonces ha sido adoptada por muchas otras iniciativas de georreferenciación. La versión actual y su https://doi.org/10.35035/gdwq-3v93[Manual de la Calculadora de Georreferenciación (Bloom et al. 2020)^] han sido ampliamente actualizados para incluir nuevas funciones y adecuarlos a este documento."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:705
 msgid "The application makes calculations adapted from the methods originally described in the http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Georeferencing Guidelines (Wieczorek 2001)^] and later formalized in a peer-reviewed publication https://doi.org/10.1080/13658810412331280211[(Wieczorek 2004)^]. We recommend its use generally by all natural history institutions to calculate <<uncertainty>> in <<location>> data without the need for a detailed understanding of the complicated underlying algorithms. The more institutions that use this one method, the more consistent will be the <<data quality,quality>> of data across and between institutions, making it easier for users to evaluate the quality of the data. We recommend reading both of the above-mentioned publications and the https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual (Bloom et al. 2020)^] for an understanding of the calculations involved and an understanding of how the Calculator works."
-msgstr ""
+msgstr "La aplicación hace que los cálculos se adapten a los métodos descritos originalmente en http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Pautas para la Georreferenciación (Wieczorek 2001)^] y luego formalizados en una publicación revisada por pares https://doi.org/10.1080/13658810412331280211[(Wieczorek 2004)^]. Recomendamos su uso general por todas las instituciones de historia natural, para calcular la <<incertidumbre>> en los datos de <<ubicación>> sin la necesidad de una comprensión detallada de los complicados algoritmos subyacentes. Cuantas más instituciones utilicen este método, más consistente será la <<calidad de datos,calidad>> de datos en las instituciones y entre ellas, facilitando a los usuarios la evaluación de la calidad de los datos. Recomendamos leer tanto las publicaciones mencionadas anteriormente como el https://doi.org/10.35035/gdwq-3v93[Manual de la Calculadora de Georreferenciación (Bloom et al. 2020)^] para una comprensión de los cálculos involucrados y de cómo funciona la Calculadora."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:707
 msgid "The Calculator can work http://georeferencing.org/georefcalculator/gc.html[online^] or locally in a browser (latest release available on https://github.com/VertNet/georefcalculator/releases[GitHub^]). The source code is freely and openly available on https://github.com/VertNet/georefcalculator[GitHub^]."
-msgstr ""
+msgstr "La Calculadora puede funcionar http://georeferencing.org/georefcalculator/gc.html[en línea^] o localmente en un navegador (última versión disponible en https://github.com/VertNet/georefcalculator/releases[GitHub^]). El código fuente está libre y abiertamente disponible en https://github.com/VertNet/georefcalculator[GitHub^]."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:709
 #, no-wrap
 msgid "A snapshot of the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] showing maximum uncertainty calculation for the locality: ‘_10 mi E (by air) Bakersfield_’."
-msgstr ""
+msgstr "Un pantallazo de la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] que muestra el cálculo de máxima incertidumbre para la localidad: ‘_10 mi E (por aire) de Bakersfield_’."
 
 #. type: Target for macro image
 #: 0300-the-georeferencing-process.en.adoc:710
