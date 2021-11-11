@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 17:11\n"
+"PO-Revision-Date: 2021-11-11 19:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3756,7 +3756,7 @@ msgstr "Tenga cuidado de que el valor que está utilizando para la precisión al
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:687
 msgid "<<img-orthogonal-distances-from-feature>> shows an example of two orthogonal distances measured from a <<feature>>, each with the uncertainty due to distance precision. If we ignore all sources of uncertainty except those arising from distance precision, the uncertainty is a bounding box centered on the point 8 km E and 6 km N of the <<corrected center>> of the feature. Each of the distance measurements demonstrates a precision of 1 km. Thus, each side of the box is a total of 1 km in length (0.5 km uncertainty in each cardinal direction from the center). Since we are characterizing the precision as a single distance measurement (1 km), we need the circle that circumscribes the above-mentioned bounding box to get the uncertainty due to the combined distance precisions. The radius of this circle is half the length of the distance precision bounding box, which is equal to one half the square root of two times the distance precision. So, for the above example the uncertainty associated with only the distance precision is one half the square root of two, or 0.707 km."
-msgstr ""
+msgstr "La <<img-orthogonal-distances-from-feature>> muestra un ejemplo de dos distancias ortogonales medidas desde una <<entidad geográfica>>, cada una con la incertidumbre debido a la precisión de la distancia. Si ignoramos todas las fuentes de incertidumbre excepto aquellas que surgen dada la precisión de la distancia, la incertidumbre es una caja delimitadora centrada en el punto 8 km E y 6 km N del <<centro corregido>> de la entidad. Cada una de las mediciones de distancia demuestra una precisión de 1 km. Así, cada lado de la caja es un total de 1 km de longitud (0.5 km de incertidumbre en cada dirección cardinal del centro). Dado que estamos caracterizando la precisión como una medida de distancia única (1 km), necesitamos el círculo que circunscribe la caja delimitadora mencionada anteriormente para obtener la incertidumbre debida a la combinación de las precisiones de las distancias. El radio de este círculo es la mitad de la longitud de la caja delimitadora de precisión de la distancia, que es igual a la mitad de la raíz cuadrada de dos veces la precisión de la distancia. Por lo tanto, para el ejemplo anterior, la incertidumbre asociada únicamente con la precisión de la distancia es la mitad de la raíz cuadrada de dos, o 0.707 km."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:689
