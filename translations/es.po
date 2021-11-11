@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 21:35\n"
+"PO-Revision-Date: 2021-11-11 22:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3839,7 +3839,7 @@ msgstr "Algunas <<localidad,localidades>> son difíciles de <<georreferenciar>>.
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:717
 msgid "Some {marine}marine localities can also provide difficulties – for example \"Off Mar del Plata\". The trouble is, one doesn’t know how far \"off\" Mar del Plata the <<event>> took place. In terrestrial localities one can generally make a decision that it is between the feature and the next feature, but in the marine environment, that may not be as easy. Does it mean \"within sight of\", 5km, 12km, the EEZ boundary, the continental shelf…? One does not reliably know the end point so it makes it difficult (if not impossible) to georeference accurately. One good resource for finding marine localities, <<boundary,boundaries>>, etc. is the website http://www.marineregions.org[marineregions.org (VLIZ 2019)^]."
-msgstr ""
+msgstr "Algunas localidades {marine}marinas también pueden ofrecer dificultades, por ejemplo \"Fuera de Mar del Plata\". El problema es que no se sabe a qué distancia de Mar de Plata tuvo lugar el <<evento>>. En las localidades terrestres, generalmente se puede tomar la decisión de que está entre la entidad mencionada y la siguiente, pero en el ambiente marino, puede no ser tan fácil. ¿Significa \"a la vista de\", 5km, 12km, el límite de la ZEE, el escudo continental…? No se conoce de forma fiable el punto final por lo que hace difícil (si no imposible) georreferenciar con exactitud. Un buen recurso para encontrar localidades marinas, <<límite,límites>>, etc. es el sitio web http://www.marineregions.org[marineregions.org (VLIZ 2019)^]."
 
 #. type: Title ===
 #: 0300-the-georeferencing-process.en.adoc:718
@@ -3850,7 +3850,7 @@ msgstr "Determinando el Ajuste Espacial"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:721
 msgid "<<spatial fit,Spatial fit>>, first formalized as the Reock degree of compactness (https://doi.org/10.2307/439947[Young 1988^], https://doi.org/10.2307/2109043[Reock 1961^]), is a <<georeference,georeferencing>> concept designed to measure how well a given geometric representation matches the original spatial representation. This is useful when spatial transformations change the way a <<locality>> is represented, either to mask its detail, or to match an agreed upon schema for data sharing (such as fitting locations to a <<grid>> cell)."
-msgstr ""
+msgstr "El <<ajuste espacial>>, primero formalizado como el grado de compacidad de Reock (https://doi.org/10.2307/439947[Young 1988^], https://doi.org/10.2307/2109043[Reock 1961^]), es un concepto de <<georreferencia,georreferenciación>> diseñado para medir qué tan bien coincide una representación geométrica determinada con la representación espacial original. Esto es útil cuando las transformaciones espaciales cambian la forma en que se representa una <<localidad>>, ya sea para enmascarar su detalle o para que coincida con un esquema acordado para el intercambio de datos (como la adaptación las localidades a una <<grilla>> de celda)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:723
