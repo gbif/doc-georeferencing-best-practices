@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-10 23:39\n"
+"PO-Revision-Date: 2021-11-11 00:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3331,7 +3331,7 @@ msgstr "Gracias a la creciente disponibilidad de imágenes satelitales de alta c
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:486
 msgid "The positional error on Google Maps and Google Earth is poorly documented and varies both geographically and with imagery resolution. We recommend the conservative combination of root mean square error from Google Earth and Landsat imagery of 89.7m estimate derived by https://doi.org/10.3390/s8127973[Potere 2008^] for Google Earth or Google Map readings in or before 2008. After that, we recommend the 8m (95 per cent confidence interval) estimated by https://doi.org/10.1590/S1982-21702013000400005[Paredes-Hernández et al. 2013^]. Limited data based on the <<accuracy>> of street junctions on OpenStreetMap (https://www.researchgate.net/publication/267857078_Comparative_Spatial_Analysis_of_Positional_Accuracy_of_OpenStreetMap_and_Proprietary_Geodata[Helbich et al. 2012^]) suggests that this source has accuracy of the same order of magnitude as the Google products. Note that measurements in Google Earth and Google Maps are direct lines and don't account for changes in elevation."
-msgstr ""
+msgstr "El error de posición en Google Maps y Google Earth está poco documentado y varía tanto geográficamente como con la resolución de las imágenes. Recomendamos la combinación conservadora del error cuadrático medio de Google Earth y el de las imágenes Landsat de 89,7m estimado por https://doi.org/10.3390/s8127973[Potere 2008^] para las lecturas de Google Earth o Google Maps durante o antes del 2008. Después de estas fechas, se recomienda un valor de 8m (intervalo de confianza del 95%) estimado por https://doi.org/10.1590/S1982-21702013000400005[Paredes-Hernández et al. 2013^]. Los datos limitados basados en la <<exactitud>> de los cruces de calles en OpenStreetMap (https://www.researchgate.net/publication/267857078_Comparative_Spatial_Analysis_of_Positional_Accuracy_of_OpenStreetMap_and_Proprietary_Geodata[Helbich et al. 2012^]) sugieren que esta fuente tiene una precisión del mismo orden de magnitud que los productos de Google. Hay que tener en cuenta que las mediciones en Google Earth y Google Maps son líneas directas y no tienen en cuenta los cambios de elevación."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:488
