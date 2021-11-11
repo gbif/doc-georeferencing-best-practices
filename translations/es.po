@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 23:19\n"
+"PO-Revision-Date: 2021-11-11 23:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4006,32 +4006,32 @@ msgstr "Reduce el costo total de los suministros (p. ej. mapas), sin duplicació
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:11
 msgid "Expands the pool of resources – geographic expertise and reference materials."
-msgstr ""
+msgstr "Amplía el conjunto de recursos, conocimientos geográficos y materiales de referencia."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:12
 msgid "Takes advantage of regional expertise, knowledge, language skills and resources."
-msgstr ""
+msgstr "Aprovecha la experiencia, los conocimientos, las competencias lingüísticas y los recursos regionales."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:13
 msgid "Increases georeferencing rates – economy of scale."
-msgstr ""
+msgstr "Aumenta las tasas de georreferenciación, economía de escala."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:14
 msgid "Promotes standardization of methods."
-msgstr ""
+msgstr "Promueve la normalización de los métodos."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:15
 msgid "Increases skills in a community."
-msgstr ""
+msgstr "Aumenta las competencias de la comunidad."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:16
 msgid "Increases exposure and awareness inside and outside of a community － strengthens community relationships."
-msgstr ""
+msgstr "Aumenta la exposición y el conocimiento dentro y fuera de una comunidad, refuerza las relaciones comunitarias."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:18
@@ -4042,32 +4042,32 @@ msgstr "*Desventajas*\n"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:20
 msgid "Vulnerable to procrastination, delays, uneven levels of training, expertise and commitment."
-msgstr ""
+msgstr "Vulnerable a la procrastinación, los retrasos, los niveles desiguales de formación, experiencia y compromiso."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:21
 msgid "Can distance the georeferencing process from useful primary resources (e.g. specimen labels and field notes)."
-msgstr ""
+msgstr "Puede distanciar el proceso de georreferenciación de los recursos primarios útiles (p. ej. las etiquetas de los especímenes y las notas de campo)."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:22
 msgid "Introduces time sensitivity to the georeferencing process (locality information for the underlying occurrence records might be subject to changes during the georeferencing process that would render a different result)."
-msgstr ""
+msgstr "Introduce sensibilidad temporal en el proceso de georreferenciación (la información de localidad de los registros subyacentes podría estar sujeta a cambios durante el proceso de georreferenciación que darían un resultado diferente)."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:23
 msgid "Data repatriation into the originating collection can be a difficult and time-consuming process."
-msgstr ""
+msgstr "La repatriación de los datos a la colección de origen puede ser un proceso difícil y largo."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:24
 msgid "Requires project-level management."
-msgstr ""
+msgstr "Requiere una gestión a nivel de proyecto."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:25
 msgid "Requires a formalized validation process."
-msgstr ""
+msgstr "Requiere un proceso de validación formalizado."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:27
