@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 22:06\n"
+"PO-Revision-Date: 2021-11-11 22:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3855,18 +3855,18 @@ msgstr "El <<ajuste espacial>>, primero formalizado como el grado de compacidad 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:723
 msgid "A spatial fit with a value of \"1\" is an exact match or 100 per cent overlap. If the <<geometry>> given does not completely encompass the original spatial representation, then the <<spatial fit>> is zero (i.e. some of the original is outside the transformed version, which we interpret as not being a fit). If the transformed <<shape>> does completely encompass the original spatial representation, then the value of the spatial fit is the ratio of the area of the transformed <<geometry>> to the area of the original spatial representation. Special case: If the original spatial representation is a point and the geometry presented is not a point, then the spatial fit is undefined. The range of values of spatial fit is 0, 1, greater than 1, or undefined (see <<img-spatial-fit>> and <<table-spatial-fit-a>>, xref:table-spatial-fit-2r2squared[xrefstyle=\"short\"], xref:table-spatial-fit-pir1squared[xrefstyle=\"short\"] and <<table-spatial-fit-c>>)."
-msgstr ""
+msgstr "Un ajuste espacial con un valor de \"1\" es una coincidencia exacta o un solapamiento del 100 por ciento. Si la <<geometría>> dada no abarca completamente la representación espacial original, entonces el <<ajuste espacial>> es cero (es decir, una parte del original queda por fuera de la versión transformada, lo que interpretamos como que no es un ajuste). Si la <<forma geométrica>> transformada si abarca completamente la representación espacial original, entonces el valor del ajuste espacial es la relación del área del área de la <<geometría>> transformada y el área de la representación espacial original. Caso especial: si la representación espacial original es un punto y la geometría presentada no es un punto, entonces el ajuste espacial no está definido. El rango de valores de ajuste espacial es 0, 1, mayor que 1, o indefinido (ver <<img-spatial-fit>> y <<table-spatial-fit-a>>, xref:table-spatial-fit-2r2squared[xrefstyle=\"short\"], xref:table-spatial-fit-pir1squared[xrefstyle=\"short\"] y <<table-spatial-fit-c>>)."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:725
 msgid "An example of the applicability of the spatial fit is where a point representing a terrestrial collection lies close to the coast, and the calculated <<uncertainty>> <<radial,radius>> encompasses some {marine}marine area. In this case the spatial fit would be greater than 1 as it represents an area greater than the real uncertainty (<<img-spatial-fit-point-radius>>). Spatial fit is also a valuable measure for describing the degree of <<generalization>> of a sensitive species, for example see <<Generalizing Georeferences for Sensitive Taxa and Locations>> and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]."
-msgstr ""
+msgstr "Un ejemplo de la aplicabilidad del ajuste espacial es cuando un punto que representa una colecta terrestre se encuentra cerca de la costa y el <<radio>> de <<incertidumbre>> calculado abarca algún área {marina}marina. En este caso, el ajuste espacial sería mayor que 1, ya que representa un área mayor que la incertidumbre real (<<img-ajuste-espacial-punto-radio>>). El ajuste espacial es también una medida valiosa para describir el grado de <<generalización>> de una especie sensible, para ejemplos vea <<Generalizando Georreferencias para Taxa y Localidades Sensibles>> y https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]."
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:727
 #, no-wrap
 msgid "A diagram illustrating the spatial fit of a location that can be described by a polygon, a bounding box, a circle, or a point. *c* is the corrected center, *r1* is the radial of the circle encompassing the polygon, *r2* is the radius of the circle encompassing the bounding box. (Modified from https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^])."
-msgstr ""
+msgstr "Diagrama que ilustra el ajuste espacial de una ubicación que puede ser descrita por un polígono, una caja delimiradora, un círculo o un punto. *c* es el centro corregido, *r1* es el radio del círculo que engloba al polígono, *r2* es el radio del círculo que engloba la caja delimitadora. (Modificado de https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^])."
 
 #. type: Target for macro image
 #: 0300-the-georeferencing-process.en.adoc:728
@@ -3877,13 +3877,13 @@ msgstr "img/spatial-fit.png"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:731
 msgid "<<img-spatial-fit>> illustrates a few examples of the definition of spatial fit and these are elaborated in the Tables below:"
-msgstr ""
+msgstr "<<img-spatial-fit>> ilustra algunos ejemplos de la definición de ajuste espacial y estos se elaboran en las siguientes Tablas:"
 
 #. type: Block title
 #: 0300-the-georeferencing-process.en.adoc:733
 #, no-wrap
 msgid "Calculations of spatial-fit where the original spatial representation of a locality given by the polygon in <<img-spatial-fit>>, with area *A*."
-msgstr ""
+msgstr "Cálculos del ajuste espacial donde la representación espacial original de una localidad es dada como el polígono en <<img-spatial-fit>>, con área *A*."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:740
@@ -3903,7 +3903,7 @@ msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[(pi r_2^2)/A]\n
 #: 0300-the-georeferencing-process.en.adoc:743
 #, no-wrap
 msgid "Calculations of spatial-fit where the original spatial representation of a locality was given as the bounding box in <<img-spatial-fit>>, with area stem:[2r_2^2]."
-msgstr ""
+msgstr "Cálculos del ajuste espacial donde la representación espacial original de una localidad es dada como la caja delimitadora en <<img-spatial-fit>>, con área stem:[2r_2^2]."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:750
@@ -3923,7 +3923,7 @@ msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[(pi r_2^2)/(2r_
 #: 0300-the-georeferencing-process.en.adoc:753
 #, no-wrap
 msgid "Calculations of spatial-fit where the spatial representation of a locality was given as the circle (stem:[r_1]) in <<img-spatial-fit>>, with area stem:[pi r_1^2]."
-msgstr ""
+msgstr "Cálculos del ajuste espacial donde la representación espacial original de una localidad es dada como el círculo (stem:[r_1]) en <<img-spatial-fit>>, con área stem:[pi r_1^2]."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:761
@@ -3943,7 +3943,7 @@ msgstr "|El <<ajuste espacial>> del circulo blanco (r₂) |stem:[r_2^2/r_1^2]\n"
 #: 0300-the-georeferencing-process.en.adoc:764
 #, no-wrap
 msgid "Calculations of spatial-fit where the original spatial representation of a locality was given as the point C (<<img-spatial-fit>>)."
-msgstr ""
+msgstr "Cálculos del ajuste espacial donde la representación espacial original de una localidad es dada como el punto C (<<img-spatial-fit>>)."
 
 #. type: Table
 #: 0300-the-georeferencing-process.en.adoc:772
