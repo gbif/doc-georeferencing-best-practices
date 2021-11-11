@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 21:07\n"
+"PO-Revision-Date: 2021-11-11 21:35\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3834,7 +3834,7 @@ msgstr "Localidades Difíciles"
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:715
 msgid "Some <<locality,localities>> are difficult to <<georeference>>. For some the recommendation is to not even try. These are generally localities without sufficient information, with conflicting or ambiguous information, or where the information is explicitly in question. Some localities reference a <<feature>> that can't be found with easily available resources. For these it may be just a matter of applying enough effort, but if the project is on a budget that can not support lengthy investigations into difficult localities, they may need to be left for another time. Difficult localities are not uncommon. Don't despair. Some interesting ones have been http://georeferencing.org/manis/ClassicLocalities.html[documented by the MaNIS project^]."
-msgstr ""
+msgstr "Algunas <<localidad,localidades>> son difíciles de <<georreferenciar>>. Para algunas la recomendación es ni siquiera intentarlo. Por lo general, se trata de localidades sin suficiente información, con información contradictoria o ambigua o en las que la información está explícitamente en duda. Algunas localidades hacen referencia a una <<entidad geográfica>> que no se puede encontrar fácilmente con los recursos disponibles. Para estas puede ser solo una cuestión de hacer un esfuerzo suficiente, pero si el proyecto tiene un presupuesto que no puede apoyar investigaciones largas sobre localidades difíciles, puede que toque dejarlas para otro momento. Las localidades difíciles no son poco comunes. No se desespere. Algunas interesantes han sido http://georeferencing.org/manis/ClassicLocalities.html[documentadas por el proyecto MaNIS^]."
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:717
