@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 16:24\n"
+"PO-Revision-Date: 2021-11-12 16:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4466,17 +4466,17 @@ msgstr "Como se recomienda en otras partes de este documento, las <<georreferenc
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:68
 msgid "We recommend that if data are to be generalized that it be done by reducing the number of decimal places (for example when using <<decimal degrees>>) at which the data are published (https://doi.org/10.15468/doc-b02j-gt10[Chapman & Grafton 2008^], https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]). Good practice dictates that whatever you do to generalize the data, it be documented so that users of the data know what reliance can be placed on them. As far as the generalization of georeferencing data is concerned it is important to record that the data have been generalized using a ‘_decimal geographic grid_’, and record both:"
-msgstr ""
+msgstr "Recomendamos que, si se van a generalizar los datos, se haga reduciendo el número de cifras decimales (por ejemplo, cuando se utilizan <<grados decimales>>) con las que se publican los datos (https://doi.org/10.15468/doc-b02j-gt10[Chapman & Grafton 2008^], https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]). Las buenas prácticas dictan que cualquier cosa que se haga para generalizar los datos se documente, de modo que los usuarios de los datos sepan qué tanta confianza se puede depositar en ellos. En lo que respecta a la generalización de los datos de georreferenciación, es importante registrar que los datos se han generalizado utilizando una ‘_grilla geográfica decimal_’ y registrar:"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:70
 msgid "Precision of the data provided (e.g. 0.1 degree; 0.001 degree, etc.)"
-msgstr ""
+msgstr "Precisión de los datos proporcionados (p. ej., 0.1 grados; 0.001 grados, etc.)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:71
 msgid "Precision of the data stored or held (e.g. 0.0001 degree, 0.1 minute, 1 second, etc.)"
-msgstr ""
+msgstr "Precisión de los datos almacenados o retenidos (p. ej., 0.0001 grados, 0.1 minutos, 1 segundo, etc.)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:73
