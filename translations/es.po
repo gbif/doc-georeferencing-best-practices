@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 16:52\n"
+"PO-Revision-Date: 2021-11-12 17:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4481,44 +4481,44 @@ msgstr "Precisión de los datos almacenados o retenidos (p. ej., 0.0001 grados, 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:73
 msgid "We recommend that when recording the degree of generalization of data, that <<spatial fit,Spatial Fit>> (<<Determining Spatial Fit>>) be used. For example, the degree to which a record has been generalized to obfuscate the georeference will be a number greater than 1 (see <<img-spatial-fit>> and https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
-msgstr ""
+msgstr "Recomendamos que al registrar el grado de generalización de los datos, se use el <<ajuste espacial, Ajuste Espacial>> (<<Determinando el Ajuste Espacial>>). Por ejemplo, el grado en que un registro ha sido generalizado para obnibular la georreferencia será un número mayor que 1 (ver <<img-spatial-fit>> y https://doi. rg/10.15468/doc-5jp4-5g10[Chapman 2020^])."
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:75
 msgid "Data should never be generalized at the time of collection, when georeferencing or when storing in the database."
-msgstr ""
+msgstr "Los datos nunca deben ser generalizados en el momento de la colecta, durante la georreferenciación o durante el almacenamiento en la base de datos."
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:76
 msgid "Some institutions randomize the data before publishing. This is a practice we do *NOT* recommend, and in fact would discourage it in all circumstances (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
-msgstr ""
+msgstr "Algunas instituciones aleatorizan los datos antes de publicarlos. Esta es una práctica que *NO* recomendamos y de hecho la desincentivamos en cualquier circunstancia (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
 
 #. type: Title ==
 #: 0600-maintaining-data-quality.en.adoc:1
 #, no-wrap
 msgid "Maintaining Data Quality"
-msgstr ""
+msgstr "Manteniendo la Calidad de los Datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:4
 msgid "Data that have been incorporated into the database and <<georeference,georeferenced>> need to be maintained and checked for <<data quality,quality>>. The quality checking process involves a number of steps, including receiving feedback from users, providing feedback to collectors, and running various validation tests. For more information on data quality and what it means for primary species collection data, see http://www.gbif.org/document/80545/[Chapman 2005c^]. Two major principles associated with data quality and data cleaning are:"
-msgstr ""
+msgstr "Los datos que han sido incorporados a la base de datos y <<georreferencia, georreferenciados>> tienen que ser mantenidos y verificados en cuanto a su <<calidad de datos, calidad>>. El proceso de verficación de la calidad implica una serie de pasos, incluyendo recibir retroalimentación de los usuarios, proporcionar información a los colectores y llevar a cabo diversas pruebas de validación. Para más información sobre la calidad de los datos y lo que significa para la colecta de datos especies primarias, vea http://www.gbif.org/document/80545/[Chapman 2005c^]. Dos principios importantes asociados a la calidad y la limpieza de los datos son:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:6
 msgid "<<error,Error>> prevention is preferable to error correction."
-msgstr ""
+msgstr "La prevención del <<error>> es preferible a la corrección de los errores."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:7
 msgid "The earlier in the information chain that you can detect an error, the cheaper it will be to correct it."
-msgstr ""
+msgstr "Cuanto antes se detecte un error en la cadena de información, menos costoso será corregirlo."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:8
 #, no-wrap
 msgid "Feedback to Collectors"
-msgstr ""
+msgstr "Retroalimentación a los Colectores"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:11
