@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 15:58\n"
+"PO-Revision-Date: 2021-11-12 16:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4456,12 +4456,12 @@ msgstr "cualquier nota o comentario sobre la descripción espacial, las desviaci
 #: 0500-sharing-data.en.adoc:63
 #, no-wrap
 msgid "Generalizing Georeferences for Sensitive Taxa and Locations"
-msgstr ""
+msgstr "Generalización de georreferencias para taxones y localidades sensibles"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:66
 msgid "As recommended elsewhere in this document, <<georeference,georeferences>> should be recorded and stored at the best possible resolution and <<precision>>. If, however, the <<location>> of a taxon is regarded as sensitive for some reason following the guidelines as set out in https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^] and https://doi.org/10.15468/doc-b02j-gt10[Chapman & Grafton 2008^], and it is agreed that the detailed location information should not be shared, we recommend, that the data only be <<generalization,generalized>> at the time of sharing or publishing of the data."
-msgstr ""
+msgstr "Como se recomienda en otras partes de este documento, las <<georreferencias, georreferencias>> deben registrarse y almacenarse con la mejor resolución y <<precisión>> posible. Sin embargo, si la <<ubicación>> de un taxón se considera sensible por alguna razón siguiendo las directrices establecidas en https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^] y https://doi.org/10.15468/doc-b02j-gt10[Chapman & Grafton 2008^] y si el acuerdo indica que la información detallada de la ubicación no debe ser compartida, recomendamos, que los datos sólo sean << generalización, generalizados>> en el momento de compartir o publicar los datos."
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:68
