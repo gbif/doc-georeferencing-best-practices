@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-11 23:44\n"
+"PO-Revision-Date: 2021-11-12 00:15\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4072,12 +4072,12 @@ msgstr "Requiere un proceso de validación formalizado."
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:27
 msgid "One of the greatest impediments to effective collaborative georeferencing is the absence of tools to easily <<repatriate, repatriate>> the georeferenced information back to the data sources (https://doi.org/10.3897/zookeys.209.3205[Barkwell and Murrell 2012^], https://doi.org/10.3897/biss.2.26479[Grant et al. 2018^]). A number of projects are working on this, especially <<GEOLocate>> in conjunction with the Symbiota platform (https://doi.org/10.3897/BDJ.2.e1114[Gries et al. 2014^]). It is hoped that this document will provide consistency of methodology and documentation and lead to more collaborative <<georeference,georeferencing>>."
-msgstr ""
+msgstr "Uno de los mayores impedimentos para una georreferenciación colaborativa eficaz es la ausencia de herramientas para <<repatriar, repatriación>> fácilmente la información georreferenciada de vuelta a las fuentes de datos (https://doi.org/10.3897/zookeys.209.3205[Barkwell and Murrell 2012^], https://doi.org/10.3897/biss.2.26479[Grant et al. 2018^]). Varios proyectos están trabajando en esto, especialmente <<GEOLocate>> en conjunto con la plataforma Symbiota (https://doi.org/10.3897/BDJ.2.e1114[Gries et al. 2014^]). Se espera que este documento proporcione consistencia en la metodología y la documentación y que conduzca a una mayor <<georeferencia, georreferenciación>> colaborativa."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:29
 msgid "Some organizations, such as DigiVol (https://digivol.ala.org.au/[Australian Museum n.d.^]) and Notes from Nature https://www.zooniverse.org/organizations/md68135/notes-from-nature[(Zooniverse n.d.)^] use crowdsourcing to <<georeference>>, whereas projects like CoGeo (part of GEOLocate, https://coge.geo-locate.org/[GEOLocate 2018^]), are more constrained in their participants."
-msgstr ""
+msgstr "Algunas organizaciones, como DigiVol (https://digivol.ala.org.au/[Australian Museum n.d.^]) y Notes from Nature https://www.zooniverse.org/organizations/md68135/notes-from-nature[(Zooniverse n.d.)^] utilizan la colaboración abierta (\"crowdsourcing\") para <<georreferenciar>>, mientras que proyectos como CoGeo (parte de GEOLocate, https://coge.geo-locate.org/[GEOLocate 2018^]), están más limitados en sus participantes."
 
 #. type: Title ===
 #: 0400-collaborative-georeferencing.en.adoc:31
@@ -4088,12 +4088,12 @@ msgstr "DigiVol"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:34
 msgid "The http://www.ala.org.au/[Atlas of Living Australia^], in collaboration with the http://australianmuseum.net.au/[Australian Museum^], developed DigiVol (http://volunteer.ala.org.au/[Australian Museum n.d.^]) to harness the power of online volunteers (also known as crowdsourcing) to digitize biodiversity data that is locked up in biodiversity collections, field notebooks and survey sheets. Although originally developed in Australia, DigiVol has many projects and expeditions from all over the globe. Not all DigiVol projects (called expeditions) include a <<georeference,georeferencing>> component, but some of them do, and there is no reason that there won’t be more in the future."
-msgstr ""
+msgstr "El http://www.ala.org.au/[Atlas of Living Australia^], en colaboración con el http://australianmuseum.net.au/[Australian Museum^], desarrolló DigiVol (http://volunteer.ala.org.au/[Australian Museum n.d.^]) para aprovechar el poder de los voluntarios en línea (también conocido como crowdsourcing) para digitalizar los datos de biodiversidad que están encerrados en colecciones de biodiversidad, libretas de campo y hojas de estudio. Aunque se desarrolló originalmente en Australia, DigiVol cuenta con numerosos proyectos y expediciones de todo el mundo. No todos los proyectos de DigiVol (llamados expediciones) incluyen un componente de <<georreferenciación, georreferenciación>>, pero algunos de ellos lo hacen y no hay razón para que no haya más en el futuro."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:36
 msgid "The Australian Museum has developed a guide for a mapping tool to use with DigiVol (https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf[Edey n.d.^]). The mapping tool, however, has a number of features that we would not recommend. Default positions are given for the \"center\" of a number of Australian States without an appropriate associated <<uncertainty>> value. The uncertainty of the georeference is added by a pulldown menu that gives three options: 1km, 5km and 10km. Our recommendation would be to make <<uncertainty>> continuous–possibly by selection on the map, or calculated using the body of information in this document, the protocols of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^], and the algorithms of the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^]."
-msgstr ""
+msgstr "El Museo Australiano ha elaborado una guía para una herramienta de mapeo que se puede utilizar con DigiVol (https://volunteer.ala.org.au/data/volunteer/tutorials/Australian%20Museum%20Tutorials_Mapping%20Tool%20Tutorial.pdf[Edey n.d.^]). Sin embargo, la herramienta de mapeo tiene una serie de características que no recomendamos. Se dan posiciones por defecto para el \"centro\" de una serie de estados australianos sin un valor de <<incertidumbre>> asociado apropiado. La incertidumbre de la georreferencia se añade mediante un menú desplegable que ofrece tres opciones: 1km, 5km y 10km. Nuestra recomendación sería hacer que la <<incertidumbre>> fuera continua, posiblemente por selección en el mapa o calculada usando el cuerpo de información de este documento, los protocolos de la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] y los algoritmos de la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^]."
 
 #. type: Title ===
 #: 0400-collaborative-georeferencing.en.adoc:37
