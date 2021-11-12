@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 22:00\n"
+"PO-Revision-Date: 2021-11-12 22:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4647,12 +4647,12 @@ msgstr "Hay muchos métodos para verificar errores en datos de <<georreferencia,
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:50
 msgid "Using external databases (collectors’ itineraries, <<gazetteer,gazetteers>>, etc.)"
-msgstr ""
+msgstr "Uso de bases de datos externas (itinerarios de colectores, <<gacetero,gaceteros>>, etc.)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:51
 msgid "Checking against other fields in your own database (making sure the georeference falls within the correct state, country, region, etc.)"
-msgstr ""
+msgstr "Comprobación con otros campos de su propia base de datos (asegurándose de que la georreferencia corresponde al estado, país, región, etc. correcto)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:52
