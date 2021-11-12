@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 17:19\n"
+"PO-Revision-Date: 2021-11-12 17:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4523,48 +4523,48 @@ msgstr "Retroalimentación a los Colectores"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:11
 msgid "Improving the <<data quality,quality>> of the data may require giving feedback to others. For example, if you find that a particular collector is not recording his collection information correctly (e.g. not recording the <<datum>> with the <<coordinates,coordinate>> information), then you need to provide feedback so that future records have a lower level of <<uncertainty>> and thus a higher quality. See the earlier chapter on <<Elements for Describing a Location>>. Key issues that may require feedback to collectors include:"
-msgstr ""
+msgstr "La mejora de la <<calidad de datos, calidad>> de los datos puede requerir proporcionar retroalimentación a los demás. Por ejemplo, si descubre que un colector en particular no está registrando la información de sus colectas correctamente (p. ej. no registra el <<datum>> con la información de la <<coordenadas, coordenada>>), entonces se necesita darle retroalimentación para que los registros futuros tengan un nivel más bajo de <<incertidumbre>> y por lo tanto una mayor calidad. Véase el capítulo anterior sobre <<Elementos para Describir una Ubicación>>. Los asuntos clave que pueden requerir una retroalimentación a los colectores incluyen:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:13
 msgid "Making sure the datum or <<coordinate reference system>> is recorded with all <<GPS>> readings"
-msgstr ""
+msgstr "Asegurarse de que el datum o <<sistema de referencia de coordenadas>> está registrado en todas las lecturas <<GPS>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:14
 msgid "Encouraging consistent use of a standard <<coordinate format>> (e.g. encourage collectors to use <<decimal degrees>> wherever possible)"
-msgstr ""
+msgstr "Fomentar el uso coherente de un <<formato de las coordenadas>> estándar(p. ej., animar a los colectores a usar <<grados decimales>> siempre que sea posible)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:15
 msgid "Recording <<locality,localities>> in a consistent and clear manner:"
-msgstr ""
+msgstr "Registrar las <<localidad,localidades>> de una manera consistente y clara:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:16
 msgid "Using the nearest small, persistent <<feature>> and orthogonal <<offset,offsets>>"
-msgstr ""
+msgstr "Utilizar la <<entidad geográfica>> más pequeña y persistente y <<desplazamiento,desplazamientos>> ortogonales"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:17
 msgid "Recording ‘by road’ or ‘by air’, being explicit about distance <<precision>>, and using specific bearings in degrees for offsets at a <<heading>>"
-msgstr ""
+msgstr "Registrar \"por carretera\" o \"por aire\", ser explícito sobre la <<precisión>> de la distancia y utilizar rumbos específicos en grados para los desplazamientos en una <<orientación cardinal>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:18
 msgid "Ensure that they document all their processes and methodologies for recording locality and locality-associated information such as <<elevation>>"
-msgstr ""
+msgstr "Asegurarse de que documenten todos los procesos y metodologías usadas para registrar información de las localidades e información asociada a la localidad, como la <<elevación>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:19
 msgid "Encourage training in, and the adoption of, best practices such as laid out in this document"
-msgstr ""
+msgstr "Fomentar el entrenamiento y la adopción de las buenas prácticas, como las expuestas en este documento"
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:20
 #, no-wrap
 msgid "Accepting Feedback from Users"
-msgstr ""
+msgstr "Aceptando Retroalimentación de los Usuarios"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:23
