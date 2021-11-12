@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 21:24\n"
+"PO-Revision-Date: 2021-11-12 22:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4621,28 +4621,28 @@ msgstr "Al cabo de un tiempo, las comprobaciones periódicas pueden reducirse a 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:40
 msgid "The second purpose of <<data quality,quality>> checking is to allow georeferencers to refer difficult or confusing records to the quality checker for help or advice. The quality checker will then resolve these ‘problem records’ as well as possible. Checking problem records can be like detective work. Historical records often have <<locality>> descriptions with <<feature,features>> that do not appear on modern maps or in <<gazetteer,gazetteers>>. To find these localities, it is often necessary to consult several different sources of information. These sources include, but are not limited to catalogue books, field notes, other records with similar localities, other collections, scientific and other publications, websites, online databases, speciality gazetteers, and historical maps. Bits of information from several places can often be used to establish the correct <<coordinates>> for a historical locality."
-msgstr ""
+msgstr "El segundo propósito de la verificacón de <<calidad de datos, calidad>> es permitir a los georreferenciadores remitir los registros difíciles o confusos al verificador de calidad para que les ayude o aconseje. El verificador de calidad resolverá entonces estos \"registros problemáticos\" de la mejor manera posible. Comprobar los registros problemáticos puede ser un trabajo detectivesco. Los registros históricos suelen tener descripciones de <<localidades>> con <<entidad geográfica,entidades geográficas>> que no aparecen en los mapas modernos ni en los <<gacetero,gaceteros>>. Para encontrar estas localidades, a menudo es necesario consultar varias fuentes de información diferentes. Estas fuentes incluyen, entre otras, libros de catálogos, notas de campo, otros registros con localidades similares, otras colecciones, publicaciones científicas y de otro tipo, sitios web, bases de datos en línea, gaceteros especializados y mapas históricos. A menudo se pueden utilizar fragmentos de información de varios lugares para establecer las <<coordenadas>> correctas de una localidad histórica."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:42
 msgid "In addition, some problem records do not make sense because of contradictions or missing or garbled information. These problem records may be the result of mistakes in data entry made in either the paper catalogue or the database. It may also be necessary to consult the curatorial staff or even the original collector. If georeferencing information is able to be found for difficult locations, then it is worthwhile documenting them for future use, or even publishing the results of your searches, as seldom are unusual localities orphans and you, or others, may come across the same locality again at a later date."
-msgstr ""
+msgstr "Además, algunos registros problemáticos no tienen sentido debido a las contradicciones o a la falta o confusión de información. Estos registros problemáticos pueden ser el resultado de errores en la introducción de datos, ya sea en el catálogo en papel o en la base de datos. También puede ser necesario consultar al personal curatorial o incluso al colector original. Si se puede encontrar información de georreferenciación para las localidades difíciles, vale la pena documentarlas para su futuro uso o incluso publicar los resultados de sus búsquedas, pues usted u otras personas pueden volver a encontrarse con la misma localidad en una fecha posterior."
 
 #. type: Title ====
 #: 0600-maintaining-data-quality.en.adoc:43
 #, no-wrap
 msgid "Data Validation"
-msgstr ""
+msgstr "Validación de los Datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:46
 msgid "Data validation (checking for <<error,errors>>) can be a time-consuming process; however, it is one of the most important processes you can carry out with your data. It is not practical to check every record individually, so the use of batch processing techniques and outlier detection procedures, etc., is essential. Fortunately, a number of these have been developed and are available in software products or online (see http://georeferencing.org[georeferencing.org^] and https://www.gbif.org/document/80528[Chapman 2005b^]). The information in those resources are not repeated here. We recommend that you incorporate some of those methodologies into your own working practices."
-msgstr ""
+msgstr "La validación de datos (verificación de <<error,errores>>) puede ser un proceso que requiere mucho tiempo, sin embargo, es uno de los procesos más importantes que puede llevar a cabo con sus datos. No es práctico verificar cada registro individualmente, por lo que es esencial el uso de técnicas de procesamiento por lotes y procedimientos de detección de valores atípicos, etc. Afortunadamente, se han desarrollado varias técnicas y están disponibles como productos de software o en línea (vea http://georeferencing.org[georeferencing.org^] y https://www.gbif.org/document/80528[Chapman 2005b^]). La información de esos recursos no se repite aquí. Le recomendamos que incorpore algunas de esas metodologías a sus propias prácticas de trabajo."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:48
 msgid "There are many methods of checking for errors in <<georeference, georeferenced>> data. These can involve:"
-msgstr ""
+msgstr "Hay muchos métodos para verificar errores en datos de <<georreferencia, georreferenciación>>. Estos pueden implicar:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:50
