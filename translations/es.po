@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 00:15\n"
+"PO-Revision-Date: 2021-11-12 01:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4104,7 +4104,7 @@ msgstr "Notes from Nature"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:40
 msgid "The Notes from Nature project (https://www.notesfromnature.org/[Zooniverse n.d.^]) gives people the opportunity to make scientifically important contributions toward the goal of conserving and making available knowledge about natural and cultural heritage. \"Every transcription that is completed brings us closer to filling gaps in our knowledge of global biodiversity and natural heritage\". It is very similar to <<digivol,DigiVol>>. Currently, there are no <<georeference,georeferencing>> projects (expeditions) in Notes from Nature, but there are plans to develop this in the future."
-msgstr ""
+msgstr "El proyecto Notes from Nature (https://www.notesfromnature.org/[Zooniverse n.d.^]) ofrece a las personas la oportunidad de realizar contribuciones científicamente importantes para alcanzar el objetivo de conservar y hacer accesibles los conocimientos sobre el patrimonio natural y cultural. \"Cada transcripción que se completa nos acerca a llenar las brechas de nuestro conocimiento sobre la biodiversidad global y el patrimonio natural\". Es muy similar a <<digivol,DigiVol>>. Actualmente, no hay proyectos de <<georreferencia, georreferenciación>> en Notes from Nature, pero hay planes para desarrollarlos en el futuro."
 
 #. type: Title ===
 #: 0400-collaborative-georeferencing.en.adoc:41
@@ -4115,7 +4115,7 @@ msgstr "GEOLocate"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:44
 msgid "The GEOLocate suite of tools includes a web-based collaborative client – CoGeo (https://coge.geo-locate.org/[Rios 2019^]), the goal of which is to provide a mechanism whereby groups of users can form communities to collaboratively <<georeference>> and verify a shared dataset (http://www.geo-locate.org/community/default.html[GEOLocate 2018^]). This allows for the upload of a CSV file and having parts of the dataset allocated to a user. GEOLocate can also be accessed through third party applications via its API."
-msgstr ""
+msgstr "El conjunto de herramientas de GEOLocate incluye un cliente colaborativo basado en la web, CoGeo (https://coge.geo-locate.org/[Rios 2019^]), cuyo objetivo es proporcionar un mecanismo por el que grupos de usuarios puedan formar comunidades para <<georreferenciar>> de forma colaborativa y verificar un conjunto de datos compartido (http://www.geo-locate.org/community/default.html[GEOLocate 2018^]). Esto permite subir un archivo CSV y asignar partes del conjunto de datos a un usuario. También se puede acceder a GEOLocate a través de aplicaciones de terceros mediante su API."
 
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:46
