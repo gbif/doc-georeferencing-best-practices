@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 01:55\n"
+"PO-Revision-Date: 2021-11-12 11:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4131,7 +4131,7 @@ msgstr "Otros Proyectos de Georreferenciación Colaborativa"
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:49
 msgid "Other projects, including the terrestrial vertebrate precursor projects to VertNet (https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^], https://doi.org/10.1525/bio.2010.60.4.2[Guralnick & Constable 2010^]), have, in the past, divided up and distributed the records for <<locality,localities>> from a given geographic region to an institution with expertise in and/or resources about that region to <<georeference>> (see <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>). The major advantages of this approach are that the quantity and <<data quality,quality>> of the raw materials used for georeferencing are probably higher, and the efficiency and quality of the results are also likely higher than if attempted without taking advantage of these resources. However, as mentioned earlier, <<repatriate,repatriation>> of the georeferenced records is an issue that needs solving for this to work most efficiently."
-msgstr ""
+msgstr "Otros proyectos, incluyendo los proyectos sobre vertebrados terrestres precursores de VertNet (https://doi.org/10.17161/bi.v1i0.7[Stein & Wieczorek 2004^], https://doi.org/10.1525/bio.2010.60.4.2[Guralnick & Constable 2010^]), han dividido y distribuido en el pasado los registros para <<localidad, localidades>> de una determinada región geográfica a una institución con experiencia y/o recursos sobre esa región para su <<georreferenciación>> (véase <<Ejemplo de Flujo de Trabajo de Proyecto: MaNIS/HerpNET/ORNIS>>). Las principales ventajas de este enfoque son que la cantidad y <<calidad de datos, calidad>> de las materias primas utilizadas para la georreferenciación probablemente sean mayores, también es probable que la eficiencia y la calidad de los resultados sean mayores que si se intentara sin aprovechar estos recursos. Sin embargo, como ya se ha mencionado, la <<repatriación, repatriación>> de los registros georreferenciados es un problema que hay que resolver para que esto funcione de la manera más eficiente."
 
 #. type: Title ==
 #: 0500-sharing-data.en.adoc:1
@@ -4142,7 +4142,7 @@ msgstr "Compartiendo los Datos"
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:4
 msgid "<<georeference,Georeferencing>> is only the first step toward making biological (specimen and observation) data available to the world. However, it is an important first step, as it is one of the two most key methods for identifying what and where a specimen is, that is, its scientific name and its location (https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Two main standards have been developed for sharing biological data, <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) and https://www.tdwg.org/standards/abcd/[Access to Biological Collections Data^] (ABCD), both ratified by https://www.tdwg.org/[Biodiversity Information Standards^] (TDWG). We do not treat the ABCD standard separately in this document, as https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv[term mappings between Darwin Core and ABCD are well defined^] for location data. One of the principles of <<Darwin Core>> is to try to provide content for every field possible."
-msgstr ""
+msgstr "<<georreferencia,Georreferenciar>> es sólo el primer paso para que los datos biológicos (de especímenes y observaciones) estén disponibles para el mundo. Sin embargo, es un primer paso importante, ya que es uno de los dos métodos más importantes para identificar qué y dónde está un espécimen, es decir, su nombre científico y su ubicación (https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Se han desarrollado dos estándares principales para compartir datos biológicos, <<Darwin Core>> (https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) y https://www.tdwg.org/standards/abcd/[Access to Biological Collections Data^] (ABCD), ambos ratificados por https://www.tdwg.org/[Biodiversity Information Standards^] (TDWG). En este documento no tratamos la norma ABCD por separado, ya que https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv[los mapeos de términos entre Darwin Core y ABCD están bien definidos^] para los datos de ubicación. Uno de los principios de <<Darwin Core>> es intentar proporcionar contenido para todos los campos posibles."
 
 #. type: Title ===
 #: 0500-sharing-data.en.adoc:5
@@ -4153,79 +4153,79 @@ msgstr "Mapeando al Darwin Core"
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:8
 msgid "The <<Darwin Core>> (denoted with the abbreviated namespace [.term]#dwc#) <<georeference,georeferencing>> concepts that are directly used in this document are:"
-msgstr ""
+msgstr "Los conceptos del <<Darwin Core>> (denotado con el prefijo abreviado [.term]#dwc#) para <<georreferencia,georreferenciación>> utilizan directamente en este documento son:"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:9
 #, no-wrap
 msgid "term:dwc[dwc:decimalLatitude], term:dwc[dwc:decimalLongitude]"
-msgstr ""
+msgstr "term:dwc[dwc:decimalLatitude] (Latitud decimal), term:dwc[dwc:decimalLongitude] (Longitud decimal)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:10
 msgid "the <<geographic coordinates>> of the center of the <<point-radius>> version of the <<georeference>>"
-msgstr ""
+msgstr "las <<coordenadas geográficas>> del centro de la versión <<radio-punto>> de la <<georreferencia>>"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:11
 #, no-wrap
 msgid "term:dwc[dwc:geodeticDatum]"
-msgstr ""
+msgstr "term:dwc[dwc:geodeticDatum] (Dato geodésico)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:12
 msgid "the <<EPSG>> code (preferably) or name of the <<coordinate reference system>>, <<geodetic datum>>, or <<ellipsoid>> of the <<point-radius>> version of the <<georeference>>"
-msgstr ""
+msgstr "el código <<EPSG>> (preferiblemente) o el nombre del <<sistema de referencia de coordenadas>>, <<datum geodésico>> o <<elipsoide>> de la versión <<radio-punto>> de la <<georreferencia>>"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:13
 #, no-wrap
 msgid "term:dwc[dwc:coordinateUncertaintyInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinateUncertaintyInMeters] (Incertidumbre de las coordenadas en metros)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:14
 msgid "the <<radial>> of the <<point-radius>> version of the <<uncertainty>> of the <<georeference>>, in meters"
-msgstr ""
+msgstr "el <<radio>> de la versión <<radio-punto>> de la <<incertidumbre>> de la <<georreferencia>>, en metros"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:15
 #, no-wrap
 msgid "term:dwc[dwc:coordinatePrecision]"
-msgstr ""
+msgstr "term:dwc[dwc:coordinatePrecision] (Precisión de las coordenadas)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:16
 msgid "the decimal representation of the <<precision>> of the output <<coordinates>> of the <<georeference>>"
-msgstr ""
+msgstr "la representación decimal de la <<precisión>> de las <<coordenadas>> resultantes de la <<georreferencia>>"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:17
 #, no-wrap
 msgid "term:dwc[dwc:footprintWKT]"
-msgstr ""
+msgstr "term:dwc[dwc:footprintWKT] (WKT footprint)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:18
 msgid "the representation of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])"
-msgstr ""
+msgstr "la representación de la <<forma geométrica>> o <<caja delimitadora>> resultante de la <<georreferencia>>, en formato de Texto Conocido (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:19
 #, no-wrap
 msgid "term:dwc[dwc:footprintSRS]"
-msgstr ""
+msgstr "term:dwc[dwc:footprintSRS] (SRS footprint)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:20
 msgid "the <<coordinate reference system>> of the resulting <<shape>> or <<bounding-box>> <<georeference>>, in Well-Known Text (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])"
-msgstr ""
+msgstr "el <<sistema de referencia de coordenadas>> de la <<forma geométrica>> o <<caja delimitadora>> resultante de la <<georreferencia>>, en formato de Texto Conocido (WKT) (https://www.iso.org/standard/60343.html[ISO 2016^])"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:21
 #, no-wrap
 msgid "term:dwc[dwc:locality]"
-msgstr ""
+msgstr "término:dwc[dwc:locality] (Localidad)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:22
