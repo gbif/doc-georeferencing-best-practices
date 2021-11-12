@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 15:29\n"
+"PO-Revision-Date: 2021-11-12 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4373,7 +4373,7 @@ msgstr "term:dwc[dwc:pointRadiusSpatialFit] (Ajuste espacial del radio-punto)"
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:48
 msgid "the <<spatial fit>> of the <<point-radius>> <<georeference>> (see <<Determining Spatial Fit>>)"
-msgstr "el <<ajuste espacial>> de la <<georreferencia>> <<radio-ùnto>> (ver <<Determinando el Ajuste Espacial>>)"
+msgstr "el <<ajuste espacial>> de la <<georreferencia>> <<radio-punto>> (ver <<Determinando el Ajuste Espacial>>)"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:49
@@ -4384,73 +4384,73 @@ msgstr "term:dwc[dwc:footprintSpatialFit] (Ajuste espacial de footprint)"
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:50
 msgid "the <<spatial fit>> of the <<shape>> or <<bounding-box>> <<georeference>> (see <<Determining Spatial Fit>>)"
-msgstr ""
+msgstr "el <<ajuste espacial>> de la <<georreferencia>> <<forma geométrica>> o la <<caja delimitadora>> (ver <<Determinando el Ajuste Espacial>>)"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:51
 #, no-wrap
 msgid "term:dwc[dwc:georeferencedBy]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferencedBy] (Georreferenciado por)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:52
 msgid "who is responsible for the <<georeference>> as it currently stands, could be the person who did the first pass, but could be changed later to the person who verifies it"
-msgstr ""
+msgstr "quien es responsable de la <<georreferencia>> tal y como está actualmente, podría ser la persona que hizo el primer ejercicio, pero podría cambiarse posteriormente por la persona que la verifica"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:53
 #, no-wrap
 msgid "term:dwc[dwc:georeferencedDate]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferencedDate] (Fecha de georreferenciación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:54
 msgid "the date on which the data in the <<georeference>> fields reached their current state"
-msgstr ""
+msgstr "la fecha en la que los datos en los campos de <<georreferencia>> alcanzaron su estado actual"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:55
 #, no-wrap
 msgid "term:dwc[dwc:georeferenceProtocol]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferenceProtocol] (Protocolo de georreferenciación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:56
 msgid "a citation of a published set of rules used to determine a <<georeference>>. For example, “Georeferencing Quick Reference Guide 2020”. Any deviations from the cited protocol should be noted in term:dwc[dwc:georeferenceRemarks]"
-msgstr ""
+msgstr "una cita a un conjunto de reglas publicado utilizado para determinar una <<georreferencia>>. Por ejemplo, \"Guía de Referencia Rápida de Georreferenciación 2020\". Cualquier desviación del protocolo citado debe anotarse en term:dwc[dwc:georeferenceRemarks]"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:57
 #, no-wrap
 msgid "term:dwc[dwc:georeferenceSources]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferenceSources] (Fuentes de georreferenciación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:58
 msgid "a list of maps, <<gazetteer,gazetteers>>, or other resources used to <<georeference>> the <<locality>>. Should be specific enough that someone else can locate and use the same sources. Example: \"USGS 1:24000 Florence Montana Quad 1967; Terrametrics 2008, Google Earth\"."
-msgstr ""
+msgstr "una lista de mapas, <<gacetero,gaceteros>> u otros recursos utilizados para <<georreferenciar>> la <<ubicación>>. La descripción debe ser lo suficientemente específica como para permitir que cualquiera en el futuro haga uso de los mismos recursos.Ejemplo: \"USGS 1:24000 Florence Montana Quad 1967; Terrametrics 2008, Google Earth\"."
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:59
 #, no-wrap
 msgid "term:dwc[dwc:georeferenceVerificationStatus]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferenceVerificationStatus] (Estado de la verificación de la georreferenciación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:60
 msgid "an indicator of the extent to which the <<georeference>> has been verified to represent the best possible spatial description for the occurrence record. By default a newly created georeference should have the status \"requires verification\". Beyond that, there are really only two other functionally distinct possibilities, either \"verified\" (by the person mentioned in term:dwc[dwc:georeferencedBy]), and \"verified by collector\" or equivalent, to designate that the georeference was reviewed for that specific record by the person who recorded it to begin with, and that it can not be further improved. This is the ideal status to aspire to."
-msgstr ""
+msgstr "un indicador del grado en que se ha verificado que la <<georreferencia>> representa la mejor descripción espacial posible para el registro. Por defecto, una georreferencia recién creada debe tener el estado \"requiere verificación\". Más allá de eso, sólo hay otras dos posibilidades funcionalmente distintas, ya sea \"verificada\" (por la persona mencionada en term:dwc[dwc:georeferencedBy]) y \"verificada por el colector\" o equivalente, para indicar que la georreferencia fue revisada para ese registro específico por la persona que la registró para empezar y que no puede ser mejorada. Este es el estado ideal al que se debe aspirar."
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:61
 #, no-wrap
 msgid "term:dwc[dwc:georeferenceRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:georeferenceRemarks] (Comentarios de la georreferenciación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:62
 msgid "any notes or comments about the spatial description, deviations from the cited protocol, assumptions, or problems with <<georeference,georeferencing>>. For example, \"locality too vague to georeference\"."
-msgstr ""
+msgstr "cualquier nota o comentario sobre la descripción espacial, las desviaciones del protocolo citado, las suposiciones o los problemas de <<georreferencia, georreferenciación>>. Por ejemplo, \"localidad demasiado vaga para georreferenciar\"."
 
 #. type: Title ===
 #: 0500-sharing-data.en.adoc:63
