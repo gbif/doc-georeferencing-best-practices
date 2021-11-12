@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 18:20\n"
+"PO-Revision-Date: 2021-11-12 18:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4591,7 +4591,7 @@ msgstr "Introducción de Datos"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:31
 msgid "One of the major sources of <<error>> in <<georeference,georeferencing>> is at the stage of data entry. Errors can be reduced by the establishment of good data entry procedures – use of pick lists, field constraints, etc. Many of these issues should also be addressed as part of the database design (see <<Project Follow-up Phase>>). Good database design can reduce many of the errors associated with data entry. However, once these are in place and working, then regular checks need to be carried out on the data entry operators and on the process of data entry."
-msgstr ""
+msgstr "Una de las principales fuentes de <<error>> en la <<georreferencia,georreferenciación>> se produce en la fase de introducción de datos. Los errores pueden reducirse mediante el establecimiento de buenos procedimientos de entrada de datos: uso de listas de selección, restricciones de campo, etc. Muchas de estos asuntos deberían abordarse también como parte del diseño de la base de datos (ver <<Fase de Seguimiento del Proyecto>>). El buen diseño de la base de datos puede reducir muchos de los errores asociados a la introducción de datos. Sin embargo, una vez que se hayan establecido y funcionen, es necesario realizar verificaciones periódicas de los operadores de entrada de datos y del proceso de entrada de datos."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:33
