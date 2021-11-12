@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 15:03\n"
+"PO-Revision-Date: 2021-11-12 15:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4296,90 +4296,90 @@ msgstr "term:dwc[dwc:minimumElevationInMeters] (Elevación mínima en metros), t
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:34
 msgid "the lower and upper limits of the <<elevation>> of the <<location>>, in meters"
-msgstr ""
+msgstr "los límites inferiores y superiores de la <<elevación>> de la <<ubicación>>, en metros"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:35
 #, no-wrap
 msgid "term:dwc[dwc:verbatimElevation]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimElevation] (Elevación original)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:36
 msgid "the original <<elevation>> in the original format with the original units"
-msgstr ""
+msgstr "la <<elevación>> original en el formato original con las unidades originales"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:37
 #, no-wrap
 msgid "term:dwc[dwc:minimumDepthInMeters], term:dwc[dwc:maximumDepthInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDepthInMeters] (Profundidad mínima en metros), term:dwc[dwc:maximumDepthInMeters] (Profundidad máxima en metros)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:38
 msgid "the minimum and maximum limits of the <<depth>> of the <<location>>, in meters"
-msgstr ""
+msgstr "los límites mínimos y máximos de la <<elevación>> de la <<ubicación>>, en metros"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:39
 #, no-wrap
 msgid "term:dwc[dwc:verbatimDepth]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimDepth] (Profunidad original)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:40
 msgid "the original <<depth>> in the original format with the original units"
-msgstr ""
+msgstr "la <<profundidad>> original en el formato original con las unidades originales"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:41
 #, no-wrap
 msgid "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters], term:dwc[dwc:maximumDistanceAboveSurfaceInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumDistanceAboveSurfaceInMeters] (Distancia mínima de la superficie en metros), term:dwc[dwc:maximumDistanceAboveSurfaceInMeters] (Distancia máxima de la superficie en metros)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:42
 msgid "the lower and upper limits of the position with respect to a local surface, either at an <<elevation>>, or at a <<depth>> from an <<elevation>>."
-msgstr ""
+msgstr "los límites inferiores y superiores de la posición con respecto a una superficie local, ya sea a una <<elevación>> o a una <<profundidad>> desde una <<elevación>>."
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:43
 #, no-wrap
 msgid "term:dwc[dwc:locationAccordingTo]"
-msgstr ""
+msgstr "term:dwc[dwc:locationAccordingTo] (Ubicación de acuerdo con)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:44
 msgid "the source authority for the <<location>> information, not the <<georeference>> information, for which see term:dwc[dwc:georeferenceSources]"
-msgstr ""
+msgstr "la autoridad sobre la fuente de la información de la <<ubicación>>, no sobre la información de la <<georreferencia>>, para la cual véase term:dwc[dwc:georeferenceSources]"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:45
 #, no-wrap
 msgid "term:dwc[dwc:locationRemarks]"
-msgstr ""
+msgstr "term:dwc[dwc:locationRemarks] (Comentarios de la ubicación)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:46
 msgid "comments about the <<location>> information, not about the <<georeference>> for the location, for which see term:dwc[dwc:georeferenceRemarks]"
-msgstr ""
+msgstr "comentarios sobre la información de la <<ubicación>>, no sobre la <<georreferencia>> de la ubicación, para lo cual véase term:dwc[dwc:georeferenceRemarks]"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:47
 #, no-wrap
 msgid "term:dwc[dwc:pointRadiusSpatialFit]"
-msgstr ""
+msgstr "term:dwc[dwc:pointRadiusSpatialFit] (Ajuste espacial del radio-punto)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:48
 msgid "the <<spatial fit>> of the <<point-radius>> <<georeference>> (see <<Determining Spatial Fit>>)"
-msgstr ""
+msgstr "el <<ajuste espacial>> de la <<georreferencia>> <<radio-ùnto>> (ver <<Determinando el Ajuste Espacial>>)"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:49
 #, no-wrap
 msgid "term:dwc[dwc:footprintSpatialFit]"
-msgstr ""
+msgstr "term:dwc[dwc:footprintSpatialFit] (Ajuste espacial de footprint)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:50
