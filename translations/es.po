@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 17:45\n"
+"PO-Revision-Date: 2021-11-12 18:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4569,24 +4569,24 @@ msgstr "Aceptando Retroalimentación de los Usuarios"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:23
 msgid "Feedback from users can be one of the most valuable resources for improving the <<data quality,quality>> of one’s collections and observations. For this to work, however, the institution needs to set up a good feedback mechanism. There needs to be a process whereby all feedback related to quality are checked and the results documented (see https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^] & https://www.gbif.org/document/80528[Chapman 2005b^]). Feedback may be from other institutions holding duplicates of specimens, from users who are carrying out analyses on large amounts of data and find records that are either wrongly <<georeference,georeferenced>>, or wrongly identified, or from users who are carrying out data quality checking on related records. All feedback is important, and should not be ignored. Checks carried out should also always be documented so that the same ‘<<error>>’ is not checked over and over again, for example, with term:dwc[dwc:georeferenceVerificationStatus]. Having a unique way to reference specimens can be important, and makes feedback much more efficient (see <<Persistent Identifiers (PIDs)>>)."
-msgstr ""
+msgstr "Los comentarios de los usuarios pueden ser uno de los recursos más valiosos para mejorar la <<calidad de datos,calidad>> de las colecciones y observaciones propias. Sin embargo, para que esto funcione, la institución debe establecer un buen mecanismo de retroalimentación. Tiene que haber un proceso por el que se verifiquen todos los comentarios relacionados con la calidad y se documenten los resultados (ver https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^] y https://www.gbif.org/document/80528[Chapman 2005b^]). La retroalimentación puede provenir de otras instituciones que tienen duplicados de los especímenes, de usuarios que están llevando a cabo análisis con grandes cantidades de datos y encuentran registros que están o erróneamente <<georreferenciados>> o mal identificados, o de usuarios que están llevando a cabo la verificación de la calidad de los datos en registros relacionados. Todos los comentarios son importantes y no deben ser ignorados. Las verificaciones realizadas siempre deben documentarse para que no se compruebe una y otra vez el mismo \"error\", por ejemplo, con term:dwc[dwc:georeferenceVerificationStatus]. Tener una forma única de referenciar especímenes puede ser importante y hace que la retroalimentación sea mucho más eficiente (ver <<Identificadores persistentes (PIDs)>>)."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:24
 #, no-wrap
 msgid "Data Checking and Cleaning"
-msgstr ""
+msgstr "Verificación y Limpieza de los Datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:27
 msgid "An important but often overlooked aspect to any <<georeference,georeferencing>> project is the checking of the georeferenced data that goes into the database. This aspect is often ignored because of lack of funds or personnel. However, because the point of any georeferencing project is to produce <<geographic coordinates>> linking a specimen or observation to a place on a map or to environmental data, it is important that the <<coordinates>> chosen are truly the best ones for the <<location>>. Not only does it improve the <<data quality,quality>> of data, but it also identifies trends and habits in georeferencing that may need to be corrected."
-msgstr ""
+msgstr "Un aspecto importante, pero que a menudo se pasa por alto, de cualquier proyecto de <<georreferencia,georreferenciación>> es la verficiación de los datos georreferenciados que se ingresan en la base de datos. Comunmente se ignora este aspecto por falta de fondos o de personal. Sin embargo, dado que el objetivo de cualquier proyecto de georreferenciación es producir <<coordenadas geográficas>> que relacionen un espécimen o una observación con un lugar en un mapa o con datos ambientales, es importante que las <<coordenadas>> elegidas sean realmente las mejores para la <<localización>>. No sólo mejora la <<calidad de datos, calidad>> de los datos, sino que también identifica tendencias y hábitos en el proceso de georreferenciación que pueden necesitar ser corregidos."
 
 #. type: Title ====
 #: 0600-maintaining-data-quality.en.adoc:28
 #, no-wrap
 msgid "Data Entry"
-msgstr ""
+msgstr "Introducción de Datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:31
