@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 01:09\n"
+"PO-Revision-Date: 2021-11-12 01:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2023,7 +2023,7 @@ msgstr "Un flujo de trabajo que cubra todas las actividades de <<georreferencia,
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:51
 msgid "Based on an assessment of a variety of large-scale georeferencing projects that had efficiency as well as data quality in mind (e.g. <<Project Workflow Example – MaNIS/HerpNET/ORNIS>>), we recommend the following generic outline for a georeferencing project workflow using either the <<point-radius>> <<georeferencing method,method>> or the <<shape>> method, or a mix of the two. This workflow can be used for projects that involve a single individual or a large collaboration, though some steps may apply more in one case than in another. Note that some of the actions included in different phases might happen simultaneously depending on the type and scale of the project."
-msgstr "Basados en una evaluación de una variedad de proyectos de georreferenciación a gran escala que tuvieran en mente tanto la eficiencia como la calidad de los datos (p. ej. <<Ejemplo de Flujo de Trabajo de Proyecyo – MaNIS/HerpNET/ORNIS>>), recomendamos el siguiente esquema genérico para un flujo de trabajo de georreferenciación utilizando el <<método de georreferenciación,método>> <<radio-punto>> o el método de <<forma geométrica>> o una mezcla de ambos. Este flujo de trabajo se puede utilizar para proyectos que impliquen una sola persona o una gran colaboración, aunque algunos pasos pueden aplicarse más en un caso que en otro. Tenga en cuenta que algunas de las acciones incluidas en las diferentes fases pueden ocurrir simultáneamente dependiendo del tipo y la escala del proyecto."
+msgstr "Basados en una evaluación de una variedad de proyectos de georreferenciación a gran escala que tuvieran en mente tanto la eficiencia como la calidad de los datos (p. ej. <<Ejemplo de Flujo de Trabajo de Proyecyo: MaNIS/HerpNET/ORNIS>>), recomendamos el siguiente esquema genérico para un flujo de trabajo de georreferenciación utilizando el <<método de georreferenciación,método>> <<radio-punto>> o el método de <<forma geométrica>> o una mezcla de ambos. Este flujo de trabajo se puede utilizar para proyectos que impliquen una sola persona o una gran colaboración, aunque algunos pasos pueden aplicarse más en un caso que en otro. Tenga en cuenta que algunas de las acciones incluidas en las diferentes fases pueden ocurrir simultáneamente dependiendo del tipo y la escala del proyecto."
 
 #. type: Title =====
 #: 0300-the-georeferencing-process.en.adoc:52
@@ -2218,7 +2218,7 @@ msgstr "Establecer una política de mantenimiento de datos a largo plazo que inc
 #: 0300-the-georeferencing-process.en.adoc:97
 #, no-wrap
 msgid "Project Workflow Example – MaNIS/HerpNET/ORNIS"
-msgstr "Ejemplo de Flujo de Trabajo de Proyecto – MaNIS/HerpNET/ORNIS"
+msgstr "Ejemplo de Flujo de Trabajo de Proyecto: MaNIS/HerpNET/ORNIS"
 
 #. type: Plain text
 #: 0300-the-georeferencing-process.en.adoc:100
@@ -4120,7 +4120,7 @@ msgstr "El conjunto de herramientas de GEOLocate incluye un cliente colaborativo
 #. type: Plain text
 #: 0400-collaborative-georeferencing.en.adoc:46
 msgid "Using the tools in GEOLocate, a <<georeference>> may be determined along with an <<uncertainty>> (https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[Biedron & Famoso 2016^]). An <<uncertainty>> polygon (see also <<shape>> and <<Shape Method>>) can also be drawn in addition to the <<point-radius>> circle. Note that GEOLocate may return more than one candidate <<location>> for a given <<locality>> string and users are advised to always verify and adjust, as needed, to obtain the final accepted result (including uncertainty <<radial,radii>> and polygons). The data can be exported through KML for plotting onto Google Earth. The system allows for review of records and we recommend that this be done for all records where possible."
-msgstr ""
+msgstr "Utilizando las herramientas de GEOLocate, se puede determinar una <<georreferencia>> junto con una <<incertidumbre>> (https://epicc.berkeley.edu/wp-content/uploads/2015/11/UsingGeoLocateforCollaborativeGeoreferencing_2016.pdf[Biedron & Famoso 2016^]). También se puede trazar un polígono de <<incertidumbre>> (ver también <<forma geométrica>> y <<Método de Forma Geométrica>>) además del círculo de <<radio-punto>. Tenga en cuenta que GEOLocate puede retornar más de una <<ubicación>> candidata para una determinada <<localidad>> y se aconseja a los usuarios que siempre verifiquen y hagan ajustes, según sea necesario, para obtener el resultado final aceptado (incluyendo <<radio,radios>> y polígonos de incertidumbre). Los datos pueden exportarse a través de KML para ser trazados en Google Earth. El sistema permite revisar los registros y se recomienda hacerlo para todos los registros siempre que sea posible."
 
 #. type: Title ===
 #: 0400-collaborative-georeferencing.en.adoc:47
