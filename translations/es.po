@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 11:16\n"
+"PO-Revision-Date: 2021-11-12 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4230,68 +4230,68 @@ msgstr "término:dwc[dwc:locality] (Localidad)"
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:22
 msgid "intended to contain a version (perhaps modified from the original) of the parts of the textual description of the <<location>> that do not have another <<Darwin Core>> term appropriate to hold them; in legacy data, may contain any textual information about the location"
-msgstr ""
+msgstr "destinado a contener una versión (quizás modificada de la original) de las partes de la descripción textual de la <<ubicación>> que no tienen otro campo del <<Darwin Core>> apropiado para almacenarlas. En datos antiguos, pueden contener cualquier información textual sobre la ubicación"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:23
 #, no-wrap
 msgid "term:dwc[dwc:verbatimLocality]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimLocality] (Localidad original)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:24
 msgid "meant to contain all of the unmodified original <<location>> information"
-msgstr ""
+msgstr "destinado a contener toda la información original, sin modificar, de la <<ubicación>>"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:25
 #, no-wrap
 msgid "term:dwc[dwc:verbatimCoordinates]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimCoordinates](Coordenadas originales)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:26
 msgid "the original <<coordinates>> in the original format, especially if they are not <<latitude>> and <<longitude>>, such as <<UTM>> coordinates"
-msgstr ""
+msgstr "la <<coordenadas>> originales en el formato original, especialmente si no son <<latitud>> y <<longitud>>, como las coordenadas <<UTM>>"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:27
 #, no-wrap
 msgid "term:dwc[dwc:verbatimLatitude], term:dwc[dwc:verbatimLongitude]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimLatitude] (Latitud original), term:dwc[dwc:verbatimLongitude] (Longitud original)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:28
 msgid "the original <<latitude>> and <<longitude>> in the original format"
-msgstr ""
+msgstr "la <<latitud>> y la <<longitud>>original en el formato original"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:29
 #, no-wrap
 msgid "term:dwc[dwc:verbatimCoordinateSystem]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimCoordinateSystem] (Sistema original de coordenadas)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:30
 msgid "the <<coordinate format>> of the <<coordinates>> that are either in term:dwc[dwc:verbatimCoordinates] or in term:dwc[dwc:verbatimLatitude] and term:dwc[dwc:verbatimLongitude]"
-msgstr ""
+msgstr "el <<formato de las coordenadas>> de las <<coordenadas>> que están en term:dwc[dwc:verbatimCoordinates] o en term:dwc[dwc:verbatimLatitude] y term:dwc[dwc:verbatimLongitude]"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:31
 #, no-wrap
 msgid "term:dwc[dwc:verbatimSRS]"
-msgstr ""
+msgstr "term:dwc[dwc:verbatimSRS] (SRS Original)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:32
 msgid "the <<coordinate reference system>> of either the term:dwc[dwc:verbatimCoordinates] or the combination of term:dwc[dwc:verbatimLatitude] and term:dwc[dwc:verbatimLongitude]"
-msgstr ""
+msgstr "el <<sistema de referencia de coordenadas>> del campo term:dwc[dwc:verbatimCoordinates] o de la combinación de term:dwc[dwc:verbatimLatitude] y term:dwc[dwc:verbatimLongitude]"
 
 #. type: Labeled list
 #: 0500-sharing-data.en.adoc:33
 #, no-wrap
 msgid "term:dwc[dwc:minimumElevationInMeters], term:dwc[dwc:maximumElevationInMeters]"
-msgstr ""
+msgstr "term:dwc[dwc:minimumElevationInMeters] (Elevación mínima en metros), term:dwc[dwc:maximumElevationInMeters] (Elevación máxima en metros)"
 
 #. type: Plain text
 #: 0500-sharing-data.en.adoc:34
