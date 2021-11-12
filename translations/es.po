@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 18:55\n"
+"PO-Revision-Date: 2021-11-12 21:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4596,27 +4596,27 @@ msgstr "Una de las principales fuentes de <<error>> en la <<georreferencia,georr
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:33
 msgid "One method developed for the MaPSTeDI project (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^]) is to first check the <<accuracy>> of the georeferencing. This process involves checking a certain number of each georeferencer's records. Based on various trials, it is recommended that the first 200 records that a new georeferencer completes be checked for accuracy. Not only is this initial checking beneficial to the accuracy of the data, but also it is essential to allow the georeferencer to improve and learn through feedback from making mistakes. We recommend the following protocol for checking data quality:"
-msgstr ""
+msgstr "Un método desarrollado para el proyecto MaPSTeDI (https://doi.org/10.5281/zenodo.59792[Murphy et al. 2004^]) consiste en verificar primero la <<exactitud>> de la georreferenciación. Este proceso implica la verificación de un cierto número de registros de cada georreferenciador. Basándose en varias pruebas, se recomienda comprobar la exactitud de los primeros 200 registros que complete un nuevo georreferenciador. Esta comprobación inicial no sólo es beneficiosa para la exactitud de los datos, sino que también es esencial para permitir que el georreferenciador mejore y aprenda a través de la retroalimentación de los errores cometidos. Recomendamos el siguiente protocolo para verificar la calidad de los datos:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:35
 msgid "Check the initial 200 records. If problems remain, check groups of 100 until satisfied with the georeferencer's abilities."
-msgstr ""
+msgstr "Compruebe los 200 registros iniciales. Si los problemas persisten, compruebe en grupos de 100 hasta que estén satisfechos con las habilidades del georreferenciador."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:36
 msgid "Regularly check 10 randomly selected records out of every 100."
-msgstr ""
+msgstr "Regularmente revise 10 de cada 100 registros seleccionados aleatoriamente."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:37
 msgid "If there are more than two incorrect records, the quality checker should check 20 more records and can ask the georeferencer to redo the entire 100."
-msgstr ""
+msgstr "Si hay más de dos registros incorrectos, el verificador de calidad debe comprobar 20 registros más y puede pedir al georreferenciador que rehaga los 100 registros completos."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:38
 msgid "After a while, the regular checks can be reduced to five records out of every 100."
-msgstr ""
+msgstr "Al cabo de un tiempo, las comprobaciones periódicas pueden reducirse a cinco registros de cada 100."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:40
