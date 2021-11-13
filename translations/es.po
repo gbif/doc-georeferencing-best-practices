@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-13 21:17\n"
+"PO-Revision-Date: 2021-11-13 22:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4586,7 +4586,7 @@ msgstr "Un aspecto importante, pero que a menudo se pasa por alto, de cualquier 
 #: 0600-maintaining-data-quality.en.adoc:28
 #, no-wrap
 msgid "Data Entry"
-msgstr "Introducción de Datos"
+msgstr "Entrada de Datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:31
@@ -4682,166 +4682,166 @@ msgstr "Utilizar softwares de modelamiento junto con análisis estadísticos par
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:58
 msgid "Some of these techniques are incorporated into a number of programs including Biogeo (https://doi.org/10.1111/ecog.02118[Robertson et al. 2016^]), CoordinateCleaner (https://doi.org/10.1111/2041-210X.13152[Zizka et al. 2019^]) and the stand-alone <<geographic information system,GIS>> software DIVA-GIS (http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf[Hijmans et al. 2012^]). See also http://georeferencing.org[georeferencing.org^]."
-msgstr ""
+msgstr "Algunas de estas técnicas están incorporadas en varios programas, como Biogeo (https://doi.org/10.1111/ecog.02118[Robertson et al. 2016^]), CoordinateCleaner (https://doi.org/10.1111/2041-210X.13152[Zizka et al. 2019^]) y el software independiente <<sistema de información geográfica,SIG>> DIVA-GIS (http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf[Hijmans et al. 2012^]). Vea también http://georeferencing.org[georeferencing.org^]."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:60
 msgid "The Data Quality Interest Group of TDWG established a Task Group in 2014 to develop a set of Core Tests and Assertions for checking and validating the <<data quality,quality>> of species occurrence data (specimens and observation, etc.). The resulting 101 tests based on <<Darwin Core>> terms will be coded and available for use in 2020 (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]). Currently (as of February 2020), there are 12 validation tests related to <<coordinates>> and <<datum,datums>> and another seven related to geography. In addition there are seven https://github.com/tdwg/bdq/labels/Test[amendment tests^] that can be used to improve the quality of the data."
-msgstr ""
+msgstr "El Grupo de Interés en la Calidad de los Datos (Data Quality Interest Group) del TDWG estableció un Grupo de Trabajo en 2014 para desarrollar un conjunto de Pruebas y Afirmaciones Básicas (Core Tests and Assertions) para verificar y validar la <<calidad de datos, calidad>> de los datos de registros de especies (especímenes y observaciones, etc.). Las 101 pruebas resultantes, basadas en los campos del <<Darwin Core>>, estarán codificadas y disponibles para su uso en 2020 (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]). Actualmente (en febrero de 2020), hay 12 pruebas de validación relacionadas con <<coordenadas>> y <<datum,datums>> y otras siete relacionadas con la geografía. Además, hay siete https://github.com/tdwg/bdq/labels/Test[pruebas de modificación^] que pueden utilizarse para mejorar la calidad de los datos."
 
 #. type: Title ====
 #: 0600-maintaining-data-quality.en.adoc:61
 #, no-wrap
 msgid "Making Corrections"
-msgstr ""
+msgstr "Hacer Correcciones"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:64
 msgid "When making corrections to your database, we strongly recommend that you always add and never replace or delete. For this to happen you will usually require additional fields in the database. For example, you may have ‘original’ or ‘verbatim’ <<georeference>> fields in addition to the main georeference fields. Additionally, the database may require a number of ‘Remarks/Notes/Comments’ fields. Fields that can be valuable are those that describe validation checking that has been carried out – even (and often especially) if that checking has led to confirmation of the georeference. These fields may include information on what checks were carried out, by whom, when and with what results. Be sure to update the equivalent of term:dwc[dwc:georeferenceVerificationStatus] and associated fields (term:dwc[dwc:georeferencedBy], term:dwc[dwc:georeferencedDate]) whenever changes are made to the georeference."
-msgstr ""
+msgstr "Al hacer correcciones en su base de datos, le recomendamos que siempre añada y nunca sustituya o elimine. Para ello, normalmente necesitará campos adicionales en la base de datos. Por ejemplo, puede tener campos \"originales\" además de los campos principales de <<georreferenciación>>. Además, la base de datos puede requerir una serie de campos de \"Observaciones/Notas/Comentarios\". Los campos que pueden ser valiosos son aquellos que describe la verificación de validación que se ha realizado, incluso (y a menudo especialmente) si esa verificación ha llevado a la confirmación de la georreferencia. Estos campos pueden incluir información sobre qué verificaciones se han realizado, por quién, cuándo y con qué resultados. Asegúrese de actualizar el equivalente de term:dwc[dwc:georeferenceVerificationStatus] y los campos asociados (term:dwc[dwc:georeferencedBy], term:dwc[dwc:georeferencedDate]) siempre que se realicen cambios en la georreferencia."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:65
 #, no-wrap
 msgid "Responsibilities of the Manager"
-msgstr ""
+msgstr "Responsabilidades del Administrador"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:68
 msgid "It is important that the manager maintain good sets of documentation (guidelines, best practice documents, etc.), ensure that there are effective feedback mechanisms in place, and ensure that up-to-date <<data quality>> procedures are being implemented. For further responsibilities, we refer you to the document https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality (Chapman 2005a)^], which should be read as an adjunct to this document."
-msgstr ""
+msgstr "Es importante que el administrador mantenga un buen conjunto de documentación (directrices, documentos de buenas prácticas, etc.), se asegure de que existen mecanismos eficaces de retroalimentación y garantice la aplicación de procedimientos actualizados de <<calidad de datos>>. Para más responsabilidades, remitimos al documento https://doi.org/10.15468/doc.jrgg-a190[Principles of Data Quality (Chapman 2005a)^], que debe leerse como complemento de este documento."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:69
 #, no-wrap
 msgid "Responsibilities of the Supervisor"
-msgstr ""
+msgstr "Responsabilidades del supervisor"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:72
 msgid "The <<georeference,georeferencing>> supervisor has the principle responsibility for monitoring and maintaining the <<data quality,quality>> of the data on a day-to-day basis. Perhaps their key responsibility is to supervise the data-entry procedures (see <<Data Entry>>), and the data validation, checking and cleaning processes. This role is key in any <<georeference,georeferencing>> process, along with that of the data entry operators. It is important that the duties and responsibilities be documented in the institution’s best practice manuals and guidelines."
-msgstr ""
+msgstr "El supervisor de <<georreferencia,georreferenciación>> tiene la principal responsabilidad de controlar y mantener la <<calidad de datos,calidad>> de los datos en el día a día. Tal vez su responsabilidad principal sea la de supervisar los procedimientos de entrada de datos (ver <<Entrada de Datos>>) y los procesos de validación, verificación y limpieza de datos. Esta función es clave en cualquier proceso de <<georreferencia, georreferenciación>>, junto con la de los operadores de entrada de datos. Es importante que las funciones y responsabilidades estén documentadas en los manuales y directrices de buenas prácticas de la institución."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:73
 #, no-wrap
 msgid "Training"
-msgstr ""
+msgstr "Entrenamiento"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:76
 msgid "Training is a major responsibility of anyone beginning or conducting the <<georeference,georeferencing>>. Good training can reduce the level of <<error>>, reduce costs, and improve <<data quality>>."
-msgstr ""
+msgstr "El entrenamiento es una de las principales responsabilidades de cualquiera que comience o lleve a cabo la <<georreferencia, georreferenciación>>. Un buen entrenamiento puede reducir el nivel de <<error>>, reducir los costos y mejorar la <<calidad de datos,calidad de los datos>>."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:78
 msgid "Topics of a five day course may include (depending on the audience, and not in this order) the following, adapted from https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf[Paul 2018^]:"
-msgstr ""
+msgstr "Los temas de un curso de cinco días pueden incluir (dependiendo de la audiencia y no en este orden) los siguientes, adaptados de https://www.idigbio.org/wiki/images/a/ac/GeoreferencingChoices_Bristol.pdf[Paul 2018^]:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:80
 msgid "Introduction to georeferencing"
-msgstr ""
+msgstr "Introducción a la georreferenciación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:81
 msgid "Developing a georeferencing project"
-msgstr ""
+msgstr "Desarrollo de un proyecto de georreferenciación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:82
 msgid "Georeferencing best practices"
-msgstr ""
+msgstr "Buenas prácticas de georreferenciación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:83
 msgid "{gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]"
-msgstr ""
+msgstr "{gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:84
 msgid "Using the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020^])"
-msgstr ""
+msgstr "Uso de la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020^])"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:85
 msgid "Geographic concepts"
-msgstr ""
+msgstr "Conceptos geográficos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:86
 msgid "<<locality type,Locality types>>"
-msgstr ""
+msgstr "<<tipo de localidad,Tipos de localidades>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:87
 msgid "Good and bad <<locality,localities>>"
-msgstr ""
+msgstr "Buenas y malas <<localidad,localidades>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:88
 msgid "Using <<gazetteer,gazetteers>>"
-msgstr ""
+msgstr "Uso de <<gacetero,gaceteros>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:89
 msgid "Using physical maps"
-msgstr ""
+msgstr "Uso de mapas en físico"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:90
 msgid "Using Google Earth and Google Maps"
-msgstr ""
+msgstr "Uso de Google Earth y Google Maps"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:91
 msgid "Recording <<uncertainty>> using the <<point-radius>> <<georeferencing method,method>>"
-msgstr ""
+msgstr "Registro de la <<incertidumbre>> cuando se usa el <<método de georreferenciación,método>> <<radio-punto>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:92
 msgid "Using the <<shape>> method of georeferencing uncertainty"
-msgstr ""
+msgstr "Uso del método <<forma geométrica>> de georreferenciación de la incertidumbre"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:93
 msgid "Using online tools"
-msgstr ""
+msgstr "Uso de herramientas en línea"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:94
 msgid "Finding Internet resources"
-msgstr ""
+msgstr "Encontrar recursos de Internet"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:95
 msgid "From collaboration to automation"
-msgstr ""
+msgstr "De la colaboración a la automatización"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:96
 msgid "Reporting through <<Darwin Core>>"
-msgstr ""
+msgstr "Reportar a través del <<Darwin Core>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:97
 msgid "Validating georeferences."
-msgstr ""
+msgstr "Validar georreferencias."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:98
 msgid "<<repatriate,Repatriating>> data"
-msgstr ""
+msgstr "<<repatriar,Repatriar>> los datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:99
 msgid "Building end-to-end georeferencing workflows"
-msgstr ""
+msgstr "Construcción de flujos de georreferenciación de extremo a extremo"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:100
 msgid "Sharing georeferenced data"
-msgstr ""
+msgstr "Compartir datos georreferenciados"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:102
