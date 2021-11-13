@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-13 22:33\n"
+"PO-Revision-Date: 2021-11-13 23:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4898,7 +4898,7 @@ msgstr ""
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:118
 msgid "Completeness Index"
-msgstr ""
+msgstr "Índice de Completitud"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:120
