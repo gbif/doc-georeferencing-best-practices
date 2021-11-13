@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-13 22:00\n"
+"PO-Revision-Date: 2021-11-13 22:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4846,49 +4846,49 @@ msgstr "Compartir datos georreferenciados"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:102
 msgid "Georeferencing training has a learning curve that in some cases can be steep. As a good georeferencing practice involves having knowledge of several different areas (e.g. geography, informatics, biodiversity data, data standards, etc.), make sure to establish a solid selection process of the participants. This will help you reduce the time and resources needed for training and, more importantly, will reduce the probability of <<error,errors>> and improve the <<data quality, quality>> of the data."
-msgstr ""
+msgstr "El entrenamiento en georreferenciación tiene una curva de aprendizaje que en algunos casos puede ser empinada. Como una buena práctica de la georreferenciación implica tener conocimientos de varias áreas diferentes (por ejemplo, geografía, informática, datos de biodiversidad, estándares de datos, etc.), asegúrese de establecer un proceso sólido de selección de los participantes. Esto le ayudará a reducir el tiempo y los recursos necesarios para el entrenamiento y lo que es más importante, reducirá la probabilidad de <<error, errores>> y mejorará la <<calidad de datos, calidad>> de los datos."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:103
 #, no-wrap
 msgid "Performance Criteria"
-msgstr ""
+msgstr "Criterios de Rendimiento"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:106
 msgid "The development of performance criteria is a good way of ensuring a high level of effectiveness, efficiency, consistency, <<accuracy>>, reliability, transparency, and <<data quality,quality>> in the database. Performance criteria can relate to an individual (data entry operator, supervisor, etc.) or to the process as a whole. It can relate to the number of records entered per unit time, but we would recommend that it should relate more to the quality of entry — some <<locality type,locality types>> and some geographic regions are simply more difficult than others. Where possible, performance criteria should be finite and numeric so that performance against the criteria can be documented. Some examples may include:"
-msgstr ""
+msgstr "La elaboración de criterios de rendimiento es una buena manera de garantizar un alto nivel de eficacia, eficiencia, coherencia, <<exactitud>>, fiabilidad, transparencia y <<calidad de datos,calidad>> en la base de datos. Los criterios de rendimiento pueden referirse a un individuo (operador de entrada de datos, supervisor, etc.) o al proceso en su conjunto. Puede referirse al número de registros ingresados por unidad de tiempo, pero recomendaríamos que se refiriera más a la calidad del ingreso (algunos <<tipo de localidad,tipos de localidad>> y algunas regiones geográficas son simplemente más difíciles que otras). En la medida de lo posible, los criterios de rendimiento deberían ser finitos y numéricos para poder documentar el rendimiento en relación con los criterios. Algunos ejemplos pueden ser:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:108
 msgid "90 per cent of records will undergo validation checks within 6 months of entry."
-msgstr ""
+msgstr "90 por ciento de los registros se someterán a controles de validación en un plazo de 6 meses a partir de la entrada."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:109
 msgid "Any suspect records identified during the validation procedures will be checked and corrected within 30 working days."
-msgstr ""
+msgstr "Los registros sospechosos que sean identificados durante los procedimientos de validación se comprobarán y corregirán en un plazo de 30 días laborables."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:110
 msgid "Feedback from users on <<error,errors>> will be checked and the user notified of the results within two weeks."
-msgstr ""
+msgstr "La retroalimentación de los usuarios sobre los <<error,errores>> se comprobarán y los resultados se notificarán al usuario en un plazo de dos semanas."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:111
 msgid "All documentation of validation checks will be completed and up-to-date."
-msgstr ""
+msgstr "Toda la documentación de los controles de validación estará completa y actualizada."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:112
 msgid "Updated data will be published on a monthly basis."
-msgstr ""
+msgstr "Los datos actualizados se publicarán mensualmente."
 
 #. type: Title ===
 #: 0600-maintaining-data-quality.en.adoc:113
 #, no-wrap
 msgid "Index of Spatial Uncertainty"
-msgstr ""
+msgstr "Índice de incertidumbre espacial"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:116
