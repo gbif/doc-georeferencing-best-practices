@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-12 22:27\n"
+"PO-Revision-Date: 2021-11-13 21:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4580,7 +4580,7 @@ msgstr "Verificación y Limpieza de los Datos"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:27
 msgid "An important but often overlooked aspect to any <<georeference,georeferencing>> project is the checking of the georeferenced data that goes into the database. This aspect is often ignored because of lack of funds or personnel. However, because the point of any georeferencing project is to produce <<geographic coordinates>> linking a specimen or observation to a place on a map or to environmental data, it is important that the <<coordinates>> chosen are truly the best ones for the <<location>>. Not only does it improve the <<data quality,quality>> of data, but it also identifies trends and habits in georeferencing that may need to be corrected."
-msgstr "Un aspecto importante, pero que a menudo se pasa por alto, de cualquier proyecto de <<georreferencia,georreferenciación>> es la verficiación de los datos georreferenciados que se ingresan en la base de datos. Comunmente se ignora este aspecto por falta de fondos o de personal. Sin embargo, dado que el objetivo de cualquier proyecto de georreferenciación es producir <<coordenadas geográficas>> que relacionen un espécimen o una observación con un lugar en un mapa o con datos ambientales, es importante que las <<coordenadas>> elegidas sean realmente las mejores para la <<localización>>. No sólo mejora la <<calidad de datos, calidad>> de los datos, sino que también identifica tendencias y hábitos en el proceso de georreferenciación que pueden necesitar ser corregidos."
+msgstr "Un aspecto importante, pero que a menudo se pasa por alto, de cualquier proyecto de <<georreferencia,georreferenciación>> es la verficiación de los datos georreferenciados que se ingresan en la base de datos. Comunmente se ignora este aspecto por falta de fondos o de personal. Sin embargo, dado que el objetivo de cualquier proyecto de georreferenciación es producir <<coordenadas geográficas>> que relacionen un espécimen o una observación con un lugar en un mapa o con datos ambientales, es importante que las <<coordenadas>> elegidas sean realmente las mejores para la <<ubicación>>. No sólo mejora la <<calidad de datos, calidad>> de los datos, sino que también identifica tendencias y hábitos en el proceso de georreferenciación que pueden necesitar ser corregidos."
 
 #. type: Title ====
 #: 0600-maintaining-data-quality.en.adoc:28
@@ -4657,27 +4657,27 @@ msgstr "Comprobación con otros campos de su propia base de datos (asegurándose
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:52
 msgid "Using a <<geographic information system,GIS>> to look for records that fall outside polygon boundaries such as bioregions, local government areas, terrestrial/aquatic/marine areas"
-msgstr ""
+msgstr "Utilizar un <<sistema de información geográfica,SIG>> para buscar registros que queden fuera de los límites de los polígonos como biorregiones, áreas de gobierno local, áreas terrestres/acuáticas/marinas"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:53
 msgid "Using statistical methods such as box plots, reverse jackknifing, cumulative frequency curves and cluster analysis to identify outliers in <<latitude>> and <<longitude>> or <<elevation>>"
-msgstr ""
+msgstr "Utilizar métodos estadísticos como diagramas de caja, jackknife inverso, curvas de frecuencia acumulada y análisis de conglomerados para identificar valores atípicos en <<latitud>> y <<longitud>> o en <<elevación>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:54
 msgid "Using expert-derived range maps"
-msgstr ""
+msgstr "Usar mapas de rango derivados por expertos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:55
 msgid "Using taxon lists – for example, using a list of marine taxa to determine if a record should be marine or not, and similarly with terrestrial and freshwater aquatic taxa"
-msgstr ""
+msgstr "Utilizar listas de taxones: por ejemplo, utilizar una lista de taxones marinos para determinar si un registro debe ser marino o no y de forma similar con los taxones acuáticos terrestres y de agua dulce"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:56
 msgid "Using modelling software in conjunction with statistical analysis to identify outliers in environmental (e.g. climate) space"
-msgstr ""
+msgstr "Utilizar softwares de modelamiento junto con análisis estadísticos para identificar valores atípicos en el espacio ambiental (p. ej., climático)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:58
