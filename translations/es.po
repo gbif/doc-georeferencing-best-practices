@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-13 23:34\n"
+"PO-Revision-Date: 2021-11-14 00:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4893,7 +4893,7 @@ msgstr "Índice de incertidumbre espacial"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:116
 msgid "An Index of Spatial Uncertainty may be developed and documented for the dataset as a whole to allow for overall reporting of the <<data quality,quality>> of the dataset. This index would supplement a similar index of other data in the database, such as an index of Taxonomic Uncertainty and would generally be for internal use, but may be shared as part of an institution's metadata. Currently, no such universal index exists for primary species occurrence data, but institutions may consider developing their own and testing its usefulness. Such indexes should, wherever possible, be generated automatically and produced as part of a data request from the database and packaged with the metadata as part of the request. Such an index could form the basis for helping users determine the quality of the database for their particular use. The authors of this document would be interested in any feedback from institutions that develop such an index. The index should form an integral part of the metadata for the dataset and may include the following for the <<georeference,georeferencing>> part of the database:"
-msgstr ""
+msgstr "Puede desarrollarse y documentarse un Índice de Incertidumbre Espacial para el conjunto de datos, con el fin de poder informar sobre la <<calidad de datos,calidad>> del conjunto de datos. Este índice complementaría un índice similar de otros datos en la base de datos, como un índice de Incertidumbre Taxonómica y generalmente sería para uso interno, pero puede ser compartido como parte de los metadatos de una institución. En la actualidad, no existe un índice universal de este tipo para los datos de presencia de especies primarias, pero las instituciones pueden considerar la posibilidad de desarrollar una propio y probar su utilidad. En la medida de lo posible, estos índices deberían generarse automáticamente y producirse como parte de una solicitud de datos de la base de datos y empaquetarse con los metadatos como parte de la solicitud. Este índice podría ser la base para ayudar a los usuarios a determinar la calidad de la base de datos para su uso particular. Los autores de este documento estarían interesados en recibir cualquier retroalimentación de las instituciones que desarrollen dicho índice. El índice debería formar parte de los metadatos del conjunto de datos y podría incluir lo siguiente para la parte de la base de datos <<georreferencia,georreferenciación>>:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:118
@@ -4903,157 +4903,157 @@ msgstr "Índice de Completitud"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:120
 msgid "Percentage of records with minimum recommended georeference fields that have valid values"
-msgstr ""
+msgstr "Porcentaje de registros con los campos de georreferencia mínimos recomendados que contienen valores válidos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:121
 msgid "Percentage of records with an <<extent>> field that has a value"
-msgstr ""
+msgstr "Porcentaje de registros con un campo de <<extensión>> que tiene un valor"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:122
 msgid "Percentage of records with an <<uncertainty>> field that has a value"
-msgstr ""
+msgstr "Porcentaje de registros con un campo de <<incertidumbre>> que tiene un valor"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:123
 msgid "Percentage of records with a <<coordinate precision>> field that has a value"
-msgstr ""
+msgstr "Porcentaje de registros con un campo de <<precisión de las coordenadas>> que tiene un valor"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:124
 msgid "Percentage of records with <<datum>> fields that have a known datum or <<coordinate reference system>> value"
-msgstr ""
+msgstr "Porcentaje de registros con un campo de <<datum>> que tienen un datum conocido o un valor de <<sistema de referencia de coordenadas>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:126
 msgid "Uncertainty Index"
-msgstr ""
+msgstr "Índice de Incertidumbre"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:128
 msgid "Average and standard deviation of ‘<<uncertainty>>’ value for those records that have a value."
-msgstr ""
+msgstr "Media y desviación estándar del valor de <<incertidumbre>> para aquellos registros que tienen un valor."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:129
 msgid "Percentage of records with a <<maximum uncertainty distance>> value in each class:"
-msgstr ""
+msgstr "Porcentaje de registros con un valor de <<distancia máxima de incertidumbre>> en cada clase:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:132
 msgid "<100 m"
-msgstr ""
+msgstr "<100 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:133
 msgid "100-1,000 m"
-msgstr ""
+msgstr "100-1,000 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:134
 msgid "1,000-2,000 m"
-msgstr ""
+msgstr "1,000-2,000 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:135
 msgid "2,000-5,000 m"
-msgstr ""
+msgstr "2,000-5,000 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:136
 msgid "5,000-10,000 m"
-msgstr ""
+msgstr "5,000-10,000 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:137
 msgid ">10,000 m"
-msgstr ""
+msgstr ">10,000 m"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:138
 msgid "Not determined"
-msgstr ""
+msgstr "No determinado"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:141
 msgid "Currency Index"
-msgstr ""
+msgstr "Índice de Actualidad"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:143
 msgid "Time since last data entry"
-msgstr ""
+msgstr "Tiempo desde la última entrada de datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:144
 msgid "Time since last validation check"
-msgstr ""
+msgstr "Tiempo desde el último control de validación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:146
 msgid "Validation Index"
-msgstr ""
+msgstr "Índice de Validación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:148
 msgid "Percentage of records that have undergone validation test *x*"
-msgstr ""
+msgstr "Porcentaje de registros que se han sometido a la prueba de validación *x*"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:149
 msgid "Percentage of records that have undergone validation test *y*, etc."
-msgstr ""
+msgstr "Porcentaje de registros que se han sometido a la prueba de validación *y*, etc."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:150
 msgid "Percentage of records identified as suspect using validation tests"
-msgstr ""
+msgstr "Porcentaje de registros que se han identificado como sospechosos usando pruebas de validación"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:151
 msgid "Percentage of suspect records found to be actual <<error,errors>>"
-msgstr ""
+msgstr "Porcentaje de registros sospechosos que resultan ser <<error,errores>> reales"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:153
 msgid "The tests arising from the TDWG Data Quality Interest Group include 4 Measure tests at the record level (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]):"
-msgstr ""
+msgstr "Las pruebas derivadas del Grupo de Interés en Calidad de Datos del TDWG incluyen 4 pruebas de medición a nivel de registro (https://doi.org/10.3897/biss.4.50889[Chapman et al. 2020^]):"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:155
 msgid "Number of Validation tests where prerequisites were not met"
-msgstr ""
+msgstr "Número de pruebas de validación en las que no se han cumplido los requisitos previos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:156
 msgid "Number of Validation tests that were compliant"
-msgstr ""
+msgstr "Número de pruebas de validación que fueron conformes"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:157
 msgid "Number of Validation tests that were not compliant"
-msgstr ""
+msgstr "Número de pruebas de validación que no fueron conformes"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:158
 msgid "Number of Amendments proposed"
-msgstr ""
+msgstr "Número de modificaciones propuestas"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:162
 msgid "Documentation is one of the key aspects of any <<georeference,georeferencing>> process. Documentation involves everything from record-level documentation such as:"
-msgstr ""
+msgstr "La documentación es uno de los aspectos clave de cualquier proceso de <<georreferencia, georreferenciación>>. La documentación implica todo, desde la documentación a nivel de registro tal como:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:164
 msgid "How the georeference was determined"
-msgstr ""
+msgstr "Cómo se determinó la georreferencia"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:165
 msgid "What method was used to determine the <<radial>> and <<uncertainty>>"
-msgstr ""
+msgstr "Qué método se uso para determinar el <<radio>> y la <<incertidumbre>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:166
