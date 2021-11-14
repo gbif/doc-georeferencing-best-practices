@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-14 22:27\n"
+"PO-Revision-Date: 2021-11-14 22:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5093,53 +5093,53 @@ msgstr "Las unidades de medida y otros estándares adoptados"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:175
 msgid "The guidelines followed"
-msgstr ""
+msgstr "Las pautas seguidas"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:176
 msgid "The <<Index of Spatial Uncertainty>> (see earlier discussion, this section)"
-msgstr ""
+msgstr "El <<Índice de Incertidumbre Espacial>> (ver la discusión anterior en esta sección)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:178
 msgid "A second set of documentation relates to:"
-msgstr ""
+msgstr "Un segundo conjunto de documentación se refiere a:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:180
 msgid "The institution’s ‘Best Practice’ document which we recommend should be derived from this document and tailored to the specific needs of the institution"
-msgstr ""
+msgstr "El documento de \"Buenas Prácticas\" de la institución que recomendamos debería derivarse de este documento y adaptarse a las necesidades específicas de la institución"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:181
 msgid "Training manuals"
-msgstr ""
+msgstr "Manuales de entrenamiento"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:182
 msgid "Standard database documentation"
-msgstr ""
+msgstr "Documentación estándar de la base de datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:183
 msgid "Guidelines and standards"
-msgstr ""
+msgstr "Pautas y estándares"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:185
 msgid "We recommend that documentation be made an integral part of any georeferencing process."
-msgstr ""
+msgstr "Recomendamos que se haga de la documentación una parte integral de cualquier proceso de georreferenciación."
 
 #. type: Title ====
 #: 0600-maintaining-data-quality.en.adoc:186
 #, no-wrap
 msgid "Truth in Labelling"
-msgstr ""
+msgstr "Honestidad en el Etiquetado"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:188
 msgid "‘Truth in Labelling’ is an important consideration with respect to documenting data <<quality>>. This is especially so where data are being made available to a wider audience, for example, through GBIF. We recommend that documentation of the data and their <<data quality,quality>> be upfront and honest. <<error,Error>> is an inescapable characteristic of any dataset, and it should be recognized as a fundamental attribute of those data. All databases have errors, and it is in no one’s interest to hide those errors (<<chrisman,Chrisman 1991>>). On the contrary, revealing data actually exposes them to editing, validation and correction through user feedback, while hiding information almost guarantees that it will remain dirty and of little long-term value."
-msgstr ""
+msgstr "La \"Honestidad en el Etiquetado\" es una consideración importante con respecto a la documentación de la <<calidad>> de los datos. Esto es especialmente cierto cuando los datos se ponen a disposición de un público más amplio, por ejemplo, a través de GBIF. Recomendamos que la documentación de los datos y su <<calidad de datos>> sea directa y honesta. El <<error,Error>> es una característica ineludible de cualquier conjunto de datos y debe ser reconocido como un atributo fundamental de los mismos. Todas las bases de datos tienen errores y a nadie le interesa ocultar esos errores (<<chrisman,Chrisman 1991>>). Al contrario, revelar los datos en realidad los expone a la edición, la validación y la corrección a través de la retroalimentación de los usuarios, mientras que ocultar la información casi que garantiza que seguirá siendo sucia y de poco valor a largo plazo."
 
 #. type: Title ==
 #: glossary.en.adoc:2
@@ -6343,7 +6343,7 @@ msgstr "Muchas personas han aportado ideas a este documento y a sus precursores,
 #. type: Plain text
 #: acknowledgements.en.adoc:6
 msgid "The people we would like to particularly acknowledge for this document include Ward Appeltens, Arturo H. Ariño, Lee Belbin, Matt Blissett, David Bloom, David Fichtmüller, Ricardo Ortiz Gallego, Sarah Gilbert, Quentin Groom, Robert Kershaw, Kyle Copas, Dimitris Koureas, Celeste Luna, Arnald Marcer, Paul J. Morris, Deborah Paul, Nelson Rios, Alex Thompson, and Paula F. Zermoglio. We would further like to acknowledge members of the TDWG Data Quality Interest Group, Task Group 2 and staff at the GBIF Secretariat, especially Laura Russell, Kyle Copas, and Matthew Blissett who provided support for the project in which this document was solicited. Members of the Paleo community, especially Talia Karim and Jessica Bazeley, provided valuable feedback on topics of particular interest to that community. Special mention must be made of Alejandro Tablado for \"complaining\" in the GBIF Georeferencing Workshop in Buenos Aires in 2006 about the lack of treatment of marine considerations in the first version of the Best Practices Guide. The suggestion was much appreciated. We hope that the current document makes up for our lack of attention to the topic in the earlier version."
-msgstr ""
+msgstr "Entre las personas a las que nos gustaría agradecer especialmente en este documento se encuentran Ward Appeltens, Arturo H. Ariño, Lee Belbin, Matt Blissett, David Bloom, David Fichtmüller, Ricardo Ortiz Gallego, Sarah Gilbert, Quentin Groom, Robert Kershaw, Kyle Copas, Dimitris Koureas, Celeste Luna, Arnald Marcer, Paul J. Morris, Deborah Paul, Nelson Rios, Alex Thompson y Paula F. Zermoglio. También queremos agradecer a los miembros del Grupo de Interés en Calidad de Datos del TDWG, al Grupo de Trabajo 2 y al personal de la Secretaría de GBIF, especialmente a Laura Russell, Kyle Copas y Matthew Blissett, que proporcionaron apoyo al proyecto en el que se solicitó este documento. Los miembros de la comunidad Paleo, especialmente Talia Karim y Jessica Bazeley, aportaron valiosos comentarios sobre temas de especial interés para dicha comunidad. Hay que hacerle una mención especial a Alejandro Tablado por \"quejarse\" en el Taller de Georreferenciación de GBIF en Buenos Aires en 2006 sobre la falta de tratamiento de las consideraciones marinas en la primera versión de la Guía de Buenas Prácticas. La sugerencia fue muy apreciada. Esperamos que el documento actual compense nuestra falta de atención al tema en la versión anterior."
 
 #. type: Title ==
 #: references.en.adoc:1
@@ -6619,252 +6619,252 @@ msgstr "[[geosci-au-2005]]Geoscience Australia (2005) NATMAP Raster Premium. 1:2
 #. type: Plain text
 #: references.en.adoc:57
 msgid "Geoscience Australia (2007) Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products. Version 5.0. http://www.ga.gov.au/mapspecs/topographic/v5/index.html"
-msgstr ""
+msgstr "Geoscience Australia (2007) Geoscience Australia Topographic Data and Map Specifications for TOPO250K & TOPO100K & NTMS Series 1:250 000 and 1:100 000 Scale Topographic Map Products. Version 5.0. http://www.ga.gov.au/mapspecs/topographic/v5/index.html"
 
 #. type: Plain text
 #: references.en.adoc:58
 msgid "Geoscience Australia (2018) Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644"
-msgstr ""
+msgstr "Geoscience Australia (2018) Digital Elevation Model (DEM) of Australia derived from LiDAR 5 Metre Grid. https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/89644"
 
 #. type: Plain text
 #: references.en.adoc:59
 msgid "Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia"
-msgstr ""
+msgstr "Geoscience Australia (2019a) Positioning Australia. https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia"
 
 #. type: Plain text
 #: references.en.adoc:60
 msgid "Geoscience Australia (2019b) Map Grid of Australia 2020. 2019 edition. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020"
-msgstr ""
+msgstr "Geoscience Australia (2019b) Map Grid of Australia 2020. 2019 edition. https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/datums-projections/grid2020"
 
 #. type: Plain text
 #: references.en.adoc:61
 msgid "Gibson D (1996) How accurate is radio-location? Cave and Karst Science 23(2): 77-80. http://hdl.handle.net/10871/19788"
-msgstr ""
+msgstr "Gibson D (1996) How accurate is radio-location? Cave and Karst Science 23(2): 77-80. http://hdl.handle.net/10871/19788"
 
 #. type: Plain text
 #: references.en.adoc:62
 msgid "Gibson D (2002) Radiolocation for Cave Surveying. {gibson_radiolocation}"
-msgstr ""
+msgstr "Gibson D (2002) Radiolocation for Cave Surveying. {gibson_radiolocation}"
 
 #. type: Plain text
 #: references.en.adoc:63
 msgid "GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath"
-msgstr ""
+msgstr "GISGeography (2019a). GPS Accuracy: HDOP, PDOP, GDOP, Multipath and the Atmosphere. Updated 21 Dec 2019. https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath"
 
 #. type: Plain text
 #: references.en.adoc:64
 msgid "GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/"
-msgstr ""
+msgstr "GISGeography (2019b). The Geoid - Hypothetical Mean Sea Level GisGeography. Updated 25 Apr 2019. https://gisgeography.com/geoid-mean-sea-level/"
 
 #. type: Plain text
 #: references.en.adoc:65
 msgid "[[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group."
-msgstr ""
+msgstr "[[goldsheider]]Goldsheider N & Drew D, eds. (2014) Methods in Karst Hydrogeology. IAH: International Contributions to Hydrogeology, 26. London: Taylor & Francis Group."
 
 #. type: Plain text
 #: references.en.adoc:66
 msgid "Goulet CM (2001) Magnetic Declinations. Frequently Asked Questions. Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm"
-msgstr ""
+msgstr "Goulet CM (2001) Magnetic Declinations. Frequently Asked Questions. Version 4.4. http://www.rescuedynamics.ca/articles/MagDecFAQ.htm"
 
 #. type: Plain text
 #: references.en.adoc:67
 msgid "GPS.gov (2017) GPS Accuracy. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/"
-msgstr ""
+msgstr "GPS.gov (2017) GPS Accuracy. Updated 5 Dec 2017. https://www.gps.gov/systems/gps/performance/accuracy/"
 
 #. type: Plain text
 #: references.en.adoc:68
 msgid "GPS.gov (2018) Selective Availability. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/"
-msgstr ""
+msgstr "GPS.gov (2018) Selective Availability. Updated 27 Sep 2018. https://www.gps.gov/systems/gps/modernization/sa/"
 
 #. type: Plain text
 #: references.en.adoc:69
 msgid "Grant S, Jones J, Webbink K & Zschernitz R (2018) Repatriation of Augmented Information to an Institutional Database. Biodiversity Information Science and Standards 2: e26479. https://doi.org/10.3897/biss.2.26479"
-msgstr ""
+msgstr "Grant S, Jones J, Webbink K & Zschernitz R (2018) Repatriation of Augmented Information to an Institutional Database. Biodiversity Information Science and Standards 2: e26479. https://doi.org/10.3897/biss.2.26479"
 
 #. type: Plain text
 #: references.en.adoc:70
 msgid "Gries C, Gilbert EE & Franz NM (2014) Symbiota - a virtual platform for creating voucher-based biodiversity information communities. Biodiversity Data Journal 2: e1114. https://doi.org/10.3897/BDJ.2.e1114"
-msgstr ""
+msgstr "Gries C, Gilbert EE & Franz NM (2014) Symbiota - a virtual platform for creating voucher-based biodiversity information communities. Biodiversity Data Journal 2: e1114. https://doi.org/10.3897/BDJ.2.e1114"
 
 #. type: Plain text
 #: references.en.adoc:71
 msgid "Guan L (2019) Government ups the ante on securing Australia with satellites. CIO. https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/"
-msgstr ""
+msgstr "Guan L (2019) Government ups the ante on securing Australia with satellites. CIO. https://www.cio.com.au/article/661250/government-ups-ante-securing-australia-satellite-system/"
 
 #. type: Plain text
 #: references.en.adoc:72
 msgid "Guo Q, Liu Y & Wieczorek JR (2008) Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. International Journal of Geographical Information Science 22: 1067-1090. https://doi.org/10.1080/13658810701851420"
-msgstr ""
+msgstr "Guo Q, Liu Y & Wieczorek JR (2008) Georeferencing locality descriptions and computing associated uncertainty using a probabilistic approach. International Journal of Geographical Information Science 22: 1067-1090. https://doi.org/10.1080/13658810701851420"
 
 #. type: Plain text
 #: references.en.adoc:73
 msgid "Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381"
-msgstr ""
+msgstr "Guralnick R, Wieczorek J, Beaman R, Hijmans RJ and the Biogeomancer Working Group (2006) BioGeomancer: Automated Georeferencing to Map the World’s Biodiversity Data. PLoS Biology 4(11): e381. https://doi.org/10.1371/journal.pbio.0040381"
 
 #. type: Plain text
 #: references.en.adoc:74
 msgid "Guralnick R & Constable H (2010) VertNet: Creating a Data Sharing Community. Bioscience 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2"
-msgstr ""
+msgstr "Guralnick R & Constable H (2010) VertNet: Creating a Data Sharing Community. Bioscience 60(4): 258-259. https://doi.org/10.1525/bio.2010.60.4.2"
 
 #. type: Plain text
 #: references.en.adoc:75
 msgid "Hardy P & Field K (2012) Portrayal and Cartography. In Kresse W, Danko D, eds., Springer Handbook of Geographic Information. Berlin: Springer. https://doi.org/10.1007/978-3-540-72680-7_11"
-msgstr ""
+msgstr "Hardy P & Field K (2012) Portrayal and Cartography. In Kresse W, Danko D, eds., Springer Handbook of Geographic Information. Berlin: Springer. https://doi.org/10.1007/978-3-540-72680-7_11"
 
 #. type: Plain text
 #: references.en.adoc:76
 msgid "[[helbich]]Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria. https://www.researchgate.net/publication/267857078_Comparative_Spatial_Analysis_of_Positional_Accuracy_of_OpenStreetMap_and_Proprietary_Geodata"
-msgstr ""
+msgstr "[[helbich]]Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, Austria. https://www.researchgate.net/publication/267857078_Comparative_Spatial_Analysis_of_Positional_Accuracy_of_OpenStreetMap_and_Proprietary_Geodata"
 
 #. type: Plain text
 #: references.en.adoc:77
 msgid "Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/"
-msgstr ""
+msgstr "Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/"
 
 #. type: Plain text
 #: references.en.adoc:78
 msgid "Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf"
-msgstr ""
+msgstr "Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information system for the analysis of biodiversity data. Version 7.5. http://www.diva-gis.org/docs/DIVA-GIS_manual_7.pdf"
 
 #. type: Plain text
 #: references.en.adoc:79
 msgid "Iland D, Irish A, Madhow U & Sandler B (2018) Rethinking GPS: Engineering Next-Gen at Uber. Uber Engineering. https://eng.uber.com/rethinking-gps/"
-msgstr ""
+msgstr "Iland D, Irish A, Madhow U & Sandler B (2018) Rethinking GPS: Engineering Next-Gen at Uber. Uber Engineering. https://eng.uber.com/rethinking-gps/"
 
 #. type: Plain text
 #: references.en.adoc:80
 msgid "IOGP (2019) About the EPSG Dataset. http://www.epsg.org/"
-msgstr ""
+msgstr "IOGP (2019) About the EPSG Dataset. http://www.epsg.org/"
 
 #. type: Plain text
 #: references.en.adoc:81
 msgid "ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html"
-msgstr ""
+msgstr "ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages - SQL multimedia and application packages - Part 3:Spatial. International Organization for Standardization. https://www.iso.org/standard/60343.html"
 
 #. type: Plain text
 #: references.en.adoc:82
 msgid "ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html"
-msgstr ""
+msgstr "ISO (2019) ISO 8601-1:2019 Date and time — Representations for information interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html"
 
 #. type: Plain text
 #: references.en.adoc:83
 msgid "[[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
-msgstr ""
+msgstr "[[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
 
 #. type: Plain text
 #: references.en.adoc:84
 msgid "[[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition."
-msgstr ""
+msgstr "[[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition."
 
 #. type: Plain text
 #: references.en.adoc:85
 msgid "[[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House."
-msgstr ""
+msgstr "[[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles and applications. 2nd edition. Boston: Artech House."
 
 #. type: Plain text
 #: references.en.adoc:86
 msgid "Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962"
-msgstr ""
+msgstr "Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: Sage Publications. https://doi.org/10.4135/9781412953962"
 
 #. type: Plain text
 #: references.en.adoc:87
 msgid "Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/"
-msgstr ""
+msgstr "Larsen R (2012) Always is always somewhere… http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/"
 
 #. type: Plain text
 #: references.en.adoc:88
 msgid "Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_]."
-msgstr ""
+msgstr "Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended quarter degree grid system to unify mapping and sharing of biodiversity data. _African Journal of Ecology_ 47(3): 382-392. https://doi.org/10.1111/j.1365-2028.2008.00997.x[_https://doi.org/10.1111/j.1365-2028.2008.00997.x_]."
 
 #. type: Plain text
 #: references.en.adoc:89
 msgid "[[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons."
-msgstr ""
+msgstr "[[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John Wiley and Sons."
 
 #. type: Plain text
 #: references.en.adoc:90
 msgid "Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html"
-msgstr ""
+msgstr "Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp RH & Olson TR (1998) The NASA GSFC and NIMA Joint Geopotential Model. Greenbelt, Md., USA: NASA Goddard Space Flight Center. http://cddis.nasa.gov/926/egm96/egm96.html"
 
 #. type: Plain text
 #: references.en.adoc:91
 msgid "Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114"
-msgstr ""
+msgstr "Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities based on spatial assertions. International Journal of Geographical Informational Science 23(11): 1471-1501. https://doi.org/10.1080/13658810802247114"
 
 #. type: Plain text
 #: references.en.adoc:92
 msgid "Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and Engineers. Berlin: Springer Science and Business Media. https://doi.org/10.1007/978-94-011-5826-8"
-msgstr ""
+msgstr "Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and Engineers. Berlin: Springer Science and Business Media. https://doi.org/10.1007/978-94-011-5826-8"
 
 #. type: Plain text
 #: references.en.adoc:93
 msgid "Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/"
-msgstr ""
+msgstr "Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/"
 
 #. type: Plain text
 #: references.en.adoc:94
 msgid "Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear programming. Algorithmica 16 (4–5): 498–516. https://doi.org/10.1007/BF01940877"
-msgstr ""
+msgstr "Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear programming. Algorithmica 16 (4–5): 498–516. https://doi.org/10.1007/BF01940877"
 
 #. type: Plain text
 #: references.en.adoc:95
 msgid "McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next Generation Height Reference Frame. 3/3 Technical Requirements. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf"
-msgstr ""
+msgstr "McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next Generation Height Reference Frame. 3/3 Technical Requirements. FrontierSI. https://frontiersi.com.au/wp-content/uploads/2019/05/3-of-3-FrontierSI-P1.29-Technical-Requirements.pdf"
 
 #. type: Plain text
 #: references.en.adoc:96
 msgid "McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. {mcelroy_et_al_2007}"
-msgstr ""
+msgstr "McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users Guide: 2nd edition. Sydney, Australia: NSW Department of Lands. {mcelroy_et_al_2007}"
 
 #. type: Plain text
 #: references.en.adoc:97
 msgid "Mesibov R (2012) Known unknowns, Google Earth, plate tectonics and Mt Bellenden Ker: some thoughts on locality data. ZooKeys 247: 61-67. https://doi.org/10.3897/zookeys.247.4195"
-msgstr ""
+msgstr "Mesibov R (2012) Known unknowns, Google Earth, plate tectonics and Mt Bellenden Ker: some thoughts on locality data. ZooKeys 247: 61-67. https://doi.org/10.3897/zookeys.247.4195"
 
 #. type: Plain text
 #: references.en.adoc:98
 msgid "Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf"
-msgstr ""
+msgstr "Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of Validation Results. https://ssl.jspacesystems.or.jp/ersdac/GDEM/ver2Validation/Summary_GDEM2_validation_report_final.pdf"
 
 #. type: Plain text
 #: references.en.adoc:99
 msgid "Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE Spectrum. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018"
-msgstr ""
+msgstr "Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE Spectrum. https://spectrum.ieee.org/tech-talk/semiconductors/design/superaccurate-gps-chips-coming-to-smartphones-in-2018"
 
 #. type: Plain text
 #: references.en.adoc:100
 msgid "Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software (DMAP). http://www.dmap.co.uk/utmworld.htm"
-msgstr ""
+msgstr "Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software (DMAP). http://www.dmap.co.uk/utmworld.htm"
 
 #. type: Plain text
 #: references.en.adoc:101
 msgid "Mouratidis A & Ampatzidis D (2019) European Digital Elevation Model Validation against Extensive Global Navigation Satellite Systems Data and Comparison with SRTM DEM and ASTER GDEM in Central Macedonia (Greece). ISPRS International Journal of Geo-Information 8(3): 108. https://doi.org/10.3390/ijgi8030108"
-msgstr ""
+msgstr "Mouratidis A & Ampatzidis D (2019) European Digital Elevation Model Validation against Extensive Global Navigation Satellite Systems Data and Comparison with SRTM DEM and ASTER GDEM in Central Macedonia (Greece). ISPRS International Journal of Geo-Information 8(3): 108. https://doi.org/10.3390/ijgi8030108"
 
 #. type: Plain text
 #: references.en.adoc:102
 msgid "Mukherjee S, Joshi PK, Mukherjee S, Ghosh A, Garg RD & Mukhopadhyay A (2013) Evaluation of vertical accuracy of open source Digital Elevation Model (DEM). International Journal of Applied Earth Observation and Geoinformation 21: 205-217. https://doi.org/10.1016/j.jag.2012.09.004"
-msgstr ""
+msgstr "Mukherjee S, Joshi PK, Mukherjee S, Ghosh A, Garg RD & Mukhopadhyay A (2013) Evaluation of vertical accuracy of open source Digital Elevation Model (DEM). International Journal of Applied Earth Observation and Geoinformation 21: 205-217. https://doi.org/10.1016/j.jag.2012.09.004"
 
 #. type: Plain text
 #: references.en.adoc:103
 msgid "Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792"
-msgstr ""
+msgstr "Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) Georeferencing of museum collections: A review of problems and automated tools, and the methodology developed by the Mountain and Plains Spatio-Temporal Database-Informatics Initiative (MaPSTeDI). PhyloInformatics 3:1-29. https://doi.org/10.5281/zenodo.59792"
 
 #. type: Plain text
 #: references.en.adoc:104
 msgid "Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. https://mvzhandbook.berkeley.edu/curatorial/tutorials-training/localities-events"
-msgstr ""
+msgstr "Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in Field Notes. Berkeley, Calif., USA: University of California, Berkeley, Museum of Vertebrate Zoology. https://mvzhandbook.berkeley.edu/curatorial/tutorials-training/localities-events"
 
 #. type: Plain text
 #: references.en.adoc:105
 msgid "National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml"
-msgstr ""
+msgstr "National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD 83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml"
 
 #. type: Plain text
 #: references.en.adoc:106
 msgid "NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental Information. NOAA. Version 2.19.0. https://www.ngdc.noaa.gov/maps/bathymetry/"
-msgstr ""
+msgstr "NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental Information. NOAA. Version 2.19.0. https://www.ngdc.noaa.gov/maps/bathymetry/"
 
 #. type: Plain text
 #: references.en.adoc:107
