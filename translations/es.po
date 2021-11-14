@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-14 00:03\n"
+"PO-Revision-Date: 2021-11-14 22:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5058,37 +5058,37 @@ msgstr "Qué método se uso para determinar el <<radio>> y la <<incertidumbre>>"
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:166
 msgid "What modifications were made (for example, if an operator edits a point on the screen and moves it from point ‘a’ to point ‘b’ it is best practice to document \"why\" the point was moved and not just record that <<location>> was moved from point ‘a’ to point ‘b’ by the operator)"
-msgstr ""
+msgstr "Qué modificaciones se hicieron (por ejemplo, si un operador edita un punto en la pantalla y lo mueve del punto 'a' al punto 'b' es una buena práctica documentar \"por qué\" se movió el punto y no sólo registrar que la <<ubicación>> fue movida del punto 'a' al punto 'b' por el operador)"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:167
 msgid "Any validation checks that were carried out, by whom and when"
-msgstr ""
+msgstr "Cualquier control de validación que se haya realizado, por quién y cuándo"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:168
 msgid "Flags that may indicate uncertainty, etc."
-msgstr ""
+msgstr "Indicadores que puedan indicar incertidumbre, etc."
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:170
 msgid "Documentation also includes the metadata related to the collection as a whole, which may include:"
-msgstr ""
+msgstr "La documentación también incluye los metadatos relacionados con la colección como un todo, lo que pueden incluir:"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:172
 msgid "The overall level of <<data quality>>"
-msgstr ""
+msgstr "El nivel general de <<calidad de datos>>"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:173
 msgid "The general checks carried out on the whole dataset"
-msgstr ""
+msgstr "Las verificaciones generales realizadas en todo el conjunto de datos"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:174
 msgid "The units of measurement and other standards adopted"
-msgstr ""
+msgstr "Las unidades de medida y otros estándares adoptados"
 
 #. type: Plain text
 #: 0600-maintaining-data-quality.en.adoc:175
