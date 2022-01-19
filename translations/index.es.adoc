@@ -1,0 +1,64 @@
+= Georeferencing Best Practices
+:authorcount: 2
+:author_1: Arthur D. Chapman
+:author_2: John R. Wieczorek
+:license: https://creativecommons.org/licenses/by-sa/4.0/
+// Title
+:title-logo-image: img/web/photo.jpg
+// Revision
+:revnumber: {git-metadata-sha-short}
+:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+// Contents, sections
+:toc: left
+:toclevels: 3
+:numbered:
+:sectnumlevels: 3
+:pagenums:
+:icons: font
+:xrefstyle: short
+:section-refsig: §
+// Content
+:stem:
+:marine: image:img/marine.svg[width=14px]
+:ecological: image:img/ecology.svg[width=14px]
+:caves: image:img/cave.svg[width=14px]
+// Shorthand for links to the other two documents
+:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
+:gcm: link:../../../georeferencing-calculator-manual/1.0/en/
+ifdef::backend-pdf[]
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
+:gcm: link:https://docs.gbif.org/georeferencing-calculator-manual/1.0/en/
+endif::backend-pdf[]
+// Shorthand for a link containing underscores
+:mcelroy_et_al_2007: https://www.spatial.nsw.gov.au/__data/assets/pdf_file/0019/70345/Exploring_GPS.pdf
+:gibson_radiolocation: http://site2.caves.org.uk/radio/radioloc_for_cave.html
+
+ifdef::backend-html5[]
+languageLinks:combined[]
+endif::backend-html5[]
+
+:sectnums!:
+
+include::colophon.en.adoc[]
+
+:sectnums:
+
+include::0100-introduction.en.adoc[]
+
+include::0200-elements-for-describing-a-location.en.adoc[]
+
+include::0300-the-georeferencing-process.en.adoc[]
+
+include::0400-collaborative-georeferencing.en.adoc[]
+
+include::0500-sharing-data.en.adoc[]
+
+include::0600-maintaining-data-quality.en.adoc[]
+
+:sectnums!:
+
+include::glossary.en.adoc[]
+
+include::acknowledgements.en.adoc[]
+
+include::references.en.adoc[]
