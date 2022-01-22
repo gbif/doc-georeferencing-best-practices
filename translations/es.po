@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2021-11-14 22:57\n"
+"PO-Revision-Date: 2022-01-22 11:42\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Georeferencing Best Practices"
-msgstr "Guía de Buenas Prácticas de Georreferenciación"
+msgstr "Guía de buenas prácticas de georreferenciación"
 
 #. type: Plain text
 #: index.en.adoc:44
@@ -48,7 +48,7 @@ msgstr "Citación sugerida"
 #. type: Plain text
 #: colophon.en.adoc:11
 msgid "Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853"
-msgstr "Chapman AD & Wieczorek JR (2020) Guía de Buenas Prácticas de Georreferenciación. Copenhague: Secretariado de GBIF. https://doi.org/10.15468/doc-gg7h-s853"
+msgstr "Chapman AD & Wieczorek JR (2020) Guía de buenas prácticas de georreferenciación. Copenhague: Secretariado de GBIF. https://doi.org/10.15468/doc-gg7h-s853"
 
 #. type: Title ===
 #: colophon.en.adoc:12
@@ -81,7 +81,7 @@ msgstr "Licencia"
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "The document _Georeferencing Best Practices_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr "Este documento _Guía de Buenas Prácticas de Georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
+msgstr "Este documento _Guía de buenas prácticas de georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:24
@@ -103,7 +103,7 @@ msgstr "Resumen"
 #. type: Plain text
 #: colophon.en.adoc:31
 msgid "Georeferencing Best Practices provides guidelines to the best practices for georeferencing. Though targeted specifically at biological occurrence data, the concepts and methods presented here may be just as useful in other disciplines."
-msgstr "La Guía de Buenas Prácticas de Georreferenciación provee los lineamientos para la correcta georreferenciación. Aunque está dirigida específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden ser igual de útiles en otras disciplinas."
+msgstr "La Guía de buenas prácticas de georreferenciación provee los lineamientos para la correcta georreferenciación. Aunque está dirigida específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden ser igual de útiles en otras disciplinas."
 
 #. type: Title ===
 #: colophon.en.adoc:32
