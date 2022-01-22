@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2022-01-22 12:08\n"
+"PO-Revision-Date: 2022-01-22 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -243,17 +243,17 @@ msgstr "Este documento tiene como objetivo proporcionar las buenas prácticas ac
 #. type: Plain text
 #: 0100-introduction.en.adoc:29
 msgid "No matter how specific a <<location>> might seem, every location has an associated <<uncertainty>>, and this uncertainty determines the conditions under which the spatial interpretation of the location can be used. Based on this, <<coordinates>> without a carefully determined uncertainty should not be considered a <<georeference>>, they should be considered coordinates whose meaning is not clear."
-msgstr "Sin importar cuán específica pueda parecer una <<ubicación>>, cada una tiene una <<incertidumbre>> y esta incertidumbre determina las condiciones bajo las cuales se puede utilizar la interpretación espacial de la ubicación. Con base a esto, unas <<coordenadas>> sin una incertidumbre cuidadosamente determinada no deben considerarse un <<georreferencia>>, deben considerarse solo como unas coordenadas cuyo significado no es claro."
+msgstr "Sin importar cuán específica pueda parecer una <<ubicación>>, cada una tiene una <<incertidumbre>> y esta incertidumbre determina las condiciones bajo las cuales se puede utilizar la interpretación espacial de la ubicación. Con base a esto, las <<coordenadas>> sin una incertidumbre cuidadosamente determinada no deben considerarse un <<georreferencia>>, deben considerarse solo como unas coordenadas cuyo significado no es claro."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:30
 msgid "Interpretations of <<location,locations>> are fraught with a wide variety of sources of <<uncertainty>>, and these are not always trivial to aggregate into an overall <<uncertainty>>."
-msgstr "Las interpretaciones de las <<ubicación,ubicaciones>> están llenas de una amplia variedad de fuentes de <<incertidumbre>> y no siempre es trivial el hecho de agregarlas a la <<incertidumbre>> total."
+msgstr "Las interpretaciones de las <<ubicación,ubicaciones>> están llenas de una amplia variedad de fuentes de <<incertidumbre>> y no siempre es trivial agregarlas a la <<incertidumbre>> total."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:31
 msgid "The best <<locality>> description is one that is specific, concise, complete, and unambiguous; the more detailed the description, the better the chance of getting a <<georeference>> that is reproducible and that minimizes the <<uncertainty>>."
-msgstr "La mejor descripción de una <<localidad>> es una que sea específica, concisa, completa y sin ambigüedades; cuanto más detallada sea la descripción, mejor será la probabilidad de obtener una <<georreferencia>> que sea reproducible y que minimice la <<incertidumbre>>."
+msgstr "La mejor descripción de una <<localidad>> es aquella que es específica, concisa, completa y sin ambigüedades. Cuanto más detallada sea la descripción, mejor será la probabilidad de obtener una <<georreferencia>> que sea reproducible y que minimice la <<incertidumbre>>."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:32
@@ -268,17 +268,17 @@ msgstr "Los usuarios de registros <<georreferencia,georreferenciados>> deben ten
 #. type: Plain text
 #: 0100-introduction.en.adoc:34
 msgid "<<coordinates,Coordinates>> alone can not generally be checked for consistency; a <<locality>> description provides a confirmation that coordinates are correct."
-msgstr "Las <<coordinadas>> por sí solas no pueden ser usadas para verificar su consistencia; una descripción de la <<localidad>> proporciona una confirmación de que las coordenadas son correctas."
+msgstr "Las <<coordenadas>> por sí solas no pueden ser usadas para verificar su consistencia; una descripción de la <<localidad>> proporciona una confirmación de que las coordenadas son correctas."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:35
 msgid "<<coordinates,Coordinates>> alone do not unambiguously define a <<location>>, because:"
-msgstr "Las <<coordenadas>> por sí solas no definen sin ambigüedades una <<ubicación>>, porque:"
+msgstr "Las <<coordenadas>> por sí solas no definen inequívocamente una <<ubicación>>, porque:"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:36
 msgid "coordinates require a <<coordinate reference system>> to anchor the coordinates in relation to the Earth"
-msgstr "las coordenadas requieren un <<sistema de referencia de coordenadas>> para ubicar las coordenadas en relación a la Tierra"
+msgstr "las coordenadas requieren un <<sistema de referencia de coordenadas>> para ubicar las coordenadas en relación con la Tierra"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:37
@@ -300,7 +300,7 @@ msgstr "*Conclusión*:  Las <<coordenadas>> por sí solas no constituyen una <<g
 #: 0100-introduction.en.adoc:42
 #, no-wrap
 msgid "<<geometry,Geometries>> are great as <<georeference,georeferences>>, if you can deal with them; if not, the <<point-radius>> is surprisingly powerful, because using a <<geographic information system,Geographic Information System>> (GIS), it can be intersected with other spatial layers to get geometries (<<shape,shapes>>).\n"
-msgstr "Las <<geometría,geometrías>> son excelentes como <<georreferencia,georreferencias>> si puede lidiar con ellas, si no, el método <<radio-punto>> es sorprendentemente poderoso, porque usando un <<sistema-de-información-geográfica,Sistema de Información Geográfica>> (SIG) puede ser intersectado con otras capas espaciales para obtener geometrías (<<forma geométrica,formas geométricas>>).\n"
+msgstr "Las <<geometría,geometrías>> son excelentes como <<georreferencia,georreferencias>> si se puede lidiar con ellas, si no, el método <<radio-punto>> es sorprendentemente poderoso, porque usando un <<sistema-de-información-geográfica,Sistema de Información Geográfica>> (SIG) puede ser intersectado con otras capas espaciales para obtener geometrías (<<forma geométrica,formas geométricas>>).\n"
 
 #. type: Title ===
 #: 0100-introduction.en.adoc:43
@@ -311,12 +311,12 @@ msgstr "Público objetivo"
 #. type: Plain text
 #: 0100-introduction.en.adoc:46
 msgid "This work is designed for those who need, or want to know **why** the best practices are what they are, in detail. This document is also for individuals or organizations faced with planning a <<georeference,georeferencing>> project by providing a series of questions that suggests particular subsets of the best practices to follow."
-msgstr "Este trabajo está diseñado para aquellos que necesitan o quieren saber **por qué** las buenas prácticas son lo que son, en detalle. Este documento está dirigido a individuos u organizaciones que se enfrentan a la planificación de un proyecto de <<georeferencia,georreferenciación>>, proporcionándoles una serie de preguntas que los guiarán a subconjuntos particulares de las buenas prácticas a seguir."
+msgstr "Este trabajo está diseñado para aquellos que necesitan o quieren saber **por qué** las buenas prácticas son las que son, en detalle. Este documento está dirigido a individuos u organizaciones que se enfrentan a la planificación de un proyecto de <<georeferencia,georreferenciación>>, proporcionándoles una serie de preguntas que los guiarán a subconjuntos particulares de las buenas prácticas a seguir."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:48
 msgid "For those who just need to know how to put these practices into action while georeferencing, the {gqg}[Georeferencing Quick Reference Guide^] is the most suitable document to have at hand. The Quick Reference Guide refers to details in this document as needed and accompanies the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^], which is a tool to calculate <<coordinates>> and <<uncertainty>> following the methods described in this document."
-msgstr "Para aquellos que sólo necesitan saber cómo llevar estas prácticas a la acción mientras georreferencian, la {gqg}[Guía de Referencia Rápida de Georreferenciación^] es el documento más adecuado para tener a la mano. La Guía de Referencia Rápida se remite a los detalles de este documento según sea necesario y está asociada a la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación^], que es una herramienta para calcular <<coordenadas>> e <<incertidumbre>> siguiendo los métodos descritos en este documento."
+msgstr "Para aquellos que sólo necesitan saber cómo llevar estas prácticas a la acción mientras georreferencian, la {gqg}[Guía de referencia rápida de georreferenciación^] es el documento más adecuado para tener a la mano. La Guía de referencia rápida se remite a los detalles de este documento según sea necesario y está asociada a la http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^], que es una herramienta para calcular <<coordenadas>> e <<incertidumbre>> siguiendo los métodos descritos en este documento."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:50
@@ -342,12 +342,12 @@ msgstr "Estos documentos NO proporcionan orientación sobre la georectificación
 #. type: Plain text
 #: 0100-introduction.en.adoc:58
 msgid "The accompanying {gqg}[Georeferencing Quick Reference Guide] provides a practical how-to guide for putting the theory into practice, especially for the <<point-radius>> <<georeferencing method>>. The Quick Reference Guide relies on this document for background, definitions, more detailed explanations, while it describes exactly how to deal with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>)."
-msgstr "La {gqg}[Guía de Referencia Rápida de Georreferenciación] asociada proporciona una guía práctica para poner en práctica la teoría, especialmente para el <<método de georreferenciación>> <<radio-punto>>. La Guía de Referencia Rápida se basa en este documento como fuente de antedecedentes, definiciones y explicaciones más detalladas, mientras que describe exactamente cómo lidiar con una amplia variedad de casos específicos (ver <<Usando la Guía de Referencia Rápida de Georreferenciación>>)."
+msgstr "La {gqg}[Guía de referencia rápida de georreferenciación] asociada proporciona una guía práctica para poner en práctica la teoría, especialmente para el <<método de georreferenciación>> <<radio-punto>>. La Guía de referencia rápida se basa en este documento como fuente de antedecedentes, definiciones y explicaciones más detalladas, mientras que describe exactamente cómo lidiar con una amplia variedad de casos específicos (ver <<Usando la guía de referencia rápida de georreferenciación>>)."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:60
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based JavaScript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>)."
-msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación^] es una aplicación JavaScript basada en navegadores que ayuda en la georeferenciación de <<localidad,localidades>> descritas y proporciona métodos para obtener <<coordenadas geográficas>> e <<incertidumbre,incertidumbres>> para ubicaciones (ver <<Usando la Calculadora de Georreferenciación>>)."
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^] es una aplicación JavaScript basada en navegadores que ayuda en la georeferenciación de <<localidad,localidades>> descritas y proporciona métodos para obtener <<coordenadas geográficas>> e <<incertidumbre,incertidumbres>> para ubicaciones (ver <<Usando la Calculadora de georreferenciación>>)."
 
 #. type: Title ===
 #: 0100-introduction.en.adoc:61
@@ -388,7 +388,7 @@ msgstr "Nombres de <<localidad,localidades>> que han cambiado a través del tiem
 #. type: Plain text
 #: 0100-introduction.en.adoc:71
 msgid "Marine <<location,locations>> from old ships' logs."
-msgstr "<<ubicación,Ubicaciones>>marinas de registros de barcos antiguos."
+msgstr "<<ubicación,Ubicaciones>> marinas de registros de barcos antiguos."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:72
@@ -398,7 +398,7 @@ msgstr "Falta de información sobre <<datum,datums>> y/o <<sistema de referencia
 #. type: Plain text
 #: 0100-introduction.en.adoc:73
 msgid "Data Management Systems that don’t allow for recording or storage of the required <<georeference,georeferencing>> information."
-msgstr "Sistemas de Manejo de Datos que no permiten registrar o almacenar la información requerida sobre la <<georreferencia, georreferenciación>>."
+msgstr "Sistemas de manejo de datos que no permiten registrar o almacenar la información requerida sobre la <<georreferencia, georreferenciación>>."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:74
@@ -424,7 +424,7 @@ msgstr "Falta de capacitación."
 #: 0100-introduction.en.adoc:78
 #, no-wrap
 msgid "Principles of Best Practice"
-msgstr "Principios de Buenas Prácticas"
+msgstr "Principios de buenas prácticas"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:81
@@ -434,37 +434,37 @@ msgstr "Los siguientes son principios de buenas prácticas que deben aplicarse a
 #. type: Plain text
 #: 0100-introduction.en.adoc:83
 msgid "<<accuracy,*Accuracy*>> – a measure of how well the data represent the truth, for example, how well is the true <<location>> of the target of an observation, collecting, or sampling <<event>> represented in a <<georeference>>. This includes considerations taken both at the moment when the location was recorded and when it was <<georeference,georeferenced>>. Note that careless lack of <<precision>> will have an adverse effect on accuracy (see <<accuracy-error-bias-precision-false-precision-and-uncertainty>>)."
-msgstr "<<exactitud,*Exactitud*>> - una medida de qué tan bien representan los datos la verdad, por ejemplo, qué tan bien representada está la verdadera <<ubicación>> de un <<evento>> de observación, colecta o muestreo en una <<georreferencia>>. Esto incluye consideraciones tomadas tanto en el momento en que se registró la ubicación como cuando fue <<georreferencia,georreferenciada>>. Tenga en cuenta que la falta de <<precisión>> por descuido tendrá un efecto adverso en la exactitud (ver <<exactitud-error-sesgo-precisión-falsa-precisión-e-incertidumbre>>)."
+msgstr "<<exactitud,*Exactitud*>>: una medida de qué tan bien representan los datos la verdad, por ejemplo, qué tan bien representada está la verdadera <<ubicación>> de un <<evento>> de observación, colecta o muestreo en una <<georreferencia>>. Esto incluye consideraciones tomadas tanto en el momento en que se registró la ubicación como cuando fue <<georreferencia,georreferenciada>>. Tenga en cuenta que la falta de <<precisión>> por descuido tendrá un efecto adverso en la exactitud (ver <<exactitud-error-sesgo-precisión-falsa-precisión-e-incertidumbre>>)."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:84
 #, no-wrap
 msgid "*Effectiveness* – the likelihood that a work program achieves its desired objectives. For example, the percentage of records for which the <<coordinates>> and <<uncertainty>> can be <<accuracy,accurately>> identified and calculated (see <<Index of Spatial Uncertainty>>).\n"
-msgstr "*Efectividad* – la probabilidad de que un programa de trabajo logre los objetivos deseados. Por ejemplo, el porcentaje de registros para los cuales las <<coordenadas>> e <<incertidumbre>> pueden ser <<exactitud,exactamente>> identificados y calculados (ver <<Índice de Incertidumbre Espacial>>).\n"
+msgstr "*Efectividad*: la probabilidad de que un programa de trabajo logre los objetivos deseados. Por ejemplo, el porcentaje de registros para los cuales las <<coordenadas>> y la <<incertidumbre>> pueden ser <<exactitud,exactamente>> identificadas y calculadas (ver <<Índice de incertidumbre espacial>>).\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:85
 #, no-wrap
 msgid "*Efficiency* – the relative effort needed to produce an acceptable output, including the effort to assemble and use external input data (e.g. <<gazetteer,gazetteers>>, collectors’ itineraries, etc.).\n"
-msgstr "*Eficiencia*: el esfuerzo relativo necesario para producir un resultado aceptable, incluyendo el esfuerzo para recopilar y usar datos externos (e.g. <<gacetero,gaceteros>>, itinerarios de los colectores, etc.).\n"
+msgstr "*Eficiencia*: el esfuerzo relativo necesario para producir un resultado aceptable, incluyendo el esfuerzo para recopilar y usar datos externos (p. ej., <<gacetero,gaceteros>>, itinerarios de los colectores, etc.).\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:86
 #, no-wrap
 msgid "*Reliability* – the relative confidence in the repeatability or consistency with which information was produced and recorded. The reliability of sources and methods that can affect the <<accuracy>> of the results.\n"
-msgstr "*Fiabilidad* – la confianza relativa en la repetibilidad o consistencia con la que la información fue producida y registrada. La fiabilidad de las fuentes y métodos que pueden afectar la <<exactitud>> de los resultados.\n"
+msgstr "*Fiabilidad*: la confianza relativa en la repetibilidad o consistencia con la que la información fue producida y registrada. La fiabilidad de las fuentes y métodos que pueden afectar la <<exactitud>> de los resultados.\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:87
 #, no-wrap
 msgid "*Accessibility* – the relative ease with which users can find and use information in all of the senses supported by FAIR principles (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]) of data being Findable, Accessible, Interoperable, and Reusable.\n"
-msgstr "*Accesibilidad* – la relativa facilidad con la que los usuarios pueden encontrar y usar información, en todos los sentidos soportados por los principios FAIR (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]) para que los datos sean encontrables, accesibles, interoperables y reutilizables.\n"
+msgstr "*Accesibilidad*: la facilidad relativa con la que los usuarios pueden encontrar y usar información, en todos los sentidos soportados por los principios FAIR (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]) para que los datos sean fáciles de encontrar, accesibles, interoperables y reutilizables.\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:88
 #, no-wrap
 msgid "*Transparency* – the relative clarity and completeness of the inputs and processes that produced a result. For example, the <<data quality,quality>> of the metadata and documentation of the methodology by which a <<georeference>> was obtained.\n"
-msgstr "*Transparencia* – la relativa claridad e integridad de las entradas y los procesos que produjeron un resultado. Por ejemplo, la <<calidad-de-datos,calidad>> de los metadatos y la documentación de la metodología mediante la cual se obtuvo una <<georreferencia>>.\n"
+msgstr "*Transparencia*: la relativa claridad e integridad de las entradas y los procesos que produjeron un resultado. Por ejemplo, la <<calidad-de-datos,calidad>> de los metadatos y la documentación de la metodología mediante la cual se obtuvo una <<georreferencia>>.\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:89
