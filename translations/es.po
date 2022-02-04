@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
 "POT-Creation-Date: 2021-10-27 12:41+0000\n"
-"PO-Revision-Date: 2022-01-22 12:44\n"
+"PO-Revision-Date: 2022-02-04 15:47\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -347,7 +347,7 @@ msgstr "La {gqg}[Guía de referencia rápida de georreferenciación] asociada pr
 #. type: Plain text
 #: 0100-introduction.en.adoc:60
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based JavaScript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>)."
-msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^] es una aplicación JavaScript basada en navegadores que ayuda en la georeferenciación de <<localidad,localidades>> descritas y proporciona métodos para obtener <<coordenadas geográficas>> e <<incertidumbre,incertidumbres>> para ubicaciones (ver <<Usando la Calculadora de georreferenciación>>)."
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^] es una aplicación JavaScript basada en navegadores que ayuda en la georeferenciación de <<localidad,localidades>> descritas y proporciona métodos para obtener <<coordenadas geográficas>> e <<incertidumbre,incertidumbres>> para ubicaciones (ver <<Usando la calculadora de georreferenciación>>)."
 
 #. type: Title ===
 #: 0100-introduction.en.adoc:61
@@ -363,7 +363,7 @@ msgstr "Las restricciones para usar este documento pueden surgir debido a:"
 #. type: Plain text
 #: 0100-introduction.en.adoc:66
 msgid "Specimens with labels that are hard to read or decipher."
-msgstr "Especimenes con etiquetas difíciles de leer o descifrar."
+msgstr "Espécimenes con etiquetas difíciles de leer o descifrar."
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:67
@@ -476,7 +476,7 @@ msgstr "*Frecuencia* – se refiere a la periodicidad de la recopilación de dat
 #: 0100-introduction.en.adoc:90
 #, no-wrap
 msgid "*Relevance* – the relative pertinence and usability of the data to meet the needs of potential users in the sense of the principle of \"fitness for use\" (https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Relevance is affected by the format of the output and whether the documentation and metadata are accessible to the user.\n"
-msgstr "*Relevancia* – la pertinencia y utilidad relativa de los datos para satisfacer las necesidades de los potenciales usuarios en el sentido del principio de \"aptitud para el uso\"(\"fitness for use\") (https://doi.org/10.5468/doc.jrgg-a190[Chapman 2005a^]). La relevancia se ve afectada por el formato de la salida y si la documentación y los metadatos son accesibles para el usuario.\n"
+msgstr "*Relevancia*: la pertinencia y utilidad relativa de los datos para satisfacer las necesidades de los potenciales usuarios en el sentido del principio de \"aptitud para el uso\"(\"fitness for use\") (https://doi.org/10.5468/doc.jrgg-a190[Chapman 2005a^]). La relevancia se ve afectada por el formato de la salida y si la documentación y los metadatos son accesibles para el usuario.\n"
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:91
