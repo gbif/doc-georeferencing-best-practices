@@ -19,9 +19,9 @@
 :section-refsig: §
 // Content
 :stem:
-:marine: image:img/marine.svg[width=14px]
-:ecological: image:img/ecology.svg[width=14px]
-:caves: image:img/cave.svg[width=14px]
+:marine: image:img/marine.svg[width=14px,pdfwidth=14px]
+:ecological: image:img/ecology.svg[width=14px,pdfwidth=14px]
+:caves: image:img/cave.svg[width=14px,pdfwidth=14px]
 
 // Shorthand for links to the other two documents
 :gcm: link:../../../georeferencing-calculator-manual/1.0/en/
