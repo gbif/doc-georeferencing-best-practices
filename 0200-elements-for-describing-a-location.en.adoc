@@ -103,19 +103,22 @@ image::img/gridded.png[width=371,align="center"]
 
 Township, Range and Section (TRS) or Public Land Survey System (PLSS) is a <<grid>>-like way of dividing land into townships in the midwestern and western USA. Sections are usually one mile on each side and townships usually consist of 36 sections arranged in a <<grid>> with a specific numbering system. Not all townships are square, however, as there may be irregularities based on administrative boundaries, for example. For this reason, though these systems resemble grids, they are best treated as individual polygons. Similar subdivisions are used in other countries
 
-===== Quarter Degree Squares
+===== Quarter Degree Grid Cells
 
-Quarter Degree Squares (QDS) or QDGC (Quarter Degree Grid Cells) (https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. 2009^]) have been used in many historical African biodiversity atlas projects and continue to be used for current South African biodiversity projects such as the Atlas of South African birds (https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. 2009^], http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/[Larsen 2012^]). It has also been recommended as the method to use for <<generalization,generalizing>> sensitive biodiversity data in South Africa (http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf[SANBI 2016^], https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
+Quarter Degree Grid Cells (QDGC) (https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. 2009^], http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/[Larsen 2012^]) and their predecessor Quarter Degree Squares (QDS) have been used in many historical African biodiversity atlas projects and continue to be used for current South African biodiversity projects such as the Atlas of South African birds (Harrison et al.). It has also been recommended as the method to use for https://docs.gbif.org/georeferencing-best-practices/1.0/en/#generalization[generalizing^] sensitive biodiversity data in South Africa (http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf[SANBI 2016^], https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^]).
 
-Unlike most geographic <<grid>> systems, which have their origin in the bottom left corner of the grid, QDS grids reference their origin from the top left corner. Grids are identified by a code that consists of 4 numbers and two letters (e.g. 2624BD). The code can be worked out as follows:
+The QDGC method for recording <<grid,grids>> follows an earlier system (QDS) that was developed for South Africa, and only worked in southern Africa, i.e. in the southern and eastern hemispheres. https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. (2009)^] provided an extension to the QDS standard that allowed the methodology to be used across the world in all hemispheres. To do this, they adapted the reference system to address locations independent of the hemisphere. This required the addition of characters delimiting north/south and east/west positions. An extra Zero was added to east/west references to pad to three characters. They changed the reference position for the grids to that which is closest to the Prime Meridian and the Equator (i.e., in northern hemisphere Africa, for example to the bottom left, while retaining the top left for southern Africa). The code is designated by:
 
-* Each degree square is designated by a four digit number made up of the values of <<latitude>> and <<longitude>> at its top left corner, for example, 3218 for the larger square in <<img-quarter-degree-squares>>.
-* Each degree square is divided into sixteen quarter-degree squares, each 15’ x 15’. These are given two additional letters as indicated. Thus in <<img-quarter-degree-squares>>, the green square is represented by the code 3218CB.
+- A symbol denoting the eastern or western hemispheres (E or W).
+- The three-digit degree of longitude.
+- A symbol denoting the northern or southern hemisphere (N or S).
+- The two digit degree of <<latitude>>.
+- Each degree square is then divided into sixteen quarter-degree squares, each 15’ x 15’. These are given two additional letters as indicated. Thus in <<img-quarter-degree-squares>>, the green square is represented by the code E032S18CB. 
 
-Note that QDS is developed for use in Africa, and currently only works in the Southern Hemisphere. It has been suggested that it be extended for use in the Northern Hemisphere, but this is not yet under development.
+The earlier Quarter Degree Square (QDS) methodology references this square as 3218CB. The QDS methodology is still commonly used in southern Africa, but is easily translatable to the QDGC system.
 
 [#img-quarter-degree-squares]
-.Recording data using Quarter Degree Square (QDS) grids. The filled green grid cell is referenced as QDS 3218CB. Image with permission from http://rephotosa.adu.org.za/FAQs.php[RePhotoSA^].
+.Recording data using Quarter Degree Grid Cells (QDGC). The filled green grid cell is referenced as QDCC E032S18CB. Image with permission from http://rephotosa.adu.org.za/FAQs.php[RePhotoSA^].
 image::img/quarter-degree-squares.svg[width=264,align="center"]
 
 ==== Three-Dimensional Shapes
