@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-09 18:42+0000\n"
+"POT-Creation-Date: 2023-07-09 18:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11059,6 +11059,14 @@ msgstr ""
 #. type: Plain text
 #: references.en.adoc:76
 msgid ""
+"[[harrison]]Harrison JA, Allan DG, Underhill LG, Herremans M, Tree AJ, "
+"Parker V & Brown CJ (1997) The Atlas of Southern African Birds (2 "
+"vols). Johannesburg: Birdlife South Africa."
+msgstr ""
+
+#. type: Plain text
+#: references.en.adoc:77
+msgid ""
 "[[helbich]]Helbich M, Amelunxen C, Neis P & Zipf A (2012) Comparative "
 "Spatial Analysis of Positional Accuracy of OpenStreetMap and Proprietary "
 "Geodata. In Proceedings of the Geoinformatics Forum, Salzburg, "
@@ -11067,14 +11075,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:77
+#: references.en.adoc:78
 msgid ""
 "Herries D (2012) GPS Accuracy Estimate (EPE) What is It?. Interpine "
 "Innovation. https://interpine.nz/gps-accuracy-estimate-epe-what-is-it/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:78
+#: references.en.adoc:79
 msgid ""
 "Hijmans RJ, Guarino L & Mathur P (2012) DIVA-GIS: A geographic information "
 "system for the analysis of biodiversity data. Version "
@@ -11082,19 +11090,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:79
+#: references.en.adoc:80
 msgid ""
 "Iland D, Irish A, Madhow U & Sandler B (2018) Rethinking GPS: Engineering "
 "Next-Gen at Uber. Uber Engineering. https://eng.uber.com/rethinking-gps/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:80
+#: references.en.adoc:81
 msgid "IOGP (2019) About the EPSG Dataset. http://www.epsg.org/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:81
+#: references.en.adoc:82
 msgid ""
 "ISO (2016) ISO/IEC 13249-3:2016 Information Technology - Database Languages "
 "- SQL multimedia and application packages - Part 3:Spatial. International "
@@ -11102,47 +11110,47 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:82
+#: references.en.adoc:83
 msgid ""
 "ISO (2019) ISO 8601-1:2019 Date and time — Representations for information "
 "interchange — Part 1: Basic rules. https://www.iso.org/standard/70907.html"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:83
+#: references.en.adoc:84
 msgid "[[juran]]Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:84
+#: references.en.adoc:85
 msgid ""
 "[[juran-2ed]]Juran JM (1995) Managerial Breakthrough. New York: "
 "McGraw-Hill. Revised 2nd edition."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:85
+#: references.en.adoc:86
 msgid ""
 "[[kaplan]]Kaplan ED & Hegarty CJ, eds. (2006) Understanding GPS: principles "
 "and applications. 2nd edition. Boston: Artech House."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:86
+#: references.en.adoc:87
 msgid ""
 "Kemp KK (2008) Encyclopedia of Geographic Information Science. Los Angeles: "
 "Sage Publications. https://doi.org/10.4135/9781412953962"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:87
+#: references.en.adoc:88
 msgid ""
 "Larsen R (2012) Always is always somewhere… "
 "http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:88
+#: references.en.adoc:89
 msgid ""
 "Larsen R, Holmern T, Prager SD, Maliti H, Røskaft E 2009. Using the extended "
 "quarter degree grid system to unify mapping and sharing of biodiversity "
@@ -11152,14 +11160,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:89
+#: references.en.adoc:90
 msgid ""
 "[[leick]]Leick A (1995) GPS Satellite Surveying. 2nd Edition. New York: John "
 "Wiley and Sons."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:90
+#: references.en.adoc:91
 msgid ""
 "Lemoine FG, Kenyon SC, Factor JK, Trimmer RG, Pavlis NK, Chinn DS, Cox CM, "
 "Klosko SM, Luthcke SB, Torrence MH, Wang YM, Williamson RG, Pavlis EC, Rapp "
@@ -11169,7 +11177,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:91
+#: references.en.adoc:92
 msgid ""
 "Liu Y, Guo Q, Wieczorek JR & Goodchild MF (2009) Positioning localities "
 "based on spatial assertions. International Journal of Geographical "
@@ -11178,7 +11186,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:92
+#: references.en.adoc:93
 msgid ""
 "Loweth RP (1997) Manual of Offshore Surveying for Geoscientists and "
 "Engineers. Berlin: Springer Science and Business "
@@ -11186,12 +11194,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:93
+#: references.en.adoc:94
 msgid "Maptiler (2019) EPSG.io. Coordinate Systems Worldwide. http://epsg.io/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:94
+#: references.en.adoc:95
 msgid ""
 "Matoušek J, Sharir M & Welzl E (1996) A subexponential bound for linear "
 "programming. Algorithmica 16 (4–5): "
@@ -11199,7 +11207,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:95
+#: references.en.adoc:96
 msgid ""
 "McCubbine J, Brown N, Featherstone W, Filmer M & Gowans N (2019) Next "
 "Generation Height Reference Frame. 3/3 Technical "
@@ -11209,7 +11217,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:96
+#: references.en.adoc:97
 msgid ""
 "McElroy S, Robins I, Jones G & Kinlyside D (2007) Exploring GPS, A GPS Users "
 "Guide: 2nd edition. Sydney, Australia: NSW Department of "
@@ -11217,7 +11225,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:97
+#: references.en.adoc:98
 msgid ""
 "Mesibov R (2012) Known unknowns, Google Earth, plate tectonics and Mt "
 "Bellenden Ker: some thoughts on locality data. ZooKeys 247: "
@@ -11225,7 +11233,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:98
+#: references.en.adoc:99
 msgid ""
 "Meyer D (2011) ASTER Global Digital Elevation Model Version 2 – Summary of "
 "Validation "
@@ -11234,7 +11242,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:99
+#: references.en.adoc:100
 msgid ""
 "Moore SK (2017) Superaccurate GPS Chips Coming to Smartphones in 2018. IEEE "
 "Spectrum. "
@@ -11242,14 +11250,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:100
+#: references.en.adoc:101
 msgid ""
 "Morton A (2006) UTM Grid Zones of the World. Digital Mapping Software "
 "(DMAP). http://www.dmap.co.uk/utmworld.htm"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:101
+#: references.en.adoc:102
 msgid ""
 "Mouratidis A & Ampatzidis D (2019) European Digital Elevation Model "
 "Validation against Extensive Global Navigation Satellite Systems Data and "
@@ -11259,7 +11267,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:102
+#: references.en.adoc:103
 msgid ""
 "Mukherjee S, Joshi PK, Mukherjee S, Ghosh A, Garg RD & Mukhopadhyay A (2013) "
 "Evaluation of vertical accuracy of open source Digital Elevation Model "
@@ -11268,7 +11276,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:103
+#: references.en.adoc:104
 msgid ""
 "Murphy PC, Guralnick RP, Glaubitz R, Neufeld D & Ryan JA (2004) "
 "Georeferencing of museum collections: A review of problems and automated "
@@ -11278,7 +11286,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:104
+#: references.en.adoc:105
 msgid ""
 "Museum of Vertebrate Zoology (2006) MVZ Guide for Recording Localities in "
 "Field Notes. Berkeley, Calif., USA: University of California, Berkeley, "
@@ -11288,14 +11296,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:105
+#: references.en.adoc:106
 msgid ""
 "National Geodetic Survey (2018) New Datums: Replacing NAVD 88 and NAD "
 "83. https://www.ngs.noaa.gov/datums/newdatums/index.shtml"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:106
+#: references.en.adoc:107
 msgid ""
 "NCEI (2020) Bathymetric Data Viewer. National Centers for Environmental "
 "Information. NOAA. Version "
@@ -11303,14 +11311,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:107
+#: references.en.adoc:108
 msgid ""
 "Neish P, Richardson BP & Whitbread G (2007) HISPID 5. Council of Heads of "
 "Australian Herbaria. https://github.com/hiscom/hispid5"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:108
+#: references.en.adoc:109
 msgid ""
 "Nelson G, Sweeney P & Gilbert S (2018) Use of globally unique identifiers "
 "(GUIDs) to link herbarium specimen records to physical "
@@ -11319,7 +11327,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:109
+#: references.en.adoc:110
 msgid ""
 "[[niedzwiedz]]Niedzwiedz G & Schories D (2013) New advances in diver-towed "
 "underwater GPS receivers. In Hsueh Y-H, ed., Global Positioning "
@@ -11328,7 +11336,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:110
+#: references.en.adoc:111
 msgid ""
 "NLWRA (2008) Natural Resources Information Management Toolkit. Version "
 "2.0. In Promoting Best Practice in Spatial Data and Information "
@@ -11338,21 +11346,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:111
+#: references.en.adoc:112
 msgid ""
 "NOAA (n.d.a) Wandering of the Geomagnetic "
 "poles. https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:112
+#: references.en.adoc:113
 msgid ""
 "NOAA (n.d.b) Magnetic Field "
 "Calculators. https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:113
+#: references.en.adoc:114
 msgid ""
 "NOAA (2016) How accurate are nautical charts? News and Updates 8 April 2016 "
 "by NOAA Office of Coast "
@@ -11361,7 +11369,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:114
+#: references.en.adoc:115
 msgid ""
 "NOAA (2018) International Comprehensive Ocean-Atmosphere Data Set "
 "(ICOADS). ICOADS Data and "
@@ -11369,12 +11377,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:115
+#: references.en.adoc:116
 msgid "NOAA (2019) World Magnetic Model. https://www.ngdc.noaa.gov/geomag/WMM/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:116
+#: references.en.adoc:117
 msgid ""
 "NOAA/NCEI (2019) GEBCO_2019 Bathymetric Contours (NOAA NCEI "
 "Visualization). "
@@ -11382,7 +11390,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:117
+#: references.en.adoc:118
 msgid ""
 "NOAA/NCIE & CIRES (2019) US/UK World Magnetic Model. Epoch 2020.0. Main "
 "Field Declination "
@@ -11391,14 +11399,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:118
+#: references.en.adoc:119
 msgid ""
 "NOT Engineers (2019) Underground radiolocation. NOT Engineers - engineers in "
 "speleology. http://www.not-engineers.fr/Underground-radiolocation.html"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:119
+#: references.en.adoc:120
 msgid ""
 "Novaczek E, Devillers R & Edinger E (2019) Generating higher resolution "
 "regional seafloor maps from crowd-sourced bathymetry. PLoS ONE 14(6): "
@@ -11406,7 +11414,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:120
+#: references.en.adoc:121
 msgid ""
 "Novatel (2015) An Introduction to GNSS. GPS, GLONASS, BeiDou, Galileo, and "
 "other Global Navigation Satellite Systems. 2nd edition. Alberta, Canada: "
@@ -11414,19 +11422,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:121
+#: references.en.adoc:122
 msgid "OBIS (n.d.) Darwin Core, in OBIS Manual. https://obis.org/manual/darwincore/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:122
+#: references.en.adoc:123
 msgid ""
 "OGC (2019) OGC Standards. Office of the Geospatial "
 "Consortium. http://www.opengeospatial.org/specs/?page=recommendation"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:123
+#: references.en.adoc:124
 msgid ""
 "Page RDM (2009) bioGUID: Resolving, discovering, and minting identifiers for "
 "biodiversity informatics. BMC Bioinformatics 10(Suppl 14): "
@@ -11434,7 +11442,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:124
+#: references.en.adoc:125
 msgid ""
 "Paredes-Hernández CU, Salinas-Castillo WE, Guevara-Cortina F & "
 "Martínez-Becerra X (2013) Horizontal positional accuracy of Google Earth's "
@@ -11444,7 +11452,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:125
+#: references.en.adoc:126
 msgid ""
 "Paul D (2018). Georeferencing "
 "Overview. "
@@ -11453,7 +11461,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:126
+#: references.en.adoc:127
 msgid ""
 "Pirazzi G, Mazzoni A, Biagi L & Crespi M (2017) Preliminary Performance "
 "Analysis with a GPS+Galileo Enabled Chipset Embedded in a "
@@ -11463,7 +11471,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:127
+#: references.en.adoc:128
 msgid ""
 "Potere D (2008) Horizontal positional accuracy of Google Earth's "
 "high-resolution imagery archive. Sensors 8: "
@@ -11471,7 +11479,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:128
+#: references.en.adoc:129
 msgid ""
 "Prince M (2020) Accuracy and Reliability of Charts. Fact Sheet "
 "A411302. Australian Hydrographic "
@@ -11480,7 +11488,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:129
+#: references.en.adoc:130
 msgid ""
 "Raes N, Mols J, Willemse L & Smets EF (2009) Georeferencing specimens by "
 "combining digitized maps with SRTM digital elevation data and satellite "
@@ -11489,7 +11497,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:130
+#: references.en.adoc:131
 msgid ""
 "Ragheb AE & Ragab AF (2015) Enhancement of Google Earth Positional "
 "Accuracy. International Journal of Engineering Research & Technology: 4(1): "
@@ -11498,21 +11506,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:131
+#: references.en.adoc:132
 msgid ""
 "Rees T (2019) Interim Register of Marine and Nonmarine Genera "
 "(IRMNG). http://www.irmng.org"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:132
+#: references.en.adoc:133
 msgid ""
 "Richards K (2010) TDWG GUID applicability statement. Version "
 "2010‐09. http://www.tdwg.org/standards/150"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:133
+#: references.en.adoc:134
 msgid ""
 "Richards K, White R, Nicolson N & Pyle R (2011) Beginners’ guide to "
 "persistent identifiers. Version 1.0. Copenhagen: GBIF "
@@ -11520,14 +11528,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:134
+#: references.en.adoc:135
 msgid ""
 "Rios N (2019) GEOLocate - Software for Georeferencing Natural History "
 "Data. [Web application software]. http://www.geo-locate.org/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:135
+#: references.en.adoc:136
 msgid ""
 "Reock EC Jr (1961) A Note: Measuring Compactness as a Requirement of "
 "Legislative Apportionment. Midwest Journal of Political Science 5(1): 70-74 "
@@ -11535,7 +11543,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:136
+#: references.en.adoc:137
 msgid ""
 "Robertson MP, Visser V & Hui C (2016) Biogeo: An R package for assessing and "
 "improving data quality of occurrence record datasets. Ecography 39: "
@@ -11543,7 +11551,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:137
+#: references.en.adoc:138
 msgid ""
 "SANBI (2016) Report of the National Sensitive Species List Workshop 18 and "
 "19 August 2016. Cape Town, South Africa: South African National Biodiversity "
@@ -11552,7 +11560,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:138
+#: references.en.adoc:139
 msgid ""
 "Schories D & Niedzwiedz G (2012) Precision, accuracy, and application of "
 "diver-towed underwater GPS receivers. Environmental Monitoring and "
@@ -11560,7 +11568,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:139
+#: references.en.adoc:140
 msgid ""
 "Skone S, Yousuf R & Coster A (2004) Combating the Perfect Storm. Improving "
 "Marine Differential GPS Accuracy with a Wide Area Network. GPS "
@@ -11568,7 +11576,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:140
+#: references.en.adoc:141
 msgid ""
 "Skone S & Yousuf R (2007) Performance of satellite-based navigation for "
 "marine users during ionosphere disturbances. Space Weather 5: SO1006 "
@@ -11576,7 +11584,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:141
+#: references.en.adoc:142
 msgid ""
 "Snyder J (1987) Map Projections – A Working Manual. U.S. Geological Survey "
 "Professional Paper 1395. Washington, DC: United States Government Printing "
@@ -11584,7 +11592,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:142
+#: references.en.adoc:143
 msgid ""
 "Sogade J, Vichabian Y, Reppert PM, Coles D & Morgan FD (2004) Electronic "
 "Cave-to-Surface Mapping System. IEEE Transactions on Geoscience and Remote "
@@ -11592,7 +11600,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:143
+#: references.en.adoc:144
 msgid ""
 "Stein B & Wieczorek J (2004) Mammals of the World: MaNIS as an example of "
 "data integration in a distributed network environment. Journal of "
@@ -11600,7 +11608,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:144
+#: references.en.adoc:145
 msgid ""
 "Tan A, Alomari A & Schamschula M (2016) Land-water distribution and the "
 "pear-shape of the Earth. International Journal of Oceans & Oceanography "
@@ -11608,21 +11616,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:145
+#: references.en.adoc:146
 msgid ""
 "Taylor C (2003) Geographic/UTM Coordinate "
 "Converter. http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:146
+#: references.en.adoc:147
 msgid ""
 "TDWG (2018) Darwin Core quick reference guide. Biodiversity Information "
 "Standards (TDWG). https://dwc.tdwg.org/terms"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:147
+#: references.en.adoc:148
 msgid ""
 "Tomaštik J Jnr, Tomaštik J, Saloň Š & Piroh R (2017) Horizontal Accuracy and "
 "Applicability of Smart Phone GNSS in Forests. Forests 90(2): "
@@ -11630,14 +11638,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:148
+#: references.en.adoc:149
 msgid ""
 "Topozone (1999) Free USGS Topo Maps for the Entire United "
 "States. https://www.topozone.com/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:149
+#: references.en.adoc:150
 msgid ""
 "UNAVCO (2020) Geoid Height "
 "Calculator. "
@@ -11645,7 +11653,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:150
+#: references.en.adoc:151
 msgid ""
 "US Department of Defense & GPS Navstar (2008) Global Positioning System "
 "Standard Positioning Service Performance Standard. 4th "
@@ -11653,28 +11661,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:151
+#: references.en.adoc:152
 msgid ""
 "USGS (1999) Map Accuracy Standards. USGS Fact Sheet "
 "171-99. https://pubs.usgs.gov/fs/1999/0171/report.pdf"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:152
+#: references.en.adoc:153
 msgid ""
 "USGS (2017) USGS Global Positioning Application and "
 "Practice. https://water.usgs.gov/osw/gps/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:153
+#: references.en.adoc:154
 msgid ""
 "[[van-sickle]]Van Sickle J (2015) GPS for Land Surveyors. 4th edition. New "
 "York: CRC Press, Inc."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:154
+#: references.en.adoc:155
 msgid ""
 "Vincenty T (1975) Direct and Inverse Solutions of Geodesics on the Ellipsoid "
 "with application of nested equations. Survey Review 23(176): "
@@ -11682,21 +11690,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:155
+#: references.en.adoc:156
 msgid ""
 "[[vincenty-1976]]Vincenty T 1976. Correspondence: solutions of "
 "geodesics. Survey Review23 (180): 294."
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:156
+#: references.en.adoc:157
 msgid ""
 "VLIZ (2019) Marineregions.org. Flanders Marine Institute Platform for Marine "
 "Research. https://marineregions.org/"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:157
+#: references.en.adoc:158
 msgid ""
 "Wang Y, Zou Y, Henrickson K, Wang Y, Tang J & Park B-J (2017) Google Earth "
 "elevation data extraction and accuracy assessment for transportation "
@@ -11705,7 +11713,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:158
+#: references.en.adoc:159
 msgid ""
 "Wheeler TA, Huber JT & Currie DC (2001) Label Data Standards for Terrestrial "
 "Arthropods. Document Series No. 8. Ottawa, Ontario, Canada: Biological "
@@ -11714,7 +11722,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:159
+#: references.en.adoc:160
 msgid ""
 "Wieczorek C & Wieczorek J (2018) Georeferencing Calculator. Version "
 "2018-06-20. Berkeley, Calif., USA: University of California, Berkeley, "
@@ -11723,7 +11731,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:160
+#: references.en.adoc:161
 msgid ""
 "Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Version "
 "2020-01-31. Rauthiflor "
@@ -11731,7 +11739,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:161
+#: references.en.adoc:162
 msgid ""
 "Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, "
 "California, USA: University of California, Berkeley, Museum of Vertebrate "
@@ -11739,7 +11747,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:162
+#: references.en.adoc:163
 msgid ""
 "Wieczorek J (2019) Global estimates of worst-case datum shifts from "
 "WGS84. Rauthiflor "
@@ -11748,7 +11756,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:163
+#: references.en.adoc:164
 msgid ""
 "Wieczorek J & Beaman R (2002) Georeferencing: Collaboration and "
 "Automation. "
@@ -11756,7 +11764,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:164
+#: references.en.adoc:165
 msgid ""
 "Wieczorek J & Bloom DA (2015) Manual for the Georeferencing "
 "Calculator. Berkeley, California, USA: University of California, Berkeley, "
@@ -11766,7 +11774,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:165
+#: references.en.adoc:166
 msgid ""
 "Wieczorek J, Bloom D, Constable H, Fang J, Koo M, Spencer C & Yamamoto K "
 "(2012a) Georeferencing Quick Reference Guide. Version "
@@ -11774,7 +11782,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:166
+#: references.en.adoc:167
 msgid ""
 "Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T "
 "& Vieglais D (2012b) Darwin Core: An Evolving Community-Developed "
@@ -11783,7 +11791,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:167
+#: references.en.adoc:168
 msgid ""
 "Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for "
 "georeferencing locality descriptions and calculating associated "
@@ -11792,7 +11800,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:168
+#: references.en.adoc:169
 msgid ""
 "Wilkinson M, Dumontier M, Aalbersberg I, Appleton G, Axton M, Baak A, "
 "Blomberg N, Boiten J-W, da Silva Santos LB, Bourne PE, Bouwman J, Brookes "
@@ -11808,7 +11816,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:169
+#: references.en.adoc:170
 msgid ""
 "Wolf A-C, Snaith H, Amirebrahimi S, Devey CW, Dorschel B, Ferrini V, Huvenne "
 "VAI, Jakobsson M, Jencks J, Johnston G, Lamarche G, Mayer L, Millar D, "
@@ -11819,7 +11827,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:170
+#: references.en.adoc:171
 msgid ""
 "World Ocean Review (2010) Living with the Oceans: A Report on the state of "
 "the world’s oceans. Chapter 3: "
@@ -11827,14 +11835,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:171
+#: references.en.adoc:172
 msgid ""
 "WoRMS (2019) WoRMS - World Register of Marine "
 "Species. http://www.marinespecies.org/users.php"
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:172
+#: references.en.adoc:173
 msgid ""
 "Yost M (2015) Georeferencing: the Polygon "
 "Method. "
@@ -11842,7 +11850,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:173
+#: references.en.adoc:174
 msgid ""
 "Yost M (n.d.) Georeferencing: the Polygon Method. Macrofungi Collection "
 "Consortium "
@@ -11851,7 +11859,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:174
+#: references.en.adoc:175
 msgid ""
 "Young HP (1988) Measuring the Compactness of Legislative "
 "Districts. Legislative Studies Quarterly 13(1): "
@@ -11859,7 +11867,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:175
+#: references.en.adoc:176
 msgid ""
 "Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA "
 "(2020). Georeferencing Quick Reference Guide. Copenhagen: GBIF "
@@ -11867,7 +11875,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:176
+#: references.en.adoc:177
 msgid ""
 "Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, "
 "Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli "
@@ -11877,7 +11885,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: references.en.adoc:176
+#: references.en.adoc:177
 msgid ""
 "Zooniverse (n.d.) Notes from "
 "Nature. https://www.zooniverse.org/organizations/md68135/notes-from-nature"
