@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-27 12:41+0000\n"
+"POT-Creation-Date: 2023-07-09 18:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1479,21 +1479,22 @@ msgstr ""
 #. type: Title =====
 #: 0200-elements-for-describing-a-location.en.adoc:106
 #, no-wrap
-msgid "Quarter Degree Squares"
+msgid "Quarter Degree Grid Cells"
 msgstr ""
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:109
 msgid ""
-"Quarter Degree Squares (QDS) or QDGC (Quarter Degree Grid Cells) "
-"(https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. 2009^]) have "
-"been used in many historical African biodiversity atlas projects and "
-"continue to be used for current South African biodiversity projects such as "
-"the Atlas of South African birds "
+"Quarter Degree Grid Cells (QDGC) "
 "(https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et al. 2009^], "
 "http://www.mindland.com/wp/qdgc-quarter-degree-grid-cells-revisited/[Larsen "
-"2012^]). It has also been recommended as the method to use for "
-"<<generalization,generalizing>> sensitive biodiversity data in South Africa "
+"2012^]) and their predecessor Quarter Degree Squares (QDS) have been used in "
+"many historical African biodiversity atlas projects and continue to be used "
+"for current South African biodiversity projects such as the Atlas of South "
+"African birds (Harrison et al.). It has also been recommended as the method "
+"to use for "
+"https://docs.gbif.org/georeferencing-best-practices/1.0/en/#generalization[generalizing^] "
+"sensitive biodiversity data in South Africa "
 "(http://biodiversityadvisor.sanbi.org/wp-content/uploads/2017/06/20160819-NSSL-Workshop-Report.pdf[SANBI "
 "2016^], https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
 msgstr ""
@@ -1501,60 +1502,81 @@ msgstr ""
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:111
 msgid ""
-"Unlike most geographic <<grid>> systems, which have their origin in the "
-"bottom left corner of the grid, QDS grids reference their origin from the "
-"top left corner. Grids are identified by a code that consists of 4 numbers "
-"and two letters (e.g. 2624BD). The code can be worked out as follows:"
+"The QDGC method for recording <<grid,grids>> follows an earlier system (QDS) "
+"that was developed for South Africa, and only worked in southern Africa, "
+"i.e. in the southern and eastern "
+"hemispheres. https://doi.org/10.1111/j.1365-2028.2008.00997.x[Larsen et "
+"al. (2009)^] provided an extension to the QDS standard that allowed the "
+"methodology to be used across the world in all hemispheres. To do this, they "
+"adapted the reference system to address locations independent of the "
+"hemisphere. This required the addition of characters delimiting north/south "
+"and east/west positions. An extra Zero was added to east/west references to "
+"pad to three characters. They changed the reference position for the grids "
+"to that which is closest to the Prime Meridian and the Equator (i.e., in "
+"northern hemisphere Africa, for example to the bottom left, while retaining "
+"the top left for southern Africa). The code is designated by:"
 msgstr ""
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:113
-msgid ""
-"Each degree square is designated by a four digit number made up of the "
-"values of <<latitude>> and <<longitude>> at its top left corner, for "
-"example, 3218 for the larger square in <<img-quarter-degree-squares>>."
+msgid "A symbol denoting the eastern or western hemispheres (E or W)."
 msgstr ""
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:114
-msgid ""
-"Each degree square is divided into sixteen quarter-degree squares, each 15’ "
-"x 15’. These are given two additional letters as indicated. Thus in "
-"<<img-quarter-degree-squares>>, the green square is represented by the code "
-"3218CB."
+msgid "The three-digit degree of longitude."
+msgstr ""
+
+#. type: Plain text
+#: 0200-elements-for-describing-a-location.en.adoc:115
+msgid "A symbol denoting the northern or southern hemisphere (N or S)."
 msgstr ""
 
 #. type: Plain text
 #: 0200-elements-for-describing-a-location.en.adoc:116
+msgid "The two digit degree of <<latitude>>."
+msgstr ""
+
+#. type: Plain text
+#: 0200-elements-for-describing-a-location.en.adoc:117
 msgid ""
-"Note that QDS is developed for use in Africa, and currently only works in "
-"the Southern Hemisphere. It has been suggested that it be extended for use "
-"in the Northern Hemisphere, but this is not yet under development."
+"Each degree square is then divided into sixteen quarter-degree squares, each "
+"15’ x 15’. These are given two additional letters as indicated. Thus in "
+"<<img-quarter-degree-squares>>, the green square is represented by the code "
+"E032S18CB."
+msgstr ""
+
+#. type: Plain text
+#: 0200-elements-for-describing-a-location.en.adoc:119
+msgid ""
+"The earlier Quarter Degree Square (QDS) methodology references this square "
+"as 3218CB. The QDS methodology is still commonly used in southern Africa, "
+"but is easily translatable to the QDGC system."
 msgstr ""
 
 #. type: Block title
-#: 0200-elements-for-describing-a-location.en.adoc:118
+#: 0200-elements-for-describing-a-location.en.adoc:121
 #, no-wrap
 msgid ""
-"Recording data using Quarter Degree Square (QDS) grids. The filled green "
-"grid cell is referenced as QDS 3218CB. Image with permission from "
+"Recording data using Quarter Degree Grid Cells (QDGC). The filled green grid "
+"cell is referenced as QDCC E032S18CB. Image with permission from "
 "http://rephotosa.adu.org.za/FAQs.php[RePhotoSA^]."
 msgstr ""
 
 #. type: Target for macro image
-#: 0200-elements-for-describing-a-location.en.adoc:119
+#: 0200-elements-for-describing-a-location.en.adoc:122
 #, no-wrap
 msgid "img/quarter-degree-squares.svg"
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:121
+#: 0200-elements-for-describing-a-location.en.adoc:124
 #, no-wrap
 msgid "Three-Dimensional Shapes"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:124
+#: 0200-elements-for-describing-a-location.en.adoc:127
 msgid ""
 "Most terrestrial <<location,locations>> are recorded with reference to the "
 "terrestrial surface as <<geographic coordinates>>, sometimes with "
@@ -1563,7 +1585,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:126
+#: 0200-elements-for-describing-a-location.en.adoc:129
 msgid ""
 "{marine}Diving <<event,events>> are commonly recorded using the geographic "
 "coordinates of the point on the surface where the diver entered the water, "
@@ -1582,7 +1604,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 0200-elements-for-describing-a-location.en.adoc:128
+#: 0200-elements-for-describing-a-location.en.adoc:131
 #, no-wrap
 msgid ""
 "Recording the location of an underwater event. *E* denotes the entry point, "
@@ -1596,13 +1618,13 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 0200-elements-for-describing-a-location.en.adoc:129
+#: 0200-elements-for-describing-a-location.en.adoc:132
 #, no-wrap
 msgid "img/underwater-event.png"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:132
+#: 0200-elements-for-describing-a-location.en.adoc:135
 msgid ""
 "{marine}There are many different types of trawls and tows, including bottom "
 "and mid-water trawls. The 3D nature should be captured as above. The "
@@ -1612,13 +1634,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:134
+#: 0200-elements-for-describing-a-location.en.adoc:137
 #, no-wrap
 msgid "Coordinates"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:137
+#: 0200-elements-for-describing-a-location.en.adoc:140
 msgid ""
 "Whenever practical, provide the <<coordinates>> of the <<location>> where an "
 "<<event>> actually occurred (see <<Extent of a Location>>) and accompany "
@@ -1630,7 +1652,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:139
+#: 0200-elements-for-describing-a-location.en.adoc:142
 msgid ""
 "A <<datum>> is an essential part of a <<coordinate reference system>> and "
 "provides the frame of reference. Without it the <<coordinates>> are "
@@ -1642,13 +1664,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:141
+#: 0200-elements-for-describing-a-location.en.adoc:144
 #, no-wrap
 msgid "Geographic Coordinates"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:144
+#: 0200-elements-for-describing-a-location.en.adoc:147
 msgid ""
 "<<geographic coordinates,Geographic coordinates>> are a convenient way to "
 "define a <<location>> in a way that is not only more specific than is "
@@ -1669,7 +1691,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:146
+#: 0200-elements-for-describing-a-location.en.adoc:149
 msgid ""
 "When capturing geographic coordinates, always include as many decimals of "
 "<<precision>> as given by the <<coordinates,coordinate>> source. Coordinates "
@@ -1684,7 +1706,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:148
+#: 0200-elements-for-describing-a-location.en.adoc:151
 msgid ""
 "Decimal degrees are preferred when capturing coordinates from a GPS, "
 "however, where reference to maps is important, and where the GPS receiver "
@@ -1692,13 +1714,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:149
+#: 0200-elements-for-describing-a-location.en.adoc:152
 #, no-wrap
 msgid "Universal Transverse Mercator (UTM) Coordinates"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:152
+#: 0200-elements-for-describing-a-location.en.adoc:155
 msgid ""
 "<<UTM>> is a system for assigning distance-based <<coordinates>> using a "
 "Mercator <<projection>> from an idealized <<ellipsoid>> of the surface of "
@@ -1714,7 +1736,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:154
+#: 0200-elements-for-describing-a-location.en.adoc:157
 msgid ""
 "UTM coordinates consist of a zone number, a hemisphere indicator (N or S), "
 "and <<easting>> and <<northing>> coordinate pairs separated by a space with "
@@ -1724,7 +1746,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:156
+#: 0200-elements-for-describing-a-location.en.adoc:159
 msgid ""
 "Latitude bands are not officially part of UTM, but are used in the Military "
 "Grid Reference System (MGRS). They are used in many applications, including "
@@ -1739,7 +1761,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:158
+#: 0200-elements-for-describing-a-location.en.adoc:161
 msgid ""
 "National and local <<grid>> systems derived from UTM, but which may be based "
 "on different <<ellipsoid,ellipsoids>> and <<datum,datums>>, are basically "
@@ -1752,7 +1774,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:160
+#: 0200-elements-for-describing-a-location.en.adoc:163
 msgid ""
 "When recording a <<location>>, or databasing using UTM or equivalent "
 "coordinates, a zone should ALWAYS be included; otherwise the data are of "
@@ -1766,7 +1788,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:162
+#: 0200-elements-for-describing-a-location.en.adoc:165
 msgid ""
 "Note that <<Darwin Core>> "
 "(https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012b^]) "
@@ -1784,20 +1806,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:164
+#: 0200-elements-for-describing-a-location.en.adoc:167
 msgid ""
 "If using UTM coordinates, always record the UTM zone and the datum or "
 "coordinate reference system."
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:166
+#: 0200-elements-for-describing-a-location.en.adoc:169
 #, no-wrap
 msgid "Coordinate Reference System"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:169
+#: 0200-elements-for-describing-a-location.en.adoc:172
 msgid ""
 "Except under special circumstances (the poles, for example), <<coordinates>> "
 "without a <<coordinate reference system>> do not uniquely specify a "
@@ -1810,7 +1832,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:171
+#: 0200-elements-for-describing-a-location.en.adoc:174
 msgid ""
 "An unofficial (not governed by a standards body) set of <<EPSG>> "
 "(http://www.epsg.org/[IOGP 2019^]) codes are often used (and misused) to "
@@ -1836,7 +1858,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:173
+#: 0200-elements-for-describing-a-location.en.adoc:176
 msgid ""
 "Sources of EPSG codes include epsg.io (http://epsg.io/[Maptiler 2019^]), "
 "https://sis.apache.org/tables/CoordinateReferenceSystems.html[Apache 2019^], "
@@ -1847,7 +1869,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:175
+#: 0200-elements-for-describing-a-location.en.adoc:178
 msgid ""
 "If you are not basing your locality description on a map, set your GPS to "
 "report coordinates using the WGS84 datum or a recent local datum that "
@@ -1857,13 +1879,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:176
+#: 0200-elements-for-describing-a-location.en.adoc:179
 #, no-wrap
 msgid "Using a GPS"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:179
+#: 0200-elements-for-describing-a-location.en.adoc:182
 msgid ""
 "<<GPS>> (Global Positioning System) technology uses triangulation between a "
 "GPS/<<GNSS>> receiver and GPS or GNSS satellites (<<kaplan,Kaplan & Hegarty "
@@ -1899,7 +1921,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:181
+#: 0200-elements-for-describing-a-location.en.adoc:184
 msgid ""
 "To obtain the best possible <<accuracy>>, the GPS/GNSS receiver must be "
 "located in an area that is free from overhead obstructions and reflective "
@@ -1919,7 +1941,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:183
+#: 0200-elements-for-describing-a-location.en.adoc:186
 msgid ""
 "Set your GPS to report locations in decimal degrees rather than make a "
 "conversion from another coordinate system as it is usually more precise (see "
@@ -1928,7 +1950,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:185
+#: 0200-elements-for-describing-a-location.en.adoc:188
 msgid ""
 "An alternative where reference to maps is important, and where the GPS "
 "receiver allows it, is to set the recorder to report in degrees, minutes, "
@@ -1936,13 +1958,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:186
+#: 0200-elements-for-describing-a-location.en.adoc:189
 #, no-wrap
 msgid "Choosing a GPS or GNSS Receiver"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:189
+#: 0200-elements-for-describing-a-location.en.adoc:192
 msgid ""
 "One of the most important issues for consideration when choosing a <<GPS>> "
 "or <<GNSS>> receiver is the antenna. An antenna behaves both as a spatial "
@@ -1954,7 +1976,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:191
+#: 0200-elements-for-describing-a-location.en.adoc:194
 msgid ""
 "For information on issues to consider when selecting an appropriate <<GNSS>> "
 "antenna and/or <<GPS>> receiver, we refer you to Chapter 2 in "
@@ -1965,13 +1987,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:192
+#: 0200-elements-for-describing-a-location.en.adoc:195
 #, no-wrap
 msgid "GPS Accuracy"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:195
+#: 0200-elements-for-describing-a-location.en.adoc:198
 msgid ""
 "Most <<GPS>> devices are able to report a theoretical horizontal "
 "<<accuracy>> based on local conditions at the time of reading (atmospheric "
@@ -1983,7 +2005,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:197
+#: 0200-elements-for-describing-a-location.en.adoc:200
 msgid ""
 "The latest US Government commitment "
 "(https://www.gps.gov/technical/ps/2008-SPS-performance-standard.pdf[US "
@@ -2013,13 +2035,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:198
+#: 0200-elements-for-describing-a-location.en.adoc:201
 #, no-wrap
 msgid "Differential GNSS"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:201
+#: 0200-elements-for-describing-a-location.en.adoc:204
 msgid ""
 "The use of Differential <<GNSS>> (DGNSS) (incorporating Differential <<GPS>> "
 "(DGPS)) can improve <<accuracy>> considerably. DGNSS references a GNSS Base "
@@ -2048,7 +2070,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:203
+#: 0200-elements-for-describing-a-location.en.adoc:206
 msgid ""
 "{marine}Marine horizontal position <<accuracy>> requirements are 2-5 meters "
 "(at a 95 percent confidence level) for safety of navigation in inland "
@@ -2063,7 +2085,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:205
+#: 0200-elements-for-describing-a-location.en.adoc:208
 msgid ""
 "DGNSS accuracies are susceptible to severe degradation due to enhanced "
 "ionospheric effects associated with geomagnetic storms. Degradation can be "
@@ -2072,13 +2094,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:206
+#: 0200-elements-for-describing-a-location.en.adoc:209
 #, no-wrap
 msgid "Satellite Based Augmentation System"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:209
+#: 0200-elements-for-describing-a-location.en.adoc:212
 msgid ""
 "<<SBAS,Satellite Based Augmentation System (SBAS)>> is a collection of "
 "geosynchronous satellites originally developed for precision guidance of "
@@ -2102,13 +2124,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 0200-elements-for-describing-a-location.en.adoc:210
+#: 0200-elements-for-describing-a-location.en.adoc:213
 #, no-wrap
 msgid "Wide Area Augmentation System"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:213
+#: 0200-elements-for-describing-a-location.en.adoc:216
 msgid ""
 "The first <<SBAS>> system was <<WAAS>> (Wide Area Augmentation System), "
 "which was originally developed to provide improved <<GPS>> <<accuracy>> and "
@@ -2119,13 +2141,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 0200-elements-for-describing-a-location.en.adoc:214
+#: 0200-elements-for-describing-a-location.en.adoc:217
 #, no-wrap
 msgid "European Geostationary Navigation Overlay Service"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:217
+#: 0200-elements-for-describing-a-location.en.adoc:220
 msgid ""
 "The European Geostationary Navigation Overlay Service (EGNOS) was developed "
 "as an augmentation system that improves the <<accuracy>> of positions "
@@ -2137,13 +2159,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 0200-elements-for-describing-a-location.en.adoc:218
+#: 0200-elements-for-describing-a-location.en.adoc:221
 #, no-wrap
 msgid "Other SBAS Services"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:221
+#: 0200-elements-for-describing-a-location.en.adoc:224
 msgid ""
 "More recently, other <<SBAS>>s have been, or are in the process of being "
 "developed to cover other parts of the world, including MSAS (Japan and parts "
@@ -2164,13 +2186,13 @@ msgid ""
 msgstr ""
 
 #. type: Title =====
-#: 0200-elements-for-describing-a-location.en.adoc:222
+#: 0200-elements-for-describing-a-location.en.adoc:225
 #, no-wrap
 msgid "Accuracy of SBAS Services"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:225
+#: 0200-elements-for-describing-a-location.en.adoc:228
 msgid ""
 "A study in 2016 determined that, over most of the USA, the <<accuracy>> of "
 "<<WAAS>>-enabled, single-frequency <<GPS>> units was on the order of 1.9 "
@@ -2185,7 +2207,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:227
+#: 0200-elements-for-describing-a-location.en.adoc:230
 msgid ""
 "Despite early indications that WAAS can significantly improve positional "
 "<<accuracy>> during the most severe period of geomagnetic storms, more "
@@ -2198,13 +2220,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:228
+#: 0200-elements-for-describing-a-location.en.adoc:231
 #, no-wrap
 msgid "Ground-based Augmentation System"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:231
+#: 0200-elements-for-describing-a-location.en.adoc:234
 msgid ""
 "Ground Based Augmentation Systems (GBAS), also known as Local Area "
 "Augmentation Systems (LAAS), provide differential corrections and satellite "
@@ -2217,13 +2239,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:232
+#: 0200-elements-for-describing-a-location.en.adoc:235
 #, no-wrap
 msgid "Precise Point Positioning"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:235
+#: 0200-elements-for-describing-a-location.en.adoc:238
 msgid ""
 "Precise Point Positioning (PPP) depends on <<GNSS>> satellite clock and "
 "orbit corrections, generated from a network of global reference stations to "
@@ -2233,7 +2255,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:237
+#: 0200-elements-for-describing-a-location.en.adoc:240
 msgid ""
 "Although similar to <<SBAS>> systems (see above), they generally provide a "
 "greater <<accuracy>> and have the advantage of providing a single, global "
@@ -2245,13 +2267,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:238
+#: 0200-elements-for-describing-a-location.en.adoc:241
 #, no-wrap
 msgid "Static GPS"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:241
+#: 0200-elements-for-describing-a-location.en.adoc:244
 msgid ""
 "Static <<GPS>> uses high <<precision>> instruments and specialist techniques "
 "and is generally employed only by surveyors. Surveys conducted in Australia "
@@ -2262,13 +2284,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:242
+#: 0200-elements-for-describing-a-location.en.adoc:245
 #, no-wrap
 msgid "Dual and Multi-Frequency GPS"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:245
+#: 0200-elements-for-describing-a-location.en.adoc:248
 msgid ""
 "High-end dual and multi-frequency <<GPS>>/<<GNSS>> devices can bring "
 "<<accuracy>> to the centimeter level, and even mm level over the long-term "
@@ -2281,14 +2303,14 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:246
-#: 0200-elements-for-describing-a-location.en.adoc:300
+#: 0200-elements-for-describing-a-location.en.adoc:249
+#: 0200-elements-for-describing-a-location.en.adoc:303
 #, no-wrap
 msgid "Smartphones"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:249
+#: 0200-elements-for-describing-a-location.en.adoc:252
 msgid ""
 "<<GPS>>-enabled smartphones are typically <<accuracy,accurate>> to within "
 "4.9 m (16 ft.) under open sky, however, their accuracy worsens near "
@@ -2324,20 +2346,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:251
+#: 0200-elements-for-describing-a-location.en.adoc:254
 msgid ""
 "Smartphone GPS technology is changing rapidly and there is likely to be new "
 "and updated information even before this document is published."
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:252
+#: 0200-elements-for-describing-a-location.en.adoc:255
 #, no-wrap
 msgid "GPS-enabled Cameras"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:255
+#: 0200-elements-for-describing-a-location.en.adoc:258
 msgid ""
 "We are not aware of the characteristics of the <<accuracy>> of "
 "<<GPS>>-enabled cameras, but we expect the accuracy to be similar to that of "
@@ -2350,13 +2372,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:256
+#: 0200-elements-for-describing-a-location.en.adoc:259
 #, no-wrap
 msgid "Diver-towed Underwater GPS Receivers"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:259
+#: 0200-elements-for-describing-a-location.en.adoc:262
 msgid ""
 "{marine}Over the years, a number of methods for tracking a diver underwater "
 "with a <<GPS>> have been tried with limited success. These included using a "
@@ -2380,14 +2402,14 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:261
-#: 0200-elements-for-describing-a-location.en.adoc:407
+#: 0200-elements-for-describing-a-location.en.adoc:264
+#: 0200-elements-for-describing-a-location.en.adoc:410
 #, no-wrap
 msgid "Elevation"
 msgstr ""
 
 #. type: Plain text
-#: 0200-elements-for-describing-a-location.en.adoc:264
+#: 0200-elements-for-describing-a-location.en.adoc:267
 msgid ""
 "Supplement the <<locality>> description with <<elevation>> information if "
 "this can be easily obtained. Elevation can be determined from a variety of "
@@ -2400,13 +2422,13 @@ msgid ""
 msgstr ""
 
 #. type: Positional ($2) AttributeList argument for style 'quote'
-#: 0200-elements-for-describing-a-location.en.adoc:266
+#: 0200-elements-for-describing-a-location.en.adoc:269
 #, no-wrap
 msgid "Murphy et al. 2004"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:268
+#: 0200-elements-for-describing-a-location.en.adoc:271
 msgid ""
 "Elevation markings can narrow down the area in which you place a point. More "
 "often than not, however, they seem to create inconsistency. While elevation "
@@ -2418,7 +2440,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:271
+#: 0200-elements-for-describing-a-location.en.adoc:274
 msgid ""
 "When adding elevation after the fact be aware that the elevation can vary "
 "considerably over a small area (especially in steep terrain) and that the "
@@ -2427,13 +2449,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:272
+#: 0200-elements-for-describing-a-location.en.adoc:275
 #, no-wrap
 msgid "Altimeters"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:275
+#: 0200-elements-for-describing-a-location.en.adoc:278
 msgid ""
 "A barometric altimeter uses changes in air pressure as a proxy for changes "
 "in elevation, and can be a reliable source of elevation if properly "
@@ -2449,7 +2471,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:277
+#: 0200-elements-for-describing-a-location.en.adoc:280
 msgid ""
 "In theory it would be possible to use a barometric altimeter to determine "
 "elevations when in a {caves}subterranean <<location>> (cave, mine, etc.), "
@@ -2459,13 +2481,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:278
+#: 0200-elements-for-describing-a-location.en.adoc:281
 #, no-wrap
 msgid "Maps"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:281
+#: 0200-elements-for-describing-a-location.en.adoc:284
 msgid ""
 "Elevation can be determined using the contours and spot height information "
 "from a suitable scale map of the area. In general, the uncertainty in the "
@@ -2473,20 +2495,20 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:283
+#: 0200-elements-for-describing-a-location.en.adoc:286
 msgid ""
 "For information on determining accuracy from a map, see <<Uncertainty in "
 "Paper Map Measurements>>."
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:285
+#: 0200-elements-for-describing-a-location.en.adoc:288
 #, no-wrap
 msgid "GPS"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:288
+#: 0200-elements-for-describing-a-location.en.adoc:291
 msgid ""
 "<<elevation,Elevation>> <<accuracy>> as reported from a <<GPS>> has improved "
 "markedly in recent years, but elevation accuracy is not usually reported by "
@@ -2505,7 +2527,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:290
+#: 0200-elements-for-describing-a-location.en.adoc:293
 msgid ""
 "Note that GPS elevation readings can represent one of at least two different "
 "values, depending on the method used by the GPS. Elevation reported can be "
@@ -2528,13 +2550,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:291
+#: 0200-elements-for-describing-a-location.en.adoc:294
 #, no-wrap
 msgid "Vertical Datums"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:294
+#: 0200-elements-for-describing-a-location.en.adoc:297
 msgid ""
 "In 2022, the USA will release a new geometric reference frame and "
 "geopotential <<vertical datum>> that will replace existing USA geometric "
@@ -2560,13 +2582,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:295
+#: 0200-elements-for-describing-a-location.en.adoc:298
 #, no-wrap
 msgid "Digital Elevation Models"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:298
+#: 0200-elements-for-describing-a-location.en.adoc:301
 msgid ""
 "<<digital elevation model,Digital Elevation Models>> (DEM) are based on "
 "<<elevation,elevations>> above <<mean-sea-level>> (or more recently, the "
@@ -2604,7 +2626,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:303
+#: 0200-elements-for-describing-a-location.en.adoc:306
 msgid ""
 "Some smartphones, whether they incorporate <<GPS>> capabilities or not, use "
 "apps that provide <<elevation>> values based on a <<digital elevation "
@@ -2629,7 +2651,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 0200-elements-for-describing-a-location.en.adoc:305
+#: 0200-elements-for-describing-a-location.en.adoc:308
 #, no-wrap
 msgid ""
 "Map comparing the geoid-based Mean Sea Level to the WGS84 "
@@ -2641,19 +2663,19 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 0200-elements-for-describing-a-location.en.adoc:306
+#: 0200-elements-for-describing-a-location.en.adoc:309
 #, no-wrap
 msgid "img/mean-sea-level-wgs84-ellipsoid.png"
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:308
+#: 0200-elements-for-describing-a-location.en.adoc:311
 #, no-wrap
 msgid "GPS-enabled Digital Cameras"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:311
+#: 0200-elements-for-describing-a-location.en.adoc:314
 msgid ""
 "<<GPS>>-enabled digital cameras are like smartphones with respect to "
 "positional accuracy as they have similar sized in-board antennas. To "
@@ -2665,7 +2687,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:313
+#: 0200-elements-for-describing-a-location.en.adoc:316
 msgid ""
 "Underwater digital cameras only update their position when the diver or "
 "snorkeler takes the camera above the surface long enough for the GPS to fix "
@@ -2673,13 +2695,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:314
+#: 0200-elements-for-describing-a-location.en.adoc:317
 #, no-wrap
 msgid "Google Earth"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:317
+#: 0200-elements-for-describing-a-location.en.adoc:320
 msgid ""
 "Using a large sample size (n>20,000) of <<GPS>> benchmarks in a variety of "
 "terrains in the United States, "
@@ -2702,13 +2724,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:318
+#: 0200-elements-for-describing-a-location.en.adoc:321
 #, no-wrap
 msgid "Headings"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:321
+#: 0200-elements-for-describing-a-location.en.adoc:324
 msgid ""
 "Compass directions (also known as <<heading,headings>>) can be rather "
 "ambiguous. North, for example, might be any direction between northwest and "
@@ -2722,7 +2744,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:323
+#: 0200-elements-for-describing-a-location.en.adoc:326
 msgid ""
 "It is important to record headings based on True North (true heading) and "
 "not on Magnetic North (magnetic heading). The differences between True North "
@@ -2738,7 +2760,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:325
+#: 0200-elements-for-describing-a-location.en.adoc:328
 msgid ""
 "The differences between True North and Magnetic North also change over time "
 "(https://www.ngdc.noaa.gov/geomag/GeomagneticPoles.shtml[NOAA n.d.a^]). The "
@@ -2755,13 +2777,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:326
+#: 0200-elements-for-describing-a-location.en.adoc:329
 #, no-wrap
 msgid "Offsets"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:329
+#: 0200-elements-for-describing-a-location.en.adoc:332
 msgid ""
 "An <<offset>> is a displacement from a reference point, named place, or "
 "other <<feature>>, and is generally accompanied by a direction (or "
@@ -2778,13 +2800,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:330
+#: 0200-elements-for-describing-a-location.en.adoc:333
 #, no-wrap
 msgid "Offset Distance Only"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:333
+#: 0200-elements-for-describing-a-location.en.adoc:336
 msgid ""
 "A <<locality>> consisting of an <<offset>> from a <<feature>> without a "
 "<<heading>> may arise as a result of an <<error>> when recording the "
@@ -2807,13 +2829,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:334
+#: 0200-elements-for-describing-a-location.en.adoc:337
 #, no-wrap
 msgid "Offset Direction Only"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:337
+#: 0200-elements-for-describing-a-location.en.adoc:340
 msgid ""
 "A <<locality>> with a <<heading>> from a <<feature>>, but with no distance "
 "(e.g. \"East of Albuquerque\"), is particularly ambiguous and very "
@@ -2825,7 +2847,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:339
+#: 0200-elements-for-describing-a-location.en.adoc:342
 msgid ""
 "Note that seldom is such locality information given alone. For example, the "
 "locality may have administrative geography information (e.g. ‘East of "
@@ -2838,13 +2860,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:340
+#: 0200-elements-for-describing-a-location.en.adoc:343
 #, no-wrap
 msgid "Offset at a Heading"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:343
+#: 0200-elements-for-describing-a-location.en.adoc:346
 msgid ""
 "A <<locality>> that contains an <<offset>> in a given direction to or from a "
 "<<feature>> is treated here as an \"offset at a <<heading>>\". There are "
@@ -2856,7 +2878,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:345
+#: 0200-elements-for-describing-a-location.en.adoc:348
 msgid ""
 "It is not uncommon for {marine}marine locality descriptions to use an "
 "azimuth – a heading toward a target feature, for example, \"25° to Waipapa "
@@ -2867,7 +2889,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:347
+#: 0200-elements-for-describing-a-location.en.adoc:350
 msgid ""
 "Where the sense of the offset cannot be determined from the locality "
 "description or additional information and there is no obvious major path "
@@ -2882,7 +2904,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:349
+#: 0200-elements-for-describing-a-location.en.adoc:352
 msgid ""
 "The addition of an adverbial modifier to the distance part of a locality "
 "description (such as \"about 25 km\"), while an honest observation, should "
@@ -2893,13 +2915,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:350
+#: 0200-elements-for-describing-a-location.en.adoc:353
 #, no-wrap
 msgid "Offset along a Path"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:353
+#: 0200-elements-for-describing-a-location.en.adoc:356
 msgid ""
 "Sometimes it is convenient to describe a <<locality>> as a distance along a "
 "curvilinear <<feature>> — a <<path>> such as a road, river, trail, etc. (see "
@@ -2923,7 +2945,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:355
+#: 0200-elements-for-describing-a-location.en.adoc:358
 msgid ""
 "If the <<locality>> references a river, such as in the example \"16 mi "
 "downstream from St Louis on the left bank of the Mississippi River\", it is "
@@ -2934,13 +2956,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:356
+#: 0200-elements-for-describing-a-location.en.adoc:359
 #, no-wrap
 msgid "Offset along Orthogonal Directions"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:359
+#: 0200-elements-for-describing-a-location.en.adoc:362
 msgid ""
 "This type of <<locality>> refers to rectilinear distances in two orthogonal "
 "<<direction,directions>> from a <<feature>>, for example, \"2 mi E and 1.5 "
@@ -2958,13 +2980,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:360
+#: 0200-elements-for-describing-a-location.en.adoc:363
 #, no-wrap
 msgid "Water Depth"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:363
+#: 0200-elements-for-describing-a-location.en.adoc:366
 msgid ""
 "Water <<depth>> should be recorded as a range; i.e. as minimum and maximum "
 "positive distances in meters below the air-water interface of the water body "
@@ -2975,13 +2997,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:365
+#: 0200-elements-for-describing-a-location.en.adoc:368
 #, no-wrap
 msgid "Bathymetry"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:368
+#: 0200-elements-for-describing-a-location.en.adoc:371
 msgid ""
 "{marine}The <<depth>> of the benthic surface in large water bodies is called "
 "<<bathymetry>> or bathymetric depth. It is usually recorded in one of two "
@@ -2992,7 +3014,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:370
+#: 0200-elements-for-describing-a-location.en.adoc:373
 msgid ""
 "Since 2003, the most commonly used global coverage of bathymetry has been "
 "the One Minute General Bathymetric Chart of the Oceans "
@@ -3012,7 +3034,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:372
+#: 0200-elements-for-describing-a-location.en.adoc:375
 msgid ""
 "Bathymetric contours have generally only been available for harbors, coastal "
 "and near inshore areas, in some places extending to the edges of the "
@@ -3035,7 +3057,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:374
+#: 0200-elements-for-describing-a-location.en.adoc:377
 msgid ""
 "Very few studies have been carried out on the accuracy of either the "
 "bathymetric grids or contours – especially with GEBCO_2019 as the dataset "
@@ -3056,13 +3078,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:375
+#: 0200-elements-for-describing-a-location.en.adoc:378
 #, no-wrap
 msgid "Dive Computers"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:378
+#: 0200-elements-for-describing-a-location.en.adoc:381
 msgid ""
 "{marine}There are three methods for determining <<depth>> that are generally "
 "used by divers, i.e. dive computers, dive watches and depth gauges. All work "
@@ -3073,7 +3095,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:380
+#: 0200-elements-for-describing-a-location.en.adoc:383
 msgid ""
 "A study of 47 brands of dive computers at depths of 10 m, 20 m, 30 m, 40 m "
 "and 50 m in both seawater and freshwater showed that the majority of depth "
@@ -3089,13 +3111,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:382
+#: 0200-elements-for-describing-a-location.en.adoc:385
 #, no-wrap
 msgid "Distance above Surface"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:385
+#: 0200-elements-for-describing-a-location.en.adoc:388
 msgid ""
 "<<distance above surface,Distance above surface>> should be recorded in "
 "meters in a vertical direction from a reference point, with a minimum and a "
@@ -3106,7 +3128,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:387
+#: 0200-elements-for-describing-a-location.en.adoc:390
 msgid ""
 "The reference point for the measurement of a distance above surface can vary "
 "depending on the context. For surface terrestrial locations, the reference "
@@ -3120,7 +3142,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:389
+#: 0200-elements-for-describing-a-location.en.adoc:392
 msgid ""
 "We recommend that distance above surface always be measured in the same "
 "sense, that is, as distances _above_ the reference surface. Distances above "
@@ -3133,7 +3155,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 0200-elements-for-describing-a-location.en.adoc:391
+#: 0200-elements-for-describing-a-location.en.adoc:394
 #, no-wrap
 msgid ""
 "Examples of use of depth, elevation and distance above surface, for *A*: "
@@ -3144,39 +3166,39 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 0200-elements-for-describing-a-location.en.adoc:392
+#: 0200-elements-for-describing-a-location.en.adoc:395
 #, no-wrap
 msgid "img/depth-elevation-distance-above-surface.png"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:395
+#: 0200-elements-for-describing-a-location.en.adoc:398
 msgid ""
 "For the special case of recording locations within a {caves}cave system or "
 "in an underground mine, see <<Caves>>."
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:396
+#: 0200-elements-for-describing-a-location.en.adoc:399
 #, no-wrap
 msgid "Caves"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:399
+#: 0200-elements-for-describing-a-location.en.adoc:402
 msgid ""
 "{caves}Collecting in caves, underground mines and tunnels presents a number "
 "of challenges not encountered elsewhere."
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:400
+#: 0200-elements-for-describing-a-location.en.adoc:403
 #, no-wrap
 msgid "Determining location"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:403
+#: 0200-elements-for-describing-a-location.en.adoc:406
 msgid ""
 "In {caves}cave systems and underground mines, determining the geographic "
 "position on the surface (known as <<ground zero>>) can be done with "
@@ -3198,7 +3220,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:405
+#: 0200-elements-for-describing-a-location.en.adoc:408
 msgid ""
 "A second method, using the cave mouth, is probably more commonly used, is "
 "easier to determine, but is less accurate and has a much greater "
@@ -3222,7 +3244,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:410
+#: 0200-elements-for-describing-a-location.en.adoc:413
 msgid ""
 "Traditionally, cavers have recorded the depth in a {caves}cave as the depth "
 "below the surface, however, in this document and for the purposes of "
@@ -3231,7 +3253,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:412
+#: 0200-elements-for-describing-a-location.en.adoc:415
 msgid ""
 "The distance below <<ground zero>> can be determined using the same "
 "radiolocation equipment as for determining the ground zero itself (see "
@@ -3251,7 +3273,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:414
+#: 0200-elements-for-describing-a-location.en.adoc:417
 msgid ""
 "From these figures, it is possible to determine the <<elevation>> of the "
 "floor of the cave by taking the elevation at ground zero and deducting the "
@@ -3262,7 +3284,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:416
+#: 0200-elements-for-describing-a-location.en.adoc:419
 msgid ""
 "Using detailed cave maps may provide a better (and cheaper) alternative to "
 "other methods, and you should choose the best method for your purpose, but "
@@ -3271,7 +3293,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 0200-elements-for-describing-a-location.en.adoc:418
+#: 0200-elements-for-describing-a-location.en.adoc:421
 #, no-wrap
 msgid ""
 "Specifying the vertical position of a location in a cave using an elevation "
@@ -3283,19 +3305,19 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: 0200-elements-for-describing-a-location.en.adoc:419
+#: 0200-elements-for-describing-a-location.en.adoc:422
 #, no-wrap
 msgid "img/vertical-position-in-a-cave.png"
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:421
+#: 0200-elements-for-describing-a-location.en.adoc:424
 #, no-wrap
 msgid "Depth in Subterranean Water Bodies"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:424
+#: 0200-elements-for-describing-a-location.en.adoc:427
 msgid ""
 "The water <<depth>> within a subterranean water body (lake, river, sinkhole, "
 "etc.) is recorded as for other water bodies and is measured from the surface "
@@ -3305,13 +3327,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 0200-elements-for-describing-a-location.en.adoc:425
+#: 0200-elements-for-describing-a-location.en.adoc:428
 #, no-wrap
 msgid "Distance Above or Below a Surface"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:428
+#: 0200-elements-for-describing-a-location.en.adoc:431
 msgid ""
 "Determining the <<distance above surface,distance above>> (and below) a "
 "surface (as documented elsewhere) is treated the same within a {caves}cave "
@@ -3324,13 +3346,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:429
+#: 0200-elements-for-describing-a-location.en.adoc:432
 #, no-wrap
 msgid "Dealing with Non-natural Occurrences"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:432
+#: 0200-elements-for-describing-a-location.en.adoc:435
 msgid ""
 "Records of non-natural occurrences such as cultivated plants and captive "
 "animals, and records resulting from {marine}beach drift or having been "
@@ -3344,13 +3366,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:433
+#: 0200-elements-for-describing-a-location.en.adoc:436
 #, no-wrap
 msgid "Absences and Non-Detections"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:436
+#: 0200-elements-for-describing-a-location.en.adoc:439
 msgid ""
 "An ‘absence’ is when a particular detection protocol, implemented at a "
 "particular location and time, does not result in a detection. True absence "
@@ -3373,7 +3395,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:438
+#: 0200-elements-for-describing-a-location.en.adoc:441
 msgid ""
 "There are many methodologies by which an observer may ascribe an "
 "absence. Each of these methodologies will have an additional methodological "
@@ -3390,40 +3412,40 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:440
+#: 0200-elements-for-describing-a-location.en.adoc:443
 msgid "It is thus important to document:"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:442
+#: 0200-elements-for-describing-a-location.en.adoc:445
 msgid ""
 "The location as discussed <<elements-for-describing-a-location,elsewhere in "
 "this document>>"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:443
+#: 0200-elements-for-describing-a-location.en.adoc:446
 msgid "The area covered by the non-detection"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:444
+#: 0200-elements-for-describing-a-location.en.adoc:447
 msgid "The time, duration, and date"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:445
+#: 0200-elements-for-describing-a-location.en.adoc:448
 msgid "The methodology used"
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:446
+#: 0200-elements-for-describing-a-location.en.adoc:449
 #, no-wrap
 msgid "Remotely Captured Data"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:449
+#: 0200-elements-for-describing-a-location.en.adoc:452
 msgid ""
 "{ecological}Counts of animals or plants may be made remotely – for example "
 "using an aircraft utilizing direct counts by individuals or using camera or "
@@ -3441,7 +3463,7 @@ msgid ""
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:451
+#: 0200-elements-for-describing-a-location.en.adoc:454
 msgid ""
 "In many of these examples, the count of the number of individuals within an "
 "area is the aim, rather than the location of individual organisms. This may "
@@ -3452,13 +3474,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:452
+#: 0200-elements-for-describing-a-location.en.adoc:455
 #, no-wrap
 msgid "Data for Small Labels"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:455
+#: 0200-elements-for-describing-a-location.en.adoc:458
 msgid ""
 "An issue that often arises with insect collections is the challenge of "
 "recording <<locality>> information on small labels. This should not be as "
@@ -3475,14 +3497,14 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 0200-elements-for-describing-a-location.en.adoc:457
+#: 0200-elements-for-describing-a-location.en.adoc:460
 #: 0600-maintaining-data-quality.en.adoc:159
 #, no-wrap
 msgid "Documentation"
 msgstr ""
 
 #. type: quote
-#: 0200-elements-for-describing-a-location.en.adoc:459
+#: 0200-elements-for-describing-a-location.en.adoc:462
 msgid ""
 "Record the sources of all measurements. Minimally, include map name and "
 "scale, the <<datum>> or <<coordinate reference system>>, the source for "
