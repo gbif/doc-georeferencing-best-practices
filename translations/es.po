@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
-"POT-Creation-Date: 2023-07-09 18:57+0000\n"
-"PO-Revision-Date: 2023-07-09 19:44\n"
+"POT-Creation-Date: 2024-05-06 12:55+0000\n"
+"PO-Revision-Date: 2024-05-06 14:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -30,8 +30,8 @@ msgstr "languageLinks:combined[]"
 #. type: Target for macro image
 #: colophon.en.adoc:3
 #, no-wrap
-msgid "img/web/photo.jpg"
-msgstr "img/web/photo.jpg"
+msgid "img/web/georreference-guide-1.png"
+msgstr ""
 
 #. type: Title ==
 #: colophon.en.adoc:6
