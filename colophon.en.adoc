@@ -43,4 +43,4 @@ Where there are differences in interpretation between this document and translat
 
 === Cover image
 
-Spotted whelk (_Cominella maculosa_), Waitangi Bay, Chatham Island. Photo 2019 Peter de Lange via https://www.gbif.org/occurrence/2005333834[iNaturalist research-grade observations], public domain under http://creativecommons.org/publicdomain/zero/1.0/[CC0].
+GBIF Secretariat, 2024.
