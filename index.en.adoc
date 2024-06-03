@@ -4,7 +4,7 @@
 :author_2: John R. Wieczorek
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
-:title-logo-image: img/web/photo.jpg
+:title-logo-image: img/web/georreference-guide-1.png 
 // Revision
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
