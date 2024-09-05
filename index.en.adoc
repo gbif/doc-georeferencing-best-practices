@@ -6,7 +6,7 @@
 // Title
 :title-logo-image: img/web/georreference-guide-1.png 
 // Revision
-:revnumber: {git-metadata-sha-short}
+:revnumber: v1.1.2
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 // Contents, sections
 :toc: left
