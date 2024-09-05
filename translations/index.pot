@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-09-05 14:20+0000\n"
+"POT-Creation-Date: 2024-09-05 14:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Georeferencing Best Practices"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:45
+#: index.en.adoc:44
 msgid "languageLinks:combined[]"
 msgstr ""
 
@@ -122,13 +122,15 @@ msgstr ""
 msgid "Document control"
 msgstr ""
 
+#.  Change the attributes in index.en.adoc rather than editing this, so they are also
+#.  updated in the header.
 #. type: Plain text
-#: colophon.en.adoc:35
-msgid "v1.1.1, July 2023"
+#: colophon.en.adoc:37
+msgid "{revnumber} {revdate}"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:37
+#: colophon.en.adoc:39
 msgid ""
 "Originally based on an earlier publication, "
 "https://orcid.org/0000-0003-1700-6962[Chapman AD] & "
@@ -138,13 +140,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:38
+#: colophon.en.adoc:40
 #, no-wrap
 msgid "Disclaimer"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:41
+#: colophon.en.adoc:43
 msgid ""
 "The information in this book represents the professional opinion of the "
 "authors, and does not necessarily represent the views of the "
@@ -157,7 +159,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:43
+#: colophon.en.adoc:45
 msgid ""
 "Where there are differences in interpretation between this document and "
 "translated versions in languages other than English, the English version "
@@ -165,13 +167,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:44
+#: colophon.en.adoc:46
 #, no-wrap
 msgid "Cover image"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:46
+#: colophon.en.adoc:48
 msgid "GBIF Secretariat, 2024."
 msgstr ""
 
@@ -5710,12 +5712,12 @@ msgid ""
 "to not only traditional named places, but also to places that may not have "
 "proper names, such as road junctions, stream confluences, highway mile pegs, "
 "and cells in grid systems (e.g. Quarter Degree Square Cells, see <<Quarter "
-"Degree Squares>>). The source and <<precision>> of the coordinates should be "
-"recorded so that the validity of the <<georeference,georeferenced>> locality "
-"can be checked. The original <<coordinate system>> and the <<geodetic "
-"datum>> should also be recorded. This information helps to determine sources "
-"and the <<maximum uncertainty distance>>, especially with respect to the "
-"original <<coordinate precision>>."
+"Degree Grid Cells>>). The source and <<precision>> of the coordinates should "
+"be recorded so that the validity of the <<georeference,georeferenced>> "
+"locality can be checked. The original <<coordinate system>> and the "
+"<<geodetic datum>> should also be recorded. This information helps to "
+"determine sources and the <<maximum uncertainty distance>>, especially with "
+"respect to the original <<coordinate precision>>."
 msgstr ""
 
 #. type: Plain text
@@ -11873,7 +11875,7 @@ msgstr ""
 #: references.en.adoc:177
 msgid ""
 "Zizka A, Silvestro D, Andermann T, Azevedo J, Ritter CD, Edler D, Farooq H, "
-"Herdean A, Ariza M, Sharn R, Svantesson S, Wengstrȍm N, Zizka V & Antonelli "
+"Herdean A, Ariza M, Sharn R, Svantesson S, Wengström N, Zizka V & Antonelli "
 "A (2019) CoordinateCleaner: Standardized cleaning of occurrence records from "
 "biological collection databases. Methods in Ecology and Evolution 10(5): "
 "744-751. https://doi.org/10.1111/2041-210X.13152"
