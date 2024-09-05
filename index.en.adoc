@@ -4,10 +4,10 @@
 :author_2: John R. Wieczorek
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Title
-:title-logo-image: img/web/georreference-guide-1.png 
+:title-page-background-image: image:img/web/georreference-guide-1.png[position=top center,fit=none,pdfwidth=90%]
 // Revision
 :revnumber: v1.1.2
-:revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
+:revdate: #TODO MONTH YEAR#
 // Contents, sections
 :toc: left
 :toclevels: 3
