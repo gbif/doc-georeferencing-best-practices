@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: georeferencing-best-practices\n"
-"POT-Creation-Date: 2024-09-05 14:43+0000\n"
-"PO-Revision-Date: 2024-09-05 14:52\n"
+"POT-Creation-Date: 2025-04-24 15:15+0000\n"
+"PO-Revision-Date: 2025-04-24 15:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -156,470 +156,148 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introducción"
 
-#. type: Plain text
-#: 0100-introduction.en.adoc:4
-msgid "A Location that is poorly georeferenced obscures the information upon which a georeference should be based, potentially making the originally provided information irrecoverable. The resulting georeferences can be misleading to users and lead to errors in research outputs. Thus, an important take-home message is, \"To georeference poorly is worse than not to georeference at all.\""
-msgstr "Una ubicación que está pobremente georreferenciada oculta la informaciónen la que debería basarse una georreferencia, lo que puede hacer que la información originalmente proporcionada sea irrecuperable. Las georreferencias resultantes pueden ser engañosas para los usuarios y conducir a errores en los resultados de su investigación. Por lo tanto, un mensaje importante para llevarse a casa es: \"Georreferenciar mal es peor que no georreferenciar.\""
+#. type: Title ===
+#: 0100-introduction.en.adoc:3
+#, no-wrap
+msgid "Rationale"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:6
-msgid "Throughout this document we make use of terminology for which the specific meaning has great importance for overall understanding, especially for terms that might differ from, or vary in common usage. We mark these key words <<accuracy,like this>>, with a link to the glossary, to call attention to the specific meaning and avoid potential confusion. All terms so marked are defined in the <<Glossary>>."
-msgstr "A lo largo de este documento hacemos uso de terminología con un significado específico que es de gran importancia para el entendimiento general, especialmente para los términos que pueden diferir o variar en el uso común. Marcamos estas palabras clave <<exactitud,así>>, con un enlace al glosario, para llamar la atención sobre el significado específico y evitar posibles confusiones. Todos los términos marcados de esta forma son definidos en el <<Glosario>>."
+msgid "Vector-borne diseases (VBDs) are responsible for approximately 17% of the global burden of all infectious diseases (WHO, 2017) posing a significant threat to public health and economies, particularly in tropical regions where many of these diseases are endemic. While some VBDs like malaria remain endemic in many countries. In 2023, there were an estimated 263 million new malaria cases in 83 countries worldwide. Malaria case incidence, which accounts for population growth, rose in the period 2015-2023 from 58 to 60.4 cases per 1000 population at risk (WHO, 2024), other VBDs like dengue are re-emerging in previously endemic areas and are continuing to expand in geographic range. In 2020, a https://www.gbif.org/news/4jj1iKMn5llVnM6cUr8Y2m/[task group^] of experts was established to help the GBIF network improve the discovery, access and use of biodiversity data of species linked to human diseases with a strong focus on arthropod vector data."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:8
-msgid "This publication provides guidelines to the best practice for <<georeference,georeferencing>>. Though it is targeted specifically at biological occurrence data, the concepts and methods presented here can be applied in other disciplines where spatial interpretation of <<location>> is of interest. This document builds on the original https://doi.org/10.15468/doc-2zpf-zf42[Guide to Best Practices for Georeferencing (Chapman & Wieczorek 2006)^], which was one of the outputs from the BioGeomancer project (https://doi.org/10.1371/journal.pbio.0040381[Guralnick et al. 2006^]). Several earlier projects and organizations (e.g. MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO) had previously developed guidelines and tools for georeferencing, and these provided a good starting point for such a document. A detailed history of the organizations involved in the development of BioGeomancer and of the original Guide was given in that source. Throughout this document we reference tools and methodologies developed by those organizations and we acknowledge the valuable work by those organizations in their development. This document attempts to bring best practices up to date with terms, technologies, and georeferencing recommendations that have been developed and refined since the original document was published."
-msgstr "Esta publicación proporciona lineamientos sobre las buenas prácticas para la <<georreferencia,georreferenciación>>. Aunque se dirige específicamente a registros biológicos, los conceptos y métodos presentados aquí pueden aplicarse en otras disciplinas, donde la interpretación espacial de la <<ubicación>> sea de interés. Este documento se basa en la publicación original https://doi.org/10.15468/doc-2zpf-zf42[Guide to Best Practices for Georeferencing (Chapman & Wieczorek 2006)^] que fue uno de los resultados del proyecto BioGeomancer (https://doi.org/10.1371/journal.pbio.0040381[Guralnick et al. 2006^]).Muchos proyectos y organizaciones (p. ej., MaNIS, MaPSTeDI, INRAM, GEOLocate, NatureServe, CRIA, ERIN, CONABIO) desarrollaron previamente directrices y herramientas para la georreferencación. Estos resultados proporcionaron un buen punto de partida para dicho documento, en el cuál se proporciona la historia detallada de las organizaciones involucradas en el desarrollo de BioGeomancer y de la Guía original.A lo largo de este documento hacemos referencia a las herramientas y metodologías desarrolladas por esas organizaciones y reconocemos el valioso trabajo de las mismas en su desarrollo. Este documento pretende actualizar las buenas prácticas con los términos, las tecnologías y recomendaciones de georreferenciación que se han desarrollado y perfeccionado desde la publicación del documento original."
+msgid "In 2023, GBIF-commissioned a review published by Astorga et al (2023) that compared studies related to human health that used GBIF-mediated data on biodiversity - \"positives\" and \"negatives\" that did not. The authors found visible differences as the positive list came from biological and ecological sciences and used data on host and vector species. The negative list, on the other hand, focused on medicine, public health and veterinary science, suggesting that data shared through GBIF is contributing to more broad scale ecological analyses and less to health-related studies (Astorga et al. 2023)."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:10
-msgid "This document is designed so that institutions with georeferencing commitments can extract those portions that apply to their own requirements and priorities, and adapt them if necessary where those practices vary from, or elaborate on, the ones given here. Derived works should be made publicly accessible and the derived <<georeferencing protocol>> should be cited in the metadata of any georeferenced records that were produced by it. Citing a published protocol when your own methods differ would violate the best practice principle of replicability, described in <<Principles of Best Practice>>. An example of a citable protocol is the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]. This document should not be cited as a georeferencing protocol."
-msgstr "Este documento está diseñado para que las instituciones con compromisos de georreferenciación puedan extraer aquellas partes que se aplican a sus propias necesidades y prioridades, y si es necesario, adaptarlas cuando las prácticas difieran de las que se facilitan en este documento o se deriven de ellas. Los trabajos derivados deben ser públicamente accesibles y los <<protocolo de georreferenciación, protocolos de georreferenciación>> derivados de este documento deben ser citados en los metadatos de cualquier registro georreferenciado que haya sido producto del mismo. Citar un protocolo publicado cuando los métodos usados para la georreferenciación difieren violaría el principio de buenas prácticas de replicabilidad, descrito en <<Principios de buenas prácticas>>. Un ejemplo de un protocolo citable es la {gqg}[Guía de referencia rápida de georreferenciación (Zermoglio et al. 202)^]. Este documento no debe ser citado como un protocolo de georreferenciación."
+msgid "With this guide, we hope to encourage the publication of vector data under the FAIR principles, to contribute not only to a better understanding of disease biology, ecology, and transmission , but also to inform epidemic preparedness and response, as well VBD control and elimination strategies."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:12
-msgid "This version is a complete revision with many new and updated references. The major changes and additions in this edition include:"
-msgstr "Esta versión es una revisión completa con muchas referencias nuevas y actualizadas. Los cambios y adiciones más importantes en esta edición incluyen:"
+msgid "Publishing vector, host and pathogen data as occurrences under the FAIR principles, has many benefits:"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:14
-msgid "Redefined the term <<extent>> to conform with general English and common technical usage to mean a distance, area or volume within defined <<boundary,boundaries>> and added the term <<radial>> to cover the sense of the term \"extent\" in previous documents (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^], https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^], http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Wieczorek et al. 2012a^], http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Wieczorek & Bloom 2015^])."
-msgstr "Se ha redefinido el término <<extensión>> para que se ajuste al inglés general y al uso técnico común para referirse a una distancia, área o volumen dentro de unos <<límite,límites>> definidos. También se agrega el término <<radio>> para cubrir el sentido del término \"extensión\" en documentos anteriores (http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Wieczorek 2001^], https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^], https://doi.org/10.15468/doc-2zpf-zf42[Chapman & Wieczorek 2006^], http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Wieczorek et al. 2012a^], http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Wieczorek & Bloom 2015^])."
+msgid "Recognition for work carried out at the forefront, such as laboratory and field activities, with attribution and credit"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:15
-msgid "Introduced the concept of the <<corrected center>> to replace <<geographic center>> wherever that was used in the past. This is an important change because the geographic center did not necessarily yield the correct minimum <<uncertainty>> due to the extent of a feature, the corrected center does."
-msgstr "Se introduce el concepto de <<centro corregido>> para reemplazar el <<centro geográfico>> que se utilizaba en el pasado. Este es un cambio importante porque el centro geográfico no necesariamente conduce a la obtención de la <<incertidumbre>> mínima correcta debida a la extensión de la entidad geográfica, mientras que el centro corregido sí lo hace."
+msgid "Increased awareness of the importance of producing good quality data by learning about the steps involved in producing and reusing data"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:16
-msgid "Expanded the sections on <<elevation>> and updated them to provide the most recent information on recording elevation and of determining uncertainty due to <<accuracy>> of <<GPS>>s and <<DEM>>s."
-msgstr "Expansión y actualización de la sección sobre <<elevación>> para proporcionar la información más reciente sobre el registro de la elevación y la determinación de la incertidumbre debido a la <<exactitud>> de los <<GPS>> y <<DEM>>."
+msgid "Increased visibility of institutions and compliance with regional, national and international standards/guidelines on open data"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:17
-msgid "Expanded information on GPS satellites to include information on the other <<GNSS>> satellite systems."
-msgstr "Ampliación de la sección sobre satélites GPS para incluir información sobre otros sistemas de satélites <<GNSS>>."
+msgid "Contribution to global knowledge of biodiversity"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:18
-msgid "Added information on the use of smartphones and cameras to record GPS locations and elevations."
-msgstr "Incorporación de información sobre el uso de teléfonos inteligentes y cámaras para registrar ubicaciones y elevaciones GPS."
+msgid "Expanded possibilities for collaboration through exposure in an international repository"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:19
-msgid "Elaborated on the <<shape>> georeferencing method, including steps to refine the <<point-radius>> georeferencing method."
-msgstr "Basado en el método de georreferenciación de <<forma geométrica>>, se  incluyen pasos para refinar el método de georeferenciación <<radio-punto>>."
+msgid "Tracking of data use that can contribute to metrics and impact indicators of the work carried out"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:20
-msgid "Expanded the explanations to include ecological, marine and other data collected in <<transect,transects>>, along irregular <<path,paths>>, in polygons, or on <<grid,grids>>."
-msgstr "Expansión de las explicaciones para incluir datos ecológicos, marinos y otros datos recolectados en <<transecto,transectos>>, a lo largo de <<ruta,rutas>> irregulares, en polígonos, o en <<grilla,grillas>>."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:21
-msgid "Added information on determining georeferences for subterranean locations such as caves, tunnels and mine sites."
-msgstr "Incorporación de información sobre la determinación de georreferencias para ubicaciones subterraneas tales como cuevas, túneles y minas."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:22
-msgid "Added information on <<bathymetry>> and underwater <<depth,depths>>."
-msgstr "Incorporación de información sobre <<batimetría>> y <<profundidad,profundidades>> submarinas."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:23
-msgid "Integrated this document with the companion documents {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and {gcm}[Georeferencing Calculator Manual (Bloom et al. 2020)^]."
-msgstr "Integración de este documento con documentos asociados como la {gqg}[Guía de referencia rápida de georreferenciación (Zermoglio et al. 2020)^] y el {gcm}[Manual de la calculadora de georreferenciación (Bloom et al. 2020)^]."
+msgid "Increased citation since datasets published in GBIF are assigned a DOI"
+msgstr ""
 
 #. type: Title ===
-#: 0100-introduction.en.adoc:24
+#: 0100-introduction.en.adoc:21
 #, no-wrap
-msgid "Objectives"
-msgstr "Objetivos"
+msgid "Target audiences"
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:27
-msgid "This document aims to provide current best practice for using the <<point-radius>>, <<bounding-box>>, and <<shape>> <<georeferencing method,georeferencing methods>>, whether for new records in the field or for retrospective <<georeference,georeferencing>> of historic and un-georeferenced <<location,locations>>. We hope that the reader will come away from this document with, if nothing else, a good appreciation of the following essential principles:"
-msgstr "Este documento tiene como objetivo proporcionar las buenas prácticas actuales para el uso de los <<método de georreferenciación,métodos de georreferenciación>> <<radio-punto>>, <<caja delimitadora>> y <<forma geométrica>>, ya sea para nuevos registros en campo o para <<georreferencia,georreferenciación>> retrospectiva de <<ubicación,ubicaciones>> históricas y no georreferenciadas. Esperamos que el lector obtenga de este documento, entre otras cosas, una buena apreciación de los siguientes principios esenciales:"
+#: 0100-introduction.en.adoc:24
+msgid "This guide has been developed for researchers, students and health workers involved in the collection of data related to arthropods vectors of pathogens."
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:29
-msgid "No matter how specific a <<location>> might seem, every location has an associated <<uncertainty>>, and this uncertainty determines the conditions under which the spatial interpretation of the location can be used. Based on this, <<coordinates>> without a carefully determined uncertainty should not be considered a <<georeference>>, they should be considered coordinates whose meaning is not clear."
-msgstr "Sin importar cuán específica pueda parecer una <<ubicación>>, cada una tiene una <<incertidumbre>> y esta incertidumbre determina las condiciones bajo las cuales se puede utilizar la interpretación espacial de la ubicación. Con base a esto, las <<coordenadas>> sin una incertidumbre cuidadosamente determinada no deben considerarse un <<georreferencia>>, deben considerarse solo como unas coordenadas cuyo significado no es claro."
+#: 0100-introduction.en.adoc:26
+msgid "We aim to provide guidance on publishing data on vectors, hosts and pathogens that cause human and animal diseases through GBIF—the Global Biodiversity Information Facility."
+msgstr ""
+
+#. type: Plain text
+#: 0100-introduction.en.adoc:28
+msgid "In this guide, we provide two ways of data publication:"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:30
-msgid "Interpretations of <<location,locations>> are fraught with a wide variety of sources of <<uncertainty>>, and these are not always trivial to aggregate into an overall <<uncertainty>>."
-msgstr "Las interpretaciones de las <<ubicación,ubicaciones>> están llenas de una amplia variedad de fuentes de <<incertidumbre>> y no siempre es trivial agregarlas a la <<incertidumbre>> total."
+msgid "A simplified way to publish all available data in a single file"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:31
-msgid "The best <<locality>> description is one that is specific, concise, complete, and unambiguous; the more detailed the description, the better the chance of getting a <<georeference>> that is reproducible and that minimizes the <<uncertainty>>."
-msgstr "La mejor descripción de una <<localidad>> es aquella que es específica, concisa, completa y sin ambigüedades. Cuanto más detallada sea la descripción, mejor será la probabilidad de obtener una <<georreferencia>> que sea reproducible y que minimice la <<incertidumbre>>."
+msgid "A complex way using extensions to accommodate the diversity of variables recorded along with vector records."
+msgstr ""
 
-#. type: Plain text
+#. type: Title ===
 #: 0100-introduction.en.adoc:32
-msgid "<<coordinate precision,Coordinate precision>> is not the same as <<coordinate uncertainty>>, it is just one of many factors contributing to the overall <<uncertainty>>."
-msgstr "La <<precisión-de-las-coordenadas,precisión de la coordenada>> no es lo mismo que la <<incertidumbre-de-las-coordenadas,incertidumbre de la coordenada>>, es solo uno de los muchos factores que contribuyen a la <<incertidumbre>> total."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:33
-msgid "Users of <<georeference,georeferences>> should take into account the <<uncertainty>> (or lack of its documentation) when choosing data for analyses, as without that information, analyses may be skewed and results <<bias,biased>> or altogether wrong."
-msgstr "Los usuarios de registros <<georreferencia,georreferenciados>> deben tener en cuenta la <<incertidumbre>> (o su falta de documentación) al elegir datos para análisis, pues sin esta información los análisis pueden ser <<sesgo,sesgados>> y los resultados parcializados o totalmente erróneos."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:34
-msgid "<<coordinates,Coordinates>> alone can not generally be checked for consistency; a <<locality>> description provides a confirmation that coordinates are correct."
-msgstr "Las <<coordenadas>> por sí solas no pueden ser usadas para verificar su consistencia; una descripción de la <<localidad>> proporciona una confirmación de que las coordenadas son correctas."
+#, no-wrap
+msgid "Introduction to vector data"
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:35
-msgid "<<coordinates,Coordinates>> alone do not unambiguously define a <<location>>, because:"
-msgstr "Las <<coordenadas>> por sí solas no definen inequívocamente una <<ubicación>>, porque:"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:36
-msgid "coordinates require a <<coordinate reference system>> to anchor the coordinates in relation to the Earth"
-msgstr "las coordenadas requieren un <<sistema de referencia de coordenadas>> para ubicar las coordenadas en relación con la Tierra"
+msgid "This guide is focused on data from vectors of diseases and associated data content related but not limited to hosts/reservoirsfootnote:[For the purpose of this guide, we will refer to both host and reservoir as simply ‘host’. For a detailed discussion on the concept of host and reservoir see: Ashford RW. When Is a Reservoir Not a Reservoir? Emerg Infect Dis. 2003 Nov;9(11):1495–6. 10.3201/eid0911.030088; Haydon DT, Cleaveland S, Taylor LH, Laurenson MK. Identifying reservoirs of infection: a conceptual and practical challenge. Emerg Infect Dis. 2002 Dec;8(12):1468–73. 10.3201/eid0812.010317.] and pathogens, often assessed directly from fieldwork or field observations or from laboratory detection assays."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:37
-msgid "no <<location>> is a point; even the most specific locations have an <<extent>>"
-msgstr "ninguna <<ubicación>> es un punto, incluso las ubicaciones más específicas tienen una <<extensión>>"
+msgid "Vector data can be a mixture of the currently supported https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data[occurrence^] and https://www.gbif.org/sampling-event-data[sampling-event^] classes that can also include interaction data between vectors, hosts and pathogens. These data can be layered with information on environmental variables and/or host/vector morphological measurements, molecular data such as genomics or host/pathogen detection assays, combined vector/host/pathogen data and surveillance design data that would require the use of extensions, such as extendedMeasurementorFact/MeasurementorFact, ResourceRelationship, and Humboldt, respectively."
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:38
-msgid "any device that provides <<coordinates>> has an associated <<uncertainty>>"
-msgstr "cualquier dispositivo que proporcione <<coordenadas>> tiene una <<incertidumbre>> asociada"
+#: 0100-introduction.en.adoc:39
+msgid "Vectors are most commonly sampled for research purposes or for disease surveillance and monitoring, as well as for early-warning systems. Trapping most often occurs in a systematic way, and it is possible to infer species diversity, density, abundance, infection rates, biting rates, resting/biting habits, etc, from such collections. In most countries, both researchers and health programmes follow (WHO 2011, 2018, 2019) WHO standardized sampling protocols and guidelines used for day-night/indoor-outdoor/domestic-sylvatic collection of vectors. Thus the data output is appropriate for publication as a sampling event dataset. However, opportunistic, sporadic sampling is not uncommon and the output of such sampling is more appropriate to be published as occurrence datasets."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:41
-#, no-wrap
-msgid "*Conclusion*: <<coordinates>> alone do not constitute a <<georeference>>.\n"
-msgstr "*Conclusión*:  Las <<coordenadas>> por sí solas no constituyen una <<georreferencia>>.\n"
+msgid "The detection of human pathogens in arthropod vectors is generally called xenomonitoring and it is used to estimate the risk of human exposure to transmission of different vector-borne pathogens. Therefore, pathogen data are most commonly obtained from laboratory screening/detection assays, e.g. qPCR or traditional PCR from midgut/tissue/blood samples from both vectors and hosts, serological tests, or direct observation after dissection (microscopy)."
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:42
-#, no-wrap
-msgid "<<geometry,Geometries>> are great as <<georeference,georeferences>>, if you can deal with them; if not, the <<point-radius>> is surprisingly powerful, because using a <<geographic information system,Geographic Information System>> (GIS), it can be intersected with other spatial layers to get geometries (<<shape,shapes>>).\n"
-msgstr "Las <<geometría,geometrías>> son excelentes como <<georreferencia,georreferencias>> si se puede lidiar con ellas, si no, el método <<radio-punto>> es sorprendentemente poderoso, porque usando un <<sistema-de-información-geográfica,Sistema de Información Geográfica>> (SIG) puede ser intersectado con otras capas espaciales para obtener geometrías (<<forma geométrica,formas geométricas>>).\n"
-
-#. type: Title ===
 #: 0100-introduction.en.adoc:43
-#, no-wrap
-msgid "Target Audience"
-msgstr "Público objetivo"
+msgid "While data on hosts is often obtained from traps for blood seeking stage of the vectors, blood meals are analysed either through serology, e.g. precipitin tests, Enzyme-Linked Immunosorbent Assay (ELISA) or genomic techniques, e.g. PCR, high throughput sequencing. Host data might include body measurements, like weight, length, body mass and the axis of measurement for the organism, e.g. snout-vent length, wing length."
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:46
-msgid "This work is designed for those who need, or want to know **why** the best practices are what they are, in detail. This document is also for individuals or organizations faced with planning a <<georeference,georeferencing>> project by providing a series of questions that suggests particular subsets of the best practices to follow."
-msgstr "Este trabajo está diseñado para aquellos que necesitan o quieren saber **por qué** las buenas prácticas son las que son, en detalle. Este documento está dirigido a individuos u organizaciones que se enfrentan a la planificación de un proyecto de <<georeferencia,georreferenciación>>, proporcionándoles una serie de preguntas que los guiarán a subconjuntos particulares de las buenas prácticas a seguir."
+#: 0100-introduction.en.adoc:45
+msgid "A number of variables related to bionomics (species, human biting rate, anthropo-/zoophily, endo-/exophily, endo-/exophagy), physiological (parity), epidemiological (sporozoite rate, proportion of blood meals on humans, entomological inoculation rate), insecticide resistance status and genetic (molecular forms, haplotypes, resistance alleles and genes) data may be available; these variables are important for the understanding of disease transmission dynamics and for implementing evidence-based vector control approaches."
+msgstr ""
 
 #. type: Plain text
-#: 0100-introduction.en.adoc:48
-msgid "For those who just need to know how to put these practices into action while georeferencing, the {gqg}[Georeferencing Quick Reference Guide^] is the most suitable document to have at hand. The Quick Reference Guide refers to details in this document as needed and accompanies the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^], which is a tool to calculate <<coordinates>> and <<uncertainty>> following the methods described in this document."
-msgstr "Para aquellos que sólo necesitan saber cómo llevar estas prácticas a la acción mientras georreferencian, la {gqg}[Guía de referencia rápida de georreferenciación^] es el documento más adecuado para tener a la mano. La Guía de referencia rápida se remite a los detalles de este documento según sea necesario y está asociada a la http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^], que es una herramienta para calcular <<coordenadas>> e <<incertidumbre>> siguiendo los métodos descritos en este documento."
+#: 0100-introduction.en.adoc:47
+msgid "And finally, environmental parameters are also recorded, e.g. air temperature and air humidity, water variables such as pH, dissolved oxygen concentration (DOC), conductivity, turbidity."
+msgstr ""
 
 #. type: Plain text
 #: 0100-introduction.en.adoc:50
-msgid "Above all, this document will help data end users to understand the implications of trying to use records that have not undergone georeferencing best practices and the value of those that have."
-msgstr "Sobre todo, este documento ayudará a los usuarios finales de los datos a entender las implicaciones de intentar utilizar registros que no han sido sometidos a buenas prácticas de georreferenciación y el valor de los que si."
+msgid "GBIF's current data model does not support the publication of all the variables described, i.e. interaction data, bio-ecological and environmental data. Darwin Core terms do not include an appropriate description for interaction data. However, it is possible to publish these types of data by using different extensions, such as the https://dwc.tdwg.org/terms/#resourcerelationship[Resource Relationship^], https://dwc.tdwg.org/terms/#measurementorfact[MeasurementOrFact^], and the newly ratified https://eco.tdwg.org/terms/[Humboldt Extension^], they can be used to accommodate interactions, different types of measurements, but they can be challenging to use and can result in highly complex formats stemming from individual sampling events."
+msgstr ""
 
-#. type: Title ===
+#. type: Plain text
 #: 0100-introduction.en.adoc:51
-#, no-wrap
-msgid "Scope"
-msgstr "Alcance"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:54
-msgid "This document is one of three that cover recommended requirements and methods to <<georeference>> <<location,locations>>. It is meant to cover the theoretical aspects (how to, and why) of spatially enabling information about the location of biodiversity-related phenomena, including special consideration for ecological and marine data. It also covers approaches to large-scale and collaborative georeferencing projects."
-msgstr "Este documento es uno de los tres que cubre los requisitos y métodos recomendados para <<georreferencia,georreferenciar>> <<ubicación,ubicaciones>>. Está destinado a cubrir los aspectos teóricos (cómo y por qué) de la información espacial sobre la localización de fenómenos relacionados con la biodiversidad, incluyendo una consideración especial para los datos ecológicos y marinos. También, abarca enfoques para proyectos de georreferenciación a gran escala y colaborativos."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:56
-msgid "These documents DO NOT provide guidance on georectifying images or <<geocode,geocoding>> street addresses."
-msgstr "Estos documentos NO proporcionan orientación sobre la georectificación de imágenes o <<geocodificar,geocodificación>> de direcciones."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:58
-msgid "The accompanying {gqg}[Georeferencing Quick Reference Guide] provides a practical how-to guide for putting the theory into practice, especially for the <<point-radius>> <<georeferencing method>>. The Quick Reference Guide relies on this document for background, definitions, more detailed explanations, while it describes exactly how to deal with a wide variety of specific cases (see <<Using the Georeferencing Quick Reference Guide>>)."
-msgstr "La {gqg}[Guía de referencia rápida de georreferenciación] asociada proporciona una guía práctica para poner en práctica la teoría, especialmente para el <<método de georreferenciación>> <<radio-punto>>. La Guía de referencia rápida se basa en este documento como fuente de antedecedentes, definiciones y explicaciones más detalladas, mientras que describe exactamente cómo lidiar con una amplia variedad de casos específicos (ver <<Usando la guía de referencia rápida de georreferenciación>>)."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:60
-msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is a browser-based JavaScript application that aids in georeferencing descriptive <<locality,localities>> and provides methods to help obtain <<geographic coordinates>> and <<uncertainty,uncertainties>> for locations (see <<Using the Georeferencing Calculator>>)."
-msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de georreferenciación^] es una aplicación JavaScript basada en navegadores que ayuda en la georeferenciación de <<localidad,localidades>> descritas y proporciona métodos para obtener <<coordenadas geográficas>> e <<incertidumbre,incertidumbres>> para ubicaciones (ver <<Usando la calculadora de georreferenciación>>)."
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:61
-#, no-wrap
-msgid "Constraints"
-msgstr "Restricciones"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:64
-msgid "Constraints to using this document may arise because of:"
-msgstr "Las restricciones para usar este documento pueden surgir debido a:"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:66
-msgid "Specimens with labels that are hard to read or decipher."
-msgstr "Espécimenes con etiquetas difíciles de leer o descifrar."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:67
-msgid "Records that don’t contain sufficient information."
-msgstr "Registros que no contienen suficiente información."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:68
-msgid "Records that contain conflicting information."
-msgstr "Registros que contienen información contradictoria."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:69
-msgid "Historic localities that are hard to find on current maps."
-msgstr "Localidades históricas difíciles de encontrar en los mapas actuales."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:70
-msgid "<<locality,Locality>> names that have changed through time."
-msgstr "Nombres de <<localidad,localidades>> que han cambiado a través del tiempo."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:71
-msgid "Marine <<location,locations>> from old ships' logs."
-msgstr "<<ubicación,Ubicaciones>> marinas de registros de barcos antiguos."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:72
-msgid "Lack of information on <<datum,datums>> and/or <<coordinate reference system,coordinate reference systems>>."
-msgstr "Falta de información sobre <<datum,datums>> y/o <<sistema de referencia de coordenadas,sistemas de referencia de coordenadas>>."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:73
-msgid "Data Management Systems that don’t allow for recording or storage of the required <<georeference,georeferencing>> information."
-msgstr "Sistemas de manejo de datos que no permiten registrar o almacenar la información requerida sobre la <<georreferencia, georreferenciación>>."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:74
-msgid "Poor or no internet facilities."
-msgstr "Conexión a Internet deficiente o nula."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:75
-msgid "Lack of access to suitable resources (maps, reliable <<gazetteer,gazetteers>>, etc.)."
-msgstr "Falta de acceso a recursos adecuados (mapas, <<gacetero,gaceteros>> confiables, etc.)."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:76
-msgid "Lack of institutional/supervisor support."
-msgstr "Falta de apoyo institucional o de un supervisor."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:77
-msgid "Lack of training."
-msgstr "Falta de capacitación."
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:78
-#, no-wrap
-msgid "Principles of Best Practice"
-msgstr "Principios de buenas prácticas"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:81
-msgid "The following are principles of best practice that should be applied to <<georeference,georeferencing>>:"
-msgstr "Los siguientes son principios de buenas prácticas que deben aplicarse a la <<georreferencia,georreferenciación>>:"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:83
-msgid "<<accuracy,*Accuracy*>> – a measure of how well the data represent the truth, for example, how well is the true <<location>> of the target of an observation, collecting, or sampling <<event>> represented in a <<georeference>>. This includes considerations taken both at the moment when the location was recorded and when it was <<georeference,georeferenced>>. Note that careless lack of <<precision>> will have an adverse effect on accuracy (see <<accuracy-error-bias-precision-false-precision-and-uncertainty>>)."
-msgstr "<<exactitud,*Exactitud*>>: una medida de qué tan bien representan los datos la verdad, por ejemplo, qué tan bien representada está la verdadera <<ubicación>> de un <<evento>> de observación, colecta o muestreo en una <<georreferencia>>. Esto incluye consideraciones tomadas tanto en el momento en que se registró la ubicación como cuando fue <<georreferencia,georreferenciada>>. Tenga en cuenta que la falta de <<precisión>> por descuido tendrá un efecto adverso en la exactitud (ver <<exactitud-error-sesgo-precisión-falsa-precisión-e-incertidumbre>>)."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:84
-#, no-wrap
-msgid "*Effectiveness* – the likelihood that a work program achieves its desired objectives. For example, the percentage of records for which the <<coordinates>> and <<uncertainty>> can be <<accuracy,accurately>> identified and calculated (see <<Index of Spatial Uncertainty>>).\n"
-msgstr "*Efectividad*: la probabilidad de que un programa de trabajo logre los objetivos deseados. Por ejemplo, el porcentaje de registros para los cuales las <<coordenadas>> y la <<incertidumbre>> pueden ser <<exactitud,exactamente>> identificadas y calculadas (ver <<Índice de incertidumbre espacial>>).\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:85
-#, no-wrap
-msgid "*Efficiency* – the relative effort needed to produce an acceptable output, including the effort to assemble and use external input data (e.g. <<gazetteer,gazetteers>>, collectors’ itineraries, etc.).\n"
-msgstr "*Eficiencia*: el esfuerzo relativo necesario para producir un resultado aceptable, incluyendo el esfuerzo para recopilar y usar datos externos (p. ej., <<gacetero,gaceteros>>, itinerarios de los colectores, etc.).\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:86
-#, no-wrap
-msgid "*Reliability* – the relative confidence in the repeatability or consistency with which information was produced and recorded. The reliability of sources and methods that can affect the <<accuracy>> of the results.\n"
-msgstr "*Fiabilidad*: la confianza relativa en la repetibilidad o consistencia con la que la información fue producida y registrada. La fiabilidad de las fuentes y métodos que pueden afectar la <<exactitud>> de los resultados.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:87
-#, no-wrap
-msgid "*Accessibility* – the relative ease with which users can find and use information in all of the senses supported by FAIR principles (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]) of data being Findable, Accessible, Interoperable, and Reusable.\n"
-msgstr "*Accesibilidad*: la facilidad relativa con la que los usuarios pueden encontrar y usar información, en todos los sentidos soportados por los principios FAIR (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]) para que los datos sean fáciles de encontrar, accesibles, interoperables y reutilizables.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:88
-#, no-wrap
-msgid "*Transparency* – the relative clarity and completeness of the inputs and processes that produced a result. For example, the <<data quality,quality>> of the metadata and documentation of the methodology by which a <<georeference>> was obtained.\n"
-msgstr "*Transparencia*: la relativa claridad e integridad de las entradas y los procesos que produjeron un resultado. Por ejemplo, la <<calidad-de-datos,calidad>> de los metadatos y la documentación de la metodología mediante la cual se obtuvo una <<georreferencia>>.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:89
-#, no-wrap
-msgid "*Timeliness* – relates to the frequency of data collection, its reporting and updates. For example, how often are <<gazetteer,gazetteers>> updated, how long after <<georeference,georeferencing>> are the records made available to others, and how regularly are updates/corrections made following feedback.\n"
-msgstr "*Frecuencia* – se refiere a la periodicidad de la recopilación de datos, su reporte y actualización. Por ejemplo, con qué frecuencia son actualizados los <<gacetero,gaceteros>>, cuánto tiempo después de la <<georreferencia,georreferenciación>> están disponibles los registros para el público, y con qué regularidad se hacen las actualizaciones/correcciones después de la retroalimentación.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:90
-#, no-wrap
-msgid "*Relevance* – the relative pertinence and usability of the data to meet the needs of potential users in the sense of the principle of \"fitness for use\" (https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Relevance is affected by the format of the output and whether the documentation and metadata are accessible to the user.\n"
-msgstr "*Relevancia*: la pertinencia y utilidad relativa de los datos para satisfacer las necesidades de los potenciales usuarios en el sentido del principio de \"aptitud para el uso\"(\"fitness for use\") (https://doi.org/10.5468/doc.jrgg-a190[Chapman 2005a^]). La relevancia se ve afectada por el formato de la salida y si la documentación y los metadatos son accesibles para el usuario.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:91
-#, no-wrap
-msgid "*Replicability* – the relative potential for a result to be reproduced. For example, a <<georeference>> following best practices would have sufficient documentation to be repeated using the same inputs and methods.\n"
-msgstr "*Replicabilidad* – el potencial relativo para que un resultado sea reproducido. Por ejemplo, una <<georreferencia>> siguiendo las buenas prácticas tendría suficiente documentación para repetirse utilizando las mismas entradas y métodos.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:92
-#, no-wrap
-msgid "*Adaptability* – the potential for data to be reused under changing circumstances or for new purposes. For example, <<georeference,georeferences>> following best practices would have sufficient documentation to be used in analyses for which they were not originally intended.\n"
-msgstr "*Adaptabilidad* – el potencial para que los datos se reutilicen en circunstancias cambiantes o con nuevos fines. Por ejemplo, las <<georreferencia,georreferencias>> realizadas siguiendo las buenas prácticas tendrían suficiente documentación para ser utilizadas en análisis para los que no fueron generadas originalmente.\n"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:94
-msgid "In addition, an effective best practices document should:"
-msgstr "Además, un documento efectivo de buenas prácticas debe:"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:96
-msgid "Align the vision, mission, and strategic plans in an institution to its policies and procedures and gain the support of sponsors and/or top management."
-msgstr "Alinear la visión, la misión y los planes estratégicos en una institución a sus políticas y procedimientos y obtener el apoyo de patrocinadores y/o altos directivos."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:97
-msgid "Use a standard method of writing (writing format) to produce professional policies and procedures."
-msgstr "Utilizar un método estándar de escritura (formato de escritura) para producir políticas y procedimientos profesionales."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:98
-msgid "Satisfy industry standards."
-msgstr "Satisfacer los estándares de la industria."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:99
-msgid "Satisfy the scrutiny of management and external/internal auditors."
-msgstr "Satisfacer el escrutinio por parte la gerencia y de auditores externos/internos."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:100
-msgid "Adhere to relevant standards and biodiversity informatics practices."
-msgstr "Adherirse a estándares y prácticas de informática de la biodiversidad relevantes."
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:101
-#, no-wrap
-msgid "Accuracy, Error, Bias, Precision, False Precision, and Uncertainty"
-msgstr "Exactitud, Error, Sesgo, Precisión, Falsa precisión e Incertidumbre"
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:104
-msgid "There is often confusion around what is meant by <<accuracy>>, <<error>>, <<bias>>, <<precision>>, <<false precision>>, and <<uncertainty>>. In addition to the following paragraphs, refer to the definitions in the <<Glossary>> and https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]. All of these concepts are relevant to measurements."
-msgstr "A menudo hay confusión en torno a lo que significa <<exactitud>>, <<error>>, <<sesgo>>, <<precisión>>, <<falsa precisión>>, e <<incertidumbre>>. Además de los siguientes párrafos, puede remitirse a las definiciones en el <<Glosario>> y https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]. Todos estos conceptos son relevantes para las mediciones."
-
-#. type: Plain text
-#: 0100-introduction.en.adoc:106
-msgid "Accuracy, error, and bias all relate directly to estimates of true values. The closer a statement (e.g. a measurement) is to the true value, the more accurate it is. Error is a measure of accuracy–the difference between an estimated value and the true value. The more accurate an estimate, the smaller the error. Bias is a measurement of the average systematic error in a set of measurements. Bias often indicates a calibration or other systematic problem, and can be used to remove systematic errors from measurements, thus making them more accurate."
-msgstr "La exactitud, el error y el sesgo se relacionan directamente con las estimaciones de valores verdaderos. Entre mas cerca este una medición del valor verdadero más exacto es. El error es una medida de exactitud (la diferencia entre un valor estimado y el valor verdadero). Cuanto más exacta sea una medida, menor será el error. El sesgo a menudo indica un problema de calibración u otro problema sistemático y se puede utilizar para eliminar errores sistemáticos de las mediciones, haciéndolos así más exactos."
-
-#. type: Positional ($2) AttributeList argument for style 'quote'
-#: 0100-introduction.en.adoc:107
-#, no-wrap
-msgid "Geodetic Survey Division 1996, FGDC 1998"
-msgstr "Geodetic Survey Division 1996, FGDC 1998"
-
-#. type: quote
-#: 0100-introduction.en.adoc:109
-msgid "Because the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated."
-msgstr "Debido a que el valor verdadero se desconoce y sólo se estima, la exactitud de la cantidad medida también es desconocida. Por lo tanto, la exactitud de la información de una coordenada sólo se puede estimar."
-
-#. type: Block title
-#: 0100-introduction.en.adoc:111
-#, no-wrap
-msgid "Accuracy versus Precision. Data may be accurate and precise, accurate and imprecise, precise but inaccurate, or both imprecise and inaccurate. Reproduced with permission from Arturo Ariño (2020)."
-msgstr "Exactitud versus Precisión. Los datos pueden ser exactos y precisos, exactos e imprecisos, precisos e inexactos o tanto imprecisos como inexactos. Reproducido con el permiso de Arturo Ariño (2020)."
-
-#. type: Target for macro image
-#: 0100-introduction.en.adoc:112
-#, no-wrap
-msgid "img/accuracy-versus-precision.png"
-msgstr "img/accuracy-versus-precision.png"
-
-#. type: quote
-#: 0100-introduction.en.adoc:115
-msgid "Whereas <<error>> is an estimate of the difference between a measured value and the truth, <<precision>> is a measurement of the consistency of repeated measurements to each other. Precision is not the same as <<accuracy>> (see <<img-accuracy-vs-precision>>) because measurements can be consistently wrong (have the same error). Precise measurements of the same target will give similar results, accurate or not. We quantify precision as how specific a measurement should be to give consistent results. For example, a measuring device might give measurements to five decimal places (e.g. 3.14159), while repeated measurements of the same target with the same device are only consistent to four decimal places (e.g. 3.1416). We would say the precision is 0.0001 in the units of the measurement."
-msgstr "Mientras que el <<error>> es una estimación de la diferencia entre un valor medido y el valor verdadero, la <<precisión>> es una medición de la consistencia de mediciones repetidas entre sí. La precisión no es lo mismo que la <<exactitud>> (ver <<img-accuracy-vs-precision>>) porque las mediciones pueden ser consistentemente incorrectas (tienen el mismo error). Las mediciones precisas del mismo objetivo darán resultados similares, sean exactas o no. Cuantificamos la precisión como cuan específica deber ser una medida para dar resultados consistentes. Por ejemplo, un dispositivo de medición podría dar mediciones con cinco cifras decimales (p. ej. 3.14159), mientras que las mediciones repetidas del mismo objetivo con el mismo dispositivo sólo son consistentes a cuatro cifras decimales (e.g. 3.1416). Podríamos decir que la precisión es de 0.0001 respecto a las unidades de medida."
-
-#. type: quote
-#: 0100-introduction.en.adoc:117
-msgid "<<false precision,False precision>> refers to recorded values that have precision that is unwarranted by the original measurement. This is often an artefact of how data are stored, calculated, represented, or displayed. For example, a user interface might be designed to always display <<coordinates>> with five decimal places (e.g. 3.00000), demonstrating false precision for any coordinate that was not <<precision,precise>> (e.g. 3°, a <<latitude>> given only to the nearest degree). Because false precision can be undetectable, the actual precision of a measurement is something that should be captured explicitly rather than inferred from the representation of a value. This is particularly true for coordinates, which can suffer from false precision as a result of a format transformation. For example, 3°20’ has a precision of one minute, equivalent to about 0.0166667 degrees, but when stored as decimal degrees where five decimal places are retained and displayed the value would be 3.33333, with a false precision of 0.00001 degrees. Also see <<img-xkcd-coordinate-precision>>."
-msgstr "La <<falsa precisión>> se refiere a los valores registrados que tienen una precisión injustificada por la medición original. Esto es a menudo un efecto de cómo se almacenan, calculan, representan o muestran los datos. Por ejemplo, una interfaz de usuario podría estar diseñada para mostrar siempre las <<coordenadas>> con cinco cifras decimales (por ejemplo, 3.00000), mostrando una falsa precisión para cualquier coordenada que no sea <<precisión,precisa>> (p. ej. 3°, una <<latitud>> dada sólo al grado más cercano). Porque la falsa precisión puede ser indetectable, la precisión real de una medición es algo que debe ser capturado explícitamente en lugar de ser inferido por la representación de un valor. Esto es particularmente cierto en el caso de las coordenadas, que pueden ser objeto de una falsa precisión como resultado de una transformación de formato. Por ejemplo, 3°20’ tiene una precisión de un minuto, equivalente a aproximadamente 0.0166667 grados, pero cuando se almacenan como grados decimales donde se mantienen y se muestran cinco cifras decimales, el valor sería 3. 33333 con una falsa precisión de 0.00001 grados. Ver también <<img-xkcd-coordinate-precision>>."
-
-#. type: quote
-#: 0100-introduction.en.adoc:119
-msgid "Like error, <<uncertainty>> is a measure of how different an unknown true value might be from a value given. In <<georeference,georeferencing>>, we use uncertainty to refer to the maximum distance from a center <<coordinates,coordinate>> of a georeference to the furthest point where the true <<location>> might be–a combination of all the possible sources of error given as a distance."
-msgstr "Como el error, la <<incertidumbre>> es una medida de cuán diferente puede ser un valor dado de un valor verdadero desconocido. En <<georreferencia,georreferenciación>> usamos la incertidumbre para referirnos a la distancia máxima desde las <<coordenadas>> centrales en una georeferencia hasta el punto más lejano donde el verdadero de una <<ubicación>> verdadera podría estar, como una combinación de todas las posibles fuentes de error dadas como una distancia."
-
-#. type: Block title
-#: 0100-introduction.en.adoc:121
-#, no-wrap
-msgid "40 digits: You are optimistic about our understanding of the nature of distance itself. What the number of digits in coordinates would imply if precision was misconstrued to imply geographic extent. From https://xkcd.com/2170/[xkcd^]."
-msgstr "40 dígitos: Eres optimista acerca de nuestra comprensión de la naturaleza de la distancia en si misma. Lo que el número de cifras en las coordenadas podría implicar si la precisión se malinterpretara al construir la extensión geográfica. Desde https://xkcd.com/2170/[xkcd^]."
-
-#. type: Target for macro image
-#: 0100-introduction.en.adoc:122
-#, no-wrap
-msgid "img/xkcd-coordinate-precision.png"
-msgstr "img/xkcd-coordinate-precision.png"
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:124
-#, no-wrap
-msgid "Software and Online Tools"
-msgstr "Software y Herramientas en Línea"
-
-#. type: quote
-#: 0100-introduction.en.adoc:127
-msgid "Software and tools come and go and are regularly updated, so rather than include a list in this document, we refer readers to http://georeferencing.org/[georeferencing.org^]."
-msgstr "El software y las herramientas vienen y van y son regularmente actualizadas, así que en lugar de incluir una lista en este documento, remitimos a los lectores a http://georeferencing.org/[georeferencing.org^]."
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:128
-#, no-wrap
-msgid "Conformance to Standards"
-msgstr "Conformidad con los Estándares"
-
-#. type: quote
-#: 0100-introduction.en.adoc:131
-msgid "Throughout this document, we have, where possible, recommended practices that conform to appropriate geographic information standards and standards for the transfer of biological and geographic information. These include standards developed by the http://www.opengeospatial.org/specs/?page=recommendation[Open Geospatial Consortium^] (OGC 2019), the Technical Committee for digital geographic information and geomatics (https://www.iso.org/committee/54904.html[ISO/TC 211^]), and https://www.tdwg.org/[Biodiversity Information Standards (TDWG)^]. Also, this document supports the FAIR principles of data management in recommending that well-georeferenced data are Findable, Accessible, Interoperable, and Reusable."
-msgstr "A lo largo de este documento tenemos, en la medida de lo posible, las prácticas recomendadas que se ajustan a los estándares de información geográfica y a los estándares para la transferencia de información biológica y geográfica. Estos incluyen estándares desarrollados por http://www.opengeospatial.org/specs/?page=recommendation[Open Geospatial Consortium^] (OGC 2019), el Comité Técnico para información geográfica digital y geomática (https://www.iso.org/committee/54904.html[ISO/TC 211^]) y https://www.tdwg.org/[Biodiversity Information Standards (TDWG)^]. Además, este documento apoya los principios FAIR de gestión de datos recomendando que los datos bien georreferenciados sean fáciles de encontrar (Findable), accesibles (Accesible), interoperables (Interoperables) y reutilizables (Reusable)."
-
-#. type: Title ===
-#: 0100-introduction.en.adoc:132
-#, no-wrap
-msgid "Persistent Identifiers (PIDs)"
-msgstr "Identificadores Persistentes (PIDs)"
-
-#. type: quote
-#: 0100-introduction.en.adoc:134
-msgid "The use of <<PID,Persistent Identifiers>> (PIDs) including <<GUID,Globally Unique Identifiers>> (GUIDs), Digital Object Identifiers (DOIs) etc. for uniquely identifying individual objects and other classes of data (such as collections, observations, images, and <<location,locations>>) are under discussion. It is important that any identifiers used are globally unique (applied to exactly one instance of an identifiable object), persistent, and resolvable (https://doi.org/10.1186%2F1471-2105-10-S14-S5[Page 2009^], http://www.tdwg.org/standards/150[Richards 2010^], https://doi.org/10.35035/mjgq-d052[Richards et al. 2011^]). As yet, very few institutions use PIDs for specimens, and even fewer for locations, however a recent paper by https://doi.org/10.1002%2Faps3.1027[Nelson et al. 2018^] makes a number of recommendations on minting, managing and sharing GUIDs for herbarium specimens. We recommend that once a stable system for assigning and using PIDs is implemented, it be used wherever practical, including for locations."
-msgstr "El uso de <<PID,Identificadores Persistentes>> (PIDs) incluyendo los <<GUID,Identificadores Únicos Globales>> (GUIDs), Identificadores de Objetos Digitales (DOIs), etc. para identificar objetos individuales y otras clases de datos (como colecciones, observaciones, imágenes y <<ubicación,ubicaciones>>) individualmente está bajo discusión. Es importante que cualquier identificador utilizado sea globalmente único (aplicado exactamente a una instancia de un objeto identificable), persistente y resoluble (https://doi.org/10.1186%2F1471-2105-10-S14-S5[Page 2009^], http://www.tdwg.org/standards/150[Richards 2010^], https://doi.org/10.35035/mjgq-d052[Richards et al. 2011^]). Hasta el momento, muy pocas instituciones utilizan PID para especímenes y aún menos para ubicaciones, sin embargo, el reciente artículo de https://doi.org/10.1002%2Faps3.1027[Nelson et al. 2018^] hace una serie de recomendaciones sobre acuñar la gestión y el intercambio de GUID para especímenes de herbario. Recomendamos que una vez que se implemente un sistema estable para asignar y usar PID, se utilice siempre que sea práctico, incluso para ubicaciones."
+msgid "For more information on the terms used in this guide, please refer to the <<glossary,Glossary>>."
+msgstr ""
 
 #. type: Title ==
 #: 0200-elements-for-describing-a-location.en.adoc:1
