@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-07-10 13:02+0000\n"
+"POT-Creation-Date: 2025-07-10 13:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,62 +28,62 @@ msgid "languageLinks:combined[]"
 msgstr ""
 
 #. type: Target for macro image
-#: colophon.en.adoc:3
+#: colophon.en.adoc:2
 #, no-wrap
 msgid "img/web/georreference-guide-1.png"
 msgstr ""
 
 #. type: Title ==
-#: colophon.en.adoc:6
+#: colophon.en.adoc:5
 #, no-wrap
 msgid "Colophon"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:8
+#: colophon.en.adoc:7
 #, no-wrap
 msgid "Suggested citation"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:11
+#: colophon.en.adoc:10
 msgid ""
 "Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: "
 "GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:12
+#: colophon.en.adoc:11
 #, no-wrap
 msgid "Authors"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:15
+#: colophon.en.adoc:14
 msgid ""
 "https://orcid.org/0000-0003-1700-6962[Arthur D. Chapman] & "
 "https://orcid.org/0000-0003-1144-0290[John R. Wieczorek]"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:16
+#: colophon.en.adoc:15
 #, no-wrap
 msgid "Contributors"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:19
+#: colophon.en.adoc:18
 msgid "Paula F. Zermoglio"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:20
+#: colophon.en.adoc:19
 #, no-wrap
 msgid "Licence"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:23
+#: colophon.en.adoc:22
 msgid ""
 "The document _Georeferencing Best Practices_ is licensed under "
 "https://creativecommons.org/licenses/by-sa/4.0[Creative Commons "
@@ -91,24 +91,24 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:24
+#: colophon.en.adoc:23
 #, no-wrap
 msgid "Persistent URI"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:27
+#: colophon.en.adoc:26
 msgid "https://doi.org/10.15468/doc-gg7h-s853"
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:28
+#: colophon.en.adoc:27
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:31
+#: colophon.en.adoc:30
 msgid ""
 "Georeferencing Best Practices provides guidelines to the best practices for "
 "georeferencing. Though targeted specifically at biological occurrence data, "
@@ -117,20 +117,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:32
+#: colophon.en.adoc:31
 #, no-wrap
 msgid "Document control"
 msgstr ""
 
-#.  Change the attributes in index.en.adoc rather than editing this, so they are also
-#.  updated in the header.
 #. type: Plain text
-#: colophon.en.adoc:37
-msgid "{revnumber} {revdate}"
+#: colophon.en.adoc:34
+msgid "v1.2.1, 10 July 2025"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:39
+#: colophon.en.adoc:36
 msgid ""
 "Originally based on an earlier publication, "
 "https://orcid.org/0000-0003-1700-6962[Chapman AD] & "
@@ -140,13 +138,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:40
+#: colophon.en.adoc:37
 #, no-wrap
 msgid "Disclaimer"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:43
+#: colophon.en.adoc:40
 msgid ""
 "The information in this book represents the professional opinion of the "
 "authors, and does not necessarily represent the views of the "
@@ -159,7 +157,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:45
+#: colophon.en.adoc:42
 msgid ""
 "Where there are differences in interpretation between this document and "
 "translated versions in languages other than English, the English version "
@@ -167,13 +165,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: colophon.en.adoc:46
+#: colophon.en.adoc:43
 #, no-wrap
 msgid "Cover image"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:48
+#: colophon.en.adoc:45
 msgid "GBIF Secretariat, 2024."
 msgstr ""
 
